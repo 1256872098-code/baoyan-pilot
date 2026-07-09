@@ -1,0 +1,26 @@
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import AssessmentPage from "./pages/AssessmentPage.jsx";
+import SchoolsPage from "./pages/SchoolsPage.jsx";
+import ReviewAssistantPage from "./pages/ReviewAssistantPage.jsx";
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-slate-50 text-slate-900">
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/assessment" element={<AssessmentPage />} />
+          <Route path="/schools" element={<SchoolsPage />} />
+          <Route path="/review" element={<ReviewAssistantPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
+  );
+}
