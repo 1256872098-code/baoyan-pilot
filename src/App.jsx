@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage.jsx";
 import AssessmentPage from "./pages/AssessmentPage.jsx";
 import SchoolsPage from "./pages/SchoolsPage.jsx";
 import ReviewAssistantPage from "./pages/ReviewAssistantPage.jsx";
+import AiRecommendChat from "./pages/AiRecommendChat.jsx";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/assessment" element={<AssessmentPage />} />
           <Route path="/schools" element={<SchoolsPage />} />
           <Route path="/review" element={<ReviewAssistantPage />} />
+          <Route path="/ai-recommend" element={<AiRecommendChat />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

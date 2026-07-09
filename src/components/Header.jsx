@@ -5,6 +5,7 @@ import { Compass, Menu, X } from "lucide-react";
 const navItems = [
   { path: "/", label: "首页" },
   { path: "/assessment", label: "画像评估" },
+  { path: "/ai-recommend", label: "AI 院校推荐" },
   { path: "/schools", label: "院校资料库" },
   { path: "/review", label: "复习助手" },
 ];
