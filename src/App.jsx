@@ -5,8 +5,8 @@ import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AssessmentPage from "./pages/AssessmentPage.jsx";
 import SchoolsPage from "./pages/SchoolsPage.jsx";
-import ReviewAssistantPage from "./pages/ReviewAssistantPage.jsx";
 import AiRecommendChat from "./pages/AiRecommendChat.jsx";
+import ForumPage from "./pages/ForumPage.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/assessment" element={<AssessmentPage />} />
           <Route path="/schools" element={<SchoolsPage />} />
-          <Route path="/review" element={<ReviewAssistantPage />} />
+          <Route path="/forum" element={<ForumPage />} />
           <Route path="/ai-recommend" element={<AiRecommendChat />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

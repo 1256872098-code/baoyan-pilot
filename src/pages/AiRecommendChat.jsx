@@ -12,10 +12,11 @@ import {
   UserRound,
 } from "lucide-react";
 import { Card } from "../components/Card.jsx";
+import { AUTH_CHANGED_EVENT, getCurrentUser, getUserStorageKey } from "../utils/auth.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
-const CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
-const ACTIVE_CONVERSATION_KEY = "baoyanpilot_ai_active_conversation_id";
+const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
+const BASE_ACTIVE_CONVERSATION_KEY = "baoyanpilot_ai_active_conversation_id";
 const DEFAULT_CONVERSATION_TITLE = "新的保研咨询";
 
 const legacyWelcomeContent =
@@ -120,13 +121,20 @@ function createInitialConversationState() {
   };
 }
 
-function loadConversationState() {
+function loadConversationState(user = getCurrentUser()) {
   if (typeof window === "undefined") {
     return createInitialConversationState();
   }
 
   try {
-    const storedConversations = window.localStorage.getItem(CONVERSATIONS_KEY);
+    const conversationsKey = getUserStorageKey(BASE_CONVERSATIONS_KEY, user);
+    const activeConversationKey = getUserStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user);
+    const userStoredConversations = window.localStorage.getItem(conversationsKey);
+    const shouldReadLegacyConversationKeys = !user;
+    const storedConversations =
+      userStoredConversations ||
+      (shouldReadLegacyConversationKeys ? window.localStorage.getItem(BASE_CONVERSATIONS_KEY) : null);
+
     if (storedConversations) {
       const conversations = JSON.parse(storedConversations)
         .map(normalizeConversation)
@@ -134,7 +142,9 @@ function loadConversationState() {
         .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime());
 
       if (conversations.length) {
-        const storedActiveId = window.localStorage.getItem(ACTIVE_CONVERSATION_KEY);
+        const storedActiveId =
+          window.localStorage.getItem(activeConversationKey) ||
+          (shouldReadLegacyConversationKeys ? window.localStorage.getItem(BASE_ACTIVE_CONVERSATION_KEY) : null);
         const activeConversationId = conversations.some((conversation) => conversation.id === storedActiveId)
           ? storedActiveId
           : conversations[0].id;
@@ -143,7 +153,7 @@ function loadConversationState() {
       }
     }
 
-    const legacyStoredMessages = window.localStorage.getItem(LEGACY_MESSAGES_KEY);
+    const legacyStoredMessages = !user ? window.localStorage.getItem(LEGACY_MESSAGES_KEY) : null;
     if (legacyStoredMessages) {
       const legacyMessages = normalizeStoredMessages(JSON.parse(legacyStoredMessages));
       const isOnlyLegacyWelcome =
@@ -167,14 +177,14 @@ function loadConversationState() {
   }
 }
 
-function saveConversationState(conversations, activeConversationId) {
+function saveConversationState(conversations, activeConversationId, user = getCurrentUser()) {
   if (typeof window === "undefined") {
     return;
   }
 
   try {
-    window.localStorage.setItem(CONVERSATIONS_KEY, JSON.stringify(conversations));
-    window.localStorage.setItem(ACTIVE_CONVERSATION_KEY, activeConversationId);
+    window.localStorage.setItem(getUserStorageKey(BASE_CONVERSATIONS_KEY, user), JSON.stringify(conversations));
+    window.localStorage.setItem(getUserStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user), activeConversationId);
   } catch {
     // Ignore localStorage write errors so chat can still work in restricted browsers.
   }
@@ -409,7 +419,8 @@ function ConversationSidebar({
 }
 
 export default function AiRecommendChat() {
-  const [initialConversationState] = useState(loadConversationState);
+  const [currentUser, setCurrentUser] = useState(() => getCurrentUser());
+  const [initialConversationState] = useState(() => loadConversationState(getCurrentUser()));
   const [conversations, setConversations] = useState(initialConversationState.conversations);
   const [activeConversationId, setActiveConversationId] = useState(initialConversationState.activeConversationId);
   const [input, setInput] = useState("");
@@ -423,10 +434,35 @@ export default function AiRecommendChat() {
     [activeConversationId, conversations],
   );
   const messages = activeConversation?.messages || [];
+  const storageNotice =
+    currentUser?.loginType === "guest"
+      ? "游客体验中：聊天记录仅保存在当前浏览器。"
+      : currentUser
+        ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
+        : "未登录：当前为游客模式，聊天记录仅保存在本浏览器。";
 
   useEffect(() => {
-    saveConversationState(conversations, activeConversationId);
-  }, [activeConversationId, conversations]);
+    const syncUserState = () => {
+      const nextUser = getCurrentUser();
+      const nextState = loadConversationState(nextUser);
+      setCurrentUser(nextUser);
+      setConversations(nextState.conversations);
+      setActiveConversationId(nextState.activeConversationId);
+      setInput("");
+      setError("");
+    };
+
+    window.addEventListener(AUTH_CHANGED_EVENT, syncUserState);
+    window.addEventListener("storage", syncUserState);
+    return () => {
+      window.removeEventListener(AUTH_CHANGED_EVENT, syncUserState);
+      window.removeEventListener("storage", syncUserState);
+    };
+  }, []);
+
+  useEffect(() => {
+    saveConversationState(conversations, activeConversationId, currentUser);
+  }, [activeConversationId, conversations, currentUser]);
 
   useEffect(() => {
     if (chatScrollRef.current) {
@@ -622,6 +658,7 @@ export default function AiRecommendChat() {
                   <div className="min-w-0">
                     <h2 className="truncate font-bold text-slate-950">{activeConversation?.title || "院校推荐对话"}</h2>
                     <p className="text-sm text-slate-500">服务端安全调用 AI API</p>
+                    <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{storageNotice}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">

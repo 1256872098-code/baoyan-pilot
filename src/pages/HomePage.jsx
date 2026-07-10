@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
-  BookOpenCheck,
   ClipboardList,
   Database,
   GraduationCap,
+  MessagesSquare,
   Route,
   ShieldAlert,
   Sparkles,
@@ -29,9 +29,9 @@ const features = [
     icon: Route,
   },
   {
-    title: "期末复习助手",
-    text: "根据课程范围、剩余天数和薄弱点生成可执行的复习节奏。",
-    icon: BookOpenCheck,
+    title: "保研论坛",
+    text: "浏览和发布保研经验、院校信息、材料准备和面试交流帖。",
+    icon: MessagesSquare,
   },
 ];
 
@@ -81,14 +81,14 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="container-page">
           <div className="mb-12 grid gap-3 sm:grid-cols-3">
-            <StatCard value="4" label="核心模块" helper="规划、院校、复习闭环" />
+            <StatCard value="4" label="核心模块" helper="规划、院校、社区闭环" />
             <StatCard value="30天" label="行动计划" helper="聚焦近期可执行任务" tone="teal" />
             <StatCard value="AI" label="DeepSeek 接入" helper="院校推荐助手已支持真实对话" tone="amber" />
           </div>
           <CardHeader
             eyebrow="核心功能"
             title="围绕保研关键决策做规划"
-            description="覆盖个人评估、目标筛选、AI 院校推荐、行动计划和期末复习。"
+            description="覆盖个人评估、目标筛选、AI 院校推荐、论坛交流和行动计划。"
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {features.map((feature) => {
@@ -132,7 +132,7 @@ export default function HomePage() {
                     {index === 0 && "填写当前阶段、学校层次、成绩排名和经历信息。"}
                     {index === 1 && "查看准备度、人物画像、优势短板和风险提醒。"}
                     {index === 2 && "通过资料库筛选冲刺、匹配和稳妥院校。"}
-                    {index === 3 && "把规划落到未来 30 天任务和期末复习安排。"}
+                    {index === 3 && "把规划落到未来 30 天任务和申请准备安排。"}
                   </p>
                 </div>
               </Card>
