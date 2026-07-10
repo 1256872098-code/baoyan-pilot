@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: "院校资料库",
-    text: "按院校层次、专业方向和申请类型筛选，快速建立申请目标池。",
+    text: "按院校层次和专业方向筛选，快速建立申请目标池。",
     icon: Database,
   },
   {
@@ -83,12 +83,12 @@ export default function HomePage() {
           <div className="mb-12 grid gap-3 sm:grid-cols-3">
             <StatCard value="4" label="核心模块" helper="规划、院校、复习闭环" />
             <StatCard value="30天" label="行动计划" helper="聚焦近期可执行任务" tone="teal" />
-            <StatCard value="0 API" label="本地模拟" helper="第一版不依赖真实 AI" tone="amber" />
+            <StatCard value="AI" label="DeepSeek 接入" helper="院校推荐助手已支持真实对话" tone="amber" />
           </div>
           <CardHeader
             eyebrow="核心功能"
             title="围绕保研关键决策做规划"
-            description="第一版使用模拟分析逻辑完成全流程交互，覆盖个人评估、目标筛选、行动计划和期末复习。"
+            description="覆盖个人评估、目标筛选、AI 院校推荐、行动计划和期末复习。"
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {features.map((feature) => {
@@ -150,7 +150,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-xl font-bold text-slate-950">免责声明</h2>
               <p className="mt-3 leading-7 text-slate-700">
-                保研领航员第一版仅基于模拟规则和示例资料生成规划建议，不接入真实 AI API，
+                保研领航员基于用户输入和规划规则生成辅助建议，
                 不代表任何高校、学院或导师的官方意见，也不构成录取承诺。申请结果会受到招生政策、
                 名额、材料真实性、面试表现和竞争环境等因素影响，请以各院校官方通知为准。
               </p>

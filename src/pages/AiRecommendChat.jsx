@@ -3,49 +3,74 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {
   Bot,
-  CheckCircle2,
   CircleAlert,
   MessageSquareText,
+  Plus,
   Send,
-  ShieldAlert,
   Sparkles,
   Trash2,
   UserRound,
 } from "lucide-react";
-import { Card, CardHeader } from "../components/Card.jsx";
-import {
-  analyzeRecommendBackground,
-  backgroundFields,
-} from "../utils/aiRecommend.js";
+import { Card } from "../components/Card.jsx";
 
-const simpleSample = "我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。";
-
-const completeSample =
-  "我是大二，会计专业，普通一本，GPA 3.85/4.00，专业排名前 8%，四级 600，六级 570，有一项大创和两项商赛经历，想申请经管类方向，优先上海、杭州、南京，风险偏好稳妥。";
-
-const STORAGE_KEY = "baoyanpilot_ai_chat_messages";
+const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
+const CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
+const ACTIVE_CONVERSATION_KEY = "baoyanpilot_ai_active_conversation_id";
+const DEFAULT_CONVERSATION_TITLE = "新的保研咨询";
 
 const legacyWelcomeContent =
   "你好，我是 AI 院校推荐助手。请先提供你的 background：年级、专业、学校层次、绩点或排名、英语成绩、科研经历、竞赛经历、目标专业方向、意向城市和风险偏好。信息不足时，我会先追问，再给出院校梯度建议。";
 
-const welcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手，主要帮你根据本科背景、成绩排名、英语水平、科研竞赛经历和目标地区，初步判断适合关注哪些夏令营、预推免或九推院校。
+const previousWelcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手，主要帮你根据本科背景、成绩排名、英语水平、科研竞赛经历和目标地区，初步判断适合关注哪些夏令营、预推免或九推院校。
 
 为了先了解你的基本情况，我想先问你两个问题：
 
 1. 你现在是大几，学什么专业？
-2. 你的本科学校大概是什么层次？例如 985、211、双一流、普通一本、普通二本，或者财经类/农林类/语言类等特色院校。
+2. 你的本科学校大概是什么层次？例如 985、211、双一流、普通一本、普通二本，或者财经类/农林类等特色院校。
 
 你可以直接像聊天一样回答，例如：
 我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。`;
 
-const initialMessages = [
-  {
-    id: "welcome",
+const welcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。我会先帮你梳理保研背景，再根据你的成绩、学校层次、英语、竞赛科研、论文实习和目标地区，生成保研画像与院校梯度建议。
+
+为了不让你一次性填太多信息，我们可以一步一步来。  
+我先想了解两个基础问题：
+
+1. 你现在是大几，学什么专业？
+2. 你的本科院校是哪所？如果不方便说具体学校，也可以说学校层次，比如 985、211、双一流、普通一本、普通二本，或者财经类/农林类等特色院校。
+
+你可以像聊天一样回答，例如：  
+我是大二，会计专业，本科是普通一本，想先看看上海和江浙地区的保研机会。`;
+
+function createId(prefix) {
+  if (typeof crypto !== "undefined" && crypto.randomUUID) {
+    return `${prefix}-${crypto.randomUUID()}`;
+  }
+
+  return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
+
+function createWelcomeMessage() {
+  return {
+    id: createId("welcome"),
     role: "assistant",
     kind: "text",
     content: welcomeContent,
-  },
-];
+  };
+}
+
+function createConversation(overrides = {}) {
+  const now = new Date().toISOString();
+
+  return {
+    id: createId("conversation"),
+    title: DEFAULT_CONVERSATION_TITLE,
+    messages: [createWelcomeMessage()],
+    createdAt: now,
+    updatedAt: now,
+    ...overrides,
+  };
+}
 
 function normalizeStoredMessages(value) {
   if (!Array.isArray(value)) {
@@ -62,38 +87,127 @@ function normalizeStoredMessages(value) {
     }));
 }
 
-function loadInitialMessages() {
+function normalizeConversation(value, index) {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const messages = normalizeStoredMessages(value.messages);
+  if (!messages.length) {
+    return null;
+  }
+
+  const isOnlyOldWelcome =
+    messages.length === 1 &&
+    messages[0].role === "assistant" &&
+    [legacyWelcomeContent, previousWelcomeContent].includes(messages[0].content);
+
+  const now = new Date().toISOString();
+  return {
+    id: String(value.id || `conversation-${index}`),
+    title: String(value.title || DEFAULT_CONVERSATION_TITLE),
+    messages: isOnlyOldWelcome ? [createWelcomeMessage()] : messages,
+    createdAt: value.createdAt || now,
+    updatedAt: value.updatedAt || value.createdAt || now,
+  };
+}
+
+function createInitialConversationState() {
+  const conversation = createConversation();
+  return {
+    conversations: [conversation],
+    activeConversationId: conversation.id,
+  };
+}
+
+function loadConversationState() {
   if (typeof window === "undefined") {
-    return initialMessages;
+    return createInitialConversationState();
   }
 
   try {
-    const stored = window.localStorage.getItem(STORAGE_KEY);
-    if (!stored) {
-      return initialMessages;
+    const storedConversations = window.localStorage.getItem(CONVERSATIONS_KEY);
+    if (storedConversations) {
+      const conversations = JSON.parse(storedConversations)
+        .map(normalizeConversation)
+        .filter(Boolean)
+        .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime());
+
+      if (conversations.length) {
+        const storedActiveId = window.localStorage.getItem(ACTIVE_CONVERSATION_KEY);
+        const activeConversationId = conversations.some((conversation) => conversation.id === storedActiveId)
+          ? storedActiveId
+          : conversations[0].id;
+
+        return { conversations, activeConversationId };
+      }
     }
 
-    const parsed = normalizeStoredMessages(JSON.parse(stored));
-    if (parsed.length === 1 && parsed[0].id === "welcome" && parsed[0].content === legacyWelcomeContent) {
-      return initialMessages;
+    const legacyStoredMessages = window.localStorage.getItem(LEGACY_MESSAGES_KEY);
+    if (legacyStoredMessages) {
+      const legacyMessages = normalizeStoredMessages(JSON.parse(legacyStoredMessages));
+      const isOnlyLegacyWelcome =
+        legacyMessages.length === 1 && legacyMessages[0].id === "welcome" && legacyMessages[0].content === legacyWelcomeContent;
+
+      if (legacyMessages.length && !isOnlyLegacyWelcome) {
+        const conversation = createConversation({
+          title: "历史保研咨询",
+          messages: legacyMessages,
+        });
+        return {
+          conversations: [conversation],
+          activeConversationId: conversation.id,
+        };
+      }
     }
 
-    return parsed.length ? parsed : initialMessages;
+    return createInitialConversationState();
   } catch {
-    return initialMessages;
+    return createInitialConversationState();
   }
 }
 
-function saveMessages(messages) {
+function saveConversationState(conversations, activeConversationId) {
   if (typeof window === "undefined") {
     return;
   }
 
   try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+    window.localStorage.setItem(CONVERSATIONS_KEY, JSON.stringify(conversations));
+    window.localStorage.setItem(ACTIVE_CONVERSATION_KEY, activeConversationId);
   } catch {
     // Ignore localStorage write errors so chat can still work in restricted browsers.
   }
+}
+
+function createTitleFromMessage(content) {
+  const compact = content.replace(/[，。！？、,.!?；;：:\s]/g, "");
+  if (!compact) {
+    return DEFAULT_CONVERSATION_TITLE;
+  }
+
+  return compact.length > 18 ? `${compact.slice(0, 16)}...` : compact.slice(0, 18);
+}
+
+function formatConversationTime(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "刚刚";
+  }
+
+  const now = new Date();
+  const diffMs = now.getTime() - date.getTime();
+  const diffMinutes = Math.floor(diffMs / 60000);
+  if (diffMinutes < 1) return "刚刚";
+  if (diffMinutes < 60) return `${diffMinutes} 分钟前`;
+
+  const diffHours = Math.floor(diffMinutes / 60);
+  if (diffHours < 24) return `${diffHours} 小时前`;
+
+  return date.toLocaleDateString("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+  });
 }
 
 function MessageAvatar({ role }) {
@@ -116,13 +230,13 @@ function MarkdownContent({ content }) {
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
       components={{
-        h1: ({ children }) => <h1 className="mb-3 mt-1 text-xl font-bold leading-8 text-slate-950">{children}</h1>,
-        h2: ({ children }) => <h2 className="mb-2 mt-4 text-lg font-bold leading-7 text-slate-950">{children}</h2>,
-        h3: ({ children }) => <h3 className="mb-2 mt-3 text-base font-bold leading-7 text-slate-950">{children}</h3>,
-        p: ({ children }) => <p className="my-2 leading-7 text-slate-700">{children}</p>,
+        h1: ({ children }) => <h1 className="mb-2 mt-1 text-xl font-bold leading-8 text-slate-950">{children}</h1>,
+        h2: ({ children }) => <h2 className="mb-2 mt-3 text-lg font-bold leading-7 text-slate-950">{children}</h2>,
+        h3: ({ children }) => <h3 className="mb-1.5 mt-2.5 text-base font-bold leading-7 text-slate-950">{children}</h3>,
+        p: ({ children }) => <p className="my-1.5 leading-7 text-slate-700">{children}</p>,
         strong: ({ children }) => <strong className="font-bold text-slate-950">{children}</strong>,
-        ul: ({ children }) => <ul className="my-2 list-disc space-y-1 pl-5 text-slate-700">{children}</ul>,
-        ol: ({ children }) => <ol className="my-2 list-decimal space-y-1 pl-5 text-slate-700">{children}</ol>,
+        ul: ({ children }) => <ul className="my-1.5 list-disc space-y-1 pl-5 text-slate-700">{children}</ul>,
+        ol: ({ children }) => <ol className="my-1.5 list-decimal space-y-1 pl-5 text-slate-700">{children}</ol>,
         li: ({ children }) => <li className="pl-1 leading-7">{children}</li>,
         blockquote: ({ children }) => (
           <blockquote className="my-3 border-l-4 border-blue-200 bg-blue-50 px-4 py-2 text-slate-700">
@@ -140,22 +254,22 @@ function MarkdownContent({ content }) {
           </a>
         ),
         code: ({ children }) => (
-          <code className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[0.9em] font-semibold text-slate-800">
+          <code className="break-words rounded-md bg-slate-100 px-1.5 py-0.5 text-[0.9em] font-semibold text-slate-800">
             {children}
           </code>
         ),
         pre: ({ children }) => (
-          <pre className="my-3 overflow-x-auto rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm leading-6 text-slate-800">
+          <pre className="my-3 whitespace-pre-wrap break-words rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm leading-6 text-slate-800">
             {children}
           </pre>
         ),
         table: ({ children }) => (
-          <div className="my-3 overflow-x-auto rounded-lg border border-slate-200">
-            <table className="w-full border-collapse bg-white text-left text-sm">{children}</table>
+          <div className="my-3 overflow-hidden rounded-lg border border-slate-200">
+            <table className="w-full table-fixed border-collapse bg-white text-left text-sm">{children}</table>
           </div>
         ),
-        th: ({ children }) => <th className="border-b border-slate-200 bg-blue-50 px-3 py-2 font-bold text-slate-900">{children}</th>,
-        td: ({ children }) => <td className="border-b border-slate-100 px-3 py-2 align-top text-slate-700">{children}</td>,
+        th: ({ children }) => <th className="break-words border-b border-slate-200 bg-blue-50 px-3 py-2 font-bold text-slate-900">{children}</th>,
+        td: ({ children }) => <td className="break-words border-b border-slate-100 px-3 py-2 align-top text-slate-700">{children}</td>,
         hr: () => <hr className="my-4 border-slate-200" />,
       }}
     >
@@ -172,10 +286,10 @@ function TextMessage({ message }) {
       {isAssistant && <MessageAvatar role={message.role} />}
       <div
         className={[
-          "max-w-[min(760px,85%)] rounded-lg px-4 py-3 text-sm leading-7 shadow-sm",
+          "rounded-lg text-sm leading-7 shadow-sm",
           isAssistant
-            ? "border border-slate-200 bg-white text-slate-700"
-            : "bg-brand-600 text-white",
+            ? "max-w-[88%] border border-slate-200 bg-white px-5 py-4 text-slate-700"
+            : "max-w-[75%] bg-brand-600 px-5 py-3 text-white",
         ].join(" ")}
       >
         {isAssistant ? (
@@ -231,93 +345,154 @@ async function requestAiRecommendation(messages) {
   return data.reply;
 }
 
-function BackgroundPromptCard({ coverage, onUseCompleteSample, onUseSimpleSample }) {
-  const detectedKeys = new Set(coverage.detected.map((field) => field.key));
-
+function ConversationSidebar({
+  conversations,
+  activeConversationId,
+  onCreateConversation,
+  onSelectConversation,
+  onDeleteConversation,
+}) {
   return (
-    <Card className="p-5">
-      <div className="mb-4 flex items-start justify-between gap-4">
-        <div>
-          <p className="text-sm font-semibold text-brand-700">背景信息提示</p>
-          <h2 className="mt-1 text-lg font-bold text-slate-950">可以逐步补充这些信息</h2>
-        </div>
-        <span className="rounded-md bg-blue-50 px-2.5 py-1 text-xs font-bold text-brand-700">
-          {coverage.percent}%
-        </span>
+    <aside className="hidden h-full w-[280px] shrink-0 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft md:flex md:flex-col lg:w-[292px]">
+      <div className="shrink-0 border-b border-slate-200 p-4">
+        <button type="button" className="btn-primary w-full px-4 py-2.5" onClick={onCreateConversation}>
+          <Plus size={17} aria-hidden="true" />
+          新建对话
+        </button>
       </div>
 
-      <div className="grid gap-2">
-        {backgroundFields.map((field) => {
-          const done = detectedKeys.has(field.key);
+      <div className="shrink-0 px-4 pb-2 pt-4">
+        <p className="text-sm font-bold text-slate-950">最近对话</p>
+      </div>
+
+      <div className="min-h-0 flex-1 space-y-2 overflow-y-auto px-3 pb-4">
+        {conversations.map((conversation) => {
+          const isActive = conversation.id === activeConversationId;
+
           return (
-            <div key={field.key} className="flex gap-3 rounded-md border border-slate-200 bg-slate-50 p-3">
-              <CheckCircle2
-                className={`mt-0.5 h-4 w-4 shrink-0 ${done ? "text-brand-700" : "text-slate-300"}`}
-                aria-hidden="true"
-              />
-              <div>
-                <p className="text-sm font-bold text-slate-900">{field.label}</p>
-                <p className="mt-0.5 text-xs leading-5 text-slate-500">{field.hint}</p>
-              </div>
+            <div
+              key={conversation.id}
+              className={[
+                "group flex items-start gap-2 rounded-lg border p-3 transition",
+                isActive
+                  ? "border-blue-200 bg-blue-50 text-brand-700"
+                  : "border-transparent text-slate-700 hover:border-slate-200 hover:bg-slate-50",
+              ].join(" ")}
+            >
+              <button
+                type="button"
+                className="min-w-0 flex-1 text-left"
+                onClick={() => onSelectConversation(conversation.id)}
+              >
+                <span className="block truncate text-sm font-bold">{conversation.title}</span>
+                <span className={`mt-1 block text-xs ${isActive ? "text-brand-600" : "text-slate-400"}`}>
+                  {formatConversationTime(conversation.updatedAt)}
+                </span>
+              </button>
+              <button
+                type="button"
+                className={[
+                  "mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition",
+                  isActive ? "text-brand-700 hover:bg-blue-100" : "text-slate-400 hover:bg-slate-200 hover:text-slate-700",
+                ].join(" ")}
+                onClick={() => onDeleteConversation(conversation.id)}
+                aria-label={`删除对话：${conversation.title}`}
+              >
+                <Trash2 size={15} aria-hidden="true" />
+              </button>
             </div>
           );
         })}
       </div>
-
-      <div className="mt-5 grid gap-2">
-        <button type="button" className="btn-secondary w-full" onClick={onUseSimpleSample}>
-          填入简单示例
-        </button>
-        <button type="button" className="btn-secondary w-full" onClick={onUseCompleteSample}>
-          填入完整示例
-        </button>
-      </div>
-    </Card>
+    </aside>
   );
 }
 
 export default function AiRecommendChat() {
-  const [messages, setMessages] = useState(loadInitialMessages);
+  const [initialConversationState] = useState(loadConversationState);
+  const [conversations, setConversations] = useState(initialConversationState.conversations);
+  const [activeConversationId, setActiveConversationId] = useState(initialConversationState.activeConversationId);
   const [input, setInput] = useState("");
   const [isThinking, setIsThinking] = useState(false);
   const [error, setError] = useState("");
+  const chatScrollRef = useRef(null);
   const chatEndRef = useRef(null);
-  const skipNextSaveRef = useRef(false);
 
-  const userText = useMemo(
-    () => messages.filter((message) => message.role === "user").map((message) => message.content).join("\n"),
-    [messages],
+  const activeConversation = useMemo(
+    () => conversations.find((conversation) => conversation.id === activeConversationId) || conversations[0],
+    [activeConversationId, conversations],
   );
-
-  const coverage = useMemo(() => analyzeRecommendBackground(`${userText}\n${input}`), [input, userText]);
+  const messages = activeConversation?.messages || [];
 
   useEffect(() => {
-    if (skipNextSaveRef.current) {
-      skipNextSaveRef.current = false;
+    saveConversationState(conversations, activeConversationId);
+  }, [activeConversationId, conversations]);
+
+  useEffect(() => {
+    if (chatScrollRef.current) {
+      chatScrollRef.current.scrollTo({
+        top: chatScrollRef.current.scrollHeight,
+        behavior: "smooth",
+      });
       return;
     }
 
-    saveMessages(messages);
-  }, [messages]);
-
-  useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [messages, isThinking]);
+  }, [activeConversationId, isThinking, messages.length]);
 
-  const handleClearMessages = () => {
-    if (typeof window !== "undefined") {
-      window.localStorage.removeItem(STORAGE_KEY);
+  const handleCreateConversation = () => {
+    const conversation = createConversation();
+    setConversations((current) => [conversation, ...current]);
+    setActiveConversationId(conversation.id);
+    setInput("");
+    setError("");
+  };
+
+  const handleSelectConversation = (conversationId) => {
+    setActiveConversationId(conversationId);
+    setInput("");
+    setError("");
+  };
+
+  const handleDeleteConversation = (conversationId) => {
+    const remaining = conversations.filter((conversation) => conversation.id !== conversationId);
+
+    if (!remaining.length) {
+      const conversation = createConversation();
+      setConversations([conversation]);
+      setActiveConversationId(conversation.id);
+    } else {
+      setConversations(remaining);
+      if (conversationId === activeConversationId) {
+        setActiveConversationId(remaining[0].id);
+      }
     }
 
-    skipNextSaveRef.current = true;
-    setMessages(initialMessages);
+    setInput("");
+    setError("");
+  };
+
+  const handleClearMessages = () => {
+    const now = new Date().toISOString();
+    setConversations((current) =>
+      current.map((conversation) =>
+        conversation.id === activeConversationId
+          ? {
+              ...conversation,
+              title: DEFAULT_CONVERSATION_TITLE,
+              messages: [createWelcomeMessage()],
+              updatedAt: now,
+            }
+          : conversation,
+      ),
+    );
     setInput("");
     setError("");
   };
 
   const handleSend = async () => {
     const content = input.trim();
-    if (!content || isThinking) return;
+    if (!content || isThinking || !activeConversation) return;
 
     const userMessage = {
       id: `user-${Date.now()}`,
@@ -325,36 +500,78 @@ export default function AiRecommendChat() {
       kind: "text",
       content,
     };
-    const nextMessages = [...messages, userMessage];
+    const requestConversationId = activeConversation.id;
+    const nextMessages = [...activeConversation.messages, userMessage];
+    const now = new Date().toISOString();
+    const hasUserMessage = activeConversation.messages.some((message) => message.role === "user");
+    const nextTitle =
+      !hasUserMessage && activeConversation.title === DEFAULT_CONVERSATION_TITLE
+        ? createTitleFromMessage(content)
+        : activeConversation.title;
 
-    setMessages(nextMessages);
+    setConversations((current) =>
+      current
+        .map((conversation) =>
+          conversation.id === requestConversationId
+            ? {
+                ...conversation,
+                title: nextTitle,
+                messages: nextMessages,
+                updatedAt: now,
+              }
+            : conversation,
+        )
+        .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()),
+    );
     setInput("");
     setError("");
     setIsThinking(true);
 
     try {
       const reply = await requestAiRecommendation(nextMessages);
-      setMessages((current) => [
-        ...current,
-        {
-          id: `assistant-${Date.now()}`,
-          role: "assistant",
-          kind: "text",
-          content: reply,
-        },
-      ]);
+      const updatedAt = new Date().toISOString();
+      const assistantMessage = {
+        id: `assistant-${Date.now()}`,
+        role: "assistant",
+        kind: "text",
+        content: reply,
+      };
+
+      setConversations((current) =>
+        current
+          .map((conversation) =>
+            conversation.id === requestConversationId
+              ? {
+                  ...conversation,
+                  messages: [...conversation.messages, assistantMessage],
+                  updatedAt,
+                }
+              : conversation,
+          )
+          .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()),
+      );
     } catch (requestError) {
       const errorMessage = requestError instanceof Error ? requestError.message : "AI 服务暂时不可用，请稍后重试。";
+      const updatedAt = new Date().toISOString();
+      const assistantMessage = {
+        id: `assistant-error-${Date.now()}`,
+        role: "assistant",
+        kind: "text",
+        content: `接口调用失败：${errorMessage}`,
+      };
+
       setError(errorMessage);
-      setMessages((current) => [
-        ...current,
-        {
-          id: `assistant-error-${Date.now()}`,
-          role: "assistant",
-          kind: "text",
-          content: `接口调用失败：${errorMessage}`,
-        },
-      ]);
+      setConversations((current) =>
+        current.map((conversation) =>
+          conversation.id === requestConversationId
+            ? {
+                ...conversation,
+                messages: [...conversation.messages, assistantMessage],
+                updatedAt,
+              }
+            : conversation,
+        ),
+      );
     } finally {
       setIsThinking(false);
     }
@@ -368,104 +585,102 @@ export default function AiRecommendChat() {
   };
 
   return (
-    <div className="bg-slate-50 py-10">
-      <div className="container-page">
-        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-          <CardHeader
-            eyebrow="AI 院校推荐助手"
-            title="用聊天方式生成保研院校梯度"
-            description="先完成 background 信息确认，再由服务端调用 AI 生成用户画像、申请路径、三档院校建议、行动计划和风险提醒。"
-          />
-          <div className="flex w-fit items-center gap-2 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm font-semibold text-brand-700">
+    <div className="h-[calc(100vh-72px)] overflow-hidden bg-slate-50 py-3">
+      <div className="container-page flex h-full min-h-0 flex-col">
+        <div className="flex shrink-0 items-center justify-between gap-4">
+          <div className="min-w-0">
+            <p className="text-sm font-semibold text-brand-700">AI 院校推荐助手</p>
+            <h1 className="mt-0.5 text-xl font-bold tracking-normal text-slate-950 sm:text-2xl">
+              保研院校梯度对话
+            </h1>
+            <p className="mt-1 line-clamp-1 text-sm text-slate-600">
+              补充背景信息后，生成冲刺、匹配、稳妥院校建议。
+            </p>
+          </div>
+          <div className="flex shrink-0 items-center gap-2 rounded-md border border-blue-100 bg-blue-50 px-3 py-2 text-sm font-semibold text-brand-700">
             <Sparkles size={17} aria-hidden="true" />
             DeepSeek API
           </div>
         </div>
 
-        <div className="mt-8 grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
-          <Card className="flex min-h-[680px] flex-col overflow-hidden">
-            <div className="flex flex-col gap-3 border-b border-slate-200 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-              <div className="flex items-center gap-2">
-                <span className="flex h-9 w-9 items-center justify-center rounded-md bg-brand-600 text-white">
-                  <MessageSquareText size={18} aria-hidden="true" />
-                </span>
-                <div>
-                  <h2 className="font-bold text-slate-950">院校推荐对话</h2>
-                  <p className="text-sm text-slate-500">服务端安全调用 AI API</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-600">
-                  {coverage.detected.length}/{backgroundFields.length}
-                </span>
-                <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
-                  <Trash2 size={16} aria-hidden="true" />
-                  清空对话
-                </button>
-              </div>
-            </div>
+        <div className="mt-3 flex min-h-0 flex-1 gap-4 overflow-hidden">
+          <ConversationSidebar
+            conversations={conversations}
+            activeConversationId={activeConversationId}
+            onCreateConversation={handleCreateConversation}
+            onSelectConversation={handleSelectConversation}
+            onDeleteConversation={handleDeleteConversation}
+          />
 
-            <div className="flex-1 space-y-5 overflow-y-auto bg-slate-50 px-4 py-5 sm:px-5">
-              {error && (
-                <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm leading-6 text-red-700">
-                  <CircleAlert className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
-                  <span>{error}</span>
-                </div>
-              )}
-              {messages.map((message) => (
-                <ChatMessage key={message.id} message={message} />
-              ))}
-              {isThinking && (
-                <div className="flex gap-3">
-                  <MessageAvatar role="assistant" />
-                  <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-500 shadow-sm">
-                    正在请求 AI 推荐...
+          <div className="h-full min-w-0 flex-1">
+            <Card className="flex h-full flex-col overflow-hidden">
+              <div className="flex shrink-0 flex-col gap-3 border-b border-slate-200 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
+                <div className="flex min-w-0 items-center gap-2">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-600 text-white">
+                    <MessageSquareText size={18} aria-hidden="true" />
+                  </span>
+                  <div className="min-w-0">
+                    <h2 className="truncate font-bold text-slate-950">{activeConversation?.title || "院校推荐对话"}</h2>
+                    <p className="text-sm text-slate-500">服务端安全调用 AI API</p>
                   </div>
                 </div>
-              )}
-              <div ref={chatEndRef} />
-            </div>
-
-            <div className="border-t border-slate-200 bg-white p-4">
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
-                <label className="block flex-1">
-                  <span className="field-label">输入 background 或补充信息</span>
-                  <textarea
-                    className="field-control min-h-[96px] resize-y"
-                    value={input}
-                    onChange={(event) => setInput(event.target.value)}
-                    onKeyDown={handleKeyDown}
-                    placeholder="例如：我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。"
-                  />
-                </label>
-                <button
-                  type="button"
-                  className="btn-primary disabled:cursor-not-allowed disabled:bg-slate-300 sm:h-[46px]"
-                  onClick={handleSend}
-                  disabled={!input.trim() || isThinking}
-                >
-                  <Send size={18} aria-hidden="true" />
-                  {isThinking ? "发送中" : "发送"}
-                </button>
+                <div className="flex items-center gap-2">
+                  <button type="button" className="btn-secondary px-3 py-2 md:hidden" onClick={handleCreateConversation}>
+                    <Plus size={16} aria-hidden="true" />
+                    新建
+                  </button>
+                  <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
+                    <Trash2 size={16} aria-hidden="true" />
+                    清空当前对话
+                  </button>
+                </div>
               </div>
-            </div>
-          </Card>
 
-          <div className="space-y-4">
-            <BackgroundPromptCard
-              coverage={coverage}
-              onUseCompleteSample={() => setInput(completeSample)}
-              onUseSimpleSample={() => setInput(simpleSample)}
-            />
+              <div
+                ref={chatScrollRef}
+                className="min-h-0 flex-1 space-y-4 overflow-y-auto bg-slate-50 px-5 py-4"
+              >
+                {error && (
+                  <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm leading-6 text-red-700">
+                    <CircleAlert className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+                    <span>{error}</span>
+                  </div>
+                )}
+                {messages.map((message) => (
+                  <ChatMessage key={message.id} message={message} />
+                ))}
+                {isThinking && (
+                  <div className="flex gap-3">
+                    <MessageAvatar role="assistant" />
+                    <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-500 shadow-sm">
+                      正在请求 AI 推荐...
+                    </div>
+                  </div>
+                )}
+                <div ref={chatEndRef} />
+              </div>
 
-            <Card className="border-amber-200 bg-amber-50 p-5">
-              <div className="flex items-start gap-3">
-                <ShieldAlert className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" aria-hidden="true" />
-                <div>
-                  <h2 className="font-bold text-slate-950">边界说明</h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-700">
-                    推荐结果仅供规划参考，具体以学校官网最新通知为准。本助手不承诺保研成功，也不做绝对录取判断。
-                  </p>
+              <div className="shrink-0 border-t border-slate-200 bg-white px-5 py-4">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
+                  <label className="block flex-1">
+                    <span className="field-label">输入 background 或补充信息</span>
+                    <textarea
+                      className="field-control min-h-[72px] max-h-28 resize-y"
+                      value={input}
+                      onChange={(event) => setInput(event.target.value)}
+                      onKeyDown={handleKeyDown}
+                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，想去上海或江浙地区。"
+                    />
+                  </label>
+                  <button
+                    type="button"
+                    className="btn-primary disabled:cursor-not-allowed disabled:bg-slate-300 sm:h-[46px]"
+                    onClick={handleSend}
+                    disabled={!input.trim() || isThinking}
+                  >
+                    <Send size={18} aria-hidden="true" />
+                    {isThinking ? "发送中" : "发送"}
+                  </button>
                 </div>
               </div>
             </Card>
