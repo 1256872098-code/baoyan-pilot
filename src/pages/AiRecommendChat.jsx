@@ -1,4 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import {
   Bot,
   CheckCircle2,
@@ -7,6 +9,7 @@ import {
   Send,
   ShieldAlert,
   Sparkles,
+  Trash2,
   UserRound,
 } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
@@ -15,20 +18,83 @@ import {
   backgroundFields,
 } from "../utils/aiRecommend.js";
 
-const completeSample =
-  "我是大三上，计算机科学与技术专业，学校层次是 211/双一流，GPA 3.72/4.0，专业排名前 12%，英语 CET-6 548。科研经历是参加省级大创项目，负责数据处理和模型评估，正在整理实验报告。竞赛经历有蓝桥杯省一、数学建模校赛一等奖。目标专业方向是人工智能，意向城市是北京、上海、杭州，风险偏好是均衡，愿意保留 2-3 所冲刺院校。";
+const simpleSample = "我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。";
 
-const partialSample = "我是大三，计算机专业，想申请人工智能方向，最好在北京或上海。";
+const completeSample =
+  "我是大二，会计专业，普通一本，GPA 3.85/4.00，专业排名前 8%，四级 600，六级 570，有一项大创和两项商赛经历，想申请经管类方向，优先上海、杭州、南京，风险偏好稳妥。";
+
+const STORAGE_KEY = "baoyanpilot_ai_chat_messages";
+
+const legacyWelcomeContent =
+  "你好，我是 AI 院校推荐助手。请先提供你的 background：年级、专业、学校层次、绩点或排名、英语成绩、科研经历、竞赛经历、目标专业方向、意向城市和风险偏好。信息不足时，我会先追问，再给出院校梯度建议。";
+
+const welcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手，主要帮你根据本科背景、成绩排名、英语水平、科研竞赛经历和目标地区，初步判断适合关注哪些夏令营、预推免或九推院校。
+
+为了先了解你的基本情况，我想先问你两个问题：
+
+1. 你现在是大几，学什么专业？
+2. 你的本科学校大概是什么层次？例如 985、211、双一流、普通一本、普通二本，或者财经类/农林类/语言类等特色院校。
+
+你可以直接像聊天一样回答，例如：
+我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。`;
 
 const initialMessages = [
   {
     id: "welcome",
     role: "assistant",
     kind: "text",
-    content:
-      "你好，我是 AI 院校推荐助手。请先提供你的 background：年级、专业、学校层次、绩点或排名、英语成绩、科研经历、竞赛经历、目标专业方向、意向城市和风险偏好。信息不足时，我会先追问，再给出院校梯度建议。",
+    content: welcomeContent,
   },
 ];
+
+function normalizeStoredMessages(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value
+    .filter((message) => ["user", "assistant"].includes(message?.role) && typeof message?.content === "string")
+    .map((message, index) => ({
+      id: message.id || `stored-${index}`,
+      role: message.role,
+      kind: message.kind || "text",
+      content: message.content,
+    }));
+}
+
+function loadInitialMessages() {
+  if (typeof window === "undefined") {
+    return initialMessages;
+  }
+
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY);
+    if (!stored) {
+      return initialMessages;
+    }
+
+    const parsed = normalizeStoredMessages(JSON.parse(stored));
+    if (parsed.length === 1 && parsed[0].id === "welcome" && parsed[0].content === legacyWelcomeContent) {
+      return initialMessages;
+    }
+
+    return parsed.length ? parsed : initialMessages;
+  } catch {
+    return initialMessages;
+  }
+}
+
+function saveMessages(messages) {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+  } catch {
+    // Ignore localStorage write errors so chat can still work in restricted browsers.
+  }
+}
 
 function MessageAvatar({ role }) {
   const isAssistant = role === "assistant";
@@ -42,6 +108,59 @@ function MessageAvatar({ role }) {
     >
       {isAssistant ? <Bot size={18} aria-hidden="true" /> : <UserRound size={18} aria-hidden="true" />}
     </span>
+  );
+}
+
+function MarkdownContent({ content }) {
+  return (
+    <ReactMarkdown
+      remarkPlugins={[remarkGfm]}
+      components={{
+        h1: ({ children }) => <h1 className="mb-3 mt-1 text-xl font-bold leading-8 text-slate-950">{children}</h1>,
+        h2: ({ children }) => <h2 className="mb-2 mt-4 text-lg font-bold leading-7 text-slate-950">{children}</h2>,
+        h3: ({ children }) => <h3 className="mb-2 mt-3 text-base font-bold leading-7 text-slate-950">{children}</h3>,
+        p: ({ children }) => <p className="my-2 leading-7 text-slate-700">{children}</p>,
+        strong: ({ children }) => <strong className="font-bold text-slate-950">{children}</strong>,
+        ul: ({ children }) => <ul className="my-2 list-disc space-y-1 pl-5 text-slate-700">{children}</ul>,
+        ol: ({ children }) => <ol className="my-2 list-decimal space-y-1 pl-5 text-slate-700">{children}</ol>,
+        li: ({ children }) => <li className="pl-1 leading-7">{children}</li>,
+        blockquote: ({ children }) => (
+          <blockquote className="my-3 border-l-4 border-blue-200 bg-blue-50 px-4 py-2 text-slate-700">
+            {children}
+          </blockquote>
+        ),
+        a: ({ children, href }) => (
+          <a
+            className="font-semibold text-brand-700 underline decoration-blue-200 underline-offset-4 hover:text-brand-600"
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {children}
+          </a>
+        ),
+        code: ({ children }) => (
+          <code className="rounded-md bg-slate-100 px-1.5 py-0.5 text-[0.9em] font-semibold text-slate-800">
+            {children}
+          </code>
+        ),
+        pre: ({ children }) => (
+          <pre className="my-3 overflow-x-auto rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm leading-6 text-slate-800">
+            {children}
+          </pre>
+        ),
+        table: ({ children }) => (
+          <div className="my-3 overflow-x-auto rounded-lg border border-slate-200">
+            <table className="w-full border-collapse bg-white text-left text-sm">{children}</table>
+          </div>
+        ),
+        th: ({ children }) => <th className="border-b border-slate-200 bg-blue-50 px-3 py-2 font-bold text-slate-900">{children}</th>,
+        td: ({ children }) => <td className="border-b border-slate-100 px-3 py-2 align-top text-slate-700">{children}</td>,
+        hr: () => <hr className="my-4 border-slate-200" />,
+      }}
+    >
+      {content}
+    </ReactMarkdown>
   );
 }
 
@@ -59,7 +178,11 @@ function TextMessage({ message }) {
             : "bg-brand-600 text-white",
         ].join(" ")}
       >
-        <p className="whitespace-pre-wrap">{message.content}</p>
+        {isAssistant ? (
+          <MarkdownContent content={message.content} />
+        ) : (
+          <p className="whitespace-pre-wrap">{message.content}</p>
+        )}
         {message.missingFields?.length > 0 && (
           <div className="mt-3 flex flex-wrap gap-2">
             {message.missingFields.map((field) => (
@@ -108,7 +231,7 @@ async function requestAiRecommendation(messages) {
   return data.reply;
 }
 
-function BackgroundPromptCard({ coverage, onUseCompleteSample, onUsePartialSample }) {
+function BackgroundPromptCard({ coverage, onUseCompleteSample, onUseSimpleSample }) {
   const detectedKeys = new Set(coverage.detected.map((field) => field.key));
 
   return (
@@ -116,7 +239,7 @@ function BackgroundPromptCard({ coverage, onUseCompleteSample, onUsePartialSampl
       <div className="mb-4 flex items-start justify-between gap-4">
         <div>
           <p className="text-sm font-semibold text-brand-700">背景信息提示</p>
-          <h2 className="mt-1 text-lg font-bold text-slate-950">推荐前需要确认这些信息</h2>
+          <h2 className="mt-1 text-lg font-bold text-slate-950">可以逐步补充这些信息</h2>
         </div>
         <span className="rounded-md bg-blue-50 px-2.5 py-1 text-xs font-bold text-brand-700">
           {coverage.percent}%
@@ -142,11 +265,11 @@ function BackgroundPromptCard({ coverage, onUseCompleteSample, onUsePartialSampl
       </div>
 
       <div className="mt-5 grid gap-2">
+        <button type="button" className="btn-secondary w-full" onClick={onUseSimpleSample}>
+          填入简单示例
+        </button>
         <button type="button" className="btn-secondary w-full" onClick={onUseCompleteSample}>
           填入完整示例
-        </button>
-        <button type="button" className="btn-secondary w-full" onClick={onUsePartialSample}>
-          填入追问示例
         </button>
       </div>
     </Card>
@@ -154,11 +277,12 @@ function BackgroundPromptCard({ coverage, onUseCompleteSample, onUsePartialSampl
 }
 
 export default function AiRecommendChat() {
-  const [messages, setMessages] = useState(initialMessages);
+  const [messages, setMessages] = useState(loadInitialMessages);
   const [input, setInput] = useState("");
   const [isThinking, setIsThinking] = useState(false);
   const [error, setError] = useState("");
   const chatEndRef = useRef(null);
+  const skipNextSaveRef = useRef(false);
 
   const userText = useMemo(
     () => messages.filter((message) => message.role === "user").map((message) => message.content).join("\n"),
@@ -168,8 +292,28 @@ export default function AiRecommendChat() {
   const coverage = useMemo(() => analyzeRecommendBackground(`${userText}\n${input}`), [input, userText]);
 
   useEffect(() => {
+    if (skipNextSaveRef.current) {
+      skipNextSaveRef.current = false;
+      return;
+    }
+
+    saveMessages(messages);
+  }, [messages]);
+
+  useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [messages, isThinking]);
+
+  const handleClearMessages = () => {
+    if (typeof window !== "undefined") {
+      window.localStorage.removeItem(STORAGE_KEY);
+    }
+
+    skipNextSaveRef.current = true;
+    setMessages(initialMessages);
+    setInput("");
+    setError("");
+  };
 
   const handleSend = async () => {
     const content = input.trim();
@@ -240,7 +384,7 @@ export default function AiRecommendChat() {
 
         <div className="mt-8 grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
           <Card className="flex min-h-[680px] flex-col overflow-hidden">
-            <div className="flex items-center justify-between gap-4 border-b border-slate-200 px-5 py-4">
+            <div className="flex flex-col gap-3 border-b border-slate-200 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-center gap-2">
                 <span className="flex h-9 w-9 items-center justify-center rounded-md bg-brand-600 text-white">
                   <MessageSquareText size={18} aria-hidden="true" />
@@ -250,9 +394,15 @@ export default function AiRecommendChat() {
                   <p className="text-sm text-slate-500">服务端安全调用 AI API</p>
                 </div>
               </div>
-              <span className="hidden rounded-md bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-600 sm:inline-flex">
-                {coverage.detected.length}/{backgroundFields.length}
-              </span>
+              <div className="flex items-center gap-2">
+                <span className="rounded-md bg-slate-100 px-2.5 py-1 text-xs font-bold text-slate-600">
+                  {coverage.detected.length}/{backgroundFields.length}
+                </span>
+                <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
+                  <Trash2 size={16} aria-hidden="true" />
+                  清空对话
+                </button>
+              </div>
             </div>
 
             <div className="flex-1 space-y-5 overflow-y-auto bg-slate-50 px-4 py-5 sm:px-5">
@@ -285,7 +435,7 @@ export default function AiRecommendChat() {
                     value={input}
                     onChange={(event) => setInput(event.target.value)}
                     onKeyDown={handleKeyDown}
-                    placeholder="例如：我是大三上，计算机专业，211，排名前 12%，六级 548..."
+                    placeholder="例如：我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。"
                   />
                 </label>
                 <button
@@ -305,7 +455,7 @@ export default function AiRecommendChat() {
             <BackgroundPromptCard
               coverage={coverage}
               onUseCompleteSample={() => setInput(completeSample)}
-              onUsePartialSample={() => setInput(partialSample)}
+              onUseSimpleSample={() => setInput(simpleSample)}
             />
 
             <Card className="border-amber-200 bg-amber-50 p-5">
