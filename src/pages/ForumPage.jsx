@@ -78,6 +78,28 @@ const emptyPostForm = {
   content: "",
 };
 
+function logSupabaseError(label, error) {
+  // eslint-disable-next-line no-console
+  console.error(label, error);
+  if (error?.code || error?.details || error?.hint) {
+    // eslint-disable-next-line no-console
+    console.error(`${label} meta:`, {
+      code: error.code,
+      details: error.details,
+      hint: error.hint,
+      message: error.message,
+    });
+  }
+}
+
+function getAuthorPayload(user) {
+  return {
+    author_id: user.id,
+    author_name: user.nickname || user.phone || "保研用户",
+    login_type: user.loginType || "unknown",
+  };
+}
+
 export default function ForumPage() {
   const [posts, setPosts] = useState([]);
   const [replies, setReplies] = useState([]);
@@ -238,11 +260,11 @@ export default function ForumPage() {
     fetchReplies(selectedPostId);
   }, [fetchReplies, selectedPostId]);
 
-  const requireUser = () => {
+  const requireUser = (message) => {
     const user = getCurrentUser();
     setCurrentUser(user);
     if (!user) {
-      window.alert("请先登录后再操作");
+      setErrorMessage(message);
       return null;
     }
 
@@ -259,15 +281,16 @@ export default function ForumPage() {
   };
 
   const handleOpenPostForm = () => {
-    const user = requireUser();
+    const user = requireUser("请先登录或使用游客体验后再发布帖子。");
     if (!user || !ensureDatabaseConfigured()) return;
 
     setShowPostForm(true);
     setPostError("");
+    setErrorMessage("");
   };
 
   const handlePublishPost = async () => {
-    const user = requireUser();
+    const user = requireUser("请先登录或使用游客体验后再发布帖子。");
     if (!user || !ensureDatabaseConfigured()) return;
 
     const title = postForm.title.trim();
@@ -294,18 +317,15 @@ export default function ForumPage() {
     setErrorMessage("");
 
     try {
+      const payload = {
+        title,
+        content,
+        category,
+        ...getAuthorPayload(user),
+      };
       const { data, error } = await supabase
         .from("forum_posts")
-        .insert([
-          {
-            title,
-            content,
-            category,
-            author_id: user.id,
-            author_name: user.nickname,
-            login_type: user.loginType,
-          },
-        ])
+        .insert([payload])
         .select("id")
         .single();
 
@@ -316,18 +336,20 @@ export default function ForumPage() {
       setPostForm(emptyPostForm);
       setShowPostForm(false);
       setActiveCategory("全部");
+      setErrorMessage("");
       await fetchPosts({ selectPostId: data?.id });
     } catch (error) {
-      // eslint-disable-next-line no-console
-      console.error("Failed to create forum post", error);
-      setPostError("帖子发布失败，请稍后重试。");
+      logSupabaseError("Create post failed:", error);
+      const message = error?.message || "帖子发布失败，请稍后重试。";
+      setPostError(message);
+      setErrorMessage(message);
     } finally {
       setPosting(false);
     }
   };
 
   const handleReply = async () => {
-    const user = requireUser();
+    const user = requireUser("请先登录或使用游客体验后再回复帖子。");
     if (!user || !selectedPost || !ensureDatabaseConfigured()) return;
 
     const content = replyContent.trim();
@@ -341,27 +363,26 @@ export default function ForumPage() {
     setErrorMessage("");
 
     try {
-      const { error } = await supabase.from("forum_replies").insert([
-        {
-          post_id: selectedPost.id,
-          content,
-          author_id: user.id,
-          author_name: user.nickname,
-          login_type: user.loginType,
-        },
-      ]);
+      const payload = {
+        post_id: selectedPost.id,
+        content,
+        ...getAuthorPayload(user),
+      };
+      const { error } = await supabase.from("forum_replies").insert([payload]);
 
       if (error) {
         throw error;
       }
 
       setReplyContent("");
+      setErrorMessage("");
       await fetchReplies(selectedPost.id);
       await fetchPosts({ selectPostId: selectedPost.id });
     } catch (error) {
-      // eslint-disable-next-line no-console
-      console.error("Failed to create forum reply", error);
-      setReplyError("回复失败，请稍后重试。");
+      logSupabaseError("Create reply failed:", error);
+      const message = error?.message || "回复失败，请稍后重试。";
+      setReplyError(message);
+      setErrorMessage(message);
     } finally {
       setReplying(false);
     }
