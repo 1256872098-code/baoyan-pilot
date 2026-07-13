@@ -1,15 +1,20 @@
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { LogIn, MessageCircle, UserRound, X } from "lucide-react";
-import { loginAsGuest, loginWithPhone } from "../utils/auth.js";
+import { useAuth } from "../contexts/AuthContext.jsx";
 
 const phonePattern = /^1\d{10}$/;
-const codePattern = /^\d{6}$/;
+const mockCode = "123456";
 
-export default function LoginModal({ open, onClose, onLogin }) {
+export default function LoginModal({ open, onClose }) {
   const modalRef = useRef(null);
+  const { loginWithPhone, loginAsGuest, signInWithQQ, signInWithWeChat } = useAuth();
   const [phone, setPhone] = useState("");
   const [code, setCode] = useState("");
+  const [agreed, setAgreed] = useState(false);
+  const [countdown, setCountdown] = useState(0);
+  const [sending, setSending] = useState(false);
+  const [verifying, setVerifying] = useState(false);
   const [notice, setNotice] = useState("");
   const [error, setError] = useState("");
 
@@ -37,7 +42,6 @@ export default function LoginModal({ open, onClose, onLogin }) {
     const previousHtmlOverflow = document.documentElement.style.overflow;
     document.body.style.overflow = "hidden";
     document.documentElement.style.overflow = "hidden";
-
     modalRef.current?.scrollTo({ top: 0 });
 
     return () => {
@@ -52,87 +56,130 @@ export default function LoginModal({ open, onClose, onLogin }) {
       setNotice("");
       setCode("");
       setPhone("");
+      setAgreed(false);
+      setCountdown(0);
+      setSending(false);
+      setVerifying(false);
     }
   }, [open]);
 
-  if (!open) {
+  useEffect(() => {
+    if (countdown <= 0) {
+      return undefined;
+    }
+
+    const timer = window.setInterval(() => {
+      setCountdown((value) => Math.max(value - 1, 0));
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [countdown]);
+
+  if (!open || typeof document === "undefined") {
     return null;
   }
+
+  const normalizedPhone = phone.replace(/\D/g, "");
+
+  const validatePhone = () => {
+    if (!normalizedPhone) {
+      setError("请先输入手机号。");
+      return false;
+    }
+
+    if (!phonePattern.test(normalizedPhone)) {
+      setError("请输入 11 位中国大陆手机号。");
+      return false;
+    }
+
+    return true;
+  };
 
   const handleGetCode = () => {
-    const normalizedPhone = phone.trim();
-    if (!normalizedPhone) {
-      setError("请先输入手机号");
-      setNotice("");
+    if (!validatePhone()) return;
+    if (!agreed) {
+      setError("请先勾选用户协议和隐私政策。");
       return;
     }
 
-    if (!phonePattern.test(normalizedPhone)) {
-      setError("请输入正确的手机号");
-      setNotice("");
-      return;
-    }
-
+    setSending(true);
     setError("");
-    setNotice("验证码已模拟发送，第一阶段输入任意 6 位数字即可登录。");
+    window.setTimeout(() => {
+      setNotice("体验版模拟登录，不会发送真实短信。测试验证码：123456");
+      setCountdown(60);
+      setSending(false);
+    }, 250);
   };
 
-  const handlePhoneLogin = () => {
-    const normalizedPhone = phone.trim();
+  const handlePhoneLogin = async () => {
+    if (!validatePhone()) return;
+    if (!agreed) {
+      setError("请先勾选用户协议和隐私政策。");
+      return;
+    }
+
     const normalizedCode = code.trim();
-
-    if (!normalizedPhone) {
-      setError("请先输入手机号");
-      return;
-    }
-
-    if (!phonePattern.test(normalizedPhone)) {
-      setError("请输入正确的手机号");
-      return;
-    }
-
     if (!normalizedCode) {
-      setError("请输入验证码");
+      setError("请输入验证码。");
       return;
     }
 
-    if (!codePattern.test(normalizedCode)) {
-      setError("请输入 6 位验证码");
+    if (normalizedCode !== mockCode) {
+      setError("测试验证码不正确，请输入 123456。");
       return;
     }
 
-    const user = loginWithPhone(normalizedPhone);
-    onLogin(user);
-    onClose();
+    setVerifying(true);
+    setError("");
+
+    try {
+      await loginWithPhone(normalizedPhone);
+      onClose();
+    } catch (loginError) {
+      setError(loginError?.message || "体验登录失败，请稍后重试。");
+    } finally {
+      setVerifying(false);
+    }
   };
 
-  const handleGuestLogin = () => {
-    const user = loginAsGuest();
-    window.alert("已进入游客体验。游客模式的数据仅保存在当前浏览器。");
-    onLogin(user);
-    onClose();
+  const handleGuestLogin = async () => {
+    setVerifying(true);
+    setError("");
+
+    try {
+      await loginAsGuest();
+      onClose();
+    } catch (guestError) {
+      setError(guestError?.message || "游客体验登录失败，请稍后重试。");
+    } finally {
+      setVerifying(false);
+    }
   };
 
-  const handleWechatLogin = () => {
-    // TODO: integrate WeChat OAuth login
-    window.alert("微信登录功能即将开放，当前请先使用手机号或游客体验。");
+  const handleWechatLogin = async () => {
+    try {
+      await signInWithWeChat();
+    } catch (wechatError) {
+      setNotice(wechatError?.message || "微信登录暂未开放，请使用手机号体验登录。");
+      setError("");
+    }
   };
 
-  const handleQqLogin = () => {
-    // TODO: integrate QQ OAuth login
-    window.alert("QQ 登录功能即将开放，当前请先使用手机号或游客体验。");
+  const handleQqLogin = async () => {
+    try {
+      await signInWithQQ();
+    } catch (qqError) {
+      setNotice(qqError?.message || "QQ 登录暂未开放，请使用手机号体验登录。");
+      setError("");
+    }
   };
-
-  if (typeof document === "undefined") {
-    return null;
-  }
 
   return createPortal(
     <div className="fixed inset-0 z-[9999] overflow-y-auto bg-slate-900/45">
       <div className="flex min-h-dvh items-center justify-center px-4 py-6">
         <div
           ref={modalRef}
-          className="w-full max-w-[520px] overflow-y-auto rounded-2xl bg-white shadow-2xl max-h-[calc(100dvh-48px)]"
+          className="max-h-[calc(100dvh-48px)] w-full max-w-[520px] overflow-y-auto rounded-2xl bg-white shadow-2xl"
         >
           <div className="flex items-start justify-between gap-4 border-b border-slate-100 px-6 py-5">
             <div>
@@ -150,6 +197,10 @@ export default function LoginModal({ open, onClose, onLogin }) {
           </div>
 
           <div className="space-y-4 px-6 py-5">
+            <div className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm leading-6 text-amber-800">
+              当前为产品体验版，登录信息仅保存在当前浏览器，不代表真实身份认证。
+            </div>
+
             <label className="block">
               <span className="field-label">手机号</span>
               <input
@@ -159,10 +210,21 @@ export default function LoginModal({ open, onClose, onLogin }) {
                 onChange={(event) => {
                   setPhone(event.target.value);
                   setNotice("");
+                  setError("");
                 }}
                 inputMode="tel"
                 placeholder="请输入手机号"
               />
+            </label>
+
+            <label className="flex items-start gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm leading-6 text-slate-600">
+              <input
+                className="mt-1 h-4 w-4 rounded border-slate-300 text-brand-600 focus:ring-brand-500"
+                type="checkbox"
+                checked={agreed}
+                onChange={(event) => setAgreed(event.target.checked)}
+              />
+              <span>我已阅读并同意用户协议和隐私政策。</span>
             </label>
 
             <label className="block">
@@ -172,13 +234,21 @@ export default function LoginModal({ open, onClose, onLogin }) {
                   className="h-11 w-full rounded-md border border-slate-300 bg-white px-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
                   type="text"
                   value={code}
-                  onChange={(event) => setCode(event.target.value)}
+                  onChange={(event) => {
+                    setCode(event.target.value);
+                    setError("");
+                  }}
                   inputMode="numeric"
                   maxLength={6}
-                  placeholder="任意 6 位数字"
+                  placeholder="请输入测试验证码"
                 />
-                <button type="button" className="btn-secondary h-11 shrink-0 px-3 py-0" onClick={handleGetCode}>
-                  获取验证码
+                <button
+                  type="button"
+                  className="btn-secondary h-11 shrink-0 px-3 py-0 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-400"
+                  onClick={handleGetCode}
+                  disabled={sending || countdown > 0}
+                >
+                  {sending ? "准备中..." : countdown > 0 ? `${countdown}s` : "获取验证码"}
                 </button>
               </div>
             </label>
@@ -186,9 +256,14 @@ export default function LoginModal({ open, onClose, onLogin }) {
             {notice && <p className="text-sm leading-6 text-brand-700">{notice}</p>}
             {error && <p className="text-sm leading-6 text-red-600">{error}</p>}
 
-            <button type="button" className="btn-primary h-11 w-full py-0" onClick={handlePhoneLogin}>
+            <button
+              type="button"
+              className="btn-primary h-11 w-full py-0 disabled:cursor-not-allowed disabled:bg-slate-300"
+              onClick={handlePhoneLogin}
+              disabled={verifying}
+            >
               <LogIn size={17} aria-hidden="true" />
-              手机号登录
+              {verifying ? "登录中..." : "手机号体验登录"}
             </button>
 
             <div className="flex items-center gap-3 py-1">
@@ -208,19 +283,21 @@ export default function LoginModal({ open, onClose, onLogin }) {
               </button>
             </div>
 
-            <div className="flex w-full items-center justify-between rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition hover:border-brand-300 hover:bg-blue-50">
-              <span className="flex items-center gap-3">
-                <span className="flex h-9 w-9 items-center justify-center rounded-md bg-slate-100 text-slate-700">
+            <div className="rounded-lg border border-blue-100 bg-blue-50/70 p-4">
+              <div className="flex items-start gap-3">
+                <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-brand-700">
                   <UserRound size={18} aria-hidden="true" />
                 </span>
-                <span>
-                  <span className="block font-bold text-slate-950">游客体验</span>
-                  <span className="mt-0.5 block text-sm text-slate-500">数据仅保存在当前浏览器</span>
-                </span>
-              </span>
-              <button type="button" className="btn-secondary h-10 px-4 py-0" onClick={handleGuestLogin}>
-                进入
-              </button>
+                <div className="min-w-0 flex-1">
+                  <h3 className="font-bold text-slate-950">游客体验</h3>
+                  <p className="mt-1 text-sm leading-6 text-slate-600">
+                    可浏览功能并体验 AI 咨询；游客不能在论坛发帖和回复，数据仅保存在当前浏览器。
+                  </p>
+                  <button type="button" className="btn-secondary mt-3 h-10 bg-white py-0" onClick={handleGuestLogin}>
+                    进入游客体验
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -12,7 +12,8 @@ import {
   UserRound,
 } from "lucide-react";
 import { Card } from "../components/Card.jsx";
-import { AUTH_CHANGED_EVENT, getCurrentUser, getUserStorageKey } from "../utils/auth.js";
+import { useAuth } from "../contexts/AuthContext.jsx";
+import { getScopedStorageKey, LOCAL_GUEST_USER_ID } from "../utils/auth.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
 const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
@@ -121,14 +122,14 @@ function createInitialConversationState() {
   };
 }
 
-function loadConversationState(user = getCurrentUser()) {
+function loadConversationState(user) {
   if (typeof window === "undefined") {
     return createInitialConversationState();
   }
 
   try {
-    const conversationsKey = getUserStorageKey(BASE_CONVERSATIONS_KEY, user);
-    const activeConversationKey = getUserStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user);
+    const conversationsKey = getScopedStorageKey(BASE_CONVERSATIONS_KEY, user);
+    const activeConversationKey = getScopedStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user);
     const userStoredConversations = window.localStorage.getItem(conversationsKey);
     const shouldReadLegacyConversationKeys = !user;
     const storedConversations =
@@ -177,14 +178,14 @@ function loadConversationState(user = getCurrentUser()) {
   }
 }
 
-function saveConversationState(conversations, activeConversationId, user = getCurrentUser()) {
+function saveConversationState(conversations, activeConversationId, user) {
   if (typeof window === "undefined") {
     return;
   }
 
   try {
-    window.localStorage.setItem(getUserStorageKey(BASE_CONVERSATIONS_KEY, user), JSON.stringify(conversations));
-    window.localStorage.setItem(getUserStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user), activeConversationId);
+    window.localStorage.setItem(getScopedStorageKey(BASE_CONVERSATIONS_KEY, user), JSON.stringify(conversations));
+    window.localStorage.setItem(getScopedStorageKey(BASE_ACTIVE_CONVERSATION_KEY, user), activeConversationId);
   } catch {
     // Ignore localStorage write errors so chat can still work in restricted browsers.
   }
@@ -419,10 +420,13 @@ function ConversationSidebar({
 }
 
 export default function AiRecommendChat() {
-  const [currentUser, setCurrentUser] = useState(() => getCurrentUser());
-  const [initialConversationState] = useState(() => loadConversationState(getCurrentUser()));
+  const { user } = useAuth();
+  const storageUser = useMemo(() => (user ? { id: user.id } : null), [user?.id]);
+  const storageOwnerId = storageUser?.id || LOCAL_GUEST_USER_ID;
+  const [initialConversationState] = useState(() => loadConversationState(null));
   const [conversations, setConversations] = useState(initialConversationState.conversations);
   const [activeConversationId, setActiveConversationId] = useState(initialConversationState.activeConversationId);
+  const [loadedStorageOwnerId, setLoadedStorageOwnerId] = useState(LOCAL_GUEST_USER_ID);
   const [input, setInput] = useState("");
   const [isThinking, setIsThinking] = useState(false);
   const [error, setError] = useState("");
@@ -435,34 +439,26 @@ export default function AiRecommendChat() {
   );
   const messages = activeConversation?.messages || [];
   const storageNotice =
-    currentUser?.loginType === "guest"
-      ? "游客体验中：聊天记录仅保存在当前浏览器。"
-      : currentUser
-        ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
-        : "未登录：当前为游客模式，聊天记录仅保存在本浏览器。";
+    user
+      ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
+      : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
 
   useEffect(() => {
-    const syncUserState = () => {
-      const nextUser = getCurrentUser();
-      const nextState = loadConversationState(nextUser);
-      setCurrentUser(nextUser);
-      setConversations(nextState.conversations);
-      setActiveConversationId(nextState.activeConversationId);
-      setInput("");
-      setError("");
-    };
-
-    window.addEventListener(AUTH_CHANGED_EVENT, syncUserState);
-    window.addEventListener("storage", syncUserState);
-    return () => {
-      window.removeEventListener(AUTH_CHANGED_EVENT, syncUserState);
-      window.removeEventListener("storage", syncUserState);
-    };
-  }, []);
+    const nextState = loadConversationState(storageUser);
+    setConversations(nextState.conversations);
+    setActiveConversationId(nextState.activeConversationId);
+    setLoadedStorageOwnerId(storageOwnerId);
+    setInput("");
+    setError("");
+  }, [storageOwnerId]);
 
   useEffect(() => {
-    saveConversationState(conversations, activeConversationId, currentUser);
-  }, [activeConversationId, conversations, currentUser]);
+    if (loadedStorageOwnerId !== storageOwnerId) {
+      return;
+    }
+
+    saveConversationState(conversations, activeConversationId, storageUser);
+  }, [activeConversationId, conversations, loadedStorageOwnerId, storageOwnerId, storageUser]);
 
   useEffect(() => {
     if (chatScrollRef.current) {

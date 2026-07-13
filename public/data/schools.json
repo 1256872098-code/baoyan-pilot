@@ -1,0 +1,5762 @@
+[
+  {
+    "id": "school-1rf8t7b",
+    "name": "北京大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "研究型"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1s1mepv",
+    "name": "中国人民大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ivlj1f",
+    "name": "清华大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "工科强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1y3iohh",
+    "name": "北京交通大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1o3f18s",
+    "name": "北京工业大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qwbfa6",
+    "name": "北京航空航天大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1f6o8aa",
+    "name": "北京理工大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1oj8i5e",
+    "name": "北京科技大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1v6nyfz",
+    "name": "北方工业大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xxr8hu",
+    "name": "北京化工大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ekga40",
+    "name": "北京工商大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-dhffx8",
+    "name": "北京服装学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1lv9fsq",
+    "name": "北京邮电大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "信息通信强校",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ndasyq",
+    "name": "北京建筑大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4jie16",
+    "name": "北京电子科技学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-x8ba2c",
+    "name": "中国农业大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1aq9mfi",
+    "name": "北京林业大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nve896",
+    "name": "北京协和医学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-p4rh9h",
+    "name": "首都医科大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xsk41y",
+    "name": "北京中医药大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-zubin2",
+    "name": "北京师范大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1mzieaw",
+    "name": "首都师范大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-22wnzj",
+    "name": "北京外国语大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "语言类强校",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-c0j79y",
+    "name": "北京第二外国语学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fxpnyu",
+    "name": "北京语言大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-rpe0lk",
+    "name": "中国传媒大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nuijso",
+    "name": "中央财经大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "财经类强校",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-16jkzuj",
+    "name": "对外经济贸易大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tcnj13",
+    "name": "北京物资学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6flpnp",
+    "name": "首都经济贸易大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [
+      "财经类特色",
+      "区域强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-pg9xir",
+    "name": "外交学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-juxe64",
+    "name": "中国人民公安大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-huxuoh",
+    "name": "国际关系学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-b9oqey",
+    "name": "北京体育大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ix5lil",
+    "name": "中央音乐学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1h5a10k",
+    "name": "中国音乐学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-15grunp",
+    "name": "中央美术学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nakfog",
+    "name": "中央戏剧学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ts05kw",
+    "name": "北京电影学院",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-h1amj",
+    "name": "中央民族大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1r2i1i2",
+    "name": "中国政法大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "法学强校",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6t1x3n",
+    "name": "华北电力大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-18l0556",
+    "name": "北京信息科技大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-zdg5d7",
+    "name": "北京联合大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-uwgmsr",
+    "name": "中国科学院大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1b6srb",
+    "name": "中国社会科学院大学",
+    "province": "北京",
+    "city": "北京",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jp57y3",
+    "name": "南开大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1vryf8u",
+    "name": "天津大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9obiiz",
+    "name": "天津科技大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1s1uhpd",
+    "name": "天津工业大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nr5cwp",
+    "name": "中国民航大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-yzagcn",
+    "name": "天津理工大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1qj5x5y",
+    "name": "天津医科大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-18q1c9p",
+    "name": "天津中医药大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-5ynjpr",
+    "name": "天津师范大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [
+      "师范类特色",
+      "区域强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-w2ywqk",
+    "name": "天津职业技术师范大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-10wwmi4",
+    "name": "天津外国语大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-15v6lei",
+    "name": "天津商业大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-7jaky5",
+    "name": "天津财经大学",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-s36hbq",
+    "name": "天津体育学院",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4frkjs",
+    "name": "天津美术学院",
+    "province": "天津",
+    "city": "天津",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-iww4u2",
+    "name": "河北大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-zdyrlm",
+    "name": "河北工程大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-16q8rm2",
+    "name": "河北地质大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6gavg5",
+    "name": "河北工业大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jlm0dy",
+    "name": "华北理工大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-upvjkn",
+    "name": "河北科技大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-3a2bac",
+    "name": "河北农业大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1d3h5ya",
+    "name": "河北医科大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-tk3xhj",
+    "name": "河北北方学院",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1yfg4i3",
+    "name": "河北师范大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1en5wyp",
+    "name": "石家庄铁道大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-11envda",
+    "name": "燕山大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1s6ra1t",
+    "name": "河北经贸大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1lg54a9",
+    "name": "河北中医药大学",
+    "province": "河北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-13zpd4k",
+    "name": "山西大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ne7gpm",
+    "name": "太原科技大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-7dauzc",
+    "name": "中北大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-m0f162",
+    "name": "太原理工大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-es2rey",
+    "name": "山西农业大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ghii1c",
+    "name": "山西医科大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1r4afsp",
+    "name": "山西师范大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-5ate9v",
+    "name": "山西财经大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1h3oi13",
+    "name": "山西中医药大学",
+    "province": "山西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-915pzc",
+    "name": "内蒙古大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ioj951",
+    "name": "内蒙古科技大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-151zru7",
+    "name": "内蒙古工业大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-de6q7q",
+    "name": "内蒙古农业大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-17ycdgk",
+    "name": "内蒙古医科大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ohl3fh",
+    "name": "内蒙古师范大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-17r6flo",
+    "name": "内蒙古民族大学",
+    "province": "内蒙古",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-nvcv9i",
+    "name": "辽宁大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1spjwm0",
+    "name": "大连理工大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1118awu",
+    "name": "沈阳工业大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1m5hglk",
+    "name": "沈阳航空航天大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ywp39p",
+    "name": "东北大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-bmckeb",
+    "name": "辽宁科技大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ttm4vf",
+    "name": "辽宁工程技术大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1c9stwn",
+    "name": "辽宁石油化工大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1qkywks",
+    "name": "沈阳化工大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-b6sno3",
+    "name": "大连交通大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-xgs1gr",
+    "name": "大连海事大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-fjot7m",
+    "name": "大连工业大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1wdra4k",
+    "name": "沈阳建筑大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-193a7mv",
+    "name": "沈阳农业大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-8dybcb",
+    "name": "大连海洋大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-f6udgy",
+    "name": "中国医科大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-193fhq9",
+    "name": "大连医科大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jcqel1",
+    "name": "辽宁中医药大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-b9cfo1",
+    "name": "沈阳药科大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1t1avx3",
+    "name": "辽宁师范大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-15yb7nc",
+    "name": "沈阳师范大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xgt7cl",
+    "name": "渤海大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-vov9o1",
+    "name": "大连外国语大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nnialu",
+    "name": "东北财经大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-mxdj2h",
+    "name": "沈阳体育学院",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-14zeq83",
+    "name": "沈阳音乐学院",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1n6u6rk",
+    "name": "鲁迅美术学院",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ote0x",
+    "name": "大连大学",
+    "province": "辽宁",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-z7rj8k",
+    "name": "吉林大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-biv5qh",
+    "name": "延边大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-51c749",
+    "name": "长春理工大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-vevdq9",
+    "name": "东北电力大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4w7eej",
+    "name": "长春工业大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-fvda4a",
+    "name": "吉林农业大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1l86cf",
+    "name": "长春中医药大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-3e8asg",
+    "name": "东北师范大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1krf08x",
+    "name": "北华大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qly1rd",
+    "name": "吉林师范大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-mgfzkx",
+    "name": "长春师范大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-b2cp4j",
+    "name": "吉林财经大学",
+    "province": "吉林",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6f9uah",
+    "name": "黑龙江大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4j5ii9",
+    "name": "哈尔滨工业大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-101kxj",
+    "name": "哈尔滨理工大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-i7vzau",
+    "name": "哈尔滨工程大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1l11510",
+    "name": "黑龙江科技大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9ram31",
+    "name": "东北石油大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qvg466",
+    "name": "佳木斯大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1i94dak",
+    "name": "黑龙江八一农垦大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-12sylbz",
+    "name": "东北农业大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-es00qs",
+    "name": "东北林业大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1u06j9y",
+    "name": "哈尔滨医科大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fsmxm4",
+    "name": "黑龙江中医药大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ryskhr",
+    "name": "哈尔滨师范大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ra74to",
+    "name": "齐齐哈尔大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2s294a",
+    "name": "哈尔滨商业大学",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9akiau",
+    "name": "哈尔滨体育学院",
+    "province": "黑龙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-lc7cxf",
+    "name": "复旦大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "华东"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ytmrqi",
+    "name": "同济大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-32w23p",
+    "name": "上海交通大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "工科强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2cw2mj",
+    "name": "华东理工大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-nhtwjm",
+    "name": "上海理工大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fwubqx",
+    "name": "上海海事大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1pvy7p6",
+    "name": "东华大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-102r7tz",
+    "name": "上海电力大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-yaso3q",
+    "name": "上海应用技术大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-f17pfd",
+    "name": "上海海洋大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [
+      "农林海洋特色",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1q97es6",
+    "name": "上海中医药大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jf38xv",
+    "name": "华东师范大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "师范类强校",
+      "综合类"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1t7zoku",
+    "name": "上海师范大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1899ae7",
+    "name": "上海外国语大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ugmnw",
+    "name": "上海财经大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "财经类强校",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1m3z29z",
+    "name": "上海对外经贸大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-s1eaxu",
+    "name": "华东政法大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1a9u4ne",
+    "name": "上海体育大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-lqo78h",
+    "name": "上海音乐学院",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1486kiv",
+    "name": "上海大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1v6kn96",
+    "name": "上海工程技术大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1136e36",
+    "name": "上海科技大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1qxjuw8",
+    "name": "海军军医大学",
+    "province": "上海",
+    "city": "上海",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tyy51z",
+    "name": "南京大学",
+    "province": "江苏",
+    "city": "南京",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "基础学科强"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-f7hi3d",
+    "name": "苏州大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-158b6rx",
+    "name": "东南大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4734ke",
+    "name": "南京航空航天大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-k4cj3m",
+    "name": "南京理工大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tvk2a3",
+    "name": "江苏科技大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-zle1j",
+    "name": "中国矿业大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-clhj2k",
+    "name": "南京工业大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1hv7udy",
+    "name": "常州大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1pm0j22",
+    "name": "南京邮电大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1flkpp6",
+    "name": "河海大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-odex9y",
+    "name": "江南大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ky5oge",
+    "name": "南京林业大学",
+    "province": "江苏",
+    "city": "南京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [
+      "农林特色",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1p12tny",
+    "name": "江苏大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-sd0dr",
+    "name": "南京信息工程大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1mcsw0d",
+    "name": "南通大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1q5e4gd",
+    "name": "南京农业大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-eowz3n",
+    "name": "南京医科大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-k7kf3q",
+    "name": "徐州医科大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9vpxom",
+    "name": "南京中医药大学",
+    "province": "江苏",
+    "city": "南京",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [
+      "医学特色",
+      "行业特色"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-188415a",
+    "name": "中国药科大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1uibmu6",
+    "name": "南京师范大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-d4p4en",
+    "name": "江苏师范大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qbnz58",
+    "name": "南京财经大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tvi6yz",
+    "name": "南京体育学院",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-sr0lhp",
+    "name": "南京艺术学院",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ys22yc",
+    "name": "苏州科技大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-y7xx6",
+    "name": "扬州大学",
+    "province": "江苏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-udm8rw",
+    "name": "浙江大学",
+    "province": "浙江",
+    "city": "杭州",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "工科强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6uuks7",
+    "name": "杭州电子科技大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-123frm3",
+    "name": "浙江工业大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-fgy7l5",
+    "name": "浙江理工大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1vohjyx",
+    "name": "浙江农林大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-geyvpv",
+    "name": "温州医科大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-tetwhr",
+    "name": "浙江中医药大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jaj11d",
+    "name": "浙江师范大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-6q2n0i",
+    "name": "杭州师范大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-13qrg3b",
+    "name": "浙江工商大学",
+    "province": "浙江",
+    "city": "杭州",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [
+      "财经类特色",
+      "区域强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4bau24",
+    "name": "中国美术学院",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-libbbf",
+    "name": "浙江财经大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-19n96wz",
+    "name": "宁波大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-19js9tt",
+    "name": "西湖大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1jkaaqv",
+    "name": "宁波诺丁汉大学",
+    "province": "浙江",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-dbveae",
+    "name": "安徽大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-io6gqc",
+    "name": "中国科学技术大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-12bh538",
+    "name": "合肥工业大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1gdz455",
+    "name": "安徽工业大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-7sfz1r",
+    "name": "安徽理工大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1nypg14",
+    "name": "安徽农业大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-t61b6m",
+    "name": "安徽医科大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-y9sjg8",
+    "name": "蚌埠医科大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1lxlzyv",
+    "name": "皖南医学院",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-mfjrol",
+    "name": "安徽中医药大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xlw3tz",
+    "name": "安徽师范大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-i6nbr9",
+    "name": "安徽财经大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-gocavj",
+    "name": "安徽建筑大学",
+    "province": "安徽",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-nfa6",
+    "name": "厦门大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1spx2d2",
+    "name": "华侨大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1q2lc0p",
+    "name": "福州大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-myt8sg",
+    "name": "福建农林大学",
+    "province": "福建",
+    "city": "福州",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [
+      "农林特色",
+      "区域强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-nixfcg",
+    "name": "集美大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-bu6vjp",
+    "name": "福建医科大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-k6o4og",
+    "name": "福建中医药大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xauqrc",
+    "name": "福建师范大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-14df50d",
+    "name": "闽南师范大学",
+    "province": "福建",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-xbe987",
+    "name": "南昌大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-dc5r38",
+    "name": "华东交通大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1rbpaqr",
+    "name": "东华理工大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fpt7a3",
+    "name": "南昌航空大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-19c1zfb",
+    "name": "江西理工大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-srbnqm",
+    "name": "景德镇陶瓷大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-bxo0sw",
+    "name": "江西农业大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-14a7w6l",
+    "name": "江西中医药大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-cn8cf3",
+    "name": "江西师范大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-mo5eot",
+    "name": "江西财经大学",
+    "province": "江西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-13bmry1",
+    "name": "山东大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-fxku90",
+    "name": "中国海洋大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-13ampw4",
+    "name": "山东科技大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-13vh78u",
+    "name": "青岛科技大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-glth1n",
+    "name": "济南大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2ntotq",
+    "name": "青岛理工大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-tilyy0",
+    "name": "山东建筑大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-775myo",
+    "name": "齐鲁工业大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-7wpwpc",
+    "name": "山东理工大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ufw7kz",
+    "name": "山东农业大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1gvdim9",
+    "name": "青岛农业大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1e720qd",
+    "name": "山东第一医科大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-t1uxvw",
+    "name": "山东中医药大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1g328bg",
+    "name": "山东师范大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-au24tz",
+    "name": "曲阜师范大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1rla9s4",
+    "name": "聊城大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1e45486",
+    "name": "山东财经大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1mvmrfb",
+    "name": "山东艺术学院",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xc8qrn",
+    "name": "青岛大学",
+    "province": "山东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1sin8qf",
+    "name": "华北水利水电大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-j1lehb",
+    "name": "郑州大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-10ry0v7",
+    "name": "河南理工大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ykzb0d",
+    "name": "郑州轻工业大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-vitwj9",
+    "name": "河南工业大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1kr9kbb",
+    "name": "河南科技大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1cr9p44",
+    "name": "河南农业大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9lcm9d",
+    "name": "河南中医药大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-yb5hus",
+    "name": "河南医药大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1un1456",
+    "name": "河南大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jst7yj",
+    "name": "河南师范大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2gzcxl",
+    "name": "河南财经政法大学",
+    "province": "河南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1vzfey1",
+    "name": "武汉大学",
+    "province": "湖北",
+    "city": "武汉",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [
+      "综合类",
+      "中部"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1s3kg94",
+    "name": "华中科技大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qycpyc",
+    "name": "武汉科技大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1wgnlj2",
+    "name": "长江大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1apmx11",
+    "name": "武汉工程大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-dry7q",
+    "name": "武汉纺织大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jwli6d",
+    "name": "武汉轻工大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-h2q1kw",
+    "name": "武汉理工大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1qqyuls",
+    "name": "湖北工业大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ntuifj",
+    "name": "华中农业大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jsch8q",
+    "name": "湖北中医药大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1esnqnk",
+    "name": "华中师范大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-wj53lf",
+    "name": "湖北大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-19byaar",
+    "name": "中南财经政法大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9x705",
+    "name": "武汉体育学院",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-q3dfsc",
+    "name": "中南民族大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-gazkhs",
+    "name": "江汉大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1j85txm",
+    "name": "三峡大学",
+    "province": "湖北",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1cil2h3",
+    "name": "湘潭大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xbt5mn",
+    "name": "吉首大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-hqoks3",
+    "name": "湖南大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-m1tv2w",
+    "name": "中南大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xyx0ou",
+    "name": "湖南科技大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-cpzje5",
+    "name": "长沙理工大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-hykzw1",
+    "name": "湖南农业大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-t3a874",
+    "name": "中南林业科技大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1gy9d6y",
+    "name": "湖南中医药大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-12x1mka",
+    "name": "湖南师范大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-89xe30",
+    "name": "湖南工商大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1dpdvi9",
+    "name": "南华大学",
+    "province": "湖南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-w7pkva",
+    "name": "中山大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-136vvcp",
+    "name": "暨南大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-m3u0mt",
+    "name": "汕头大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-12pzut2",
+    "name": "华南理工大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qbr6yx",
+    "name": "华南农业大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-wtbl7l",
+    "name": "广东海洋大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-y2vayh",
+    "name": "广州医科大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1q4if0c",
+    "name": "广州中医药大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ezbwmf",
+    "name": "广东药科大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-kex31e",
+    "name": "华南师范大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-10jbnxn",
+    "name": "广州美术学院",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-lhhdlk",
+    "name": "深圳大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-h5f550",
+    "name": "广东财经大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1malrc9",
+    "name": "广州大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1pi1lr3",
+    "name": "五邑大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-c5vepw",
+    "name": "广东工业大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-jm232k",
+    "name": "广东外语外贸大学",
+    "province": "广东",
+    "city": "广州",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [
+      "外语语言类特色",
+      "区域强校"
+    ],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ptugvg",
+    "name": "佛山大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1k23k50",
+    "name": "南方医科大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tkb7hx",
+    "name": "南方科技大学",
+    "province": "广东",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ootfoe",
+    "name": "广西大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-tosrab",
+    "name": "桂林电子科技大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-m5dqd6",
+    "name": "桂林理工大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1hr5bbq",
+    "name": "广西医科大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-hftjil",
+    "name": "广西中医药大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-mivrf",
+    "name": "桂林医科大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1h4cke7",
+    "name": "广西师范大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-hv8if8",
+    "name": "广西艺术学院",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-778iwm",
+    "name": "广西民族大学",
+    "province": "广西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1opijce",
+    "name": "海南大学",
+    "province": "海南",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1tjosv",
+    "name": "海南师范大学",
+    "province": "海南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1do1r3a",
+    "name": "海南医科大学",
+    "province": "海南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1i4ev9v",
+    "name": "重庆大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-zxkuw6",
+    "name": "重庆邮电大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-eizztl",
+    "name": "重庆交通大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1t0ho8f",
+    "name": "重庆医科大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-753us6",
+    "name": "西南大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9en316",
+    "name": "重庆师范大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1pl3kf2",
+    "name": "四川外国语大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1l1jz06",
+    "name": "西南政法大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xeu7sy",
+    "name": "四川美术学院",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1muerr1",
+    "name": "陆军军医大学",
+    "province": "重庆",
+    "city": "重庆",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-q17i2o",
+    "name": "四川大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2o38og",
+    "name": "西南交通大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1mor4gk",
+    "name": "电子科技大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-87khou",
+    "name": "西南石油大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ydv5cq",
+    "name": "成都理工大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ou4pbn",
+    "name": "西南科技大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-198bet3",
+    "name": "成都信息工程大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-113v1vd",
+    "name": "西华大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ofmram",
+    "name": "四川农业大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1dd9tge",
+    "name": "西南医科大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-asjpny",
+    "name": "成都中医药大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ua1dwl",
+    "name": "四川师范大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-g450ws",
+    "name": "西华师范大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-uoza9x",
+    "name": "西南财经大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1jr8mcz",
+    "name": "成都体育学院",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-11gr1hy",
+    "name": "四川音乐学院",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-bft1jy",
+    "name": "西南民族大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-oimyf3",
+    "name": "成都大学",
+    "province": "四川",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1swdbc3",
+    "name": "贵州大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-u1bxfj",
+    "name": "贵州医科大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-19gq5y6",
+    "name": "遵义医科大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-xupvsq",
+    "name": "贵州中医药大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1r5y7sa",
+    "name": "贵州师范大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-11a3ylf",
+    "name": "贵州民族大学",
+    "province": "贵州",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-izbscs",
+    "name": "云南大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-17360p9",
+    "name": "昆明理工大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-lizkma",
+    "name": "云南农业大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-qbxcj7",
+    "name": "西南林业大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1h1zy7w",
+    "name": "昆明医科大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-xbo68v",
+    "name": "云南中医药大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ff1r35",
+    "name": "云南师范大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1xrqbaj",
+    "name": "云南财经大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-yekis8",
+    "name": "云南民族大学",
+    "province": "云南",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-inl76f",
+    "name": "西藏农牧大学",
+    "province": "西藏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ohpgsu",
+    "name": "西藏大学",
+    "province": "西藏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-11l0chy",
+    "name": "西藏民族大学",
+    "province": "西藏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-oqjo46",
+    "name": "西北大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1lm9q4m",
+    "name": "西安交通大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-cp7kl5",
+    "name": "西北工业大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9eva4d",
+    "name": "西安理工大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-dnuqc",
+    "name": "西安电子科技大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1pgp0d3",
+    "name": "西安工业大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1cxgde0",
+    "name": "西安建筑科技大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1358mu5",
+    "name": "西安科技大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-2nexx8",
+    "name": "西安石油大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-f5i1cl",
+    "name": "陕西科技大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-5k2v64",
+    "name": "西安工程大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-rizduo",
+    "name": "长安大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-16p6aa2",
+    "name": "西北农林科技大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-lo8z83",
+    "name": "陕西中医药大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-69gcr1",
+    "name": "陕西师范大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-15kh2m1",
+    "name": "延安大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-pj9h8e",
+    "name": "西安外国语大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-yqa5km",
+    "name": "西北政法大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ul2iua",
+    "name": "西安美术学院",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-130jy45",
+    "name": "西安邮电大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-c9nryx",
+    "name": "空军军医大学",
+    "province": "陕西",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1hsl9ni",
+    "name": "兰州大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "985",
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-f2nign",
+    "name": "兰州理工大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1athm7c",
+    "name": "兰州交通大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-rbosav",
+    "name": "甘肃农业大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1vd5ufk",
+    "name": "甘肃中医药大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-i3co4n",
+    "name": "西北师范大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-rtetz1",
+    "name": "兰州财经大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1ql60v2",
+    "name": "西北民族大学",
+    "province": "甘肃",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-4g7zj",
+    "name": "青海大学",
+    "province": "青海",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1moulty",
+    "name": "青海师范大学",
+    "province": "青海",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fkbmyf",
+    "name": "青海民族大学",
+    "province": "青海",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-15zjadw",
+    "name": "宁夏大学",
+    "province": "宁夏",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1997228",
+    "name": "宁夏医科大学",
+    "province": "宁夏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1llynvw",
+    "name": "北方民族大学",
+    "province": "宁夏",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-17huh6u",
+    "name": "新疆大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-105468q",
+    "name": "塔里木大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1fbpn14",
+    "name": "新疆农业大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-ntp4dg",
+    "name": "石河子大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "211",
+      "双一流"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1b99gni",
+    "name": "新疆医科大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-9p26vr",
+    "name": "新疆师范大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-16e9ca0",
+    "name": "喀什大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  },
+  {
+    "id": "school-1lh40vp",
+    "name": "新疆财经大学",
+    "province": "新疆",
+    "city": "",
+    "levelTags": [
+      "普通本科"
+    ],
+    "typeTags": [],
+    "recommendationQualified": true,
+    "recommendationListYear": 2025,
+    "detailStatus": "building"
+  }
+]

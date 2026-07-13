@@ -5,8 +5,11 @@ import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import AssessmentPage from "./pages/AssessmentPage.jsx";
 import SchoolsPage from "./pages/SchoolsPage.jsx";
+import SchoolDetailPage from "./pages/SchoolDetailPage.jsx";
+import CollegeDetailPage from "./pages/CollegeDetailPage.jsx";
 import AiRecommendChat from "./pages/AiRecommendChat.jsx";
 import ForumPage from "./pages/ForumPage.jsx";
+import ProfilePage from "./pages/ProfilePage.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -20,7 +23,10 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/assessment" element={<AssessmentPage />} />
           <Route path="/schools" element={<SchoolsPage />} />
+          <Route path="/schools/:schoolId" element={<SchoolDetailPage />} />
+          <Route path="/schools/:schoolId/colleges/:collegeId" element={<CollegeDetailPage />} />
           <Route path="/forum" element={<ForumPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/ai-recommend" element={<AiRecommendChat />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

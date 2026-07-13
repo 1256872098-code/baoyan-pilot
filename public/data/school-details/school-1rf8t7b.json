@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1rf8t7b",
+  "name": "北京大学",
+  "status": "building",
+  "lastUpdated": null,
+  "colleges": [
+    {
+      "id": "mathematical-sciences",
+      "name": "数学科学学院",
+      "officialWebsite": "",
+      "majorNames": [],
+      "dataStatus": "building"
+    },
+    {
+      "id": "computer-science",
+      "name": "计算机学院",
+      "officialWebsite": "",
+      "majorNames": [],
+      "dataStatus": "building"
+    }
+  ],
+  "sources": []
+}

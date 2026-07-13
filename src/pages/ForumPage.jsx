@@ -4,11 +4,10 @@ import {
   MessageSquarePlus,
   MessagesSquare,
   Send,
-  UserRound,
 } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
-import { AUTH_CHANGED_EVENT, getCurrentUser } from "../utils/auth.js";
+import { useAuth } from "../contexts/AuthContext.jsx";
 
 const categories = [
   "全部",
@@ -34,6 +33,7 @@ function normalizePost(row, replyCount = 0) {
     category: postCategories.includes(row.category) ? row.category : "答疑求助",
     authorId: row.author_id,
     authorName: row.author_name || "匿名用户",
+    authorAvatar: "",
     loginType: row.login_type,
     createdAt: row.created_at,
     updatedAt: row.updated_at || row.created_at,
@@ -48,6 +48,7 @@ function normalizeReply(row) {
     content: row.content,
     authorId: row.author_id,
     authorName: row.author_name || "匿名用户",
+    authorAvatar: "",
     loginType: row.login_type,
     createdAt: row.created_at,
   };
@@ -95,15 +96,27 @@ function logSupabaseError(label, error) {
 function getAuthorPayload(user) {
   return {
     author_id: user.id,
-    author_name: user.nickname || user.phone || "保研用户",
-    login_type: user.loginType || "unknown",
+    author_name: user.nickname || (user.phone ? `用户${String(user.phone).slice(-4)}` : "保研用户"),
+    login_type: user.loginType || "phone_mock",
   };
 }
 
+function AuthorAvatar({ name, avatarUrl, className = "h-6 w-6" }) {
+  if (avatarUrl) {
+    return <img className={`${className} rounded-full object-cover`} src={avatarUrl} alt={`${name} 的头像`} />;
+  }
+
+  return (
+    <span className={`${className} inline-flex items-center justify-center rounded-full bg-blue-50 text-xs font-bold text-brand-700`}>
+      {String(name || "匿").slice(0, 1)}
+    </span>
+  );
+}
+
 export default function ForumPage() {
+  const { user } = useAuth();
   const [posts, setPosts] = useState([]);
   const [replies, setReplies] = useState([]);
-  const [currentUser, setCurrentUser] = useState(() => getCurrentUser());
   const [activeCategory, setActiveCategory] = useState("全部");
   const [selectedPostId, setSelectedPostId] = useState("");
   const [showPostForm, setShowPostForm] = useState(false);
@@ -131,7 +144,6 @@ export default function ForumPage() {
   );
 
   const selectedPost = posts.find((post) => post.id === selectedPostId) || filteredPosts[0] || null;
-  const isGuest = currentUser?.loginType === "guest";
 
   const fetchPosts = useCallback(async ({ selectPostId } = {}) => {
     if (!isSupabaseConfigured || !supabase) {
@@ -220,7 +232,7 @@ export default function ForumPage() {
         throw error;
       }
 
-      setReplies((replyRows || []).map(normalizeReply));
+      setReplies((replyRows || []).map((reply) => normalizeReply(reply)));
     } catch (error) {
       // eslint-disable-next-line no-console
       console.error("Failed to load forum replies", error);
@@ -229,16 +241,6 @@ export default function ForumPage() {
     } finally {
       setLoadingReplies(false);
     }
-  }, []);
-
-  useEffect(() => {
-    const syncUser = () => setCurrentUser(getCurrentUser());
-    window.addEventListener(AUTH_CHANGED_EVENT, syncUser);
-    window.addEventListener("storage", syncUser);
-    return () => {
-      window.removeEventListener(AUTH_CHANGED_EVENT, syncUser);
-      window.removeEventListener("storage", syncUser);
-    };
   }, []);
 
   useEffect(() => {
@@ -260,10 +262,8 @@ export default function ForumPage() {
     fetchReplies(selectedPostId);
   }, [fetchReplies, selectedPostId]);
 
-  const requireUser = (message) => {
-    const user = getCurrentUser();
-    setCurrentUser(user);
-    if (!user) {
+  const requirePhoneMockUser = (message) => {
+    if (!user || user.loginType === "guest") {
       setErrorMessage(message);
       return null;
     }
@@ -281,8 +281,8 @@ export default function ForumPage() {
   };
 
   const handleOpenPostForm = () => {
-    const user = requireUser("请先登录或使用游客体验后再发布帖子。");
-    if (!user || !ensureDatabaseConfigured()) return;
+    const authUser = requirePhoneMockUser("请先使用手机号体验登录后再发布帖子。");
+    if (!authUser || !ensureDatabaseConfigured()) return;
 
     setShowPostForm(true);
     setPostError("");
@@ -290,8 +290,8 @@ export default function ForumPage() {
   };
 
   const handlePublishPost = async () => {
-    const user = requireUser("请先登录或使用游客体验后再发布帖子。");
-    if (!user || !ensureDatabaseConfigured()) return;
+    const authUser = requirePhoneMockUser("请先使用手机号体验登录后再发布帖子。");
+    if (!authUser || !ensureDatabaseConfigured()) return;
 
     const title = postForm.title.trim();
     const content = postForm.content.trim();
@@ -321,7 +321,7 @@ export default function ForumPage() {
         title,
         content,
         category,
-        ...getAuthorPayload(user),
+        ...getAuthorPayload(authUser),
       };
       const { data, error } = await supabase
         .from("forum_posts")
@@ -349,8 +349,8 @@ export default function ForumPage() {
   };
 
   const handleReply = async () => {
-    const user = requireUser("请先登录或使用游客体验后再回复帖子。");
-    if (!user || !selectedPost || !ensureDatabaseConfigured()) return;
+    const authUser = requirePhoneMockUser("请先使用手机号体验登录后再回复帖子。");
+    if (!authUser || !selectedPost || !ensureDatabaseConfigured()) return;
 
     const content = replyContent.trim();
     if (!content) {
@@ -366,7 +366,7 @@ export default function ForumPage() {
       const payload = {
         post_id: selectedPost.id,
         content,
-        ...getAuthorPayload(user),
+        ...getAuthorPayload(authUser),
       };
       const { error } = await supabase.from("forum_replies").insert([payload]);
 
@@ -402,12 +402,6 @@ export default function ForumPage() {
             发布帖子
           </button>
         </div>
-
-        {isGuest && (
-          <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-            游客模式下昵称和数据为临时身份，后续正式版将接入真实账号系统。
-          </div>
-        )}
 
         {errorMessage && (
           <div className="mt-6 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm leading-6 text-red-700">
@@ -528,7 +522,10 @@ export default function ForumPage() {
                     </div>
                     <p className="mt-3 line-clamp-2 text-sm leading-6 text-slate-600">{getExcerpt(post.content)}</p>
                     <div className="mt-4 flex flex-wrap items-center gap-3 text-xs font-semibold text-slate-500">
-                      <span>{post.authorName}</span>
+                      <span className="inline-flex items-center gap-1.5">
+                        <AuthorAvatar name={post.authorName} avatarUrl={post.authorAvatar} />
+                        {post.authorName}
+                      </span>
                       <span>{formatTime(post.createdAt)}</span>
                       <span className="inline-flex items-center gap-1">
                         <MessageCircle size={14} aria-hidden="true" />
@@ -552,7 +549,7 @@ export default function ForumPage() {
                     <h2 className="mt-3 text-2xl font-bold leading-8 text-slate-950">{selectedPost.title}</h2>
                     <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-slate-500">
                       <span className="inline-flex items-center gap-1.5">
-                        <UserRound size={15} aria-hidden="true" />
+                        <AuthorAvatar name={selectedPost.authorName} avatarUrl={selectedPost.authorAvatar} />
                         {selectedPost.authorName}
                       </span>
                       <span>{formatTime(selectedPost.createdAt)}</span>
@@ -577,7 +574,10 @@ export default function ForumPage() {
                       replies.map((reply) => (
                         <div key={reply.id} className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
                           <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-slate-500">
-                            <span>{reply.authorName}</span>
+                            <span className="inline-flex items-center gap-1.5">
+                              <AuthorAvatar name={reply.authorName} avatarUrl={reply.authorAvatar} />
+                              {reply.authorName}
+                            </span>
                             <span>{formatTime(reply.createdAt)}</span>
                           </div>
                           <p className="mt-2 whitespace-pre-wrap text-sm leading-6 text-slate-700">{reply.content}</p>
