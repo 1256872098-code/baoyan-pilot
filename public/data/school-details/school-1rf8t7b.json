@@ -3,21 +3,40 @@
   "name": "北京大学",
   "status": "building",
   "lastUpdated": null,
-  "colleges": [
+  "academicUnits": [
     {
       "id": "mathematical-sciences",
       "name": "数学科学学院",
+      "unitType": "学院",
+      "aliases": [],
       "officialWebsite": "",
-      "majorNames": [],
-      "dataStatus": "building"
+      "sourceUrl": "https://www.pku.edu.cn/department.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "building",
+      "confidence": 0.6,
+      "lastCheckedAt": "2026-07-13"
     },
     {
       "id": "computer-science",
       "name": "计算机学院",
+      "unitType": "学院",
+      "aliases": [],
       "officialWebsite": "",
-      "majorNames": [],
-      "dataStatus": "building"
+      "sourceUrl": "https://www.pku.edu.cn/department.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "building",
+      "confidence": 0.6,
+      "lastCheckedAt": "2026-07-13"
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "title": "北京大学院系机构",
+      "url": "https://www.pku.edu.cn/department.html",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13",
+      "lastCheckedAt": "2026-07-13"
+    }
+  ]
 }

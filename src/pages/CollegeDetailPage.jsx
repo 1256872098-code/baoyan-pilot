@@ -5,11 +5,8 @@ import { Card } from "../components/Card.jsx";
 import CollegeContent from "../components/school-detail/CollegeContent.jsx";
 import CollegeSidebar from "../components/school-detail/CollegeSidebar.jsx";
 import SchoolHeader from "../components/school-detail/SchoolHeader.jsx";
+import { getAcademicUnits } from "../utils/academicUnits.js";
 import { fetchCollegeDetail, fetchSchoolDetail, fetchSchools } from "../utils/schoolData.js";
-
-function getColleges(detail) {
-  return Array.isArray(detail?.colleges) ? detail.colleges : [];
-}
 
 function ErrorState({ title, description, schoolId, onRetry }) {
   return (
@@ -77,8 +74,8 @@ export default function CollegeDetailPage() {
   }, [collegeId, reloadKey, schoolId]);
 
   const school = useMemo(() => schools.find((item) => item.id === schoolId) || null, [schoolId, schools]);
-  const colleges = getColleges(schoolDetail);
-  const college = colleges.find((item) => item.id === collegeId) || null;
+  const academicUnits = getAcademicUnits(schoolDetail);
+  const college = academicUnits.find((item) => item.id === collegeId) || null;
 
   if (loading) {
     return (
@@ -137,7 +134,7 @@ export default function CollegeDetailPage() {
         />
 
         <div className="mt-6 grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:items-start">
-          <CollegeSidebar schoolId={school.id} colleges={colleges} activeCollegeId={college.id} />
+          <CollegeSidebar schoolId={school.id} colleges={academicUnits} activeCollegeId={college.id} />
 
           <CollegeContent
             school={school}

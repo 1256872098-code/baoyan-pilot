@@ -12,3 +12,5 @@ vite-dev.*.log
 rendered-dom.txt
 *-headless.err.txt
 tmp-*
+scripts/cache/
+scripts/outputs/raw/

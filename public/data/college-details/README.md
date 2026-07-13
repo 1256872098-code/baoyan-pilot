@@ -27,6 +27,32 @@ Expected structure:
 }
 ```
 
+Notice structure:
+
+```json
+{
+  "id": "string",
+  "title": "string",
+  "type": "policy",
+  "year": 2025,
+  "majorTags": [],
+  "publishedAt": null,
+  "deadline": null,
+  "summary": "",
+  "keyPoints": [],
+  "materials": [],
+  "assessment": [],
+  "source": {
+    "title": "string",
+    "url": "string",
+    "sourceType": "official-notice"
+  },
+  "crawledAt": null,
+  "lastCheckedAt": null,
+  "contentHash": null
+}
+```
+
 Future crawler output should follow:
 
 ```text

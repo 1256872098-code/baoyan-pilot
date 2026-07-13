@@ -4,7 +4,29 @@ import { Search } from "lucide-react";
 import { Card } from "../Card.jsx";
 
 function getStatusClass(status) {
-  return status === "available" ? "bg-emerald-50 text-emerald-700" : "bg-blue-50 text-brand-700";
+  if (["available", "verified"].includes(status)) {
+    return "bg-emerald-50 text-emerald-700";
+  }
+
+  if (status === "inactive") {
+    return "bg-slate-100 text-slate-500";
+  }
+
+  if (status === "pending-review") {
+    return "bg-amber-50 text-amber-700";
+  }
+
+  return "bg-blue-50 text-brand-700";
+}
+
+function getStatusText(status) {
+  return {
+    available: "已有资料",
+    verified: "已核验",
+    "pending-review": "待复核",
+    inactive: "已停用",
+    building: "建设中",
+  }[status] || "建设中";
 }
 
 export default function CollegeSidebar({ schoolId, colleges, activeCollegeId }) {
@@ -79,7 +101,7 @@ export default function CollegeSidebar({ schoolId, colleges, activeCollegeId }) 
                   >
                     <span className="block truncate font-semibold">{college.name}</span>
                     <span className={`mt-2 inline-flex rounded-full px-2 py-0.5 text-xs font-semibold ${getStatusClass(college.dataStatus)}`}>
-                      {college.dataStatus === "available" ? "已有资料" : "建设中"}
+                      {getStatusText(college.dataStatus)}
                     </span>
                   </Link>
                 );

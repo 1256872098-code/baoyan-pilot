@@ -1,0 +1,17 @@
+[
+  {
+    "schoolId": "school-1rf8t7b",
+    "collegeId": "computer-science",
+    "schoolName": "北京大学",
+    "collegeName": "计算机学院",
+    "officialWebsite": "",
+    "sourcePages": [
+      {
+        "name": "学院官网通知列表",
+        "url": "",
+        "sourceType": "department",
+        "enabled": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-07-13T05:53:13.410Z",
+  "schoolTotal": 427,
+  "detailFileCount": 1,
+  "schoolsWithAcademicUnits": 1,
+  "totalAcademicUnits": 2,
+  "pendingReviewSchools": 0,
+  "reviewItemCount": 0,
+  "missingDetailSchools": 426,
+  "schools": [
+    {
+      "schoolId": "school-1rf8t7b",
+      "schoolName": "北京大学",
+      "file": "school-1rf8t7b.json",
+      "unitCount": 2,
+      "statusCounts": {
+        "building": 2
+      },
+      "sourceCount": 1,
+      "lastUpdated": null
+    }
+  ]
+}

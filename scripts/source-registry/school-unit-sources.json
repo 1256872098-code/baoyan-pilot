@@ -1,0 +1,16 @@
+[
+  {
+    "schoolId": "school-1rf8t7b",
+    "schoolName": "北京大学",
+    "officialWebsite": "https://www.pku.edu.cn/",
+    "candidatePages": [
+      {
+        "name": "院系机构",
+        "url": "https://www.pku.edu.cn/department.html",
+        "sourceType": "academic-units",
+        "enabled": false
+      }
+    ],
+    "crawlStatus": "pending"
+  }
+]

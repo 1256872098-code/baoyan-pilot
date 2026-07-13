@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from "react";
-import { ExternalLink, FileSearch } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Card } from "../Card.jsx";
+import NoticeList from "./NoticeList.jsx";
 
 const allOption = "全部";
-const fixedYears = [2026, 2025, 2024];
 const dataTypeOptions = [
   { value: "all", label: "全部资料" },
   { value: "policy", label: "推免总体办法" },
@@ -14,27 +14,15 @@ const dataTypeOptions = [
   { value: "material", label: "材料清单" },
   { value: "assessment", label: "考核流程" },
   { value: "timeline", label: "重要时间节点" },
-  { value: "experience", label: "往年经验" },
+  { value: "other", label: "其他通知" },
 ];
 
-const typeLabelMap = Object.fromEntries(dataTypeOptions.map((item) => [item.value, item.label]));
-
 function getAllRecords(detail) {
-  if (!detail) {
-    return [];
-  }
-
-  return [
-    ...(Array.isArray(detail.notices) ? detail.notices : []),
-    ...(Array.isArray(detail.requirements) ? detail.requirements : []),
-    ...(Array.isArray(detail.materials) ? detail.materials : []),
-    ...(Array.isArray(detail.assessment) ? detail.assessment : []),
-    ...(Array.isArray(detail.timeline) ? detail.timeline : []),
-  ];
+  return Array.isArray(detail?.notices) ? detail.notices : [];
 }
 
 function getYearOptions(records) {
-  const years = new Set(fixedYears);
+  const years = new Set();
   records.forEach((record) => {
     if (record.year) {
       years.add(record.year);
@@ -46,11 +34,23 @@ function getYearOptions(records) {
 
 function getMajorOptions(college, detail) {
   const majors = new Set([...(college.majorNames || []), ...(detail?.majors || [])]);
+  getAllRecords(detail).forEach((record) => {
+    (record.majorTags || []).forEach((major) => majors.add(major));
+  });
   return [allOption, ...majors];
 }
 
+function getPublishedTimeValue(notice) {
+  const value = notice.publishedAt || notice.year || "";
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? 0 : date.getTime();
+}
+
 export default function CollegeContent({ school, college, detail, dataMissing }) {
-  const records = useMemo(() => getAllRecords(detail), [detail]);
+  const records = useMemo(
+    () => [...getAllRecords(detail)].sort((a, b) => getPublishedTimeValue(b) - getPublishedTimeValue(a)),
+    [detail],
+  );
   const [majorFilter, setMajorFilter] = useState(allOption);
   const [yearFilter, setYearFilter] = useState(allOption);
   const [typeFilter, setTypeFilter] = useState("all");
@@ -152,43 +152,15 @@ export default function CollegeContent({ school, college, detail, dataMissing })
           <span className="text-sm font-semibold text-slate-500">{filteredRecords.length} 条</span>
         </div>
 
-        {filteredRecords.length ? (
-          <div className="mt-4 space-y-3">
-            {filteredRecords.map((record) => (
-              <div key={record.id} className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                  <div>
-                    <h3 className="font-bold text-slate-950">{record.title}</h3>
-                    <p className="mt-2 text-sm leading-6 text-slate-500">
-                      {typeLabelMap[record.type] || record.type || "资料"} · {record.year || "年份待补充"} ·{" "}
-                      {record.publishedAt || "发布时间待补充"}
-                    </p>
-                    <p className="mt-1 text-sm leading-6 text-slate-500">
-                      适用专业：{record.majorTags?.length ? record.majorTags.join("、") : "全部/待补充"} · 来源单位：
-                      {record.sourceDepartment || "待补充"}
-                    </p>
-                  </div>
-                  {record.sourceUrl ? (
-                    <a className="btn-secondary shrink-0" href={record.sourceUrl} target="_blank" rel="noreferrer">
-                      查看原文
-                    </a>
-                  ) : (
-                    <span className="rounded-md border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-400">
-                      原文待补充
-                    </span>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="mt-4 rounded-lg border border-dashed border-blue-100 bg-blue-50/70 px-4 py-8 text-center">
-            <FileSearch className="mx-auto h-9 w-9 text-brand-600" aria-hidden="true" />
-            <p className="mt-3 text-sm font-semibold text-slate-700">
-              该部分资料正在整理中，后续将根据学校研究生院和招生学院官网公开信息持续更新。
-            </p>
-          </div>
-        )}
+        <div className="mt-4">
+          <NoticeList notices={filteredRecords} />
+        </div>
+      </Card>
+
+      <Card className="border-blue-100 bg-blue-50 p-5">
+        <p className="text-sm leading-7 text-slate-700">
+          本站仅对学校和学院官网公开信息进行整理和概括。具体申请条件、时间安排和材料要求，请以官方原文及当年最新通知为准。
+        </p>
       </Card>
     </div>
   );

@@ -4,11 +4,8 @@ import { ArrowLeft, Database } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import CollegeSidebar from "../components/school-detail/CollegeSidebar.jsx";
 import SchoolHeader from "../components/school-detail/SchoolHeader.jsx";
+import { getAcademicUnits } from "../utils/academicUnits.js";
 import { fetchSchoolDetail, fetchSchools } from "../utils/schoolData.js";
-
-function getColleges(detail) {
-  return Array.isArray(detail?.colleges) ? detail.colleges : [];
-}
 
 function LoadErrorCard({ message, onRetry }) {
   return (
@@ -129,7 +126,7 @@ export default function SchoolDetailPage() {
     );
   }
 
-  const colleges = getColleges(detail);
+  const academicUnits = getAcademicUnits(detail);
   const detailStatus = detail?.status || school.detailStatus || "building";
 
   return (
@@ -150,21 +147,21 @@ export default function SchoolDetailPage() {
         )}
 
         <div className="mt-6 grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:items-start">
-          <CollegeSidebar schoolId={school.id} colleges={colleges} activeCollegeId="" />
+          <CollegeSidebar schoolId={school.id} colleges={academicUnits} activeCollegeId="" />
 
           <div className="space-y-5">
-            {colleges.length ? (
+            {academicUnits.length ? (
               <Card className="p-8 text-center">
                 <Database className="mx-auto h-10 w-10 text-brand-600" aria-hidden="true" />
-                <h2 className="mt-4 text-xl font-bold text-slate-950">请选择学院</h2>
+                <h2 className="mt-4 text-xl font-bold text-slate-950">请选择学院或培养单位</h2>
                 <p className="mt-3 text-sm leading-7 text-slate-500">
-                  请从左侧选择学院，查看该学院的招生专业、推免政策和申请资料。
+                  请从左侧选择学院、学部、系、研究院或其他培养单位，查看对应的招生专业、推免政策和申请资料。
                 </p>
               </Card>
             ) : (
               <Card className="p-8 text-center">
                 <Database className="mx-auto h-10 w-10 text-slate-300" aria-hidden="true" />
-                <h2 className="mt-4 text-xl font-bold text-slate-950">学院目录建设中</h2>
+                <h2 className="mt-4 text-xl font-bold text-slate-950">学院目录正在补充中</h2>
                 <p className="mt-3 text-sm leading-7 text-slate-500">
                   当前暂未整理该校学院目录。后续将根据学校研究生院和招生学院官网公开信息持续更新。
                 </p>
