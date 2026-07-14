@@ -147,7 +147,7 @@ export default function MySchoolPage() {
     return () => controller.abort();
   }, [binding?.collegeId, binding?.schoolId]);
 
-  const academicUnits = useMemo(() => getAcademicUnits(schoolDetail), [schoolDetail]);
+  const collegeOptions = useMemo(() => getAcademicUnits(schoolDetail), [schoolDetail]);
 
   const notices = Array.isArray(collegeDetail?.notices) ? collegeDetail.notices : [];
 
@@ -165,7 +165,7 @@ export default function MySchoolPage() {
       }
 
       if (field === "collegeId") {
-        const college = academicUnits.find((unit) => unit.id === value);
+        const college = collegeOptions.find((unit) => unit.id === value);
         return {
           ...current,
           collegeId: value,
@@ -233,7 +233,7 @@ export default function MySchoolPage() {
       <CardHeader
         eyebrow="院校绑定"
         title="绑定本科院校"
-        description="绑定后可以集中查看本校推免政策、学院目录、相关通知和学校评价。"
+        description="绑定后可以集中查看本校推免政策、相关通知和学校评价。"
       />
 
       <div className="mt-5 grid gap-4 lg:grid-cols-2">
@@ -254,16 +254,16 @@ export default function MySchoolPage() {
             className="field-control"
             value={form.collegeId || ""}
             onChange={(event) => updateForm("collegeId", event.target.value)}
-            disabled={!form.schoolId || !academicUnits.length}
+            disabled={!form.schoolId || !collegeOptions.length}
           >
             <option value="">
               {!form.schoolId
                 ? "请先选择本科院校"
-                : academicUnits.length
+                : collegeOptions.length
                   ? "可先不选择学院"
                   : "学院目录尚未补充，可先只绑定学校"}
             </option>
-            {academicUnits.map((unit) => (
+            {collegeOptions.map((unit) => (
               <option key={unit.id} value={unit.id}>
                 {unit.name}
               </option>
@@ -438,32 +438,6 @@ export default function MySchoolPage() {
                   />
                 </Card>
               </div>
-
-              <Card className="p-6">
-                <h2 className="text-xl font-bold text-slate-950">学院与专业</h2>
-                {academicUnits.length ? (
-                  <div className="mt-4 grid gap-3 md:grid-cols-2">
-                    {academicUnits.slice(0, 12).map((unit) => {
-                      const active = unit.id === binding.collegeId;
-                      return (
-                        <Link
-                          key={unit.id}
-                          to={`/schools/${binding.schoolId}/colleges/${unit.id}`}
-                          className={[
-                            "rounded-lg border p-4 text-sm transition hover:border-brand-300 hover:bg-blue-50/50",
-                            active ? "border-blue-200 bg-blue-50 text-brand-700" : "border-slate-200 bg-white text-slate-700",
-                          ].join(" ")}
-                        >
-                          <span className="font-semibold">{unit.name}</span>
-                          <span className="ml-2 text-xs text-slate-400">{unit.unitType}</span>
-                        </Link>
-                      );
-                    })}
-                  </div>
-                ) : (
-                  <EmptyInfo title="学院目录正在补充中" description="当前暂未整理该校学院目录，可以先只绑定学校。" />
-                )}
-              </Card>
 
               <div className="grid gap-6 lg:grid-cols-2">
                 <Card className="p-6">
