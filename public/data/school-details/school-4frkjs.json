@@ -1,0 +1,72 @@
+{
+  "schoolId": "school-4frkjs",
+  "name": "天津美术学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:50:45.231Z",
+  "academicUnits": [
+    {
+      "id": "unit-991e2dd6fc",
+      "name": "/02news天津美术学院召开庆祝中国共产党成立105周年暨“七一”表彰大会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjarts.edu.cn/info/1155/19184.htm",
+      "sourceUrl": "https://www.tjarts.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:50:45.222Z"
+    },
+    {
+      "id": "unit-c8ce154afd",
+      "name": "/30news天津美术学院召开2026年第一批校内岗位锻炼工作启动会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjarts.edu.cn/info/1155/19164.htm",
+      "sourceUrl": "https://www.tjarts.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:50:45.222Z"
+    },
+    {
+      "id": "unit-0f00183eb4",
+      "name": "美术馆隆重举办天津美术学院2026届毕业生作品捐赠仪式",
+      "unitType": "学院",
+      "aliases": [
+        "天津美术学院美术馆隆重举办天津美术学院2026届毕业生作品捐赠仪式"
+      ],
+      "officialWebsite": "https://www.tjarts.edu.cn/info/1157/19114.htm",
+      "sourceUrl": "https://www.tjarts.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:50:45.222Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tjarts.edu.cn",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:50:45.231Z",
+      "lastCheckedAt": "2026-07-13T12:50:45.231Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tjarts.edu.cn/",
+    "sourceUrls": [
+      "https://www.tjarts.edu.cn"
+    ],
+    "lastCrawledAt": "2026-07-13T12:50:45.231Z",
+    "lastCheckedAt": "2026-07-13T12:50:45.231Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schoolId": "school-nfa6",
+  "name": "厦门大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:25:04.329Z",
+  "academicUnits": [
+    {
+      "id": "unit-0668744bcc",
+      "name": "(深圳)研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "厦门大学(深圳)研究院"
+      ],
+      "officialWebsite": "http://www.xmusz.cn/",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-1998d26cfc",
+      "name": "地球科学与技术学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/dqkxyjsxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-062fc28cb6",
+      "name": "工程技术学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/gcjsxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-418f20621a",
+      "name": "合作交流国际合作与交流港澳台合作与交流孔子学院留学服务",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://oec.xmu.edu.cn/index.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-2da569b310",
+      "name": "人文与艺术学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/rwyysxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-54f04c54da",
+      "name": "社会科学学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/shkxxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-dc9ff2139e",
+      "name": "学部院系",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-98dc9c8778",
+      "name": "学院院徽",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/sdgl/xyyh1.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-6d39c00316",
+      "name": "医学与生命科学学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/yxysmkxxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    },
+    {
+      "id": "unit-908261d61f",
+      "name": "自然科学学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.xmu.edu.cn/xbyx/zrkxxb.htm",
+      "sourceUrl": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:04.311Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:25:04.329Z",
+      "lastCheckedAt": "2026-07-13T14:25:04.329Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.xmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.xmu.edu.cn/sdgl/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:25:04.329Z",
+    "lastCheckedAt": "2026-07-13T14:25:04.329Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 11,
+    "newUnitCount": 11,
+    "verifiedCount": 11,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

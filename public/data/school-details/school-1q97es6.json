@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1q97es6",
+  "name": "上海中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:50:25.641Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://iec.shutcm.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:50:25.641Z",
+    "lastCheckedAt": "2026-07-13T13:50:25.641Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

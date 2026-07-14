@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-t3a874",
+  "name": "中南林业科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:18:50.196Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-14T01:18:50.196Z",
+    "lastCheckedAt": "2026-07-14T01:18:50.196Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "title contains school name"
+  }
+}

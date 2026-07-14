@@ -1,0 +1,149 @@
+{
+  "schoolId": "school-jwli6d",
+  "name": "武汉轻工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:52:48.534Z",
+  "academicUnits": [
+    {
+      "id": "unit-d7cc751458",
+      "name": "07“锚定未来，职引成长”动科学院成功举办第三届全国大学生职业规划大赛院赛",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/6971.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-e419bb6f5c",
+      "name": "07动科学院召开2025-2026学年第1学期期中教学检查学生座谈会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/6461.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-955707289d",
+      "name": "07动科学院组织开展2026届学生毕业实习答辩",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/7611.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-ab6f771393",
+      "name": "12动科学院召开创新班人才培养方案交流讨论会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/6671.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-d53ee27611",
+      "name": "15动科学院开展毕业生感恩诚信主题教育活动",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/6231.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-0968692573",
+      "name": "18【动科学院】动科学院动物生产类专业开展新生入学专业教育暨创新创业沙龙活动",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/info/1019/6201.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-0adde93a7a",
+      "name": "产业学院",
+      "unitType": "学院",
+      "aliases": [
+        "产业学院基本情况工作动态",
+        "产业学院"
+      ],
+      "officialWebsite": "https://sasne.whpu.edu.cn/cyxy/jbqk.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-2af6dde058",
+      "name": "学院风采",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sasne.whpu.edu.cn/xygk/xyfc.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.499Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介现任领导机构设置历史沿革专业介绍学院风采联系方式"
+      ],
+      "officialWebsite": "https://sasne.whpu.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:52:48.498Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:52:48.534Z",
+      "lastCheckedAt": "2026-07-13T14:52:48.534Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://sasne.whpu.edu.cn/",
+    "sourceUrls": [
+      "https://sasne.whpu.edu.cn/rcpy/bksjy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:52:48.534Z",
+    "lastCheckedAt": "2026-07-13T14:52:48.534Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 9,
+    "newUnitCount": 9,
+    "verifiedCount": 9,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

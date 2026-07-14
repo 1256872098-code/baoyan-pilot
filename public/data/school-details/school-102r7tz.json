@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-102r7tz",
+  "name": "上海电力大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:49:41.432Z",
+  "academicUnits": [
+    {
+      "id": "unit-966d591359",
+      "name": "电气工程学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://dqxb.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-dee16b393c",
+      "name": "环境与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hhxy.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jgxy.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://skb.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-ceacb1e676",
+      "name": "能源与机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://energy.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-1cf600c46a",
+      "name": "人工智能学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://fai.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-4b980360cd",
+      "name": "数理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slxy.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tyb.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-289324957a",
+      "name": "文科学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://wkxb.shiep.edu.cn/",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    },
+    {
+      "id": "unit-8e6fde3273",
+      "name": "组织机构学院设置党群部门行政部门",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "sourceUrl": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:41.425Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:49:41.432Z",
+      "lastCheckedAt": "2026-07-13T13:49:41.432Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.shiep.edu.cn/",
+    "sourceUrls": [
+      "https://www.shiep.edu.cn/colleges_and_departments/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:49:41.432Z",
+    "lastCheckedAt": "2026-07-13T13:49:41.432Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

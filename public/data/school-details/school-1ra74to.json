@@ -1,0 +1,280 @@
+{
+  "schoolId": "school-1ra74to",
+  "name": "齐齐哈尔大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:45:21.416Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/clkxxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-7bf8dd7465",
+      "name": "化学与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/hxhgxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.406Z"
+    },
+    {
+      "id": "unit-9970ddd666",
+      "name": "机电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/jdgcxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-1b3da43f4a",
+      "name": "计算机与控制工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/jsjgcxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.406Z"
+    },
+    {
+      "id": "unit-441568df2d",
+      "name": "建筑与土木工程学院(应用技术学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/jzytmgcxyyyjsxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-780d0599b3",
+      "name": "教师教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/jycmxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/jjyglxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/lxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/mkszyxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-41dd3e85c8",
+      "name": "美术与艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/msyyssjxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-05f23a2a50",
+      "name": "轻工与纺织学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/qgyfzxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-7667751726",
+      "name": "生命科学与农林学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/smkxynlxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-ea6689ac05",
+      "name": "食品与生物工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/spyswgcxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/tyxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-657cca07e9",
+      "name": "通信与电子工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/txdzxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/wgyxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-f0ccc13617",
+      "name": "校园文化+标准字及释义标识及释义校旗及释义校训及释义学风教风校风学院标识释义",
+      "unitType": "学院",
+      "aliases": [
+        "校园文化标准字及释义标识及释义校旗及释义校训及释义学风教风校风学院标识释义",
+        "校园文化+标准字及释义标识及释义校旗及释义校训及释义学风教风校风学院标识释义"
+      ],
+      "officialWebsite": "https://www.qqhru.edu.cn/xywh/bzzjsy.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-8993b28ec5",
+      "name": "学院标识释义",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/xywh/xybssy.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.406Z"
+    },
+    {
+      "id": "unit-5054ddf892",
+      "name": "音乐与舞蹈学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.qqhru.edu.cn/yywdxy/xyjj.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    },
+    {
+      "id": "unit-eabc26e032",
+      "name": "组织机构+机构设置学院设置教辅设置",
+      "unitType": "学院",
+      "aliases": [
+        "组织机构机构设置学院设置教辅设置",
+        "组织机构+机构设置学院设置教辅设置"
+      ],
+      "officialWebsite": "https://www.qqhru.edu.cn/zzjg1.htm",
+      "sourceUrl": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:45:21.407Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:45:21.416Z",
+      "lastCheckedAt": "2026-07-13T13:45:21.416Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.qqhru.edu.cn/",
+    "sourceUrls": [
+      "https://www.qqhru.edu.cn/zzjg1/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:45:21.416Z",
+    "lastCheckedAt": "2026-07-13T13:45:21.416Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 20,
+    "newUnitCount": 20,
+    "verifiedCount": 20,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

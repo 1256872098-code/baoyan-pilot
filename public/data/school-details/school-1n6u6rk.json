@@ -1,0 +1,238 @@
+{
+  "schoolId": "school-1n6u6rk",
+  "name": "鲁迅美术学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:31:40.627Z",
+  "academicUnits": [
+    {
+      "id": "unit-cb360922e5",
+      "name": "传媒动画学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/cmdhxy",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-b55cbe5290",
+      "name": "大连校区基础教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://www.lumei.edu.cn/dljcjxb",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-ad4a756bc9",
+      "name": "雕塑艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/dsx",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-1f3633beb1",
+      "name": "工艺美术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.lumei.edu.cn/gymssjxy",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-f7ee67d4aa",
+      "name": "国际服装学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.lumei.edu.cn/whgjfzxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-2ec7405748",
+      "name": "绘画艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/hhysxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-49a60f0f40",
+      "name": "基础教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/jcjxb",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-91eeb9afb5",
+      "name": "建筑艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/jzyssjxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-ab770796c0",
+      "name": "教育教学本科生教育研究生教育实验室学科专业",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/jyjx/bksjy.htm",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-0f6d63c6a5",
+      "name": "跨媒体艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/szb",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-97c6fdf67a",
+      "name": "染织服装艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/rzfzyssjx/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/rwxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-4ae2c4c7e7",
+      "name": "实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/jyjx/sys.htm",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-635b2b7edb",
+      "name": "视觉传达设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/sjcdsjxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-6b5db90867",
+      "name": "中国画学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.lumei.edu.cn/zghxy/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    },
+    {
+      "id": "unit-f99256277a",
+      "name": "中英数字媒体(数字媒体)艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.lumei.edu.cn/dalian_zhongying/",
+      "sourceUrl": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:40.620Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:31:40.627Z",
+      "lastCheckedAt": "2026-07-13T13:31:40.627Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.lumei.edu.cn/",
+    "sourceUrls": [
+      "https://www.lumei.edu.cn/zzjg/jxjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:31:40.627Z",
+    "lastCheckedAt": "2026-07-13T13:31:40.627Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "schoolId": "school-vov9o1",
+  "name": "大连外国语大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:30:09.885Z",
+  "academicUnits": [
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-668ce4dedb",
+      "name": "德语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ge.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-e32404a7ab",
+      "name": "俄语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ru.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-7331b895d6",
+      "name": "法语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fr.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-5b18b9d42a",
+      "name": "高级翻译学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sati.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-597717bd20",
+      "name": "国际关系学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sis.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sie.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-c30e8a4492",
+      "name": "国际艺术学院(艺术产品创意产业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://art.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-2af6a77d27",
+      "name": "韩国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://kr.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-612163fd64",
+      "name": "汉学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://scs.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marx.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-14f6f973eb",
+      "name": "欧洲语言学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://europe.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-01c5e36d9a",
+      "name": "日本语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jp.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-b85d14a73e",
+      "name": "软件学院(大数据产业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://it.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sxy.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-8977936885",
+      "name": "网络孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.chinesecio.com/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.878Z"
+    },
+    {
+      "id": "unit-52029c71db",
+      "name": "亚非语言学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://saa.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    },
+    {
+      "id": "unit-6d72490fe1",
+      "name": "英语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://en.dlufl.edu.cn/",
+      "sourceUrl": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:09.877Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:30:09.885Z",
+      "lastCheckedAt": "2026-07-13T13:30:09.885Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.dlufl.edu.cn/",
+    "sourceUrls": [
+      "https://www.dlufl.edu.cn/jgsz/yxsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:30:09.885Z",
+    "lastCheckedAt": "2026-07-13T13:30:09.885Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

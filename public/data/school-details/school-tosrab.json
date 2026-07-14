@@ -1,0 +1,250 @@
+{
+  "schoolId": "school-tosrab",
+  "name": "桂林电子科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:33:09.946Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept10",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-eccdecb375",
+      "name": "电子工程与自动化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept8/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept9/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-89d586812b",
+      "name": "光电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept16",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/international",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-9970ddd666",
+      "name": "机电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept1",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-6142655473",
+      "name": "计算机与信息安全学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept3",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-93660d24ab",
+      "name": "建筑与交通工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/jjxy",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-6f1bd90bff",
+      "name": "克莱蒙智能金融学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/ciif/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/mks/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-03dc1d189b",
+      "name": "南宁研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/nyy/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/sai/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept5/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-6a5f936f9b",
+      "name": "生命与环境科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept12/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-01b2286029",
+      "name": "数学与计算科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept7",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept6/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-638591b00b",
+      "name": "信息与通信学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/dept2/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    },
+    {
+      "id": "unit-141cce7eb5",
+      "name": "艺术与设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.guet.edu.cn/design/",
+      "sourceUrl": "https://www.guet.edu.cn/jxdw/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:33:09.939Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.guet.edu.cn/jxdw/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:33:09.946Z",
+      "lastCheckedAt": "2026-07-14T01:33:09.946Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.guet.edu.cn/",
+    "sourceUrls": [
+      "https://www.guet.edu.cn/jxdw/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:33:09.946Z",
+    "lastCheckedAt": "2026-07-14T01:33:09.946Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

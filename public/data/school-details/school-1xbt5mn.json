@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1xbt5mn",
+  "name": "吉首大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T16:19:34.741Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "source-not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T16:19:34.741Z",
+    "lastCheckedAt": "2026-07-13T16:19:34.741Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "fetch failed"
+  }
+}

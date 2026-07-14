@@ -3,7 +3,6 @@ import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
-import AssessmentPage from "./pages/AssessmentPage.jsx";
 import SchoolsPage from "./pages/SchoolsPage.jsx";
 import SchoolDetailPage from "./pages/SchoolDetailPage.jsx";
 import CollegeDetailPage from "./pages/CollegeDetailPage.jsx";
@@ -21,7 +20,9 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/assessment" element={<AssessmentPage />} />
+          <Route path="/assessment" element={<Navigate to="/ai-recommend" replace />} />
+          <Route path="/profile-assessment" element={<Navigate to="/ai-recommend" replace />} />
+          <Route path="/evaluation" element={<Navigate to="/ai-recommend" replace />} />
           <Route path="/schools" element={<SchoolsPage />} />
           <Route path="/schools/:schoolId" element={<SchoolDetailPage />} />
           <Route path="/schools/:schoolId/colleges/:collegeId" element={<CollegeDetailPage />} />

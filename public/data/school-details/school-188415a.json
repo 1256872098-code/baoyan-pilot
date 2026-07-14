@@ -1,0 +1,434 @@
+{
+  "schoolId": "school-188415a",
+  "name": "中国药科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:07:21.735Z",
+  "academicUnits": [
+    {
+      "id": "unit-8ed78f6cc1",
+      "name": "重庆中国药科大学创新研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cqcpu.com.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.704Z"
+    },
+    {
+      "id": "unit-4bf41d764d",
+      "name": "多靶标天然药物全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [
+        "生物药物学院",
+        "多靶标天然药物全国重点实验室",
+        "全国重点实验室多靶标天然药物全国重点实验室"
+      ],
+      "officialWebsite": "http://sklnm.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-d7ee2ac7dd",
+      "name": "工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gjc.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-68b941e04e",
+      "name": "国际医药商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-d2d3eec08f",
+      "name": "国家药物政策与医药产业经济研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://ndpe.cpu.edu.cn/main.htm",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-16b296b595",
+      "name": "国家执业药师发展研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://ndrclp.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-76d582b822",
+      "name": "基础医学与临床药学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bmcp.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-74518cf9b3",
+      "name": "江苏省抗代谢性疾病药物重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://dx.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-1d103c5c87",
+      "name": "江苏省药物分子设计与成药性优化重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://ddo.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-7a0a6e273e",
+      "name": "江苏省肿瘤发生与干预重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://jszl.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-459c35d9bf",
+      "name": "科学技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://ist.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [
+        "多靶标天然药物全国重点实验室",
+        "马克思主义学院"
+      ],
+      "officialWebsite": "http://marxism.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-d9ebc811c3",
+      "name": "孟目的学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mhc.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-88a1006808",
+      "name": "南京生物医药创新转化研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "中国药科大学南京生物医药创新转化研究院"
+      ],
+      "officialWebsite": "http://njbit.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.704Z"
+    },
+    {
+      "id": "unit-9c04969c6d",
+      "name": "生命科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sky.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    },
+    {
+      "id": "unit-6071bf2cc8",
+      "name": "生物药物成药性研究江苏省高校重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://dbio.cpu.edu.cn/main.htm",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.704Z"
+    },
+    {
+      "id": "unit-fb56dc7536",
+      "name": "生物药物学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://swywxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-b72384df17",
+      "name": "生物医药战略研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://zk.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-ef4d47f3d1",
+      "name": "生物医药卓越工程师学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zgxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-f3129ab408",
+      "name": "实验室风险受控",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://ehs.cpu.edu.cn/lsms",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    },
+    {
+      "id": "unit-297a25331e",
+      "name": "实验室管理",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://mall.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wywy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-7b2e91c029",
+      "name": "无锡创新研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "中国药科大学无锡创新研究院"
+      ],
+      "officialWebsite": "http://wxiri.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.704Z"
+    },
+    {
+      "id": "unit-418b4e2055",
+      "name": "现代制药产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cyxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.702Z"
+    },
+    {
+      "id": "unit-54a782c308",
+      "name": "新药安全评价研究中心",
+      "unitType": "研究中心",
+      "aliases": [
+        "药物制剂及辅料研究与评价重点实验室",
+        "新药安全评价研究中心",
+        "药品监管创新与评价重点实验室",
+        "智能制药关键技术教育部工程研究中心",
+        "抗感染新药创制教育部工程研究中心",
+        "靶标发现与新药创制国际合作联合实验室",
+        "禁毒关键技术联合实验室",
+        "江苏省药物代谢动力学重点实验室",
+        "江苏省半合成抗生素研究中心",
+        "江苏省中药评价与转化创新重点实验室",
+        "天然活性物质发现与研究江苏省高校重点实验室",
+        "江苏省合成多肽药物发现与评价工程研究中心",
+        "江苏省缓释智能制剂及关键功能性辅料开发与评价工程研究中心",
+        "(杭州)创新药物研究院"
+      ],
+      "officialWebsite": "http://www.cpu.edu.cn/wzzzjsz/list.htm",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-3f679910e2",
+      "name": "药物质量与安全预警教育部重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://dqcp.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.703Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    },
+    {
+      "id": "unit-2504d04fbd",
+      "name": "原创药物研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "中国药科大学原创药物研究院"
+      ],
+      "officialWebsite": "http://ycy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.704Z"
+    },
+    {
+      "id": "unit-a1841f7b3c",
+      "name": "中药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zyxy.cpu.edu.cn/",
+      "sourceUrl": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:21.701Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.cpu.edu.cn/zzjg/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:07:21.735Z",
+      "lastCheckedAt": "2026-07-13T14:07:21.735Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cpu.edu.cn/",
+    "sourceUrls": [
+      "http://www.cpu.edu.cn/zzjg/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:07:21.735Z",
+    "lastCheckedAt": "2026-07-13T14:07:21.735Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 31,
+    "newUnitCount": 31,
+    "verifiedCount": 31,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

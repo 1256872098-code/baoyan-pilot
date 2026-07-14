@@ -1,0 +1,253 @@
+{
+  "schoolId": "school-1l86cf",
+  "name": "长春中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:35:21.020Z",
+  "academicUnits": [
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cxcy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-9f6df65b5e",
+      "name": "创新创业学院网",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cxcy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://glxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://iec.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hlxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-ba14354f62",
+      "name": "基础医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jcyxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-f1786a3416",
+      "name": "康复医学院、中西医结合学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-82fd22baad",
+      "name": "临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://lcyxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://szb.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-339f838cd3",
+      "name": "青年马克思主义者培养学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://qmgc.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://tiyu.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-3bda11d0e4",
+      "name": "外语教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://wyjxb.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-60ac025d65",
+      "name": "医药信息学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yyxx.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-5e38420a0d",
+      "name": "招生就业本科招生网研究生招生网就业信息网创新创业学院网",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zjc.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-63992dc454",
+      "name": "针灸推拿学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ztxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-f08ea508d1",
+      "name": "职业技术学院",
+      "unitType": "学院",
+      "aliases": [
+        "教学管理单位职业技术学院继续教育学院国际教育学院",
+        "职业技术学院"
+      ],
+      "officialWebsite": "https://zyjsxy.ccucm.edu.cn/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    },
+    {
+      "id": "unit-779c5d6d0f",
+      "name": "中医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.jlhtcm.com/",
+      "sourceUrl": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:35:21.012Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:35:21.020Z",
+      "lastCheckedAt": "2026-07-13T13:35:21.020Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ccucm.edu.cn/",
+    "sourceUrls": [
+      "https://www.ccucm.edu.cn/zzjg/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:35:21.020Z",
+    "lastCheckedAt": "2026-07-13T13:35:21.020Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

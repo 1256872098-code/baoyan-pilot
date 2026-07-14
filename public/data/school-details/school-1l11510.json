@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-1l11510",
+  "name": "黑龙江科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:41:08.063Z",
+  "academicUnits": [
+    {
+      "id": "unit-c079eb7257",
+      "name": "安全与应急工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sse.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.053Z"
+    },
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smse.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://scxy.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-c612b85631",
+      "name": "电气与控制工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cece.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.053Z"
+    },
+    {
+      "id": "unit-57bd175eb6",
+      "name": "环境与化工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sece.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.053Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mech.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.053Z"
+    },
+    {
+      "id": "unit-24483d8eac",
+      "name": "建筑工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://soae.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cm.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ss.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smarx.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-c19bee4421",
+      "name": "能源与矿业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://some.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.053Z"
+    },
+    {
+      "id": "unit-0389efc6e0",
+      "name": "人文社会科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://shss.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://xfl.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    },
+    {
+      "id": "unit-3392d4e0dc",
+      "name": "智能与信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://scie.usth.edu.cn/",
+      "sourceUrl": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:41:08.054Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://usth.edu.cn/zzjg/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:41:08.063Z",
+      "lastCheckedAt": "2026-07-13T13:41:08.063Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://usth.edu.cn/",
+    "sourceUrls": [
+      "https://usth.edu.cn/zzjg/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:41:08.063Z",
+    "lastCheckedAt": "2026-07-13T13:41:08.063Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

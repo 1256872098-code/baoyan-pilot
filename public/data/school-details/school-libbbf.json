@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-libbbf",
+  "name": "浙江财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:16:21.660Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.zufe.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:16:21.660Z",
+    "lastCheckedAt": "2026-07-13T14:16:21.660Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

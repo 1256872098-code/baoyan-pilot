@@ -1,0 +1,146 @@
+{
+  "schoolId": "school-1g328bg",
+  "name": "山东师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:41:29.261Z",
+  "academicUnits": [
+    {
+      "id": "unit-cee049214f",
+      "name": "•学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-848624fe76",
+      "name": "基础教育课程研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/jcjykcyjzx.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-64fa740dfc",
+      "name": "教育技术系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/jyjsx.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-bafba3e076",
+      "name": "教育学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/jyxx.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-a996fddaa1",
+      "name": "小学教育系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/xxjyx.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [
+        "•学部简介",
+        "学部概况",
+        "学部简介"
+      ],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/xbjj.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.235Z"
+    },
+    {
+      "id": "unit-2fcd559565",
+      "name": "学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-a5902e39fd",
+      "name": "学前教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/xqjyxy.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    },
+    {
+      "id": "unit-9373d1f176",
+      "name": "职业技术教育研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jyxb.sdnu.edu.cn/xbgk1/szdw/zyjsjyyjy.htm",
+      "sourceUrl": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:29.236Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:41:29.261Z",
+      "lastCheckedAt": "2026-07-13T14:41:29.261Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.sdnu.edu.cn/",
+    "sourceUrls": [
+      "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:41:29.261Z",
+    "lastCheckedAt": "2026-07-13T14:41:29.261Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 9,
+    "newUnitCount": 9,
+    "verifiedCount": 9,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

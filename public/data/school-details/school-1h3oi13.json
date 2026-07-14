@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-1h3oi13",
+  "name": "山西中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:16:38.976Z",
+  "academicUnits": [
+    {
+      "id": "unit-65142fe465",
+      "name": "下一篇：老年健康学院召开工作座谈会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://news.sxtcm.edu.cn/info/1017/20122.htm",
+      "sourceUrl": "http://news.sxtcm.edu.cn/info/1017/20128.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:16:38.965Z"
+    },
+    {
+      "id": "unit-467df0552e",
+      "name": "中医药新产品创制山西省实验室(恒山实验室)筹建启动会...",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://news.sxtcm.edu.cn/info/1012/20107.htm",
+      "sourceUrl": "http://news.sxtcm.edu.cn/info/1017/20128.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:16:38.965Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://news.sxtcm.edu.cn/info/1017/20128.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:16:38.976Z",
+      "lastCheckedAt": "2026-07-13T13:16:38.976Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.sxtcm.edu.cn/",
+    "sourceUrls": [
+      "http://news.sxtcm.edu.cn/info/1017/20128.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:16:38.976Z",
+    "lastCheckedAt": "2026-07-13T13:16:38.976Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

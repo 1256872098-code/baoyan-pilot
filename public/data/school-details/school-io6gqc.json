@@ -1,0 +1,22 @@
+{
+  "schoolId": "school-io6gqc",
+  "name": "中国科学技术大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:19:15.357Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "failed",
+    "officialWebsite": "https://www.ustc.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:19:15.357Z",
+    "lastCheckedAt": "2026-07-13T14:19:15.357Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "单校抓取结果数量异常：0"
+  }
+}

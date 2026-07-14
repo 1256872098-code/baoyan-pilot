@@ -1,0 +1,190 @@
+{
+  "schoolId": "school-pg9xir",
+  "name": "外交学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:38:14.081Z",
+  "academicUnits": [
+    {
+      "id": "unit-223e2b5476",
+      "name": "公共服务学院地址学院电话",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cfau.edu.cn/col2849/index.htm",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-5821a04ccb",
+      "name": "国际法系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://gjfx.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-fae2d50111",
+      "name": "国际关系研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://iir.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cfau.edu.cn/col2843/col3837/index.htm",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-6c98b3b980",
+      "name": "国际经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjxy.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-49a60f0f40",
+      "name": "基础教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://jcb.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mks.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-c772e7807b",
+      "name": "外交学与外事管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://wjxx.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-2696bcb688",
+      "name": "外语系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://wyx.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-600cda673c",
+      "name": "学院地址",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cfau.edu.cn/col2849/col2890/index.htm",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-b48d1a91c3",
+      "name": "学院电话",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cfau.edu.cn/col2849/col2892/index.htm",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-cd60b29964",
+      "name": "亚洲研究所(国家安全学院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://ias.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    },
+    {
+      "id": "unit-b29e28da9d",
+      "name": "英语系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://deis.cfau.edu.cn/",
+      "sourceUrl": "https://www.cfau.edu.cn/col2843/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:38:14.072Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.cfau.edu.cn/col2843/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:38:14.081Z",
+      "lastCheckedAt": "2026-07-13T12:38:14.081Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cfau.edu.cn/",
+    "sourceUrls": [
+      "https://www.cfau.edu.cn/col2843/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:38:14.081Z",
+    "lastCheckedAt": "2026-07-13T12:38:14.081Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 13,
+    "newUnitCount": 13,
+    "verifiedCount": 13,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-geyvpv",
+  "name": "温州医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:13:55.909Z",
+  "academicUnits": [
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://tky.wmu.edu.cn/info/1159/1898.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:55.894Z"
+    },
+    {
+      "id": "unit-29ac672901",
+      "name": "学部概况学部简介领导班子机构设置院训院标师资队伍",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://tky.wmu.edu.cn/info/1159/1898.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:55.894Z"
+    },
+    {
+      "id": "unit-2fcd559565",
+      "name": "学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://tky.wmu.edu.cn/xygk/xbjj.htm",
+      "sourceUrl": "https://tky.wmu.edu.cn/info/1159/1898.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:55.894Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://tky.wmu.edu.cn/info/1159/1898.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:13:55.909Z",
+      "lastCheckedAt": "2026-07-13T14:13:55.909Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.wmu.edu.cn/",
+    "sourceUrls": [
+      "https://tky.wmu.edu.cn/info/1159/1898.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:13:55.909Z",
+    "lastCheckedAt": "2026-07-13T14:13:55.909Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

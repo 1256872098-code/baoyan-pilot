@@ -3,14 +3,3965 @@
     "schoolId": "school-1rf8t7b",
     "schoolName": "北京大学",
     "officialWebsite": "https://www.pku.edu.cn/",
+    "officialDomain": "pku.edu.cn",
     "candidatePages": [
       {
-        "name": "院系机构",
+        "name": "academic-units",
         "url": "https://www.pku.edu.cn/department.html",
         "sourceType": "academic-units",
-        "enabled": false
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:50:58.669Z"
       }
     ],
-    "crawlStatus": "pending"
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1s1mepv",
+    "schoolName": "中国人民大学",
+    "officialWebsite": "https://www.ruc.edu.cn/",
+    "officialDomain": "ruc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.ruc.edu.cn/zuzhijigou.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:50:54.582Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ivlj1f",
+    "schoolName": "清华大学",
+    "officialWebsite": "https://www.tsinghua.edu.cn/",
+    "officialDomain": "tsinghua.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tsinghua.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:09.749Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1y3iohh",
+    "schoolName": "北京交通大学",
+    "officialWebsite": "https://www.bjtu.edu.cn/",
+    "officialDomain": "bjtu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:13.464Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1o3f18s",
+    "schoolName": "北京工业大学",
+    "officialWebsite": "https://www.bjut.edu.cn/",
+    "officialDomain": "bjut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bjut.edu.cn/jgsz/jxkyjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:25.625Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-qwbfa6",
+    "schoolName": "北京航空航天大学",
+    "officialWebsite": "https://www.buaa.edu.cn/",
+    "officialDomain": "buaa.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:30.099Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1f6o8aa",
+    "schoolName": "北京理工大学",
+    "officialWebsite": "https://www.bit.edu.cn/",
+    "officialDomain": "bit.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bit.edu.cn/gbxxgk/gbgljg/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:41.955Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1oj8i5e",
+    "schoolName": "北京科技大学",
+    "officialWebsite": "https://www.ustb.edu.cn/",
+    "officialDomain": "ustb.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.ustb.edu.cn/yxbm/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:51:50.516Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1v6nyfz",
+    "schoolName": "北方工业大学",
+    "officialWebsite": "https://www.ncut.edu.cn/",
+    "officialDomain": "ncut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.ncut.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:52:09.040Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xxr8hu",
+    "schoolName": "北京化工大学",
+    "officialWebsite": "https://www.buct.edu.cn/",
+    "officialDomain": "buct.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.buct.edu.cn/xysz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T07:52:05.402Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-ekga40",
+    "schoolName": "北京工商大学",
+    "officialWebsite": "https://www.btbu.edu.cn/",
+    "officialDomain": "btbu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.btbu.edu.cn/ybsz/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:17:31.825Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "officialWebsite": "https://www.bift.edu.cn/",
+    "officialDomain": "bift.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:39:59.325Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ndasyq",
+    "schoolName": "北京建筑大学",
+    "officialWebsite": "https://www.bucea.edu.cn/",
+    "officialDomain": "bucea.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-4jie16",
+    "schoolName": "北京电子科技学院",
+    "officialWebsite": "https://eeayn.com/",
+    "officialDomain": "eeayn.com",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://eeayn.com/index/school/mobile_desc/uid/1212.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:19:14.300Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-x8ba2c",
+    "schoolName": "中国农业大学",
+    "officialWebsite": "https://zihuan.cau.edu.cn/",
+    "officialDomain": "zihuan.cau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://zihuan.cau.edu.cn/col/col24821/index.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:20:28.824Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "officialWebsite": "https://www.pumc.edu.cn/",
+    "officialDomain": "pumc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T13:08:39.629Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-p4rh9h",
+    "schoolName": "首都医科大学",
+    "officialWebsite": "https://www.ccmu.edu.cn/",
+    "officialDomain": "ccmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:22:27.194Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xsk41y",
+    "schoolName": "北京中医药大学",
+    "officialWebsite": "https://www.bucm.edu.cn/",
+    "officialDomain": "bucm.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-zubin2",
+    "schoolName": "北京师范大学",
+    "officialWebsite": "https://www.bnu.edu.cn/",
+    "officialDomain": "bnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bnu.edu.cn/xbyx/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:50:05.617Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1mzieaw",
+    "schoolName": "首都师范大学",
+    "officialWebsite": "https://www.cnu.edu.cn/",
+    "officialDomain": "cnu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-22wnzj",
+    "schoolName": "北京外国语大学",
+    "officialWebsite": "https://www.bfsu.edu.cn/",
+    "officialDomain": "bfsu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bfsu.edu.cn/yxsz/yxzl.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:24:26.145Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1fxpnyu",
+    "schoolName": "北京语言大学",
+    "officialWebsite": "https://www.blcu.edu.cn/",
+    "officialDomain": "blcu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:25:41.637Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-rpe0lk",
+    "schoolName": "中国传媒大学",
+    "officialWebsite": "https://www.cuc.edu.cn/",
+    "officialDomain": "cuc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:41:19.122Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "officialWebsite": "http://www.cufe.edu.cn/",
+    "officialDomain": "cufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:50:13.815Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "officialWebsite": "https://www.uibe.edu.cn/",
+    "officialDomain": "uibe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:52:06.481Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1tcnj13",
+    "schoolName": "北京物资学院",
+    "officialWebsite": "https://www.bwu.edu.cn/",
+    "officialDomain": "bwu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://office.bwu.edu.cn/info/1018/1669.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:28:45.884Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-6flpnp",
+    "schoolName": "首都经济贸易大学",
+    "officialWebsite": "https://m.cueb.edu.cn/",
+    "officialDomain": "m.cueb.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://m.cueb.edu.cn/xxgk/zzjg/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T08:29:00.739Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-pg9xir",
+    "schoolName": "外交学院",
+    "officialWebsite": "https://www.cfau.edu.cn/",
+    "officialDomain": "cfau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.cfau.edu.cn/col2843/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:38:14.081Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-juxe64",
+    "schoolName": "中国人民公安大学",
+    "officialWebsite": "https://www.ppsuc.edu.cn/",
+    "officialDomain": "ppsuc.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-b9oqey",
+    "schoolName": "北京体育大学",
+    "officialWebsite": "https://www.bsu.edu.cn/",
+    "officialDomain": "bsu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.bsu.edu.cn/xbyx/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:39:00.451Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ix5lil",
+    "schoolName": "中央音乐学院",
+    "officialWebsite": "https://www.ccom.edu.cn/",
+    "officialDomain": "ccom.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.ccom.edu.cn/jgk.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:39:32.425Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-15grunp",
+    "schoolName": "中央美术学院",
+    "officialWebsite": "https://www.cafa.edu.cn/",
+    "officialDomain": "cafa.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.cafa.edu.cn/sp/nljg?j=171",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:40:22.625Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1nakfog",
+    "schoolName": "中央戏剧学院",
+    "officialWebsite": "https://chntheatre.edu.cn/",
+    "officialDomain": "chntheatre.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-h1amj",
+    "schoolName": "中央民族大学",
+    "officialWebsite": "https://www.muc.edu.cn/",
+    "officialDomain": "muc.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-6t1x3n",
+    "schoolName": "华北电力大学",
+    "officialWebsite": "https://net.ncepu.edu.cn/",
+    "officialDomain": "net.ncepu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://net.ncepu.edu.cn/yxsz/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:42:16.417Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-18l0556",
+    "schoolName": "北京信息科技大学",
+    "officialWebsite": "https://www.bistu.edu.cn/",
+    "officialDomain": "bistu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-zdg5d7",
+    "schoolName": "北京联合大学",
+    "officialWebsite": "https://www.cas.buu.edu.cn/",
+    "officialDomain": "cas.buu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-1b6srb",
+    "schoolName": "中国社会科学院大学",
+    "officialWebsite": "https://ky.ucass.edu.cn/",
+    "officialDomain": "ky.ucass.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-jp57y3",
+    "schoolName": "南开大学",
+    "officialWebsite": "https://www.nankai.edu.cn/",
+    "officialDomain": "nankai.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://bs.nankai.edu.cn/xydt/list15.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:45:12.136Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1vryf8u",
+    "schoolName": "天津大学",
+    "officialWebsite": "https://www.tju.edu.cn/",
+    "officialDomain": "tju.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tju.edu.cn/info/4442/76672.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:44:43.441Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-9obiiz",
+    "schoolName": "天津科技大学",
+    "officialWebsite": "https://www.tust.edu.cn/",
+    "officialDomain": "tust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tust.edu.cn",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:45:53.478Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1s1uhpd",
+    "schoolName": "天津工业大学",
+    "officialWebsite": "https://www.tiangong.edu.cn/",
+    "officialDomain": "tiangong.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-1nr5cwp",
+    "schoolName": "中国民航大学",
+    "officialWebsite": "https://career.nankai.edu.cn/",
+    "officialDomain": "career.nankai.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-1qj5x5y",
+    "schoolName": "天津医科大学",
+    "officialWebsite": "https://www.tmu.edu.cn/",
+    "officialDomain": "tmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:47:24.929Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-18q1c9p",
+    "schoolName": "天津中医药大学",
+    "officialWebsite": "https://www.tjutcm.edu.cn/",
+    "officialDomain": "tjutcm.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-5ynjpr",
+    "schoolName": "天津师范大学",
+    "officialWebsite": "https://csyhj.tjnu.edu.cn/",
+    "officialDomain": "csyhj.tjnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:48:05.866Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-10wwmi4",
+    "schoolName": "天津外国语大学",
+    "officialWebsite": "https://www.tjfsu.edu.cn/",
+    "officialDomain": "tjfsu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tjfsu.edu.cn/40/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:48:47.472Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-15v6lei",
+    "schoolName": "天津商业大学",
+    "officialWebsite": "https://www.tjcu.edu.cn/",
+    "officialDomain": "tjcu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:48:52.095Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-7jaky5",
+    "schoolName": "天津财经大学",
+    "officialWebsite": "https://zhujiang.tjufe.edu.cn/",
+    "officialDomain": "zhujiang.tjufe.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-s36hbq",
+    "schoolName": "天津体育学院",
+    "officialWebsite": "https://www.tjus.edu.cn/",
+    "officialDomain": "tjus.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:49:53.257Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-4frkjs",
+    "schoolName": "天津美术学院",
+    "officialWebsite": "https://www.tjarts.edu.cn/",
+    "officialDomain": "tjarts.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tjarts.edu.cn",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:50:45.231Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-iww4u2",
+    "schoolName": "河北大学",
+    "officialWebsite": "https://www.hbu.edu.cn/",
+    "officialDomain": "hbu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hbu.edu.cn/yxsz1.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:50:52.288Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-zdyrlm",
+    "schoolName": "河北工程大学",
+    "officialWebsite": "https://www.hebeu.edu.cn/",
+    "officialDomain": "hebeu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hebeu.edu.cn/jigou/dzjg.htm#jxdw",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:51:33.112Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-6gavg5",
+    "schoolName": "河北工业大学",
+    "officialWebsite": "https://www.hebut.edu.cn/",
+    "officialDomain": "hebut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:52:35.310Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-upvjkn",
+    "schoolName": "河北科技大学",
+    "officialWebsite": "https://www.hebust.edu.cn/",
+    "officialDomain": "hebust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hebust.edu.cn/rcpy/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:53:31.205Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-3a2bac",
+    "schoolName": "河北农业大学",
+    "officialWebsite": "http://hebeedu.cn/",
+    "officialDomain": "hebeedu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-1d3h5ya",
+    "schoolName": "河北医科大学",
+    "officialWebsite": "https://www.hebmu.edu.cn/",
+    "officialDomain": "hebmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hebmu.edu.cn/a/zzjg/zzjg/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:54:19.275Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1s6ra1t",
+    "schoolName": "河北经贸大学",
+    "officialWebsite": "https://www.hueb.edu.cn/",
+    "officialDomain": "hueb.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.hueb.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:57:00.019Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-13zpd4k",
+    "schoolName": "山西大学",
+    "officialWebsite": "https://www.sxu.edu.cn/",
+    "officialDomain": "sxu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-7dauzc",
+    "schoolName": "中北大学",
+    "officialWebsite": "https://www.nuc.edu.cn/",
+    "officialDomain": "nuc.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "verified"
+  },
+  {
+    "schoolId": "school-m0f162",
+    "schoolName": "太原理工大学",
+    "officialWebsite": "https://www.tyut.edu.cn/",
+    "officialDomain": "tyut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.tyut.edu.cn/rcpy3.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T12:59:19.881Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-es2rey",
+    "schoolName": "山西农业大学",
+    "officialWebsite": "https://www.sxie.edu.cn/",
+    "officialDomain": "sxie.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.sxie.edu.cn/info/1005/12861.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T13:00:00.169Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-32w23p",
+    "schoolName": "上海交通大学",
+    "officialWebsite": "https://www.sjtu.edu.cn/",
+    "officialDomain": "sjtu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.sjtu.edu.cn/yxsz/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T06:23:12.152Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-f17pfd",
+    "schoolName": "上海海洋大学",
+    "officialWebsite": "https://www.shou.edu.cn/",
+    "officialDomain": "shou.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.shou.edu.cn/zdzy/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T06:23:39.496Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ugmnw",
+    "schoolName": "上海财经大学",
+    "officialWebsite": "https://www.sufe.edu.cn/",
+    "officialDomain": "sufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "academic-units",
+        "url": "https://www.sufe.edu.cn/yxsz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.9,
+        "discoveredAt": "2026-07-13T06:23:25.822Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1r4afsp",
+    "schoolName": "山西师范大学",
+    "officialWebsite": "https://www.sxnu.edu.cn/",
+    "officialDomain": "sxnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.sxnu.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:15:48.217Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-5ate9v",
+    "schoolName": "山西财经大学",
+    "officialWebsite": "https://fx.sxufe.edu.cn/",
+    "officialDomain": "fx.sxufe.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1h3oi13",
+    "schoolName": "山西中医药大学",
+    "officialWebsite": "https://www.sxtcm.edu.cn/",
+    "officialDomain": "sxtcm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "2026.07.10健康服务与管理学院健康服务与管理学院赴山西软赢科技有限公司开展人才培养方案修订专项调研",
+        "url": "http://news.sxtcm.edu.cn/info/1017/20128.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.8999999999999999,
+        "discoveredAt": "2026-07-13T13:16:32.373Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-915pzc",
+    "schoolName": "内蒙古大学",
+    "officialWebsite": "https://www.imu.edu.cn/",
+    "officialDomain": "imu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "https://www.imu.edu.cn/jgsz1/jxkydw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:17:15.431Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-ioj951",
+    "schoolName": "内蒙古科技大学",
+    "officialWebsite": "https://www.imust.edu.cn/",
+    "officialDomain": "imust.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-151zru7",
+    "schoolName": "内蒙古工业大学",
+    "officialWebsite": "http://jwch.imut.edu.cn/",
+    "officialDomain": "jwch.imut.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1ohl3fh",
+    "schoolName": "内蒙古师范大学",
+    "officialWebsite": "https://www.imnu.edu.cn/",
+    "officialDomain": "imnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.imnu.edu.cn/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:18:48.787Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-nvcv9i",
+    "schoolName": "辽宁大学",
+    "officialWebsite": "https://www.lnu.edu.cn/",
+    "officialDomain": "lnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.lnu.edu.cn/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:19:32.185Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-17r6flo",
+    "schoolName": "内蒙古民族大学",
+    "officialWebsite": "https://www.imun.edu.cn/",
+    "officialDomain": "imun.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.imun.edu.cn/jgsz/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:19:36.018Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1spjwm0",
+    "schoolName": "大连理工大学",
+    "officialWebsite": "https://sche.dlut.edu.cn/",
+    "officialDomain": "sche.dlut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://sche.dlut.edu.cn/rcpy/bksjx/zyjs.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:20:25.442Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1m5hglk",
+    "schoolName": "沈阳航空航天大学",
+    "officialWebsite": "https://www.sau.edu.cn/",
+    "officialDomain": "sau.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-ywp39p",
+    "schoolName": "东北大学",
+    "officialWebsite": "https://www.neu.edu.cn/",
+    "officialDomain": "neu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.neu.edu.cn/zzjg.htm#yxsz",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:21:27.370Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-ttm4vf",
+    "schoolName": "辽宁工程技术大学",
+    "officialWebsite": "https://www.lntu.edu.cn/",
+    "officialDomain": "lntu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.lntu.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:22:10.978Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-bmckeb",
+    "schoolName": "辽宁科技大学",
+    "officialWebsite": "https://www.ustl.edu.cn/",
+    "officialDomain": "ustl.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "http://www.ustl.edu.cn/yjs/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:22:22.176Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1qkywks",
+    "schoolName": "沈阳化工大学",
+    "officialWebsite": "https://www.syuct.edu.cn/",
+    "officialDomain": "syuct.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:23:09.155Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1c9stwn",
+    "schoolName": "辽宁石油化工大学",
+    "officialWebsite": "https://www.lnpu.edu.cn/",
+    "officialDomain": "lnpu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "机械工程学院-辽宁石油化工大学-招生办",
+        "url": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:23:12.604Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-b6sno3",
+    "schoolName": "大连交通大学",
+    "officialWebsite": "http://jcb.djtu.edu.cn/",
+    "officialDomain": "jcb.djtu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-xgs1gr",
+    "schoolName": "大连海事大学",
+    "officialWebsite": "https://www.dlmu.edu.cn/",
+    "officialDomain": "dlmu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1wdra4k",
+    "schoolName": "沈阳建筑大学",
+    "officialWebsite": "https://www.sjzu.edu.cn/",
+    "officialDomain": "sjzu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:25:03.992Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-8dybcb",
+    "schoolName": "大连海洋大学",
+    "officialWebsite": "https://www.dlou.edu.cn/",
+    "officialDomain": "dlou.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.dlou.edu.cn/13/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:25:54.291Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-193fhq9",
+    "schoolName": "大连医科大学",
+    "officialWebsite": "https://www.dmu.edu.cn/",
+    "officialDomain": "dmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.dmu.edu.cn/zzjg1.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:27:17.934Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-jcqel1",
+    "schoolName": "辽宁中医药大学",
+    "officialWebsite": "https://www.lnutcm.edu.cn/",
+    "officialDomain": "lnutcm.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-b9cfo1",
+    "schoolName": "沈阳药科大学",
+    "officialWebsite": "https://sp.syphu.edu.cn/",
+    "officialDomain": "sp.syphu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1t1avx3",
+    "schoolName": "辽宁师范大学",
+    "officialWebsite": "https://www.lnnu.edu.cn/",
+    "officialDomain": "lnnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学校章程-辽宁师范大学",
+        "url": "https://www.lnnu.edu.cn/xxgk/xxzc.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-13T13:28:58.689Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-15yb7nc",
+    "schoolName": "沈阳师范大学",
+    "officialWebsite": "https://www.synu.edu.cn/",
+    "officialDomain": "synu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.synu.edu.cn/jxjg/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:29:05.877Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xgt7cl",
+    "schoolName": "渤海大学",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "officialDomain": "tc.seu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://tc.seu.edu.cn/rcpy/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:29:57.981Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-vov9o1",
+    "schoolName": "大连外国语大学",
+    "officialWebsite": "https://www.dlufl.edu.cn/",
+    "officialDomain": "dlufl.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.dlufl.edu.cn/jgsz/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:30:01.346Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1nnialu",
+    "schoolName": "东北财经大学",
+    "officialWebsite": "https://www.dufe.edu.cn/",
+    "officialDomain": "dufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.dufe.edu.cn/yxsz/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:30:50.946Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-mxdj2h",
+    "schoolName": "沈阳体育学院",
+    "officialWebsite": "http://www.syty.edu.cn/",
+    "officialDomain": "syty.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "http://www.syty.edu.cn/info/1172/2650.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:30:55.931Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1n6u6rk",
+    "schoolName": "鲁迅美术学院",
+    "officialWebsite": "https://www.lumei.edu.cn/",
+    "officialDomain": "lumei.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.lumei.edu.cn/zzjg/jxjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:31:35.007Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-z7rj8k",
+    "schoolName": "吉林大学",
+    "officialWebsite": "https://www.jlu.edu.cn/",
+    "officialDomain": "jlu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.jlu.edu.cn/jgsz/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:32:26.457Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-51c749",
+    "schoolName": "长春理工大学",
+    "officialWebsite": "https://www.cust.edu.cn/",
+    "officialDomain": "cust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.cust.edu.cn/yxsz2026/index.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:33:26.597Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-biv5qh",
+    "schoolName": "延边大学",
+    "officialWebsite": "https://ydyxy.ybu.edu.cn/",
+    "officialDomain": "ydyxy.ybu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:33:27.685Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-4w7eej",
+    "schoolName": "长春工业大学",
+    "officialWebsite": "https://www.ccut.edu.cn/",
+    "officialDomain": "ccut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.ccut.edu.cn/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:34:10.454Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-vevdq9",
+    "schoolName": "东北电力大学",
+    "officialWebsite": "https://zs.neepu.edu.cn/",
+    "officialDomain": "zs.neepu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-fvda4a",
+    "schoolName": "吉林农业大学",
+    "officialWebsite": "https://www.jlau.edu.cn/",
+    "officialDomain": "jlau.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1l86cf",
+    "schoolName": "长春中医药大学",
+    "officialWebsite": "https://www.ccucm.edu.cn/",
+    "officialDomain": "ccucm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.ccucm.edu.cn/zzjg/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:35:14.430Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-3e8asg",
+    "schoolName": "东北师范大学",
+    "officialWebsite": "https://chem.nenu.edu.cn/",
+    "officialDomain": "chem.nenu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://chem.nenu.edu.cn/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:35:53.133Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1krf08x",
+    "schoolName": "北华大学",
+    "officialWebsite": "https://www.beihua.edu.cn/",
+    "officialDomain": "beihua.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "https://www.beihua.edu.cn/zzjg/jxkydw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:36:04.457Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-6f9uah",
+    "schoolName": "黑龙江大学",
+    "officialWebsite": "https://www.hlju.edu.cn/",
+    "officialDomain": "hlju.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:39:11.983Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-b2cp4j",
+    "schoolName": "吉林财经大学",
+    "officialWebsite": "https://jdjyw.jlu.edu.cn/",
+    "officialDomain": "jdjyw.jlu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-4j5ii9",
+    "schoolName": "哈尔滨工业大学",
+    "officialWebsite": "https://www.hitwh.edu.cn/",
+    "officialDomain": "hitwh.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.hitwh.edu.cn/yxsz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:40:00.012Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-101kxj",
+    "schoolName": "哈尔滨理工大学",
+    "officialWebsite": "https://rc.hrbust.edu.cn/",
+    "officialDomain": "rc.hrbust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:40:16.534Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-i7vzau",
+    "schoolName": "哈尔滨工程大学",
+    "officialWebsite": "https://www.hrbeu.edu.cn/",
+    "officialDomain": "hrbeu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.hrbeu.edu.cn/zzjg/jxkydw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:40:54.115Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1l11510",
+    "schoolName": "黑龙江科技大学",
+    "officialWebsite": "https://usth.edu.cn/",
+    "officialDomain": "usth.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://usth.edu.cn/zzjg/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:41:01.292Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-9ram31",
+    "schoolName": "东北石油大学",
+    "officialWebsite": "https://xxgk.nepu.edu.cn/",
+    "officialDomain": "xxgk.nepu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1i94dak",
+    "schoolName": "黑龙江八一农垦大学",
+    "officialWebsite": "https://www.byau.edu.cn/",
+    "officialDomain": "byau.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-12sylbz",
+    "schoolName": "东北农业大学",
+    "officialWebsite": "https://spxy.neau.edu.cn/",
+    "officialDomain": "spxy.neau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:42:56.794Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1u06j9y",
+    "schoolName": "哈尔滨医科大学",
+    "officialWebsite": "https://www.hrbmu.edu.cn/",
+    "officialDomain": "hrbmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:43:50.781Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-es00qs",
+    "schoolName": "东北林业大学",
+    "officialWebsite": "https://bksy.nefu.edu.cn/",
+    "officialDomain": "bksy.nefu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1ra74to",
+    "schoolName": "齐齐哈尔大学",
+    "officialWebsite": "https://www.qqhru.edu.cn/",
+    "officialDomain": "qqhru.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.qqhru.edu.cn/zzjg1/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:45:15.952Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-2s294a",
+    "schoolName": "哈尔滨商业大学",
+    "officialWebsite": "https://www.hrbcu.edu.cn/",
+    "officialDomain": "hrbcu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-9akiau",
+    "schoolName": "哈尔滨体育学院",
+    "officialWebsite": "https://www.hrbipe.edu.cn/",
+    "officialDomain": "hrbipe.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1ytmrqi",
+    "schoolName": "同济大学",
+    "officialWebsite": "https://www.tongji.edu.cn/",
+    "officialDomain": "tongji.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.tongji.edu.cn/yxjg111/zljg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:46:32.253Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-nhtwjm",
+    "schoolName": "上海理工大学",
+    "officialWebsite": "https://www.usst.edu.cn/",
+    "officialDomain": "usst.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.usst.edu.cn/rcpy/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:48:12.086Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1fwubqx",
+    "schoolName": "上海海事大学",
+    "officialWebsite": "https://www.shmtu.edu.cn/",
+    "officialDomain": "shmtu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.shmtu.edu.cn/12185/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:48:15.089Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1pvy7p6",
+    "schoolName": "东华大学",
+    "officialWebsite": "https://www.dhu.edu.cn/",
+    "officialDomain": "dhu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "国际文化交流学院- 东华大学",
+        "url": "https://ices.dhu.edu.cn/aboutus/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.95,
+        "discoveredAt": "2026-07-13T13:49:25.059Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-102r7tz",
+    "schoolName": "上海电力大学",
+    "officialWebsite": "https://www.shiep.edu.cn/",
+    "officialDomain": "shiep.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.shiep.edu.cn/colleges_and_departments/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:49:35.214Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1q97es6",
+    "schoolName": "上海中医药大学",
+    "officialWebsite": "https://iec.shutcm.edu.cn/",
+    "officialDomain": "iec.shutcm.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-jf38xv",
+    "schoolName": "华东师范大学",
+    "officialWebsite": "https://www.ecnu.edu.cn/",
+    "officialDomain": "ecnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.ecnu.edu.cn/wzcd/xxgk/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:51:36.460Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1t7zoku",
+    "schoolName": "上海师范大学",
+    "officialWebsite": "https://www.shnu.edu.cn/",
+    "officialDomain": "shnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.shnu.edu.cn/xysz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:52:00.211Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1899ae7",
+    "schoolName": "上海外国语大学",
+    "officialWebsite": "https://www.shisu.edu.cn/",
+    "officialDomain": "shisu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "SISU | 上海外国语大学_教师",
+        "url": "https://www.shisu.edu.cn/faculty-staff",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-13T13:52:24.071Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1m3z29z",
+    "schoolName": "上海对外经贸大学",
+    "officialWebsite": "https://www.suibe.edu.cn/",
+    "officialDomain": "suibe.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-s1eaxu",
+    "schoolName": "华东政法大学",
+    "officialWebsite": "https://www.ecupl.edu.cn/",
+    "officialDomain": "ecupl.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:53:48.904Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-lqo78h",
+    "schoolName": "上海音乐学院",
+    "officialWebsite": "https://www.shcmusic.edu.cn/",
+    "officialDomain": "shcmusic.edu.cn",
+    "candidatePages": [
+      {
+        "name": "感悟前贤风范触发当代创造",
+        "url": "https://tsg.shcmusic.edu.cn/2011/0614/c283a4725/pagem.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-13T13:54:32.839Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1486kiv",
+    "schoolName": "上海大学",
+    "officialWebsite": "https://www.shu.edu.cn/",
+    "officialDomain": "shu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.shu.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:54:32.802Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1136e36",
+    "schoolName": "上海科技大学",
+    "officialWebsite": "https://www.shanghaitech.edu.cn/",
+    "officialDomain": "shanghaitech.edu.cn",
+    "candidatePages": [
+      {
+        "name": "中国科学院",
+        "url": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:55:51.557Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1v6kn96",
+    "schoolName": "上海工程技术大学",
+    "officialWebsite": "https://www.sues.edu.cn/",
+    "officialDomain": "sues.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.sues.edu.cn/26867/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:55:38.374Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1tyy51z",
+    "schoolName": "南京大学",
+    "officialWebsite": "https://dawww.nju.edu.cn/",
+    "officialDomain": "dawww.nju.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1qxjuw8",
+    "schoolName": "海军军医大学",
+    "officialWebsite": "https://jiankang.usst.edu.cn/",
+    "officialDomain": "jiankang.usst.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:56:46.994Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-158b6rx",
+    "schoolName": "东南大学",
+    "officialWebsite": "https://www.seu.edu.cn/",
+    "officialDomain": "seu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.seu.edu.cn/yxsz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:57:40.270Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-f7hi3d",
+    "schoolName": "苏州大学",
+    "officialWebsite": "https://tec.suda.edu.cn/",
+    "officialDomain": "tec.suda.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:57:43.473Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-4734ke",
+    "schoolName": "南京航空航天大学",
+    "officialWebsite": "https://nuaa.edu.cn/",
+    "officialDomain": "nuaa.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-k4cj3m",
+    "schoolName": "南京理工大学",
+    "officialWebsite": "http://zj.njust.edu.cn/",
+    "officialDomain": "zj.njust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "http://zj.njust.edu.cn/6889/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:58:27.485Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1tvk2a3",
+    "schoolName": "江苏科技大学",
+    "officialWebsite": "https://www.just.edu.cn/",
+    "officialDomain": "just.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "https://www.just.edu.cn/11999/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:59:05.919Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-zle1j",
+    "schoolName": "中国矿业大学",
+    "officialWebsite": "https://www.cumtb.edu.cn/",
+    "officialDomain": "cumtb.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.cumtb.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T13:59:17.516Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-clhj2k",
+    "schoolName": "南京工业大学",
+    "officialWebsite": "https://www.njtech.edu.cn/",
+    "officialDomain": "njtech.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院",
+        "url": "https://www.njtech.edu.cn/jgsz/xy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:00:00.458Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1hv7udy",
+    "schoolName": "常州大学",
+    "officialWebsite": "https://www.cczu.edu.cn/",
+    "officialDomain": "cczu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:00:12.538Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1flkpp6",
+    "schoolName": "河海大学",
+    "officialWebsite": "https://www.hhu.edu.cn/",
+    "officialDomain": "hhu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.hhu.edu.cn/191/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:01:24.062Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1pm0j22",
+    "schoolName": "南京邮电大学",
+    "officialWebsite": "https://www.njupt.edu.cn/",
+    "officialDomain": "njupt.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-odex9y",
+    "schoolName": "江南大学",
+    "officialWebsite": "https://www.jiangnan.edu.cn/",
+    "officialDomain": "jiangnan.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.jiangnan.edu.cn/xxjg/gljg1.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:02:34.397Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ky5oge",
+    "schoolName": "南京林业大学",
+    "officialWebsite": "https://www.njfu.edu.cn/",
+    "officialDomain": "njfu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "我校应邀在全国新农科论坛推广思政赋能创新人才培养经验2026-05-15",
+        "url": "http://www.njfu.edu.cn/jxky/20260515/i358056.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.8,
+        "discoveredAt": "2026-07-13T14:02:41.518Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-sd0dr",
+    "schoolName": "南京信息工程大学",
+    "officialWebsite": "https://www.nuist.edu.cn/",
+    "officialDomain": "nuist.edu.cn",
+    "candidatePages": [
+      {
+        "name": "生态与应用气象学院 - 南京信息工程大学",
+        "url": "https://yqy.nuist.edu.cn/main.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:03:41.283Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1p12tny",
+    "schoolName": "江苏大学",
+    "officialWebsite": "https://www.ujs.edu.cn/",
+    "officialDomain": "ujs.edu.cn",
+    "candidatePages": [
+      {
+        "name": "基地单位",
+        "url": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.85,
+        "discoveredAt": "2026-07-13T14:04:10.472Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1mcsw0d",
+    "schoolName": "南通大学",
+    "officialWebsite": "https://www.ntu.edu.cn/",
+    "officialDomain": "ntu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.ntu.edu.cn/yxsz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:05:07.925Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1q5e4gd",
+    "schoolName": "南京农业大学",
+    "officialWebsite": "https://coe.njau.edu.cn/",
+    "officialDomain": "coe.njau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:05:15.526Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-k7kf3q",
+    "schoolName": "徐州医科大学",
+    "officialWebsite": "https://www.xzhmu.edu.cn/",
+    "officialDomain": "xzhmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.xzhmu.edu.cn/xydh/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:06:00.555Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-eowz3n",
+    "schoolName": "南京医科大学",
+    "officialWebsite": "https://www.njmu.edu.cn/",
+    "officialDomain": "njmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.njmu.edu.cn/574/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:06:20.231Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-9vpxom",
+    "schoolName": "南京中医药大学",
+    "officialWebsite": "https://smls.njucm.edu.cn/",
+    "officialDomain": "smls.njucm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://smls.njucm.edu.cn/5269/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:06:45.714Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-188415a",
+    "schoolName": "中国药科大学",
+    "officialWebsite": "https://www.cpu.edu.cn/",
+    "officialDomain": "cpu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "http://www.cpu.edu.cn/zzjg/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:07:12.617Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1uibmu6",
+    "schoolName": "南京师范大学",
+    "officialWebsite": "https://jky.njnu.edu.cn/",
+    "officialDomain": "jky.njnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:07:41.063Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-d4p4en",
+    "schoolName": "江苏师范大学",
+    "officialWebsite": "http://www.jsnu.edu.cn/",
+    "officialDomain": "jsnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "http://www.jsnu.edu.cn/75/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:08:07.444Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1tvi6yz",
+    "schoolName": "南京体育学院",
+    "officialWebsite": "https://www.nsi.edu.cn/",
+    "officialDomain": "nsi.edu.cn",
+    "candidatePages": [
+      {
+        "name": "7月10日上午，我校召开2026年本科教育教学工作会议暨审核评估整改推进会。党委书记刘红明，党委副书记、校长吴兵成，校领导魏萍、鲍勤、刘海宁、王猛出席会议。党委常委、副校长陈爱国主持会议。相关职能部门负责人、校院两级教学督导、各高教二级学院党政班子及全体教师参加会议。党委副书记、校长吴兵成作题为《深化改革创新赋能提质增效奋力开创学校本科教育教学高质量发展新局面》的主题报告，围绕四个方面作出系统部署：一、准确把握高等教育改革发展的新形势，以更高站位谋划本科教育教学高质量发展。要深刻认识教育强国建设赋予本科教育的新使命、体育事业改革发展带来的新机遇以及学校高质量发展的新任务，坚持以高质量发展统领全局，把本科教育摆在优先位置，加快构建体现时代要求、具有南体特色的本科教育教学体系。二、坚持改革创新，加快构建本科教育教学高质量发展新格局。要坚持以国家战略需求为牵引，持续优化本科专业布局，做强优势专业、布局新兴方向；坚持以行业需求为导向，全面深化人才培养模式创新，强化实践教学与产教融合；坚持以课程改革为抓手，推动教学内容更新、教学方法创新和数字化教学转型，持续提升课堂教学质量与育人实效。三、强化改",
+        "url": "https://www.nsi.edu.cn/66/a4/c2348a91812/page.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:09:01.541Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-qbnz58",
+    "schoolName": "南京财经大学",
+    "officialWebsite": "https://www.nufe.edu.cn/",
+    "officialDomain": "nufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.nufe.edu.cn/rcpy1.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:09:23.528Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-sr0lhp",
+    "schoolName": "南京艺术学院",
+    "officialWebsite": "https://www.nua.edu.cn/",
+    "officialDomain": "nua.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.nua.edu.cn/xysz/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:09:58.301Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ys22yc",
+    "schoolName": "苏州科技大学",
+    "officialWebsite": "https://skbs.usts.edu.cn/",
+    "officialDomain": "skbs.usts.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://skbs.usts.edu.cn/xygk/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:10:02.406Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-6uuks7",
+    "schoolName": "杭州电子科技大学",
+    "officialWebsite": "https://www.hdu.edu.cn/",
+    "officialDomain": "hdu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "20学院及教学单位",
+        "url": "http://www.hdu.edu.cn/11790/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:11:31.307Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-123frm3",
+    "schoolName": "浙江工业大学",
+    "officialWebsite": "https://www.zzjc.edu.cn/",
+    "officialDomain": "zzjc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:12:01.625Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-fgy7l5",
+    "schoolName": "浙江理工大学",
+    "officialWebsite": "https://www.zstu.edu.cn/",
+    "officialDomain": "zstu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.zstu.edu.cn/xxgk/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:12:17.542Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1vohjyx",
+    "schoolName": "浙江农林大学",
+    "officialWebsite": "https://www.zafu.edu.cn/",
+    "officialDomain": "zafu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.zafu.edu.cn/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:12:46.251Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-geyvpv",
+    "schoolName": "温州医科大学",
+    "officialWebsite": "https://www.wmu.edu.cn/",
+    "officialDomain": "wmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "关于新形势下党内政治生活的若干准则-体育科学学院",
+        "url": "https://tky.wmu.edu.cn/info/1159/1898.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.95,
+        "discoveredAt": "2026-07-13T14:13:46.835Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-tetwhr",
+    "schoolName": "浙江中医药大学",
+    "officialWebsite": "https://www.zcmu.edu.cn/",
+    "officialDomain": "zcmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.zcmu.edu.cn/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:13:46.796Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-6q2n0i",
+    "schoolName": "杭州师范大学",
+    "officialWebsite": "https://www.hznu.edu.cn/",
+    "officialDomain": "hznu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-jaj11d",
+    "schoolName": "浙江师范大学",
+    "officialWebsite": "https://yjsb.zjnu.edu.cn/",
+    "officialDomain": "yjsb.zjnu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-13qrg3b",
+    "schoolName": "浙江工商大学",
+    "officialWebsite": "http://www.zjgsu.edu.cn/",
+    "officialDomain": "zjgsu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "校长王永贵应邀出席南京审计大学2026年本科人才培养创新论...（2026-05-06）",
+        "url": "http://news.zjgsu.edu.cn/17/View_23700.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.65,
+        "discoveredAt": "2026-07-13T14:15:13.303Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-libbbf",
+    "schoolName": "浙江财经大学",
+    "officialWebsite": "https://www.zufe.edu.cn/",
+    "officialDomain": "zufe.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-19n96wz",
+    "schoolName": "宁波大学",
+    "officialWebsite": "https://zs.ndky.edu.cn/",
+    "officialDomain": "zs.ndky.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系导航",
+        "url": "https://zs.ndky.edu.cn/branch/index.jhtml",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:16:42.637Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1jkaaqv",
+    "schoolName": "宁波诺丁汉大学",
+    "officialWebsite": "https://www.nottingham.edu.cn/",
+    "officialDomain": "nottingham.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-io6gqc",
+    "schoolName": "中国科学技术大学",
+    "officialWebsite": "https://www.ustc.edu.cn/",
+    "officialDomain": "ustc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院、系与本科专业一览 : 中国科学技术大学教务处",
+        "url": "https://www.teach.ustc.edu.cn/education/239.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:19:13.765Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1gdz455",
+    "schoolName": "安徽工业大学",
+    "officialWebsite": "https://www.ahut.edu.cn/",
+    "officialDomain": "ahut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.ahut.edu.cn/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:20:05.800Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-12bh538",
+    "schoolName": "合肥工业大学",
+    "officialWebsite": "https://www.hfut.edu.cn/",
+    "officialDomain": "hfut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.hfut.edu.cn/jgsz/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:20:19.681Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-7sfz1r",
+    "schoolName": "安徽理工大学",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "officialDomain": "tc.seu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://tc.seu.edu.cn/rcpy/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:20:47.386Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1nypg14",
+    "schoolName": "安徽农业大学",
+    "officialWebsite": "https://zhxy.ahau.edu.cn/",
+    "officialDomain": "zhxy.ahau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "资源与环境学院赴安徽科技工程大学开展研究生招生宣传工作本网讯7月10日，资源与环境学院副院长叶新新带领学院骨干教师赴安徽科技工程大学举办研究生招生专场宣讲会。安徽科技工程大学相关学院党政领导、专业教师及2027届应届毕业生代表参加会议，我院往届优秀毕业生代表应邀到场分享读研心得与成长经验。宣讲会上，叶新新围绕学院发展历程、师资队伍建设、学科平台优势、科研创新成果及社会服务成效等方面，全面介绍学院办学实力与育人特色，详细解读最新研究生招生政策及报考专业方向，系统展示学院学科体系与人才培养优势。...",
+        "url": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:21:03.484Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-t61b6m",
+    "schoolName": "安徽医科大学",
+    "officialWebsite": "https://jc.ahmu.edu.cn/",
+    "officialDomain": "jc.ahmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://jc.ahmu.edu.cn/index/nav/122.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:21:41.724Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-y9sjg8",
+    "schoolName": "蚌埠医科大学",
+    "officialWebsite": "https://www.bbmu.edu.cn/",
+    "officialDomain": "bbmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.bbmu.edu.cn/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:22:03.485Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1lxlzyv",
+    "schoolName": "皖南医学院",
+    "officialWebsite": "https://career.muc.edu.cn/",
+    "officialDomain": "career.muc.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-mfjrol",
+    "schoolName": "安徽中医药大学",
+    "officialWebsite": "https://www.ahtcm.edu.cn/",
+    "officialDomain": "ahtcm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "›院系设置",
+        "url": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:23:00.090Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xlw3tz",
+    "schoolName": "安徽师范大学",
+    "officialWebsite": "https://www.ahnu.edu.cn/",
+    "officialDomain": "ahnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.ahnu.edu.cn/jgsz/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:24:11.392Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-gocavj",
+    "schoolName": "安徽建筑大学",
+    "officialWebsite": "https://www.ahjzu.edu.cn/",
+    "officialDomain": "ahjzu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.ahjzu.edu.cn/45/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:24:32.854Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-nfa6",
+    "schoolName": "厦门大学",
+    "officialWebsite": "https://www.xmu.edu.cn/",
+    "officialDomain": "xmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.xmu.edu.cn/sdgl/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:24:56.187Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1spx2d2",
+    "schoolName": "华侨大学",
+    "officialWebsite": "https://www.hqu.edu.cn/",
+    "officialDomain": "hqu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.hqu.edu.cn/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:25:29.279Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1q2lc0p",
+    "schoolName": "福州大学",
+    "officialWebsite": "https://www.fzu.edu.cn/",
+    "officialDomain": "fzu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.fzu.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:25:53.509Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-myt8sg",
+    "schoolName": "福建农林大学",
+    "officialWebsite": "https://www.fafu.edu.cn/",
+    "officialDomain": "fafu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-bu6vjp",
+    "schoolName": "福建医科大学",
+    "officialWebsite": "https://www.fjmu.edu.cn/",
+    "officialDomain": "fjmu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-14df50d",
+    "schoolName": "闽南师范大学",
+    "officialWebsite": "https://www.mnnu.edu.cn/",
+    "officialDomain": "mnnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:28:50.396Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xauqrc",
+    "schoolName": "福建师范大学",
+    "officialWebsite": "https://www.fjnu.edu.cn/",
+    "officialDomain": "fjnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "环境与资源学院召开本科专业人才培养方案专家论证会",
+        "url": "https://www.fjnu.edu.cn/d8/09/c12106a448521/page.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:28:59.063Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-xbe987",
+    "schoolName": "南昌大学",
+    "officialWebsite": "https://ncuky.edu.cn/",
+    "officialDomain": "ncuky.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-dc5r38",
+    "schoolName": "华东交通大学",
+    "officialWebsite": "https://www.ecjtu.edu.cn/",
+    "officialDomain": "ecjtu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1rbpaqr",
+    "schoolName": "东华理工大学",
+    "officialWebsite": "http://www.ecit.edu.cn/",
+    "officialDomain": "ecit.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "http://www.ecit.edu.cn/2342/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:30:52.986Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1fpt7a3",
+    "schoolName": "南昌航空大学",
+    "officialWebsite": "https://sx.nchu.edu.cn/",
+    "officialDomain": "sx.nchu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://sx.nchu.edu.cn/rcpy",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:31:15.801Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-19c1zfb",
+    "schoolName": "江西理工大学",
+    "officialWebsite": "https://www.jxust.edu.cn/",
+    "officialDomain": "jxust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "江西理工大学“十四五”发展规划-江西理工大学信息公开网",
+        "url": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-13T14:32:03.475Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-bxo0sw",
+    "schoolName": "江西农业大学",
+    "officialWebsite": "https://www.jxau.edu.cn/",
+    "officialDomain": "jxau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.jxau.edu.cn/zzjg/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:32:47.284Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-14a7w6l",
+    "schoolName": "江西中医药大学",
+    "officialWebsite": "https://yxy.jxutcm.edu.cn/",
+    "officialDomain": "yxy.jxutcm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://yxy.jxutcm.edu.cn/xygk/zzjg2.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:33:43.302Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-mo5eot",
+    "schoolName": "江西财经大学",
+    "officialWebsite": "https://econ.jxufe.edu.cn/",
+    "officialDomain": "econ.jxufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "http://econ.jxufe.edu.cn/news-show-4.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:34:40.083Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-13bmry1",
+    "schoolName": "山东大学",
+    "officialWebsite": "https://www.sdu.edu.cn/",
+    "officialDomain": "sdu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.sdu.edu.cn/zzjg/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:35:40.298Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-fxku90",
+    "schoolName": "中国海洋大学",
+    "officialWebsite": "https://news.ouc.edu.cn/",
+    "officialDomain": "news.ouc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "本站讯7月7日，由教育部高等学校科学研究发展中心主办、中国海洋大学图书馆协办的“2026年高校科技查新审核员培训班”在青岛举办。中国海洋大学党委副书记卢光志、教育部高等学校科学研究发展中心知识产权研究发展处处长曾艳出席开班仪式。卢光志在致辞中介绍了中国海洋大学的学科特色和人才培养模式，指出在世界一流大学建设进程中，学校高度重视科研支撑服务工作，依托图书馆形成具有鲜明海洋特色的科技信息服务品牌。他表示，本...",
+        "url": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.8,
+        "discoveredAt": "2026-07-13T14:36:13.364Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-13ampw4",
+    "schoolName": "山东科技大学",
+    "officialWebsite": "https://www.sdust.edu.cn/",
+    "officialDomain": "sdust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.sdust.edu.cn/zzjg/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:36:28.082Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-13vh78u",
+    "schoolName": "青岛科技大学",
+    "officialWebsite": "https://www.qust.edu.cn/",
+    "officialDomain": "qust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.qust.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:36:58.385Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-glth1n",
+    "schoolName": "济南大学",
+    "officialWebsite": "https://www.ujn.edu.cn/",
+    "officialDomain": "ujn.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.ujn.edu.cn/xxgk/zzjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:37:18.711Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-2ntotq",
+    "schoolName": "青岛理工大学",
+    "officialWebsite": "https://www.qut.edu.cn/",
+    "officialDomain": "qut.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-tilyy0",
+    "schoolName": "山东建筑大学",
+    "officialWebsite": "https://www.sdjzu.edu.cn/",
+    "officialDomain": "sdjzu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-775myo",
+    "schoolName": "齐鲁工业大学",
+    "officialWebsite": "https://www.qlu.edu.cn/",
+    "officialDomain": "qlu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-7wpwpc",
+    "schoolName": "山东理工大学",
+    "officialWebsite": "https://www.sdut.edu.cn/",
+    "officialDomain": "sdut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.sdut.edu.cn/jgsz/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:39:27.778Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-ufw7kz",
+    "schoolName": "山东农业大学",
+    "officialWebsite": "https://www.sdau.edu.cn/",
+    "officialDomain": "sdau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.sdau.edu.cn/13396/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:39:31.578Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1gvdim9",
+    "schoolName": "青岛农业大学",
+    "officialWebsite": "https://www.qau.edu.cn/",
+    "officialDomain": "qau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.qau.edu.cn/channel/jiaoxuedanwei",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:40:18.070Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-t1uxvw",
+    "schoolName": "山东中医药大学",
+    "officialWebsite": "https://www.sdutcm.edu.cn/",
+    "officialDomain": "sdutcm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "中医药文化创新传承发展暨《少年中医说》讲评会在京举办",
+        "url": "https://www.sdutcm.edu.cn/info/1003/15849.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-13T14:41:04.027Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1g328bg",
+    "schoolName": "山东师范大学",
+    "officialWebsite": "https://www.sdnu.edu.cn/",
+    "officialDomain": "sdnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学前教育学院",
+        "url": "https://jyxb.sdnu.edu.cn/xzx_/xqjyxy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:41:21.568Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1rla9s4",
+    "schoolName": "聊城大学",
+    "officialWebsite": "https://www.lcudcc.edu.cn/",
+    "officialDomain": "lcudcc.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1e45486",
+    "schoolName": "山东财经大学",
+    "officialWebsite": "https://www.sdufe.edu.cn/",
+    "officialDomain": "sdufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:42:24.106Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1mvmrfb",
+    "schoolName": "山东艺术学院",
+    "officialWebsite": "https://www.sdca.edu.cn/",
+    "officialDomain": "sdca.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "https://www.sdca.edu.cn/jgsz/jxkydw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:42:55.716Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1xc8qrn",
+    "schoolName": "青岛大学",
+    "officialWebsite": "https://www.qdu.edu.cn/",
+    "officialDomain": "qdu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.qdu.edu.cn/jgsz/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:44:14.722Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-j1lehb",
+    "schoolName": "郑州大学",
+    "officialWebsite": "https://www.zzu.edu.cn/",
+    "officialDomain": "zzu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.zzu.edu.cn/rcpy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:44:48.857Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-10ry0v7",
+    "schoolName": "河南理工大学",
+    "officialWebsite": "https://www.hpu.edu.cn/",
+    "officialDomain": "hpu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.hpu.edu.cn/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:45:04.343Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1ykzb0d",
+    "schoolName": "郑州轻工业大学",
+    "officialWebsite": "https://www.zzuli.edu.cn/",
+    "officialDomain": "zzuli.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://www.zzuli.edu.cn/275/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:45:51.127Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-vitwj9",
+    "schoolName": "河南工业大学",
+    "officialWebsite": "https://www.haut.edu.cn/",
+    "officialDomain": "haut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.haut.edu.cn/jgsz1.htm#xysz",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:46:11.436Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1kr9kbb",
+    "schoolName": "河南科技大学",
+    "officialWebsite": "https://10464.gaokao.haedu.cn/",
+    "officialDomain": "10464.gaokao.haedu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1cr9p44",
+    "schoolName": "河南农业大学",
+    "officialWebsite": "https://www.henau.edu.cn/",
+    "officialDomain": "henau.edu.cn",
+    "candidatePages": [
+      {
+        "name": ">学院设置",
+        "url": "https://www.henau.edu.cn/jgsz/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:46:55.095Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-9lcm9d",
+    "schoolName": "河南中医药大学",
+    "officialWebsite": "https://www.hactcm.edu.cn/",
+    "officialDomain": "hactcm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.hactcm.edu.cn/zzjg/jgsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:47:23.119Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-yb5hus",
+    "schoolName": "河南医药大学",
+    "officialWebsite": "http://www.xxmu.edu.cn/",
+    "officialDomain": "xxmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "http://www.xxmu.edu.cn/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:47:40.445Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-jst7yj",
+    "schoolName": "河南师范大学",
+    "officialWebsite": "https://www.htu.edu.cn/",
+    "officialDomain": "htu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学科研单位",
+        "url": "https://www.htu.edu.cn/9063/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:48:54.472Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-2gzcxl",
+    "schoolName": "河南财经政法大学",
+    "officialWebsite": "https://www.huel.edu.cn/",
+    "officialDomain": "huel.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-qycpyc",
+    "schoolName": "武汉科技大学",
+    "officialWebsite": "https://www.wust.edu.cn/",
+    "officialDomain": "wust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.wust.edu.cn/xxgk/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:50:43.632Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1s3kg94",
+    "schoolName": "华中科技大学",
+    "officialWebsite": "https://www.hust.edu.cn/",
+    "officialDomain": "hust.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.hust.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:50:51.524Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1wgnlj2",
+    "schoolName": "长江大学",
+    "officialWebsite": "https://www.yangtzeu.edu.cn/",
+    "officialDomain": "yangtzeu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.yangtzeu.edu.cn/zzjg/glfw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:51:38.091Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1apmx11",
+    "schoolName": "武汉工程大学",
+    "officialWebsite": "https://www.wit.edu.cn/",
+    "officialDomain": "wit.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.wit.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:51:47.163Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-jwli6d",
+    "schoolName": "武汉轻工大学",
+    "officialWebsite": "https://sasne.whpu.edu.cn/",
+    "officialDomain": "sasne.whpu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://sasne.whpu.edu.cn/rcpy/bksjy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:52:38.912Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-dry7q",
+    "schoolName": "武汉纺织大学",
+    "officialWebsite": "https://jwc.wtu.edu.cn/",
+    "officialDomain": "jwc.wtu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1qqyuls",
+    "schoolName": "湖北工业大学",
+    "officialWebsite": "https://www.hbut.edu.cn/",
+    "officialDomain": "hbut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:53:47.881Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-jsch8q",
+    "schoolName": "湖北中医药大学",
+    "officialWebsite": "https://www.hbucm.edu.cn/",
+    "officialDomain": "hbucm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:54:50.132Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1esnqnk",
+    "schoolName": "华中师范大学",
+    "officialWebsite": "https://www.ccnu.edu.cn/",
+    "officialDomain": "ccnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学部学院（所、中心）",
+        "url": "https://www.ccnu.edu.cn/jgsz/xbxy_s_zx_.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:55:38.038Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-wj53lf",
+    "schoolName": "湖北大学",
+    "officialWebsite": "https://xxgk.hubu.edu.cn/",
+    "officialDomain": "xxgk.hubu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "办事机构",
+        "url": "https://xxgk.hubu.edu.cn/jbxx/bxjbqk/xxjgsz/bsjg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.85,
+        "discoveredAt": "2026-07-13T14:56:00.266Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-19byaar",
+    "schoolName": "中南财经政法大学",
+    "officialWebsite": "https://www.zuel.edu.cn/",
+    "officialDomain": "zuel.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "http://www.zuel.edu.cn/schools/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:56:29.697Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-9x705",
+    "schoolName": "武汉体育学院",
+    "officialWebsite": "https://zs.whsu.edu.cn/",
+    "officialDomain": "zs.whsu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-q3dfsc",
+    "schoolName": "中南民族大学",
+    "officialWebsite": "https://www.scuec.edu.cn/",
+    "officialDomain": "scuec.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.scuec.edu.cn/zzjg/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:57:15.221Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-gazkhs",
+    "schoolName": "江汉大学",
+    "officialWebsite": "https://www.jhun.edu.cn/",
+    "officialDomain": "jhun.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置",
+        "url": "https://www.jhun.edu.cn/7552/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-13T14:58:06.382Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1j85txm",
+    "schoolName": "三峡大学",
+    "officialWebsite": "https://www.ctgu.edu.cn/",
+    "officialDomain": "ctgu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1gy9d6y",
+    "schoolName": "湖南中医药大学",
+    "officialWebsite": "https://www.hnucm.edu.cn/",
+    "officialDomain": "hnucm.edu.cn",
+    "candidatePages": [
+      {
+        "name": "中西医结合学院",
+        "url": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:18:55.713Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-12x1mka",
+    "schoolName": "湖南师范大学",
+    "officialWebsite": "https://www.hunnu.edu.cn/",
+    "officialDomain": "hunnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "学院设置-湖南师范大学",
+        "url": "https://www.hunnu.edu.cn/xxjg/xysz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:20:08.958Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-89xe30",
+    "schoolName": "湖南工商大学",
+    "officialWebsite": "https://www.hutb.edu.cn/",
+    "officialDomain": "hutb.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人才培养",
+        "url": "https://jwc.hutb.edu.cn/",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:19:53.103Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-w7pkva",
+    "schoolName": "中山大学",
+    "officialWebsite": "https://www.sysu.edu.cn/",
+    "officialDomain": "sysu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.sysu.edu.cn/yxsz.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:21:12.617Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1dpdvi9",
+    "schoolName": "南华大学",
+    "officialWebsite": "https://www.usc.edu.cn/",
+    "officialDomain": "usc.edu.cn",
+    "candidatePages": [
+      {
+        "name": "湖南交通工程学院自考助学年度自评报告",
+        "url": "https://jjxy.usc.edu.cn/info/1054/1163.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.95,
+        "discoveredAt": "2026-07-14T01:21:20.461Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-136vvcp",
+    "schoolName": "暨南大学",
+    "officialWebsite": "https://www.jnu.edu.cn/",
+    "officialDomain": "jnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "http://www.jnu.edu.cn/35777/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:22:04.325Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-m3u0mt",
+    "schoolName": "汕头大学",
+    "officialWebsite": "https://www.stu.edu.cn/",
+    "officialDomain": "stu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系专业",
+        "url": "https://www.stu.edu.cn/rcpy/yxzy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:22:09.500Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-qbr6yx",
+    "schoolName": "华南农业大学",
+    "officialWebsite": "https://www.scau.edu.cn/",
+    "officialDomain": "scau.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.scau.edu.cn/17936/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:23:16.563Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-wtbl7l",
+    "schoolName": "广东海洋大学",
+    "officialWebsite": "https://www.gdou.edu.cn/",
+    "officialDomain": "gdou.edu.cn",
+    "candidatePages": [
+      {
+        "name": "广东海洋大学",
+        "url": "https://www.gdou.edu.cn",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-14T01:23:34.716Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-y2vayh",
+    "schoolName": "广州医科大学",
+    "officialWebsite": "https://www.gzhmu.edu.cn/",
+    "officialDomain": "gzhmu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "历史沿革",
+        "url": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.85,
+        "discoveredAt": "2026-07-14T01:24:36.509Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1q4if0c",
+    "schoolName": "广州中医药大学",
+    "officialWebsite": "https://www.gzucm.edu.cn/",
+    "officialDomain": "gzucm.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-10jbnxn",
+    "schoolName": "广州美术学院",
+    "officialWebsite": "https://www.gzarts.edu.cn/",
+    "officialDomain": "gzarts.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-kex31e",
+    "schoolName": "华南师范大学",
+    "officialWebsite": "http://gxb.scnu.edu.cn/",
+    "officialDomain": "gxb.scnu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "人工智能学院",
+        "url": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:26:38.705Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-lhhdlk",
+    "schoolName": "深圳大学",
+    "officialWebsite": "https://www.szu.edu.cn/",
+    "officialDomain": "szu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "本科生教育-深圳大学",
+        "url": "https://www.szu.edu.cn/jyjx1/bksjy.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.7,
+        "discoveredAt": "2026-07-14T01:28:17.071Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-h5f550",
+    "schoolName": "广东财经大学",
+    "officialWebsite": "https://www.gdufe.edu.cn/",
+    "officialDomain": "gdufe.edu.cn",
+    "candidatePages": [
+      {
+        "name": "组织机构",
+        "url": "https://www.gdufe.edu.cn/zzjg/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:28:06.763Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1pi1lr3",
+    "schoolName": "五邑大学",
+    "officialWebsite": "https://www.wyu.edu.cn/",
+    "officialDomain": "wyu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1malrc9",
+    "schoolName": "广州大学",
+    "officialWebsite": "http://jyxy.gzhu.edu.cn/",
+    "officialDomain": "jyxy.gzhu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教育学院2026年博士研究生招生初选、复选工作实施办法",
+        "url": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.95,
+        "discoveredAt": "2026-07-14T01:29:24.398Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-jm232k",
+    "schoolName": "广东外语外贸大学",
+    "officialWebsite": "https://www.gdufs.edu.cn/",
+    "officialDomain": "gdufs.edu.cn",
+    "candidatePages": [
+      {
+        "name": "2026.07.08校领导走访校友企业视源股份本网讯为持续深化产教融合、强化校地校企联动，充分依托优质校友资源赋能学校人才培养、学科建设与毕业生高质量就业，7月5日下午，校党委副书记葛小月带队赴广州视源电子科技股份有限公司第二产业园开展走访调研，校友事务与合作发展处处长刘庆丹等随同走访。校董、广州开发区、黄埔校友会终身名誉会长庄铧，从化校友会会长李达明等校友代表参与交流。视源股份竞争力研究院院长、2004级校友吕丹凤，战略资源副总裁、2001级校友...",
+        "url": "https://www.gdufs.edu.cn/info/1106/260316.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 0.8,
+        "discoveredAt": "2026-07-14T01:30:24.849Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-c5vepw",
+    "schoolName": "广东工业大学",
+    "officialWebsite": "https://jwc.gdut.edu.cn/",
+    "officialDomain": "jwc.gdut.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-1k23k50",
+    "schoolName": "南方医科大学",
+    "officialWebsite": "http://portal.smu.edu.cn/",
+    "officialDomain": "portal.smu.edu.cn",
+    "candidatePages": [
+      {
+        "name": "康复医学院-南方医科大学本科招生网",
+        "url": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:31:25.031Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-1tkb7hx",
+    "schoolName": "南方科技大学",
+    "officialWebsite": "https://www.sustech.edu.cn/",
+    "officialDomain": "sustech.edu.cn",
+    "candidatePages": [
+      {
+        "name": "院系设置",
+        "url": "https://www.sustech.edu.cn/zh/college.html",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:31:55.313Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-ootfoe",
+    "schoolName": "广西大学",
+    "officialWebsite": "https://www.gxu.edu.cn/",
+    "officialDomain": "gxu.edu.cn",
+    "candidatePages": [],
+    "crawlStatus": "website-verified"
+  },
+  {
+    "schoolId": "school-tosrab",
+    "schoolName": "桂林电子科技大学",
+    "officialWebsite": "https://www.guet.edu.cn/",
+    "officialDomain": "guet.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.guet.edu.cn/jxdw/list.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:32:58.132Z"
+      }
+    ],
+    "crawlStatus": "ready"
+  },
+  {
+    "schoolId": "school-m5dqd6",
+    "schoolName": "桂林理工大学",
+    "officialWebsite": "https://www.glut.edu.cn/",
+    "officialDomain": "glut.edu.cn",
+    "candidatePages": [
+      {
+        "name": "教学单位",
+        "url": "https://www.glut.edu.cn/jgsz/jxdw.htm",
+        "sourceType": "academic-units",
+        "enabled": true,
+        "confidence": 1,
+        "discoveredAt": "2026-07-14T01:33:14.931Z"
+      }
+    ],
+    "crawlStatus": "ready"
   }
 ]

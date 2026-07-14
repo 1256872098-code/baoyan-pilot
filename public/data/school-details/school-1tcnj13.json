@@ -1,0 +1,178 @@
+{
+  "schoolId": "school-1tcnj13",
+  "name": "北京物资学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:28:45.884Z",
+  "academicUnits": [
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://fxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://is.bwu.edu.cn/newsite.htm",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://kjxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-05fa66ebdc",
+      "name": "京东学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jdxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jjxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marx.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-14ad1478b3",
+      "name": "期货学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://qhxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-31be8d300c",
+      "name": "统计与数据科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tsxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-e8cd6c9c30",
+      "name": "外国语言与文化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wyxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-42e6ab827a",
+      "name": "物流学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wlxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    },
+    {
+      "id": "unit-3662d2b62d",
+      "name": "信息学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://xxxy.bwu.edu.cn/",
+      "sourceUrl": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:28:45.875Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://office.bwu.edu.cn/info/1018/1669.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:28:45.884Z",
+      "lastCheckedAt": "2026-07-13T08:28:45.884Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.bwu.edu.cn/",
+    "sourceUrls": [
+      "https://office.bwu.edu.cn/info/1018/1669.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:28:45.884Z",
+    "lastCheckedAt": "2026-07-13T08:28:45.884Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 12,
+    "newUnitCount": 12,
+    "verifiedCount": 12,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

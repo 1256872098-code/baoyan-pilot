@@ -1,0 +1,3352 @@
+[
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "verified",
+    "officialWebsite": "https://bkzs.bift.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:15:43.552Z"
+  },
+  {
+    "schoolId": "school-ekga40",
+    "schoolName": "北京工商大学",
+    "status": "verified",
+    "officialWebsite": "https://www.btbu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:15:43.544Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:17:42.000Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:17:54.779Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:18:02.364Z"
+  },
+  {
+    "schoolId": "school-1ndasyq",
+    "schoolName": "北京建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://dzb.bucea.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:18:05.076Z"
+  },
+  {
+    "schoolId": "school-4jie16",
+    "schoolName": "北京电子科技学院",
+    "status": "verified",
+    "officialWebsite": "https://eeayn.com/",
+    "confidence": 0.85,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:18:39.551Z"
+  },
+  {
+    "schoolId": "school-x8ba2c",
+    "schoolName": "中国农业大学",
+    "status": "verified",
+    "officialWebsite": "https://zihuan.cau.edu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:19:27.293Z"
+  },
+  {
+    "schoolId": "school-1aq9mfi",
+    "schoolName": "北京林业大学",
+    "status": "verified",
+    "officialWebsite": "https://gx211.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:19:52.715Z"
+  },
+  {
+    "schoolId": "school-p4rh9h",
+    "schoolName": "首都医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ccmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:21:24.295Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "status": "verified",
+    "officialWebsite": "http://www.yichengcareer.com/",
+    "confidence": 0.9,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:21:02.977Z"
+  },
+  {
+    "schoolId": "school-1xsk41y",
+    "schoolName": "北京中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bucm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:22:35.227Z"
+  },
+  {
+    "schoolId": "school-1mzieaw",
+    "schoolName": "首都师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:23:21.054Z"
+  },
+  {
+    "schoolId": "school-zubin2",
+    "schoolName": "北京师范大学",
+    "status": "verified",
+    "officialWebsite": "https://jwb.bnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:23:21.044Z"
+  },
+  {
+    "schoolId": "school-22wnzj",
+    "schoolName": "北京外国语大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bfsu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:24:13.030Z"
+  },
+  {
+    "schoolId": "school-c0j79y",
+    "schoolName": "北京第二外国语学院",
+    "status": "verified",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.9,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:24:30.331Z"
+  },
+  {
+    "schoolId": "school-1fxpnyu",
+    "schoolName": "北京语言大学",
+    "status": "verified",
+    "officialWebsite": "https://www.blcu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:25:07.537Z"
+  },
+  {
+    "schoolId": "school-rpe0lk",
+    "schoolName": "中国传媒大学",
+    "status": "verified",
+    "officialWebsite": "http://www.cu-edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:25:36.016Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "status": "pending-review",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.75,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:26:18.304Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "status": "verified",
+    "officialWebsite": "https://sidc.uibe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:26:37.905Z"
+  },
+  {
+    "schoolId": "school-1tcnj13",
+    "schoolName": "北京物资学院",
+    "status": "verified",
+    "officialWebsite": "https://www.bwu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T08:27:28.617Z"
+  },
+  {
+    "schoolId": "school-6flpnp",
+    "schoolName": "首都经济贸易大学",
+    "status": "verified",
+    "officialWebsite": "https://m.cueb.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:28:41.135Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "pending-review",
+    "officialWebsite": "https://www.mct.gov.cn/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:33:55.077Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "pending-review",
+    "officialWebsite": "https://www.mct.gov.cn/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:34:14.065Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "pending-review",
+    "officialWebsite": "https://www.mct.gov.cn/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:35:55.065Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "not-found",
+    "officialWebsite": "https://www.mct.gov.cn/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:37:28.193Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "verified",
+    "officialWebsite": "https://www.bift.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:38:10.518Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "status": "verified",
+    "officialWebsite": "https://www.bift.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:38:46.072Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:40:29.071Z"
+  },
+  {
+    "schoolId": "school-rpe0lk",
+    "schoolName": "中国传媒大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cuc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:40:55.597Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.75,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:41:21.738Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "status": "verified",
+    "officialWebsite": "https://sir.uibe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:41:39.283Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.75,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:43:44.213Z"
+  },
+  {
+    "schoolId": "school-1ndasyq",
+    "schoolName": "北京建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bucea.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:44:04.728Z"
+  },
+  {
+    "schoolId": "school-zubin2",
+    "schoolName": "北京师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:44:08.503Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "status": "verified",
+    "officialWebsite": "https://www.uibe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:44:10.412Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.dxsbb.com/",
+    "confidence": 0.75,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:45:56.988Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "status": "verified",
+    "officialWebsite": "http://www.cufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:47:18.525Z"
+  },
+  {
+    "schoolId": "school-1ndasyq",
+    "schoolName": "北京建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bucea.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:48:53.031Z"
+  },
+  {
+    "schoolId": "school-zubin2",
+    "schoolName": "北京师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:49:56.806Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "status": "verified",
+    "officialWebsite": "https://www.uibe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:50:53.831Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:54:51.613Z"
+  },
+  {
+    "schoolId": "school-1aq9mfi",
+    "schoolName": "北京林业大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.pishu.com.cn/",
+    "confidence": 0.75,
+    "candidateCount": 6,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:57:16.282Z"
+  },
+  {
+    "schoolId": "school-1mzieaw",
+    "schoolName": "首都师范大学",
+    "status": "not-found",
+    "officialWebsite": "http://www.bh.ualliance.bici.org/",
+    "confidence": 0.25,
+    "candidateCount": 8,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T08:57:31.107Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 9,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T08:57:53.164Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T09:18:49.014Z"
+  },
+  {
+    "schoolId": "school-1aq9mfi",
+    "schoolName": "北京林业大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.pishu.com.cn/",
+    "confidence": 0.75,
+    "candidateCount": 6,
+    "searchRequestCount": 0,
+    "searchedAt": "2026-07-13T09:19:21.964Z"
+  },
+  {
+    "schoolId": "school-pg9xir",
+    "schoolName": "外交学院",
+    "status": "verified",
+    "officialWebsite": "https://www.cfau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:37:58.977Z"
+  },
+  {
+    "schoolId": "school-juxe64",
+    "schoolName": "中国人民公安大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ppsuc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:37:58.977Z"
+  },
+  {
+    "schoolId": "school-huxuoh",
+    "schoolName": "国际关系学院",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:38:40.110Z"
+  },
+  {
+    "schoolId": "school-b9oqey",
+    "schoolName": "北京体育大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bsu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:38:48.505Z"
+  },
+  {
+    "schoolId": "school-1ix5lil",
+    "schoolName": "中央音乐学院",
+    "status": "verified",
+    "officialWebsite": "https://www.ccom.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:39:20.840Z"
+  },
+  {
+    "schoolId": "school-1h5a10k",
+    "schoolName": "中国音乐学院",
+    "status": "verified",
+    "officialWebsite": "https://www.ccmusic.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:39:25.346Z"
+  },
+  {
+    "schoolId": "school-15grunp",
+    "schoolName": "中央美术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.cafa.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:40:04.202Z"
+  },
+  {
+    "schoolId": "school-1nakfog",
+    "schoolName": "中央戏剧学院",
+    "status": "verified",
+    "officialWebsite": "https://chntheatre.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:40:04.809Z"
+  },
+  {
+    "schoolId": "school-ts05kw",
+    "schoolName": "北京电影学院",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:40:50.772Z"
+  },
+  {
+    "schoolId": "school-h1amj",
+    "schoolName": "中央民族大学",
+    "status": "verified",
+    "officialWebsite": "https://www.muc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:41:00.810Z"
+  },
+  {
+    "schoolId": "school-6t1x3n",
+    "schoolName": "华北电力大学",
+    "status": "verified",
+    "officialWebsite": "https://net.ncepu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:42:07.105Z"
+  },
+  {
+    "schoolId": "school-1r2i1i2",
+    "schoolName": "中国政法大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:42:07.105Z"
+  },
+  {
+    "schoolId": "school-zdg5d7",
+    "schoolName": "北京联合大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cas.buu.edu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:42:58.859Z"
+  },
+  {
+    "schoolId": "school-18l0556",
+    "schoolName": "北京信息科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bistu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:42:57.916Z"
+  },
+  {
+    "schoolId": "school-uwgmsr",
+    "schoolName": "中国科学院大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.ucas.ac.cn/",
+    "confidence": 0.8,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:43:41.228Z"
+  },
+  {
+    "schoolId": "school-1b6srb",
+    "schoolName": "中国社会科学院大学",
+    "status": "verified",
+    "officialWebsite": "https://ky.ucass.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:43:50.685Z"
+  },
+  {
+    "schoolId": "school-1vryf8u",
+    "schoolName": "天津大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tju.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:44:33.188Z"
+  },
+  {
+    "schoolId": "school-jp57y3",
+    "schoolName": "南开大学",
+    "status": "verified",
+    "officialWebsite": "https://www.nankai.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:44:27.519Z"
+  },
+  {
+    "schoolId": "school-9obiiz",
+    "schoolName": "天津科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:45:23.220Z"
+  },
+  {
+    "schoolId": "school-1s1uhpd",
+    "schoolName": "天津工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tiangong.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:45:47.216Z"
+  },
+  {
+    "schoolId": "school-yzagcn",
+    "schoolName": "天津理工大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:46:23.046Z"
+  },
+  {
+    "schoolId": "school-1nr5cwp",
+    "schoolName": "中国民航大学",
+    "status": "verified",
+    "officialWebsite": "https://career.nankai.edu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:46:23.036Z"
+  },
+  {
+    "schoolId": "school-18q1c9p",
+    "schoolName": "天津中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tjutcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:47:06.755Z"
+  },
+  {
+    "schoolId": "school-1qj5x5y",
+    "schoolName": "天津医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tmu.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:47:02.497Z"
+  },
+  {
+    "schoolId": "school-5ynjpr",
+    "schoolName": "天津师范大学",
+    "status": "verified",
+    "officialWebsite": "https://csyhj.tjnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:47:51.224Z"
+  },
+  {
+    "schoolId": "school-w2ywqk",
+    "schoolName": "天津职业技术师范大学",
+    "status": "not-found",
+    "officialWebsite": "https://tute.bysjy.com.cn/",
+    "confidence": 0.9,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:47:51.939Z"
+  },
+  {
+    "schoolId": "school-10wwmi4",
+    "schoolName": "天津外国语大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tjfsu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:48:37.290Z"
+  },
+  {
+    "schoolId": "school-15v6lei",
+    "schoolName": "天津商业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tjcu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:48:42.003Z"
+  },
+  {
+    "schoolId": "school-7jaky5",
+    "schoolName": "天津财经大学",
+    "status": "verified",
+    "officialWebsite": "https://zhujiang.tjufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:49:20.649Z"
+  },
+  {
+    "schoolId": "school-s36hbq",
+    "schoolName": "天津体育学院",
+    "status": "verified",
+    "officialWebsite": "https://www.tjus.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:49:28.005Z"
+  },
+  {
+    "schoolId": "school-4frkjs",
+    "schoolName": "天津美术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.tjarts.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:50:31.684Z"
+  },
+  {
+    "schoolId": "school-iww4u2",
+    "schoolName": "河北大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hbu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:50:31.675Z"
+  },
+  {
+    "schoolId": "school-zdyrlm",
+    "schoolName": "河北工程大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hebeu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:51:23.601Z"
+  },
+  {
+    "schoolId": "school-16q8rm2",
+    "schoolName": "河北地质大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.icourse163.org/",
+    "confidence": 0.7,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:51:29.325Z"
+  },
+  {
+    "schoolId": "school-6gavg5",
+    "schoolName": "河北工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hebut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:52:16.717Z"
+  },
+  {
+    "schoolId": "school-jlm0dy",
+    "schoolName": "华北理工大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.muc.edu.cn/",
+    "confidence": 0.45,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:52:37.418Z"
+  },
+  {
+    "schoolId": "school-upvjkn",
+    "schoolName": "河北科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hebust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:53:17.977Z"
+  },
+  {
+    "schoolId": "school-3a2bac",
+    "schoolName": "河北农业大学",
+    "status": "verified",
+    "officialWebsite": "http://hebeedu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:53:41.871Z"
+  },
+  {
+    "schoolId": "school-1d3h5ya",
+    "schoolName": "河北医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hebmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:54:04.704Z"
+  },
+  {
+    "schoolId": "school-tk3xhj",
+    "schoolName": "河北北方学院",
+    "status": "not-found",
+    "officialWebsite": "http://heb.hebccw.cn/",
+    "confidence": 0.05,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:54:31.884Z"
+  },
+  {
+    "schoolId": "school-11envda",
+    "schoolName": "燕山大学",
+    "status": "verified",
+    "officialWebsite": "https://asracu.blcu.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:56:12.759Z"
+  },
+  {
+    "schoolId": "school-1s6ra1t",
+    "schoolName": "河北经贸大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hueb.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:56:28.251Z"
+  },
+  {
+    "schoolId": "school-1lg54a9",
+    "schoolName": "河北中医药大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.scedu.tech/",
+    "confidence": 0.75,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:57:16.316Z"
+  },
+  {
+    "schoolId": "school-13zpd4k",
+    "schoolName": "山西大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sxu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:57:46.549Z"
+  },
+  {
+    "schoolId": "school-ne7gpm",
+    "schoolName": "太原科技大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T12:58:05.662Z"
+  },
+  {
+    "schoolId": "school-7dauzc",
+    "schoolName": "中北大学",
+    "status": "verified",
+    "officialWebsite": "https://www.nuc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:58:31.303Z"
+  },
+  {
+    "schoolId": "school-m0f162",
+    "schoolName": "太原理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tyut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:59:07.446Z"
+  },
+  {
+    "schoolId": "school-es2rey",
+    "schoolName": "山西农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sxie.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T12:59:42.236Z"
+  },
+  {
+    "schoolId": "school-1r4afsp",
+    "schoolName": "山西师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sxnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:15:42.843Z"
+  },
+  {
+    "schoolId": "school-ghii1c",
+    "schoolName": "山西医科大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.shutu.tv/",
+    "confidence": 0.7,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:15:42.816Z"
+  },
+  {
+    "schoolId": "school-5ate9v",
+    "schoolName": "山西财经大学",
+    "status": "verified",
+    "officialWebsite": "https://fx.sxufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:16:26.021Z"
+  },
+  {
+    "schoolId": "school-1h3oi13",
+    "schoolName": "山西中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sxtcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:16:26.519Z"
+  },
+  {
+    "schoolId": "school-915pzc",
+    "schoolName": "内蒙古大学",
+    "status": "verified",
+    "officialWebsite": "https://www.imu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:17:07.879Z"
+  },
+  {
+    "schoolId": "school-ioj951",
+    "schoolName": "内蒙古科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.imust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:17:23.449Z"
+  },
+  {
+    "schoolId": "school-151zru7",
+    "schoolName": "内蒙古工业大学",
+    "status": "verified",
+    "officialWebsite": "http://jwch.imut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:18:01.739Z"
+  },
+  {
+    "schoolId": "school-de6q7q",
+    "schoolName": "内蒙古农业大学",
+    "status": "not-found",
+    "officialWebsite": "https://apps.eol.cn/",
+    "confidence": 0.75,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:18:04.347Z"
+  },
+  {
+    "schoolId": "school-1ohl3fh",
+    "schoolName": "内蒙古师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.imnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:18:42.326Z"
+  },
+  {
+    "schoolId": "school-17ycdgk",
+    "schoolName": "内蒙古医科大学",
+    "status": "not-found",
+    "officialWebsite": "http://www.forcnmedical.com/",
+    "confidence": 0.75,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:18:37.320Z"
+  },
+  {
+    "schoolId": "school-nvcv9i",
+    "schoolName": "辽宁大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lnu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:19:26.532Z"
+  },
+  {
+    "schoolId": "school-17r6flo",
+    "schoolName": "内蒙古民族大学",
+    "status": "verified",
+    "officialWebsite": "https://www.imun.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:19:26.532Z"
+  },
+  {
+    "schoolId": "school-1spjwm0",
+    "schoolName": "大连理工大学",
+    "status": "verified",
+    "officialWebsite": "https://sche.dlut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:20:13.915Z"
+  },
+  {
+    "schoolId": "school-1118awu",
+    "schoolName": "沈阳工业大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.acabridge.cn/",
+    "confidence": 0.75,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:20:16.461Z"
+  },
+  {
+    "schoolId": "school-1m5hglk",
+    "schoolName": "沈阳航空航天大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:21:14.698Z"
+  },
+  {
+    "schoolId": "school-ywp39p",
+    "schoolName": "东北大学",
+    "status": "verified",
+    "officialWebsite": "https://www.neu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:21:21.331Z"
+  },
+  {
+    "schoolId": "school-ttm4vf",
+    "schoolName": "辽宁工程技术大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lntu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:22:07.287Z"
+  },
+  {
+    "schoolId": "school-bmckeb",
+    "schoolName": "辽宁科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ustl.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:22:01.683Z"
+  },
+  {
+    "schoolId": "school-1qkywks",
+    "schoolName": "沈阳化工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.syuct.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:23:05.696Z"
+  },
+  {
+    "schoolId": "school-1c9stwn",
+    "schoolName": "辽宁石油化工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lnpu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:23:02.454Z"
+  },
+  {
+    "schoolId": "school-b6sno3",
+    "schoolName": "大连交通大学",
+    "status": "verified",
+    "officialWebsite": "http://jcb.djtu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:24:01.496Z"
+  },
+  {
+    "schoolId": "school-xgs1gr",
+    "schoolName": "大连海事大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dlmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:24:01.496Z"
+  },
+  {
+    "schoolId": "school-fjot7m",
+    "schoolName": "大连工业大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.dlpu.edu.cn/",
+    "confidence": 0.3,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:24:42.470Z"
+  },
+  {
+    "schoolId": "school-1wdra4k",
+    "schoolName": "沈阳建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sjzu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:24:58.066Z"
+  },
+  {
+    "schoolId": "school-8dybcb",
+    "schoolName": "大连海洋大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dlou.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:25:46.268Z"
+  },
+  {
+    "schoolId": "school-193a7mv",
+    "schoolName": "沈阳农业大学",
+    "status": "not-found",
+    "officialWebsite": "https://m.bendibao.com/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:25:27.854Z"
+  },
+  {
+    "schoolId": "school-f6udgy",
+    "schoolName": "中国医科大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:26:24.402Z"
+  },
+  {
+    "schoolId": "school-193fhq9",
+    "schoolName": "大连医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:27:07.660Z"
+  },
+  {
+    "schoolId": "school-jcqel1",
+    "schoolName": "辽宁中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lnutcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:27:12.273Z"
+  },
+  {
+    "schoolId": "school-b9cfo1",
+    "schoolName": "沈阳药科大学",
+    "status": "verified",
+    "officialWebsite": "https://sp.syphu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:27:58.719Z"
+  },
+  {
+    "schoolId": "school-1t1avx3",
+    "schoolName": "辽宁师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lnnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:28:36.212Z"
+  },
+  {
+    "schoolId": "school-15yb7nc",
+    "schoolName": "沈阳师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.synu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:28:36.212Z"
+  },
+  {
+    "schoolId": "school-1xgt7cl",
+    "schoolName": "渤海大学",
+    "status": "verified",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:29:44.907Z"
+  },
+  {
+    "schoolId": "school-vov9o1",
+    "schoolName": "大连外国语大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dlufl.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:29:57.086Z"
+  },
+  {
+    "schoolId": "school-1nnialu",
+    "schoolName": "东北财经大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dufe.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:30:45.516Z"
+  },
+  {
+    "schoolId": "school-mxdj2h",
+    "schoolName": "沈阳体育学院",
+    "status": "verified",
+    "officialWebsite": "http://www.syty.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:30:51.270Z"
+  },
+  {
+    "schoolId": "school-1n6u6rk",
+    "schoolName": "鲁迅美术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.lumei.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:31:32.398Z"
+  },
+  {
+    "schoolId": "school-14zeq83",
+    "schoolName": "沈阳音乐学院",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:31:28.910Z"
+  },
+  {
+    "schoolId": "school-z7rj8k",
+    "schoolName": "吉林大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jlu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:32:21.286Z"
+  },
+  {
+    "schoolId": "school-ote0x",
+    "schoolName": "大连大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.acabridge.cn/",
+    "confidence": 0.75,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:32:20.835Z"
+  },
+  {
+    "schoolId": "school-51c749",
+    "schoolName": "长春理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:33:07.483Z"
+  },
+  {
+    "schoolId": "school-biv5qh",
+    "schoolName": "延边大学",
+    "status": "verified",
+    "officialWebsite": "https://ydyxy.ybu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:33:07.483Z"
+  },
+  {
+    "schoolId": "school-4w7eej",
+    "schoolName": "长春工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ccut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:34:05.001Z"
+  },
+  {
+    "schoolId": "school-vevdq9",
+    "schoolName": "东北电力大学",
+    "status": "verified",
+    "officialWebsite": "https://zs.neepu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:34:03.940Z"
+  },
+  {
+    "schoolId": "school-fvda4a",
+    "schoolName": "吉林农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jlau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:34:40.751Z"
+  },
+  {
+    "schoolId": "school-1l86cf",
+    "schoolName": "长春中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ccucm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:35:02.935Z"
+  },
+  {
+    "schoolId": "school-3e8asg",
+    "schoolName": "东北师范大学",
+    "status": "verified",
+    "officialWebsite": "https://chem.nenu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:35:48.590Z"
+  },
+  {
+    "schoolId": "school-1krf08x",
+    "schoolName": "北华大学",
+    "status": "verified",
+    "officialWebsite": "https://www.beihua.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:35:55.084Z"
+  },
+  {
+    "schoolId": "school-qly1rd",
+    "schoolName": "吉林师范大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.acabridge.net/",
+    "confidence": 0.75,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:36:41.619Z"
+  },
+  {
+    "schoolId": "school-mgfzkx",
+    "schoolName": "长春师范大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.ais.cn/",
+    "confidence": 0.75,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:36:43.782Z"
+  },
+  {
+    "schoolId": "school-6f9uah",
+    "schoolName": "黑龙江大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hlju.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:39:05.011Z"
+  },
+  {
+    "schoolId": "school-b2cp4j",
+    "schoolName": "吉林财经大学",
+    "status": "verified",
+    "officialWebsite": "https://jdjyw.jlu.edu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:39:05.011Z"
+  },
+  {
+    "schoolId": "school-4j5ii9",
+    "schoolName": "哈尔滨工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hitwh.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:39:48.189Z"
+  },
+  {
+    "schoolId": "school-101kxj",
+    "schoolName": "哈尔滨理工大学",
+    "status": "verified",
+    "officialWebsite": "https://rc.hrbust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:39:59.411Z"
+  },
+  {
+    "schoolId": "school-i7vzau",
+    "schoolName": "哈尔滨工程大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hrbeu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:40:41.872Z"
+  },
+  {
+    "schoolId": "school-1l11510",
+    "schoolName": "黑龙江科技大学",
+    "status": "verified",
+    "officialWebsite": "https://usth.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:40:56.624Z"
+  },
+  {
+    "schoolId": "school-9ram31",
+    "schoolName": "东北石油大学",
+    "status": "verified",
+    "officialWebsite": "https://xxgk.nepu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:41:37.627Z"
+  },
+  {
+    "schoolId": "school-qvg466",
+    "schoolName": "佳木斯大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:41:42.875Z"
+  },
+  {
+    "schoolId": "school-1i94dak",
+    "schoolName": "黑龙江八一农垦大学",
+    "status": "verified",
+    "officialWebsite": "https://www.byau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:42:21.951Z"
+  },
+  {
+    "schoolId": "school-12sylbz",
+    "schoolName": "东北农业大学",
+    "status": "verified",
+    "officialWebsite": "https://spxy.neau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:42:25.527Z"
+  },
+  {
+    "schoolId": "school-1u06j9y",
+    "schoolName": "哈尔滨医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hrbmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:43:43.453Z"
+  },
+  {
+    "schoolId": "school-es00qs",
+    "schoolName": "东北林业大学",
+    "status": "verified",
+    "officialWebsite": "https://bksy.nefu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:43:43.455Z"
+  },
+  {
+    "schoolId": "school-1ryskhr",
+    "schoolName": "哈尔滨师范大学",
+    "status": "not-found",
+    "officialWebsite": "https://m.bendibao.com/",
+    "confidence": 0.7,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:44:32.536Z"
+  },
+  {
+    "schoolId": "school-1fsmxm4",
+    "schoolName": "黑龙江中医药大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.hljucm.net/",
+    "confidence": 0.9,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:44:31.384Z"
+  },
+  {
+    "schoolId": "school-1ra74to",
+    "schoolName": "齐齐哈尔大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qqhru.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:45:05.791Z"
+  },
+  {
+    "schoolId": "school-2s294a",
+    "schoolName": "哈尔滨商业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hrbcu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:45:09.063Z"
+  },
+  {
+    "schoolId": "school-9akiau",
+    "schoolName": "哈尔滨体育学院",
+    "status": "verified",
+    "officialWebsite": "https://www.hrbipe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:45:53.543Z"
+  },
+  {
+    "schoolId": "school-1ytmrqi",
+    "schoolName": "同济大学",
+    "status": "verified",
+    "officialWebsite": "https://www.tongji.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:46:25.103Z"
+  },
+  {
+    "schoolId": "school-lc7cxf",
+    "schoolName": "复旦大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:46:00.591Z"
+  },
+  {
+    "schoolId": "school-2cw2mj",
+    "schoolName": "华东理工大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.ecnu.edu.cn/",
+    "confidence": 0.4,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:47:02.271Z"
+  },
+  {
+    "schoolId": "school-nhtwjm",
+    "schoolName": "上海理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.usst.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:48:06.638Z"
+  },
+  {
+    "schoolId": "school-1fwubqx",
+    "schoolName": "上海海事大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shmtu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:48:06.638Z"
+  },
+  {
+    "schoolId": "school-1pvy7p6",
+    "schoolName": "东华大学",
+    "status": "verified",
+    "officialWebsite": "https://www.dhu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:48:46.943Z"
+  },
+  {
+    "schoolId": "school-102r7tz",
+    "schoolName": "上海电力大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shiep.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:48:55.561Z"
+  },
+  {
+    "schoolId": "school-1q97es6",
+    "schoolName": "上海中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://iec.shutcm.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:50:19.859Z"
+  },
+  {
+    "schoolId": "school-yaso3q",
+    "schoolName": "上海应用技术大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.sh.chinanews.com.cn/",
+    "confidence": 0,
+    "candidateCount": 5,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:50:18.046Z"
+  },
+  {
+    "schoolId": "school-jf38xv",
+    "schoolName": "华东师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ecnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:50:55.935Z"
+  },
+  {
+    "schoolId": "school-1t7zoku",
+    "schoolName": "上海师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:51:30.461Z"
+  },
+  {
+    "schoolId": "school-1899ae7",
+    "schoolName": "上海外国语大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shisu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:52:16.831Z"
+  },
+  {
+    "schoolId": "school-1m3z29z",
+    "schoolName": "上海对外经贸大学",
+    "status": "verified",
+    "officialWebsite": "https://www.suibe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:52:47.015Z"
+  },
+  {
+    "schoolId": "school-1a9u4ne",
+    "schoolName": "上海体育大学",
+    "status": "pending-review",
+    "officialWebsite": "https://jwc.sus.edu.cn/",
+    "confidence": 0.6,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:53:33.702Z"
+  },
+  {
+    "schoolId": "school-s1eaxu",
+    "schoolName": "华东政法大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ecupl.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:53:33.712Z"
+  },
+  {
+    "schoolId": "school-lqo78h",
+    "schoolName": "上海音乐学院",
+    "status": "verified",
+    "officialWebsite": "https://www.shcmusic.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:54:13.810Z"
+  },
+  {
+    "schoolId": "school-1486kiv",
+    "schoolName": "上海大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:54:25.340Z"
+  },
+  {
+    "schoolId": "school-1136e36",
+    "schoolName": "上海科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.shanghaitech.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:55:21.387Z"
+  },
+  {
+    "schoolId": "school-1v6kn96",
+    "schoolName": "上海工程技术大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sues.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:55:11.889Z"
+  },
+  {
+    "schoolId": "school-1tyy51z",
+    "schoolName": "南京大学",
+    "status": "verified",
+    "officialWebsite": "https://dawww.nju.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:56:28.320Z"
+  },
+  {
+    "schoolId": "school-1qxjuw8",
+    "schoolName": "海军军医大学",
+    "status": "verified",
+    "officialWebsite": "https://jiankang.usst.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:56:22.889Z"
+  },
+  {
+    "schoolId": "school-158b6rx",
+    "schoolName": "东南大学",
+    "status": "verified",
+    "officialWebsite": "https://www.seu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:57:37.108Z"
+  },
+  {
+    "schoolId": "school-f7hi3d",
+    "schoolName": "苏州大学",
+    "status": "verified",
+    "officialWebsite": "https://tec.suda.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:57:35.566Z"
+  },
+  {
+    "schoolId": "school-4734ke",
+    "schoolName": "南京航空航天大学",
+    "status": "verified",
+    "officialWebsite": "https://nuaa.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:58:18.902Z"
+  },
+  {
+    "schoolId": "school-k4cj3m",
+    "schoolName": "南京理工大学",
+    "status": "verified",
+    "officialWebsite": "http://zj.njust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T13:58:18.902Z"
+  },
+  {
+    "schoolId": "school-1tvk2a3",
+    "schoolName": "江苏科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.just.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:59:02.058Z"
+  },
+  {
+    "schoolId": "school-zle1j",
+    "schoolName": "中国矿业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cumtb.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:59:13.209Z"
+  },
+  {
+    "schoolId": "school-clhj2k",
+    "schoolName": "南京工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.njtech.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T13:59:45.398Z"
+  },
+  {
+    "schoolId": "school-1hv7udy",
+    "schoolName": "常州大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cczu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:00:03.257Z"
+  },
+  {
+    "schoolId": "school-1flkpp6",
+    "schoolName": "河海大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hhu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:00:44.562Z"
+  },
+  {
+    "schoolId": "school-1pm0j22",
+    "schoolName": "南京邮电大学",
+    "status": "verified",
+    "officialWebsite": "https://www.njupt.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:00:38.387Z"
+  },
+  {
+    "schoolId": "school-odex9y",
+    "schoolName": "江南大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jiangnan.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:02:09.212Z"
+  },
+  {
+    "schoolId": "school-1ky5oge",
+    "schoolName": "南京林业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.njfu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:02:19.319Z"
+  },
+  {
+    "schoolId": "school-sd0dr",
+    "schoolName": "南京信息工程大学",
+    "status": "verified",
+    "officialWebsite": "https://www.nuist.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:03:33.412Z"
+  },
+  {
+    "schoolId": "school-1p12tny",
+    "schoolName": "江苏大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ujs.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:03:33.387Z"
+  },
+  {
+    "schoolId": "school-1mcsw0d",
+    "schoolName": "南通大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ntu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:04:49.625Z"
+  },
+  {
+    "schoolId": "school-1q5e4gd",
+    "schoolName": "南京农业大学",
+    "status": "verified",
+    "officialWebsite": "https://coe.njau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:05:02.845Z"
+  },
+  {
+    "schoolId": "school-k7kf3q",
+    "schoolName": "徐州医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.xzhmu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:05:56.486Z"
+  },
+  {
+    "schoolId": "school-eowz3n",
+    "schoolName": "南京医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.njmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:05:50.801Z"
+  },
+  {
+    "schoolId": "school-9vpxom",
+    "schoolName": "南京中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://smls.njucm.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:06:41.684Z"
+  },
+  {
+    "schoolId": "school-188415a",
+    "schoolName": "中国药科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.cpu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:07:03.062Z"
+  },
+  {
+    "schoolId": "school-1uibmu6",
+    "schoolName": "南京师范大学",
+    "status": "verified",
+    "officialWebsite": "https://jky.njnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:07:36.097Z"
+  },
+  {
+    "schoolId": "school-d4p4en",
+    "schoolName": "江苏师范大学",
+    "status": "verified",
+    "officialWebsite": "http://www.jsnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:08:03.157Z"
+  },
+  {
+    "schoolId": "school-1tvi6yz",
+    "schoolName": "南京体育学院",
+    "status": "verified",
+    "officialWebsite": "https://www.nsi.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:08:47.556Z"
+  },
+  {
+    "schoolId": "school-qbnz58",
+    "schoolName": "南京财经大学",
+    "status": "verified",
+    "officialWebsite": "https://www.nufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:08:47.540Z"
+  },
+  {
+    "schoolId": "school-sr0lhp",
+    "schoolName": "南京艺术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.nua.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:09:51.624Z"
+  },
+  {
+    "schoolId": "school-1ys22yc",
+    "schoolName": "苏州科技大学",
+    "status": "verified",
+    "officialWebsite": "https://skbs.usts.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:09:56.824Z"
+  },
+  {
+    "schoolId": "school-y7xx6",
+    "schoolName": "扬州大学",
+    "status": "not-found",
+    "officialWebsite": "http://bmxt.pkuzyw.com/",
+    "confidence": 0.7,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:10:35.193Z"
+  },
+  {
+    "schoolId": "school-udm8rw",
+    "schoolName": "浙江大学",
+    "status": "pending-review",
+    "officialWebsite": "https://www.zju.edu.cn/",
+    "confidence": 0.6,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:10:48.072Z"
+  },
+  {
+    "schoolId": "school-6uuks7",
+    "schoolName": "杭州电子科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hdu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:11:10.814Z"
+  },
+  {
+    "schoolId": "school-123frm3",
+    "schoolName": "浙江工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zzjc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:11:52.881Z"
+  },
+  {
+    "schoolId": "school-fgy7l5",
+    "schoolName": "浙江理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zstu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:12:05.544Z"
+  },
+  {
+    "schoolId": "school-1vohjyx",
+    "schoolName": "浙江农林大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zafu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:12:41.195Z"
+  },
+  {
+    "schoolId": "school-geyvpv",
+    "schoolName": "温州医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.wmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:13:31.328Z"
+  },
+  {
+    "schoolId": "school-tetwhr",
+    "schoolName": "浙江中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zcmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:13:31.328Z"
+  },
+  {
+    "schoolId": "school-6q2n0i",
+    "schoolName": "杭州师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hznu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:14:35.554Z"
+  },
+  {
+    "schoolId": "school-jaj11d",
+    "schoolName": "浙江师范大学",
+    "status": "verified",
+    "officialWebsite": "https://yjsb.zjnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:14:33.278Z"
+  },
+  {
+    "schoolId": "school-13qrg3b",
+    "schoolName": "浙江工商大学",
+    "status": "verified",
+    "officialWebsite": "http://www.zjgsu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:15:08.667Z"
+  },
+  {
+    "schoolId": "school-4bau24",
+    "schoolName": "中国美术学院",
+    "status": "pending-review",
+    "officialWebsite": "https://www.caa.edu.cn/",
+    "confidence": 0.6,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:15:21.893Z"
+  },
+  {
+    "schoolId": "school-libbbf",
+    "schoolName": "浙江财经大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:16:05.914Z"
+  },
+  {
+    "schoolId": "school-19n96wz",
+    "schoolName": "宁波大学",
+    "status": "verified",
+    "officialWebsite": "https://zs.ndky.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:16:09.153Z"
+  },
+  {
+    "schoolId": "school-19js9tt",
+    "schoolName": "西湖大学",
+    "status": "pending-review",
+    "officialWebsite": "https://science.westlake.edu.cn/",
+    "confidence": 0.6,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:17:07.084Z"
+  },
+  {
+    "schoolId": "school-1jkaaqv",
+    "schoolName": "宁波诺丁汉大学",
+    "status": "verified",
+    "officialWebsite": "https://www.nottingham.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:17:25.530Z"
+  },
+  {
+    "schoolId": "school-io6gqc",
+    "schoolName": "中国科学技术大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ustc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:18:29.081Z"
+  },
+  {
+    "schoolId": "school-dbveae",
+    "schoolName": "安徽大学",
+    "status": "not-found",
+    "officialWebsite": "https://spap.jst.go.jp/",
+    "confidence": 0.7,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:18:29.089Z"
+  },
+  {
+    "schoolId": "school-1gdz455",
+    "schoolName": "安徽工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ahut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:19:59.886Z"
+  },
+  {
+    "schoolId": "school-12bh538",
+    "schoolName": "合肥工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hfut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:19:34.361Z"
+  },
+  {
+    "schoolId": "school-7sfz1r",
+    "schoolName": "安徽理工大学",
+    "status": "verified",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:20:40.932Z"
+  },
+  {
+    "schoolId": "school-1nypg14",
+    "schoolName": "安徽农业大学",
+    "status": "verified",
+    "officialWebsite": "https://zhxy.ahau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:20:57.170Z"
+  },
+  {
+    "schoolId": "school-t61b6m",
+    "schoolName": "安徽医科大学",
+    "status": "verified",
+    "officialWebsite": "https://jc.ahmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:21:36.688Z"
+  },
+  {
+    "schoolId": "school-y9sjg8",
+    "schoolName": "蚌埠医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.bbmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:21:59.737Z"
+  },
+  {
+    "schoolId": "school-1lxlzyv",
+    "schoolName": "皖南医学院",
+    "status": "verified",
+    "officialWebsite": "https://career.muc.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:22:30.248Z"
+  },
+  {
+    "schoolId": "school-mfjrol",
+    "schoolName": "安徽中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ahtcm.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:22:56.144Z"
+  },
+  {
+    "schoolId": "school-i6nbr9",
+    "schoolName": "安徽财经大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.gaocai.gaoxiaojob.com/",
+    "confidence": 0.75,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:23:45.223Z"
+  },
+  {
+    "schoolId": "school-1xlw3tz",
+    "schoolName": "安徽师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ahnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:23:45.228Z"
+  },
+  {
+    "schoolId": "school-gocavj",
+    "schoolName": "安徽建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ahjzu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:24:25.494Z"
+  },
+  {
+    "schoolId": "school-nfa6",
+    "schoolName": "厦门大学",
+    "status": "verified",
+    "officialWebsite": "https://www.xmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:24:47.977Z"
+  },
+  {
+    "schoolId": "school-1spx2d2",
+    "schoolName": "华侨大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hqu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:25:22.984Z"
+  },
+  {
+    "schoolId": "school-1q2lc0p",
+    "schoolName": "福州大学",
+    "status": "verified",
+    "officialWebsite": "https://www.fzu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:25:47.939Z"
+  },
+  {
+    "schoolId": "school-myt8sg",
+    "schoolName": "福建农林大学",
+    "status": "verified",
+    "officialWebsite": "https://www.fafu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:26:16.564Z"
+  },
+  {
+    "schoolId": "school-nixfcg",
+    "schoolName": "集美大学",
+    "status": "not-found",
+    "officialWebsite": "https://m.guoji.114study.com/",
+    "confidence": 0.9,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:26:35.305Z"
+  },
+  {
+    "schoolId": "school-bu6vjp",
+    "schoolName": "福建医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.fjmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:27:00.869Z"
+  },
+  {
+    "schoolId": "school-k6o4og",
+    "schoolName": "福建中医药大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.fuzhou.gov.cn/",
+    "confidence": 0.75,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:27:47.346Z"
+  },
+  {
+    "schoolId": "school-14df50d",
+    "schoolName": "闽南师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.mnnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:28:43.919Z"
+  },
+  {
+    "schoolId": "school-1xauqrc",
+    "schoolName": "福建师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.fjnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:28:43.928Z"
+  },
+  {
+    "schoolId": "school-xbe987",
+    "schoolName": "南昌大学",
+    "status": "verified",
+    "officialWebsite": "https://ncuky.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:29:32.793Z"
+  },
+  {
+    "schoolId": "school-dc5r38",
+    "schoolName": "华东交通大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ecjtu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:29:38.101Z"
+  },
+  {
+    "schoolId": "school-1rbpaqr",
+    "schoolName": "东华理工大学",
+    "status": "verified",
+    "officialWebsite": "http://www.ecit.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:30:47.973Z"
+  },
+  {
+    "schoolId": "school-1fpt7a3",
+    "schoolName": "南昌航空大学",
+    "status": "verified",
+    "officialWebsite": "https://sx.nchu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:31:07.175Z"
+  },
+  {
+    "schoolId": "school-19c1zfb",
+    "schoolName": "江西理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jxust.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:31:44.779Z"
+  },
+  {
+    "schoolId": "school-bxo0sw",
+    "schoolName": "江西农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jxau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:32:41.294Z"
+  },
+  {
+    "schoolId": "school-srbnqm",
+    "schoolName": "景德镇陶瓷大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.dpm.org.cn/",
+    "confidence": 0.15,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:32:40.510Z"
+  },
+  {
+    "schoolId": "school-14a7w6l",
+    "schoolName": "江西中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://yxy.jxutcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:33:35.049Z"
+  },
+  {
+    "schoolId": "school-mo5eot",
+    "schoolName": "江西财经大学",
+    "status": "verified",
+    "officialWebsite": "https://econ.jxufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:34:34.972Z"
+  },
+  {
+    "schoolId": "school-cn8cf3",
+    "schoolName": "江西师范大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.icourse163.org/",
+    "confidence": 0.7,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:34:34.972Z"
+  },
+  {
+    "schoolId": "school-13bmry1",
+    "schoolName": "山东大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:35:20.786Z"
+  },
+  {
+    "schoolId": "school-fxku90",
+    "schoolName": "中国海洋大学",
+    "status": "verified",
+    "officialWebsite": "https://news.ouc.edu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:35:30.173Z"
+  },
+  {
+    "schoolId": "school-13ampw4",
+    "schoolName": "山东科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdust.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:36:22.317Z"
+  },
+  {
+    "schoolId": "school-13vh78u",
+    "schoolName": "青岛科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:36:53.478Z"
+  },
+  {
+    "schoolId": "school-glth1n",
+    "schoolName": "济南大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ujn.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:37:10.007Z"
+  },
+  {
+    "schoolId": "school-2ntotq",
+    "schoolName": "青岛理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:37:44.685Z"
+  },
+  {
+    "schoolId": "school-tilyy0",
+    "schoolName": "山东建筑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdjzu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:37:58.049Z"
+  },
+  {
+    "schoolId": "school-775myo",
+    "schoolName": "齐鲁工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qlu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:38:23.675Z"
+  },
+  {
+    "schoolId": "school-7wpwpc",
+    "schoolName": "山东理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdut.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:39:21.905Z"
+  },
+  {
+    "schoolId": "school-ufw7kz",
+    "schoolName": "山东农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:39:21.905Z"
+  },
+  {
+    "schoolId": "school-1gvdim9",
+    "schoolName": "青岛农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qau.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:40:11.100Z"
+  },
+  {
+    "schoolId": "school-1e720qd",
+    "schoolName": "山东第一医科大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.sdsmu.edu.cn/",
+    "confidence": 0.45,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:40:20.441Z"
+  },
+  {
+    "schoolId": "school-t1uxvw",
+    "schoolName": "山东中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdutcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:40:49.364Z"
+  },
+  {
+    "schoolId": "school-1g328bg",
+    "schoolName": "山东师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:41:10.282Z"
+  },
+  {
+    "schoolId": "school-au24tz",
+    "schoolName": "曲阜师范大学",
+    "status": "not-found",
+    "officialWebsite": "http://www.qufushifandaxue.com/",
+    "confidence": 0.15000000000000002,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:41:40.748Z"
+  },
+  {
+    "schoolId": "school-1rla9s4",
+    "schoolName": "聊城大学",
+    "status": "verified",
+    "officialWebsite": "https://www.lcudcc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:42:00.838Z"
+  },
+  {
+    "schoolId": "school-1e45486",
+    "schoolName": "山东财经大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sdufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:42:18.194Z"
+  },
+  {
+    "schoolId": "school-1mvmrfb",
+    "schoolName": "山东艺术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.sdca.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:42:46.638Z"
+  },
+  {
+    "schoolId": "school-1sin8qf",
+    "schoolName": "华北水利水电大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.jetro.go.jp/",
+    "confidence": 0.05,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:43:48.172Z"
+  },
+  {
+    "schoolId": "school-1xc8qrn",
+    "schoolName": "青岛大学",
+    "status": "verified",
+    "officialWebsite": "https://www.qdu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:43:48.154Z"
+  },
+  {
+    "schoolId": "school-j1lehb",
+    "schoolName": "郑州大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zzu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:44:44.213Z"
+  },
+  {
+    "schoolId": "school-10ry0v7",
+    "schoolName": "河南理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hpu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:44:58.257Z"
+  },
+  {
+    "schoolId": "school-1ykzb0d",
+    "schoolName": "郑州轻工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zzuli.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:45:38.608Z"
+  },
+  {
+    "schoolId": "school-vitwj9",
+    "schoolName": "河南工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.haut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:45:55.625Z"
+  },
+  {
+    "schoolId": "school-1kr9kbb",
+    "schoolName": "河南科技大学",
+    "status": "verified",
+    "officialWebsite": "https://10464.gaokao.haedu.cn/",
+    "confidence": 0.85,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:46:32.303Z"
+  },
+  {
+    "schoolId": "school-1cr9p44",
+    "schoolName": "河南农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.henau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:46:51.258Z"
+  },
+  {
+    "schoolId": "school-9lcm9d",
+    "schoolName": "河南中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hactcm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:47:07.949Z"
+  },
+  {
+    "schoolId": "school-yb5hus",
+    "schoolName": "河南医药大学",
+    "status": "verified",
+    "officialWebsite": "http://www.xxmu.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:47:33.925Z"
+  },
+  {
+    "schoolId": "school-jst7yj",
+    "schoolName": "河南师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.htu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:48:24.813Z"
+  },
+  {
+    "schoolId": "school-1un1456",
+    "schoolName": "河南大学",
+    "status": "not-found",
+    "officialWebsite": "https://henu.goworkla.cn/",
+    "confidence": 0.75,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:48:24.813Z"
+  },
+  {
+    "schoolId": "school-2gzcxl",
+    "schoolName": "河南财经政法大学",
+    "status": "verified",
+    "officialWebsite": "https://www.huel.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:49:27.614Z"
+  },
+  {
+    "schoolId": "school-1vzfey1",
+    "schoolName": "武汉大学",
+    "status": "not-found",
+    "officialWebsite": "http://www.geodata.cn/",
+    "confidence": 0.1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:49:37.686Z"
+  },
+  {
+    "schoolId": "school-qycpyc",
+    "schoolName": "武汉科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.wust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:50:36.450Z"
+  },
+  {
+    "schoolId": "school-1s3kg94",
+    "schoolName": "华中科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hust.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:50:34.552Z"
+  },
+  {
+    "schoolId": "school-1wgnlj2",
+    "schoolName": "长江大学",
+    "status": "verified",
+    "officialWebsite": "https://www.yangtzeu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:51:32.740Z"
+  },
+  {
+    "schoolId": "school-1apmx11",
+    "schoolName": "武汉工程大学",
+    "status": "verified",
+    "officialWebsite": "https://www.wit.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:51:38.327Z"
+  },
+  {
+    "schoolId": "school-jwli6d",
+    "schoolName": "武汉轻工大学",
+    "status": "verified",
+    "officialWebsite": "https://sasne.whpu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:52:33.412Z"
+  },
+  {
+    "schoolId": "school-dry7q",
+    "schoolName": "武汉纺织大学",
+    "status": "verified",
+    "officialWebsite": "https://jwc.wtu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:52:24.083Z"
+  },
+  {
+    "schoolId": "school-1qqyuls",
+    "schoolName": "湖北工业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hbut.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 6,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:53:33.114Z"
+  },
+  {
+    "schoolId": "school-h2q1kw",
+    "schoolName": "武汉理工大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:53:33.114Z"
+  },
+  {
+    "schoolId": "school-jsch8q",
+    "schoolName": "湖北中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hbucm.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:54:40.402Z"
+  },
+  {
+    "schoolId": "school-1ntuifj",
+    "schoolName": "华中农业大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.ccnu.edu.cn/",
+    "confidence": 0.45,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:54:25.573Z"
+  },
+  {
+    "schoolId": "school-1esnqnk",
+    "schoolName": "华中师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ccnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:55:25.225Z"
+  },
+  {
+    "schoolId": "school-wj53lf",
+    "schoolName": "湖北大学",
+    "status": "verified",
+    "officialWebsite": "https://xxgk.hubu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:55:52.202Z"
+  },
+  {
+    "schoolId": "school-19byaar",
+    "schoolName": "中南财经政法大学",
+    "status": "verified",
+    "officialWebsite": "https://www.zuel.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:56:22.535Z"
+  },
+  {
+    "schoolId": "school-9x705",
+    "schoolName": "武汉体育学院",
+    "status": "verified",
+    "officialWebsite": "https://zs.whsu.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:57:07.909Z"
+  },
+  {
+    "schoolId": "school-q3dfsc",
+    "schoolName": "中南民族大学",
+    "status": "verified",
+    "officialWebsite": "https://www.scuec.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:57:10.607Z"
+  },
+  {
+    "schoolId": "school-gazkhs",
+    "schoolName": "江汉大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jhun.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-13T14:57:57.046Z"
+  },
+  {
+    "schoolId": "school-1j85txm",
+    "schoolName": "三峡大学",
+    "status": "verified",
+    "officialWebsite": "https://www.ctgu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:58:53.525Z"
+  },
+  {
+    "schoolId": "school-1cil2h3",
+    "schoolName": "湘潭大学",
+    "status": "not-found",
+    "officialWebsite": "https://edu.sina.cn/",
+    "confidence": 0.7,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-13T14:58:53.567Z"
+  },
+  {
+    "schoolId": "school-t3a874",
+    "schoolName": "中南林业科技大学",
+    "status": "not-found",
+    "officialWebsite": "https://m.bendibao.com/",
+    "confidence": 0.7,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:18:23.706Z"
+  },
+  {
+    "schoolId": "school-1gy9d6y",
+    "schoolName": "湖南中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hnucm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:18:24.935Z"
+  },
+  {
+    "schoolId": "school-12x1mka",
+    "schoolName": "湖南师范大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hunnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:19:40.947Z"
+  },
+  {
+    "schoolId": "school-89xe30",
+    "schoolName": "湖南工商大学",
+    "status": "verified",
+    "officialWebsite": "https://www.hutb.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:19:40.951Z"
+  },
+  {
+    "schoolId": "school-w7pkva",
+    "schoolName": "中山大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sysu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:21:04.878Z"
+  },
+  {
+    "schoolId": "school-1dpdvi9",
+    "schoolName": "南华大学",
+    "status": "verified",
+    "officialWebsite": "https://www.usc.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:20:48.565Z"
+  },
+  {
+    "schoolId": "school-136vvcp",
+    "schoolName": "暨南大学",
+    "status": "verified",
+    "officialWebsite": "https://www.jnu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:21:55.554Z"
+  },
+  {
+    "schoolId": "school-m3u0mt",
+    "schoolName": "汕头大学",
+    "status": "verified",
+    "officialWebsite": "https://www.stu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:22:02.277Z"
+  },
+  {
+    "schoolId": "school-12pzut2",
+    "schoolName": "华南理工大学",
+    "status": "pending-review",
+    "officialWebsite": "https://www2.scut.edu.cn/",
+    "confidence": 0.6000000000000001,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:22:37.835Z"
+  },
+  {
+    "schoolId": "school-qbr6yx",
+    "schoolName": "华南农业大学",
+    "status": "verified",
+    "officialWebsite": "https://www.scau.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:22:54.516Z"
+  },
+  {
+    "schoolId": "school-wtbl7l",
+    "schoolName": "广东海洋大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gdou.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:23:12.318Z"
+  },
+  {
+    "schoolId": "school-y2vayh",
+    "schoolName": "广州医科大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gzhmu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:24:00.097Z"
+  },
+  {
+    "schoolId": "school-1ezbwmf",
+    "schoolName": "广东药科大学",
+    "status": "not-found",
+    "officialWebsite": null,
+    "confidence": 0,
+    "candidateCount": 7,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:25:08.872Z"
+  },
+  {
+    "schoolId": "school-1q4if0c",
+    "schoolName": "广州中医药大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gzucm.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:25:08.872Z"
+  },
+  {
+    "schoolId": "school-10jbnxn",
+    "schoolName": "广州美术学院",
+    "status": "verified",
+    "officialWebsite": "https://www.gzarts.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:26:06.683Z"
+  },
+  {
+    "schoolId": "school-kex31e",
+    "schoolName": "华南师范大学",
+    "status": "verified",
+    "officialWebsite": "http://gxb.scnu.edu.cn/",
+    "confidence": 0.9500000000000001,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:25:48.667Z"
+  },
+  {
+    "schoolId": "school-lhhdlk",
+    "schoolName": "深圳大学",
+    "status": "verified",
+    "officialWebsite": "https://www.szu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:26:56.753Z"
+  },
+  {
+    "schoolId": "school-h5f550",
+    "schoolName": "广东财经大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gdufe.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 9,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:27:12.966Z"
+  },
+  {
+    "schoolId": "school-1pi1lr3",
+    "schoolName": "五邑大学",
+    "status": "verified",
+    "officialWebsite": "https://www.wyu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:28:58.811Z"
+  },
+  {
+    "schoolId": "school-1malrc9",
+    "schoolName": "广州大学",
+    "status": "verified",
+    "officialWebsite": "http://jyxy.gzhu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:28:53.424Z"
+  },
+  {
+    "schoolId": "school-jm232k",
+    "schoolName": "广东外语外贸大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gdufs.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:30:05.420Z"
+  },
+  {
+    "schoolId": "school-c5vepw",
+    "schoolName": "广东工业大学",
+    "status": "verified",
+    "officialWebsite": "https://jwc.gdut.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 8,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:29:49.843Z"
+  },
+  {
+    "schoolId": "school-1k23k50",
+    "schoolName": "南方医科大学",
+    "status": "verified",
+    "officialWebsite": "http://portal.smu.edu.cn/",
+    "confidence": 0.9,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:31:04.724Z"
+  },
+  {
+    "schoolId": "school-1ptugvg",
+    "schoolName": "佛山大学",
+    "status": "not-found",
+    "officialWebsite": "https://www.neu.edu.cn/",
+    "confidence": 0.4,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:31:04.707Z"
+  },
+  {
+    "schoolId": "school-1tkb7hx",
+    "schoolName": "南方科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.sustech.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:31:49.956Z"
+  },
+  {
+    "schoolId": "school-ootfoe",
+    "schoolName": "广西大学",
+    "status": "verified",
+    "officialWebsite": "https://www.gxu.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:32:12.632Z"
+  },
+  {
+    "schoolId": "school-tosrab",
+    "schoolName": "桂林电子科技大学",
+    "status": "verified",
+    "officialWebsite": "https://www.guet.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 10,
+    "searchRequestCount": 2,
+    "searchedAt": "2026-07-14T01:32:37.893Z"
+  },
+  {
+    "schoolId": "school-m5dqd6",
+    "schoolName": "桂林理工大学",
+    "status": "verified",
+    "officialWebsite": "https://www.glut.edu.cn/",
+    "confidence": 1,
+    "candidateCount": 5,
+    "searchRequestCount": 1,
+    "searchedAt": "2026-07-14T01:32:56.016Z"
+  }
+]

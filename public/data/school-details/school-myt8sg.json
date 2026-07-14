@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-myt8sg",
+  "name": "福建农林大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:26:24.546Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.fafu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:26:24.546Z",
+    "lastCheckedAt": "2026-07-13T14:26:24.546Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

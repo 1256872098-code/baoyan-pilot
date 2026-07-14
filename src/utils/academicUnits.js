@@ -15,7 +15,7 @@ export function normalizeAcademicUnit(unit) {
   };
 }
 
-export function getAcademicUnits(detail) {
+export function getAcademicUnits(detail, { includePending = false } = {}) {
   const rawUnits = Array.isArray(detail?.academicUnits)
     ? detail.academicUnits
     : Array.isArray(detail?.colleges)
@@ -33,5 +33,6 @@ export function getAcademicUnits(detail) {
 
   return rawUnits
     .map(normalizeAcademicUnit)
-    .filter((unit) => unit.id && unit.name && !["pending-review", "inactive"].includes(unit.dataStatus));
+    .filter((unit) => unit.id && unit.name && unit.dataStatus !== "inactive")
+    .filter((unit) => includePending || unit.dataStatus !== "pending-review");
 }

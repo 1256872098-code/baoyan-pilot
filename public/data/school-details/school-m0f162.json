@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-m0f162",
+  "name": "太原理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:59:19.881Z",
+  "academicUnits": [
+    {
+      "id": "unit-db9482830c",
+      "name": "工业技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://gyjsyjy.tyut.edu.cn/",
+      "sourceUrl": "https://www.tyut.edu.cn/rcpy3.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:59:19.872Z"
+    },
+    {
+      "id": "unit-459c35d9bf",
+      "name": "科学技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://kj.tyut.edu.cn/",
+      "sourceUrl": "https://www.tyut.edu.cn/rcpy3.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:59:19.872Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ices.tyut.edu.cn/kzxy/afhkbedxkzxy.htm",
+      "sourceUrl": "https://www.tyut.edu.cn/rcpy3.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:59:19.872Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tyut.edu.cn/rcpy3.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:59:19.881Z",
+      "lastCheckedAt": "2026-07-13T12:59:19.881Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tyut.edu.cn/",
+    "sourceUrls": [
+      "https://www.tyut.edu.cn/rcpy3.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:59:19.881Z",
+    "lastCheckedAt": "2026-07-13T12:59:19.881Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

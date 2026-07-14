@@ -1,0 +1,238 @@
+{
+  "schoolId": "school-ekga40",
+  "name": "北京工商大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:17:31.825Z",
+  "academicUnits": [
+    {
+      "id": "unit-8f026e5044",
+      "name": "创新书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://cxsy.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://law.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-5ae079ef7a",
+      "name": "国际教育学院招生",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjjy.btbu.edu.cn/xmxx/lxpx/index.htm",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-6c79f1057a",
+      "name": "计算机与人工智能学院(网络空间安全学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://caai.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-900137d215",
+      "name": "嘉华学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.bjbuft.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://eco.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marxism.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-7c2a6b1205",
+      "name": "轻工科学与工程学院(国际化妆品学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slise.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-43bd981f9a",
+      "name": "求真书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://qzsy.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-fc1d80ca7d",
+      "name": "商学院(科技商学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sxy.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-41a3724d81",
+      "name": "设计与艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yc.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-04fb85623e",
+      "name": "食品与健康学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://stxy.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-414735fb85",
+      "name": "数字书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://dc.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://sports.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-05afa22438",
+      "name": "新材料与未来技术学院(塑料所)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://samft.btbu.edu.cn/",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    },
+    {
+      "id": "unit-b214a6136e",
+      "name": "语言与传播学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.btbu.edu.cn/ybsz/d329a951cf4a44afbe0c62c0028ce786.htm",
+      "sourceUrl": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:17:31.814Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.btbu.edu.cn/ybsz/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:17:31.825Z",
+      "lastCheckedAt": "2026-07-13T08:17:31.825Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.btbu.edu.cn/",
+    "sourceUrls": [
+      "https://www.btbu.edu.cn/ybsz/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:17:31.825Z",
+    "lastCheckedAt": "2026-07-13T08:17:31.825Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

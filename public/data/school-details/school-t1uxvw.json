@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-t1uxvw",
+  "name": "山东中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:41:08.342Z",
+  "academicUnits": [
+    {
+      "id": "unit-68cf89d657",
+      "name": "教育部重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://tcmlab.sdutcm.edu.cn/",
+      "sourceUrl": "https://www.sdutcm.edu.cn/info/1003/15849.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:08.321Z"
+    },
+    {
+      "id": "unit-d505d8a4a9",
+      "name": "科学研究+科学研究成果转移转化教育部重点实验室山中医《学报》山中医《杂志》",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.sdutcm.edu.cn/info/1003/15849.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:08.321Z"
+    },
+    {
+      "id": "unit-7013ac475c",
+      "name": "科学研究科学研究成果转移转化教育部重点实验室山中医《学报》山中医《杂志》",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.sdutcm.edu.cn/info/1003/15849.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:41:08.321Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.sdutcm.edu.cn/info/1003/15849.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:41:08.342Z",
+      "lastCheckedAt": "2026-07-13T14:41:08.342Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.sdutcm.edu.cn/",
+    "sourceUrls": [
+      "https://www.sdutcm.edu.cn/info/1003/15849.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:41:08.342Z",
+    "lastCheckedAt": "2026-07-13T14:41:08.342Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schoolId": "school-k4cj3m",
+  "name": "南京理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:58:34.348Z",
+  "academicUnits": [
+    {
+      "id": "unit-0b7e8703b7",
+      "name": "电子工程与光电技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/dzgcydgjs",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    },
+    {
+      "id": "unit-275f71cbc0",
+      "name": "计算机与人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/jsj",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    },
+    {
+      "id": "unit-967ebf3e78",
+      "name": "人文与社会科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/rwysh",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/jjgl",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    },
+    {
+      "id": "unit-e765135db9",
+      "name": "智能控制学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/znkz/",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    },
+    {
+      "id": "unit-5b75dcbd30",
+      "name": "智能制造学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zj.njust.edu.cn/jxgc",
+      "sourceUrl": "http://zj.njust.edu.cn/6889/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:58:34.341Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://zj.njust.edu.cn/6889/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:58:34.348Z",
+      "lastCheckedAt": "2026-07-13T13:58:34.348Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://zj.njust.edu.cn/",
+    "sourceUrls": [
+      "http://zj.njust.edu.cn/6889/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:58:34.348Z",
+    "lastCheckedAt": "2026-07-13T13:58:34.348Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 6,
+    "newUnitCount": 6,
+    "verifiedCount": 6,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

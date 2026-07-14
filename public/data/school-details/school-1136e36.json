@@ -1,0 +1,667 @@
+{
+  "schoolId": "school-1136e36",
+  "name": "上海科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:56:00.332Z",
+  "academicUnits": [
+    {
+      "id": "unit-627eb704c9",
+      "name": "“科学”号启航西太平洋构建“琅琊”精准感知和预报耦合体系",
+      "unitType": "系",
+      "aliases": [
+        "月06日“科学”号启航西太平洋构建“琅琊”精准感知和预报耦合体系",
+        "“科学”号启航西太平洋构建“琅琊”精准感知和预报耦合体系"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yx/202607/t20260706_5114634.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-363784668a",
+      "name": "【中国科学报】中国科学院第二十二次院士大会闭幕",
+      "unitType": "学院",
+      "aliases": [
+        "月13日【中国科学报】中国科学院第二十二次院士大会闭幕",
+        "【中国科学报】中国科学院第二十二次院士大会闭幕"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/cm/202607/t20260713_5115395.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-f9c87fb9cb",
+      "name": "澳大利亚科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-5b4b5843b4",
+      "name": "第三世界科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-c1eb71f5a3",
+      "name": "俄罗斯科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-0aafdbbdac",
+      "name": "发展中国家科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-0d81b76081",
+      "name": "法兰西科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-6d36686107",
+      "name": "国家数据局到中国科学院调研",
+      "unitType": "学院",
+      "aliases": [
+        "月09日国家数据局到中国科学院调研",
+        "国家数据局到中国科学院调研"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/sygz/202607/t20260710_5115327.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-be4f3fb856",
+      "name": "合肥研究院等研发的经颅磁刺激医疗机器人获医疗器械证并临床应用",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/cg/zh/202604/t20260409_5106351.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-0969828fcc",
+      "name": "美国国家科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-5857155922",
+      "name": "年“中国科学院—香港青年实习计划”在京启动",
+      "unitType": "学院",
+      "aliases": [
+        "月10日2026年“中国科学院—香港青年实习计划”在京启动",
+        "年“中国科学院—香港青年实习计划”在京启动"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yx/202607/t20260710_5115223.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-10548347ec",
+      "name": "人才教育中国科学院教育简介中国科学技术大学中国科学院大学上海科技大学工作动态",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/rcjy/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-c7a4bf55b9",
+      "name": "瑞典皇家科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-e802dc8b67",
+      "name": "汪克强调研重庆研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "月07日汪克强调研重庆研究院",
+        "汪克强调研重庆研究院"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/sygz/202607/t20260707_5114853.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-69c018306d",
+      "name": "西北地区中国科学院研究院所研究生学术交流会举行",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/rcjy/gz/202605/t20260526_5110879.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/xxgkml/zgkxyxb/jbxx/xbgk/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-7a2e53fc38",
+      "name": "学部工作局",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://casad.cas.cn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-c0f74d197f",
+      "name": "中国科学院“抢占科技制高点健步奋进新征程”百日健步行活动启动",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/sygz/202606/t20260611_5112325.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-fa71d34d6f",
+      "name": "中国科学院2026年部门预算",
+      "unitType": "学院",
+      "aliases": [
+        "年03月26日中国科学院2026年部门预算",
+        "中国科学院2026年部门预算"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/tz/202603/P020260326578408754418.pdf",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-b3cb67640d",
+      "name": "中国科学院参与主办第24届中国国际人才交流大会(雄安分会)",
+      "unitType": "学院",
+      "aliases": [
+        "月10日中国科学院参与主办第24届中国国际人才交流大会(雄安分会)",
+        "中国科学院参与主办第24届中国国际人才交流大会(雄安分会)"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/sygz/202607/t20260711_5115348.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-e6dd9e222b",
+      "name": "中国科学院大学",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/rcjy/gkd/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-d86b3aaa21",
+      "name": "中国科学院党组传达学习全国党建工作座谈会精神研究部署学习宣传贯彻习近平党建思想工作",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202606/t20260618_5112884.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-7ffa7269f2",
+      "name": "中国科学院党组传达学习习近平总书记在加强基础研究座谈会上的重要讲话精神",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202605/t20260506_5108793.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-ed3d39b4b4",
+      "name": "中国科学院党组传达学习习近平总书记重要讲话精神",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260708_5115058.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-8c5729913a",
+      "name": "中国科学院第二十二次院士大会闭幕",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260712_5115376.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-e7316b0531",
+      "name": "中国科学院动物研究所国家动物博物馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://www.kepu.net.cn/vmuseum/kpcg/bwg/bwg04.html",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-d0f33527eb",
+      "name": "中国科学院国际科技合作奖",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn//kxyj/kj/cashz/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-75d615cf7b",
+      "name": "中国科学院国家科学技术思想库品牌成果在京发布",
+      "unitType": "学院",
+      "aliases": [
+        "月09日中国科学院国家科学技术思想库品牌成果在京发布",
+        "中国科学院国家科学技术思想库品牌成果在京发布"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/sygz/202607/t20260709_5115131.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-3b32a6bd4b",
+      "name": "中国科学院合唱团参加“首都留学人员2026新年音乐会”",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/djcx/wm/202512/t20251229_5094466.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-e0b5f93d11",
+      "name": "中国科学院合唱团举办“2026新年音乐会”",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/djcx/wm/202601/t20260120_5096648.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-2675a21979",
+      "name": "中国科学院合肥物质科学研究院合肥现代科技馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://kjg.hfcas.ac.cn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-1c739c2e2e",
+      "name": "中国科学院教育简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/rcjy/zkyjyjj/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-872eeeb9ec",
+      "name": "中国科学院杰出科技成就奖",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn//kxyj/kj/casjc/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-4dfaa784e4",
+      "name": "中国科学院举行外籍院士颁证仪式暨学部国际合作工作研讨会",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260707_5114866.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-37262ec260",
+      "name": "中国科学院昆明动物研究所昆明动物博物馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://museum.kiz.cas.cn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-99c7d79af0",
+      "name": "中国科学院两人入选“最美科技工作者”",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/rcjy/gz/202605/t20260530_5111280.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-a0efc63262",
+      "name": "中国科学院南京地质古生物研究所南京古生物博物馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://www.nmp.ac.cn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-759605025a",
+      "name": "中国科学院深入开展树立和践行正确政绩观学习教育",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/zt/sszt/zjg/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-8ef3043cab",
+      "name": "中国科学院声明",
+      "unitType": "学院",
+      "aliases": [
+        "年02月11日中国科学院声明",
+        "中国科学院声明"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/tz/201206/t20120601_3589292.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-dd5fe79181",
+      "name": "中国科学院数据期刊建设工作推进会暨DataExpress数据期刊集群发布在京举行",
+      "unitType": "学院",
+      "aliases": [
+        "月24日中国科学院数据期刊建设工作推进会暨DataExpress数据期刊集群发布在京举行",
+        "中国科学院数据期刊建设工作推进会暨DataExpress数据期刊集群发布在京举行"
+      ],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yx/202606/t20260624_5113123.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-b8e8254e24",
+      "name": "中国科学院数十项成果获国家科技奖励陈立泉获国家最高科技奖",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260708_5115008.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-9cc0ab1cb6",
+      "name": "中国科学院新疆生态与地理研究所生物标本馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://www.kepu.net.cn/vmuseum/kpcg/bbg/bbg18.html",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-20ff74d09b",
+      "name": "中国科学院新疆生态与地理研究所新疆自然博物馆",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/http://www.egi.cas.cn/yjpt/xjzrbwg/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.324Z"
+    },
+    {
+      "id": "unit-e73e36ca63",
+      "name": "中国科学院召开2025年度国家科学技术奖获奖代表座谈会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260709_5115192.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-2e582ce3b0",
+      "name": "中国科学院召开第二十二次院士大会全体会议",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260709_5115189.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-aeecbce8d7",
+      "name": "中国科学院召开庆祝中国共产党成立105周年表彰大会暨党组书记专题党课报告会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/yw/202607/t20260701_5114157.shtml",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-f74e3ea014",
+      "name": "专题：中国科学院第二十二次院士大会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cas.cn/zt/hyzt/ysdh22nd/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-f472fb7771",
+      "name": "专题：中国科学院庆祝中国共产党成立105周年主题诗文书画摄影大赛优秀作品展",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://qtgz.cas.cn/zgzj/ztzl/105zn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-0a01ac5578",
+      "name": "走进中国科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://slst.shanghaitech.edu.cn/zj/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    },
+    {
+      "id": "unit-952574a458",
+      "name": "走进中国科学院学部",
+      "unitType": "学部",
+      "aliases": [
+        "学部与院士",
+        "走进中国科学院学部"
+      ],
+      "officialWebsite": "http://www.casad.cas.cn/",
+      "sourceUrl": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:00.323Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:56:00.332Z",
+      "lastCheckedAt": "2026-07-13T13:56:00.332Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.shanghaitech.edu.cn/",
+    "sourceUrls": [
+      "https://slst.shanghaitech.edu.cn/_redirect?siteId=13&columnId=222&articleId=1553"
+    ],
+    "lastCrawledAt": "2026-07-13T13:56:00.332Z",
+    "lastCheckedAt": "2026-07-13T13:56:00.332Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 50,
+    "newUnitCount": 50,
+    "verifiedCount": 50,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schoolId": "school-jp57y3",
+  "name": "南开大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:45:12.136Z",
+  "academicUnits": [
+    {
+      "id": "unit-7fb94f59fe",
+      "name": "媒体商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bs.nankai.edu.cn/mtsxy/list.htm",
+      "sourceUrl": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:12.125Z"
+    },
+    {
+      "id": "unit-2bf7918281",
+      "name": "学院动态",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bs.nankai.edu.cn/xydt/list.htm",
+      "sourceUrl": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:12.125Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院概况学院介绍使命与愿景学院领导系所介绍VI标识与规范",
+        "学院概况"
+      ],
+      "officialWebsite": "https://bs.nankai.edu.cn/xyjj/list.htm",
+      "sourceUrl": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:12.125Z"
+    },
+    {
+      "id": "unit-337818328c",
+      "name": "学院介绍",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bs.nankai.edu.cn/xyjs/list.htm",
+      "sourceUrl": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:12.125Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bs.nankai.edu.cn/xyld/list.htm",
+      "sourceUrl": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:12.125Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://bs.nankai.edu.cn/xydt/list15.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:45:12.136Z",
+      "lastCheckedAt": "2026-07-13T12:45:12.136Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.nankai.edu.cn/",
+    "sourceUrls": [
+      "https://bs.nankai.edu.cn/xydt/list15.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:45:12.136Z",
+    "lastCheckedAt": "2026-07-13T12:45:12.136Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 5,
+    "newUnitCount": 5,
+    "verifiedCount": 5,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

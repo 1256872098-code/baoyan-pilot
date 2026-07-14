@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-cpzje5",
+  "name": "长沙理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:17:39.310Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "source-not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-14T01:17:39.310Z",
+    "lastCheckedAt": "2026-07-14T01:17:39.310Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "fetch failed"
+  }
+}

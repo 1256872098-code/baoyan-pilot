@@ -1,0 +1,61 @@
+{
+  "schoolId": "school-upvjkn",
+  "name": "河北科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:53:31.205Z",
+  "academicUnits": [
+    {
+      "id": "unit-ed930f5d61",
+      "name": "教学院部",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hebust.edu.cn/zzjg/jxyb/index.htm",
+      "sourceUrl": "https://www.hebust.edu.cn/rcpy/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:53:31.192Z"
+    },
+    {
+      "id": "unit-427b0fc044",
+      "name": "组织机构+管理机构教学院部教辅机构科研机构",
+      "unitType": "学院",
+      "aliases": [
+        "组织机构管理机构教学院部教辅机构科研机构",
+        "组织机构+管理机构教学院部教辅机构科研机构"
+      ],
+      "officialWebsite": "https://www.hebust.edu.cn/zzjg/index.htm",
+      "sourceUrl": "https://www.hebust.edu.cn/rcpy/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:53:31.192Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hebust.edu.cn/rcpy/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:53:31.205Z",
+      "lastCheckedAt": "2026-07-13T12:53:31.205Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hebust.edu.cn/",
+    "sourceUrls": [
+      "https://www.hebust.edu.cn/rcpy/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:53:31.205Z",
+    "lastCheckedAt": "2026-07-13T12:53:31.205Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

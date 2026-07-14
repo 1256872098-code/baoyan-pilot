@@ -1,0 +1,234 @@
+schoolId,schoolName,status,failureStage,officialWebsite,candidateSourcePages,currentUnitCount,lastAttemptAt,attempts,error,recommendedAction
+school-1lv9fsq,北京邮电大学,source-not-found,website-discovery,,,0,2026-07-13T09:18:50.070Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-1ndasyq,北京建筑大学,pending-review,academic-unit-page-discovery,https://www.bucea.edu.cn/,,0,2026-07-13T09:19:20.295Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1aq9mfi,北京林业大学,blocked,website-discovery,,,0,2026-07-13T09:18:27.278Z,1,学校官网返回 403，未绕过访问限制，需人工登记官方院系目录来源。,官网访问受限，暂缓处理
+school-1xsk41y,北京中医药大学,pending-review,academic-unit-page-discovery,https://www.bucm.edu.cn/,,0,2026-07-13T09:20:00.320Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1mzieaw,首都师范大学,blocked,academic-unit-page-discovery,https://www.cnu.edu.cn/,,0,2026-07-13T13:15:20.672Z,1,HTTP 403,官网访问受限，暂缓处理
+school-c0j79y,北京第二外国语学院,manual-source-required,,,,0,2026-07-13T13:03:24.923Z,1,Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification.,人工补充官方来源
+school-juxe64,中国人民公安大学,parse-failed,academic-unit-page-discovery,https://www.ppsuc.edu.cn/,,0,2026-07-13T12:38:10.421Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-huxuoh,国际关系学院,source-not-found,website-discovery,,,0,2026-07-13T12:38:50.169Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-1h5a10k,中国音乐学院,manual-source-required,,,,0,2026-07-13T13:03:24.923Z,1,Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification.,人工补充官方来源
+school-1nakfog,中央戏剧学院,pending-review,academic-unit-page-discovery,https://chntheatre.edu.cn/,,0,2026-07-13T12:40:17.087Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-ts05kw,北京电影学院,source-not-found,website-discovery,,,0,2026-07-13T12:40:58.268Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-h1amj,中央民族大学,pending-review,academic-unit-page-discovery,https://www.muc.edu.cn/,,0,2026-07-13T12:41:28.223Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1r2i1i2,中国政法大学,source-not-found,website-discovery,,,0,2026-07-13T12:42:16.421Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-18l0556,北京信息科技大学,pending-review,academic-unit-page-discovery,https://www.bistu.edu.cn/,,0,2026-07-13T12:43:04.423Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-zdg5d7,北京联合大学,pending-review,academic-unit-page-discovery,https://www.cas.buu.edu.cn/,,0,2026-07-13T12:43:08.603Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-uwgmsr,中国科学院大学,source-not-found,website-discovery,,,0,2026-07-13T12:43:46.733Z,1,title contains school name,补充学校官网或官方院系页
+school-1b6srb,中国社会科学院大学,parse-failed,academic-unit-page-discovery,https://ky.ucass.edu.cn/,,0,2026-07-13T12:43:55.387Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1s1uhpd,天津工业大学,pending-review,academic-unit-page-discovery,https://www.tiangong.edu.cn/,,0,2026-07-13T12:45:53.195Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1nr5cwp,中国民航大学,pending-review,academic-unit-page-discovery,https://career.nankai.edu.cn/,,0,2026-07-13T12:46:37.373Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-yzagcn,天津理工大学,source-not-found,website-discovery,,,0,2026-07-13T12:46:29.812Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-18q1c9p,天津中医药大学,pending-review,academic-unit-page-discovery,https://www.tjutcm.edu.cn/,,0,2026-07-13T12:47:11.545Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-w2ywqk,天津职业技术师范大学,source-not-found,website-discovery,,,0,2026-07-13T12:48:02.340Z,1,title contains school name,补充学校官网或官方院系页
+school-7jaky5,天津财经大学,pending-review,academic-unit-page-discovery,https://zhujiang.tjufe.edu.cn/,,0,2026-07-13T12:49:53.291Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-16q8rm2,河北地质大学,source-not-found,website-discovery,,,0,2026-07-13T12:51:57.752Z,1,title contains school name,补充学校官网或官方院系页
+school-jlm0dy,华北理工大学,source-not-found,website-discovery,,,0,2026-07-13T12:53:06.245Z,1,search title indicates official site,补充学校官网或官方院系页
+school-3a2bac,河北农业大学,pending-review,academic-unit-page-discovery,http://hebeedu.cn/,,0,2026-07-13T12:53:51.568Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-tk3xhj,河北北方学院,source-not-found,website-discovery,,,0,2026-07-13T12:54:37.939Z,1,copyright text exists,补充学校官网或官方院系页
+school-1yfg4i3,河北师范大学,source-not-found,website-discovery,,,0,2026-07-13T12:55:42.653Z,1,fetch failed,补充学校官网或官方院系页
+school-1en5wyp,石家庄铁道大学,source-not-found,website-discovery,,,0,2026-07-13T12:55:42.654Z,1,fetch failed,补充学校官网或官方院系页
+school-11envda,燕山大学,manual-source-required,,,,0,2026-07-13T13:03:24.915Z,1,Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification.,人工补充官方来源
+school-1lg54a9,河北中医药大学,source-not-found,website-discovery,,,0,2026-07-13T12:57:30.036Z,1,title contains school name,补充学校官网或官方院系页
+school-13zpd4k,山西大学,pending-review,academic-unit-page-discovery,https://www.sxu.edu.cn/,,0,2026-07-13T12:58:01.440Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-ne7gpm,太原科技大学,source-not-found,website-discovery,,,0,2026-07-13T12:58:20.991Z,1,candidate inaccessible: fetch failed,补充学校官网或官方院系页
+school-7dauzc,中北大学,pending-review,academic-unit-page-discovery,https://www.nuc.edu.cn/,,0,2026-07-13T12:59:00.577Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-ghii1c,山西医科大学,source-not-found,website-discovery,,,0,2026-07-13T13:15:50.194Z,1,title contains school name,补充学校官网或官方院系页
+school-5ate9v,山西财经大学,parse-failed,academic-unit-page-discovery,https://fx.sxufe.edu.cn/,,0,2026-07-13T13:16:32.071Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-ioj951,内蒙古科技大学,pending-review,academic-unit-page-discovery,https://www.imust.edu.cn/,,0,2026-07-13T13:17:30.431Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-151zru7,内蒙古工业大学,pending-review,academic-unit-page-discovery,http://jwch.imut.edu.cn/,,0,2026-07-13T13:18:09.247Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-de6q7q,内蒙古农业大学,source-not-found,website-discovery,,,0,2026-07-13T13:18:09.605Z,1,title contains school name,补充学校官网或官方院系页
+school-17ycdgk,内蒙古医科大学,source-not-found,website-discovery,,,0,2026-07-13T13:18:47.608Z,1,title contains school name,补充学校官网或官方院系页
+school-nvcv9i,辽宁大学,pending,validate,https://www.lnu.edu.cn/,https://www.lnu.edu.cn/rcpy.htm,0,2026-07-13T13:19:40.834Z,1,单校抓取结果数量异常：1,继续自动抓取或人工复核
+school-1118awu,沈阳工业大学,source-not-found,website-discovery,,,0,2026-07-13T13:20:38.827Z,1,title contains school name,补充学校官网或官方院系页
+school-1m5hglk,沈阳航空航天大学,pending-review,academic-unit-page-discovery,https://www.sau.edu.cn/,,0,2026-07-13T13:21:20.044Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-b6sno3,大连交通大学,pending-review,academic-unit-page-discovery,http://jcb.djtu.edu.cn/,,0,2026-07-13T13:24:09.051Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-xgs1gr,大连海事大学,pending-review,academic-unit-page-discovery,https://www.dlmu.edu.cn/,,0,2026-07-13T13:24:12.380Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-fjot7m,大连工业大学,source-not-found,website-discovery,,,0,2026-07-13T13:24:50.728Z,1,search title indicates official site,补充学校官网或官方院系页
+school-193a7mv,沈阳农业大学,source-not-found,website-discovery,,,0,2026-07-13T13:26:27.543Z,1,title contains school name,补充学校官网或官方院系页
+school-f6udgy,中国医科大学,source-not-found,website-discovery,,,0,2026-07-13T13:26:39.319Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-jcqel1,辽宁中医药大学,pending-review,academic-unit-page-discovery,https://www.lnutcm.edu.cn/,,0,2026-07-13T13:27:18.613Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-b9cfo1,沈阳药科大学,parse-failed,academic-unit-page-discovery,https://sp.syphu.edu.cn/,,0,2026-07-13T13:28:06.647Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-14zeq83,沈阳音乐学院,source-not-found,website-discovery,,,0,2026-07-13T13:31:38.580Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-ote0x,大连大学,source-not-found,website-discovery,,,0,2026-07-13T13:32:25.503Z,1,title contains school name,补充学校官网或官方院系页
+school-vevdq9,东北电力大学,parse-failed,academic-unit-page-discovery,https://zs.neepu.edu.cn/,,0,2026-07-13T13:34:11.592Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-fvda4a,吉林农业大学,parse-failed,academic-unit-page-discovery,https://www.jlau.edu.cn/,,0,2026-07-13T13:35:16.012Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-qly1rd,吉林师范大学,source-not-found,website-discovery,,,0,2026-07-13T13:36:50.036Z,1,title contains school name,补充学校官网或官方院系页
+school-mgfzkx,长春师范大学,source-not-found,website-discovery,,,0,2026-07-13T13:36:57.192Z,1,title contains school name,补充学校官网或官方院系页
+school-b2cp4j,吉林财经大学,pending-review,academic-unit-page-discovery,https://jdjyw.jlu.edu.cn/,,0,2026-07-13T13:39:13.294Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-9ram31,东北石油大学,parse-failed,academic-unit-page-discovery,https://xxgk.nepu.edu.cn/,,0,2026-07-13T13:41:43.051Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-qvg466,佳木斯大学,source-not-found,website-discovery,,,0,2026-07-13T13:41:52.625Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-1i94dak,黑龙江八一农垦大学,pending-review,academic-unit-page-discovery,https://www.byau.edu.cn/,,0,2026-07-13T13:42:30.919Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-es00qs,东北林业大学,parse-failed,academic-unit-page-discovery,https://bksy.nefu.edu.cn/,,0,2026-07-13T13:43:56.413Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1fsmxm4,黑龙江中医药大学,source-not-found,website-discovery,,,0,2026-07-13T13:44:41.014Z,1,title contains school name,补充学校官网或官方院系页
+school-1ryskhr,哈尔滨师范大学,source-not-found,website-discovery,,,0,2026-07-13T13:44:38.832Z,1,title contains school name,补充学校官网或官方院系页
+school-2s294a,哈尔滨商业大学,pending-review,academic-unit-page-discovery,https://www.hrbcu.edu.cn/,,0,2026-07-13T13:45:18.135Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-9akiau,哈尔滨体育学院,pending-review,academic-unit-page-discovery,https://www.hrbipe.edu.cn/,,0,2026-07-13T13:45:59.779Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-lc7cxf,复旦大学,source-not-found,website-discovery,,,0,2026-07-13T13:46:53.492Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-1ytmrqi,同济大学,pending,validate,https://www.tongji.edu.cn/,https://www.tongji.edu.cn/yxjg111/zljg.htm,0,2026-07-13T13:46:35.826Z,1,单校抓取结果数量异常：1,继续自动抓取或人工复核
+school-2cw2mj,华东理工大学,source-not-found,website-discovery,,,0,2026-07-13T13:47:12.577Z,1,search title indicates official site,补充学校官网或官方院系页
+school-yaso3q,上海应用技术大学,source-not-found,website-discovery,,,0,2026-07-13T13:50:44.130Z,1,未找到通过验证的学校官网。,补充学校官网或官方院系页
+school-1q97es6,上海中医药大学,parse-failed,academic-unit-page-discovery,https://iec.shutcm.edu.cn/,,0,2026-07-13T13:50:25.641Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1m3z29z,上海对外经贸大学,pending-review,academic-unit-page-discovery,https://www.suibe.edu.cn/,,0,2026-07-13T13:53:04.355Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1a9u4ne,上海体育大学,pending-review,website-discovery,,,0,2026-07-13T13:53:42.273Z,1,title contains school name,补充学校官网或官方院系页
+school-1tyy51z,南京大学,pending-review,academic-unit-page-discovery,https://dawww.nju.edu.cn/,,0,2026-07-13T13:56:57.142Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-4734ke,南京航空航天大学,pending-review,academic-unit-page-discovery,https://nuaa.edu.cn/,,0,2026-07-13T13:58:34.885Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1pm0j22,南京邮电大学,pending-review,academic-unit-page-discovery,https://www.njupt.edu.cn/,,0,2026-07-13T14:01:33.692Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-sd0dr,南京信息工程大学,crawl-failed,,https://www.nuist.edu.cn/,https://yqy.nuist.edu.cn/main.htm,0,2026-07-13T14:04:20.991Z,4,HTTP 403,检查官方页面访问或网络错误
+school-y7xx6,扬州大学,source-not-found,website-discovery,,,0,2026-07-13T14:10:40.992Z,1,title contains school name,补充学校官网或官方院系页
+school-udm8rw,浙江大学,pending-review,website-discovery,,,0,2026-07-13T14:11:17.362Z,1,title contains school name,补充学校官网或官方院系页
+school-jaj11d,浙江师范大学,pending-review,academic-unit-page-discovery,https://yjsb.zjnu.edu.cn/,,0,2026-07-13T14:14:42.615Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-6q2n0i,杭州师范大学,pending-review,academic-unit-page-discovery,https://www.hznu.edu.cn/,,0,2026-07-13T14:14:39.212Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-4bau24,中国美术学院,pending-review,website-discovery,,,0,2026-07-13T14:15:28.052Z,1,title contains school name,补充学校官网或官方院系页
+school-libbbf,浙江财经大学,pending-review,academic-unit-page-discovery,https://www.zufe.edu.cn/,,0,2026-07-13T14:16:21.660Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-19js9tt,西湖大学,pending-review,website-discovery,,,0,2026-07-13T14:17:35.805Z,1,title contains school name,补充学校官网或官方院系页
+school-1jkaaqv,宁波诺丁汉大学,pending-review,academic-unit-page-discovery,https://www.nottingham.edu.cn/,,0,2026-07-13T14:17:52.750Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-dbveae,安徽大学,source-not-found,website-discovery,,,0,2026-07-13T14:18:50.210Z,1,title contains school name,补充学校官网或官方院系页
+school-io6gqc,中国科学技术大学,pending,validate,https://www.ustc.edu.cn/,https://www.teach.ustc.edu.cn/education/239.html,0,2026-07-13T14:19:15.357Z,1,单校抓取结果数量异常：0,继续自动抓取或人工复核
+school-y9sjg8,蚌埠医科大学,pending,validate,https://www.bbmu.edu.cn/,https://www.bbmu.edu.cn/zzjg.htm,0,2026-07-13T14:22:11.039Z,1,单校抓取结果数量异常：1,继续自动抓取或人工复核
+school-1lxlzyv,皖南医学院,parse-failed,academic-unit-page-discovery,https://career.muc.edu.cn/,,0,2026-07-13T14:22:41.574Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-i6nbr9,安徽财经大学,source-not-found,website-discovery,,,0,2026-07-13T14:23:49.144Z,1,title contains school name,补充学校官网或官方院系页
+school-myt8sg,福建农林大学,pending-review,academic-unit-page-discovery,https://www.fafu.edu.cn/,,0,2026-07-13T14:26:24.546Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-nixfcg,集美大学,source-not-found,website-discovery,,,0,2026-07-13T14:27:14.680Z,1,title contains school name,补充学校官网或官方院系页
+school-bu6vjp,福建医科大学,parse-failed,academic-unit-page-discovery,https://www.fjmu.edu.cn/,,0,2026-07-13T14:27:17.472Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-k6o4og,福建中医药大学,source-not-found,website-discovery,,,0,2026-07-13T14:28:03.469Z,1,title contains school name,补充学校官网或官方院系页
+school-xbe987,南昌大学,pending-review,academic-unit-page-discovery,https://ncuky.edu.cn/,,0,2026-07-13T14:30:09.142Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-dc5r38,华东交通大学,pending-review,academic-unit-page-discovery,https://www.ecjtu.edu.cn/,,0,2026-07-13T14:30:25.561Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-srbnqm,景德镇陶瓷大学,source-not-found,website-discovery,,,0,2026-07-13T14:33:08.411Z,1,homepage contains university navigation links,补充学校官网或官方院系页
+school-cn8cf3,江西师范大学,source-not-found,website-discovery,,,0,2026-07-13T14:34:45.514Z,1,title contains school name,补充学校官网或官方院系页
+school-glth1n,济南大学,pending,validate,https://www.ujn.edu.cn/,https://www.ujn.edu.cn/xxgk/zzjg.htm,0,2026-07-13T14:37:24.406Z,1,单校抓取结果数量异常：1,继续自动抓取或人工复核
+school-2ntotq,青岛理工大学,pending-review,academic-unit-page-discovery,https://www.qut.edu.cn/,,0,2026-07-13T14:37:49.665Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-tilyy0,山东建筑大学,pending-review,academic-unit-page-discovery,https://www.sdjzu.edu.cn/,,0,2026-07-13T14:38:05.848Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-775myo,齐鲁工业大学,pending-review,academic-unit-page-discovery,https://www.qlu.edu.cn/,,0,2026-07-13T14:38:42.913Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1e720qd,山东第一医科大学,source-not-found,website-discovery,,,0,2026-07-13T14:40:26.200Z,1,search title indicates official site,补充学校官网或官方院系页
+school-au24tz,曲阜师范大学,source-not-found,website-discovery,,,0,2026-07-13T14:41:49.321Z,1,search title indicates official site,补充学校官网或官方院系页
+school-1rla9s4,聊城大学,pending-review,academic-unit-page-discovery,https://www.lcudcc.edu.cn/,,0,2026-07-13T14:42:12.165Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1sin8qf,华北水利水电大学,source-not-found,website-discovery,,,0,2026-07-13T14:44:08.291Z,1,copyright text exists,补充学校官网或官方院系页
+school-1kr9kbb,河南科技大学,pending-review,academic-unit-page-discovery,https://10464.gaokao.haedu.cn/,,0,2026-07-13T14:46:38.703Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1un1456,河南大学,source-not-found,website-discovery,,,0,2026-07-13T14:48:50.234Z,1,title contains school name,补充学校官网或官方院系页
+school-2gzcxl,河南财经政法大学,pending-review,academic-unit-page-discovery,https://www.huel.edu.cn/,,0,2026-07-13T14:49:46.605Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1vzfey1,武汉大学,source-not-found,website-discovery,,,0,2026-07-13T14:49:56.969Z,1,search title indicates official site,补充学校官网或官方院系页
+school-dry7q,武汉纺织大学,pending-review,academic-unit-page-discovery,https://jwc.wtu.edu.cn/,,0,2026-07-13T14:52:48.309Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-h2q1kw,武汉理工大学,source-not-found,website-discovery,,,0,2026-07-13T14:53:59.483Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-1ntuifj,华中农业大学,source-not-found,website-discovery,,,0,2026-07-13T14:55:11.009Z,1,search title indicates official site,补充学校官网或官方院系页
+school-wj53lf,湖北大学,crawl-failed,,https://xxgk.hubu.edu.cn/,https://xxgk.hubu.edu.cn/jbxx/bxjbqk/xxjgsz/bsjg.htm,0,2026-07-13T14:56:38.023Z,4,HTTP 403,检查官方页面访问或网络错误
+school-9x705,武汉体育学院,pending-review,academic-unit-page-discovery,https://zs.whsu.edu.cn/,,0,2026-07-13T14:57:21.180Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1j85txm,三峡大学,pending-review,academic-unit-page-discovery,https://www.ctgu.edu.cn/,,0,2026-07-13T14:59:05.738Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1cil2h3,湘潭大学,source-not-found,website-discovery,,,0,2026-07-13T14:59:05.068Z,1,title contains school name,补充学校官网或官方院系页
+school-1xbt5mn,吉首大学,source-not-found,website-discovery,,,0,2026-07-13T16:19:34.741Z,1,fetch failed,补充学校官网或官方院系页
+school-hqoks3,湖南大学,source-not-found,website-discovery,,,0,2026-07-13T16:19:35.019Z,1,fetch failed,补充学校官网或官方院系页
+school-m1tv2w,中南大学,source-not-found,website-discovery,,,0,2026-07-14T01:17:02.218Z,1,fetch failed,补充学校官网或官方院系页
+school-1xyx0ou,湖南科技大学,source-not-found,website-discovery,,,0,2026-07-14T01:17:05.048Z,1,fetch failed,补充学校官网或官方院系页
+school-cpzje5,长沙理工大学,source-not-found,website-discovery,,,0,2026-07-14T01:17:39.310Z,1,fetch failed,补充学校官网或官方院系页
+school-hykzw1,湖南农业大学,source-not-found,website-discovery,,,0,2026-07-14T01:17:41.636Z,1,fetch failed,补充学校官网或官方院系页
+school-t3a874,中南林业科技大学,source-not-found,website-discovery,,,0,2026-07-14T01:18:50.196Z,1,title contains school name,补充学校官网或官方院系页
+school-12pzut2,华南理工大学,pending-review,website-discovery,,,0,2026-07-14T01:22:45.737Z,1,body contains school name,补充学校官网或官方院系页
+school-1q4if0c,广州中医药大学,pending-review,academic-unit-page-discovery,https://www.gzucm.edu.cn/,,0,2026-07-14T01:25:22.008Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1ezbwmf,广东药科大学,source-not-found,website-discovery,,,0,2026-07-14T01:25:13.189Z,1,third-party candidate rejected,补充学校官网或官方院系页
+school-10jbnxn,广州美术学院,pending-review,academic-unit-page-discovery,https://www.gzarts.edu.cn/,,0,2026-07-14T01:26:25.181Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1pi1lr3,五邑大学,pending-review,academic-unit-page-discovery,https://www.wyu.edu.cn/,,0,2026-07-14T01:29:06.430Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-c5vepw,广东工业大学,pending-review,academic-unit-page-discovery,https://jwc.gdut.edu.cn/,,0,2026-07-14T01:30:28.010Z,1,未找到可靠院系目录页面。,核对候选院系列表或补充院系设置页
+school-1ptugvg,佛山大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1k23k50,南方医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1tkb7hx,南方科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-ootfoe,广西大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-tosrab,桂林电子科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-m5dqd6,桂林理工大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1hr5bbq,广西医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-hftjil,广西中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-mivrf,桂林医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1h4cke7,广西师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-hv8if8,广西艺术学院,pending,,,,0,,0,,继续自动抓取或人工复核
+school-778iwm,广西民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1opijce,海南大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1tjosv,海南师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1do1r3a,海南医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1i4ev9v,重庆大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-zxkuw6,重庆邮电大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-eizztl,重庆交通大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1t0ho8f,重庆医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-753us6,西南大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-9en316,重庆师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1pl3kf2,四川外国语大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1l1jz06,西南政法大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1xeu7sy,四川美术学院,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1muerr1,陆军军医大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-q17i2o,四川大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-2o38og,西南交通大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1mor4gk,电子科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-87khou,西南石油大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-ydv5cq,成都理工大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1ou4pbn,西南科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-198bet3,成都信息工程大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-113v1vd,西华大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1ofmram,四川农业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1dd9tge,西南医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-asjpny,成都中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1ua1dwl,四川师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-g450ws,西华师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-uoza9x,西南财经大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1jr8mcz,成都体育学院,pending,,,,0,,0,,继续自动抓取或人工复核
+school-11gr1hy,四川音乐学院,pending,,,,0,,0,,继续自动抓取或人工复核
+school-bft1jy,西南民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-oimyf3,成都大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1swdbc3,贵州大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-u1bxfj,贵州医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-19gq5y6,遵义医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-xupvsq,贵州中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1r5y7sa,贵州师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-11a3ylf,贵州民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-izbscs,云南大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-17360p9,昆明理工大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-lizkma,云南农业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-qbxcj7,西南林业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1h1zy7w,昆明医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-xbo68v,云南中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-ff1r35,云南师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1xrqbaj,云南财经大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-yekis8,云南民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-inl76f,西藏农牧大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-ohpgsu,西藏大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-11l0chy,西藏民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-oqjo46,西北大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1lm9q4m,西安交通大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-cp7kl5,西北工业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-9eva4d,西安理工大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-dnuqc,西安电子科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1pgp0d3,西安工业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1cxgde0,西安建筑科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1358mu5,西安科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-2nexx8,西安石油大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-f5i1cl,陕西科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-5k2v64,西安工程大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-rizduo,长安大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-16p6aa2,西北农林科技大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-lo8z83,陕西中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-69gcr1,陕西师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-15kh2m1,延安大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-pj9h8e,西安外国语大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-yqa5km,西北政法大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1ul2iua,西安美术学院,pending,,,,0,,0,,继续自动抓取或人工复核
+school-130jy45,西安邮电大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-c9nryx,空军军医大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1hsl9ni,兰州大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-f2nign,兰州理工大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1athm7c,兰州交通大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-rbosav,甘肃农业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1vd5ufk,甘肃中医药大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-i3co4n,西北师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-rtetz1,兰州财经大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1ql60v2,西北民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-4g7zj,青海大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1moulty,青海师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1fkbmyf,青海民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-15zjadw,宁夏大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1997228,宁夏医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1llynvw,北方民族大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-17huh6u,新疆大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-105468q,塔里木大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1fbpn14,新疆农业大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-ntp4dg,石河子大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1b99gni,新疆医科大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-9p26vr,新疆师范大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-16e9ca0,喀什大学,pending,,,,0,,0,,继续自动抓取或人工复核
+school-1lh40vp,新疆财经大学,pending,,,,0,,0,,继续自动抓取或人工复核

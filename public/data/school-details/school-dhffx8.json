@@ -1,0 +1,239 @@
+{
+  "schoolId": "school-dhffx8",
+  "name": "北京服装学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:39:59.325Z",
+  "academicUnits": [
+    {
+      "id": "unit-c78ca1569c",
+      "name": "材料设计与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cly.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-b77adf7fe6",
+      "name": "服饰艺术与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fsy.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-5cc8134d5a",
+      "name": "服装艺术与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fzy.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-58a5f38cf6",
+      "name": "关于以北京服装学院名义举办赛事活动的声明",
+      "unitType": "学院",
+      "aliases": [
+        "关于以北京服装学院名义举办赛事活动的声明25-06-27",
+        "关于以北京服装学院名义举办赛事活动的声明"
+      ],
+      "officialWebsite": "https://www.bift.edu.cn/xwgg/tzgg/d2e74e3e568c4ff2ae5724c930a8cab4.htm",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-c9675023d6",
+      "name": "官方微信号：bift1959",
+      "unitType": "其他",
+      "aliases": [
+        "北京服装学院官方微信号：bift1959"
+      ],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "pending-review",
+      "confidence": 0.55,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://szb.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-aa40fe7ee4",
+      "name": "美术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://msxy.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-8b1b6c345b",
+      "name": "前沿交叉研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://qyy.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-733382ec28",
+      "name": "时尚传播学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sfc.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-903a02ba5b",
+      "name": "时尚管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sfm.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-c9fca3024b",
+      "name": "学报(自然科学版)",
+      "unitType": "其他",
+      "aliases": [
+        "北京服装学院学报(自然科学版)"
+      ],
+      "officialWebsite": "https://xb.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "pending-review",
+      "confidence": 0.55,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.bift.edu.cn/xxgk/xyjj/index.htm",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-7992095e18",
+      "name": "学院章程",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-9a44fc8c84",
+      "name": "艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ys.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.313Z"
+    },
+    {
+      "id": "unit-e6e03bd61a",
+      "name": "运动时尚创新研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "服装科技研究院",
+        "运动时尚创新研究院",
+        "时尚研究院",
+        "新时代中国美研究院",
+        "服饰文化研究院"
+      ],
+      "officialWebsite": "http://www.bift.edu.cn/",
+      "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:39:59.325Z",
+      "lastCheckedAt": "2026-07-13T08:39:59.325Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.bift.edu.cn/",
+    "sourceUrls": [
+      "https://www.bift.edu.cn/xxgk/xyzc/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:39:59.325Z",
+    "lastCheckedAt": "2026-07-13T08:39:59.325Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 16,
+    "newUnitCount": 16,
+    "verifiedCount": 14,
+    "pendingCount": 2,
+    "errorMessage": null
+  }
+}

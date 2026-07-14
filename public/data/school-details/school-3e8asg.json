@@ -1,0 +1,62 @@
+{
+  "schoolId": "school-3e8asg",
+  "name": "东北师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:36:00.647Z",
+  "academicUnits": [
+    {
+      "id": "unit-9e72780629",
+      "name": "学院定位",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://chem.nenu.edu.cn/xygk/xydw.htm",
+      "sourceUrl": "https://chem.nenu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:36:00.640Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介机构设置学院定位现任领导院长致辞"
+      ],
+      "officialWebsite": "https://chem.nenu.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://chem.nenu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:36:00.639Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://chem.nenu.edu.cn/rcpy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:36:00.647Z",
+      "lastCheckedAt": "2026-07-13T13:36:00.647Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://chem.nenu.edu.cn/",
+    "sourceUrls": [
+      "https://chem.nenu.edu.cn/rcpy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:36:00.647Z",
+    "lastCheckedAt": "2026-07-13T13:36:00.647Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schoolId": "school-1aq9mfi",
+  "name": "北京林业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T09:18:27.278Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "blocked",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T09:18:27.278Z",
+    "lastCheckedAt": "2026-07-13T09:18:27.278Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 2,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "学校官网返回 403，未绕过访问限制，需人工登记官方院系目录来源。"
+  }
+}

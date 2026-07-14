@@ -1,0 +1,532 @@
+{
+  "schoolId": "school-1mcsw0d",
+  "name": "南通大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:05:14.807Z",
+  "academicUnits": [
+    {
+      "id": "unit-3d0c0f3b4b",
+      "name": "(江苏长江经济带研究院合署)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jscjy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-fbe2f24cde",
+      "name": "楚辞研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://ccyjzx.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-ccabae5f29",
+      "name": "创新创业教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cxcyxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-e0a46c7653",
+      "name": "地理科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://geo.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-d8ddeb455c",
+      "name": "电气与自动化学院(低空经济学院合署)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://dqxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-5d7c952476",
+      "name": "纺织服装学院",
+      "unitType": "学院",
+      "aliases": [
+        "纺织服装学院(高端纺织研究院合署)",
+        "纺织服装学院"
+      ],
+      "officialWebsite": "https://fzfz.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-e1fc6a0d9f",
+      "name": "公共卫生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gw.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sie.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-45aa9b6aff",
+      "name": "海洋研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://hyyjy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-226e46b575",
+      "name": "护理与康复学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ntdxhk.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-39e4fb41ac",
+      "name": "化学化工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hgxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sme.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-1a19472f14",
+      "name": "交通与土木工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "交通与土木工程学院(交通学院)(交通运输工程研究院挂靠)",
+        "交通与土木工程学院"
+      ],
+      "officialWebsite": "https://jttm.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-ef3ffb496b",
+      "name": "教育科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jky.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-53e097f41f",
+      "name": "历史文化学院(法学院)",
+      "unitType": "学院",
+      "aliases": [
+        "历史文化学院(法学院)(张謇研究院挂靠)",
+        "历史文化学院(法学院)"
+      ],
+      "officialWebsite": "https://lfxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mkszyxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-541710878e",
+      "name": "南通廉政研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://lzwh.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-1d72f1ce11",
+      "name": "人工智能研究院(智能信息技术研究中心合署)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://iai.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-b8bacdf40b",
+      "name": "人工智能与计算机学院(阿里云大数据学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ai.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-bc8dfa4307",
+      "name": "商学院(管理学院)",
+      "unitType": "学院",
+      "aliases": [
+        "商学院(管理学院)(江苏长江经济带研究院合署)",
+        "商学院(管理学院)"
+      ],
+      "officialWebsite": "https://sem.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-20a0a6d4ea",
+      "name": "神经再生重点实验室(与神经科学系",
+      "unitType": "系",
+      "aliases": [
+        "神经再生重点实验室(与神经科学系、神经再生协同创新中心合署)",
+        "神经再生重点实验室(与神经科学系"
+      ],
+      "officialWebsite": "https://nrl.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-a349d522d2",
+      "name": "生命科学学院(海洋学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smkxxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sms.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-4fb3012e27",
+      "name": "特种医学研究院(与航海医学系、航海医学研究所",
+      "unitType": "研究院",
+      "aliases": [
+        "特种医学研究院(与航海医学系、航海医学研究所、疼痛医学研究院合署)",
+        "特种医学研究院(与航海医学系、航海医学研究所"
+      ],
+      "officialWebsite": "https://tzyx.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-756ce3d335",
+      "name": "疼痛医学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://ipm.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-79bfefb49c",
+      "name": "体育科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tky.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sfl.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-7c7be772ef",
+      "name": "微电子学院(集成电路学院)",
+      "unitType": "学院",
+      "aliases": [
+        "微电子学院(集成电路学院)(半导体器件与集成电路设计封测省高校重点实验室挂靠)",
+        "微电子学院(集成电路学院)"
+      ],
+      "officialWebsite": "https://meic.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-b7032ea142",
+      "name": "文学院",
+      "unitType": "学院",
+      "aliases": [
+        "文学院(楚辞研究中心)",
+        "文学院"
+      ],
+      "officialWebsite": "https://wxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.781Z"
+    },
+    {
+      "id": "unit-6d7c4886e2",
+      "name": "物理科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://phys.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-46238a88a7",
+      "name": "锡耶纳未来生物技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://xyn.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-0b25d83286",
+      "name": "信息科学技术学院(通科微电子学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sist.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-2b2705be04",
+      "name": "杏林学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.ntu.edu.cn/xlxy_8031/list.htm",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.781Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://phar.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-c9109d3d9f",
+      "name": "医学院",
+      "unitType": "学院",
+      "aliases": [
+        "医学院(临床技能训练中心挂靠)",
+        "医学院"
+      ],
+      "officialWebsite": "https://yxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [
+        "艺术学院(建筑学院)",
+        "艺术学院"
+      ],
+      "officialWebsite": "https://ysxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-aaf32814cb",
+      "name": "张謇学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zjxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.783Z"
+    },
+    {
+      "id": "unit-8d536622ad",
+      "name": "张謇研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://zjs.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    },
+    {
+      "id": "unit-b57c387f5d",
+      "name": "支云足球学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zyzqxy.ntu.edu.cn/",
+      "sourceUrl": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:14.782Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ntu.edu.cn/yxsz/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:05:14.807Z",
+      "lastCheckedAt": "2026-07-13T14:05:14.807Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ntu.edu.cn/",
+    "sourceUrls": [
+      "https://www.ntu.edu.cn/yxsz/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:05:14.807Z",
+    "lastCheckedAt": "2026-07-13T14:05:14.807Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 39,
+    "newUnitCount": 39,
+    "verifiedCount": 39,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

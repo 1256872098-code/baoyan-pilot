@@ -1,1 +1,907 @@
-[]
+[
+  {
+    "schoolId": "school-1rf8t7b",
+    "schoolName": "北京大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-0292092f6d",
+        "name": "医学继续教育学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://scme.bjmu.edu.cn/",
+        "sourceUrl": "https://www.pku.edu.cn/department.html",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T06:21:40.302Z"
+      }
+    ],
+    "oldCount": 2,
+    "newCount": 71,
+    "sourceUrls": [
+      "https://www.pku.edu.cn/department.html"
+    ],
+    "createdAt": "2026-07-13T06:21:40.303Z"
+  },
+  {
+    "schoolId": "school-1y3iohh",
+    "schoolName": "北京交通大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-c51fec05e8",
+        "name": "继续教育学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://jxjy.bjtu.edu.cn/",
+        "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T06:22:56.471Z"
+      },
+      {
+        "id": "unit-f37b46c127",
+        "name": "实验室管理处",
+        "unitType": "研究中心",
+        "aliases": [],
+        "officialWebsite": "http://sysaq.bjtu.edu.cn/",
+        "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T06:22:56.471Z",
+        "rawTexts": [
+          "实验室管理处"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 30,
+    "sourceUrls": [
+      "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm"
+    ],
+    "createdAt": "2026-07-13T06:22:56.471Z"
+  },
+  {
+    "schoolId": "school-1ugmnw",
+    "schoolName": "上海财经大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-29ca536f14",
+        "name": "实验室资源",
+        "unitType": "研究中心",
+        "aliases": [],
+        "officialWebsite": "https://www.sufe.edu.cn/13642/list.htm",
+        "sourceUrl": "https://www.sufe.edu.cn/yxsz/list.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T06:23:25.813Z",
+        "rawTexts": [
+          "实验室资源"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-c607664760",
+        "name": "院系",
+        "unitType": "系",
+        "aliases": [],
+        "officialWebsite": "https://www.sufe.edu.cn/yx_18423/list.htm",
+        "sourceUrl": "https://www.sufe.edu.cn/yxsz/list.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T06:23:25.813Z",
+        "rawTexts": [
+          "院系"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 33,
+    "sourceUrls": [
+      "https://www.sufe.edu.cn/yxsz/list.htm"
+    ],
+    "createdAt": "2026-07-13T06:23:25.813Z"
+  },
+  {
+    "schoolId": "school-f17pfd",
+    "schoolName": "上海海洋大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-c51fec05e8",
+        "name": "继续教育学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://cjxy.shou.edu.cn/",
+        "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+      },
+      {
+        "id": "unit-2096daa2d2",
+        "name": "资产与实验室",
+        "unitType": "研究中心",
+        "aliases": [],
+        "officialWebsite": "http://sysb.shou.edu.cn/",
+        "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T06:23:39.488Z",
+        "rawTexts": [
+          "资产与实验室"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 11,
+    "sourceUrls": [
+      "https://www.shou.edu.cn/zdzy/list.htm"
+    ],
+    "createdAt": "2026-07-13T06:23:39.488Z"
+  },
+  {
+    "schoolId": "school-1s1mepv",
+    "schoolName": "中国人民大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.550Z"
+  },
+  {
+    "schoolId": "school-1ivlj1f",
+    "schoolName": "清华大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.561Z"
+  },
+  {
+    "schoolId": "school-1o3f18s",
+    "schoolName": "北京工业大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.573Z"
+  },
+  {
+    "schoolId": "school-qwbfa6",
+    "schoolName": "北京航空航天大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.583Z"
+  },
+  {
+    "schoolId": "school-1f6o8aa",
+    "schoolName": "北京理工大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.598Z"
+  },
+  {
+    "schoolId": "school-1oj8i5e",
+    "schoolName": "北京科技大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.613Z"
+  },
+  {
+    "schoolId": "school-1v6nyfz",
+    "schoolName": "北方工业大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.627Z"
+  },
+  {
+    "schoolId": "school-1xxr8hu",
+    "schoolName": "北京化工大学",
+    "reason": "尚未配置官网或学院目录来源。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:23:53.640Z"
+  },
+  {
+    "schoolId": "school-1s1mepv",
+    "schoolName": "中国人民大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:27.589Z"
+  },
+  {
+    "schoolId": "school-1ivlj1f",
+    "schoolName": "清华大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:33.194Z"
+  },
+  {
+    "schoolId": "school-1o3f18s",
+    "schoolName": "北京工业大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:40.723Z"
+  },
+  {
+    "schoolId": "school-qwbfa6",
+    "schoolName": "北京航空航天大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:41.222Z"
+  },
+  {
+    "schoolId": "school-1f6o8aa",
+    "schoolName": "北京理工大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:44.746Z"
+  },
+  {
+    "schoolId": "school-1oj8i5e",
+    "schoolName": "北京科技大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:46.889Z"
+  },
+  {
+    "schoolId": "school-1v6nyfz",
+    "schoolName": "北方工业大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:47.459Z"
+  },
+  {
+    "schoolId": "school-1xxr8hu",
+    "schoolName": "北京化工大学",
+    "reason": "学校官网尚未登记。",
+    "candidates": [],
+    "oldCount": 0,
+    "newCount": 0,
+    "sourceUrls": [],
+    "createdAt": "2026-07-13T06:54:50.374Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-c9fca3024b",
+        "name": "学报(自然科学版)",
+        "unitType": "其他",
+        "aliases": [
+          "北京服装学院学报(自然科学版)"
+        ],
+        "officialWebsite": "https://xb.bift.edu.cn/",
+        "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+      },
+      {
+        "id": "unit-c9675023d6",
+        "name": "官方微信号：bift1959",
+        "unitType": "其他",
+        "aliases": [
+          "北京服装学院官方微信号：bift1959"
+        ],
+        "officialWebsite": "",
+        "sourceUrl": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:39:59.314Z"
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 16,
+    "sourceUrls": [
+      "https://www.bift.edu.cn/xxgk/xyzc/index.htm"
+    ],
+    "createdAt": "2026-07-13T08:39:59.314Z"
+  },
+  {
+    "schoolId": "school-rpe0lk",
+    "schoolName": "中国传媒大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-8e9c77875d",
+        "name": "继续教育学院继续教育学院直属",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://jxgz.cuc.edu.cn/",
+        "sourceUrl": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:41:19.105Z"
+      },
+      {
+        "id": "unit-b6895ec528",
+        "name": "国际传媒教育学院(境外学生事务中心)国际传媒教育学院(境外学生事务中心)直属",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://icuc.cuc.edu.cn/",
+        "sourceUrl": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:41:19.105Z"
+      },
+      {
+        "id": "unit-81297d5d91",
+        "name": "教学科研单位",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "sourceUrl": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:41:19.104Z",
+        "rawTexts": [
+          "教学科研单位"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-f5de7c9019",
+        "name": "实验室与设备管理处实验室与设备管理处",
+        "unitType": "研究中心",
+        "aliases": [],
+        "officialWebsite": "http://lemd.cuc.edu.cn/",
+        "sourceUrl": "http://www.cuc.edu.cn/9996/list.htm#wpl3",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:41:19.105Z",
+        "rawTexts": [
+          "实验室与设备管理处 实验室与设备管理处"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 26,
+    "sourceUrls": [
+      "http://www.cuc.edu.cn/9996/list.htm#wpl3"
+    ],
+    "createdAt": "2026-07-13T08:41:19.107Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-506955d589",
+        "name": "学院团委",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://sir.uibe.edu.cn/gqt/xytw/index.htm",
+        "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:43:10.248Z",
+        "rawTexts": [
+          "学院团委"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-c0f778384b",
+        "name": "共青团学院团委团日活动社会实践团员教育",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://sir.uibe.edu.cn/gqt/xytw/index.htm",
+        "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:43:10.248Z",
+        "rawTexts": [
+          "共青团 学院团委 团日活动 社会实践 团员教育"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 6,
+    "sourceUrls": [
+      "https://sir.uibe.edu.cn/xygk/xyjj/index.htm"
+    ],
+    "createdAt": "2026-07-13T08:43:10.248Z"
+  },
+  {
+    "schoolId": "school-zubin2",
+    "schoolName": "北京师范大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-502d2add83",
+        "name": "继续教育与教师培训学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://www.scett.bnu.edu.cn/",
+        "sourceUrl": "https://www.bnu.edu.cn/xbyx/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:50:05.606Z"
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.bnu.edu.cn/zzjg/index.htm",
+        "sourceUrl": "https://www.bnu.edu.cn/xbyx/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:50:05.605Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 40,
+    "sourceUrls": [
+      "https://www.bnu.edu.cn/xbyx/index.htm"
+    ],
+    "createdAt": "2026-07-13T08:50:05.606Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-c51fec05e8",
+        "name": "继续教育学院",
+        "unitType": "学院",
+        "aliases": [
+          "继续教育学院>>培训学院>>网络教育学院",
+          "继续教育学院"
+        ],
+        "officialWebsite": "http://sce.cufe.edu.cn/",
+        "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+      },
+      {
+        "id": "unit-4a801031b1",
+        "name": "学院设置",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:50:13.803Z",
+        "rawTexts": [
+          "学院设置"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:50:13.803Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-302c2960ac",
+        "name": "国际文化交流学院>>留学生工作办公室",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "http://sice.cufe.edu.cn/",
+        "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:50:13.804Z",
+        "rawTexts": [
+          "国际文化交流学院 >> 留学生工作办公室 >>"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 0,
+    "newCount": 33,
+    "sourceUrls": [
+      "http://www.cufe.edu.cn/zzjg/xysz.htm"
+    ],
+    "createdAt": "2026-07-13T08:50:13.805Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-506955d589",
+        "name": "学院团委",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://sir.uibe.edu.cn/gqt/xytw/index.htm",
+        "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:50:29.193Z",
+        "rawTexts": [
+          "学院团委"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-c0f778384b",
+        "name": "共青团学院团委团日活动社会实践团员教育",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://sir.uibe.edu.cn/gqt/xytw/index.htm",
+        "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T08:50:29.193Z",
+        "rawTexts": [
+          "共青团 学院团委 团日活动 社会实践 团员教育"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 6,
+    "newCount": 6,
+    "sourceUrls": [
+      "https://sir.uibe.edu.cn/xygk/xyjj/index.htm"
+    ],
+    "createdAt": "2026-07-13T08:50:29.193Z"
+  },
+  {
+    "schoolId": "school-16jkzuj",
+    "schoolName": "对外经济贸易大学",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/index.htm",
+        "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:52:06.463Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://schpa.uibe.edu.cn/schpa/dtxg/zzjg1/index.htm",
+        "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T08:52:06.463Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 6,
+    "newCount": 6,
+    "sourceUrls": [
+      "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm"
+    ],
+    "createdAt": "2026-07-13T08:52:06.463Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:15:52.229Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/xszxwyh/wyh_zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:15:52.229Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-ebc4e5dc91",
+        "name": "学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/xy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T09:15:52.229Z",
+        "rawTexts": [
+          "学院"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-29566b5b07",
+        "name": "直属所院医院研究所学院图书馆",
+        "unitType": "研究院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:15:52.229Z",
+        "rawTexts": [
+          "直属所院 医院 研究所 学院 图书馆"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 24,
+    "newCount": 11,
+    "sourceUrls": [
+      "https://www.pumc.edu.cn/yxgk/zzjg/index.htm"
+    ],
+    "createdAt": "2026-07-13T09:15:52.229Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:18:05.510Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/xszxwyh/wyh_zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:18:05.510Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-ebc4e5dc91",
+        "name": "学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/xy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T09:18:05.511Z",
+        "rawTexts": [
+          "学院"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-29566b5b07",
+        "name": "直属所院医院研究所学院图书馆",
+        "unitType": "研究院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T09:18:05.511Z",
+        "rawTexts": [
+          "直属所院 医院 研究所 学院 图书馆"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 35,
+    "newCount": 11,
+    "sourceUrls": [
+      "https://www.pumc.edu.cn/yxgk/zzjg/index.htm"
+    ],
+    "createdAt": "2026-07-13T09:18:05.511Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "reason": "部分候选单位需要人工复核。",
+    "candidates": [
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T13:08:39.621Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-3c23ac78b8",
+        "name": "组织机构",
+        "unitType": "其他",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/xszxwyh/wyh_zzjg/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T13:08:39.621Z",
+        "rawTexts": [
+          "组织机构"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-ebc4e5dc91",
+        "name": "学院",
+        "unitType": "学院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/xy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "verified",
+        "confidence": 0.9,
+        "lastCheckedAt": "2026-07-13T13:08:39.621Z",
+        "rawTexts": [
+          "学院"
+        ],
+        "rejectedCandidate": true
+      },
+      {
+        "id": "unit-29566b5b07",
+        "name": "直属所院医院研究所学院图书馆",
+        "unitType": "研究院",
+        "aliases": [],
+        "officialWebsite": "https://www.pumc.edu.cn/zssy/index.htm",
+        "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+        "graduateAdmissionsRelevant": null,
+        "dataStatus": "pending-review",
+        "confidence": 0.55,
+        "lastCheckedAt": "2026-07-13T13:08:39.621Z",
+        "rawTexts": [
+          "直属所院 医院 研究所 学院 图书馆"
+        ],
+        "rejectedCandidate": true
+      }
+    ],
+    "oldCount": 11,
+    "newCount": 11,
+    "sourceUrls": [
+      "https://www.pumc.edu.cn/yxgk/zzjg/index.htm"
+    ],
+    "createdAt": "2026-07-13T13:08:39.622Z"
+  }
+]

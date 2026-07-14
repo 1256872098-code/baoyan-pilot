@@ -1,0 +1,76 @@
+{
+  "schoolId": "school-1ys22yc",
+  "name": "苏州科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:10:08.070Z",
+  "academicUnits": [
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [
+        "苏州科技大学商学院"
+      ],
+      "officialWebsite": "",
+      "sourceUrl": "https://skbs.usts.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:08.055Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介学院领导组织机构专业介绍"
+      ],
+      "officialWebsite": "https://skbs.usts.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://skbs.usts.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:08.054Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://skbs.usts.edu.cn/xygk/xyld.htm",
+      "sourceUrl": "https://skbs.usts.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:08.055Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://skbs.usts.edu.cn/xygk/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:10:08.070Z",
+      "lastCheckedAt": "2026-07-13T14:10:08.070Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://skbs.usts.edu.cn/",
+    "sourceUrls": [
+      "https://skbs.usts.edu.cn/xygk/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:10:08.070Z",
+    "lastCheckedAt": "2026-07-13T14:10:08.070Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

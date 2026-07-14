@@ -1,0 +1,409 @@
+{
+  "schoolId": "school-1q2lc0p",
+  "name": "福州大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:26:00.915Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        ">材料科学与工程学院",
+        "材料科学与工程学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=cl&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-7920315d6f",
+      "name": "电气工程与自动化学院",
+      "unitType": "学院",
+      "aliases": [
+        ">电气工程与自动化学院",
+        "电气工程与自动化学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=dqxy&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [
+        ">法学院",
+        "法学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=law&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-108f3c3a56",
+      "name": "化工学院",
+      "unitType": "学院",
+      "aliases": [
+        ">化工学院",
+        "化工学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=che&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-e13aaeb7fe",
+      "name": "化学学院",
+      "unitType": "学院",
+      "aliases": [
+        ">化学学院",
+        "化学学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=chem&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-90ba4ecced",
+      "name": "环境与安全工程学院",
+      "unitType": "学院",
+      "aliases": [
+        ">环境与安全工程学院",
+        "环境与安全工程学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=es&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-ebf84bce37",
+      "name": "机械工程及自动化学院",
+      "unitType": "学院",
+      "aliases": [
+        ">机械工程及自动化学院",
+        "机械工程及自动化学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=jxxy&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-e7bbee8175",
+      "name": "计算机与大数据学院",
+      "unitType": "学院",
+      "aliases": [
+        ">计算机与大数据学院(软件学院)、人工智能学院",
+        "计算机与大数据学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=ccds&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-0193010524",
+      "name": "建筑与城乡规划学院",
+      "unitType": "学院",
+      "aliases": [
+        ">建筑与城乡规划学院",
+        "建筑与城乡规划学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=jzxy&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [
+        ">经济与管理学院",
+        "经济与管理学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=jgxy&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [
+        ">马克思主义学院",
+        "马克思主义学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=marx&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-faa6dc2596",
+      "name": "梅努斯国际工程学院",
+      "unitType": "学院",
+      "aliases": [
+        ">梅努斯国际工程学院",
+        "梅努斯国际工程学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=miec&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-0389efc6e0",
+      "name": "人文社会科学学院",
+      "unitType": "学院",
+      "aliases": [
+        ">人文社会科学学院",
+        "人文社会科学学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=renwen&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-6b8bf30329",
+      "name": "厦门工艺美术学院",
+      "unitType": "学院",
+      "aliases": [
+        ">厦门工艺美术学院",
+        "厦门工艺美术学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=art&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-a86656b256",
+      "name": "生物科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        ">生物科学与工程学院",
+        "生物科学与工程学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=bio&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [
+        ">数学与统计学院",
+        "数学与统计学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=math&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-19cd2e2905",
+      "name": "土木工程学院",
+      "unitType": "学院",
+      "aliases": [
+        ">土木工程学院",
+        "土木工程学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=civil&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        ">外国语学院",
+        "外国语学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=sfl&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-a4ae8c5bb9",
+      "name": "未来技术学院",
+      "unitType": "学院",
+      "aliases": [
+        ">未来技术学院",
+        "未来技术学院"
+      ],
+      "officialWebsite": "https://future.fzu.edu.cn/",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-04de76ce10",
+      "name": "物理与信息工程学院、微电子学院",
+      "unitType": "学院",
+      "aliases": [
+        ">物理与信息工程学院、微电子学院",
+        "物理与信息工程学院、微电子学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=wx&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    },
+    {
+      "id": "unit-c50eb783a0",
+      "name": "先进制造学院与海洋学院",
+      "unitType": "学院",
+      "aliases": [
+        ">先进制造学院与海洋学院",
+        "先进制造学院与海洋学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=xjzz&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-3d89194b09",
+      "name": "医工交叉研究院",
+      "unitType": "研究院",
+      "aliases": [
+        ">医工交叉研究院",
+        "医工交叉研究院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=iime&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-c9109d3d9f",
+      "name": "医学院",
+      "unitType": "学院",
+      "aliases": [
+        ">医学院",
+        "医学院"
+      ],
+      "officialWebsite": "https://med.fzu.edu.cn/",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-ae433a9c30",
+      "name": "至诚学院",
+      "unitType": "学院",
+      "aliases": [
+        ">至诚学院",
+        "至诚学院"
+      ],
+      "officialWebsite": "https://www.fdzcxy.edu.cn/",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.901Z"
+    },
+    {
+      "id": "unit-9036ecca8a",
+      "name": "紫金地质与矿业学院",
+      "unitType": "学院",
+      "aliases": [
+        ">紫金地质与矿业学院",
+        "紫金地质与矿业学院"
+      ],
+      "officialWebsite": "https://www.fzu.edu.cn/system/resource/link.jsp?bmmc=zjxy&type=w",
+      "sourceUrl": "https://www.fzu.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:26:00.900Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.fzu.edu.cn/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:26:00.915Z",
+      "lastCheckedAt": "2026-07-13T14:26:00.915Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.fzu.edu.cn/",
+    "sourceUrls": [
+      "https://www.fzu.edu.cn/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:26:00.915Z",
+    "lastCheckedAt": "2026-07-13T14:26:00.915Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 25,
+    "newUnitCount": 25,
+    "verifiedCount": 25,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

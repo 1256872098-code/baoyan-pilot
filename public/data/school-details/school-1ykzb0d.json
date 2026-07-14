@@ -1,0 +1,238 @@
+{
+  "schoolId": "school-1ykzb0d",
+  "name": "郑州轻工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:45:56.969Z",
+  "academicUnits": [
+    {
+      "id": "unit-eed630a3ee",
+      "name": "材料与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-1eed3eb2dc",
+      "name": "产业技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://yjy.zzuli.edu.cn/",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-4e6e0bb357",
+      "name": "电气信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-d772fecf02",
+      "name": "电子信息学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-9970ddd666",
+      "name": "机电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-c3c6a226ca",
+      "name": "计算机科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-114de8c190",
+      "name": "建筑环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-189009f59d",
+      "name": "钧陶瓷研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://jtchina.zzuli.edu.cn/",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-911e184d21",
+      "name": "科学研究科研成果学科建设科研平台创新团队学术刊物产业技术研究院钧陶瓷研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.zzuli.edu.cn/183/list.htm",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.954Z"
+    },
+    {
+      "id": "unit-f24181e5a3",
+      "name": "能源与动力工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-26208f7c3a",
+      "name": "软件学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-ea6689ac05",
+      "name": "食品与生物工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-1940833184",
+      "name": "数学与信息科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    },
+    {
+      "id": "unit-9a44fc8c84",
+      "name": "艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzuli.edu.cn/275/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:45:56.953Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.zzuli.edu.cn/275/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:45:56.969Z",
+      "lastCheckedAt": "2026-07-13T14:45:56.969Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.zzuli.edu.cn/",
+    "sourceUrls": [
+      "https://www.zzuli.edu.cn/275/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:45:56.969Z",
+    "lastCheckedAt": "2026-07-13T14:45:56.969Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

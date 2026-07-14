@@ -1,0 +1,136 @@
+{
+  "schoolId": "school-1q5e4gd",
+  "name": "南京农业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:05:23.064Z",
+  "academicUnits": [
+    {
+      "id": "unit-1c051ffe63",
+      "name": "车辆工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcjtycl.jsp?urltype=tree.TreeTempUrl&wbtreeid=1143",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-8e7fe70f2d",
+      "name": "电气工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcdqgcx.jsp?urltype=tree.TreeTempUrl&wbtreeid=1142",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-826077dce6",
+      "name": "工业设计系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcgysjx.jsp?urltype=tree.TreeTempUrl&wbtreeid=1200",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-29de625dbe",
+      "name": "机械工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcjx.jsp?urltype=tree.TreeTempUrl&wbtreeid=1144",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-200bd92b80",
+      "name": "能源工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcnygcx.jsp?urltype=tree.TreeTempUrl&wbtreeid=1201",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-c636d4cf2f",
+      "name": "农业工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://coe.njau.edu.cn/jsfcnyggx.jsp?urltype=tree.TreeTempUrl&wbtreeid=1145",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-88d4efa5ee",
+      "name": "农业智能装备工程专业本科培养方案(2024级)金善宝书院",
+      "unitType": "书院",
+      "aliases": [
+        "05农业智能装备工程专业本科培养方案(2024级)金善宝书院",
+        "农业智能装备工程专业本科培养方案(2024级)金善宝书院"
+      ],
+      "officialWebsite": "https://coe.njau.edu.cn/info/1013/5741.htm",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.039Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况"
+      ],
+      "officialWebsite": "https://coe.njau.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:05:23.038Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://coe.njau.edu.cn/rcpy/bkspy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:05:23.064Z",
+      "lastCheckedAt": "2026-07-13T14:05:23.064Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://coe.njau.edu.cn/",
+    "sourceUrls": [
+      "https://coe.njau.edu.cn/rcpy/bkspy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:05:23.064Z",
+    "lastCheckedAt": "2026-07-13T14:05:23.064Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 8,
+    "newUnitCount": 8,
+    "verifiedCount": 8,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

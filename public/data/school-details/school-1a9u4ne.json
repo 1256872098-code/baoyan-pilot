@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1a9u4ne",
+  "name": "上海体育大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:53:42.273Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:53:42.273Z",
+    "lastCheckedAt": "2026-07-13T13:53:42.273Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "title contains school name"
+  }
+}

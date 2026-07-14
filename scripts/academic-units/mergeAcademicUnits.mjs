@@ -18,6 +18,8 @@ function mergeUnit(existing, incoming) {
     return {
       ...existing,
       aliases: [...new Set([...(existing.aliases || []), ...(incoming.aliases || [])])],
+      officialWebsite: existing.officialWebsite || incoming.officialWebsite,
+      sourceUrl: existing.sourceUrl || incoming.sourceUrl,
       lastCheckedAt: incoming.lastCheckedAt || existing.lastCheckedAt,
     };
   }
@@ -37,7 +39,46 @@ function indexByStableKey(units) {
   return map;
 }
 
-export async function mergeAcademicUnits({ detailPath, school, newUnits, sourceUrls }) {
+function dedupeSources(sources) {
+  const seen = new Set();
+  return sources.filter((source) => {
+    const key = `${source.url}|${source.sourceType}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function getHostname(value) {
+  try {
+    return new URL(value).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+function isSameOrSubdomain(hostname, officialHostname) {
+  return Boolean(hostname && officialHostname && (hostname === officialHostname || hostname.endsWith(`.${officialHostname}`)));
+}
+
+function shouldPreserveOldVerifiedUnit(unit, officialWebsite) {
+  if (unit?.dataStatus !== "verified") return false;
+  if (!officialWebsite) return true;
+  const officialHostname = getHostname(officialWebsite);
+  const sourceHostname = getHostname(unit.sourceUrl || unit.officialWebsite);
+  return Boolean(sourceHostname && isSameOrSubdomain(sourceHostname, officialHostname));
+}
+
+export async function mergeAcademicUnits({
+  detailPath,
+  school,
+  newUnits,
+  sourceUrls,
+  status = "success",
+  errorMessage = null,
+  officialWebsite = "",
+  searchRequestCount = 0,
+}) {
   const oldDetail = await readJson(detailPath, {
     schoolId: school.id,
     name: school.name,
@@ -46,9 +87,23 @@ export async function mergeAcademicUnits({ detailPath, school, newUnits, sourceU
     academicUnits: [],
     sources: [],
   });
-  const oldUnits = Array.isArray(oldDetail.academicUnits) ? oldDetail.academicUnits : [];
+  const oldUnits = Array.isArray(oldDetail.academicUnits)
+    ? oldDetail.academicUnits
+    : Array.isArray(oldDetail.colleges)
+      ? oldDetail.colleges.map((college) => ({
+          ...college,
+          unitType: "学院",
+          aliases: [],
+          sourceUrl: college.officialWebsite || "",
+          graduateAdmissionsRelevant: null,
+          dataStatus: college.dataStatus || "building",
+          confidence: college.officialWebsite ? 0.6 : 0.3,
+          lastCheckedAt: "",
+        }))
+      : [];
   const oldMap = indexByStableKey(oldUnits);
   const nextMap = new Map();
+  const consumedOldIds = new Set();
   const stats = {
     added: 0,
     possibleDeleted: 0,
@@ -58,14 +113,21 @@ export async function mergeAcademicUnits({ detailPath, school, newUnits, sourceU
   for (const unit of newUnits) {
     const existing = oldMap.get(unit.id) || oldUnits.find((oldUnit) => oldUnit.name === unit.name);
     if (!existing) stats.added += 1;
+    if (existing?.id) consumedOldIds.add(existing.id);
     nextMap.set(unit.id, mergeUnit(existing, unit));
   }
 
   for (const oldUnit of oldUnits) {
+    if (consumedOldIds.has(oldUnit.id)) continue;
     if (nextMap.has(oldUnit.id)) continue;
 
-    if (oldUnit.dataStatus === "verified") {
+    if (shouldPreserveOldVerifiedUnit(oldUnit, officialWebsite)) {
       nextMap.set(oldUnit.id, oldUnit);
+      continue;
+    }
+
+    if (oldUnit.dataStatus === "verified" && officialWebsite) {
+      stats.possibleDeleted += 1;
       continue;
     }
 
@@ -77,25 +139,46 @@ export async function mergeAcademicUnits({ detailPath, school, newUnits, sourceU
     stats.possibleDeleted += 1;
   }
 
+  const academicUnits = [...nextMap.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
+  const now = new Date().toISOString();
+  const verifiedCount = academicUnits.filter((unit) => unit.dataStatus === "verified").length;
+  const pendingCount = academicUnits.filter((unit) => unit.dataStatus === "pending-review").length;
+  const previousUnitCount = oldUnits.length;
+  const currentUnitCount = academicUnits.length;
   const nextDetail = {
     ...oldDetail,
     schoolId: school.id,
     name: school.name,
     status: "building",
-    academicUnits: [...nextMap.values()].sort((a, b) => a.name.localeCompare(b.name, "zh-CN")),
-    sources: [
+    academicUnits,
+    crawlMeta: {
+      status,
+      officialWebsite: officialWebsite || oldDetail.crawlMeta?.officialWebsite || "",
+      sourceUrls,
+      lastCrawledAt: now,
+      lastCheckedAt: now,
+      searchRequestCount,
+      previousUnitCount,
+      currentUnitCount,
+      newUnitCount: stats.added,
+      verifiedCount,
+      pendingCount,
+      errorMessage,
+    },
+    sources: dedupeSources([
       ...(Array.isArray(oldDetail.sources) ? oldDetail.sources : []),
       ...sourceUrls.map((url) => ({
-        title: "院系目录来源",
+        title: "学院目录来源",
         url,
         sourceType: "school",
         publishedAt: null,
-        crawledAt: new Date().toISOString(),
-        lastCheckedAt: new Date().toISOString(),
+        crawledAt: now,
+        lastCheckedAt: now,
       })),
-    ],
-    lastUpdated: new Date().toISOString(),
+    ]),
+    lastUpdated: now,
   };
+  delete nextDetail.colleges;
 
   await fs.mkdir(path.dirname(detailPath), { recursive: true });
 
@@ -115,6 +198,8 @@ export async function mergeAcademicUnits({ detailPath, school, newUnits, sourceU
     detail: nextDetail,
     oldCount: oldUnits.length,
     newCount: nextDetail.academicUnits.length,
+    verifiedCount,
+    pendingCount,
     ...stats,
   };
 }

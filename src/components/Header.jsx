@@ -6,8 +6,7 @@ import { useAuth } from "../contexts/AuthContext.jsx";
 
 const navItems = [
   { path: "/", label: "首页" },
-  { path: "/assessment", label: "画像评估" },
-  { path: "/ai-recommend", label: "AI 院校推荐" },
+  { path: "/ai-recommend", label: "AI院校推荐" },
   { path: "/schools", label: "院校资料库" },
   { path: "/forum", label: "保研论坛" },
 ];
@@ -15,9 +14,7 @@ const navItems = [
 const navClass = ({ isActive }) =>
   [
     "rounded-md px-3 py-2 text-sm font-semibold transition",
-    isActive
-      ? "bg-blue-50 text-brand-700"
-      : "text-slate-600 hover:bg-slate-100 hover:text-slate-900",
+    isActive ? "bg-blue-50 text-brand-700" : "text-slate-600 hover:bg-slate-100 hover:text-slate-900",
   ].join(" ");
 
 export default function Header() {
@@ -70,8 +67,8 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="container-page flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
+      <div className="container-page flex h-16 items-center justify-between gap-4">
+        <Link to="/" className="flex shrink-0 items-center gap-2" onClick={() => setOpen(false)}>
           <span className="flex h-9 w-9 items-center justify-center rounded-md bg-brand-600 text-white">
             <Compass size={20} strokeWidth={2.2} aria-hidden="true" />
           </span>
@@ -81,7 +78,7 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 md:flex" aria-label="主导航">
+        <nav className="hidden flex-1 items-center justify-center gap-1 md:flex" aria-label="主导航">
           {navItems.map((item) => (
             <NavLink key={item.path} to={item.path} className={navClass}>
               {item.label}
@@ -89,12 +86,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-2 md:flex">
-          <Link to="/assessment" className="btn-secondary">
-            <Compass size={17} aria-hidden="true" />
-            开始评估
-          </Link>
-
+        <div className="hidden shrink-0 items-center gap-2 md:flex">
           {user ? (
             <div className="relative" ref={accountMenuRef}>
               <button
@@ -164,12 +156,7 @@ export default function Header() {
         <div className="border-t border-slate-200 bg-white md:hidden">
           <nav className="container-page grid gap-1 py-3" aria-label="移动端导航">
             {navItems.map((item) => (
-              <NavLink
-                key={item.path}
-                to={item.path}
-                className={navClass}
-                onClick={() => setOpen(false)}
-              >
+              <NavLink key={item.path} to={item.path} className={navClass} onClick={() => setOpen(false)}>
                 {item.label}
               </NavLink>
             ))}

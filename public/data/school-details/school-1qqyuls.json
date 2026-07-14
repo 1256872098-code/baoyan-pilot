@@ -1,0 +1,262 @@
+{
+  "schoolId": "school-1qqyuls",
+  "name": "湖北工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:53:56.585Z",
+  "academicUnits": [
+    {
+      "id": "unit-eed630a3ee",
+      "name": "材料与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smce.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cxcyxy.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-79c8abdd49",
+      "name": "底特律绿色工业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://green.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-57c92915ea",
+      "name": "电气与电子工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://eee.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-91d9817558",
+      "name": "工程技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gcxy.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-d995344eda",
+      "name": "工业设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ids.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sie.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-c202dcc379",
+      "name": "机械工程学院(智能制造产业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tsme.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.563Z"
+    },
+    {
+      "id": "unit-40a7776320",
+      "name": "计算机科学与人工智能学院(大数据与人工智能产业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://scs.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ems.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-d3261c2eea",
+      "name": "理学院(芯片产业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://science.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marxism.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-344ce73bea",
+      "name": "生命科学与健康工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://life.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-fcb1c71068",
+      "name": "数字艺术产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://dai.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://pehg.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-348113b1a3",
+      "name": "土木建筑与环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cae.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://fls.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-9a44fc8c84",
+      "name": "艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ads.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    },
+    {
+      "id": "unit-107d381691",
+      "name": "职业技术师范学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://nsvte.hbut.edu.cn/",
+      "sourceUrl": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:53:56.564Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hbut.edu.cn/zzjg.htm#jxdw",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:53:56.585Z",
+      "lastCheckedAt": "2026-07-13T14:53:56.585Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hbut.edu.cn/",
+    "sourceUrls": [
+      "https://www.hbut.edu.cn/zzjg.htm#jxdw"
+    ],
+    "lastCrawledAt": "2026-07-13T14:53:56.585Z",
+    "lastCheckedAt": "2026-07-13T14:53:56.585Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 19,
+    "newUnitCount": 19,
+    "verifiedCount": 19,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

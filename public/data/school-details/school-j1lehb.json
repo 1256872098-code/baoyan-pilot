@@ -1,0 +1,85 @@
+{
+  "schoolId": "school-j1lehb",
+  "name": "郑州大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:44:57.285Z",
+  "academicUnits": [
+    {
+      "id": "unit-611847559a",
+      "name": "河南医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.zzu.edu.cn/yxzy/hnyxy2.htm",
+      "sourceUrl": "https://www.zzu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:44:57.267Z"
+    },
+    {
+      "id": "unit-f51b4a7c47",
+      "name": "理工院系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.zzu.edu.cn/yxzy/lgyx1.htm",
+      "sourceUrl": "https://www.zzu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:44:57.267Z"
+    },
+    {
+      "id": "unit-5f0303aaca",
+      "name": "文科院系",
+      "unitType": "系",
+      "aliases": [
+        "文科院系理工院系河南医学院科研平台",
+        "文科院系"
+      ],
+      "officialWebsite": "https://www.zzu.edu.cn/yxzy/wkyx1.htm",
+      "sourceUrl": "https://www.zzu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:44:57.267Z"
+    },
+    {
+      "id": "unit-0996434f5d",
+      "name": "中德学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www5.zzu.edu.cn/germany/",
+      "sourceUrl": "https://www.zzu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:44:57.267Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.zzu.edu.cn/rcpy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:44:57.285Z",
+      "lastCheckedAt": "2026-07-13T14:44:57.285Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.zzu.edu.cn/",
+    "sourceUrls": [
+      "https://www.zzu.edu.cn/rcpy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:44:57.285Z",
+    "lastCheckedAt": "2026-07-13T14:44:57.285Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 4,
+    "newUnitCount": 4,
+    "verifiedCount": 4,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

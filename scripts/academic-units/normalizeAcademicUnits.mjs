@@ -3,6 +3,7 @@ import crypto from "node:crypto";
 const administrativeKeywords = [
   "党委",
   "党政",
+  "校长办公室",
   "办公室",
   "财务",
   "人事",
@@ -18,14 +19,42 @@ const administrativeKeywords = [
   "宣传部",
   "统战部",
   "纪委",
+  "审计",
+  "信息公开",
+  "服务中心",
+  "管理处",
 ];
+
+const rejectedExactNames = new Set([
+  "院系",
+  "学院",
+  "学部",
+  "教学单位",
+  "教学科研单位",
+  "组织机构",
+  "机构设置",
+  "学院设置",
+  "学院总览",
+  "治理体系",
+  "奖助体系",
+  "实验室资源",
+  "健康中心",
+  "期刊中心",
+  "船舶管理中心",
+  "English",
+  "EN",
+]);
+
+const reviewKeywords = ["继续教育", "附属", "医院", "培训", "国际学院"];
 
 function normalizeText(value) {
   return String(value || "")
-    .replace(/[（]/g, "（")
-    .replace(/[）]/g, "）")
+    .replace(/[（]/g, "(")
+    .replace(/[）]/g, ")")
+    .replace(/^[■●◆◇·\s]+/, "")
+    .replace(/20\d{2}[-/.年]\d{1,2}[-/.月]\d{1,2}日?$/g, "")
     .replace(/^[\d一二三四五六七八九十]+[、.．\s-]*/, "")
-    .replace(/(进入官网|查看更多|更多|点击进入|详情|>>|>|›|→)$/g, "")
+    .replace(/(进入官网|查看更多|更多|点击进入|查看详情|详情|>>|>|→|›)$/g, "")
     .replace(/\s+/g, "")
     .trim();
 }
@@ -46,16 +75,25 @@ export function createUnitId(name) {
 
 export function inferUnitType(name) {
   if (name.includes("学部")) return "学部";
-  if (name.endsWith("系") || name.includes("系（")) return "系";
-  if (name.includes("研究院")) return "研究院";
+  if (name.endsWith("系") || name.includes("系(")) return "系";
+  if (name.includes("研究院") || name.includes("研究所")) return "研究院";
   if (name.includes("书院")) return "书院";
   if (name.includes("研究中心") || name.includes("实验室")) return "研究中心";
-  if (name.includes("学院") || name.includes("院（部）") || name.includes("学院（部）")) return "学院";
+  if (name.includes("学院") || name.includes("院(部)") || name.includes("学院(部)")) return "学院";
   return "其他";
 }
 
 function isAdministrativeCandidate(name) {
-  return administrativeKeywords.some((keyword) => name.includes(keyword));
+  return administrativeKeywords.some((keyword) => name.includes(keyword)) || rejectedExactNames.has(name);
+}
+
+function needsManualReview(name, unitType) {
+  if (unitType === "其他") return true;
+  if (name.includes("继续教育")) return true;
+  if (name.includes("附属") || name.includes("医院")) return true;
+  if (name.includes("中心") && !name.includes("研究中心") && !name.includes("实验室")) return true;
+  if (reviewKeywords.some((keyword) => name.includes(keyword)) && unitType !== "学院") return true;
+  return false;
 }
 
 function mergeCandidate(existing, candidate) {
@@ -67,8 +105,13 @@ function mergeCandidate(existing, candidate) {
     ...existing,
     aliases: [...aliases],
     officialWebsite: existing.officialWebsite || candidate.officialWebsite,
+    sourceUrl: existing.sourceUrl || candidate.sourceUrl,
     rawTexts: [...new Set([...(existing.rawTexts || []), ...(candidate.rawTexts || [])])],
     confidence: Math.max(existing.confidence || 0, candidate.confidence || 0),
+    dataStatus:
+      existing.dataStatus === "verified" || candidate.dataStatus === "verified"
+        ? "verified"
+        : existing.dataStatus || candidate.dataStatus,
   };
 }
 
@@ -76,14 +119,16 @@ export function normalizeAcademicUnits({ schoolName, candidates }) {
   const byName = new Map();
   const byLink = new Map();
   const rejected = [];
+  const needsReview = [];
 
   for (const candidate of candidates || []) {
     const originalName = normalizeText(candidate.name || candidate.text);
     const name = removeSchoolPrefix(originalName, schoolName);
-    if (!name || name.length < 2) continue;
+    if (!name || name.length < 2 || name.length > 50) continue;
 
-    const rejectedCandidate = isAdministrativeCandidate(name);
     const unitType = inferUnitType(name);
+    const rejectedCandidate = isAdministrativeCandidate(name);
+    const pendingReview = needsManualReview(name, unitType);
     const normalizedCandidate = {
       id: createUnitId(name),
       name,
@@ -92,8 +137,8 @@ export function normalizeAcademicUnits({ schoolName, candidates }) {
       officialWebsite: candidate.url || "",
       sourceUrl: candidate.sourceUrl || "",
       graduateAdmissionsRelevant: null,
-      dataStatus: rejectedCandidate ? "pending-review" : "building",
-      confidence: rejectedCandidate ? 0.35 : unitType === "其他" ? 0.55 : 0.75,
+      dataStatus: pendingReview ? "pending-review" : "verified",
+      confidence: pendingReview ? 0.55 : 0.9,
       lastCheckedAt: new Date().toISOString(),
       rawTexts: [candidate.rawText || candidate.text || name].filter(Boolean),
       rejectedCandidate,
@@ -123,15 +168,15 @@ export function normalizeAcademicUnits({ schoolName, candidates }) {
     if (linkKey) byLink.set(linkKey, normalizedCandidate);
   }
 
+  const accepted = [...byName.values()].map(({ rejectedCandidate, rawTexts, ...unit }) => unit);
+  for (const unit of accepted) {
+    if (unit.dataStatus === "pending-review") needsReview.push(unit);
+  }
+
   return {
-    accepted: [...byName.values()].map(({ rejectedCandidate, rawTexts, ...unit }) => unit),
+    accepted,
     rejected,
-    needsReview: [...byName.values()]
-      .filter((unit) => unit.unitType === "其他" || !unit.officialWebsite)
-      .map(({ rejectedCandidate, rawTexts, ...unit }) => ({
-        ...unit,
-        dataStatus: "pending-review",
-      })),
+    needsReview,
   };
 }
 

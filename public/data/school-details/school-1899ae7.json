@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-1899ae7",
+  "name": "上海外国语大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:52:29.485Z",
+  "academicUnits": [
+    {
+      "id": "unit-2c557f88ce",
+      "name": "合作交流国际化办学校际合作孔子学院访学交流高端访问外事管理",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.shisu.edu.cn/global/index.html",
+      "sourceUrl": "https://www.shisu.edu.cn/faculty-staff",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:52:29.476Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.oci.shisu.edu.cn/",
+      "sourceUrl": "https://www.shisu.edu.cn/faculty-staff",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:52:29.476Z"
+    },
+    {
+      "id": "unit-23cd486296",
+      "name": "上海全球治理与区域国别研究院在上海外国语大学揭牌成立。",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.shisu.edu.cn/",
+      "sourceUrl": "https://www.shisu.edu.cn/faculty-staff",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:52:29.476Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.shisu.edu.cn/faculty-staff",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:52:29.485Z",
+      "lastCheckedAt": "2026-07-13T13:52:29.485Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.shisu.edu.cn/",
+    "sourceUrls": [
+      "https://www.shisu.edu.cn/faculty-staff"
+    ],
+    "lastCrawledAt": "2026-07-13T13:52:29.485Z",
+    "lastCheckedAt": "2026-07-13T13:52:29.485Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1m3z29z",
+  "name": "上海对外经贸大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:53:04.355Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.suibe.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:53:04.355Z",
+    "lastCheckedAt": "2026-07-13T13:53:04.355Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

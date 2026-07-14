@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-193a7mv",
+  "name": "沈阳农业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:26:27.543Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:26:27.543Z",
+    "lastCheckedAt": "2026-07-13T13:26:27.543Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "title contains school name"
+  }
+}

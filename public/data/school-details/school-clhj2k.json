@@ -1,0 +1,574 @@
+{
+  "schoolId": "school-clhj2k",
+  "name": "南京工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:00:06.244Z",
+  "academicUnits": [
+    {
+      "id": "unit-67fc807927",
+      "name": "安全环境学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-73523068d7",
+      "name": "安全科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "安全科学与工程学院、环境科学与工程学院、应急管理学院",
+        "安全科学与工程学院"
+      ],
+      "officialWebsite": "http://cces.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.222Z"
+    },
+    {
+      "id": "unit-9a3ceacf7c",
+      "name": "材料科学学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cly.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-06fdaf06a1",
+      "name": "测绘科学与技术学院",
+      "unitType": "学院",
+      "aliases": [
+        "测绘科学与技术学院、城市建设学院、交通运输工程学院、土木工程学院",
+        "测绘科学与技术学院"
+      ],
+      "officialWebsite": "http://cge.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-4c2e9668e6",
+      "name": "城市建设学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://csjsxy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-4cd2908b1a",
+      "name": "电气工程与控制科学学院",
+      "unitType": "学院",
+      "aliases": [
+        "电气工程与控制科学学院、机械与动力工程学院、能源科学与工程学院",
+        "电气工程与控制科学学院"
+      ],
+      "officialWebsite": "http://eecs.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-77d44cdf92",
+      "name": "法政学院",
+      "unitType": "学院",
+      "aliases": [
+        "法政学院、马克思主义学院、外国语言文学学院、体育学院",
+        "法政学院"
+      ],
+      "officialWebsite": "http://fzxy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-f32f8a5155",
+      "name": "海外教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://coe.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-5377294118",
+      "name": "合作交流海外交流内地合作中外合作办学留学生教育孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-108f3c3a56",
+      "name": "化工学院",
+      "unitType": "学院",
+      "aliases": [
+        "化工学院、化学与分子工程学院",
+        "化工学院"
+      ],
+      "officialWebsite": "http://hgy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-55cce0527d",
+      "name": "化学化工学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-d1e9d2b7df",
+      "name": "化学与分子工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://chem.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-6c849956ad",
+      "name": "环境科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hj.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.222Z"
+    },
+    {
+      "id": "unit-a5069a281f",
+      "name": "机械控制学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-2bc550a022",
+      "name": "机械与动力工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mech.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-87a45cb1f1",
+      "name": "计算机与信息工程学院(人工智能学院)",
+      "unitType": "学院",
+      "aliases": [
+        "计算机与信息工程学院(人工智能学院)、柔性电子(未来技术)学院、数理科学学院",
+        "计算机与信息工程学院(人工智能学院)"
+      ],
+      "officialWebsite": "http://cise.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-a42fd5d9a2",
+      "name": "建筑学院",
+      "unitType": "学院",
+      "aliases": [
+        "建筑学院、艺术设计学院",
+        "建筑学院"
+      ],
+      "officialWebsite": "https://arch.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-b7c598e671",
+      "name": "建筑艺术学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-ea7546f5ca",
+      "name": "健康科技学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-0aa9463b9a",
+      "name": "交通运输工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://trans.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-da10931288",
+      "name": "教育教学本科生教育研究生教育终身教育2011学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-b92daa1707",
+      "name": "经济管理学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jgy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ico.njtech.edu.cn/kzxy/kzxyjj.htm",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.222Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zjy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-c14bb9205a",
+      "name": "能源科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ny.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-a6b046e134",
+      "name": "人文社科学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-252441cd5d",
+      "name": "柔性电子(未来技术)学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://iam.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-e848004ec2",
+      "name": "生物与制药工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "生物与制药工程学院、食品与轻工学院",
+        "生物与制药工程学院"
+      ],
+      "officialWebsite": "https://sgxy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-308ac9d76d",
+      "name": "生物制造学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-30ab654ede",
+      "name": "食品与轻工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-a8a3a8fd3e",
+      "name": "数理科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lxy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-2561b1b551",
+      "name": "数理信息学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-4017193b69",
+      "name": "斯旺西学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://njtsi.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tyxy.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-19cd2e2905",
+      "name": "土木工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cce.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-7f480e6ea2",
+      "name": "土木交通学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-de36933c9a",
+      "name": "外国语言文学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://english.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-bac1da7d72",
+      "name": "学院、海外教育学院、斯旺西学院、浦江学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://2011college.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.224Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://pharm.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-9a44fc8c84",
+      "name": "艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://art.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.223Z"
+    },
+    {
+      "id": "unit-41dcb83575",
+      "name": "应急管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cem.njtech.edu.cn/",
+      "sourceUrl": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:06.222Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.njtech.edu.cn/jgsz/xy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:00:06.244Z",
+      "lastCheckedAt": "2026-07-13T14:00:06.244Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.njtech.edu.cn/",
+    "sourceUrls": [
+      "https://www.njtech.edu.cn/jgsz/xy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:00:06.244Z",
+    "lastCheckedAt": "2026-07-13T14:00:06.244Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 43,
+    "newUnitCount": 43,
+    "verifiedCount": 43,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

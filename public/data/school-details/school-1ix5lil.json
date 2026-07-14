@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-1ix5lil",
+  "name": "中央音乐学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:39:32.425Z",
+  "academicUnits": [
+    {
+      "id": "unit-33e0601fa7",
+      "name": "钢琴系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/gqx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-42918dc504",
+      "name": "管弦系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/gxx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-d489e2922b",
+      "name": "国家非物质文化遗产保护与研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/yssjykyzx/gjfwzwhycbhyyjzx/bmjj.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-35f8f52513",
+      "name": "民乐系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/mlx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-46bf2832db",
+      "name": "人文学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/rwxb.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-e4b0c7bf19",
+      "name": "声乐歌剧系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/slgjx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-f37404e806",
+      "name": "提琴制作研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/tqzzyjzx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-3f5d203913",
+      "name": "现代远程音乐教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mdmec.ccom.edu.cn/",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-577fa075e8",
+      "name": "音乐教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/yljyxy.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-40f247e40f",
+      "name": "音乐人工智能与音乐信息科技系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/ylrgznyylxxkjx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-e37a759ed5",
+      "name": "音乐文化高等研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/yssjykyzx/yywhgdyjy/bmjj.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.400Z"
+    },
+    {
+      "id": "unit-fce62dc135",
+      "name": "音乐学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/ylxx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-4e613e1170",
+      "name": "指挥系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/zhx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    },
+    {
+      "id": "unit-293ccfc1bb",
+      "name": "作曲系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.ccom.edu.cn/jgk/jxdw/zqx.htm",
+      "sourceUrl": "https://www.ccom.edu.cn/jgk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:39:32.399Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ccom.edu.cn/jgk.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:39:32.425Z",
+      "lastCheckedAt": "2026-07-13T12:39:32.425Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ccom.edu.cn/",
+    "sourceUrls": [
+      "https://www.ccom.edu.cn/jgk.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:39:32.425Z",
+    "lastCheckedAt": "2026-07-13T12:39:32.425Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

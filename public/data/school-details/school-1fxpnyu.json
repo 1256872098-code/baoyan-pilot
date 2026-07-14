@@ -1,0 +1,277 @@
+{
+  "schoolId": "school-1fxpnyu",
+  "name": "北京语言大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:25:41.637Z",
+  "academicUnits": [
+    {
+      "id": "unit-091e8d0526",
+      "name": "(一带一路研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://get.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ic.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-f6c8d947d8",
+      "name": "国际政治与传播学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sjc.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-1724dbea27",
+      "name": "国际中文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cics.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-ab4482a82a",
+      "name": "海南国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-7b7ade0571",
+      "name": "汉学与中国学学院",
+      "unitType": "学院",
+      "aliases": [
+        "汉学与中国学学院(一带一路研究院)",
+        "汉学与中国学学院"
+      ],
+      "officialWebsite": "https://chinastudies.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.624Z"
+    },
+    {
+      "id": "unit-add1900488",
+      "name": "教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://soe.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marxism.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-6053620da3",
+      "name": "商学院、经济研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://bs.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://tyb.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-06e1359caa",
+      "name": "外国语言文化学院(区域国别研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://irs.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-1eae3f9077",
+      "name": "文学院、中华文化研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://wenxueyuan.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-fc884ecba8",
+      "name": "心理与认知科学学院(生命健康研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://xlrzkx.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-5cf3c74356",
+      "name": "信息科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://xxkx.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ysh.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-2763eb7681",
+      "name": "应用中文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yyzw.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-8722dd47c4",
+      "name": "英语和高级翻译学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://seis.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-2e8aecb488",
+      "name": "语言科学与资源学院(语言科学研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://sllr.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-524af2475a",
+      "name": "语言文化国际传播联合研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://lacic.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    },
+    {
+      "id": "unit-097dd81d5f",
+      "name": "中国书法国际传播研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://icicc.blcu.edu.cn/",
+      "sourceUrl": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:25:41.625Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.blcu.edu.cn/xxgk/jgsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:25:41.637Z",
+      "lastCheckedAt": "2026-07-13T08:25:41.637Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.blcu.edu.cn/",
+    "sourceUrls": [
+      "https://www.blcu.edu.cn/xxgk/jgsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:25:41.637Z",
+    "lastCheckedAt": "2026-07-13T08:25:41.637Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 20,
+    "newUnitCount": 20,
+    "verifiedCount": 20,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "schoolId": "school-qbr6yx",
+  "name": "华南农业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:23:23.083Z",
+  "academicUnits": [
+    {
+      "id": "unit-eed630a3ee",
+      "name": "材料与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cmce.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-dd37669351",
+      "name": "动物科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://dongke.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-88707382a0",
+      "name": "工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gcxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-7635a78ec5",
+      "name": "公共管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "马克思主义学院",
+        "公共管理学院"
+      ],
+      "officialWebsite": "https://ggglxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-e1db57d09a",
+      "name": "广州都柏林国际生命科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gdic.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cie.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-e440f21f96",
+      "name": "海洋学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cem.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-a1d2eaab48",
+      "name": "林学与风景园林学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://lf.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mkszyxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-729df4d73b",
+      "name": "农学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://nxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-5ccc1bca6a",
+      "name": "人工智能与低空技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://dzxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-4c99f2b79d",
+      "name": "人文与法学学院",
+      "unitType": "学院",
+      "aliases": [
+        "经济管理学院",
+        "人文与法学学院"
+      ],
+      "officialWebsite": "https://rw.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-e5594ba64f",
+      "name": "生命科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://life.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-aa6a3f5a8e",
+      "name": "生物质学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cfb.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-29a6ae362e",
+      "name": "食品学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-8945da339f",
+      "name": "兽医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://vet.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-b117a080ab",
+      "name": "数学与信息学院、软件学院",
+      "unitType": "学院",
+      "aliases": [
+        "人工智能与低空技术学院",
+        "数学与信息学院、软件学院"
+      ],
+      "officialWebsite": "https://info.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-b6a1099ca9",
+      "name": "水利与土木工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wcce.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tyb.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        "公共管理学院",
+        "外国语学院"
+      ],
+      "officialWebsite": "https://sfs.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-fe23035241",
+      "name": "湾区设计与艺术学院",
+      "unitType": "学院",
+      "aliases": [
+        "人文与法学学院",
+        "湾区设计与艺术学院"
+      ],
+      "officialWebsite": "https://art.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-a1d1f58e55",
+      "name": "园艺学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-72e0187e17",
+      "name": "植物保护学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zb.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    },
+    {
+      "id": "unit-c4b72a6cc6",
+      "name": "资源环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zyhjxy.scau.edu.cn/",
+      "sourceUrl": "https://www.scau.edu.cn/17936/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:23.066Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.scau.edu.cn/17936/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:23:23.083Z",
+      "lastCheckedAt": "2026-07-14T01:23:23.083Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.scau.edu.cn/",
+    "sourceUrls": [
+      "https://www.scau.edu.cn/17936/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:23:23.083Z",
+    "lastCheckedAt": "2026-07-14T01:23:23.083Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 25,
+    "newUnitCount": 25,
+    "verifiedCount": 25,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

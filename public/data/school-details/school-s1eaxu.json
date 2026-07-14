@@ -1,0 +1,253 @@
+{
+  "schoolId": "school-s1eaxu",
+  "name": "华东政法大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:53:53.641Z",
+  "academicUnits": [
+    {
+      "id": "unit-1681870ff3",
+      "name": "法律学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://flxy.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-8d5cea70f5",
+      "name": "公共法律服务学院",
+      "unitType": "学院",
+      "aliases": [
+        "公共法律服务学院<ahref=\"\"/>(律师学院、继续教育学院)</a",
+        "公共法律服务学院"
+      ],
+      "officialWebsite": "http://ggflfw.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-d6328f13b8",
+      "name": "国际法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjf.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://iec.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-14a03705f6",
+      "name": "国际金融法律学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://isfl.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-aa981f007c",
+      "name": "纪检监察学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jjjc.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-baf487d6b4",
+      "name": "经济法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jjfxy.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zzllb.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sxy.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-c04942c78f",
+      "name": "社会发展学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://shfz.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-54284dcfc8",
+      "name": "涉外法治学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-739f9c85ac",
+      "name": "涉外法治研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://ifrl.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-64f3f82eeb",
+      "name": "外语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wyxy.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-943ec0327a",
+      "name": "文伯书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://wbcollege.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-9bf1e593bd",
+      "name": "刑事法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://xssf.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-66b6fdb768",
+      "name": "政府管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zfgl.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-e8d8786151",
+      "name": "知识产权学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ipschool.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    },
+    {
+      "id": "unit-f7a17d2c3f",
+      "name": "中国法治战略研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://crlss.ecupl.edu.cn/",
+      "sourceUrl": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:53:53.630Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.ecupl.edu.cn/pzjg/list.htm#box0",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:53:53.641Z",
+      "lastCheckedAt": "2026-07-13T13:53:53.641Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ecupl.edu.cn/",
+    "sourceUrls": [
+      "http://www.ecupl.edu.cn/pzjg/list.htm#box0"
+    ],
+    "lastCrawledAt": "2026-07-13T13:53:53.641Z",
+    "lastCheckedAt": "2026-07-13T13:53:53.641Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

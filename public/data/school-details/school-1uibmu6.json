@@ -1,0 +1,186 @@
+{
+  "schoolId": "school-1uibmu6",
+  "name": "南京师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:07:49.201Z",
+  "academicUnits": [
+    {
+      "id": "unit-7c54f14b6a",
+      "name": "道德教育研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/ddjyyjs.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-cddf424040",
+      "name": "教育管理与政策系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/jyglyzcx.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.179Z"
+    },
+    {
+      "id": "unit-ec72aa9702",
+      "name": "教育技术学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/jyjsxx.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-ef3ffb496b",
+      "name": "教育科学学院",
+      "unitType": "学院",
+      "aliases": [
+        "南京师范大学教育科学学院"
+      ],
+      "officialWebsite": "",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-016e988617",
+      "name": "教育科学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/jykxyjy.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-5d939e76c8",
+      "name": "教育社会学研究中心",
+      "unitType": "研究中心",
+      "aliases": [
+        "南京师范大学教育社会学研究中心"
+      ],
+      "officialWebsite": "http://se.njnu.edu.cn/",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-bafba3e076",
+      "name": "教育学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/jyxx.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.179Z"
+    },
+    {
+      "id": "unit-ed57f67f83",
+      "name": "视觉文化研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://fromeyes.nnu.edu.cn/",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-a996fddaa1",
+      "name": "小学教育系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/xxjyx.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.179Z"
+    },
+    {
+      "id": "unit-f1a12077ab",
+      "name": "学前教育学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/szdw/xqjyxx.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介组织机构现任领导联系方式"
+      ],
+      "officialWebsite": "https://jky.njnu.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.179Z"
+    },
+    {
+      "id": "unit-833eb9184c",
+      "name": "学院机构设置及名称",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jky.njnu.edu.cn/info/1031/33141.htm",
+      "sourceUrl": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:07:49.180Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://jky.njnu.edu.cn/xygk/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:07:49.201Z",
+      "lastCheckedAt": "2026-07-13T14:07:49.201Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://jky.njnu.edu.cn/",
+    "sourceUrls": [
+      "https://jky.njnu.edu.cn/xygk/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:07:49.201Z",
+    "lastCheckedAt": "2026-07-13T14:07:49.201Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 12,
+    "newUnitCount": 12,
+    "verifiedCount": 12,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

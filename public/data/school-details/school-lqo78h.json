@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-lqo78h",
+  "name": "上海音乐学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:54:41.479Z",
+  "academicUnits": [
+    {
+      "id": "unit-4bd45878aa",
+      "name": "年第11期，后收入《中国新音乐》(新版)，上海音乐学院出版社2007年第2版。",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dlib.cnki.net/kns50/Navi/Bridge.aspx?DBCode=CJFD&LinkType=IssueLink&Field=BaseID*year*issue&TableName=CJFDYEARINFO&Value=YYAH*2002*11&NaviLink=%E9%9F%B3%E4%B9%90%E7%88%B1%E5%A5%BD%E8%80%85",
+      "sourceUrl": "https://tsg.shcmusic.edu.cn/2011/0614/c283a4725/pagem.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:41.471Z"
+    },
+    {
+      "id": "unit-e16d0c4de4",
+      "name": "学术机构中国当代音乐...上海音乐学院...华人作曲家手...",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tsg.shcmusic.edu.cn/266/listm.htm",
+      "sourceUrl": "https://tsg.shcmusic.edu.cn/2011/0614/c283a4725/pagem.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:41.471Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://tsg.shcmusic.edu.cn/2011/0614/c283a4725/pagem.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:54:41.479Z",
+      "lastCheckedAt": "2026-07-13T13:54:41.479Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.shcmusic.edu.cn/",
+    "sourceUrls": [
+      "https://tsg.shcmusic.edu.cn/2011/0614/c283a4725/pagem.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:54:41.479Z",
+    "lastCheckedAt": "2026-07-13T13:54:41.479Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

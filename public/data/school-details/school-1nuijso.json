@@ -1,0 +1,448 @@
+{
+  "schoolId": "school-1nuijso",
+  "name": "中央财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:50:13.815Z",
+  "academicUnits": [
+    {
+      "id": "unit-3bff113409",
+      "name": "保险学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ins.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-79abc61137",
+      "name": "北京学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bjc.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-fe6b9e0a24",
+      "name": "财政税务学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spft.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-09489be044",
+      "name": "创新发展学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sind.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-ea68c91d14",
+      "name": "法学院、",
+      "unitType": "学院",
+      "aliases": [
+        "法学院、纪检监察研究院",
+        "法学院、"
+      ],
+      "officialWebsite": "https://law.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-17d8a1b7cf",
+      "name": "管理科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mse.cufe.edu.cn//",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-a7cd3c5503",
+      "name": "国际经济与贸易学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://site.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-fd2aa34c47",
+      "name": "国际文化交流学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sice.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-f44e1b021d",
+      "name": "国家财经战略研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "国家财经战略研究院>>北京财经研究基地",
+        "国家财经战略研究院"
+      ],
+      "officialWebsite": "https://nafes.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-61efb88a12",
+      "name": "国家金融安全与技术高级学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-1a092d981c",
+      "name": "国家数据工程与安全学院(国家金融安全教育部工程研究中心)",
+      "unitType": "研究中心",
+      "aliases": [
+        "国家数据工程与安全学院(国家金融安全教育部工程研究中心)>>北京学院",
+        "国家数据工程与安全学院(国家金融安全教育部工程研究中心)"
+      ],
+      "officialWebsite": "https://sndes.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://soa.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-04121c9cdd",
+      "name": "纪检监察研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jjjc.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-c51fec05e8",
+      "name": "继续教育学院",
+      "unitType": "学院",
+      "aliases": [
+        "继续教育学院>>培训学院>>网络教育学院",
+        "继续教育学院"
+      ],
+      "officialWebsite": "http://sce.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "pending-review",
+      "confidence": 0.55,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-4833688f32",
+      "name": "金融学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sf.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://econ.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marxism.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-2c1e112821",
+      "name": "培训学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ts.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-57724d9320",
+      "name": "人力资本与劳动经济研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://humancapital.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-aaafb020d3",
+      "name": "商学院、科技商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bs.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-22d1497e1e",
+      "name": "社会与心理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ssp.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-958d65e988",
+      "name": "体育经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ssem.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-1171011547",
+      "name": "统计与数学学院、数学教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://sam.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        "外国语学院>>大学外语语言学习中心",
+        "外国语学院"
+      ],
+      "officialWebsite": "http://sfs.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-e8a00da5cc",
+      "name": "网络教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-cb629e8077",
+      "name": "文化与传媒学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cc.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-3662d2b62d",
+      "name": "信息学院",
+      "unitType": "学院",
+      "aliases": [
+        "信息学院>>计算机应用实验教学中心",
+        "信息学院"
+      ],
+      "officialWebsite": "http://ie.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-d3cbdb4344",
+      "name": "粤港澳大湾区(黄埔)研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://gbari.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-66b6fdb768",
+      "name": "政府管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sg.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-c2497c6981",
+      "name": "中国公共财政与政策研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://capfpp.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-a4fc5c0669",
+      "name": "中国金融发展研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://cafd.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-e328ad21aa",
+      "name": "中国经济与管理研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://cema.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    },
+    {
+      "id": "unit-dde4733871",
+      "name": "中国精算研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://cias.cufe.edu.cn/",
+      "sourceUrl": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:13.803Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.cufe.edu.cn/zzjg/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:50:13.815Z",
+      "lastCheckedAt": "2026-07-13T08:50:13.815Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://www.cufe.edu.cn/",
+    "sourceUrls": [
+      "http://www.cufe.edu.cn/zzjg/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:50:13.815Z",
+    "lastCheckedAt": "2026-07-13T08:50:13.815Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 0,
+    "currentUnitCount": 33,
+    "newUnitCount": 33,
+    "verifiedCount": 32,
+    "pendingCount": 1,
+    "errorMessage": null
+  }
+}

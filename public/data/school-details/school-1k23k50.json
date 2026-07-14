@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-1k23k50",
+  "name": "南方医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:31:31.369Z",
+  "academicUnits": [
+    {
+      "id": "unit-7c1ca72ff0",
+      "name": "法医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1954.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-e1fc6a0d9f",
+      "name": "公共卫生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1962.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1961.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-ba14354f62",
+      "name": "基础医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1959.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-91dfd6e245",
+      "name": "检验与生物技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1963.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-b869b108cd",
+      "name": "康复医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-1541b1b986",
+      "name": "口腔医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/2854.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-c8c67ee5ac",
+      "name": "南医书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/xysh/nysy.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-fd3b3b3d1f",
+      "name": "深圳临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/3504.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.362Z"
+    },
+    {
+      "id": "unit-767722cebd",
+      "name": "生物医学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1957.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1960.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-b774026ec8",
+      "name": "卫生管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1955.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1956.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    },
+    {
+      "id": "unit-0e2c9d1f19",
+      "name": "中医药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://portal.smu.edu.cn/bkzs/info/1014/1958.htm",
+      "sourceUrl": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:31:31.361Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:31:31.369Z",
+      "lastCheckedAt": "2026-07-14T01:31:31.369Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://portal.smu.edu.cn/",
+    "sourceUrls": [
+      "https://portal.smu.edu.cn/bkzs/info/1014/2344.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:31:31.369Z",
+    "lastCheckedAt": "2026-07-14T01:31:31.369Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

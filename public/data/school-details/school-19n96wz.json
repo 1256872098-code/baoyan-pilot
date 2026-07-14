@@ -1,0 +1,243 @@
+{
+  "schoolId": "school-19n96wz",
+  "name": "宁波大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:16:51.320Z",
+  "academicUnits": [
+    {
+      "id": "unit-cd25f373ef",
+      "name": "版权所有：宁波大学科学技术学院浙ICP备1201444",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.301Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://glxy.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-66bf597f27",
+      "name": "机械工程与自动化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jx.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-bddbd39e89",
+      "name": "基础学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jc.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-e54df1a1d9",
+      "name": "基础学院/马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zs.ndky.edu.cn/branch/11091.jhtml",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.301Z"
+    },
+    {
+      "id": "unit-24483d8eac",
+      "name": "建筑工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jg.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-ceed608822",
+      "name": "经法学院/电子商务学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jf.ndky.edu.cn/index.php",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-e8b8a0625f",
+      "name": "科学技术学院研究生招生网",
+      "unitType": "学院",
+      "aliases": [
+        "宁波大学科学技术学院研究生招生网"
+      ],
+      "officialWebsite": "http://yjs.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mkszy.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://rw.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-49caf97f79",
+      "name": "设计艺术学院/文化创意学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ys.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-9e2ffcfba7",
+      "name": "生命科学与材料化学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sm.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xx.ndky.edu.cn/",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-9d5c21d982",
+      "name": "学院概述",
+      "unitType": "学院",
+      "aliases": [
+        "学院概述学院简介学院视频校园航拍学院特色",
+        "学院概述"
+      ],
+      "officialWebsite": "https://zs.ndky.edu.cn/about/index.jhtml",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.ndky.edu.cn/xyjj/77875",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-16deb5c003",
+      "name": "学院视频",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zs.ndky.edu.cn/video/index.jhtml",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    },
+    {
+      "id": "unit-0a82093749",
+      "name": "学院特色",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.ndky.edu.cn/kyts/78071",
+      "sourceUrl": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:16:51.300Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://zs.ndky.edu.cn/branch/index.jhtml",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:16:51.320Z",
+      "lastCheckedAt": "2026-07-13T14:16:51.320Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://zs.ndky.edu.cn/",
+    "sourceUrls": [
+      "https://zs.ndky.edu.cn/branch/index.jhtml"
+    ],
+    "lastCrawledAt": "2026-07-13T14:16:51.320Z",
+    "lastCheckedAt": "2026-07-13T14:16:51.320Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

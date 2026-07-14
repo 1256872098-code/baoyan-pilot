@@ -1,0 +1,23 @@
+{
+  "schoolsTotal": 427,
+  "schoolsWithDisplayableUnits": 194,
+  "schoolsWithoutUnits": 233,
+  "successCount": 194,
+  "pendingReviewCount": 52,
+  "sourceNotFoundCount": 54,
+  "crawlFailedCount": 2,
+  "parseFailedCount": 11,
+  "blockedCount": 2,
+  "manualSourceRequiredCount": 3,
+  "skippedCount": 0,
+  "pendingCount": 109,
+  "academicUnitsTotal": 4110,
+  "verifiedUnitsTotal": 4104,
+  "pendingUnitsTotal": 6,
+  "coverageRate": 45.43,
+  "tavilyRequestCount": 502,
+  "currentRunProcessedSchools": 190,
+  "currentRunNewAcademicUnits": 2462,
+  "unresolvedSchoolCount": 233,
+  "lastUpdatedAt": "2026-07-14T01:31:04.343Z"
+}

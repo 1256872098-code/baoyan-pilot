@@ -1,0 +1,628 @@
+{
+  "schoolId": "school-1oj8i5e",
+  "name": "北京科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T07:51:50.516Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "材料科学与工程学院010-62332609",
+        "材料科学与工程学院"
+      ],
+      "officialWebsite": "http://mse.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-a6b8820a01",
+      "name": "城镇化与城市安全研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "城镇化与城市安全研究院010-62334196",
+        "城镇化与城市安全研究院"
+      ],
+      "officialWebsite": "https://iuus.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [
+        "创新创业学院010-62333735",
+        "创新创业学院"
+      ],
+      "officialWebsite": "https://cy.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-cb941cbca0",
+      "name": "大安全科学研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "大安全科学研究院010-62333808",
+        "大安全科学研究院"
+      ],
+      "officialWebsite": "https://mss.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-68c87cf428",
+      "name": "带一路研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.ustb.edu.cn/hzjl/ydylyjy/index.htm",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.502Z"
+    },
+    {
+      "id": "unit-9e75c86a90",
+      "name": "高精尖学院",
+      "unitType": "学院",
+      "aliases": [
+        "高精尖学院010-62332505",
+        "高精尖学院"
+      ],
+      "officialWebsite": "https://gjjxy.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-0cc5861bfb",
+      "name": "工程技术研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "工程技术研究院010-62332598",
+        "工程技术研究院"
+      ],
+      "officialWebsite": "http://iet.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-bffba6c38a",
+      "name": "固体化学研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://issc.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-40eba55798",
+      "name": "国际合作国际交流孔子学院一带一路研究院国际学生",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.ustb.edu.cn/hzjl/index.htm",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.502Z"
+    },
+    {
+      "id": "unit-0118e9fea3",
+      "name": "国家卓越工程师学院",
+      "unitType": "学院",
+      "aliases": [
+        "高等工程师学院",
+        "国家卓越工程师学院",
+        "国家卓越工程师学院010-62334954"
+      ],
+      "officialWebsite": "https://gcsxy.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-2e317a03c7",
+      "name": "化学与生物工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "化学与生物工程学院010-62332126",
+        "化学与生物工程学院"
+      ],
+      "officialWebsite": "http://huasheng.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "机械工程学院010-62332365",
+        "机械工程学院"
+      ],
+      "officialWebsite": "http://me.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-f561553a0f",
+      "name": "计算机与通信工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "计算机与通信工程学院010-62332871",
+        "计算机与通信工程学院"
+      ],
+      "officialWebsite": "http://scce.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-3d48e333e3",
+      "name": "教育研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "教育研究院010-62332861",
+        "教育研究院"
+      ],
+      "officialWebsite": "https://wenfa.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "经济管理学院010-62334699",
+        "经济管理学院"
+      ],
+      "officialWebsite": "http://sem.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-ee017901c4",
+      "name": "科技史与文化遗产研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "科技史与文化遗产研究院010-62334901",
+        "科技史与文化遗产研究院"
+      ],
+      "officialWebsite": "http://ihmm.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-459c35d9bf",
+      "name": "科学技术研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "科技成果转化研究院",
+        "科学技术研究院",
+        "先进技术与装备研究院",
+        "科学技术研究院010-62332206",
+        "科技成果转化研究院010-62332206",
+        "先进技术与装备研究院010-62332206"
+      ],
+      "officialWebsite": "https://research.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.dmu.ac.uk/community/confucius-institute/index.aspx",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.502Z"
+    },
+    {
+      "id": "unit-301d529fb9",
+      "name": "孔子学院数字化技术研究中心",
+      "unitType": "研究中心",
+      "aliases": [
+        "孔子学院数字化技术研究中心010-62333807",
+        "孔子学院数字化技术研究中心"
+      ],
+      "officialWebsite": "https://dtrc.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-7035bc7d85",
+      "name": "绿色低碳钢铁冶金全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [
+        "绿色低碳钢铁冶金全国重点实验室010-82375842",
+        "绿色低碳钢铁冶金全国重点实验室"
+      ],
+      "officialWebsite": "https://sklam.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [
+        "马克思主义学院010-62334635",
+        "马克思主义学院"
+      ],
+      "officialWebsite": "http://marx.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-6016afe7e7",
+      "name": "能源与环境工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "能源与环境工程学院010-62332867",
+        "能源与环境工程学院"
+      ],
+      "officialWebsite": "http://seee.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [
+        "人工智能研究院",
+        "人工智能学院",
+        "智能科学与技术学院",
+        "人工智能学院010-62332106",
+        "人工智能研究院010-62332106"
+      ],
+      "officialWebsite": "http://ai.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-838b0f4f5b",
+      "name": "融合创新研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "融合创新研究院010-65741901",
+        "融合创新研究院"
+      ],
+      "officialWebsite": "https://imi.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-4b980360cd",
+      "name": "数理学院",
+      "unitType": "学院",
+      "aliases": [
+        "数理学院010-62332685",
+        "数理学院"
+      ],
+      "officialWebsite": "http://shuli.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-cce929d05f",
+      "name": "顺德创新学院",
+      "unitType": "学院",
+      "aliases": [
+        "顺德创新学院0757-29996868",
+        "顺德创新学院"
+      ],
+      "officialWebsite": "http://sd.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-917012e48c",
+      "name": "碳中和学院",
+      "unitType": "学院",
+      "aliases": [
+        "碳中和研究院",
+        "碳中和学院",
+        "碳中和学院010-62333990",
+        "碳中和研究院010-62333990"
+      ],
+      "officialWebsite": "https://icn.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [
+        "体育学院010-62332427",
+        "体育学院"
+      ],
+      "officialWebsite": "https://tyb.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-e9b2fd64e5",
+      "name": "天津学院",
+      "unitType": "学院",
+      "aliases": [
+        "天津学院招生",
+        "天津学院",
+        "天津学院022-22410800"
+      ],
+      "officialWebsite": "http://tj.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        "外国语学院010-62334741",
+        "外国语学院"
+      ],
+      "officialWebsite": "http://sfs.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-fcb64c2559",
+      "name": "未来城市学院",
+      "unitType": "学院",
+      "aliases": [
+        "未来城市学院010-62334902",
+        "未来城市学院"
+      ],
+      "officialWebsite": "https://sfc.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-a4ae8c5bb9",
+      "name": "未来技术学院",
+      "unitType": "学院",
+      "aliases": [
+        "前沿交叉科学技术研究院",
+        "未来技术学院",
+        "未来技术学院010-62332507",
+        "前沿交叉科学技术研究院010-62334725"
+      ],
+      "officialWebsite": "https://qy.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-5d7a688c33",
+      "name": "文法学院",
+      "unitType": "学院",
+      "aliases": [
+        "文法学院010-62334188",
+        "文法学院"
+      ],
+      "officialWebsite": "http://wenfa.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-d3142d3b85",
+      "name": "现代农学院",
+      "unitType": "学院",
+      "aliases": [
+        "生物农业研究院",
+        "现代农学院",
+        "现代农学院010-62335751",
+        "生物农业研究院010-82917178"
+      ],
+      "officialWebsite": "https://nongye.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-4df08e7ec2",
+      "name": "新材料技术研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "新材料技术研究院010-62334190",
+        "新材料技术研究院"
+      ],
+      "officialWebsite": "http://adma.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-bebf5117f6",
+      "name": "新金属材料全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [
+        "新金属材料全国重点实验室010-62332508",
+        "新金属材料全国重点实验室"
+      ],
+      "officialWebsite": "http://skl.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-88e115d867",
+      "name": "学院列表",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.502Z"
+    },
+    {
+      "id": "unit-b48858bc84",
+      "name": "冶金与生态工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "冶金与生态工程学院010-62332265",
+        "冶金与生态工程学院"
+      ],
+      "officialWebsite": "http://metall.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-59f82930ec",
+      "name": "资源与安全工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "资源与安全工程学院010-62332957",
+        "资源与安全工程学院"
+      ],
+      "officialWebsite": "https://srse.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    },
+    {
+      "id": "unit-71b326948f",
+      "name": "自动化学院",
+      "unitType": "学院",
+      "aliases": [
+        "自动化学院010-62332905",
+        "自动化学院"
+      ],
+      "officialWebsite": "http://saee.ustb.edu.cn/",
+      "sourceUrl": "https://www.ustb.edu.cn/yxbm/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:50.501Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ustb.edu.cn/yxbm/",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T07:30:18.095Z",
+      "lastCheckedAt": "2026-07-13T07:30:18.095Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "sourceUrls": [
+      "https://www.ustb.edu.cn/yxbm/"
+    ],
+    "lastCrawledAt": "2026-07-13T07:51:50.516Z",
+    "verifiedCount": 40,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

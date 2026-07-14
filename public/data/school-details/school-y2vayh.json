@@ -1,0 +1,106 @@
+{
+  "schoolId": "school-y2vayh",
+  "name": "广州医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:24:41.667Z",
+  "academicUnits": [
+    {
+      "id": "unit-17ef0602c2",
+      "name": "​广州医学院创立",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    },
+    {
+      "id": "unit-d2472f2959",
+      "name": "恢复广州医学院原名和大学体制",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    },
+    {
+      "id": "unit-2abb4cc175",
+      "name": "经教育部批准广州医学院更名为广州医科大学；获批成立国家呼吸系统疾病临床医学研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    },
+    {
+      "id": "unit-c6ba2dc85b",
+      "name": "开办广州医学院萝岗分院前后招收了两届学员",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    },
+    {
+      "id": "unit-b26535299c",
+      "name": "与从化市人民政府签署协议以原从化市卫生学校为基础共建广州医学院从化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    },
+    {
+      "id": "unit-a1d4287631",
+      "name": "与企业合办广州医学院南大学院，广州医学院天河学院分别招生了两届、三届2008年停办",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:24:41.659Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.gzhmu.edu.cn/xxgk/lsyg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:24:41.667Z",
+      "lastCheckedAt": "2026-07-14T01:24:41.667Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.gzhmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.gzhmu.edu.cn/xxgk/lsyg.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:24:41.667Z",
+    "lastCheckedAt": "2026-07-14T01:24:41.667Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 6,
+    "newUnitCount": 6,
+    "verifiedCount": 6,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schoolId": "school-1malrc9",
+  "name": "广州大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:29:31.098Z",
+  "academicUnits": [
+    {
+      "id": "unit-0cafee4c38",
+      "name": "科学研究科研机构科研成果合作交流学术规章实验室建设博士后管理",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://jyxy.gzhu.edu.cn/kxyj/kyjg.htm",
+      "sourceUrl": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:29:31.080Z"
+    },
+    {
+      "id": "unit-37b54d3d68",
+      "name": "实验室建设",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://jyxy.gzhu.edu.cn/kxyj/sysjs.htm",
+      "sourceUrl": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:29:31.080Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介学院领导机构设置院徽院训"
+      ],
+      "officialWebsite": "https://jyxy.gzhu.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:29:31.080Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jyxy.gzhu.edu.cn/xygk/xyld.htm",
+      "sourceUrl": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:29:31.080Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://jyxy.gzhu.edu.cn/info/1066/8353.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:29:31.098Z",
+      "lastCheckedAt": "2026-07-14T01:29:31.098Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://jyxy.gzhu.edu.cn/",
+    "sourceUrls": [
+      "https://jyxy.gzhu.edu.cn/info/1066/8353.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:29:31.098Z",
+    "lastCheckedAt": "2026-07-14T01:29:31.098Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 4,
+    "newUnitCount": 4,
+    "verifiedCount": 4,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

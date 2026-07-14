@@ -1,0 +1,313 @@
+{
+  "schoolId": "school-nhtwjm",
+  "name": "上海理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:48:17.949Z",
+  "academicUnits": [
+    {
+      "id": "unit-d10f585383",
+      "name": "材料与化学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://chxy.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-fdd8f6f9f7",
+      "name": "出版学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ccad.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cxcy.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-aa58ff7889",
+      "name": "东方泛血管器械创新学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://opic.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-d1bf104dae",
+      "name": "独立研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.usst.edu.cn/dlyjy/list.htm",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bs.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-77a7f44b6e",
+      "name": "光电信息与计算机工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://oece.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-7f770b9b76",
+      "name": "沪江学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hujiang.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-b2ce4f0f0c",
+      "name": "环境与建筑学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sea.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://me.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-4f968ef1ad",
+      "name": "基础学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://jcxb.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-608e79af81",
+      "name": "健康科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jiankang.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mksxy.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-f24181e5a3",
+      "name": "能源与动力工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ndxy.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-260fc3aebe",
+      "name": "上海机床厂有限公司(机械工程学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-03ab749b5d",
+      "name": "上海精密科学仪器有限公司(光电信息与计算机工程学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-9262da4261",
+      "name": "上理工召开卓越工程师学院产教融合育人学术导师专场座谈会",
+      "unitType": "学院",
+      "aliases": [
+        "上理工召开卓越工程师学院产教融合育人学术导师专场座谈会2026.06.15357",
+        "上理工召开卓越工程师学院产教融合育人学术导师专场座谈会"
+      ],
+      "officialWebsite": "https://www.usst.edu.cn/2026/0615/c989a69090/page.htm",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://tyb.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-64f3f82eeb",
+      "name": "外语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://waiyu.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-1a8c51cc6e",
+      "name": "浙江金菱制冷工程有限公司(能源与动力工程学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-a2b631ff69",
+      "name": "智能科技学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://saist.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-ed8f4a9324",
+      "name": "中德国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sgc.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    },
+    {
+      "id": "unit-c3d11d67d2",
+      "name": "中英国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.sbc.usst.edu.cn/",
+      "sourceUrl": "https://www.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:48:17.941Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.usst.edu.cn/rcpy/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:48:17.949Z",
+      "lastCheckedAt": "2026-07-13T13:48:17.949Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.usst.edu.cn/",
+    "sourceUrls": [
+      "https://www.usst.edu.cn/rcpy/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:48:17.949Z",
+    "lastCheckedAt": "2026-07-13T13:48:17.949Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 23,
+    "newUnitCount": 23,
+    "verifiedCount": 23,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

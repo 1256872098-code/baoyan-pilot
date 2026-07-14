@@ -1,0 +1,127 @@
+{
+  "schoolId": "school-p4rh9h",
+  "name": "首都医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:22:27.194Z",
+  "academicUnits": [
+    {
+      "id": "unit-e306b880c4",
+      "name": "临床工程学学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://bes.ccmu.edu.cn/xxsz_48/lcgcxxx_11233/index.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    },
+    {
+      "id": "unit-8305bc5c4b",
+      "name": "生物力学与康复工程学学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://bes.ccmu.edu.cn/xxsz_48/swlxykfgcxxx_11230/index.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    },
+    {
+      "id": "unit-6f8aa2a49b",
+      "name": "生物医学仪器学学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://bes.ccmu.edu.cn/xxsz_48/swyxyqxxx_11231/index.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介院系设置现任领导",
+        "学院简介院系设置现任领导"
+      ],
+      "officialWebsite": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.185Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    },
+    {
+      "id": "unit-8b4d5e73c6",
+      "name": "智能医学工程学学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://bes.ccmu.edu.cn/xxsz_48/swyxxxxxx_11232/index.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    },
+    {
+      "id": "unit-797f32b48f",
+      "name": "重点实验室",
+      "unitType": "研究中心",
+      "aliases": [
+        "实验室简介",
+        "重点实验室",
+        "重点实验室实验室简介规章制度合作交流实验平台学术委员会研究团队研究方向"
+      ],
+      "officialWebsite": "https://bes.ccmu.edu.cn/zdsys_63/sysjj/index.htm",
+      "sourceUrl": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:22:27.186Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:22:27.194Z",
+      "lastCheckedAt": "2026-07-13T08:22:27.194Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ccmu.edu.cn/",
+    "sourceUrls": [
+      "https://bes.ccmu.edu.cn/xygk_8179/xyjj_8180/index.blk.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:22:27.194Z",
+    "lastCheckedAt": "2026-07-13T08:22:27.194Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 7,
+    "newUnitCount": 7,
+    "verifiedCount": 7,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

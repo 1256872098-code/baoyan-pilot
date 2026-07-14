@@ -1,0 +1,73 @@
+{
+  "schoolId": "school-bmckeb",
+  "name": "辽宁科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:22:27.408Z",
+  "academicUnits": [
+    {
+      "id": "unit-a9a204d1ea",
+      "name": "年6月工商管理学院成功举办研究生学…",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ustl.edu.cn/yjs/info/1146/3553.htm",
+      "sourceUrl": "http://www.ustl.edu.cn/yjs/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:22:27.394Z"
+    },
+    {
+      "id": "unit-551abee13f",
+      "name": "年辽宁科技大学工商管理学院研究生学…",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ustl.edu.cn/yjs/info/1146/3547.htm",
+      "sourceUrl": "http://www.ustl.edu.cn/yjs/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:22:27.394Z"
+    },
+    {
+      "id": "unit-f0a60befda",
+      "name": "学术报告丨2026年6月工商管理学院成功举办研究生学…",
+      "unitType": "学院",
+      "aliases": [
+        "学术报告丨2026年辽宁科技大学工商管理学院研究生学…",
+        "学术报告丨2026年6月工商管理学院成功举办研究生学…"
+      ],
+      "officialWebsite": "http://www.ustl.edu.cn/yjs/pygz/xsbg.htm",
+      "sourceUrl": "http://www.ustl.edu.cn/yjs/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:22:27.394Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.ustl.edu.cn/yjs/",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:22:27.408Z",
+      "lastCheckedAt": "2026-07-13T13:22:27.408Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ustl.edu.cn/",
+    "sourceUrls": [
+      "http://www.ustl.edu.cn/yjs/"
+    ],
+    "lastCrawledAt": "2026-07-13T13:22:27.408Z",
+    "lastCheckedAt": "2026-07-13T13:22:27.408Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

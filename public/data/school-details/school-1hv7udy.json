@@ -1,0 +1,704 @@
+{
+  "schoolId": "school-1hv7udy",
+  "name": "常州大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:00:17.574Z",
+  "academicUnits": [
+    {
+      "id": "unit-48f25b081f",
+      "name": "安全科学与工程学院、应急管理科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sse.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "材料与电子学部材料科学与工程学院王诤微电子学院、集成电路产业学院(合署)",
+        "材料科学与工程学院"
+      ],
+      "officialWebsite": "http://clxy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-1490936643",
+      "name": "材料与电子学部研究院",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://merc.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-bf19c27d2c",
+      "name": "产教融合创新发展研究院、高等教育研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://ihe.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-0adde93a7a",
+      "name": "产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.cczu.edu.cn/cyxy/list.htm",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-47dbb59176",
+      "name": "常州现代服务业研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.553Z"
+    },
+    {
+      "id": "unit-4c2e9668e6",
+      "name": "城市建设学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://suc.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-1d6737cf9c",
+      "name": "城乡矿山研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://um.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [
+        "创新创业学院、江苏省技术转移(常州大学)研究院、宣怀产业创新学院(合署)",
+        "创新创业学院"
+      ],
+      "officialWebsite": "http://cxcy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-e0c31ab1b0",
+      "name": "公共安全与应急管理研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://ipsem.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-dc2f29c252",
+      "name": "功能杂环研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.553Z"
+    },
+    {
+      "id": "unit-f32f8a5155",
+      "name": "海外教育学院",
+      "unitType": "学院",
+      "aliases": [
+        "海外教育学院、乌法学院(合署)",
+        "海外教育学院"
+      ],
+      "officialWebsite": "http://soe.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-f386d931df",
+      "name": "合作交流境外合作教师出国境外智引进出国境留学留学常大泰国研究中心华文教育",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.cczu.edu.cn/tgyjzx/list.htm",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-fb0b938dff",
+      "name": "红色文化研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "常州大学红色文化研究院",
+        "红色文化研究院、中共党史党建研究院(合署)",
+        "红色文化研究院"
+      ],
+      "officialWebsite": "https://rcri.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-8775931176",
+      "name": "华罗庚学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hlgxy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-f8c2fa4d40",
+      "name": "怀德学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hdc.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-6c849956ad",
+      "name": "环境科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ahx.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-b0e699533a",
+      "name": "机械与轨道交通学院、智能制造产业学院(合署)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cmee.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-79d2f56904",
+      "name": "计算机与人工智能学院、阿里云大数据学院、软件学院(合署)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bigdata.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-b01db99aa4",
+      "name": "江苏财税政策研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://taxlaw.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-6bf126d4f1",
+      "name": "江苏省技术转移(常州大学)研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://jsitt.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-0126322949",
+      "name": "跨文化研究院、华文教育研究院(合署)",
+      "unitType": "研究院",
+      "aliases": [
+        "跨文化研究院、华文教育研究院(合署)、中国企业出海研究院",
+        "跨文化研究院、华文教育研究院(合署)"
+      ],
+      "officialWebsite": "https://iis.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-cbcf2995fa",
+      "name": "龙城实验室—常州大学工业母机工程研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://iimt.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [
+        "马克思主义学院、常州大学思政课教育教学发展中心(合署)",
+        "马克思主义学院"
+      ],
+      "officialWebsite": "http://marxism.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-e9b6dd8169",
+      "name": "美术与设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://art.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-899a40820c",
+      "name": "名人冠名学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.cczu.edu.cn/20588/list.htm",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-5e6aaa49cf",
+      "name": "瞿秋白政府管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zfxy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-e4ee53fd2e",
+      "name": "商学院、刘国钧管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "商学院、刘国钧管理学院(合署)",
+        "商学院、刘国钧管理学院"
+      ],
+      "officialWebsite": "http://jgy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-7289037098",
+      "name": "设计研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://uni.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-1714c3e99b",
+      "name": "生物医学工程与健康科学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://ibmehs.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-7d5d214e4a",
+      "name": "生物与医药学部研究院",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.553Z"
+    },
+    {
+      "id": "unit-047c83f3df",
+      "name": "生物质高效炼制及高质化利用国家地方联合工程研究中心、",
+      "unitType": "研究中心",
+      "aliases": [
+        "城乡矿山研究院党总支，生物质高效炼制及高质化利用国家地方联合工程研究中心、城乡矿山研究院(合署)",
+        "生物质高效炼制及高质化利用国家地方联合工程研究中心、"
+      ],
+      "officialWebsite": "http://biomass.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-30daa78315",
+      "name": "石油化工学院、能源科学与技术学院(合署)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://che.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-e5cb690ba3",
+      "name": "石油与天然气工程学院、能源学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cpe.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-4a6730fff6",
+      "name": "史良法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wf.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-5f9491ef52",
+      "name": "苏南现代化研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://sunan.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-c0a613ad8c",
+      "name": "泰国研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://www.cczu.edu.cn/tgyjzx/list.htm",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-810da66595",
+      "name": "体育学院、中体产业学院",
+      "unitType": "学院",
+      "aliases": [
+        "体育学院、中体产业学院(合署)",
+        "体育学院、中体产业学院"
+      ],
+      "officialWebsite": "http://pe.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sfs.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-dc018a35ca",
+      "name": "王诤微电子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jsjx.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-66d220cdda",
+      "name": "乌法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ufa.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-98030d41b2",
+      "name": "吴敬琏经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jjxy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-85cd73b4a2",
+      "name": "新能源与化工智能制造学部研究院",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.553Z"
+    },
+    {
+      "id": "unit-2f8e9a1ccf",
+      "name": "学院部门",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.cczu.edu.cn/bm/list.htm",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-82873eddba",
+      "name": "研究生院(卓越工程师学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gs.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-73bba6228a",
+      "name": "药学院、生物与食品工程学院(合署)",
+      "unitType": "学院",
+      "aliases": [
+        "生物与医药学部药学院、生物与食品工程学院(合署)医学与健康工程学院",
+        "药学院、生物与食品工程学院(合署)"
+      ],
+      "officialWebsite": "http://life.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-39b749ce0a",
+      "name": "医学与健康工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://med.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.550Z"
+    },
+    {
+      "id": "unit-ac21ce382f",
+      "name": "艺术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.553Z"
+    },
+    {
+      "id": "unit-c0c741eb99",
+      "name": "应用技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yyjs.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-b16e6320b1",
+      "name": "赵元任音乐与戏剧学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://smf.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-643ba41d6d",
+      "name": "中吴智库研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://ztt.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.552Z"
+    },
+    {
+      "id": "unit-689f0bab91",
+      "name": "中以机器人产业学院、中以科创学院",
+      "unitType": "学院",
+      "aliases": [
+        "中以机器人产业学院、中以科创学院(合署)",
+        "中以机器人产业学院、中以科创学院"
+      ],
+      "officialWebsite": "http://jqrcyxy.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    },
+    {
+      "id": "unit-72ce111955",
+      "name": "周有光文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zscl.cczu.edu.cn/",
+      "sourceUrl": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:00:17.551Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.cczu.edu.cn/bm/list.htm#goto2",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:00:17.574Z",
+      "lastCheckedAt": "2026-07-13T14:00:17.574Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cczu.edu.cn/",
+    "sourceUrls": [
+      "http://www.cczu.edu.cn/bm/list.htm#goto2"
+    ],
+    "lastCrawledAt": "2026-07-13T14:00:17.574Z",
+    "lastCheckedAt": "2026-07-13T14:00:17.574Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 53,
+    "newUnitCount": 53,
+    "verifiedCount": 53,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-1vryf8u",
+  "name": "天津大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:44:43.441Z",
+  "academicUnits": [
+    {
+      "id": "unit-633989d6a4",
+      "name": "国际交流合作办学国际认证孔子学院国际科研合作",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tju.edu.cn/gjjl.htm",
+      "sourceUrl": "https://www.tju.edu.cn/info/4442/76672.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:44:43.431Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tju.edu.cn/gjjl/kzxy.htm",
+      "sourceUrl": "https://www.tju.edu.cn/info/4442/76672.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:44:43.431Z"
+    },
+    {
+      "id": "unit-cd6abd17ee",
+      "name": "学院(部)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tju.edu.cn/xy_b_.htm",
+      "sourceUrl": "https://www.tju.edu.cn/info/4442/76672.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:44:43.431Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tju.edu.cn/info/4442/76672.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:44:43.441Z",
+      "lastCheckedAt": "2026-07-13T12:44:43.441Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tju.edu.cn/",
+    "sourceUrls": [
+      "https://www.tju.edu.cn/info/4442/76672.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:44:43.441Z",
+    "lastCheckedAt": "2026-07-13T12:44:43.441Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

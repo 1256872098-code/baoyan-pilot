@@ -1,0 +1,115 @@
+{
+  "schoolId": "school-fxku90",
+  "name": "中国海洋大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:36:22.054Z",
+  "academicUnits": [
+    {
+      "id": "unit-1eec23fbd5",
+      "name": "“惟愿你们策马扬鞭不负韶华”——中国海洋大学化学化工学院博导张婧与毕业生的故事",
+      "unitType": "学院",
+      "aliases": [
+        "第92期“惟愿你们策马扬鞭不负韶华”——中国海洋大学化学化工学院博导张婧与毕业生的故事",
+        "“惟愿你们策马扬鞭不负韶华”——中国海洋大学化学化工学院博导张婧与毕业生的故事"
+      ],
+      "officialWebsite": "https://news.ouc.edu.cn/_redirect?siteId=3&columnId=83&articleId=116843",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    },
+    {
+      "id": "unit-b833977218",
+      "name": "海纳百川连天碧春含二月育桃红——记中国科学院院士、中国海洋大学教授冯士筰",
+      "unitType": "学院",
+      "aliases": [
+        "第95期海纳百川连天碧春含二月育桃红——记中国科学院院士、中国海洋大学教授冯士筰",
+        "海纳百川连天碧春含二月育桃红——记中国科学院院士、中国海洋大学教授冯士筰"
+      ],
+      "officialWebsite": "https://news.ouc.edu.cn/_redirect?siteId=3&columnId=83&articleId=118332",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    },
+    {
+      "id": "unit-ab9b02af2a",
+      "name": "梅花香自苦寒来——环境科学与工程学院实体化运行20周年回眸",
+      "unitType": "学院",
+      "aliases": [
+        "第84期梅花香自苦寒来——环境科学与工程学院实体化运行20周年回眸",
+        "梅花香自苦寒来——环境科学与工程学院实体化运行20周年回眸"
+      ],
+      "officialWebsite": "https://news.ouc.edu.cn/_redirect?siteId=3&columnId=83&articleId=111113",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    },
+    {
+      "id": "unit-def679496c",
+      "name": "矢志不渝创新路匠心传承育英才——记山东省高等学校教学名师、中国海洋大学工程学院副院长刘贵杰教授",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://news.ouc.edu.cn/_redirect?siteId=3&columnId=83&articleId=114435",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    },
+    {
+      "id": "unit-f710b730c0",
+      "name": "亚海洋研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://soi.ouc.edu.cn/",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    },
+    {
+      "id": "unit-76b76899da",
+      "name": "严在当严处爱在细微中——记2022年度山东省教书育人楷模、中国海洋大学外国语学院院长杨连瑞教授",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://news.ouc.edu.cn/_redirect?siteId=3&columnId=83&articleId=110217",
+      "sourceUrl": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:36:22.033Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:36:22.054Z",
+      "lastCheckedAt": "2026-07-13T14:36:22.054Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://news.ouc.edu.cn/",
+    "sourceUrls": [
+      "https://news.ouc.edu.cn/2026/0709/c602a122314/page.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:36:22.054Z",
+    "lastCheckedAt": "2026-07-13T14:36:22.054Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 6,
+    "newUnitCount": 6,
+    "verifiedCount": 6,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

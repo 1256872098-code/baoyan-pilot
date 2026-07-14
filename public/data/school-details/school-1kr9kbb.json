@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1kr9kbb",
+  "name": "河南科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:46:38.703Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://10464.gaokao.haedu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:46:38.703Z",
+    "lastCheckedAt": "2026-07-13T14:46:38.703Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

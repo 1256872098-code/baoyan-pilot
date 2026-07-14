@@ -1,0 +1,22 @@
+{
+  "schoolId": "school-c0j79y",
+  "name": "北京第二外国语学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:03:24.923Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "manual-source-required",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:03:24.923Z",
+    "lastCheckedAt": "2026-07-13T13:03:24.923Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 31,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification."
+  }
+}

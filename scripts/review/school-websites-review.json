@@ -1,0 +1,6280 @@
+[
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T08:17:42.000Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:17:54.779Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:18:02.364Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "candidates": [
+      {
+        "url": "https://www.dxsbb.com/",
+        "title": "中央财经大学有哪些专业？_大学生必备网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/",
+        "title": "中央财经大学：应用经济学一级学科全国排名第一",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6/182071",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz15/yggdjywpxm/hzyx/gnhzyx/2025060313591218137/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn?pages_72%2F=",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/yggdjywpxm/hzyx/gnhzyx/2021121517155370224/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.sqaad.org.cn/list/4/5.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T08:26:18.304Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "candidates": [
+      {
+        "url": "https://www.mct.gov.cn/",
+        "title": "北京服装学院",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2/473517",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://bkzs.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京服裝學院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 1,
+    "createdAt": "2026-07-13T08:33:55.077Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "candidates": [
+      {
+        "url": "https://www.mct.gov.cn/",
+        "title": "北京服装学院",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2/473517",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://bkzs.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京服裝學院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:34:14.065Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "candidates": [
+      {
+        "url": "https://www.mct.gov.cn/",
+        "title": "北京服装学院",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2/473517",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://bkzs.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京服裝學院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:35:55.065Z"
+  },
+  {
+    "schoolId": "school-dhffx8",
+    "schoolName": "北京服装学院",
+    "candidates": [
+      {
+        "url": "https://www.mct.gov.cn/",
+        "title": "北京服装学院",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2/473517",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://bkzs.bift.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京服裝學院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E6%9C%8D%E8%A3%85%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bift.edu.cn/xxgk/xyzc/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:37:28.193Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:40:29.071Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "candidates": [
+      {
+        "url": "https://www.dxsbb.com/",
+        "title": "中央财经大学有哪些专业？_大学生必备网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/",
+        "title": "中央财经大学：应用经济学一级学科全国排名第一",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6/182071",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz15/yggdjywpxm/hzyx/gnhzyx/2025060313591218137/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn?pages_72%2F=",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/yggdjywpxm/hzyx/gnhzyx/2021121517155370224/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.sqaad.org.cn/list/4/5.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn/",
+        "title": "中央财经大学保险学院国际本科项目-",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      },
+      {
+        "url": "https://www.cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:41:21.738Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "candidates": [
+      {
+        "url": "https://www.dxsbb.com/",
+        "title": "中央财经大学有哪些专业？_大学生必备网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/",
+        "title": "中央财经大学：应用经济学一级学科全国排名第一",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6/182071",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz15/yggdjywpxm/hzyx/gnhzyx/2025060313591218137/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn?pages_72%2F=",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/yggdjywpxm/hzyx/gnhzyx/2021121517155370224/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.sqaad.org.cn/list/4/5.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn/",
+        "title": "中央财经大学保险学院国际本科项目-",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      },
+      {
+        "url": "https://www.cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:43:44.213Z"
+  },
+  {
+    "schoolId": "school-1nuijso",
+    "schoolName": "中央财经大学",
+    "candidates": [
+      {
+        "url": "https://www.dxsbb.com/",
+        "title": "中央财经大学有哪些专业？_大学生必备网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/",
+        "title": "中央财经大学：应用经济学一级学科全国排名第一",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6/182071",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz15/yggdjywpxm/hzyx/gnhzyx/2025060313591218137/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn?pages_72%2F=",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/yggdjywpxm/hzyx/gnhzyx/2021121517155370224/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.sqaad.org.cn/list/4/5.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://insp.cufe.edu.cn/",
+        "title": "中央财经大学保险学院国际本科项目-",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      },
+      {
+        "url": "https://www.cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://cufe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:45:56.988Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:54:51.613Z"
+  },
+  {
+    "schoolId": "school-1aq9mfi",
+    "schoolName": "北京林业大学",
+    "candidates": [
+      {
+        "url": "https://www.pishu.com.cn/",
+        "title": "北京林业大学_皮书数据库",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6/233294",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gx211.cn/collegemanage/content129_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128343.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京林業大學",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 1,
+    "createdAt": "2026-07-13T08:57:16.282Z"
+  },
+  {
+    "schoolId": "school-1mzieaw",
+    "schoolName": "首都师范大学",
+    "candidates": [
+      {
+        "url": "http://www.bh.ualliance.bici.org/",
+        "title": "京港大学联盟",
+        "confidence": 0.25,
+        "evidence": [
+          "search title indicates official site",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "首都師範大學",
+        "confidence": 0.1,
+        "evidence": [
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%A6%96%E9%83%BD%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/244249",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128400.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cn.linkedin.com/school/%E9%A6%96%E9%83%BD%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 451"
+        ]
+      },
+      {
+        "url": "https://talent.sciencenet.cn/index.php?s=Info%2Findex%2Fid%2F23621",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://portal.cscse.edu.cn/lxfwzx/gjjl/gjxm/sqa-ad/gnhzyx/2025061016223020706/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.lianpp.com/cnu/tzgg/xygg/41102.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      },
+      {
+        "url": "https://portal.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 1,
+    "createdAt": "2026-07-13T08:57:31.107Z"
+  },
+  {
+    "schoolId": "school-1nve896",
+    "schoolName": "北京协和医学院",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E5%8D%8F%E5%92%8C%E5%8C%BB%E5%AD%A6%E9%99%A2/8542060",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://japanese.beijing.gov.cn/",
+        "title": "北京協和医学院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.cams.ac.cn/jyjx/lcyx/zysz/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.pumch.cn/",
+        "title": "北京协和医院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.cams.ac.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.pumch.cn/learning.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.yichengcareer.com/index.php?m=School&a=show&id=2594",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.medgrad.cn/site/content/52.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E5%8D%8F%E5%92%8C%E5%8C%BB%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T08:57:53.164Z"
+  },
+  {
+    "schoolId": "school-1lv9fsq",
+    "schoolName": "北京邮电大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6/139535",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/xnzydh/zxs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg1.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/byyw.jsp?totalpage=426&PAGENUM=418&urltype=tree.TreeTempUrl&wbtreeid=1079",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/bygk/zjby/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/yxjg/jxjfdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://chocolatl.github.io/bupt/subpages/bygk/zjby/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bupt.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T09:18:49.014Z"
+  },
+  {
+    "schoolId": "school-1aq9mfi",
+    "schoolName": "北京林业大学",
+    "candidates": [
+      {
+        "url": "https://www.pishu.com.cn/",
+        "title": "北京林业大学_皮书数据库",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6/233294",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gx211.cn/collegemanage/content129_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128343.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E6%9E%97%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "北京林業大學",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 0,
+    "createdAt": "2026-07-13T09:19:21.964Z"
+  },
+  {
+    "schoolId": "school-huxuoh",
+    "schoolName": "国际关系学院",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%9B%BD%E9%99%85%E5%85%B3%E7%B3%BB%E5%AD%A6%E9%99%A2/1153802",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://sis.ruc.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://bkzs.uir.cn/zyjs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.uir.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sis.pku.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.uir.cn/info/2751/21951.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%85%B3%E7%B3%BB%E5%AD%A6%E9%99%A2_(%E5%8C%97%E4%BA%AC)",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://iss.uibe.edu.cn/AdminUI/UploadFiles/files/1_linjingtan/202010200915218799.pdf",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.jyb.cn/rmtzcg/xwy/wzxw/201909/t20190917_261037.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://sis.ruc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ruc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.ruc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://ruc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://ruc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sis.pku.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.pku.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.pku.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://pku.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://pku.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://iss.uibe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.uibe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.uibe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://uibe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://uibe.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:38:40.110Z"
+  },
+  {
+    "schoolId": "school-ts05kw",
+    "schoolName": "北京电影学院",
+    "candidates": [
+      {
+        "url": "https://www.bfa.edu.cn/xxgk/jgsz.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2/224276",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/xxgk/lsyg.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/info/1085/6866.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E7%94%B5%E5%BD%B1%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/bjdyxygw2025/jgsz/jxdw.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/jijiao",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/index/xxxw/5.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.bfa.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:40:50.772Z"
+  },
+  {
+    "schoolId": "school-1r2i1i2",
+    "schoolName": "中国政法大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6/139100",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E6%94%BF%E6%B3%95%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://yx.cupl.edu.cn/fadagailan",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://yx.cupl.edu.cn/fadagailan/yuanxijieshao",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "中國政法大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.fapingedu.com/sys-nd/13887.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://yx.cupl.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.cupl.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "http://www.cupl.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://cupl.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://cupl.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:42:07.105Z"
+  },
+  {
+    "schoolId": "school-uwgmsr",
+    "schoolName": "中国科学院大学",
+    "candidates": [
+      {
+        "url": "https://www.ucas.ac.cn/",
+        "title": "中国科学院大学",
+        "confidence": 0.8,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/8978889",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.kemingbaike.com/baike/2025122935181.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cre.ucas.ac.cn/upload/images/20151230/8973862.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cas.cn/zz",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:43:41.228Z"
+  },
+  {
+    "schoolId": "school-yzagcn",
+    "schoolName": "天津理工大学",
+    "candidates": [
+      {
+        "url": "https://m.chinaschool.com.cn/i_region/i_2_tianjin/a_6/a_6.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/gatzs/pz/yx/201601/20160126/1519239165.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/447882",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%B4%A5%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://wap.gx211.cn/collegemanage/content2847_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129462.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://yichengcareer.com/index.php?m=School&a=show&id=320",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.jdkanghua.com/forum.php?mod=viewthread&tid=4738",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:46:23.046Z"
+  },
+  {
+    "schoolId": "school-w2ywqk",
+    "schoolName": "天津职业技术师范大学",
+    "candidates": [
+      {
+        "url": "https://tute.bysjy.com.cn/",
+        "title": "天津职业技术师范大学",
+        "confidence": 0.9,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.icourse163.org/",
+        "title": "天津职业技术师范大学_中国大学MOOC(慕课)",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://people.stitye.com/",
+        "title": "天津职业技术师范大学",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/5721931",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://lianpp.com/tute",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 503"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content824_08.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/8761.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E6%B4%A5%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/663753277",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:47:51.939Z"
+  },
+  {
+    "schoolId": "school-16q8rm2",
+    "schoolName": "河北地质大学",
+    "candidates": [
+      {
+        "url": "https://www.icourse163.org/",
+        "title": "河北地质大学_中国大学MOOC(慕课)",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.crs.jsj.edu.cn/",
+        "title": "中华人民共和国教育部中外合作办学监管工作信息平台",
+        "confidence": 0.45,
+        "evidence": [
+          "body contains school name",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://pdf.6617.com/",
+        "title": "河北地质大学编",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.crs.jsj.edu.cn/",
+        "title": "中华人民共和国教育部中外合作办学监管工作信息平台",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8C%97%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6/18638290",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/8853.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content265_11.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.yichengcareer.com/index.php?m=School&a=show&id=525",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B2%B3%E5%8C%97%E5%9C%B0%E8%B4%A8%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://degree.qingshuxuetang.com/hbdz",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://www.jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:51:29.325Z"
+  },
+  {
+    "schoolId": "school-jlm0dy",
+    "schoolName": "华北理工大学",
+    "candidates": [
+      {
+        "url": "https://www.muc.edu.cn/",
+        "title": "中央民族大学",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.muc.edu.cn/",
+        "title": "中央民族大学",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://career.muc.edu.cn/",
+        "title": "中央民族大学学生就业服务信息网",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E5%8C%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/8307429",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gx211.cn/collegemanage/content97_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/wangdian/dian/5449045.shtm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ncst.edu.cn/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128434.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%8E%E5%8C%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31068",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E5%8C%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%94%9F%E5%AD%A6%E9%99%A2/17929046",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.hbiur114.com/index.php?m=content&c=index&a=show&catid=40&id=783",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ncst.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://muc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://muc.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:52:37.418Z"
+  },
+  {
+    "schoolId": "school-tk3xhj",
+    "schoolName": "河北北方学院",
+    "candidates": [
+      {
+        "url": "http://heb.hebccw.cn/",
+        "title": "河北频道-河北新闻_河北官方报道_河北省最新消息_长城网",
+        "confidence": 0.05,
+        "evidence": [
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8C%97%E7%9C%81/153775",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ehanlin.com.tw/",
+        "title": "河北省-翰林雲端學院",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%8C%97%E7%9C%81",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh-classical.wikipedia.org/wiki/%E6%B2%B3%E5%8C%97%E7%9C%81",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B2%B3%E5%8C%97%E7%9C%81",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:54:31.884Z"
+  },
+  {
+    "schoolId": "school-1lg54a9",
+    "schoolName": "河北中医药大学",
+    "candidates": [
+      {
+        "url": "https://www.scedu.tech/",
+        "title": "河北中医药大学_EDU智慧校园四川易迪优信息技术有限公司_高校智慧校园建设专家,智慧校园建设专业团队，高校迎新系统提供商，高校迎新系统开发，高校信息化建设，校园人像比对系统，高校迎新人像核验系统，高校新生入学人脸比对系统",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "http://bridge.chinese.cn/",
+        "title": "河北中医药大学-河北中医药大学-汉语桥团组在线体验平台",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://zyxy.hbu.cn/",
+        "title": "河北大学中医学院官网",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.cntcm.com.cn/content/202405/20/c249709.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8C%97%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6/63018085",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/93015.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%8C%97%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.gaozz.net/",
+        "title": "河北中医学院-专注高校与高端人才招聘",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.shanghairanking.cn/institution/hebei-university-of-chinese-medicine",
+        "title": "【软科排名】河北中医药大学|2024中国大学专业排名|河北中医药大学优势专业",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:57:16.316Z"
+  },
+  {
+    "schoolId": "school-ne7gpm",
+    "schoolName": "太原科技大学",
+    "candidates": [
+      {
+        "url": "https://www.tyust.edu.cn/zzjg/xysz.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.tyust.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://yk.tyust.edu.cn/index.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://cs.tyust.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://hj.tyust.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://jt.tyust.edu.cn/xygk/xyjs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.tyust.edu.cn/index/xybmdt/4.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6/159534",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://yk.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://www.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://cs.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://hj.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://jt.tyust.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T12:58:05.662Z"
+  },
+  {
+    "schoolId": "school-ghii1c",
+    "schoolName": "山西医科大学",
+    "candidates": [
+      {
+        "url": "https://www.shutu.tv/",
+        "title": "山西医科大学-首页",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.icourse163.org/",
+        "title": "山西医科大学_中国大学MOOC(慕课)",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://app.gaokaozhitongche.com/",
+        "title": "山西医科大学2022-2023学年本科教学质量报告-高考直通车",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.edu.cn/",
+        "title": "中国教育和科研计算机网CERNET",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%B1%B1%E8%A5%BF%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6/404728",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128312.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E8%A5%BF%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://yz.chsi.com.cn/wap/sch/detail?schId=367992&categoryId=470714&infoId=1315834192",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.edu.cn/shanxi_77/20060323/t20060323_143053.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%B1%B1%E8%A5%BF%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:15:42.816Z"
+  },
+  {
+    "schoolId": "school-de6q7q",
+    "schoolName": "内蒙古农业大学",
+    "candidates": [
+      {
+        "url": "https://apps.eol.cn/",
+        "title": "内蒙古农业大学职业技术学院高招网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "http://hainan.zg114zs.com/",
+        "title": "Ժϵ����-���ɹ�ũҵ��ѧ",
+        "confidence": 0.1,
+        "evidence": [
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://m.chinaschool.com.cn/i_region/i_5_neimenggu/a_4/a_4.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%86%85%E8%92%99%E5%8F%A4%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6/388893",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/9182.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.nmgqq.com.cn/shuzishizhi/nianjian/neimengguniajian/2016juan/25/2020/16845.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://m.nmgdzks.com/h-pd-88.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%86%85%E8%92%99%E5%8F%A4%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:18:04.347Z"
+  },
+  {
+    "schoolId": "school-17ycdgk",
+    "schoolName": "内蒙古医科大学",
+    "candidates": [
+      {
+        "url": "http://www.forcnmedical.com/",
+        "title": "内蒙古医科大学（原内蒙古医学院）毕业证样本-証书样本-永诚教育印刷服务中心",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://app.gaokaozhitongche.com/",
+        "title": "内蒙古医科大学就业、深造、简况：2022-2023学年本科教学质量报告-高考直通车",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://xsdvip.eyouxue.com/",
+        "title": "",
+        "confidence": 0.35,
+        "evidence": [
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%86%85%E8%92%99%E5%8F%A4%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6/1423848",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%86%85%E8%92%99%E5%8F%A4%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/9183.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%86%85%E8%92%99%E5%8F%A4%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.nmgyy.cn/jxb/yxjy",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 404"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:18:37.320Z"
+  },
+  {
+    "schoolId": "school-1118awu",
+    "schoolName": "沈阳工业大学",
+    "candidates": [
+      {
+        "url": "https://www.acabridge.cn/",
+        "title": "沈阳工业大学2023诚聘英才",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://apps.eol.cn/",
+        "title": "沈阳工业大学商贸学院高招网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.syu.edu.cn/",
+        "title": "沈阳大学",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://sut.cool/",
+        "title": "沈阳工业大学",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/161174",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content332_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.syu.edu.cn/yxsz.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sut.edu.cn/tzgg/8.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://wiki.mbalib.com/wiki/%E6%B2%88%E9%98%B3%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "沈阳工业大学-MBA智库百科",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/7696.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:20:16.461Z"
+  },
+  {
+    "schoolId": "school-fjot7m",
+    "schoolName": "大连工业大学",
+    "candidates": [
+      {
+        "url": "https://www.dlpu.edu.cn/",
+        "title": "������ҵ��ѧ",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.dlpu.edu.cn/",
+        "title": "������ҵ��ѧ",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.dlpu.edu.cn/",
+        "title": "������ҵ��ѧ",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E5%B8%82/127186",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ln.gov.cn/web/sqgk/csmp/2025101310551499142/index.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.airchina.com.cn/",
+        "title": "大连",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%A4%A7%E8%BF%9E%E5%B8%82",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.hkln.org/",
+        "title": "Dalian",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E8%89%BA%E6%9C%AF%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/4097680",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%BF%9E%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.caie.edu.cn/xxgk/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.caie.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:24:42.470Z"
+  },
+  {
+    "schoolId": "school-193a7mv",
+    "schoolName": "沈阳农业大学",
+    "candidates": [
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "沈阳农业大学地址|电话_沈阳农业大学招生信息_沈阳农业大学官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6/553812",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/syauold/xxgk/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/xxgk/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/xxgk/lxxx.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/index/xxyw/216.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/syauold/index/mtsn/2.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      },
+      {
+        "url": "https://www.syau.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:25:27.854Z"
+  },
+  {
+    "schoolId": "school-f6udgy",
+    "schoolName": "中国医科大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6/176855",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128446.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cmu.edu.cn/tztb/xshd/11.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "中國醫科大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/133",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cmu.edu.cn/zylhxyc/jxkj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cmu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:26:24.402Z"
+  },
+  {
+    "schoolId": "school-14zeq83",
+    "schoolName": "沈阳音乐学院",
+    "candidates": [
+      {
+        "url": "https://www.gx211.cn/collegemanage/content382_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.sycm.com.cn/display_son.aspx?Vid=-1&Nid=18737&DWid=39",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B2%88%E9%98%B3%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sycm.edu.cn/dis_Info_dw.aspx?DWid=1&Mid=11&Sid=14&Vid=-1",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%E5%8D%97%E6%A0%A1%E5%8C%BA/9137778",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2/861897",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/49952.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.sycm.com.cn/video/%E6%B2%88%E9%98%B3%E9%9F%B3%E4%B9%90%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%B8%AD%E7%AD%89%E9%9F%B3%E4%B9%90%E5%AD%A6%E6%A0%A12022%E5%B9%B4%E5%BA%A6%E8%B4%A8%E9%87%8F%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 406"
+        ]
+      },
+      {
+        "url": "https://www.sycm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:31:28.910Z"
+  },
+  {
+    "schoolId": "school-ote0x",
+    "schoolName": "大连大学",
+    "candidates": [
+      {
+        "url": "https://www.acabridge.cn/",
+        "title": "2022年大连大学下半年公开选聘部分学院院长公告",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content327_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E5%A4%A7%E5%AD%A6/167531",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz15/cglxpxxm75/hzyx/dfgx/2025060315571823785/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128583.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.chinaschool.com.cn/i_region/i_6_liaoning/a_36/a_36.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.neac.gov.cn/seac/mwjs/201504/1009157.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E5%A4%A7%E5%AD%A6%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2/8494916",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.sae-china.org/omember/info.php?id=579",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cn.linkedin.com/school/%E5%A4%A7%E8%BF%9E%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 451"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:32:20.835Z"
+  },
+  {
+    "schoolId": "school-qly1rd",
+    "schoolName": "吉林师范大学",
+    "candidates": [
+      {
+        "url": "https://www.acabridge.net/",
+        "title": "吉林师范大学|学术桥人才",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.jyzc.com/",
+        "title": "吉林师范大学-中国教育之窗",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "http://www.siping.gov.cn/",
+        "title": "四平市人民政府",
+        "confidence": 0.39999999999999997,
+        "evidence": [
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.edu.cn/",
+        "title": "中国教育和科研计算机网CERNET",
+        "confidence": 0.3,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%90%89%E6%9E%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%90%89%E6%9E%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/503255",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.bdxy.com.cn/xxgk1/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128948.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%89%E6%9E%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.edu.cn/jilin_105/20060323/t20060323_137430.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:36:41.619Z"
+  },
+  {
+    "schoolId": "school-mgfzkx",
+    "schoolName": "长春师范大学",
+    "candidates": [
+      {
+        "url": "https://www.ais.cn/",
+        "title": "长春师范大学算是几本院校？_艾思科蓝",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "长春师范大学地址|电话_长春师范大学招生信息_长春师范大学官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.earthol.com/",
+        "title": "长春师范大学地图-卫星地图",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.blcu.edu.cn/",
+        "title": "北京语言大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.blcu.edu.cn/",
+        "title": "北京语言大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%95%BF%E6%98%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/781199",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E9%95%BF%E6%98%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://asracu.blcu.edu.cn/lmjj1/lmcy/zfyx/zcsfdx.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E9%95%BF%E6%98%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cn.linkedin.com/school/%E9%95%BF%E6%98%A5%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 451"
+        ]
+      },
+      {
+        "url": "https://asracu.blcu.edu.cn/",
+        "title": "中俄文化艺术大学联盟",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      },
+      {
+        "url": "https://blcu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://blcu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:36:43.782Z"
+  },
+  {
+    "schoolId": "school-qvg466",
+    "schoolName": "佳木斯大学",
+    "candidates": [
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/佳木斯大学",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh/佳木斯大学",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%83%A8/59295052",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.chsi.com.cn/news/file.do?method=downFile&id=512922598&attach=true&hist=false",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://degree.qingshuxuetang.com/jmsdx",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%BD%B3%E6%9C%A8%E6%96%AF%E5%A4%A7%E5%AD%A6%E7%90%86%E5%AD%A6%E9%99%A2/10698826",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/114846.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:41:42.875Z"
+  },
+  {
+    "schoolId": "school-1ryskhr",
+    "schoolName": "哈尔滨师范大学",
+    "candidates": [
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "哈尔滨师范大学地址|电话_哈尔滨师范大学招生信息_哈尔滨师范大学官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "http://bridge.chinese.cn/",
+        "title": "哈尔滨师范大学",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content65_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/287003",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "哈爾濱師範大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.crs.jsj.edu.cn/aproval/detail/2437",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cn.linkedin.com/school/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 451"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%93%88%E5%B0%94%E6%BB%A8%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.crs.jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://www.jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://jsj.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:44:32.536Z"
+  },
+  {
+    "schoolId": "school-1fsmxm4",
+    "schoolName": "黑龙江中医药大学",
+    "candidates": [
+      {
+        "url": "https://www.hljucm.net/",
+        "title": "机构设置-黑龙江中医药大学",
+        "confidence": 0.9,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "黑龙江中医药大学地址|电话_黑龙江中医药大学招生信息_黑龙江中医药大学官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%BB%91%E9%BE%99%E6%B1%9F%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6/293542",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E9%BB%91%E9%BE%99%E6%B1%9F%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129070.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%BB%91%E9%BE%99%E6%B1%9F/1046993",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.hlj.gov.cn/",
+        "title": "走进黑龙江_黑龙江省人民政府",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.hlj.gov.cn/",
+        "title": "黑龙江省人民政府",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "http://www.hlj.xinhuanet.com",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ehanlin.com.tw/",
+        "title": "黑龍江省-翰林雲端學院",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:44:31.384Z"
+  },
+  {
+    "schoolId": "school-lc7cxf",
+    "schoolName": "复旦大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6/111790",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://studyinchina.hk/",
+        "title": "復旦大學–港生內地升學網StudyInChina",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.instagram.com/fudanuni_official",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://wuu.wikipedia.org/wiki/%E5%BE%A9%E6%97%A6%E5%A4%A7%E5%AD%B8",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/fudan1905",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.fdfz.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 401"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:46:00.591Z"
+  },
+  {
+    "schoolId": "school-2cw2mj",
+    "schoolName": "华东理工大学",
+    "candidates": [
+      {
+        "url": "https://www.ecnu.edu.cn/",
+        "title": "华东师范大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.jetro.go.jp/",
+        "title": "華東|中国-アジア-国・地域別に見る-ジェトロ",
+        "confidence": 0.05,
+        "evidence": [
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/495826",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128315.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/wangdian/dian/5448529.shtm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/gatzs/pz/yx/201501/20150123/1425631673.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8D%8E%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikivoyage.org/",
+        "title": "华东-来自维基导游的旅行指南",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.ecnu.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%B8%9C%E5%9C%B0%E5%8C%BA/7596582",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8D%8E%E4%B8%9C%E5%9C%B0%E5%8C%BA",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:47:02.271Z"
+  },
+  {
+    "schoolId": "school-yaso3q",
+    "schoolName": "上海应用技术大学",
+    "candidates": [
+      {
+        "url": "https://www.sh.chinanews.com.cn/",
+        "title": "�Ϻ����š��й�������",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E5%B8%82/127743",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://tjj.sh.gov.cn/",
+        "title": "上海概览",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Shanghai",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%8A%E6%B5%B7%E5%B8%82",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:50:18.046Z"
+  },
+  {
+    "schoolId": "school-1a9u4ne",
+    "schoolName": "上海体育大学",
+    "candidates": [
+      {
+        "url": "https://jwc.sus.edu.cn/",
+        "title": "上海体育大学院系及专业设置表（2026年4月更新）",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "上海体育大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://jwc.sus.edu.cn/",
+        "title": "上海体育大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "上海体育大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "上海体育大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.shu.edu.cn/",
+        "title": "上海大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "学校简介",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "教学单位",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.sus.edu.cn/",
+        "title": "教务处、教师教学发展中心",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6/698573",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.shu.edu.cn/yxsz.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E4%BD%93%E8%82%B2%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://sus.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://sus.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T13:53:33.702Z"
+  },
+  {
+    "schoolId": "school-y7xx6",
+    "schoolName": "扬州大学",
+    "candidates": [
+      {
+        "url": "http://bmxt.pkuzyw.com/",
+        "title": "扬州大学院校信息",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.yzu.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.yzu.edu.cn/xxgk/xxjj.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.yzu.edu.cn/xybm/jxjg.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129202.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%89%AC%E5%B7%9E%E5%A4%A7%E5%AD%A6/277159",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.yzu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:10:35.193Z"
+  },
+  {
+    "schoolId": "school-udm8rw",
+    "schoolName": "浙江大学",
+    "candidates": [
+      {
+        "url": "https://www.zju.edu.cn/",
+        "title": "浙江大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://zjuers.com/",
+        "title": "学部院系-2025年浙江大学本科新生指引",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.zju.edu.cn/",
+        "title": "学院（系）",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.zju.edu.cn/",
+        "title": "学院（系）",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6/127901",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E5%AD%A6%E9%99%A2/3967217",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.zju.edu.cn/xxgk/1684/list.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.zju.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:10:48.072Z"
+  },
+  {
+    "schoolId": "school-4bau24",
+    "schoolName": "中国美术学院",
+    "candidates": [
+      {
+        "url": "https://www.caa.edu.cn/",
+        "title": "中国美术学院",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "http://www.caa.edu.cn/",
+        "title": "中国美术学院",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "中國美術學院",
+        "confidence": 0.1,
+        "evidence": [
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2/267205",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.caa.edu.cn/jx/xkjs.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.caa.edu.cn/sy.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129447.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.caa.edu.cn/jx/jxgg.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.caa.edu.cn/xy/jxjg/zyjcjxb.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E7%BE%8E%E6%9C%AF%E5%AD%A6%E9%99%A2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.caa.edu.cn/xy/jxjg/wcsjzzyxtcxzx.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:15:21.893Z"
+  },
+  {
+    "schoolId": "school-19js9tt",
+    "schoolName": "西湖大学",
+    "candidates": [
+      {
+        "url": "https://science.westlake.edu.cn/",
+        "title": "西湖大学理学院",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.westlake.edu.cn/",
+        "title": "西湖大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.westlake.edu.cn/",
+        "title": "西湖大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://westlake.edu.cn/",
+        "title": "西湖大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.westlake.edu.cn/",
+        "title": "西湖大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://science.westlake.edu.cn/",
+        "title": "西湖大学理学院",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://sz.bendibao.com/",
+        "title": "西湖大学地址|电话_西湖大学招生信息_西湖大学官网-深圳本地宝",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://rle.wiki/",
+        "title": "西湖大学-WestlakeUniversity|RLE.wiki",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://zh-ugadmissions.westlake.edu.cn/",
+        "title": "专业设置",
+        "confidence": 0.15,
+        "evidence": [
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6/17929818",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129133.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%B9%96%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gaoxiaojob.com/zhaopin/gaoxiaojiaoshi/20211129/570915.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      },
+      {
+        "url": "https://zh-ugadmissions.westlake.edu.cn/",
+        "title": "西湖大学本科招生网",
+        "confidence": 0,
+        "evidence": [
+          "page title indicates non-main or third-party site"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:17:07.084Z"
+  },
+  {
+    "schoolId": "school-dbveae",
+    "schoolName": "安徽大学",
+    "candidates": [
+      {
+        "url": "https://spap.jst.go.jp/",
+        "title": "安徽大学|中国の主要大学|SciencePortalChina",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%BD%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zsb.ahu.edu.cn/13334/list.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.ahu.edu.cn/24279/list.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://sie.ahu.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "/goto?url=CAESXgHuR6pNw_p2-TXmRGHi_oHRE-BU2kSMGOZkWbPIAQ1B5I0oNV2IsMXTtYC4Ic-c_eMSkVrLFzNtL4gI1SW1rEcGZZa9b7TOtCGv_0eQENEmZSQPp3JNGUoQzpQZwkg%3D",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: Failed to parse URL from /goto?url=CAESXgHuR6pNw_p2-TXmRGHi_oHRE-BU2kSMGOZkWbPIAQ1B5I0oNV2IsMXTtYC4Ic-c_eMSkVrLFzNtL4gI1SW1rEcGZZa9b7TOtCGv_0eQENEmZSQPp3JNGUoQzpQZwkg%3D"
+        ]
+      },
+      {
+        "url": "/goto?url=CAESTgHuR6pNprj2ggu_KOOUyVGmwUDK3WOC9UAkzGsanSEYDDlGF6zfI2HbX-cRHU93C3m3PWvmCJTUJ0l2P8RqNt2VMekxT3Tj9ZpGvX-G1A%3D%3D",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "/goto?url=CAESgAEB7keqTbtNMlVBMfMLocg0Ut9mj7x9eelDtVh2L1VtpQfSXxu7bB_tgNeoI5oXxX6M9nlRGesjKHtIhYyGg5MCdGxGMvdo0xu_BB7VNlHnV2J1oBKrOGtH_7qYhn-uxutPXy87qE-PzNzCXHrjUXfbFjp3YC6CA7DQuM2ckJwRnw%3D%3D",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: Failed to parse URL from /goto?url=CAESgAEB7keqTbtNMlVBMfMLocg0Ut9mj7x9eelDtVh2L1VtpQfSXxu7bB_tgNeoI5oXxX6M9nlRGesjKHtIhYyGg5MCdGxGMvdo0xu_BB7VNlHnV2J1oBKrOGtH_7qYhn-uxutPXy87qE-PzNzCXHrjUXfbFjp3YC6CA7DQuM2ckJwRnw%3D%3D"
+        ]
+      },
+      {
+        "url": "/goto?url=CAESfQHuR6pNGfAthe7QljmPkc-NvC_VXw3moVpGJR-TdJqEIVuSH610HJA25OUXa4T7e_iuQebwCYs3K6GftB6qq9nkkgJjC3LcU_O3c1fS9LHB0Zl4laLiQpT8TyYnvP3OQ0Y-Q8WFrbkEykWRcZtYeTrBMQE1GFaar6JLSXFc",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "/goto?url=CAESXQHuR6pNA3dQ2fI6pG2Qrln_0Qe-4oKgCs8GIg7vUkYoKfK_drvA_9U56HAKCr0f-a4xSc1651f5lKTRO59-HuxSPG7F2JMYZvTqo-J8MruLMJM4PtmfBMCt_G9Rgw%3D%3D",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: Failed to parse URL from /goto?url=CAESXQHuR6pNA3dQ2fI6pG2Qrln_0Qe-4oKgCs8GIg7vUkYoKfK_drvA_9U56HAKCr0f-a4xSc1651f5lKTRO59-HuxSPG7F2JMYZvTqo-J8MruLMJM4PtmfBMCt_G9Rgw%3D%3D"
+        ]
+      },
+      {
+        "url": "https://zsb.ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://www.ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "http://www.ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      },
+      {
+        "url": "https://ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://sie.ahu.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 412"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:18:29.089Z"
+  },
+  {
+    "schoolId": "school-i6nbr9",
+    "schoolName": "安徽财经大学",
+    "candidates": [
+      {
+        "url": "https://www.gaocai.gaoxiaojob.com/",
+        "title": "安徽财经大学金融学院-财经类院校-高才科技",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "安徽财经大学地址|电话_安徽财经大学招生信息_安徽财经大学官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%AE%89%E5%BE%BD%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%E7%AE%A1%E7%90%86%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/4059740",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128682.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content455_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%AE%89%E5%BE%BD%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gaokao.cn/gk-mb/122/335",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%AE%89%E5%BE%BD%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6%E9%87%91%E8%9E%8D%E5%AD%A6%E9%99%A2/8184418",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.guojibk.com/schoollist/ancjxy/about",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:23:45.223Z"
+  },
+  {
+    "schoolId": "school-nixfcg",
+    "schoolName": "集美大学",
+    "candidates": [
+      {
+        "url": "https://m.guoji.114study.com/",
+        "title": "集美大学诚毅学院学校简介-远播国际教育",
+        "confidence": 0.9,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://oica.fgu.edu.tw/uploads/bulletin_file/file/5d8b29ace7185929a2001837/%E9%9B%86%E7%BE%8E%E5%A4%A7%E5%AD%B8%E4%BA%A4%E6%8F%9B%E7%94%9F%E5%A0%B1%E5%90%8D%E8%B3%87%E8%A8%8A_%E6%96%B0_.pdf",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: The operation was aborted due to timeout"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E9%9B%86%E7%BE%8E%E5%A4%A7%E5%AD%A6/221939",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gx211.cn/collegemanage/content646_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.chinaschool.com.cn/o_abc/13_fujian/home_13_fujian_a_32.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "集美大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.xuexi.cn/",
+        "title": "学习强国",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:26:35.305Z"
+  },
+  {
+    "schoolId": "school-k6o4og",
+    "schoolName": "福建中医药大学",
+    "candidates": [
+      {
+        "url": "https://www.fuzhou.gov.cn/",
+        "title": "福建中医药大学_高校简介_福州地区大学新校区科研成果校企合作对接平台",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%BB%BA%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6/5722565",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E7%A6%8F%E5%BB%BA%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/306",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.fjtcm.edu.cn/1294/list.htm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.fjtcm.edu.cn/1321/list59.psp",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/gatzs/pz/zsjz/201902/20190220/1766225113.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://yx.fjtcm.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://www.fjtcm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://yx.fjtcm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://www.fjtcm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://fjtcm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://fjtcm.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:27:47.346Z"
+  },
+  {
+    "schoolId": "school-srbnqm",
+    "schoolName": "景德镇陶瓷大学",
+    "candidates": [
+      {
+        "url": "https://www.dpm.org.cn/",
+        "title": "景德镇-故宫博物院",
+        "confidence": 0.15,
+        "evidence": [
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "http://www.cjdzpf.com/",
+        "title": "景德镇陶瓷集团有限责任公司",
+        "confidence": 0.05,
+        "evidence": [
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%99%AF%E5%BE%B7%E9%95%87%E5%B8%82/3435898",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.jdz.gov.cn/",
+        "title": "景德镇市人民政府",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.unesco.org/",
+        "title": "景德镇-CreativeCitiesNetwork",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VupfehJtGsM",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://www.jingdezhenzgtcbwg.cn/",
+        "title": "景德镇中国陶瓷博物馆",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:32:40.510Z"
+  },
+  {
+    "schoolId": "school-cn8cf3",
+    "schoolName": "江西师范大学",
+    "candidates": [
+      {
+        "url": "https://www.icourse163.org/",
+        "title": "江西师范大学科学技术学院_中国大学MOOC(慕课)",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "http://www.moe.gov.cn/",
+        "title": "江西师范大学文件",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B1%9F%E8%A5%BF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/288847",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gaokao.eol.cn/daxue/zixun/202306/t20230614_2439899.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129328.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "江西師範大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.gaokao.cn/school/174",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/8858.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://kaoyan.100xuexi.com/WebSpecF/EnrolDetail.aspx?id=232669",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:34:34.972Z"
+  },
+  {
+    "schoolId": "school-1e720qd",
+    "schoolName": "山东第一医科大学",
+    "candidates": [
+      {
+        "url": "https://www.sdsmu.edu.cn/",
+        "title": "山东第二医科大学",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://yzconsole.360eol.com/",
+        "title": "山东第一医科大学",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://m.qcc.com/",
+        "title": "山东第一医科大学（山东省医学科学院）-企查查",
+        "confidence": 0.44999999999999996,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://www.sdsmu.edu.cn/",
+        "title": "学校简介",
+        "confidence": 0.35,
+        "evidence": [
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6/20495271",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/342",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128665.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%B1%B1%E4%B8%9C%E7%AC%AC%E4%B8%80%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:40:20.441Z"
+  },
+  {
+    "schoolId": "school-au24tz",
+    "schoolName": "曲阜师范大学",
+    "candidates": [
+      {
+        "url": "http://www.qufushifandaxue.com/",
+        "title": "��У�ſ�-����ʦ����ѧ���˸߿���������վ��_����ʦ����ѧ���ڱ���",
+        "confidence": 0.15000000000000002,
+        "evidence": [
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128684.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6/694916",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://edu.shandong.gov.cn/module/download/downfile.jsp?classid=0&filename=3064abac1c48456b8eae576a71d9f2c7.pdf",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://wiki.mbalib.com/zh-tw/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://cn.linkedin.com/school/%E6%9B%B2%E9%98%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 451"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:41:40.748Z"
+  },
+  {
+    "schoolId": "school-1sin8qf",
+    "schoolName": "华北水利水电大学",
+    "candidates": [
+      {
+        "url": "https://www.jetro.go.jp/",
+        "title": "華北|中国-アジア-国・地域別に見る-ジェトロ",
+        "confidence": 0.05,
+        "evidence": [
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E5%8C%97%E5%9C%B0%E5%8C%BA/7596383",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.newsduan.com/",
+        "title": "“华北”一词是从英语中衍生出来的？",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikivoyage.org/",
+        "title": "华北-来自维基导游的旅行指南",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8D%8E%E5%8C%97%E5%9C%B0%E5%8C%BA",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.cctv.com/",
+        "title": "ChinaCentralTelevision",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://wuu.wikipedia.org/wiki/%E8%8F%AF%E5%8C%97",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:43:48.172Z"
+  },
+  {
+    "schoolId": "school-1un1456",
+    "schoolName": "河南大学",
+    "candidates": [
+      {
+        "url": "https://henu.goworkla.cn/",
+        "title": "河南大学学校介绍-河南大学就业创业信息网",
+        "confidence": 0.75,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://sie.hactcm.edu.cn/",
+        "title": "国际教育学院官网",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://sie.hactcm.edu.cn/",
+        "title": "河南省情-国际教育学院官网",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.hactcm.edu.cn/",
+        "title": "河南中医药大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.hactcm.edu.cn/",
+        "title": "河南中医药大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://hactcm.edu.cn/",
+        "title": "河南中医药大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://hactcm.edu.cn/",
+        "title": "河南中医药大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8D%97%E7%9C%81/59474",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.ha.chinanews.com.cn/",
+        "title": "�й�������-��������",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.settour.com.tw/act/gfg/china/henan",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%B2%B3%E5%8D%97%E7%9C%81",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.hnskl.org/zhuanti/zyzklm/zhikujigou/20191202/7468.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://pdf.6617.com/",
+        "title": "目录",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B2%B3%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%95%99%E8%82%B2%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2/6725472",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%B2%B3%E5%8D%97%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:48:24.813Z"
+  },
+  {
+    "schoolId": "school-1vzfey1",
+    "schoolName": "武汉大学",
+    "candidates": [
+      {
+        "url": "http://www.geodata.cn/",
+        "title": "国家地球系统科学数据中心",
+        "confidence": 0.1,
+        "evidence": [
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "http://wiki.mbalib.com/wiki/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6/106709",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128267.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/394382448",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh-classical.wikipedia.org/wiki/%E6%AD%A6%E6%BC%A2%E5%B8%82",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://iacmr.org/",
+        "title": "IACMR|关于武汉",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E5%B8%82/195165",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.airchina.com.cn/",
+        "title": "武汉",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.wuhan.gov.cn/",
+        "title": "武汉市人民政府门户网站",
+        "confidence": 0,
+        "evidence": []
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:49:37.686Z"
+  },
+  {
+    "schoolId": "school-h2q1kw",
+    "schoolName": "武汉理工大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/160839",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.whut.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "http://xxgk.whut.edu.cn/jbxx/xxgk/jgsz/202410/t20241015_595591.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "http://ssci.whut.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/yggdjywpxm/hzyx/gnhzyx/2021121517015552058/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://dzb.whut.edu.cn/cycx/bgdh/jxky",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E6%AD%A6%E6%B1%89%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.whut.edu.cn/xuexiaogaikuang",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://www.whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "http://xxgk.whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "http://www.whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: fetch failed"
+        ]
+      },
+      {
+        "url": "http://ssci.whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://dzb.whut.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:53:33.114Z"
+  },
+  {
+    "schoolId": "school-1ntuifj",
+    "schoolName": "华中农业大学",
+    "candidates": [
+      {
+        "url": "https://www.ccnu.edu.cn/",
+        "title": "华中师范大学",
+        "confidence": 0.45,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www.hust.edu.cn/",
+        "title": "华中科技大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.ccnu.edu.cn/",
+        "title": "华中师范大学",
+        "confidence": 0.35,
+        "evidence": [
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%B8%AD%E5%9C%B0%E5%8C%BA/7596457",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.hust.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%B8%AD/15856274",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.hci.edu.sg/",
+        "title": "华中历史",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E4%B8%AD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6/210461",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128488.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8D%8E%E4%B8%AD%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://upload.wikimedia.org/",
+        "title": "華中農業大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.acabridge.net/org/2067",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:54:25.573Z"
+  },
+  {
+    "schoolId": "school-1cil2h3",
+    "schoolName": "湘潭大学",
+    "candidates": [
+      {
+        "url": "https://edu.sina.cn/",
+        "title": "湘潭大学_手机新浪网",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://wiki.mbalib.com/zh-tw/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://oga.cityu.edu.mo/chn/uploads/userfiles/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6%E5%AD%A6%E9%99%A2%E5%8F%8A%E4%B8%93%E4%B8%9A%E8%AE%BE%E7%BD%AE%E7%AE%80%E4%BB%8B.pdf",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6/245799",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gatzs.com.cn/",
+        "title": "湘潭大學",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E6%B9%98%E6%BD%AD%E5%A4%A7%E5%AD%A6%E5%85%B4%E6%B9%98%E5%AD%A6%E9%99%A2/890197",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.acabridge.net/org/2865",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-13T14:58:53.567Z"
+  },
+  {
+    "schoolId": "school-t3a874",
+    "schoolName": "中南林业科技大学",
+    "candidates": [
+      {
+        "url": "https://m.bendibao.com/",
+        "title": "中南林业科技大学涉外学院地址|电话_中南林业科技大学涉外学院招生信息_中南林业科技大学涉外学院官网-深圳本地宝",
+        "confidence": 0.7,
+        "evidence": [
+          "title contains school name",
+          "body contains school name",
+          "search title indicates official site"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%8D%97%E6%9E%97%E4%B8%9A%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6/163092",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%8D%97%E6%9E%97%E4%B8%9A%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/129094.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content570_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.hnens.cn/product/37.cshtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gbpxw.com/e-about/800211.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%97%E6%9E%97%E4%B8%9A%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gz.55zs.com/school/detail/3934/z2",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-14T01:18:23.706Z"
+  },
+  {
+    "schoolId": "school-12pzut2",
+    "schoolName": "华南理工大学",
+    "candidates": [
+      {
+        "url": "https://www2.scut.edu.cn/",
+        "title": "大学城校区院系",
+        "confidence": 0.6000000000000001,
+        "evidence": [
+          "body contains school name",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://www2.scut.edu.cn/",
+        "title": "华南理工大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.scut.edu.cn/",
+        "title": "华南理工大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "http://www.scut.edu.cn/",
+        "title": "华南理工大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.scut.edu.cn/",
+        "title": "华南理工大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.scut.edu.cn/",
+        "title": "华南理工大学",
+        "confidence": 0.6,
+        "evidence": [
+          "title contains school name",
+          "search title indicates official site",
+          "domain ends with edu.cn"
+        ]
+      },
+      {
+        "url": "https://www.scut.edu.cn/",
+        "title": "学校章程",
+        "confidence": 0.55,
+        "evidence": [
+          "body contains school name",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www2.scut.edu.cn/",
+        "title": "学院简介",
+        "confidence": 0.45,
+        "evidence": [
+          "body contains school name",
+          "domain ends with edu.cn",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6/134597",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh.wikipedia.org/zh-hans/%E5%8D%8E%E5%8D%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www2.scut.edu.cn/cs",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.scut.edu.cn",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/cscse/gjhz/gjxm/cglxfwxm/hzyx/jybzsgx/2025051315453181515/index.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.cscse.edu.cn/",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "官网候选需要人工核验。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-14T01:22:37.835Z"
+  },
+  {
+    "schoolId": "school-1ezbwmf",
+    "schoolName": "广东药科大学",
+    "candidates": [
+      {
+        "url": "https://baike.baidu.com/item/%E5%B9%BF%E4%B8%9C%E8%8D%AF%E7%A7%91%E5%A4%A7%E5%AD%A6/2432745",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gx211.cn/collegemanage/content437_18.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/wangdian/dian/5447280.shtm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.gz.gov.cn/zlgz/gzly/wzgz/jyyx/content/post_9604812.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gdphu.com/xygk/xxjj.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gdphu.com/xygk/xxzc.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://gdphu.com/xygk/xxxq.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-14T01:25:08.872Z"
+  },
+  {
+    "schoolId": "school-1ptugvg",
+    "schoolName": "佛山大学",
+    "candidates": [
+      {
+        "url": "https://www.neu.edu.cn/",
+        "title": "东北大学",
+        "confidence": 0.4,
+        "evidence": [
+          "search title indicates official site",
+          "domain ends with edu.cn",
+          "homepage contains university navigation links"
+        ]
+      },
+      {
+        "url": "https://www.neu.edu.cn/",
+        "title": "组织机构-东北大学",
+        "confidence": 0.35,
+        "evidence": [
+          "domain ends with edu.cn",
+          "homepage contains university navigation links",
+          "copyright text exists"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%BD%9B%E5%B1%B1%E5%A4%A7%E5%AD%A6/7129119",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://m.bendibao.com/wangdian/dian/5447246.shtm",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://news.eol.cn/dongtai/202308/t20230808_2456084.shtml",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.dxsbb.com/news/128778.html",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://baike.baidu.com/item/%E4%BD%9B%E5%B1%B1%E5%B8%82/436251",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://www.foshannews.net",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "https://zh-classical.wikipedia.org/wiki/%E4%BD%9B%E5%B1%B1%E5%B8%82",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "third-party candidate rejected"
+        ]
+      },
+      {
+        "url": "http://www.foshan.gov.cn/",
+        "title": "佛山市人民政府门户网站",
+        "confidence": 0,
+        "evidence": []
+      },
+      {
+        "url": "https://www.kkday.com/zh-my/blog/18622/foshan-travel-guide",
+        "title": "",
+        "confidence": 0,
+        "evidence": [
+          "candidate inaccessible: HTTP 403"
+        ]
+      }
+    ],
+    "reason": "未找到通过核验的学校官网。",
+    "searchRequestCount": 2,
+    "createdAt": "2026-07-14T01:31:04.707Z"
+  }
+]

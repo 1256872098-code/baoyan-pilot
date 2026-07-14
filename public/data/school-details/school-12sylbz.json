@@ -1,0 +1,109 @@
+{
+  "schoolId": "school-12sylbz",
+  "name": "东北农业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:43:05.837Z",
+  "academicUnits": [
+    {
+      "id": "unit-01434de0dd",
+      "name": "本科招生招生简章招生宣传手册食品学院教学科研平台简介食品学院本科专业宣传短片",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.neau.edu.cn/bkzs.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    },
+    {
+      "id": "unit-2b80293171",
+      "name": "食品学院本科专业宣传短片",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.neau.edu.cn/bkzs/spxybkzyxcdp.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    },
+    {
+      "id": "unit-406b6d4ae6",
+      "name": "食品学院教学科研平台简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.neau.edu.cn/bkzs/spxyjxkyptjj.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况"
+      ],
+      "officialWebsite": "https://spxy.neau.edu.cn/xygk1/xyjj.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.neau.edu.cn/xygk1/xyld.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    },
+    {
+      "id": "unit-41a24c56b3",
+      "name": "学院要闻",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spxy.neau.edu.cn/index/xyyw.htm",
+      "sourceUrl": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:05.821Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:43:05.837Z",
+      "lastCheckedAt": "2026-07-13T13:43:05.837Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://spxy.neau.edu.cn/",
+    "sourceUrls": [
+      "https://spxy.neau.edu.cn/rcpy/bkspy/zyjj/spkxygcl.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:43:05.837Z",
+    "lastCheckedAt": "2026-07-13T13:43:05.837Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 6,
+    "newUnitCount": 6,
+    "verifiedCount": 6,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

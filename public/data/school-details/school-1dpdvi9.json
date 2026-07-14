@@ -1,0 +1,61 @@
+{
+  "schoolId": "school-1dpdvi9",
+  "name": "南华大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:21:28.590Z",
+  "academicUnits": [
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院概况学院介绍机构设置现任领导",
+        "学院概况"
+      ],
+      "officialWebsite": "https://jjxy.usc.edu.cn/xygk.htm",
+      "sourceUrl": "https://jjxy.usc.edu.cn/info/1054/1163.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:21:28.578Z"
+    },
+    {
+      "id": "unit-337818328c",
+      "name": "学院介绍",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jjxy.usc.edu.cn/xygk/xyjs.htm",
+      "sourceUrl": "https://jjxy.usc.edu.cn/info/1054/1163.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:21:28.578Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://jjxy.usc.edu.cn/info/1054/1163.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:21:28.590Z",
+      "lastCheckedAt": "2026-07-14T01:21:28.590Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.usc.edu.cn/",
+    "sourceUrls": [
+      "https://jjxy.usc.edu.cn/info/1054/1163.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:21:28.590Z",
+    "lastCheckedAt": "2026-07-14T01:21:28.590Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

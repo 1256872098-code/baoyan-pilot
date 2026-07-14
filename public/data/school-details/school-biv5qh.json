@@ -1,0 +1,218 @@
+{
+  "schoolId": "school-biv5qh",
+  "name": "延边大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:33:34.783Z",
+  "academicUnits": [
+    {
+      "id": "unit-db091daf8b",
+      "name": "基础医学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-a71cc7bb29",
+      "name": "吉林省妇科肿瘤生物信息学重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/jgsz/kyjg/jlsfkzlswxxxzdsys.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-28f3820f61",
+      "name": "吉林省科技厅过敏性常见疾病免疫与靶向研究重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/jgsz/kyjg/jlskjtgmxcjjbmyybxyjzdsys1.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-54ffb81f59",
+      "name": "临床医学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-d8e43165e7",
+      "name": "免疫生物学-吉林省高等学校重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/jgsz/kyjg/myswx_jlsgdxxzdsys.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-0fc917f25f",
+      "name": "细胞功能与药理重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/jgsz/kyjg/xbgnyylzdsys.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-fd4d319b98",
+      "name": "学院文件",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=2376",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-b8188cef26",
+      "name": "医学院党组织",
+      "unitType": "学院",
+      "aliases": [
+        "延边大学医学院党组织"
+      ],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/xygk/lrld/ybdxyxydzz.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-5546cb2df9",
+      "name": "医学院行政领导",
+      "unitType": "学院",
+      "aliases": [
+        "延边大学医学院行政领导"
+      ],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/xygk/lrld/ll.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-da8eb02eb9",
+      "name": "原延边医学院党组织(1996年前)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/xygk/lrld/yybyxydzz_1996nq_.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-f24cc12ae5",
+      "name": "原延边医学院行政领导(1996年前)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydyxy.ybu.edu.cn/xygk/lrld/xz.htm",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-9dd5bae432",
+      "name": "中医学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    },
+    {
+      "id": "unit-06e5d21f58",
+      "name": "中医医学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:34.766Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:33:34.783Z",
+      "lastCheckedAt": "2026-07-13T13:33:34.783Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://ydyxy.ybu.edu.cn/",
+    "sourceUrls": [
+      "https://ydyxy.ybu.edu.cn/xkjs/bsyjxkd/lcyx/rcpy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:33:34.783Z",
+    "lastCheckedAt": "2026-07-13T13:33:34.783Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 15,
+    "newUnitCount": 15,
+    "verifiedCount": 15,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

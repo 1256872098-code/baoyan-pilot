@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-10wwmi4",
+  "name": "天津外国语大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:48:47.472Z",
+  "academicUnits": [
+    {
+      "id": "unit-5b18b9d42a",
+      "name": "高级翻译学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gsti.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-2c6e27587d",
+      "name": "国际传媒学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sc.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-597717bd20",
+      "name": "国际关系学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://guoguan.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjjl.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-21019b7c02",
+      "name": "国际商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://business.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-d3f2b21c95",
+      "name": "孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://exchange.tjfsu.edu.cn/kzxy.htm",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marxism.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-78d65dd71d",
+      "name": "欧洲语言文化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://european.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-a69b7147f2",
+      "name": "求索荣誉学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://honors.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-5bed3e41c6",
+      "name": "日语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://japanese.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-3eb7a54358",
+      "name": "通识教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tsjy.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-43d73d3364",
+      "name": "亚非语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yafei.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-6d72490fe1",
+      "name": "英语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://english.tjfsu.edu.cn/",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    },
+    {
+      "id": "unit-57ca00c477",
+      "name": "中外交流国际合作与交流处国际教育学院孔子学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.tjfsu.edu.cn/40/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:47.454Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tjfsu.edu.cn/40/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:48:47.472Z",
+      "lastCheckedAt": "2026-07-13T12:48:47.472Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tjfsu.edu.cn/",
+    "sourceUrls": [
+      "https://www.tjfsu.edu.cn/40/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:48:47.472Z",
+    "lastCheckedAt": "2026-07-13T12:48:47.472Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

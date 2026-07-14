@@ -1,0 +1,320 @@
+{
+  "schoolId": "school-193fhq9",
+  "name": "大连医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:27:26.979Z",
+  "academicUnits": [
+    {
+      "id": "unit-6781c1b1c2",
+      "name": "第二临床学院",
+      "unitType": "学院",
+      "aliases": [
+        "第二临床学院(附属第二医院)",
+        "第二临床学院"
+      ],
+      "officialWebsite": "https://www.shdmu.com/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-73f2aabd30",
+      "name": "第一临床学院",
+      "unitType": "学院",
+      "aliases": [
+        "第一临床学院(附属第一医院)",
+        "第一临床学院"
+      ],
+      "officialWebsite": "https://www.dmu-1.com/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-f9618ccd72",
+      "name": "儿科学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-e1fc6a0d9f",
+      "name": "公共卫生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sph.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjy.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hlxy.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-ba14354f62",
+      "name": "基础医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jcyxy.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-c51fec05e8",
+      "name": "继续教育学院",
+      "unitType": "学院",
+      "aliases": [
+        "(高等职业技术学院)",
+        "继续教育学院",
+        "继续教育学院(高等职业技术学院)"
+      ],
+      "officialWebsite": "http://cce.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-c09330d0ca",
+      "name": "检验医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jianyan.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-bb6497d62d",
+      "name": "精神卫生与心理学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-c35371e355",
+      "name": "康养学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://kyxy.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-1541b1b986",
+      "name": "口腔医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://kouqiang.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-1463afd193",
+      "name": "麻醉学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "http://narcology.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marx.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://chss.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-7a87c7e867",
+      "name": "眼视光学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yaoxue.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-10e5e8ae92",
+      "name": "医学科学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://aims.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-02b2945ea5",
+      "name": "医学影像学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://imaging.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ysxy.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-3adb482a08",
+      "name": "中山学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.dmuzs.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-7a671df8b1",
+      "name": "中西医结合学院/中西医结合研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://icim.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    },
+    {
+      "id": "unit-071bb207f4",
+      "name": "肿瘤干细胞研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://icsc.dmu.edu.cn/",
+      "sourceUrl": "https://www.dmu.edu.cn/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:27:26.972Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.dmu.edu.cn/zzjg1.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:27:26.979Z",
+      "lastCheckedAt": "2026-07-13T13:27:26.979Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.dmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.dmu.edu.cn/zzjg1.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:27:26.979Z",
+    "lastCheckedAt": "2026-07-13T13:27:26.979Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 23,
+    "newUnitCount": 23,
+    "verifiedCount": 23,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

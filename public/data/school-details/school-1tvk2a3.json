@@ -1,0 +1,303 @@
+{
+  "schoolId": "school-1tvk2a3",
+  "name": "江苏科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:59:12.856Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cailiao.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-256985020d",
+      "name": "船舶与海洋工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://naoe.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-f32f8a5155",
+      "name": "海外教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://admission.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-e440f21f96",
+      "name": "海洋学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ocean.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-a8ad31df65",
+      "name": "海洋装备研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://justmeti.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-dee16b393c",
+      "name": "环境与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://huanhua.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jixie.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-32bd8f54a0",
+      "name": "计算机学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jisuanji.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sem.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ssc.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-b8aab2c2da",
+      "name": "粮食学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://liangshixy.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mkszy.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-d304f0fd8a",
+      "name": "能源与动力学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sepe.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-53043ac505",
+      "name": "人文社科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gggl.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-f83b68f007",
+      "name": "深蓝研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://slri.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-e157039390",
+      "name": "生物技术学院",
+      "unitType": "学院",
+      "aliases": [
+        "中国农业科学院蚕业研究所",
+        "生物技术学院"
+      ],
+      "officialWebsite": "http://swjs.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-9197113b6f",
+      "name": "苏州理工学院",
+      "unitType": "学院",
+      "aliases": [
+        "江苏科技大学苏州理工学院"
+      ],
+      "officialWebsite": "http://www.justsit.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tyb.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-be07dfe6c3",
+      "name": "土木工程与建筑学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tmjz.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://waiyu.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-37fed7c207",
+      "name": "冶金工程学院(张家港校区)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zjg.just.edu.cn/ycxy/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    },
+    {
+      "id": "unit-71b326948f",
+      "name": "自动化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zidonghua.just.edu.cn/",
+      "sourceUrl": "https://www.just.edu.cn/11999/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:12.839Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.just.edu.cn/11999/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:59:12.856Z",
+      "lastCheckedAt": "2026-07-13T13:59:12.856Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.just.edu.cn/",
+    "sourceUrls": [
+      "https://www.just.edu.cn/11999/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:59:12.856Z",
+    "lastCheckedAt": "2026-07-13T13:59:12.856Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 22,
+    "newUnitCount": 22,
+    "verifiedCount": 22,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

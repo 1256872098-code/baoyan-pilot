@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-1qxjuw8",
+  "name": "海军军医大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:56:55.004Z",
+  "academicUnits": [
+    {
+      "id": "unit-6f100fbb32",
+      "name": "关于2026年健康科学与工程学院本科生转专业结果公示",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/2026/0413/c17918a359674/page.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-a9a94fe00b",
+      "name": "健康学院2025-2026学年第二学期短学期上课安排",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/2026/0630/c17918a367767/page.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-748505c1ee",
+      "name": "健康学院2026年转专业考核方案",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/2026/0402/c17918a359069/page.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-01d8c0a59a",
+      "name": "上海康复器械工程技术研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://re.usst.edu.cn/",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-931d62abf1",
+      "name": "上海理工大学机器智能研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://jqzn.usst.edu.cn/",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-41276e9cfb",
+      "name": "生物系统热科学研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://ibst.usst.edu.cn/main.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/xygk/list.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.995Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/17331/list.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-fd4d319b98",
+      "name": "学院文件",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/17368/list.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    },
+    {
+      "id": "unit-60cf5ab7ba",
+      "name": "学院治理",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jiankang.usst.edu.cn/17334/list.htm",
+      "sourceUrl": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:56:54.996Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://jiankang.usst.edu.cn/rcpy/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:56:55.004Z",
+      "lastCheckedAt": "2026-07-13T13:56:55.004Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://jiankang.usst.edu.cn/",
+    "sourceUrls": [
+      "https://jiankang.usst.edu.cn/rcpy/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:56:55.004Z",
+    "lastCheckedAt": "2026-07-13T13:56:55.004Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

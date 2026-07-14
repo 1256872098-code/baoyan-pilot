@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-mo5eot",
+  "name": "江西财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:34:45.588Z",
+  "academicUnits": [
+    {
+      "id": "unit-1576ff0cbf",
+      "name": "-国际经济系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-guojijingjixi.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-dd2de50c0d",
+      "name": "-国民经济管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-guominjingjiguanlixi.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-879556092e",
+      "name": "-政治经济学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-zhengzhijingjixuexi.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-ae83d8c0e1",
+      "name": "-资源环境经济系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-ziyuanhuanjingxi.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.560Z"
+    },
+    {
+      "id": "unit-e44db851f2",
+      "name": "科学研究学术预告科研动态科研成果科研项目科研制度科研机构生态经济研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-kexueyanjiu.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.560Z"
+    },
+    {
+      "id": "unit-94a9eb200d",
+      "name": "生态经济研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://econ.jxufe.edu.cn/news-show-6462.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.560Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-list-xueyuangaikuang.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-3fe189fcc0",
+      "name": "学院公号",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-show-5272.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://econ.jxufe.edu.cn/news-show-2.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://econ.jxufe.edu.cn/news-show-3.html",
+      "sourceUrl": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:34:45.559Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://econ.jxufe.edu.cn/news-show-4.html",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:34:45.588Z",
+      "lastCheckedAt": "2026-07-13T14:34:45.588Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://econ.jxufe.edu.cn/",
+    "sourceUrls": [
+      "http://econ.jxufe.edu.cn/news-show-4.html"
+    ],
+    "lastCrawledAt": "2026-07-13T14:34:45.588Z",
+    "lastCheckedAt": "2026-07-13T14:34:45.588Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

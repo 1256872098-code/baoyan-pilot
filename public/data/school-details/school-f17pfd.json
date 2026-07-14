@@ -1,0 +1,148 @@
+{
+  "schoolId": "school-f17pfd",
+  "name": "上海海洋大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T06:23:39.496Z",
+  "academicUnits": [
+    {
+      "id": "unit-2e3d32c373",
+      "name": "爱恩学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ien.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-88707382a0",
+      "name": "工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gcxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-d0037afbb5",
+      "name": "海洋科学与生态环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sthj.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-f18a84b3d2",
+      "name": "海洋生物资源与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hyxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jmxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://my.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-29a6ae362e",
+      "name": "食品学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-2ab6bc6a61",
+      "name": "水产与生命学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://smxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wyxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    },
+    {
+      "id": "unit-3662d2b62d",
+      "name": "信息学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxxy.shou.edu.cn/",
+      "sourceUrl": "https://www.shou.edu.cn/zdzy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T06:23:39.488Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.shou.edu.cn/zdzy/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T06:23:39.496Z",
+      "lastCheckedAt": "2026-07-13T06:23:39.496Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "sourceUrls": [
+      "https://www.shou.edu.cn/zdzy/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T06:23:39.496Z",
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

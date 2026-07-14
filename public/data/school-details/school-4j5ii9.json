@@ -1,0 +1,190 @@
+{
+  "schoolId": "school-4j5ii9",
+  "name": "哈尔滨工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:40:05.096Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mse.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-0e291f3a36",
+      "name": "海洋工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://snaoe.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-1112fc1f10",
+      "name": "海洋科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marine.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-0d1bb3fe02",
+      "name": "计算机科学与技术学院(软件学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cst.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sem.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ss.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dipt.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-f8f09da199",
+      "name": "汽车工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://auto.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://ped.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-819f7434ef",
+      "name": "新能源学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://newenergy.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-8c3ce49adb",
+      "name": "信息科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://siee.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-cae48d6373",
+      "name": "语言文学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sll.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    },
+    {
+      "id": "unit-39027c58ad",
+      "name": "紫丁香书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "http://zdx.hitwh.edu.cn/",
+      "sourceUrl": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:05.088Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hitwh.edu.cn/yxsz/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:40:05.096Z",
+      "lastCheckedAt": "2026-07-13T13:40:05.096Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hitwh.edu.cn/",
+    "sourceUrls": [
+      "https://www.hitwh.edu.cn/yxsz/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:40:05.096Z",
+    "lastCheckedAt": "2026-07-13T13:40:05.096Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 13,
+    "newUnitCount": 13,
+    "verifiedCount": 13,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

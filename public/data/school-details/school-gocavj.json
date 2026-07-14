@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-gocavj",
+  "name": "安徽建筑大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:24:37.955Z",
+  "academicUnits": [
+    {
+      "id": "unit-73523068d7",
+      "name": "安全科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/ssse",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-eed630a3ee",
+      "name": "材料与化学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/chxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-7a3d0dd37f",
+      "name": "电子与信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/dxxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-633e6e7bed",
+      "name": "公共管理与法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/fzxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-e13d9863b2",
+      "name": "环境与能源工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/hnxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-30023af18b",
+      "name": "机械与电气工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/jxydq/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-a5320c2f3d",
+      "name": "建筑与空间规划学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/jzygh/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/glxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/szjxb/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-860df766aa",
+      "name": "设计创意学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/ysxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-4b980360cd",
+      "name": "数理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/slx/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/tyb/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    },
+    {
+      "id": "unit-2e8df66c24",
+      "name": "土木水利学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/tmxy/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.936Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ahjzu.edu.cn/wyx/",
+      "sourceUrl": "https://www.ahjzu.edu.cn/45/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:24:37.937Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ahjzu.edu.cn/45/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:24:37.955Z",
+      "lastCheckedAt": "2026-07-13T14:24:37.955Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ahjzu.edu.cn/",
+    "sourceUrls": [
+      "https://www.ahjzu.edu.cn/45/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:24:37.955Z",
+    "lastCheckedAt": "2026-07-13T14:24:37.955Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

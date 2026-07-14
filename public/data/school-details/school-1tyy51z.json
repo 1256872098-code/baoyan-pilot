@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1tyy51z",
+  "name": "南京大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:56:57.142Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://dawww.nju.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:56:57.142Z",
+    "lastCheckedAt": "2026-07-13T13:56:57.142Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

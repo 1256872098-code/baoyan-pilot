@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-8dybcb",
+  "name": "大连海洋大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:25:58.838Z",
+  "academicUnits": [
+    {
+      "id": "unit-97322db59b",
+      "name": "国际交流国际交流与合作处中新合作学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gjjlc.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-6daf00363f",
+      "name": "海洋法律与人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fxy.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-6329f2607d",
+      "name": "海洋科技与环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hhxy.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-44ad2ce559",
+      "name": "海洋与土木工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tmgc.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-0ebe4d8706",
+      "name": "航海与船舶工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sea.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-2bc550a022",
+      "name": "机械与动力工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jixie.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jjgl.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mks.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-0dde5eb82a",
+      "name": "食品科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://food.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-2ab6bc6a61",
+      "name": "水产与生命学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://life.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-6c24e50552",
+      "name": "外国语与国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wgy.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxgc.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-c0c741eb99",
+      "name": "应用技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gzy.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    },
+    {
+      "id": "unit-62fffb2bc6",
+      "name": "中新合作学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zwhzbx.dlou.edu.cn/",
+      "sourceUrl": "https://www.dlou.edu.cn/13/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:58.830Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.dlou.edu.cn/13/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:25:58.838Z",
+      "lastCheckedAt": "2026-07-13T13:25:58.838Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.dlou.edu.cn/",
+    "sourceUrls": [
+      "https://www.dlou.edu.cn/13/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:25:58.838Z",
+    "lastCheckedAt": "2026-07-13T13:25:58.838Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

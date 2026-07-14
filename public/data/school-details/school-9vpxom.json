@@ -1,0 +1,141 @@
+{
+  "schoolId": "school-9vpxom",
+  "name": "南京中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:06:52.105Z",
+  "academicUnits": [
+    {
+      "id": "unit-06aa66500a",
+      "name": "年度医学院研究生学业奖学金拟推荐名单公示",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smls.njucm.edu.cn/2024/1203/c5306a150558/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院概况学院简介现任领导机构设置",
+        "学院概况"
+      ],
+      "officialWebsite": "http://smls.njucm.edu.cn/5271/list.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smls.njucm.edu.cn/5271/list.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-73be801be2",
+      "name": "医学院2025年全日制博士研究生招生预录取名单公示(第二批)",
+      "unitType": "学院",
+      "aliases": [
+        "南京中医药大学医学院2025年全日制博士研究生招生预录取名单公示(第二批)"
+      ],
+      "officialWebsite": "https://smls.njucm.edu.cn/2025/0526/c5306a156055/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-47b6863c02",
+      "name": "医学院2025年全日制博士研究生招生预录取名单公示(第一批)",
+      "unitType": "学院",
+      "aliases": [
+        "南京中医药大学医学院2025年全日制博士研究生招生预录取名单公示(第一批)"
+      ],
+      "officialWebsite": "https://smls.njucm.edu.cn/2025/0307/c5306a152810/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-2a90fb4f0e",
+      "name": "医学院2025年硕士研究生招生考试复试录取工作方案",
+      "unitType": "学院",
+      "aliases": [
+        "南京中医药大学医学院2025年硕士研究生招生考试复试录取工作方案"
+      ],
+      "officialWebsite": "https://smls.njucm.edu.cn/2025/0326/c5306a153397/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-afe62f56b6",
+      "name": "医学院2026年接收推荐免试硕士研究生考核工作方案",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smls.njucm.edu.cn/2025/0920/c5306a160997/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    },
+    {
+      "id": "unit-782da8e1e8",
+      "name": "医学院全日制博士研究生招生“申请-考核”制实施办法(2025年修订)",
+      "unitType": "学院",
+      "aliases": [
+        "南京中医药大学医学院全日制博士研究生招生“申请-考核”制实施办法(2025年修订)"
+      ],
+      "officialWebsite": "https://smls.njucm.edu.cn/2025/0303/c5306a152605/page.htm",
+      "sourceUrl": "https://smls.njucm.edu.cn/5269/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:06:52.076Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://smls.njucm.edu.cn/5269/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:06:52.105Z",
+      "lastCheckedAt": "2026-07-13T14:06:52.105Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://smls.njucm.edu.cn/",
+    "sourceUrls": [
+      "https://smls.njucm.edu.cn/5269/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:06:52.105Z",
+    "lastCheckedAt": "2026-07-13T14:06:52.105Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 8,
+    "newUnitCount": 8,
+    "verifiedCount": 8,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

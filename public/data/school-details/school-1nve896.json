@@ -1,0 +1,174 @@
+{
+  "schoolId": "school-1nve896",
+  "name": "北京协和医学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:08:39.629Z",
+  "academicUnits": [
+    {
+      "id": "unit-7c3a65c1f4",
+      "name": "国家卫生健康委重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.pumc.edu.cn/PLATROTM/gjwsjkwzdsys/index.htm",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://nursing.pumc.edu.cn/",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-fbffc4e0f9",
+      "name": "继教学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-ca619521fc",
+      "name": "脑和类脑学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cibr.ac.cn/",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-51c823ee42",
+      "name": "群公学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spmph.pumc.edu.cn/",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-0a194aca50",
+      "name": "生策学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://shpm.pumc.edu.cn/",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-ead3d2fcfd",
+      "name": "系统医学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://www.ismsz.cn/",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-72b013f3be",
+      "name": "学术咨询委员会学部委员",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.pumc.edu.cn/xszxwyh/wyh_xbwy/index.htm",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-fafe6a991a",
+      "name": "学术咨询委员会学部委员选聘",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.pumc.edu.cn/xszxwyh/xbwyxp/index.htm",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    },
+    {
+      "id": "unit-b5a0f7b0ab",
+      "name": "研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.pumc.edu.cn/zssy/yjs/index.htm",
+      "sourceUrl": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:08:39.621Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.yichengcareer.com/index.php?m=School&a=show&id=2348",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:22:07.985Z",
+      "lastCheckedAt": "2026-07-13T08:22:07.985Z"
+    },
+    {
+      "title": "学院目录来源",
+      "url": "https://www.pumc.edu.cn/yxgk/zzjg/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T09:15:52.239Z",
+      "lastCheckedAt": "2026-07-13T09:15:52.239Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.pumc.edu.cn/",
+    "sourceUrls": [
+      "https://www.pumc.edu.cn/yxgk/zzjg/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:08:39.629Z",
+    "lastCheckedAt": "2026-07-13T13:08:39.629Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 11,
+    "currentUnitCount": 11,
+    "newUnitCount": 0,
+    "verifiedCount": 11,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

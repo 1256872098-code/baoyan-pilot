@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-1wgnlj2",
+  "name": "长江大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:51:47.150Z",
+  "academicUnits": [
+    {
+      "id": "unit-fbffc4e0f9",
+      "name": "继教学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jxjy.yangtzeu.edu.cn/",
+      "sourceUrl": "https://www.yangtzeu.edu.cn/zzjg/glfw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:51:47.129Z"
+    },
+    {
+      "id": "unit-c7af860c4a",
+      "name": "科学技术发展研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://kxyj.yangtzeu.edu.cn/",
+      "sourceUrl": "https://www.yangtzeu.edu.cn/zzjg/glfw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:51:47.129Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.yangtzeu.edu.cn/zzjg/glfw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:51:47.150Z",
+      "lastCheckedAt": "2026-07-13T14:51:47.150Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.yangtzeu.edu.cn/",
+    "sourceUrls": [
+      "https://www.yangtzeu.edu.cn/zzjg/glfw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:51:47.150Z",
+    "lastCheckedAt": "2026-07-13T14:51:47.150Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

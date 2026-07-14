@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-9ram31",
+  "name": "东北石油大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:41:43.051Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://xxgk.nepu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:41:43.051Z",
+    "lastCheckedAt": "2026-07-13T13:41:43.051Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

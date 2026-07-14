@@ -1,0 +1,316 @@
+{
+  "schoolId": "school-1gy9d6y",
+  "name": "湖南中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:19:05.206Z",
+  "academicUnits": [
+    {
+      "id": "unit-8d1ef5537c",
+      "name": "创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-2b7e9dfb04",
+      "name": "第二中医临床学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-e991a19d06",
+      "name": "第一中医临床学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [
+        "合作交流国际教育学院湖南国际针灸培训中心",
+        "国际教育学院"
+      ],
+      "officialWebsite": "http://gjjy.hnucm.edu.cn/",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-0684220e60",
+      "name": "级学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hnucm.edu.cn/xyxs/ejxy.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.193Z"
+    },
+    {
+      "id": "unit-a9b3159e9f",
+      "name": "教育部工程研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.hnucm.edu.cn/xyxs/jybgcyjzx.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-1541b1b986",
+      "name": "口腔医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-82fd22baad",
+      "name": "临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-f00558525a",
+      "name": "人文与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-5486e4741f",
+      "name": "体育艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-55d47df87f",
+      "name": "湘杏学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-e2dbb49768",
+      "name": "湘药产业发展研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-8c3ce49adb",
+      "name": "信息科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-865bad47e0",
+      "name": "学院系所",
+      "unitType": "学院",
+      "aliases": [
+        "学院系所二级学院教育部工程研究中心国家中医医疗中心研究所",
+        "学院系所"
+      ],
+      "officialWebsite": "https://www.hnucm.edu.cn/xyxs.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.193Z"
+    },
+    {
+      "id": "unit-b5a0f7b0ab",
+      "name": "研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.hnucm.edu.cn/xyxs/yjs.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hnucm.edu.cn/info/1041/7682.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.193Z"
+    },
+    {
+      "id": "unit-c9109d3d9f",
+      "name": "医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-18d82f3a7b",
+      "name": "针灸推拿与康复学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hnucm.edu.cn/info/1041/1085.htm",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.193Z"
+    },
+    {
+      "id": "unit-46df8080fd",
+      "name": "中西医结合学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    },
+    {
+      "id": "unit-779c5d6d0f",
+      "name": "中医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:19:05.194Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hnucm.edu.cn/info/1041/1088.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:19:05.206Z",
+      "lastCheckedAt": "2026-07-14T01:19:05.206Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hnucm.edu.cn/",
+    "sourceUrls": [
+      "https://www.hnucm.edu.cn/info/1041/1088.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:19:05.206Z",
+    "lastCheckedAt": "2026-07-14T01:19:05.206Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 23,
+    "newUnitCount": 23,
+    "verifiedCount": 23,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

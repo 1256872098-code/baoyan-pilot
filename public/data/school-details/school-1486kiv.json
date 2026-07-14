@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-1486kiv",
+  "name": "上海大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:54:38.366Z",
+  "academicUnits": [
+    {
+      "id": "unit-26d7121c0c",
+      "name": "宏嘉书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/hjsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-5cd43389e4",
+      "name": "闳约书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/hysy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-26fa306e45",
+      "name": "泮池书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/pcsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-435ce9bf16",
+      "name": "青云书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/qysy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-546f047b1d",
+      "name": "秋白书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/qbsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-ef871fc5d4",
+      "name": "人才学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-8dc8af7786",
+      "name": "日新书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/rxsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-b79998fe0f",
+      "name": "上大书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/sdsygk.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-a040bd133f",
+      "name": "尚理书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/slsy1.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-2d92307fbd",
+      "name": "丝路书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/slsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-17ccd7ab09",
+      "name": "溯微书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/swsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-1323e2a0ca",
+      "name": "伟长书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/wcsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-02fcb87677",
+      "name": "文荟书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/whsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    },
+    {
+      "id": "unit-1ee2ee44b8",
+      "name": "自强书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.shu.edu.cn/sdsy/zqsy.htm",
+      "sourceUrl": "https://www.shu.edu.cn/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:54:38.358Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.shu.edu.cn/yxsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:54:38.366Z",
+      "lastCheckedAt": "2026-07-13T13:54:38.366Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.shu.edu.cn/",
+    "sourceUrls": [
+      "https://www.shu.edu.cn/yxsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:54:38.366Z",
+    "lastCheckedAt": "2026-07-13T13:54:38.366Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

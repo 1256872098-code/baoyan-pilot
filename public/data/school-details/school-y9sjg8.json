@@ -1,0 +1,33 @@
+{
+  "schoolId": "school-y9sjg8",
+  "name": "蚌埠医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:22:11.039Z",
+  "academicUnits": [],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.bbmu.edu.cn/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:22:11.039Z",
+      "lastCheckedAt": "2026-07-13T14:22:11.039Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "failed",
+    "officialWebsite": "https://www.bbmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.bbmu.edu.cn/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:22:11.039Z",
+    "lastCheckedAt": "2026-07-13T14:22:11.039Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "单校抓取结果数量异常：1"
+  }
+}

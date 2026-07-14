@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-lc7cxf",
+  "name": "复旦大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:46:53.492Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:46:53.492Z",
+    "lastCheckedAt": "2026-07-13T13:46:53.492Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "third-party candidate rejected"
+  }
+}

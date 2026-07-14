@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-b9cfo1",
+  "name": "沈阳药科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:28:06.647Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://sp.syphu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:28:06.647Z",
+    "lastCheckedAt": "2026-07-13T13:28:06.647Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

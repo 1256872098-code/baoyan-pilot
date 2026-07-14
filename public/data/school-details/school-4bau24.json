@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-4bau24",
+  "name": "中国美术学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:15:28.052Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:15:28.052Z",
+    "lastCheckedAt": "2026-07-13T14:15:28.052Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "title contains school name"
+  }
+}

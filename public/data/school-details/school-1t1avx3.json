@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-1t1avx3",
+  "name": "辽宁师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:29:06.363Z",
+  "academicUnits": [
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjy.lnnu.edu.cn/",
+      "sourceUrl": "https://www.lnnu.edu.cn/xxgk/xxzc.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:29:06.355Z"
+    },
+    {
+      "id": "unit-21019b7c02",
+      "name": "国际商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://lnu-msu.lnnu.edu.cn/",
+      "sourceUrl": "https://www.lnnu.edu.cn/xxgk/xxzc.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:29:06.355Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.lnnu.edu.cn/xxgk/xxzc.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:29:06.363Z",
+      "lastCheckedAt": "2026-07-13T13:29:06.363Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.lnnu.edu.cn/",
+    "sourceUrls": [
+      "https://www.lnnu.edu.cn/xxgk/xxzc.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:29:06.363Z",
+    "lastCheckedAt": "2026-07-13T13:29:06.363Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

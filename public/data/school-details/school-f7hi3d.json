@@ -1,0 +1,169 @@
+{
+  "schoolId": "school-f7hi3d",
+  "name": "苏州大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:57:47.023Z",
+  "academicUnits": [
+    {
+      "id": "unit-d7ee2ac7dd",
+      "name": "工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/info/1396/9323.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/info/1396/9327.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/info/1396/9324.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-3eb7a54358",
+      "name": "通识教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/info/1396/9326.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-b3d7d58a51",
+      "name": "行业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/zzjg/hyxy.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-6a2fdf4b2a",
+      "name": "学院地图",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/zhfw/xydt.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院概况学校简介现任领导校园文化学院荣誉",
+        "学院概况"
+      ],
+      "officialWebsite": "https://tec.suda.edu.cn/xygk1/xxjj.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-92d4a1b2a9",
+      "name": "学院荣誉",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/xygk1/xyry.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-8b20e745ae",
+      "name": "学院校历",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/zhfw/xyxl.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-e47c44f47a",
+      "name": "周庄文化旅游学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/info/1396/9325.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    },
+    {
+      "id": "unit-25f7d8e51c",
+      "name": "组织机构机关部门直属单位教学单位行业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tec.suda.edu.cn/zzjg.htm",
+      "sourceUrl": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:57:47.015Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://tec.suda.edu.cn/zzjg/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:57:47.023Z",
+      "lastCheckedAt": "2026-07-13T13:57:47.023Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://tec.suda.edu.cn/",
+    "sourceUrls": [
+      "https://tec.suda.edu.cn/zzjg/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:57:47.023Z",
+    "lastCheckedAt": "2026-07-13T13:57:47.023Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 11,
+    "newUnitCount": 11,
+    "verifiedCount": 11,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

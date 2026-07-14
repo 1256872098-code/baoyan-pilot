@@ -1,0 +1,277 @@
+{
+  "schoolId": "school-9obiiz",
+  "name": "天津科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:45:53.478Z",
+  "academicUnits": [
+    {
+      "id": "unit-dd64af11b0",
+      "name": "【媒体聚焦】《都市报道60分》栏目报道我校食品科学与工程学院姚云平副教...",
+      "unitType": "学院",
+      "aliases": [
+        "-112026-06【媒体聚焦】《都市报道60分》栏目报道我校食品科学与工程学院姚云平副教...",
+        "【媒体聚焦】《都市报道60分》栏目报道我校食品科学与工程学院姚云平副教..."
+      ],
+      "officialWebsite": "http://news.tust.edu.cn/kdxw/70cf9e80e6e94c078ef8a8dd03726e0d.htm",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-331f8801ff",
+      "name": "21习近平总书记亲切接见我校生物工程学院院长王敏教授",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://news.tust.edu.cn/kdyx/0aa32ae2021f45e4a31dd22c4416b1bf.html",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-1b3cc52ca3",
+      "name": "电子信息与自动化学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zdh.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-602801d599",
+      "name": "海洋与环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hhxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-cfacb7b9f5",
+      "name": "化工与材料学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hgxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jxxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-a9f43aff80",
+      "name": "经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jgxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marx.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-6ad48169e4",
+      "name": "轻工科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://qgxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ai.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-4b3b27e95a",
+      "name": "尚行学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://sxxb.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-fbc91c81ca",
+      "name": "生物工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://swxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-0dde5eb82a",
+      "name": "食品科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://tiyu.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wgy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-5d7a688c33",
+      "name": "文法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wfxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-d7a19ce82c",
+      "name": "学院广角",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://news.tust.edu.cn/xygj/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-9a44fc8c84",
+      "name": "艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ysxy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    },
+    {
+      "id": "unit-71f04e7ae8",
+      "name": "终身教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jxjy.tust.edu.cn/",
+      "sourceUrl": "https://www.tust.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:45:53.470Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tust.edu.cn",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:45:53.478Z",
+      "lastCheckedAt": "2026-07-13T12:45:53.478Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tust.edu.cn/",
+    "sourceUrls": [
+      "https://www.tust.edu.cn"
+    ],
+    "lastCrawledAt": "2026-07-13T12:45:53.478Z",
+    "lastCheckedAt": "2026-07-13T12:45:53.478Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 20,
+    "newUnitCount": 20,
+    "verifiedCount": 20,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

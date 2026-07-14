@@ -1,0 +1,238 @@
+{
+  "schoolId": "school-15grunp",
+  "name": "中央美术学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:40:22.625Z",
+  "academicUnits": [
+    {
+      "id": "unit-3a637b0d2e",
+      "name": "(中法)艺术与设计管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=172",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-7ad74c5fbb",
+      "name": "版画系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=112",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-a15a709dfb",
+      "name": "壁画系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=114",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-ad60c3ec07",
+      "name": "城市设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=161",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-9b45ec0d35",
+      "name": "雕塑系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=113",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-c1981e3451",
+      "name": "国际学院版画联盟",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/2022clinks/?cs=1406",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-a42fd5d9a2",
+      "name": "建筑学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/2022clinks/?cs=1207",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/2022clinks/?cs=1213",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=151",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-7608afc877",
+      "name": "设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/2022clinks/?cs=1206",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-478dfe4abf",
+      "name": "实验艺术与科技艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=121",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-44d8c68e08",
+      "name": "书法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=102",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-4922668032",
+      "name": "修复学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=175",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/about",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-b649a1ccbf",
+      "name": "艺术管理与教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/2022clinks/?cs=1209",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-dd34cdc3d8",
+      "name": "油画系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=111",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    },
+    {
+      "id": "unit-6b5db90867",
+      "name": "中国画学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cafa.edu.cn/sp/nljg/?j=101",
+      "sourceUrl": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:40:22.617Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.cafa.edu.cn/sp/nljg?j=171",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:40:22.625Z",
+      "lastCheckedAt": "2026-07-13T12:40:22.625Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cafa.edu.cn/",
+    "sourceUrls": [
+      "https://www.cafa.edu.cn/sp/nljg?j=171"
+    ],
+    "lastCrawledAt": "2026-07-13T12:40:22.625Z",
+    "lastCheckedAt": "2026-07-13T12:40:22.625Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "schoolId": "school-1xgt7cl",
+  "name": "渤海大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:30:03.572Z",
+  "academicUnits": [
+    {
+      "id": "unit-377f378dc3",
+      "name": "东南大学交通规划设计研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/_redirect?siteId=23&columnId=912&articleId=292329",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-4c6d22a310",
+      "name": "东南大学智能网联交通研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://iomseu.com/",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-80abf5299d",
+      "name": "江苏省城市智能交通重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/_redirect?siteId=23&columnId=912&articleId=209326",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-f08ffe435b",
+      "name": "实验室预约",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/58243/list.htm",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-e6a2dd3032",
+      "name": "学院标识",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/xybs/list.htm",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/841/list.htm",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tc.seu.edu.cn/842/list.htm",
+      "sourceUrl": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:30:03.565Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://tc.seu.edu.cn/rcpy/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:30:03.572Z",
+      "lastCheckedAt": "2026-07-13T13:30:03.572Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "sourceUrls": [
+      "https://tc.seu.edu.cn/rcpy/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:30:03.572Z",
+    "lastCheckedAt": "2026-07-13T13:30:03.572Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 7,
+    "newUnitCount": 7,
+    "verifiedCount": 7,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

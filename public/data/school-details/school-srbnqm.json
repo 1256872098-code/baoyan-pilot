@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-srbnqm",
+  "name": "景德镇陶瓷大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:33:08.411Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:33:08.411Z",
+    "lastCheckedAt": "2026-07-13T14:33:08.411Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "homepage contains university navigation links"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schoolId": "school-glth1n",
+  "name": "济南大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:37:24.406Z",
+  "academicUnits": [],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ujn.edu.cn/xxgk/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:37:24.406Z",
+      "lastCheckedAt": "2026-07-13T14:37:24.406Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "failed",
+    "officialWebsite": "https://www.ujn.edu.cn/",
+    "sourceUrls": [
+      "https://www.ujn.edu.cn/xxgk/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:37:24.406Z",
+    "lastCheckedAt": "2026-07-13T14:37:24.406Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "单校抓取结果数量异常：1"
+  }
+}

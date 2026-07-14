@@ -12,5 +12,14 @@ vite-dev.*.log
 rendered-dom.txt
 *-headless.err.txt
 tmp-*
+*.tmp
 scripts/cache/
 scripts/outputs/raw/
+scripts/backups/
+playwright-report/
+test-results/
+public/data/school-details/*.bak
+public/data/school-details/*.tmp
+public/data/schools.json.*.bak
+public/data/college-details/**/*.bak
+public/data/college-details/**/*.tmp

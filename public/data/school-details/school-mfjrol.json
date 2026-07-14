@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-mfjrol",
+  "name": "安徽中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:23:06.048Z",
+  "academicUnits": [
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hlxy.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://szjy.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.024Z"
+    },
+    {
+      "id": "unit-a44771fbf1",
+      "name": "人文与国际教育交流学院(外事办、港澳台办)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://rwxy.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.024Z"
+    },
+    {
+      "id": "unit-61732d4234",
+      "name": "体育健康学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tyb.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.024Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yxy.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-5b592254df",
+      "name": "医药经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yyjjgl.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-ed05c4ca8f",
+      "name": "医药信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxgc.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-111f2ae422",
+      "name": "针灸推拿学院(康复医学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zjgs.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-8b992e6c12",
+      "name": "中西医结合学院(生命科学学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zxylc.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    },
+    {
+      "id": "unit-779c5d6d0f",
+      "name": "中医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lcxy.ahtcm.edu.cn/",
+      "sourceUrl": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:23:06.023Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ahtcm.edu.cn/jgsz/yxsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:23:06.048Z",
+      "lastCheckedAt": "2026-07-13T14:23:06.048Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ahtcm.edu.cn/",
+    "sourceUrls": [
+      "https://www.ahtcm.edu.cn/jgsz/yxsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:23:06.048Z",
+    "lastCheckedAt": "2026-07-13T14:23:06.048Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

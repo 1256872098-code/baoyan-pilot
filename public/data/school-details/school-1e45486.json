@@ -1,0 +1,331 @@
+{
+  "schoolId": "school-1e45486",
+  "name": "山东财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:42:31.730Z",
+  "academicUnits": [
+    {
+      "id": "unit-3bff113409",
+      "name": "保险学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://insurance.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-46bdee78a5",
+      "name": "北京研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://bri.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-fe6b9e0a24",
+      "name": "财政税务学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spft.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-ccabae5f29",
+      "name": "创新创业教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sjjxcg.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://law.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-f6831767c1",
+      "name": "工商管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gsglxy.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-7635a78ec5",
+      "name": "公共管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "公共管理学院(MPA中心)",
+        "公共管理学院"
+      ],
+      "officialWebsite": "https://spm.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-17d8a1b7cf",
+      "name": "管理科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gkgc.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-17cb0c63ae",
+      "name": "国际交流学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://islcs.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sie.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-bcee14a0db",
+      "name": "国际经贸学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://site.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-40dac613ad",
+      "name": "海洋经济与管理研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://haiyang.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-275f71cbc0",
+      "name": "计算机与人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cs.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-4833688f32",
+      "name": "金融学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jinrong.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://econ.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.703Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://marx.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-33f1978fce",
+      "name": "区块链金融重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://bcf.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-9da946be42",
+      "name": "山东金融发展研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://jrfzyjy.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-3247ba2a9e",
+      "name": "数学与数量经济学院",
+      "unitType": "学院",
+      "aliases": [
+        "统计学院",
+        "数学与数量经济学院"
+      ],
+      "officialWebsite": "https://sam.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sports.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        "公共外语教学部",
+        "外国语学院"
+      ],
+      "officialWebsite": "https://foreign.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://art.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-1ab76a1a01",
+      "name": "政府绩效评价研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://zfjxpj.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    },
+    {
+      "id": "unit-dd5f4ad795",
+      "name": "中国经济研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://zgjjyjy.sdufe.edu.cn/",
+      "sourceUrl": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:42:31.704Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:42:31.730Z",
+      "lastCheckedAt": "2026-07-13T14:42:31.730Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.sdufe.edu.cn/",
+    "sourceUrls": [
+      "https://www.sdufe.edu.cn/zuzjg.htm#jiaoxdw"
+    ],
+    "lastCrawledAt": "2026-07-13T14:42:31.730Z",
+    "lastCheckedAt": "2026-07-13T14:42:31.730Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 24,
+    "newUnitCount": 24,
+    "verifiedCount": 24,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

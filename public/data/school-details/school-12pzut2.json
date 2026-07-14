@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-12pzut2",
+  "name": "华南理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:22:45.737Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-14T01:22:45.737Z",
+    "lastCheckedAt": "2026-07-14T01:22:45.737Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "body contains school name"
+  }
+}

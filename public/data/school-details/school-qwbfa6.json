@@ -1,0 +1,605 @@
+{
+  "schoolId": "school-qwbfa6",
+  "name": "北京航空航天大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T07:51:30.099Z",
+  "academicUnits": [
+    {
+      "id": "unit-a2bbbe45f9",
+      "name": "北航学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bhc.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-79abc61137",
+      "name": "北京学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://beijing.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mse.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-6168f9b9fb",
+      "name": "大科学装置研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://piqs.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-08fd33563d",
+      "name": "电子信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.ee.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fxy.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-51bcdff541",
+      "name": "飞行学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://aviation.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-4dac343797",
+      "name": "国际创新学院",
+      "unitType": "学院",
+      "aliases": [
+        "国际创新学院中法航空学院/中法未来科技学院/中西智能学院",
+        "国际创新学院"
+      ],
+      "officialWebsite": "https://h3i.buaa.edu.cn/index.htm",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-6b04e001e3",
+      "name": "国际前沿交叉科学研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://iiif.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-aa7457dd6c",
+      "name": "国际通用工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://is.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-b315c95a5e",
+      "name": "航空发动机研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://riae.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-20ca17ea54",
+      "name": "航空科学与工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "航空科学与工程学院中国商飞-北航大飞机研究院",
+        "航空科学与工程学院"
+      ],
+      "officialWebsite": "http://www.ase.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-e13aaeb7fe",
+      "name": "化学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sce.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-ebf84bce37",
+      "name": "机械工程及自动化学院",
+      "unitType": "学院",
+      "aliases": [
+        "机械工程及自动化学院具身智能机器人研究院",
+        "机械工程及自动化学院"
+      ],
+      "officialWebsite": "http://www.me.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-cd18233617",
+      "name": "集成电路科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.sme.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-32bd8f54a0",
+      "name": "计算机学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://scse.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-216eec44a4",
+      "name": "交通科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://transportation.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sem.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-7b038c05bc",
+      "name": "具身智能机器人研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-fa38beeaec",
+      "name": "可靠性与系统工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://rse.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-d3868f7fd1",
+      "name": "空间与地球科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sse.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-cb0dcea5eb",
+      "name": "空天仿生智能研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ipth.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-f24181e5a3",
+      "name": "能源与动力工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sepe.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://iai.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-0389efc6e0",
+      "name": "人文社会科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hss.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-970c87d6f4",
+      "name": "人文与社会科学高等研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://gyy.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-26208f7c3a",
+      "name": "软件学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://soft.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-5e82a8a17a",
+      "name": "沈元学院",
+      "unitType": "学院",
+      "aliases": [
+        "高等理工学院/未来空天技术学院/国家卓越工程师学院/量子科技学院",
+        "沈元学院",
+        "沈元学院高等理工学院/未来空天技术学院/国家卓越工程师学院/量子科技学院"
+      ],
+      "officialWebsite": "https://hc.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-125c5abe6c",
+      "name": "生物与医学工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bme.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-089e0f2a9b",
+      "name": "数学科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://math.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fld.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-f8450a477e",
+      "name": "网络空间安全学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cst.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-48bf332cbb",
+      "name": "无人系统研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://wrj.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-7a55376d09",
+      "name": "物理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://physics.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-87cd35a382",
+      "name": "新媒体艺术与设计学院",
+      "unitType": "学院",
+      "aliases": [
+        "新媒体艺术与设计学院美育中心",
+        "新媒体艺术与设计学院"
+      ],
+      "officialWebsite": "http://art.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-8e68984de6",
+      "name": "医学科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ygy.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-95749a7843",
+      "name": "仪器科学与光电工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "仪器科学与光电工程学院大科学装置研究院",
+        "仪器科学与光电工程学院"
+      ],
+      "officialWebsite": "http://yqgdxy.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-eafa82a810",
+      "name": "宇航学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.sa.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-1c7766cb63",
+      "name": "中法工程师学院",
+      "unitType": "学院",
+      "aliases": [
+        "中法工程师学院/国际通用工程学院",
+        "中法工程师学院"
+      ],
+      "officialWebsite": "http://ecpkn.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-7c359e48bf",
+      "name": "中法航空学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zfai.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-ad69484fac",
+      "name": "中法未来科技学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-925d59d05a",
+      "name": "中国商飞-北航大飞机研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://icat.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.086Z"
+    },
+    {
+      "id": "unit-58392daada",
+      "name": "中西智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    },
+    {
+      "id": "unit-9cd30d5c0a",
+      "name": "自动化科学与电气工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "自动化科学与电气工程学院空天仿生智能研究院",
+        "自动化科学与电气工程学院"
+      ],
+      "officialWebsite": "http://dept3.buaa.edu.cn/",
+      "sourceUrl": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:30.087Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.buaa.edu.cn/jgsz/jxkyjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T07:30:01.899Z",
+      "lastCheckedAt": "2026-07-13T07:30:01.899Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "sourceUrls": [
+      "https://www.buaa.edu.cn/jgsz/jxkyjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T07:51:30.099Z",
+    "verifiedCount": 46,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

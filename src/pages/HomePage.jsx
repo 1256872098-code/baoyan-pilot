@@ -2,44 +2,56 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
-  ClipboardList,
+  Bot,
   Database,
   GraduationCap,
   MessagesSquare,
-  Route,
   ShieldAlert,
   Sparkles,
+  UserRound,
 } from "lucide-react";
 import { Card, CardHeader, StatCard } from "../components/Card.jsx";
 
 const features = [
   {
-    title: "保研画像评估",
-    text: "整合成绩、排名、科研、竞赛、实践和目标方向，形成阶段性准备度判断。",
-    icon: ClipboardList,
+    title: "AI院校推荐助手",
+    text: "通过聊天逐步补全学校、专业、成绩、英语、科研竞赛和地区偏好，生成院校梯度建议。",
+    icon: Bot,
   },
   {
     title: "院校资料库",
-    text: "按院校层次和专业方向筛选，快速建立申请目标池。",
+    text: "按地区和院校层次筛选推免资格高校，进入学校与学院目录查看后续资料框架。",
     icon: Database,
   },
   {
-    title: "行动路径规划",
-    text: "把模糊目标拆解为材料准备、面试训练、导师匹配和短期行动计划。",
-    icon: Route,
+    title: "保研论坛",
+    text: "浏览和发布保研经验、院校信息、材料准备、预推免和面试交流帖。",
+    icon: MessagesSquare,
   },
   {
-    title: "保研论坛",
-    text: "浏览和发布保研经验、院校信息、材料准备和面试交流帖。",
-    icon: MessagesSquare,
+    title: "个人中心",
+    text: "管理昵称、头像、学校、专业和 AI 历史对话等本地体验数据。",
+    icon: UserRound,
   },
 ];
 
 const steps = [
-  "填写个人背景和目标",
-  "生成准备度与短板分析",
-  "筛选匹配院校和项目",
-  "执行 30 天行动计划",
+  {
+    title: "进入AI院校推荐",
+    text: "像聊天一样说明年级、专业、本科院校和目标地区，不需要一次性填表。",
+  },
+  {
+    title: "补全关键背景",
+    text: "AI 会按需追问绩点排名、英语成绩、科研竞赛、论文实习和风险偏好。",
+  },
+  {
+    title: "查看院校梯度建议",
+    text: "在信息足够后，获得冲刺、匹配、稳妥三个梯度的规划参考。",
+  },
+  {
+    title: "结合资料库继续核对",
+    text: "进入院校资料库和学校详情页，按官方来源持续补充申请信息。",
+  },
 ];
 
 export default function HomePage() {
@@ -62,12 +74,12 @@ export default function HomePage() {
               保研领航员
             </h1>
             <p className="mt-5 max-w-xl text-base leading-8 text-slate-700 sm:text-lg">
-              从个人画像、院校筛选到短期行动计划，帮助你把保研准备从“信息很多但没方向”
-              变成“知道下一步该做什么”。
+              从 AI 院校推荐、院校资料库到保研论坛，帮助你把分散信息整理成可执行的保研规划。
+              推荐结果仅供规划参考，具体政策和报名要求以学校官网最新通知为准。
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link to="/assessment" className="btn-primary">
-                开始使用
+              <Link to="/ai-recommend" className="btn-primary">
+                开始AI院校推荐
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
               <Link to="/schools" className="btn-secondary">
@@ -81,14 +93,14 @@ export default function HomePage() {
       <section className="bg-white py-16">
         <div className="container-page">
           <div className="mb-12 grid gap-3 sm:grid-cols-3">
-            <StatCard value="4" label="核心模块" helper="规划、院校、社区闭环" />
-            <StatCard value="30天" label="行动计划" helper="聚焦近期可执行任务" tone="teal" />
-            <StatCard value="AI" label="DeepSeek 接入" helper="院校推荐助手已支持真实对话" tone="amber" />
+            <StatCard value="AI" label="院校推荐" helper="DeepSeek 对话式规划建议" />
+            <StatCard value="427" label="推免资格高校" helper="院校资料持续补全中" tone="teal" />
+            <StatCard value="论坛" label="经验交流" helper="帖子和回复接入 Supabase" tone="amber" />
           </div>
           <CardHeader
             eyebrow="核心功能"
-            title="围绕保研关键决策做规划"
-            description="覆盖个人评估、目标筛选、AI 院校推荐、论坛交流和行动计划。"
+            title="围绕保研择校和信息核对做规划"
+            description="保留最常用的工具入口：AI 院校推荐、院校资料库、保研论坛和个人中心。"
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {features.map((feature) => {
@@ -112,28 +124,23 @@ export default function HomePage() {
           <div>
             <CardHeader
               eyebrow="使用流程"
-              title="从输入到执行，四步完成一次规划"
-              description="每次评估都会输出可复盘的结论，你可以随着成绩、经历和目标变化重新生成。"
+              title="从聊天到资料核对，逐步建立目标院校池"
+              description="AI 推荐负责启发式规划，院校资料库负责持续沉淀官方来源和学院目录。"
             />
-            <Link to="/assessment" className="btn-primary mt-8">
-              立即生成画像
+            <Link to="/ai-recommend" className="btn-primary mt-8">
+              开始AI院校推荐
               <GraduationCap size={18} aria-hidden="true" />
             </Link>
           </div>
           <div className="grid gap-4">
             {steps.map((step, index) => (
-              <Card key={step} className="flex items-center gap-4 p-5">
+              <Card key={step.title} className="flex items-center gap-4 p-5">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-brand-600 text-sm font-bold text-white">
                   {index + 1}
                 </span>
                 <div>
-                  <h3 className="font-bold text-slate-950">{step}</h3>
-                  <p className="mt-1 text-sm leading-6 text-slate-600">
-                    {index === 0 && "填写当前阶段、学校层次、成绩排名和经历信息。"}
-                    {index === 1 && "查看准备度、人物画像、优势短板和风险提醒。"}
-                    {index === 2 && "通过资料库筛选冲刺、匹配和稳妥院校。"}
-                    {index === 3 && "把规划落到未来 30 天任务和申请准备安排。"}
-                  </p>
+                  <h3 className="font-bold text-slate-950">{step.title}</h3>
+                  <p className="mt-1 text-sm leading-6 text-slate-600">{step.text}</p>
                 </div>
               </Card>
             ))}
@@ -148,11 +155,10 @@ export default function HomePage() {
               <ShieldAlert size={22} aria-hidden="true" />
             </span>
             <div>
-              <h2 className="text-xl font-bold text-slate-950">免责声明</h2>
+              <h2 className="text-xl font-bold text-slate-950">重要说明</h2>
               <p className="mt-3 leading-7 text-slate-700">
-                保研领航员基于用户输入和规划规则生成辅助建议，
-                不代表任何高校、学院或导师的官方意见，也不构成录取承诺。申请结果会受到招生政策、
-                名额、材料真实性、面试表现和竞争环境等因素影响，请以各院校官方通知为准。
+                BaoyanPilot 提供的是规划辅助和公开信息整理，不代表任何高校、学院或导师的官方意见，
+                也不构成录取承诺。院校政策、报名时间、材料要求和考核方式可能变化，请以当年学校官网最新通知为准。
               </p>
             </div>
           </Card>

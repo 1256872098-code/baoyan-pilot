@@ -1,0 +1,85 @@
+{
+  "schoolId": "school-1qkywks",
+  "name": "沈阳化工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:23:13.616Z",
+  "academicUnits": [
+    {
+      "id": "unit-426da99298",
+      "name": "高等教育研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://gaojiaosuo.syuct.edu.cn/",
+      "sourceUrl": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:13.607Z"
+    },
+    {
+      "id": "unit-4bb35109f7",
+      "name": "管理型学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.syuct.edu.cn/jgsz/glxxy.htm",
+      "sourceUrl": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:13.607Z"
+    },
+    {
+      "id": "unit-0684220e60",
+      "name": "级学院",
+      "unitType": "学院",
+      "aliases": [
+        "机构设置组织机构二级学院管理型学院科研院所",
+        "级学院"
+      ],
+      "officialWebsite": "https://www.syuct.edu.cn/jgsz/ejxy.htm",
+      "sourceUrl": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:13.607Z"
+    },
+    {
+      "id": "unit-35532df5cb",
+      "name": "实验室安全管理",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://202.199.113.141:8080/",
+      "sourceUrl": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:13.607Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.syuct.edu.cn/jgsz/zzjg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:23:13.616Z",
+      "lastCheckedAt": "2026-07-13T13:23:13.616Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.syuct.edu.cn/",
+    "sourceUrls": [
+      "https://www.syuct.edu.cn/jgsz/zzjg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:23:13.616Z",
+    "lastCheckedAt": "2026-07-13T13:23:13.616Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 4,
+    "newUnitCount": 4,
+    "verifiedCount": 4,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

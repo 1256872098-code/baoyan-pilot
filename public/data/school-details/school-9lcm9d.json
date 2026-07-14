@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-9lcm9d",
+  "name": "河南中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:47:31.867Z",
+  "academicUnits": [
+    {
+      "id": "unit-6357b1b6d8",
+      "name": "学院书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.hactcm.edu.cn/zzjg/xysy.htm",
+      "sourceUrl": "https://www.hactcm.edu.cn/zzjg/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:47:31.839Z"
+    },
+    {
+      "id": "unit-93b1fe9e85",
+      "name": "组织机构机构设置学院书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.hactcm.edu.cn/zzjg/jgsz.htm",
+      "sourceUrl": "https://www.hactcm.edu.cn/zzjg/jgsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:47:31.839Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hactcm.edu.cn/zzjg/jgsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:47:31.867Z",
+      "lastCheckedAt": "2026-07-13T14:47:31.867Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hactcm.edu.cn/",
+    "sourceUrls": [
+      "https://www.hactcm.edu.cn/zzjg/jgsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:47:31.867Z",
+    "lastCheckedAt": "2026-07-13T14:47:31.867Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

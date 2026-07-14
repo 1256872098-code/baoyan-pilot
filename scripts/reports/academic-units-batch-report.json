@@ -1,0 +1,466 @@
+{
+  "startedAt": "2026-07-13T13:39:04.556Z",
+  "completedAt": "2026-07-14T01:31:04.080Z",
+  "offset": 0,
+  "limit": 10,
+  "batchSize": 10,
+  "totalSelected": 350,
+  "processed": 190,
+  "success": 117,
+  "failed": 36,
+  "pendingReview": 37,
+  "skipped": 0,
+  "sourceNotFound": 29,
+  "crawlFailed": 2,
+  "parseFailed": 5,
+  "blocked": 0,
+  "manualSourceRequired": 0,
+  "newAcademicUnits": 2462,
+  "updatedAcademicUnits": 0,
+  "searchRequestCount": 317,
+  "averageSearchRequestsPerProcessedSchool": 1.67,
+  "stoppedDueToSearchLimit": false,
+  "stoppedBySignal": false,
+  "failedSchools": [
+    {
+      "schoolId": "school-9ram31",
+      "schoolName": "东北石油大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-qvg466",
+      "schoolName": "佳木斯大学",
+      "failureStage": "website-discovery",
+      "error": "third-party candidate rejected"
+    },
+    {
+      "schoolId": "school-es00qs",
+      "schoolName": "东北林业大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1ryskhr",
+      "schoolName": "哈尔滨师范大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1fsmxm4",
+      "schoolName": "黑龙江中医药大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-lc7cxf",
+      "schoolName": "复旦大学",
+      "failureStage": "website-discovery",
+      "error": "third-party candidate rejected"
+    },
+    {
+      "schoolId": "school-2cw2mj",
+      "schoolName": "华东理工大学",
+      "failureStage": "website-discovery",
+      "error": "search title indicates official site"
+    },
+    {
+      "schoolId": "school-1q97es6",
+      "schoolName": "上海中医药大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-yaso3q",
+      "schoolName": "上海应用技术大学",
+      "failureStage": "website-discovery",
+      "error": "未找到通过验证的学校官网。"
+    },
+    {
+      "schoolId": "school-sd0dr",
+      "schoolName": "南京信息工程大学",
+      "failureStage": null,
+      "error": "HTTP 403"
+    },
+    {
+      "schoolId": "school-y7xx6",
+      "schoolName": "扬州大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-dbveae",
+      "schoolName": "安徽大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1lxlzyv",
+      "schoolName": "皖南医学院",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-i6nbr9",
+      "schoolName": "安徽财经大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-bu6vjp",
+      "schoolName": "福建医科大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-nixfcg",
+      "schoolName": "集美大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-k6o4og",
+      "schoolName": "福建中医药大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-srbnqm",
+      "schoolName": "景德镇陶瓷大学",
+      "failureStage": "website-discovery",
+      "error": "homepage contains university navigation links"
+    },
+    {
+      "schoolId": "school-cn8cf3",
+      "schoolName": "江西师范大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1e720qd",
+      "schoolName": "山东第一医科大学",
+      "failureStage": "website-discovery",
+      "error": "search title indicates official site"
+    },
+    {
+      "schoolId": "school-au24tz",
+      "schoolName": "曲阜师范大学",
+      "failureStage": "website-discovery",
+      "error": "search title indicates official site"
+    },
+    {
+      "schoolId": "school-1sin8qf",
+      "schoolName": "华北水利水电大学",
+      "failureStage": "website-discovery",
+      "error": "copyright text exists"
+    },
+    {
+      "schoolId": "school-1un1456",
+      "schoolName": "河南大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1vzfey1",
+      "schoolName": "武汉大学",
+      "failureStage": "website-discovery",
+      "error": "search title indicates official site"
+    },
+    {
+      "schoolId": "school-h2q1kw",
+      "schoolName": "武汉理工大学",
+      "failureStage": "website-discovery",
+      "error": "third-party candidate rejected"
+    },
+    {
+      "schoolId": "school-1ntuifj",
+      "schoolName": "华中农业大学",
+      "failureStage": "website-discovery",
+      "error": "search title indicates official site"
+    },
+    {
+      "schoolId": "school-wj53lf",
+      "schoolName": "湖北大学",
+      "failureStage": null,
+      "error": "HTTP 403"
+    },
+    {
+      "schoolId": "school-1cil2h3",
+      "schoolName": "湘潭大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1xbt5mn",
+      "schoolName": "吉首大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-hqoks3",
+      "schoolName": "湖南大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-1xyx0ou",
+      "schoolName": "湖南科技大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-m1tv2w",
+      "schoolName": "中南大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-cpzje5",
+      "schoolName": "长沙理工大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-hykzw1",
+      "schoolName": "湖南农业大学",
+      "failureStage": "website-discovery",
+      "error": "fetch failed"
+    },
+    {
+      "schoolId": "school-t3a874",
+      "schoolName": "中南林业科技大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1ezbwmf",
+      "schoolName": "广东药科大学",
+      "failureStage": "website-discovery",
+      "error": "third-party candidate rejected"
+    }
+  ],
+  "pendingReviewSchools": [
+    {
+      "schoolId": "school-b2cp4j",
+      "schoolName": "吉林财经大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1i94dak",
+      "schoolName": "黑龙江八一农垦大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-2s294a",
+      "schoolName": "哈尔滨商业大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-9akiau",
+      "schoolName": "哈尔滨体育学院",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1ytmrqi",
+      "schoolName": "同济大学",
+      "failureStage": "validate",
+      "error": "单校抓取结果数量异常：1"
+    },
+    {
+      "schoolId": "school-1m3z29z",
+      "schoolName": "上海对外经贸大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1a9u4ne",
+      "schoolName": "上海体育大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1tyy51z",
+      "schoolName": "南京大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-4734ke",
+      "schoolName": "南京航空航天大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1pm0j22",
+      "schoolName": "南京邮电大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-udm8rw",
+      "schoolName": "浙江大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-6q2n0i",
+      "schoolName": "杭州师范大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-jaj11d",
+      "schoolName": "浙江师范大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-4bau24",
+      "schoolName": "中国美术学院",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-libbbf",
+      "schoolName": "浙江财经大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-19js9tt",
+      "schoolName": "西湖大学",
+      "failureStage": "website-discovery",
+      "error": "title contains school name"
+    },
+    {
+      "schoolId": "school-1jkaaqv",
+      "schoolName": "宁波诺丁汉大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-io6gqc",
+      "schoolName": "中国科学技术大学",
+      "failureStage": "validate",
+      "error": "单校抓取结果数量异常：0"
+    },
+    {
+      "schoolId": "school-y9sjg8",
+      "schoolName": "蚌埠医科大学",
+      "failureStage": "validate",
+      "error": "单校抓取结果数量异常：1"
+    },
+    {
+      "schoolId": "school-myt8sg",
+      "schoolName": "福建农林大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-xbe987",
+      "schoolName": "南昌大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-dc5r38",
+      "schoolName": "华东交通大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-glth1n",
+      "schoolName": "济南大学",
+      "failureStage": "validate",
+      "error": "单校抓取结果数量异常：1"
+    },
+    {
+      "schoolId": "school-2ntotq",
+      "schoolName": "青岛理工大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-tilyy0",
+      "schoolName": "山东建筑大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-775myo",
+      "schoolName": "齐鲁工业大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1rla9s4",
+      "schoolName": "聊城大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1kr9kbb",
+      "schoolName": "河南科技大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-2gzcxl",
+      "schoolName": "河南财经政法大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-dry7q",
+      "schoolName": "武汉纺织大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-9x705",
+      "schoolName": "武汉体育学院",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1j85txm",
+      "schoolName": "三峡大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-12pzut2",
+      "schoolName": "华南理工大学",
+      "failureStage": "website-discovery",
+      "error": "body contains school name"
+    },
+    {
+      "schoolId": "school-1q4if0c",
+      "schoolName": "广州中医药大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-10jbnxn",
+      "schoolName": "广州美术学院",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-1pi1lr3",
+      "schoolName": "五邑大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    },
+    {
+      "schoolId": "school-c5vepw",
+      "schoolName": "广东工业大学",
+      "failureStage": "academic-unit-page-discovery",
+      "error": "未找到可靠院系目录页面。"
+    }
+  ]
+}

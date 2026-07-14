@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-jsch8q",
+  "name": "湖北中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:54:56.436Z",
+  "academicUnits": [
+    {
+      "id": "unit-73f2aabd30",
+      "name": "第一临床学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lcxy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gly.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-0c006535bc",
+      "name": "湖北时珍实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://hbsz.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hly.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-9d66a74b66",
+      "name": "基础医学院、中西医结合学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jcy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-a8ec4ccbdf",
+      "name": "检验学院、医学技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jyy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mks.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-61732d4234",
+      "name": "体育健康学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tyb.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wyx.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yxy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-a29f251b91",
+      "name": "医学人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://rwy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-4b772ed447",
+      "name": "针灸骨伤学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zgy.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    },
+    {
+      "id": "unit-779c5d6d0f",
+      "name": "中医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zylc.hbucm.edu.cn/",
+      "sourceUrl": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:54:56.412Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hbucm.edu.cn/jgsz/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:54:56.436Z",
+      "lastCheckedAt": "2026-07-13T14:54:56.436Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hbucm.edu.cn/",
+    "sourceUrls": [
+      "https://www.hbucm.edu.cn/jgsz/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:54:56.436Z",
+    "lastCheckedAt": "2026-07-13T14:54:56.436Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

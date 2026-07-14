@@ -1,0 +1,190 @@
+{
+  "schoolId": "school-mxdj2h",
+  "name": "沈阳体育学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:31:02.198Z",
+  "academicUnits": [
+    {
+      "id": "unit-e3fd1e0e01",
+      "name": "冰雪运动学院(冰雪产业研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://bxyd.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://iedu.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-49a60f0f40",
+      "name": "基础教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://jcjxb.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-3f38f3ec00",
+      "name": "社会体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://shty.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-a3a471b7c6",
+      "name": "实验室管理中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://syzx.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-5fbbf3011d",
+      "name": "体能训练学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tnxy.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-220c845c04",
+      "name": "体育教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tyjy.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-c44c7b52e1",
+      "name": "体育科学研究院(辽宁省文体旅融合发展研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://skzx.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-1fcb158a58",
+      "name": "武术与舞蹈学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wswd.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-e8904c9bf4",
+      "name": "运动健康学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ydrt.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-7268c55950",
+      "name": "运动训练学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydxl.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    },
+    {
+      "id": "unit-292f3f229f",
+      "name": "足球运动学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zqyd.syty.edu.cn/",
+      "sourceUrl": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:31:02.191Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.syty.edu.cn/info/1172/2650.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:31:02.198Z",
+      "lastCheckedAt": "2026-07-13T13:31:02.198Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://www.syty.edu.cn/",
+    "sourceUrls": [
+      "http://www.syty.edu.cn/info/1172/2650.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:31:02.198Z",
+    "lastCheckedAt": "2026-07-13T13:31:02.198Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 13,
+    "newUnitCount": 13,
+    "verifiedCount": 13,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

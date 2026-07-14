@@ -1,0 +1,241 @@
+{
+  "schoolId": "school-1c9stwn",
+  "name": "辽宁石油化工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:23:20.013Z",
+  "academicUnits": [
+    {
+      "id": "unit-b727df2ada",
+      "name": "化学化工与环境学部",
+      "unitType": "学部",
+      "aliases": [
+        "计算机与通信工程学院",
+        "化学化工与环境学部"
+      ],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/xsy/#",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-90ba4ecced",
+      "name": "环境与安全工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/hjyaqgcxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/jjglxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/lxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-e85a94f64c",
+      "name": "绿色矿业与资源工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/lskyyzygcxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://renwen.lnpu.edu.cn/",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.002Z"
+    },
+    {
+      "id": "unit-9e892b49ea",
+      "name": "美育与设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/myysjxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-fd313072de",
+      "name": "民族教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/mzjyxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-d9cda1b864",
+      "name": "人工智能与软件学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/rgznyrjxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-5d754f67ce",
+      "name": "石油化工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/syhgxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-04f0409cac",
+      "name": "石油天然气工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/sytrqgcxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/tyxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/wgyxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-476418316f",
+      "name": "新能源与新材料学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/xnyyxclxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-7b4ef8c629",
+      "name": "信息与控制工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhaosheng.lnpu.edu.cn/yxzy/xxykzgcxy.htm",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    },
+    {
+      "id": "unit-e9c055c146",
+      "name": "研究生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ges.lnpu.edu.cn/",
+      "sourceUrl": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:23:20.001Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:23:20.013Z",
+      "lastCheckedAt": "2026-07-13T13:23:20.013Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.lnpu.edu.cn/",
+    "sourceUrls": [
+      "https://zhaosheng.lnpu.edu.cn/yxzy/jxgcxy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:23:20.013Z",
+    "lastCheckedAt": "2026-07-13T13:23:20.013Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

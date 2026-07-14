@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-xbe987",
+  "name": "南昌大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:30:09.142Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://ncuky.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:30:09.142Z",
+    "lastCheckedAt": "2026-07-13T14:30:09.142Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

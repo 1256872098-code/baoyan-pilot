@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-151zru7",
+  "name": "内蒙古工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:18:09.247Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "http://jwch.imut.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:18:09.247Z",
+    "lastCheckedAt": "2026-07-13T13:18:09.247Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

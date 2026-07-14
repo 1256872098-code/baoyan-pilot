@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1sin8qf",
+  "name": "华北水利水电大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:44:08.291Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:44:08.291Z",
+    "lastCheckedAt": "2026-07-13T14:44:08.291Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "copyright text exists"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-5ate9v",
+  "name": "山西财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:16:32.071Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://fx.sxufe.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:16:32.071Z",
+    "lastCheckedAt": "2026-07-13T13:16:32.071Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

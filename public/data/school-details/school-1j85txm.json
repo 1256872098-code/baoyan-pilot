@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1j85txm",
+  "name": "三峡大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:59:05.738Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.ctgu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:59:05.738Z",
+    "lastCheckedAt": "2026-07-13T14:59:05.738Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

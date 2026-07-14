@@ -1,0 +1,22 @@
+{
+  "schoolId": "school-11envda",
+  "name": "燕山大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:03:24.915Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "manual-source-required",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:03:24.915Z",
+    "lastCheckedAt": "2026-07-13T13:03:24.915Z",
+    "searchRequestCount": 0,
+    "previousUnitCount": 3,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification."
+  }
+}

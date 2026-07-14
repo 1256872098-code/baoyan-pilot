@@ -1,0 +1,62 @@
+{
+  "schoolId": "school-14a7w6l",
+  "name": "江西中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:33:52.421Z",
+  "academicUnits": [
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介学院领导组织机构"
+      ],
+      "officialWebsite": "https://yxy.jxutcm.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://yxy.jxutcm.edu.cn/xygk/zzjg2.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:33:52.406Z"
+    },
+    {
+      "id": "unit-51256a1942",
+      "name": "学院领导",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yxy.jxutcm.edu.cn/xygk/xyld.htm",
+      "sourceUrl": "https://yxy.jxutcm.edu.cn/xygk/zzjg2.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:33:52.406Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://yxy.jxutcm.edu.cn/xygk/zzjg2.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:33:52.421Z",
+      "lastCheckedAt": "2026-07-13T14:33:52.421Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://yxy.jxutcm.edu.cn/",
+    "sourceUrls": [
+      "https://yxy.jxutcm.edu.cn/xygk/zzjg2.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:33:52.421Z",
+    "lastCheckedAt": "2026-07-13T14:33:52.421Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

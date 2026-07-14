@@ -1,0 +1,130 @@
+{
+  "schoolId": "school-1nypg14",
+  "name": "安徽农业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:21:12.866Z",
+  "academicUnits": [
+    {
+      "id": "unit-c177b8c028",
+      "name": "大气科学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/dqkxx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-83f6696d30",
+      "name": "地理空间信息工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/dlkjxxgcx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-4bb9f40f37",
+      "name": "环境科学与工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/hjkxygcx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-0818fea756",
+      "name": "农业资源与环境系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/nyzyyhjx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-055e67e6f5",
+      "name": "生态学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/stxx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/xygk1.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/xygk1/xyjj.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    },
+    {
+      "id": "unit-a265c2263e",
+      "name": "植物与环境健康系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zhxy.ahau.edu.cn/jgsz1/zwyhjjkx.htm",
+      "sourceUrl": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:21:12.844Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://zhxy.ahau.edu.cn/info/1199/82201.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:21:12.866Z",
+      "lastCheckedAt": "2026-07-13T14:21:12.866Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://zhxy.ahau.edu.cn/",
+    "sourceUrls": [
+      "https://zhxy.ahau.edu.cn/info/1199/82201.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:21:12.866Z",
+    "lastCheckedAt": "2026-07-13T14:21:12.866Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 8,
+    "newUnitCount": 8,
+    "verifiedCount": 8,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

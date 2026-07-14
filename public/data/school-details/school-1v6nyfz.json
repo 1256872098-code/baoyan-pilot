@@ -1,0 +1,267 @@
+{
+  "schoolId": "school-1v6nyfz",
+  "name": "北方工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T07:52:09.040Z",
+  "academicUnits": [
+    {
+      "id": "unit-9c31f53eb2",
+      "name": "储能科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cngc.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-12ac5255e8",
+      "name": "低空技术与工程学院(无人机学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-c612b85631",
+      "name": "电气与控制工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "自动化系",
+        "电气与控制工程学院",
+        "交通信息与控制工程系",
+        "电气工程系",
+        "电气与控制工程学院自动化系交通信息与控制工程系电气工程系电气与控制工程实验中心"
+      ],
+      "officialWebsite": "http://dqgc.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://is.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.028Z"
+    },
+    {
+      "id": "unit-1dd3f948ba",
+      "name": "机械与材料工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "机械系",
+        "机械与材料工程学院",
+        "机电系",
+        "材料系",
+        "工业设计系",
+        "机械与材料工程学院机械系机电系材料系工业设计系工程训练中心"
+      ],
+      "officialWebsite": "http://cmm.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-5671acf3c2",
+      "name": "集成电路学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jcdl.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-9473156371",
+      "name": "建筑与艺术学院",
+      "unitType": "学院",
+      "aliases": [
+        "建筑系",
+        "建筑与艺术学院",
+        "规划和风园系",
+        "艺术设计系",
+        "基础教学部",
+        "实践教学部",
+        "建筑系规划和风园系艺术设计系基础教学部实践教学部",
+        "建筑与艺术学院建筑系规划和风园系艺术设计系基础教学部实践教学部"
+      ],
+      "officialWebsite": "http://jzys.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "工商管理系",
+        "经济管理学院",
+        "会计系",
+        "经济系",
+        "经济管理学院工商管理系会计系经济系经济管理实验中心MBA教育中心MPAcc教育中心"
+      ],
+      "officialWebsite": "http://sem.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [
+        "数学系",
+        "理学院",
+        "统计学系",
+        "物理系",
+        "体育系",
+        "数学系统计学系物理系体育系",
+        "理学院数学系统计学系物理系体育系"
+      ],
+      "officialWebsite": "http://sci.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-c9c3b43199",
+      "name": "伦敦布鲁内尔学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bls.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.028Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ma.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.028Z"
+    },
+    {
+      "id": "unit-48eefc01eb",
+      "name": "人工智能与计算机学院",
+      "unitType": "学院",
+      "aliases": [
+        "计算机系",
+        "人工智能与计算机学院",
+        "电子工程系",
+        "人工智能系",
+        "数据工程研究院",
+        "计算机系电子工程系人工智能系数据工程研究院实验中心",
+        "人工智能与计算机学院计算机系电子工程系人工智能系数据工程研究院实验中心"
+      ],
+      "officialWebsite": "http://csci.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-3789ed2e83",
+      "name": "数字产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://szcy.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.028Z"
+    },
+    {
+      "id": "unit-19cd2e2905",
+      "name": "土木工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "土木工程系",
+        "土木工程学院",
+        "力学与地下工程系",
+        "设备与工程管理系",
+        "土木工程学院土木工程系力学与地下工程系设备与工程管理系建工实验中心"
+      ],
+      "officialWebsite": "http://civil.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    },
+    {
+      "id": "unit-5d7a688c33",
+      "name": "文法学院",
+      "unitType": "学院",
+      "aliases": [
+        "法律系",
+        "文法学院",
+        "英语系",
+        "日语系",
+        "中文系",
+        "广告学系",
+        "公共英语系",
+        "文法学院法律系英语系日语系中文系广告学系公共英语系实验中心"
+      ],
+      "officialWebsite": "http://wf.ncut.edu.cn/",
+      "sourceUrl": "https://www.ncut.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:52:09.027Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.ncut.edu.cn/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T07:30:21.509Z",
+      "lastCheckedAt": "2026-07-13T07:30:21.509Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "sourceUrls": [
+      "https://www.ncut.edu.cn/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T07:52:09.040Z",
+    "verifiedCount": 15,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

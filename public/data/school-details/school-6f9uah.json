@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-6f9uah",
+  "name": "黑龙江大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:39:20.457Z",
+  "academicUnits": [
+    {
+      "id": "unit-9dfec43c5d",
+      "name": "俄语学院专业(本科)：俄语学科(硕士)：俄语语言文学学科(博士)：俄语语言文学",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://eyxy.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-d453573dfc",
+      "name": "国际关系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-35dc671042",
+      "name": "国际文化教育学院学科(硕士)：汉语国际教学硕士专业学位",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hi.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-ed2d7d39b1",
+      "name": "建筑工程学院专业(本科)：土木工程给排水科学与工程学科(硕士)：土木工程灾害监测与控制",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jzgc.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-99fe75bb87",
+      "name": "经济与工商管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jgxy.hlju.edu.cn/index.jsp",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-0463d85aea",
+      "name": "满学研究院(黑龙江省满语研究所)学科(硕士)：中国少数民族语言文学(满语)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://manchu.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-e5594ba64f",
+      "name": "生命科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smkx.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-55a32d4a31",
+      "name": "物理科学与技术学院专业(本科)：物理学应用物理学学科(硕士)：光学核技术及应用",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wlkx.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ysxy.hlju.edu.cn/",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    },
+    {
+      "id": "unit-5a31eb04ff",
+      "name": "组织机构学院设置机构设置",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "sourceUrl": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:39:20.450Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hlju.edu.cn/zzjg1/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:39:20.457Z",
+      "lastCheckedAt": "2026-07-13T13:39:20.457Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hlju.edu.cn/",
+    "sourceUrls": [
+      "https://www.hlju.edu.cn/zzjg1/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:39:20.457Z",
+    "lastCheckedAt": "2026-07-13T13:39:20.457Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-es00qs",
+  "name": "东北林业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:43:56.413Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://bksy.nefu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:43:56.413Z",
+    "lastCheckedAt": "2026-07-13T13:43:56.413Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

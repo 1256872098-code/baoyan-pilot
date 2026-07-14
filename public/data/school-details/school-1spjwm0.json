@@ -1,0 +1,62 @@
+{
+  "schoolId": "school-1spjwm0",
+  "name": "大连理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:20:35.813Z",
+  "academicUnits": [
+    {
+      "id": "unit-c59685c780",
+      "name": "管理体系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://sche.dlut.edu.cn/xygk/gltx1/dtzz.htm",
+      "sourceUrl": "https://sche.dlut.edu.cn/rcpy/bksjx/zyjs.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:20:35.802Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院简介",
+        "学院概况",
+        "学院概况学院简介现任领导组织机构管理体系学科专业"
+      ],
+      "officialWebsite": "https://sche.dlut.edu.cn/xygk/xyjj.htm",
+      "sourceUrl": "https://sche.dlut.edu.cn/rcpy/bksjx/zyjs.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:20:35.802Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://sche.dlut.edu.cn/rcpy/bksjx/zyjs.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:20:35.813Z",
+      "lastCheckedAt": "2026-07-13T13:20:35.813Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://sche.dlut.edu.cn/",
+    "sourceUrls": [
+      "https://sche.dlut.edu.cn/rcpy/bksjx/zyjs.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:20:35.813Z",
+    "lastCheckedAt": "2026-07-13T13:20:35.813Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

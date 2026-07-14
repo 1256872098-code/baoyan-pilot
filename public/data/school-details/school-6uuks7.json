@@ -1,0 +1,364 @@
+{
+  "schoolId": "school-6uuks7",
+  "name": "杭州电子科技大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:11:37.522Z",
+  "academicUnits": [
+    {
+      "id": "unit-82b6b0ae7d",
+      "name": "材料与环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13322/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-d772fecf02",
+      "name": "电子信息学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13317/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-feecc0e5c1",
+      "name": "都柏林电子信息工程国际学院(网站正在建设中)",
+      "unitType": "学院",
+      "aliases": [
+        "杭州电子科技大学都柏林电子信息工程国际学院(网站正在建设中)"
+      ],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-241e430d30",
+      "name": "独立学院、下属单位",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13325/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13332/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13326/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13312/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-cd18233617",
+      "name": "集成电路科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ic.hdu.edu.cn/",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-0a9a853edc",
+      "name": "计算机学院(软件学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13320/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13324/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13323/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13330/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-7cf9f4d692",
+      "name": "圣光机联合学院",
+      "unitType": "学院",
+      "aliases": [
+        "杭州电子科技大学圣光机联合学院"
+      ],
+      "officialWebsite": "http://www.hdu.edu.cn/13335/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-0df12a597d",
+      "name": "数字媒体与文法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13329/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13334/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-eb76beac89",
+      "name": "通信工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13318/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13327/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-9010da5194",
+      "name": "网络空间安全学院(浙江保密学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13321/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-0cdcbbe360",
+      "name": "微电子研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13670/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "杭州电子科技大学信息工程学院"
+      ],
+      "officialWebsite": "https://www.hziee.edu.cn/",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-51e5ef51d2",
+      "name": "浙江省信息化发展研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13681/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-3d057df818",
+      "name": "中国-奥地利人工智能与先进制造“一带一路”联合研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://cabri.hdu.edu.cn/",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-cefcfe77f5",
+      "name": "中国科教评价研究院(浙江高等教育研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13693/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-131912597e",
+      "name": "卓越工程师学院(网站正在建设中)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.499Z"
+    },
+    {
+      "id": "unit-84354f3a32",
+      "name": "卓越学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13331/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    },
+    {
+      "id": "unit-f97ebb3bd3",
+      "name": "自动化学院(人工智能学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hdu.edu.cn/13319/list.htm",
+      "sourceUrl": "http://www.hdu.edu.cn/11790/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:11:37.498Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.hdu.edu.cn/11790/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:11:37.522Z",
+      "lastCheckedAt": "2026-07-13T14:11:37.522Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hdu.edu.cn/",
+    "sourceUrls": [
+      "http://www.hdu.edu.cn/11790/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:11:37.522Z",
+    "lastCheckedAt": "2026-07-13T14:11:37.522Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 27,
+    "newUnitCount": 27,
+    "verifiedCount": 27,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

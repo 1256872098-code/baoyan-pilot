@@ -1,0 +1,241 @@
+{
+  "schoolId": "school-14df50d",
+  "name": "闽南师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:28:59.006Z",
+  "academicUnits": [
+    {
+      "id": "unit-1c6c20043c",
+      "name": "阿斯顿学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mac.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://law.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-f32f8a5155",
+      "name": "海外教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://oes.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-d7a61679d3",
+      "name": "化学化工与环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hxxy.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-32bd8f54a0",
+      "name": "计算机学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cs.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-4f91cf13e1",
+      "name": "教育与心理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jkxy.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-8e31670937",
+      "name": "历史地理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://his.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://marx.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sxy.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-1c3542e8af",
+      "name": "生物科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://bio.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://math.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tyxy.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dfl.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-b7032ea142",
+      "name": "文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zwx.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-5cd5ca9323",
+      "name": "物理与信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wxxy.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.985Z"
+    },
+    {
+      "id": "unit-c833aaea83",
+      "name": "学校概况学校简介学校章程学校领导学院设置机构设置创新平台师大印象校标释义",
+      "unitType": "学院",
+      "aliases": [
+        "学校简介学校章程学校领导学院设置机构设置创新平台师大印象校标释义学校概况",
+        "学校概况学校简介学校章程学校领导学院设置机构设置创新平台师大印象校标释义"
+      ],
+      "officialWebsite": "https://www.mnnu.edu.cn/xxgk/xxjj.htm",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yishu.mnnu.edu.cn/",
+      "sourceUrl": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:28:58.986Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.mnnu.edu.cn/xxgk/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:28:59.006Z",
+      "lastCheckedAt": "2026-07-13T14:28:59.006Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.mnnu.edu.cn/",
+    "sourceUrls": [
+      "https://www.mnnu.edu.cn/xxgk/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:28:59.006Z",
+    "lastCheckedAt": "2026-07-13T14:28:59.006Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 17,
+    "newUnitCount": 17,
+    "verifiedCount": 17,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

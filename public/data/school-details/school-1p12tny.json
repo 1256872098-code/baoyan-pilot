@@ -1,0 +1,140 @@
+{
+  "schoolId": "school-1p12tny",
+  "name": "江苏大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:04:16.323Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d8bfb6158",
+      "name": "基础医学与公共卫生学院",
+      "unitType": "学院",
+      "aliases": [
+        "院系设置基础医学与公共卫生学院临床医学与医学检验学院药学院附属医院研究院",
+        "基础医学与公共卫生学院"
+      ],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxsz/jcyxyggwsxy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.299Z"
+    },
+    {
+      "id": "unit-4081780f4b",
+      "name": "临床学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxb/jddw/lcxy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.300Z"
+    },
+    {
+      "id": "unit-80dda160a9",
+      "name": "临床医学与医学检验学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxsz/lcyxyyxjyxy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.299Z"
+    },
+    {
+      "id": "unit-82fd22baad",
+      "name": "临床医学院",
+      "unitType": "学院",
+      "aliases": [
+        "实践基地临床医学院教学医院教学基地",
+        "临床医学院"
+      ],
+      "officialWebsite": "https://yxb.ujs.edu.cn/sjjd/lcyxy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.300Z"
+    },
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [
+        "学部简介",
+        "学部概况",
+        "学部概况学部简介历史沿革现任领导机构设置"
+      ],
+      "officialWebsite": "https://yxb.ujs.edu.cn/xbgk/xbjj.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.299Z"
+    },
+    {
+      "id": "unit-2fcd559565",
+      "name": "学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxb/xbgk/xbjj.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.300Z"
+    },
+    {
+      "id": "unit-5435af784b",
+      "name": "研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxsz/yjy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.300Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://yxb.ujs.edu.cn/yxsz/yxy.htm",
+      "sourceUrl": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:04:16.299Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://yxb.ujs.edu.cn/yxb/jddw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:04:16.323Z",
+      "lastCheckedAt": "2026-07-13T14:04:16.323Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.ujs.edu.cn/",
+    "sourceUrls": [
+      "https://yxb.ujs.edu.cn/yxb/jddw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:04:16.323Z",
+    "lastCheckedAt": "2026-07-13T14:04:16.323Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 8,
+    "newUnitCount": 8,
+    "verifiedCount": 8,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

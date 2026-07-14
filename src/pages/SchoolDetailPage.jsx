@@ -127,6 +127,10 @@ export default function SchoolDetailPage() {
   }
 
   const academicUnits = getAcademicUnits(detail);
+  const pendingUnitCount = Array.isArray(detail?.academicUnits)
+    ? detail.academicUnits.filter((unit) => unit.dataStatus === "pending-review").length
+    : 0;
+  const crawlMeta = detail?.crawlMeta || null;
   const detailStatus = detail?.status || school.detailStatus || "building";
 
   return (
@@ -144,6 +148,19 @@ export default function SchoolDetailPage() {
 
         {detailLoading && (
           <Card className="mt-6 p-5 text-sm font-semibold text-slate-500">正在检查学院目录...</Card>
+        )}
+
+        {import.meta.env.DEV && crawlMeta?.status === "failed" && (
+          <Card className="mt-6 border-amber-200 bg-amber-50 p-5 text-sm leading-7 text-amber-800">
+            开发诊断：学院目录抓取失败。{crawlMeta.errorMessage || "请检查来源登记和爬虫报告。"}
+          </Card>
+        )}
+
+        {pendingUnitCount > 0 && (
+          <Card className="mt-6 border-blue-100 bg-blue-50 p-5 text-sm leading-7 text-slate-700">
+            已发现 {pendingUnitCount} 个待人工核验的候选单位。当前默认展示已核验单位，待核验数据会保留在
+            school-details 文件中，后续复核后再公开展示。
+          </Card>
         )}
 
         <div className="mt-6 grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)] lg:items-start">

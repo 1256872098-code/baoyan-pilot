@@ -1,0 +1,385 @@
+{
+  "schoolId": "school-1y3iohh",
+  "name": "北京交通大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T07:51:13.464Z",
+  "academicUnits": [
+    {
+      "id": "unit-b2bbc5af8d",
+      "name": "北京高校思想政治工作研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://bjgxszzx.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.453Z"
+    },
+    {
+      "id": "unit-fdeb6cc3a2",
+      "name": "电气工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ee.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-08fd33563d",
+      "name": "电子信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://eie.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://law.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-4b3275e695",
+      "name": "轨道交通运行控制系统国家工程研究中心",
+      "unitType": "研究中心",
+      "aliases": [
+        "国家轨道交通安全评估研究中心",
+        "轨道交通运行控制系统国家工程研究中心"
+      ],
+      "officialWebsite": "http://www.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cie.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-0118e9fea3",
+      "name": "国家卓越工程师学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://nee.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-770be43108",
+      "name": "机械与电子控制工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mece.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-c3c6a226ca",
+      "name": "计算机科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cs.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-6650eabcd9",
+      "name": "建筑与设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://saad.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-5f852a4d46",
+      "name": "交通运输学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://trans.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sem.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-459c35d9bf",
+      "name": "科学技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://kyy.bjtu.edu.cn/cms",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mkszyxy.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-26208f7c3a",
+      "name": "软件学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sse.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-1c854d6dd2",
+      "name": "深圳研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "北京交通大学深圳研究院"
+      ],
+      "officialWebsite": "http://www.bjtu-sz.com/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.453Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://soms.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-a4d4cf97e1",
+      "name": "碳中和与环境学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://env.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-8044db5d03",
+      "name": "唐山研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "北京交通大学唐山研究院"
+      ],
+      "officialWebsite": "http://tangshan.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.453Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sports.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-934862e205",
+      "name": "土木建筑工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://civil.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-546a32888a",
+      "name": "网络空间安全学院(国家保密学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cst.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-3894c2d3c3",
+      "name": "威海国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wh.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-9c96f20b31",
+      "name": "物理科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://spse.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-1e0eb5893b",
+      "name": "系统科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sss.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-cba33d8e96",
+      "name": "先进轨道交通自主运行全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://rtlab.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-81ae52fa32",
+      "name": "詹天佑学院(智慧交通未来技术学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://zhantianyou.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    },
+    {
+      "id": "unit-f7af9bf56a",
+      "name": "长三角研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "北京交通大学长三角研究院"
+      ],
+      "officialWebsite": "http://www.bjtucsj.org/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.453Z"
+    },
+    {
+      "id": "unit-5468435b82",
+      "name": "自动化与智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ai.bjtu.edu.cn/",
+      "sourceUrl": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T07:51:13.452Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T06:22:56.481Z",
+      "lastCheckedAt": "2026-07-13T06:22:56.481Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "sourceUrls": [
+      "https://www.bjtu.edu.cn/xxgk/jgsz/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T07:51:13.464Z",
+    "verifiedCount": 29,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

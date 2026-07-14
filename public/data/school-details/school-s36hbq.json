@@ -1,0 +1,178 @@
+{
+  "schoolId": "school-s36hbq",
+  "name": "天津体育学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:49:53.257Z",
+  "academicUnits": [
+    {
+      "id": "unit-497ead2d4a",
+      "name": "传媒与艺术学院(国际教育学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2089.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-4f91cf13e1",
+      "name": "教育与心理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2085.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-f8fe2bc3fe",
+      "name": "竞技运动学院(竞技体育学校)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2087.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2109.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-8934b439f0",
+      "name": "墨盾书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2792.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-3f38f3ec00",
+      "name": "社会体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2093.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-220c845c04",
+      "name": "体育教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2097.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-958d65e988",
+      "name": "体育经济与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2108.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-6a0002944c",
+      "name": "武术与民族传统体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2152.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-e8904c9bf4",
+      "name": "运动健康学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2406.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-7268c55950",
+      "name": "运动训练学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjus.edu.cn/info/1184/2084.htm",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    },
+    {
+      "id": "unit-fa4a0f91c0",
+      "name": "中国排球学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://vac.tjus.edu.cn/",
+      "sourceUrl": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:49:53.242Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tjus.edu.cn/jgsz1/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:49:53.257Z",
+      "lastCheckedAt": "2026-07-13T12:49:53.257Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tjus.edu.cn/",
+    "sourceUrls": [
+      "https://www.tjus.edu.cn/jgsz1/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:49:53.257Z",
+    "lastCheckedAt": "2026-07-13T12:49:53.257Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 12,
+    "newUnitCount": 12,
+    "verifiedCount": 12,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schoolId": "school-kex31e",
+  "name": "华南师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:26:44.978Z",
+  "academicUnits": [
+    {
+      "id": "unit-4e595fc354",
+      "name": "半导体科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/yuanxishezhi/bandaotikexueyujishuxueyuan/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-eed23959e6",
+      "name": "北斗研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/yuanxishezhi/beidouyanjiuyuan/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-7a3d0dd37f",
+      "name": "电子与信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/yuanxishezhi/dianziyuxinxigongchengxueyuan/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-6ddce00bb3",
+      "name": "工学部",
+      "unitType": "学部",
+      "aliases": [
+        "华南师范大学工学部"
+      ],
+      "officialWebsite": "http://gxb.scnu.edu.cn/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [
+        "学部概况学部简介学部领导组织机构行政单位",
+        "学部概况"
+      ],
+      "officialWebsite": "http://gxb.scnu.edu.cn/xuebugaikuang/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-2fcd559565",
+      "name": "学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/xuebugaikuang/xuebujianjie/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-b00d9dee2d",
+      "name": "学部领导",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/xuebugaikuang/xuebulingdao/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    },
+    {
+      "id": "unit-d97a8f3f9e",
+      "name": "院系设置半导体科学与技术学院电子与信息工程学院人工智能学院北斗研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://gxb.scnu.edu.cn/yuanxishezhi/",
+      "sourceUrl": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:26:44.971Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:26:44.978Z",
+      "lastCheckedAt": "2026-07-14T01:26:44.978Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://gxb.scnu.edu.cn/",
+    "sourceUrls": [
+      "http://gxb.scnu.edu.cn/yuanxishezhi/rengongzhinengxueyuan"
+    ],
+    "lastCrawledAt": "2026-07-14T01:26:44.978Z",
+    "lastCheckedAt": "2026-07-14T01:26:44.978Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 9,
+    "newUnitCount": 9,
+    "verifiedCount": 9,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

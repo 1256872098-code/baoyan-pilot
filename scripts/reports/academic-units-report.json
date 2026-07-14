@@ -1,23 +1,239 @@
 {
-  "generatedAt": "2026-07-13T05:53:13.410Z",
-  "schoolTotal": 427,
-  "detailFileCount": 1,
-  "schoolsWithAcademicUnits": 1,
-  "totalAcademicUnits": 2,
-  "pendingReviewSchools": 0,
-  "reviewItemCount": 0,
-  "missingDetailSchools": 426,
-  "schools": [
+  "generatedAt": "2026-07-13T13:37:48.253Z",
+  "schoolsTotal": 427,
+  "registeredOfficialWebsiteCount": 104,
+  "autoDiscoveredOfficialWebsiteCount": 89,
+  "pendingWebsiteReviewCount": 16,
+  "sourceNotFoundCount": 26,
+  "schoolDetailsFileCount": 104,
+  "academicUnitsNonEmptySchoolCount": 77,
+  "academicUnitsEmptySchoolCount": 27,
+  "configuredSourceCount": 104,
+  "registeredAcademicUnitPageCount": 78,
+  "autoDiscoveredSourceCount": 78,
+  "failedCount": 0,
+  "crawlFailedCount": 0,
+  "parseFailedCount": 6,
+  "pendingReviewCount": 39,
+  "schoolIdMismatchCount": 0,
+  "frontendDisplayableUnitCount": 1642,
+  "pendingUnitCount": 6,
+  "idMismatch": [],
+  "sampleDetails": [
     {
-      "schoolId": "school-1rf8t7b",
-      "schoolName": "北京大学",
-      "file": "school-1rf8t7b.json",
-      "unitCount": 2,
-      "statusCounts": {
-        "building": 2
-      },
-      "sourceCount": 1,
-      "lastUpdated": null
+      "file": "school-10wwmi4.json",
+      "schoolId": "school-10wwmi4",
+      "name": "天津外国语大学",
+      "units": 14,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.tjfsu.edu.cn/",
+        "sourceUrls": [
+          "https://www.tjfsu.edu.cn/40/list.htm"
+        ],
+        "lastCrawledAt": "2026-07-13T12:48:47.472Z",
+        "lastCheckedAt": "2026-07-13T12:48:47.472Z",
+        "searchRequestCount": 1,
+        "previousUnitCount": 0,
+        "currentUnitCount": 14,
+        "newUnitCount": 14,
+        "verifiedCount": 14,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
+    },
+    {
+      "file": "school-1118awu.json",
+      "schoolId": "school-1118awu",
+      "name": "沈阳工业大学",
+      "units": 0,
+      "crawlMeta": {
+        "status": "not-found",
+        "officialWebsite": "",
+        "sourceUrls": [],
+        "lastCrawledAt": "2026-07-13T13:20:38.827Z",
+        "lastCheckedAt": "2026-07-13T13:20:38.827Z",
+        "searchRequestCount": 2,
+        "previousUnitCount": 0,
+        "currentUnitCount": 0,
+        "newUnitCount": 0,
+        "verifiedCount": 0,
+        "pendingCount": 0,
+        "failureStage": "website-discovery",
+        "errorMessage": "title contains school name"
+      }
+    },
+    {
+      "file": "school-11envda.json",
+      "schoolId": "school-11envda",
+      "name": "燕山大学",
+      "units": 0,
+      "crawlMeta": {
+        "status": "manual-source-required",
+        "officialWebsite": "",
+        "sourceUrls": [],
+        "lastCrawledAt": "2026-07-13T13:03:24.915Z",
+        "lastCheckedAt": "2026-07-13T13:03:24.915Z",
+        "searchRequestCount": 0,
+        "previousUnitCount": 3,
+        "currentUnitCount": 0,
+        "newUnitCount": 0,
+        "verifiedCount": 0,
+        "pendingCount": 0,
+        "errorMessage": "Invalid non-directory or non-school source was removed; official academic unit source needs rediscovery or manual verification."
+      }
+    },
+    {
+      "file": "school-14zeq83.json",
+      "schoolId": "school-14zeq83",
+      "name": "沈阳音乐学院",
+      "units": 0,
+      "crawlMeta": {
+        "status": "not-found",
+        "officialWebsite": "",
+        "sourceUrls": [],
+        "lastCrawledAt": "2026-07-13T13:31:38.580Z",
+        "lastCheckedAt": "2026-07-13T13:31:38.580Z",
+        "searchRequestCount": 2,
+        "previousUnitCount": 0,
+        "currentUnitCount": 0,
+        "newUnitCount": 0,
+        "verifiedCount": 0,
+        "pendingCount": 0,
+        "failureStage": "website-discovery",
+        "errorMessage": "third-party candidate rejected"
+      }
+    },
+    {
+      "file": "school-151zru7.json",
+      "schoolId": "school-151zru7",
+      "name": "内蒙古工业大学",
+      "units": 0,
+      "crawlMeta": {
+        "status": "pending-review",
+        "officialWebsite": "http://jwch.imut.edu.cn/",
+        "sourceUrls": [],
+        "lastCrawledAt": "2026-07-13T13:18:09.247Z",
+        "lastCheckedAt": "2026-07-13T13:18:09.247Z",
+        "searchRequestCount": 3,
+        "previousUnitCount": 0,
+        "currentUnitCount": 0,
+        "newUnitCount": 0,
+        "verifiedCount": 0,
+        "pendingCount": 0,
+        "failureStage": "academic-unit-page-discovery",
+        "errorMessage": "未找到可靠院系目录页面。"
+      }
+    },
+    {
+      "file": "school-15grunp.json",
+      "schoolId": "school-15grunp",
+      "name": "中央美术学院",
+      "units": 17,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.cafa.edu.cn/",
+        "sourceUrls": [
+          "https://www.cafa.edu.cn/sp/nljg?j=171"
+        ],
+        "lastCrawledAt": "2026-07-13T12:40:22.625Z",
+        "lastCheckedAt": "2026-07-13T12:40:22.625Z",
+        "searchRequestCount": 2,
+        "previousUnitCount": 0,
+        "currentUnitCount": 17,
+        "newUnitCount": 17,
+        "verifiedCount": 17,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
+    },
+    {
+      "file": "school-15v6lei.json",
+      "schoolId": "school-15v6lei",
+      "name": "天津商业大学",
+      "units": 16,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.tjcu.edu.cn/",
+        "sourceUrls": [
+          "https://www.tjcu.edu.cn/index/xsyg/23.htm"
+        ],
+        "lastCrawledAt": "2026-07-13T12:48:52.095Z",
+        "lastCheckedAt": "2026-07-13T12:48:52.095Z",
+        "searchRequestCount": 2,
+        "previousUnitCount": 0,
+        "currentUnitCount": 16,
+        "newUnitCount": 16,
+        "verifiedCount": 16,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
+    },
+    {
+      "file": "school-15yb7nc.json",
+      "schoolId": "school-15yb7nc",
+      "name": "沈阳师范大学",
+      "units": 25,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.synu.edu.cn/",
+        "sourceUrls": [
+          "https://www.synu.edu.cn/jxjg/list.htm"
+        ],
+        "lastCrawledAt": "2026-07-13T13:29:12.896Z",
+        "lastCheckedAt": "2026-07-13T13:29:12.896Z",
+        "searchRequestCount": 2,
+        "previousUnitCount": 0,
+        "currentUnitCount": 25,
+        "newUnitCount": 25,
+        "verifiedCount": 25,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
+    },
+    {
+      "file": "school-16jkzuj.json",
+      "schoolId": "school-16jkzuj",
+      "name": "对外经济贸易大学",
+      "units": 10,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.uibe.edu.cn/",
+        "sourceUrls": [
+          "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm"
+        ],
+        "lastCrawledAt": "2026-07-13T08:52:06.481Z",
+        "lastCheckedAt": "2026-07-13T08:52:06.481Z",
+        "searchRequestCount": 1,
+        "previousUnitCount": 6,
+        "currentUnitCount": 10,
+        "newUnitCount": 4,
+        "verifiedCount": 10,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
+    },
+    {
+      "file": "school-17r6flo.json",
+      "schoolId": "school-17r6flo",
+      "name": "内蒙古民族大学",
+      "units": 26,
+      "crawlMeta": {
+        "status": "success",
+        "officialWebsite": "https://www.imun.edu.cn/",
+        "sourceUrls": [
+          "https://www.imun.edu.cn/jgsz/jxdw.htm"
+        ],
+        "lastCrawledAt": "2026-07-13T13:19:42.305Z",
+        "lastCheckedAt": "2026-07-13T13:19:42.305Z",
+        "searchRequestCount": 1,
+        "previousUnitCount": 0,
+        "currentUnitCount": 26,
+        "newUnitCount": 26,
+        "verifiedCount": 26,
+        "pendingCount": 0,
+        "errorMessage": null
+      }
     }
   ]
 }

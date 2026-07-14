@@ -1,0 +1,226 @@
+{
+  "schoolId": "school-sr0lhp",
+  "name": "南京艺术学院",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:10:03.313Z",
+  "academicUnits": [
+    {
+      "id": "unit-6388042517",
+      "name": "传媒学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://media.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-cdde11e8e7",
+      "name": "高等职业教育学院(成人教育学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gzy.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-d8850b1596",
+      "name": "工业设计与智能创新学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://idc.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gjy.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://szw.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-1105c9673f",
+      "name": "美术与书法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ac.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-f091ca61c3",
+      "name": "人文与博物馆学院(艺术研究院)",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://rw.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-7608afc877",
+      "name": "设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://dc.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-53b082f272",
+      "name": "数字艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://da.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-c1cf630571",
+      "name": "文化产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cci.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-41f46f3ff6",
+      "name": "舞蹈学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wd.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-4a15828302",
+      "name": "戏剧与影视学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mt.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-bd60984722",
+      "name": "现代音乐与科技学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://pop.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-5435af784b",
+      "name": "研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://ysxyjs.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    },
+    {
+      "id": "unit-eb37b2b705",
+      "name": "艺术科研科研信息科研平台研究院学术期刊",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.nua.edu.cn/ysky/list.htm",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.292Z"
+    },
+    {
+      "id": "unit-c8f6ddc916",
+      "name": "音乐学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mc.nua.edu.cn/",
+      "sourceUrl": "https://www.nua.edu.cn/xysz/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:10:03.291Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.nua.edu.cn/xysz/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:10:03.313Z",
+      "lastCheckedAt": "2026-07-13T14:10:03.313Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.nua.edu.cn/",
+    "sourceUrls": [
+      "https://www.nua.edu.cn/xysz/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:10:03.313Z",
+    "lastCheckedAt": "2026-07-13T14:10:03.313Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 16,
+    "newUnitCount": 16,
+    "verifiedCount": 16,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schoolId": "school-5ynjpr",
+  "name": "天津师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:48:05.866Z",
+  "academicUnits": [
+    {
+      "id": "unit-7f678de61c",
+      "name": "05地理学部赴河北区教育局、育婴里小学开展访企拓岗活动",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.tjnu.edu.cn/info/1064/9321.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-df711db5bb",
+      "name": "05地理学部赴天津市第一百中学开展“津门名企行”就业直通车活动",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.tjnu.edu.cn/info/1064/9319.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-ae1f125a5b",
+      "name": "教育教学研究生教育本科生教育实验室柳江实习平台",
+      "unitType": "研究中心",
+      "aliases": [
+        "教育教学返回上一级研究生教育本科生教育实验室柳江实习平台",
+        "教育教学研究生教育本科生教育实验室柳江实习平台"
+      ],
+      "officialWebsite": "https://csyhj.tjnu.edu.cn/jyjx/yjsjy.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-4ae2c4c7e7",
+      "name": "实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://csyhj.tjnu.edu.cn/jyjx/sys.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-4f914f74c7",
+      "name": "实验室安全",
+      "unitType": "研究中心",
+      "aliases": [
+        "实验室安全法规政策学校管理制度学院管理制度安全检查及教育",
+        "实验室安全",
+        "实验室安全返回上一级法规政策学校管理制度学院管理制度安全检查及教育"
+      ],
+      "officialWebsite": "https://csyhj.tjnu.edu.cn/sysaq.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [
+        "学部简介",
+        "学部概况",
+        "学部概况学部简介现任领导机构设置",
+        "学部概况返回上一级学部简介现任领导机构设置"
+      ],
+      "officialWebsite": "https://csyhj.tjnu.edu.cn/xbgk/xbjj.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    },
+    {
+      "id": "unit-f22b2df418",
+      "name": "学院管理制度",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://csyhj.tjnu.edu.cn/sysaq/xyglzd.htm",
+      "sourceUrl": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:05.845Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:48:05.866Z",
+      "lastCheckedAt": "2026-07-13T12:48:05.866Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://csyhj.tjnu.edu.cn/",
+    "sourceUrls": [
+      "https://csyhj.tjnu.edu.cn/zsjy/jygz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:48:05.866Z",
+    "lastCheckedAt": "2026-07-13T12:48:05.866Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 7,
+    "newUnitCount": 7,
+    "verifiedCount": 7,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

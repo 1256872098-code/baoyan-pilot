@@ -1,0 +1,264 @@
+{
+  "schoolId": "school-6gavg5",
+  "name": "河北工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:52:35.310Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://clxy.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.289Z"
+    },
+    {
+      "id": "unit-fdeb6cc3a2",
+      "name": "电气工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ee.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.289Z"
+    },
+    {
+      "id": "unit-08fd33563d",
+      "name": "电子信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://eie.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sie.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-f5619c0c99",
+      "name": "国际现代商贸物流学院/廊坊分校",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lf.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-108f3c3a56",
+      "name": "化工学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://chemeng.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.289Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mes.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-e9d9b506c4",
+      "name": "建筑与艺术设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jzyyssjxy.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sem.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://science.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-ffb69d904a",
+      "name": "利物浦学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://liverpooltech.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://skb.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-6016afe7e7",
+      "name": "能源与环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://see.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-7ce32a522a",
+      "name": "人工智能与数据科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ai.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-d92bbd6e74",
+      "name": "人文与法律学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wenfa.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-344ce73bea",
+      "name": "生命科学与健康工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hsbme.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-6e3bae40d6",
+      "name": "土木与交通学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tm.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sfl.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    },
+    {
+      "id": "unit-f2e975696c",
+      "name": "亚利桑那工业学院",
+      "unitType": "学院",
+      "aliases": [
+        "河北工业大学亚利桑那工业学院"
+      ],
+      "officialWebsite": "https://hatech.hebut.edu.cn/",
+      "sourceUrl": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:52:35.290Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:52:35.310Z",
+      "lastCheckedAt": "2026-07-13T12:52:35.310Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hebut.edu.cn/",
+    "sourceUrls": [
+      "https://www.hebut.edu.cn/jgsz1/yxsz/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:52:35.310Z",
+    "lastCheckedAt": "2026-07-13T12:52:35.310Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 19,
+    "newUnitCount": 19,
+    "verifiedCount": 19,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schoolId": "school-51c749",
+  "name": "长春理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:33:31.948Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://clkx.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-08fd33563d",
+      "name": "电子信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dx.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fx.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-89d586812b",
+      "name": "光电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gd.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sie.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-0505c3f35a",
+      "name": "化学与环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hxhj.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-9970ddd666",
+      "name": "机电工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://me.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-b1cb00cf65",
+      "name": "计算机科学技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cs.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-9e9022d1d6",
+      "name": "交流合作国内合作国际合作国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.cust.edu.cn/jlhz2026/index.htm",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-56716fffbe",
+      "name": "经济管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ems.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-459c35d9bf",
+      "name": "科学技术研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cust.edu.cn/kxyj2026/kxjsyjy2026/index.htm",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-cdf462f870",
+      "name": "科学研究科学技术研究院大学科技园学报",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cust.edu.cn/kxyj2026/index.htm",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mkszyxy.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-89b28f83d4",
+      "name": "人工智能学院、人工智能研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "http://ai.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-d4549a8809",
+      "name": "生命科学技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sls.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-4fe05ca0cd",
+      "name": "圣光机大学联合学院",
+      "unitType": "学院",
+      "aliases": [
+        "长春理工大学圣光机大学联合学院"
+      ],
+      "officialWebsite": "https://itmo.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-0e616301a5",
+      "name": "数学与统计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sxytjxy.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://foreign.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-b7032ea142",
+      "name": "文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wx.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.940Z"
+    },
+    {
+      "id": "unit-7a55376d09",
+      "name": "物理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wlxy.cust.edu.cn/",
+      "sourceUrl": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:33:31.939Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.cust.edu.cn/yxsz2026/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:33:31.948Z",
+      "lastCheckedAt": "2026-07-13T13:33:31.948Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cust.edu.cn/",
+    "sourceUrls": [
+      "https://www.cust.edu.cn/yxsz2026/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:33:31.948Z",
+    "lastCheckedAt": "2026-07-13T13:33:31.948Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 20,
+    "newUnitCount": 20,
+    "verifiedCount": 20,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

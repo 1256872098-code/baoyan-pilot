@@ -1,0 +1,226 @@
+{
+  "schoolId": "school-15v6lei",
+  "name": "天津商业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:48:52.095Z",
+  "academicUnits": [
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-7635a78ec5",
+      "name": "公共管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spm.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://glxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-7589d45d75",
+      "name": "国际交流国际交流处国际教育合作学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.tjcu.edu.cn/gjjl.htm",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.076Z"
+    },
+    {
+      "id": "unit-7ae7f1e7f9",
+      "name": "国际教育合作学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://csie.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://kjxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://me.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jjxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://mks.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-7075003c20",
+      "name": "生物技术与食品科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ssxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-37b54d3d68",
+      "name": "实验室建设",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://sbc.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.076Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://tyjxb.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.076Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sfl.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    },
+    {
+      "id": "unit-7b700ebea0",
+      "name": "艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ysxy.tjcu.edu.cn/",
+      "sourceUrl": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:48:52.075Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tjcu.edu.cn/index/xsyg/23.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:48:52.095Z",
+      "lastCheckedAt": "2026-07-13T12:48:52.095Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tjcu.edu.cn/",
+    "sourceUrls": [
+      "https://www.tjcu.edu.cn/index/xsyg/23.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:48:52.095Z",
+    "lastCheckedAt": "2026-07-13T12:48:52.095Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 16,
+    "newUnitCount": 16,
+    "verifiedCount": 16,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

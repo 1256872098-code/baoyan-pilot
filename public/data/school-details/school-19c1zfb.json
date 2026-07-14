@@ -1,0 +1,94 @@
+{
+  "schoolId": "school-19c1zfb",
+  "name": "江西理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:32:12.009Z",
+  "academicUnits": [
+    {
+      "id": "unit-ad2981bfe8",
+      "name": "孔子学院教学点学生总人数",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:32:11.987Z"
+    },
+    {
+      "id": "unit-ac833fff04",
+      "name": "牵头组建国家级重点实验室和工程技术中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:32:11.987Z"
+    },
+    {
+      "id": "unit-c37d807904",
+      "name": "与地方政府建立稳定合作关系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:32:11.987Z"
+    },
+    {
+      "id": "unit-5f3a220fa2",
+      "name": "与世界500强企业建立稳定合作关系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:32:11.987Z"
+    },
+    {
+      "id": "unit-9efa7cc969",
+      "name": "专栏5建设医学部，推进医工结合",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:32:11.987Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://xxgk.jxust.edu.cn/info/1035/1209.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:32:12.009Z",
+      "lastCheckedAt": "2026-07-13T14:32:12.009Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.jxust.edu.cn/",
+    "sourceUrls": [
+      "https://xxgk.jxust.edu.cn/info/1035/1209.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:32:12.009Z",
+    "lastCheckedAt": "2026-07-13T14:32:12.009Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 5,
+    "newUnitCount": 5,
+    "verifiedCount": 5,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

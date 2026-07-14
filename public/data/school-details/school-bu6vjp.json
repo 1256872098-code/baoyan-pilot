@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-bu6vjp",
+  "name": "福建医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:27:17.472Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "parse-failed",
+    "officialWebsite": "https://www.fjmu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:27:17.472Z",
+    "lastCheckedAt": "2026-07-13T14:27:17.472Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

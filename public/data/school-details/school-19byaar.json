@@ -1,0 +1,394 @@
+{
+  "schoolId": "school-19byaar",
+  "name": "中南财经政法大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:56:36.616Z",
+  "academicUnits": [
+    {
+      "id": "unit-fe6b9e0a24",
+      "name": "财政税务学院",
+      "unitType": "学院",
+      "aliases": [
+        "财政税务学院财政系税务系",
+        "财政税务学院"
+      ],
+      "officialWebsite": "https://csxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-31b2d2bc7f",
+      "name": "法律文化研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://flwh.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://law.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-f8458179bd",
+      "name": "法与经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://fyjjxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-f6831767c1",
+      "name": "工商管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gsxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-7635a78ec5",
+      "name": "公共管理学院",
+      "unitType": "学院",
+      "aliases": [
+        "公共管理学院劳动与社会保障系行政管理系城市经济管理系应急与公共人力资源管理系MPA中心",
+        "公共管理学院"
+      ],
+      "officialWebsite": "https://ggglxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-d6328f13b8",
+      "name": "国际法学院",
+      "unitType": "学院",
+      "aliases": [
+        "国际法学院国际公法系国际私法系国际经济法系",
+        "国际法学院"
+      ],
+      "officialWebsite": "https://sil.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://kjxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-f6832385a5",
+      "name": "纪检监察学院(国家治理学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jjjcxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-2cded5c441",
+      "name": "建行学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://jhxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-4833688f32",
+      "name": "金融学院",
+      "unitType": "学院",
+      "aliases": [
+        "金融学院金融学系保险系投资系金融工程系",
+        "金融学院"
+      ],
+      "officialWebsite": "https://finance.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-69a30009fe",
+      "name": "经济贸易学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.zuel.edu.cn/_redirect?siteId=6&columnId=17666&articleId=411530",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-f26c777a01",
+      "name": "经济贸易学院国际贸易系产业经济系区域经济系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jmxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.585Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [
+        "经济学院经济学系国际经济学系数字经济系经济史学系",
+        "经济学院"
+      ],
+      "officialWebsite": "https://jjxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://mkszyxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-fae7890d78",
+      "name": "收入分配与现代财政研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://iidpf.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-36dd826579",
+      "name": "统计与数学学院",
+      "unitType": "学院",
+      "aliases": [
+        "统计与数学学院经济统计系数理统计与数据科学系应用统计系数量经济系应用数学系",
+        "统计与数学学院"
+      ],
+      "officialWebsite": "https://tsxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [
+        "外国语学院英语语言文学系应用英语系日语系",
+        "外国语学院"
+      ],
+      "officialWebsite": "https://wgyxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-0c9c9e89f0",
+      "name": "文澜学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wls.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [
+        "信息工程学院计算机科学与技术系人工智能系大数据管理系数智工程管理系",
+        "信息工程学院"
+      ],
+      "officialWebsite": "https://xagx.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-07be16362e",
+      "name": "刑事司法学院",
+      "unitType": "学院",
+      "aliases": [
+        "刑事司法学院警事科学系法庭科学系",
+        "刑事司法学院"
+      ],
+      "officialWebsite": "https://cjs.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-5376cd710a",
+      "name": "学院导航",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.585Z"
+    },
+    {
+      "id": "unit-bdff12beb9",
+      "name": "哲学院",
+      "unitType": "学院",
+      "aliases": [
+        "哲学院哲学系政治学系社会学系",
+        "哲学院"
+      ],
+      "officialWebsite": "https://zxy.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.583Z"
+    },
+    {
+      "id": "unit-581700a02e",
+      "name": "政府会计研究所",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://zfkj.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-e8d8786151",
+      "name": "知识产权学院",
+      "unitType": "学院",
+      "aliases": [
+        "知识产权学院知识产权法学系知识产权管理系",
+        "知识产权学院"
+      ],
+      "officialWebsite": "https://ipschool.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-8f5dc24e7d",
+      "name": "知识产权研究中心、知识产权学院",
+      "unitType": "研究中心",
+      "aliases": [
+        "知识产权研究中心",
+        "知识产权研究中心、知识产权学院"
+      ],
+      "officialWebsite": "https://iprcn.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    },
+    {
+      "id": "unit-871102b763",
+      "name": "中韩新媒体学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zhxmt.zuel.edu.cn/",
+      "sourceUrl": "http://www.zuel.edu.cn/schools/",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:56:36.584Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://www.zuel.edu.cn/schools/",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:56:36.616Z",
+      "lastCheckedAt": "2026-07-13T14:56:36.616Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.zuel.edu.cn/",
+    "sourceUrls": [
+      "http://www.zuel.edu.cn/schools/"
+    ],
+    "lastCrawledAt": "2026-07-13T14:56:36.616Z",
+    "lastCheckedAt": "2026-07-13T14:56:36.616Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 27,
+    "newUnitCount": 27,
+    "verifiedCount": 27,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

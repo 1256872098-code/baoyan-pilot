@@ -1,0 +1,154 @@
+{
+  "schoolId": "school-101kxj",
+  "name": "哈尔滨理工大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:40:24.149Z",
+  "academicUnits": [
+    {
+      "id": "unit-8e7fe70f2d",
+      "name": "电气工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/dqgcx/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-29de625dbe",
+      "name": "机械工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/jxgcx/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.141Z"
+    },
+    {
+      "id": "unit-49a60f0f40",
+      "name": "基础教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/jcjxb/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-ab22b0a82a",
+      "name": "建筑工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/jzgcx/zxdt.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-316599a27c",
+      "name": "经济管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/jjglx/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-b876939042",
+      "name": "软件工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/rjgcx/zxdt.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-1496d404ab",
+      "name": "食品工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/spgcx/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/tyjxb/zxdt.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-2696bcb688",
+      "name": "外语系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/wyx/zxdt1.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    },
+    {
+      "id": "unit-72457b994a",
+      "name": "艺术系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://rc.hrbust.edu.cn/jgsz/jxdw/ysx/zxdt.htm",
+      "sourceUrl": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:40:24.142Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://rc.hrbust.edu.cn/jgsz/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:40:24.149Z",
+      "lastCheckedAt": "2026-07-13T13:40:24.149Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://rc.hrbust.edu.cn/",
+    "sourceUrls": [
+      "https://rc.hrbust.edu.cn/jgsz/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:40:24.149Z",
+    "lastCheckedAt": "2026-07-13T13:40:24.149Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 10,
+    "newUnitCount": 10,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

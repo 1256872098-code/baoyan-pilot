@@ -1,0 +1,94 @@
+{
+  "schoolId": "school-1pvy7p6",
+  "name": "东华大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:49:32.367Z",
+  "academicUnits": [
+    {
+      "id": "unit-03c7e18faa",
+      "name": "大学案内東華大学国際文化交流学院関連事務室の案内お問合せ",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ices.dhu.edu.cn/dxan/list.htm",
+      "sourceUrl": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:32.360Z"
+    },
+    {
+      "id": "unit-2f918b1bdb",
+      "name": "大学院課程",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ices.dhu.edu.cn/dxykc/list.htm",
+      "sourceUrl": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:32.360Z"
+    },
+    {
+      "id": "unit-ea2fa5c3e0",
+      "name": "国際文化交流学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ices.dhu.edu.cn/gjwhjlxy/list.htm",
+      "sourceUrl": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:32.360Z"
+    },
+    {
+      "id": "unit-b98162898e",
+      "name": "申請案内オンライン申請語学研修学部課程大学院課程奨学金募集要項ダウンロード",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://ices.dhu.edu.cn/sqan/list.htm",
+      "sourceUrl": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:32.360Z"
+    },
+    {
+      "id": "unit-17c292d2f6",
+      "name": "学部課程",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://ices.dhu.edu.cn/xbkc/list.htm",
+      "sourceUrl": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:49:32.360Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://ices.dhu.edu.cn/aboutus/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:49:32.367Z",
+      "lastCheckedAt": "2026-07-13T13:49:32.367Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.dhu.edu.cn/",
+    "sourceUrls": [
+      "https://ices.dhu.edu.cn/aboutus/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:49:32.367Z",
+    "lastCheckedAt": "2026-07-13T13:49:32.367Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 5,
+    "newUnitCount": 5,
+    "verifiedCount": 5,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schoolId": "school-6t1x3n",
+  "name": "华北电力大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:42:16.417Z",
+  "academicUnits": [
+    {
+      "id": "unit-542a26b18c",
+      "name": "电力工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://ee.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-01aea6ee00",
+      "name": "电子与通信工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://dece.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-2372654342",
+      "name": "动力工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://pe.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-5688767868",
+      "name": "法政系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://dlp.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-636932fd96",
+      "name": "国际合作处、国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://net.ncepu.edu.cn/yxsz/f79e67dced924f2ead1bfacbb6e9fefe.htm",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-4bb9f40f37",
+      "name": "环境科学与工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://ese.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-29de625dbe",
+      "name": "机械工程系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://dme.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-1aec846e8d",
+      "name": "计算机系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://cs.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-316599a27c",
+      "name": "经济管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://jg.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://smarx.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-d786340703",
+      "name": "数理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://shlx.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-984c3829ab",
+      "name": "体育教学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://txb.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-2696bcb688",
+      "name": "外语系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://wyx.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.403Z"
+    },
+    {
+      "id": "unit-6b52a5a3ce",
+      "name": "自动化系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://zdh.ncepu.edu.cn/",
+      "sourceUrl": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:42:16.402Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://net.ncepu.edu.cn/yxsz/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:42:16.417Z",
+      "lastCheckedAt": "2026-07-13T12:42:16.417Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://net.ncepu.edu.cn/",
+    "sourceUrls": [
+      "https://net.ncepu.edu.cn/yxsz/index.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:42:16.417Z",
+    "lastCheckedAt": "2026-07-13T12:42:16.417Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 14,
+    "newUnitCount": 14,
+    "verifiedCount": 14,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

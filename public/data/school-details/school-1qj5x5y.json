@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-1qj5x5y",
+  "name": "天津医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T12:47:24.929Z",
+  "academicUnits": [
+    {
+      "id": "unit-cb1266dc41",
+      "name": "学部概况",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.tmu.edu.cn/yxjsxy/xygk/list.htm",
+      "sourceUrl": "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:47:24.922Z"
+    },
+    {
+      "id": "unit-2fcd559565",
+      "name": "学部简介",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.tmu.edu.cn/yxjsxy/xyjj_7859/list.htm",
+      "sourceUrl": "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:47:24.922Z"
+    },
+    {
+      "id": "unit-b00d9dee2d",
+      "name": "学部领导",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.tmu.edu.cn/yxjsxy/xyld/list.htm",
+      "sourceUrl": "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T12:47:24.922Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T12:47:24.929Z",
+      "lastCheckedAt": "2026-07-13T12:47:24.929Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.tmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.tmu.edu.cn/yxjsxy/2024/0304/c7876a69944/page.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T12:47:24.929Z",
+    "lastCheckedAt": "2026-07-13T12:47:24.929Z",
+    "searchRequestCount": 3,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

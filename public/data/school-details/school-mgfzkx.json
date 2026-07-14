@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-mgfzkx",
+  "name": "长春师范大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:36:57.192Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "not-found",
+    "officialWebsite": "",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T13:36:57.192Z",
+    "lastCheckedAt": "2026-07-13T13:36:57.192Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "website-discovery",
+    "errorMessage": "title contains school name"
+  }
+}

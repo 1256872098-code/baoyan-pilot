@@ -1,0 +1,288 @@
+{
+  "schoolId": "school-h5f550",
+  "name": "广东财经大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:28:14.416Z",
+  "academicUnits": [
+    {
+      "id": "unit-580b52548e",
+      "name": "财政税务学院(税务师学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://csgg.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-ea688be8ad",
+      "name": "大数据与人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://info.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-48dc87159d",
+      "name": "地理与环境经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dlyhjjjxy.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-6d07dc960a",
+      "name": "法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://law.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-740beec3ad",
+      "name": "工商管理学院(粤商学院、创新创业学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gsgs.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-5339b1cdd9",
+      "name": "公共管理学院(广东社会公益学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://spm.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://is.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-d2212e659c",
+      "name": "会计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://kjxy.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-4833688f32",
+      "name": "金融学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://finance.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-84a78da773",
+      "name": "经济学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gsjm.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-ad701cac70",
+      "name": "跨境电子商务(产业)学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ibs.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sxzz.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-2102fc270b",
+      "name": "人力资源学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://rlzy.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-b0f5feb080",
+      "name": "人文与传播学院(网络传播学院、出版学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://rwycb.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-17322e3582",
+      "name": "体育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://tyb.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-31be8d300c",
+      "name": "统计与数据科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://shx.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://wy.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-6c4459d950",
+      "name": "湾区影视产业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cts.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-6148b14ad0",
+      "name": "文化旅游学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dlyly.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.407Z"
+    },
+    {
+      "id": "unit-141cce7eb5",
+      "name": "艺术与设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://art.gdufe.edu.cn/",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    },
+    {
+      "id": "unit-5dec85a863",
+      "name": "中密苏里大学联合学院",
+      "unitType": "学院",
+      "aliases": [
+        "广东财经大学中密苏里大学联合学院"
+      ],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:14.408Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.gdufe.edu.cn/zzjg/list.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:28:14.416Z",
+      "lastCheckedAt": "2026-07-14T01:28:14.416Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.gdufe.edu.cn/",
+    "sourceUrls": [
+      "https://www.gdufe.edu.cn/zzjg/list.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:28:14.416Z",
+    "lastCheckedAt": "2026-07-14T01:28:14.416Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 21,
+    "newUnitCount": 21,
+    "verifiedCount": 21,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

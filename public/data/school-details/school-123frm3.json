@@ -1,0 +1,214 @@
+{
+  "schoolId": "school-123frm3",
+  "name": "浙江工业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:12:07.719Z",
+  "academicUnits": [
+    {
+      "id": "unit-944192d464",
+      "name": "版权所有@之江学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.706Z"
+    },
+    {
+      "id": "unit-e914605cca",
+      "name": "创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cxcy.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://me.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-a42fd5d9a2",
+      "name": "建筑学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://archi.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sci.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-cb7647706e",
+      "name": "旅游学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tour.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-ff711ba154",
+      "name": "人文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://rw.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-8c5b5f4661",
+      "name": "商学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://sob.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-7608afc877",
+      "name": "设计学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://des.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://fl.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-9a882a26b2",
+      "name": "信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxgc.zzjc.edu.cn/",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.zzjc.edu.cn/xygk/xyjj1.htm",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    },
+    {
+      "id": "unit-2dda7ca250",
+      "name": "学院简介历任领导现任领导组织机构醉美之江",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:12:07.705Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.zzjc.edu.cn/xygk/zzjg1.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:12:07.719Z",
+      "lastCheckedAt": "2026-07-13T14:12:07.719Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.zzjc.edu.cn/",
+    "sourceUrls": [
+      "https://www.zzjc.edu.cn/xygk/zzjg1.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:12:07.719Z",
+    "lastCheckedAt": "2026-07-13T14:12:07.719Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 15,
+    "newUnitCount": 15,
+    "verifiedCount": 15,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

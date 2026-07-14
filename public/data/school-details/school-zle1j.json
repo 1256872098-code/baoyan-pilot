@@ -1,0 +1,252 @@
+{
+  "schoolId": "school-zle1j",
+  "name": "中国矿业大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:59:22.885Z",
+  "academicUnits": [
+    {
+      "id": "unit-04b49098ef",
+      "name": "(北京)内蒙古研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "中国矿业大学(北京)内蒙古研究院"
+      ],
+      "officialWebsite": "https://nmgyjy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-1ffd6a22b0",
+      "name": "地球科学与测绘工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://dcxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-33124e9b70",
+      "name": "福中书院",
+      "unitType": "书院",
+      "aliases": [],
+      "officialWebsite": "https://fzsy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://glxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-02001390fa",
+      "name": "国家煤矿水害防治工程技术研究中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://nerc.cumtb.edu.cn/index.htm",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-0505c3f35a",
+      "name": "化学与环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://scee.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-30023af18b",
+      "name": "机械与电气工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jdxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-2906062bbc",
+      "name": "科学研究学科建设科学研究中国矿业大学(北京)内蒙古研究院国家大学科技园科技产业",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "https://www.cumtb.edu.cn/kxyj.htm",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-5e853535d4",
+      "name": "理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://lxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-808b0d2999",
+      "name": "力学与土木工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://ljxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://smarx.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-d53eeeba86",
+      "name": "煤炭精细勘探与智能开发全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://feid.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-c19bee4421",
+      "name": "能源与矿业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://nyxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.875Z"
+    },
+    {
+      "id": "unit-6dec8716d1",
+      "name": "人工智能学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ai.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-e61bc5b9ce",
+      "name": "隧道工程灾变防控与智能建养全国重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "http://gdue.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-5d7a688c33",
+      "name": "文法学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wfxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-9f5429bd72",
+      "name": "应急管理与安全工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://aqxy.cumtb.edu.cn/",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    },
+    {
+      "id": "unit-797f32b48f",
+      "name": "重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.cumtb.edu.cn/zdsys.htm",
+      "sourceUrl": "https://www.cumtb.edu.cn/xysz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:59:22.876Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.cumtb.edu.cn/xysz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:59:22.885Z",
+      "lastCheckedAt": "2026-07-13T13:59:22.885Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.cumtb.edu.cn/",
+    "sourceUrls": [
+      "https://www.cumtb.edu.cn/xysz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:59:22.885Z",
+    "lastCheckedAt": "2026-07-13T13:59:22.885Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schoolId": "school-16jkzuj",
+  "name": "对外经济贸易大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T08:52:06.481Z",
+  "academicUnits": [
+    {
+      "id": "unit-ff4f34fe4a",
+      "name": "公共经济系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-9f414850af",
+      "name": "国际政治经济学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://sir.uibe.edu.cn/szdw/gjzzxx/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:29.193Z"
+    },
+    {
+      "id": "unit-85c39b7d43",
+      "name": "国家安全学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://sir.uibe.edu.cn/szdw/gjzzxx1/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:29.193Z"
+    },
+    {
+      "id": "unit-a44cd07ccb",
+      "name": "海关管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-9ae19b75ee",
+      "name": "外交与国际政治学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://sir.uibe.edu.cn/szdw/gjzzjjxx/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:29.193Z"
+    },
+    {
+      "id": "unit-c1a24be44c",
+      "name": "文化产业管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-32a55c5eea",
+      "name": "行政管理系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-eaf16fed2b",
+      "name": "学院概况",
+      "unitType": "学院",
+      "aliases": [
+        "学院概况院长寄语学院简介学系介绍机构设置",
+        "学院概况",
+        "学院概况学院简介历史沿革院训院徽组织机构"
+      ],
+      "officialWebsite": "https://sir.uibe.edu.cn/xygk/yzjy/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-b09f87d6c9",
+      "name": "学院简介",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:52:06.463Z"
+    },
+    {
+      "id": "unit-4d220d7357",
+      "name": "政治学系",
+      "unitType": "系",
+      "aliases": [],
+      "officialWebsite": "https://sir.uibe.edu.cn/szdw/zzxx/index.htm",
+      "sourceUrl": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T08:50:29.193Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://sir.uibe.edu.cn/xygk/xyjj/index.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:43:10.256Z",
+      "lastCheckedAt": "2026-07-13T08:43:10.256Z"
+    },
+    {
+      "title": "学院目录来源",
+      "url": "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T08:52:06.481Z",
+      "lastCheckedAt": "2026-07-13T08:52:06.481Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.uibe.edu.cn/",
+    "sourceUrls": [
+      "https://schpa.uibe.edu.cn/schpa/xygk/zzjg/22420.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T08:52:06.481Z",
+    "lastCheckedAt": "2026-07-13T08:52:06.481Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 6,
+    "currentUnitCount": 10,
+    "newUnitCount": 4,
+    "verifiedCount": 10,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

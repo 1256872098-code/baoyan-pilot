@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-lhhdlk",
+  "name": "深圳大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:28:22.634Z",
+  "academicUnits": [
+    {
+      "id": "unit-7339f17d6b",
+      "name": "学部学院",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "https://www.szu.edu.cn/yxjg/xbxy.htm",
+      "sourceUrl": "https://www.szu.edu.cn/jyjx1/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:22.626Z"
+    },
+    {
+      "id": "unit-5212d6f27f",
+      "name": "学科、学院、专业以及课程设置概况",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.szu.edu.cn/jyjx1/bksjy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:28:22.626Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.szu.edu.cn/jyjx1/bksjy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:28:22.634Z",
+      "lastCheckedAt": "2026-07-14T01:28:22.634Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.szu.edu.cn/",
+    "sourceUrls": [
+      "https://www.szu.edu.cn/jyjx1/bksjy.htm"
+    ],
+    "lastCrawledAt": "2026-07-14T01:28:22.634Z",
+    "lastCheckedAt": "2026-07-14T01:28:22.634Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

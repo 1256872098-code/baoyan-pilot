@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-ootfoe",
+  "name": "广西大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:32:21.085Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.gxu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-14T01:32:21.085Z",
+    "lastCheckedAt": "2026-07-14T01:32:21.085Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

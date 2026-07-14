@@ -1,0 +1,250 @@
+{
+  "schoolId": "school-tetwhr",
+  "name": "浙江中医药大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:13:53.387Z",
+  "academicUnits": [
+    {
+      "id": "unit-d513556a4b",
+      "name": "------学院一览------",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-96c5c6749e",
+      "name": "第二临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-0deb6b27ac",
+      "name": "第三临床医学院(康复医学院)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-239a555ac9",
+      "name": "第四临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-7d93db4e52",
+      "name": "第五临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-705dd12d88",
+      "name": "第一临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-e1fc6a0d9f",
+      "name": "公共卫生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-ba14354f62",
+      "name": "基础医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-1541b1b986",
+      "name": "口腔医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.368Z"
+    },
+    {
+      "id": "unit-f00558525a",
+      "name": "人文与管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-e5594ba64f",
+      "name": "生命科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-42bda8a900",
+      "name": "医学技术与信息工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-93f73d73a1",
+      "name": "中医药科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    },
+    {
+      "id": "unit-3cfb034ebb",
+      "name": "中医药文化研究院",
+      "unitType": "研究院",
+      "aliases": [],
+      "officialWebsite": "",
+      "sourceUrl": "https://www.zcmu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:13:53.367Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.zcmu.edu.cn/rcpy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:13:53.387Z",
+      "lastCheckedAt": "2026-07-13T14:13:53.387Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.zcmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.zcmu.edu.cn/rcpy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:13:53.387Z",
+    "lastCheckedAt": "2026-07-13T14:13:53.387Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

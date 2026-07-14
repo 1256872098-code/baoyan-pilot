@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1pi1lr3",
+  "name": "五邑大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:29:06.430Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.wyu.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-14T01:29:06.430Z",
+    "lastCheckedAt": "2026-07-14T01:29:06.430Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}

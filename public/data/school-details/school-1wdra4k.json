@@ -1,0 +1,253 @@
+{
+  "schoolId": "school-1wdra4k",
+  "name": "沈阳建筑大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:25:12.329Z",
+  "academicUnits": [
+    {
+      "id": "unit-1d40aa5784",
+      "name": "材料科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://cl.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-c612b85631",
+      "name": "电气与控制工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://xxkzgc.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-71366c8169",
+      "name": "工程训练与创新创业学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://gc.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-32c3206095",
+      "name": "管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gl.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-3e357fa699",
+      "name": "国际学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://gjxy.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-ee98ac7a1b",
+      "name": "机械工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jixie.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.319Z"
+    },
+    {
+      "id": "unit-6fa81c504e",
+      "name": "计算机科学与工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cs.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-0216439d78",
+      "name": "建筑与规划学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jz.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.319Z"
+    },
+    {
+      "id": "unit-8480368333",
+      "name": "交通与测绘工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://jiaotong.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-9e520e9f55",
+      "name": "理学部",
+      "unitType": "学部",
+      "aliases": [],
+      "officialWebsite": "http://lxy.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [
+        "马克思主义学院(辽宁省高校网络思想政治工作中心)",
+        "马克思主义学院"
+      ],
+      "officialWebsite": "http://sz.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-6dcfcd7a5d",
+      "name": "设计艺术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yishu.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-0602257b9a",
+      "name": "市政与环境工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://szhj.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-19cd2e2905",
+      "name": "土木工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://tm.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.319Z"
+    },
+    {
+      "id": "unit-8ce613f3c1",
+      "name": "外国语学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://wy.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-ca6dc3482e",
+      "name": "学科建设学位授权点重点学科重点实验室工程中心",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.sjzu.edu.cn/xkjs/xwsqd.htm",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-ef84e64584",
+      "name": "中新国际工程学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://zxgj.sjzu.edu.cn/",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    },
+    {
+      "id": "unit-797f32b48f",
+      "name": "重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.sjzu.edu.cn/xkjs/zdsys.htm",
+      "sourceUrl": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:25:12.320Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.sjzu.edu.cn/zzjg/jxdw.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:25:12.329Z",
+      "lastCheckedAt": "2026-07-13T13:25:12.329Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.sjzu.edu.cn/",
+    "sourceUrls": [
+      "https://www.sjzu.edu.cn/zzjg/jxdw.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:25:12.329Z",
+    "lastCheckedAt": "2026-07-13T13:25:12.329Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 18,
+    "newUnitCount": 18,
+    "verifiedCount": 18,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

@@ -15,7 +15,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.pku.edu.cn/",
+    "officialDomain": "pku.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:14.354Z"
   },
   {
     "id": "school-1s1mepv",
@@ -30,7 +36,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ruc.edu.cn/",
+    "officialDomain": "ruc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:14.380Z"
   },
   {
     "id": "school-1ivlj1f",
@@ -48,7 +60,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tsinghua.edu.cn/",
+    "officialDomain": "tsinghua.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:26.233Z"
   },
   {
     "id": "school-1y3iohh",
@@ -62,7 +80,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bjtu.edu.cn/",
+    "officialDomain": "bjtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:36.314Z"
   },
   {
     "id": "school-1o3f18s",
@@ -76,7 +100,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bjut.edu.cn/",
+    "officialDomain": "bjut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:39.864Z"
   },
   {
     "id": "school-qwbfa6",
@@ -91,7 +121,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.buaa.edu.cn/",
+    "officialDomain": "buaa.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:53.882Z"
   },
   {
     "id": "school-1f6o8aa",
@@ -106,7 +142,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bit.edu.cn/",
+    "officialDomain": "bit.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:29:55.320Z"
   },
   {
     "id": "school-1oj8i5e",
@@ -120,7 +162,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ustb.edu.cn/",
+    "officialDomain": "ustb.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:30:07.243Z"
   },
   {
     "id": "school-1v6nyfz",
@@ -133,7 +181,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ncut.edu.cn/",
+    "officialDomain": "ncut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:30:13.467Z"
   },
   {
     "id": "school-1xxr8hu",
@@ -147,7 +201,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.buct.edu.cn/",
+    "officialDomain": "buct.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:30:25.675Z"
   },
   {
     "id": "school-ekga40",
@@ -160,7 +220,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.btbu.edu.cn/",
+    "officialDomain": "btbu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:16:02.736Z"
   },
   {
     "id": "school-dhffx8",
@@ -173,7 +239,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bift.edu.cn/",
+    "officialDomain": "bift.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:38:32.950Z"
   },
   {
     "id": "school-1lv9fsq",
@@ -203,7 +275,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bucea.edu.cn/",
+    "officialDomain": "bucea.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T08:44:08.475Z"
   },
   {
     "id": "school-4jie16",
@@ -216,7 +294,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://eeayn.com/",
+    "officialDomain": "eeayn.com",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T08:18:57.474Z"
   },
   {
     "id": "school-x8ba2c",
@@ -231,7 +315,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zihuan.cau.edu.cn/",
+    "officialDomain": "zihuan.cau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T08:19:48.694Z"
   },
   {
     "id": "school-1aq9mfi",
@@ -245,7 +335,11 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "websiteStatus": "blocked",
+    "websiteSource": "official-site-returned-403",
+    "websiteConfidence": 0,
+    "lastWebsiteCheckedAt": "2026-07-13T09:14:30.307Z"
   },
   {
     "id": "school-1nve896",
@@ -258,7 +352,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.pumc.edu.cn/",
+    "officialDomain": "pumc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "manual-verified-root",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:59:55.147Z"
   },
   {
     "id": "school-p4rh9h",
@@ -271,7 +371,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ccmu.edu.cn/",
+    "officialDomain": "ccmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:21:38.154Z"
   },
   {
     "id": "school-1xsk41y",
@@ -285,7 +391,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bucm.edu.cn/",
+    "officialDomain": "bucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:22:49.791Z"
   },
   {
     "id": "school-zubin2",
@@ -300,7 +412,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bnu.edu.cn/",
+    "officialDomain": "bnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:44:10.387Z"
   },
   {
     "id": "school-1mzieaw",
@@ -313,7 +431,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cnu.edu.cn/",
+    "officialDomain": "cnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "manual-verified-root",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:59:55.136Z"
   },
   {
     "id": "school-22wnzj",
@@ -330,7 +454,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bfsu.edu.cn/",
+    "officialDomain": "bfsu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:24:17.619Z"
   },
   {
     "id": "school-c0j79y",
@@ -343,7 +473,11 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "websiteStatus": "pending",
+    "websiteSource": "cleared-invalid-source",
+    "websiteConfidence": 0,
+    "lastWebsiteCheckedAt": "2026-07-13T13:03:24.922Z"
   },
   {
     "id": "school-1fxpnyu",
@@ -356,7 +490,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.blcu.edu.cn/",
+    "officialDomain": "blcu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:25:14.056Z"
   },
   {
     "id": "school-rpe0lk",
@@ -370,7 +510,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cuc.edu.cn/",
+    "officialDomain": "cuc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:41:08.903Z"
   },
   {
     "id": "school-1nuijso",
@@ -387,7 +533,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.cufe.edu.cn/",
+    "officialDomain": "cufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:47:26.418Z"
   },
   {
     "id": "school-16jkzuj",
@@ -401,7 +553,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.uibe.edu.cn/",
+    "officialDomain": "uibe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:44:31.408Z"
   },
   {
     "id": "school-1tcnj13",
@@ -414,7 +572,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bwu.edu.cn/",
+    "officialDomain": "bwu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:27:53.060Z"
   },
   {
     "id": "school-6flpnp",
@@ -430,7 +594,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://m.cueb.edu.cn/",
+    "officialDomain": "m.cueb.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T08:28:49.515Z"
   },
   {
     "id": "school-pg9xir",
@@ -443,7 +613,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cfau.edu.cn/",
+    "officialDomain": "cfau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:38:06.918Z"
   },
   {
     "id": "school-juxe64",
@@ -456,7 +632,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ppsuc.edu.cn/",
+    "officialDomain": "ppsuc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:38:08.982Z"
   },
   {
     "id": "school-huxuoh",
@@ -483,7 +665,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bsu.edu.cn/",
+    "officialDomain": "bsu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:38:52.458Z"
   },
   {
     "id": "school-1ix5lil",
@@ -497,7 +685,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ccom.edu.cn/",
+    "officialDomain": "ccom.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:39:25.375Z"
   },
   {
     "id": "school-1h5a10k",
@@ -510,7 +704,11 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "websiteStatus": "pending",
+    "websiteSource": "cleared-invalid-source",
+    "websiteConfidence": 0,
+    "lastWebsiteCheckedAt": "2026-07-13T13:03:24.923Z"
   },
   {
     "id": "school-15grunp",
@@ -523,7 +721,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cafa.edu.cn/",
+    "officialDomain": "cafa.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T12:40:08.355Z"
   },
   {
     "id": "school-1nakfog",
@@ -536,7 +740,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://chntheatre.edu.cn/",
+    "officialDomain": "chntheatre.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T12:40:12.435Z"
   },
   {
     "id": "school-ts05kw",
@@ -564,7 +774,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.muc.edu.cn/",
+    "officialDomain": "muc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:41:27.379Z"
   },
   {
     "id": "school-1r2i1i2",
@@ -595,7 +811,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://net.ncepu.edu.cn/",
+    "officialDomain": "net.ncepu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:42:10.484Z"
   },
   {
     "id": "school-18l0556",
@@ -608,7 +830,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bistu.edu.cn/",
+    "officialDomain": "bistu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:43:03.957Z"
   },
   {
     "id": "school-zdg5d7",
@@ -621,7 +849,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cas.buu.edu.cn/",
+    "officialDomain": "cas.buu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T12:43:01.867Z"
   },
   {
     "id": "school-uwgmsr",
@@ -647,7 +881,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://ky.ucass.edu.cn/",
+    "officialDomain": "ky.ucass.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:43:53.807Z"
   },
   {
     "id": "school-jp57y3",
@@ -662,7 +902,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nankai.edu.cn/",
+    "officialDomain": "nankai.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:44:41.326Z"
   },
   {
     "id": "school-1vryf8u",
@@ -677,7 +923,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tju.edu.cn/",
+    "officialDomain": "tju.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:44:37.948Z"
   },
   {
     "id": "school-9obiiz",
@@ -690,7 +942,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tust.edu.cn/",
+    "officialDomain": "tust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:45:31.974Z"
   },
   {
     "id": "school-1s1uhpd",
@@ -703,7 +961,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tiangong.edu.cn/",
+    "officialDomain": "tiangong.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:45:51.647Z"
   },
   {
     "id": "school-1nr5cwp",
@@ -716,7 +980,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://career.nankai.edu.cn/",
+    "officialDomain": "career.nankai.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T12:46:33.263Z"
   },
   {
     "id": "school-yzagcn",
@@ -743,7 +1013,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tmu.edu.cn/",
+    "officialDomain": "tmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T12:47:15.472Z"
   },
   {
     "id": "school-18q1c9p",
@@ -756,7 +1032,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tjutcm.edu.cn/",
+    "officialDomain": "tjutcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:47:11.218Z"
   },
   {
     "id": "school-5ynjpr",
@@ -772,7 +1054,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://csyhj.tjnu.edu.cn/",
+    "officialDomain": "csyhj.tjnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:47:54.200Z"
   },
   {
     "id": "school-w2ywqk",
@@ -798,7 +1086,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tjfsu.edu.cn/",
+    "officialDomain": "tjfsu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:48:40.037Z"
   },
   {
     "id": "school-15v6lei",
@@ -811,7 +1105,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tjcu.edu.cn/",
+    "officialDomain": "tjcu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:48:45.206Z"
   },
   {
     "id": "school-7jaky5",
@@ -824,7 +1124,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zhujiang.tjufe.edu.cn/",
+    "officialDomain": "zhujiang.tjufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:49:43.517Z"
   },
   {
     "id": "school-s36hbq",
@@ -837,7 +1143,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tjus.edu.cn/",
+    "officialDomain": "tjus.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:49:43.809Z"
   },
   {
     "id": "school-4frkjs",
@@ -850,7 +1162,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tjarts.edu.cn/",
+    "officialDomain": "tjarts.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:50:36.311Z"
   },
   {
     "id": "school-iww4u2",
@@ -863,7 +1181,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hbu.edu.cn/",
+    "officialDomain": "hbu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T12:50:43.615Z"
   },
   {
     "id": "school-zdyrlm",
@@ -876,7 +1200,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hebeu.edu.cn/",
+    "officialDomain": "hebeu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:51:26.941Z"
   },
   {
     "id": "school-16q8rm2",
@@ -903,7 +1233,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hebut.edu.cn/",
+    "officialDomain": "hebut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:52:25.740Z"
   },
   {
     "id": "school-jlm0dy",
@@ -929,7 +1265,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hebust.edu.cn/",
+    "officialDomain": "hebust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:53:24.447Z"
   },
   {
     "id": "school-3a2bac",
@@ -942,7 +1284,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://hebeedu.cn/",
+    "officialDomain": "hebeedu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:53:49.657Z"
   },
   {
     "id": "school-1d3h5ya",
@@ -955,7 +1303,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hebmu.edu.cn/",
+    "officialDomain": "hebmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:54:12.785Z"
   },
   {
     "id": "school-tk3xhj",
@@ -1007,7 +1361,11 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "websiteStatus": "pending",
+    "websiteSource": "cleared-invalid-source",
+    "websiteConfidence": 0,
+    "lastWebsiteCheckedAt": "2026-07-13T13:03:24.913Z"
   },
   {
     "id": "school-1s6ra1t",
@@ -1020,7 +1378,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hueb.edu.cn/",
+    "officialDomain": "hueb.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:56:48.794Z"
   },
   {
     "id": "school-1lg54a9",
@@ -1046,7 +1410,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sxu.edu.cn/",
+    "officialDomain": "sxu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T12:57:52.927Z"
   },
   {
     "id": "school-ne7gpm",
@@ -1072,7 +1442,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nuc.edu.cn/",
+    "officialDomain": "nuc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:58:37.101Z"
   },
   {
     "id": "school-m0f162",
@@ -1086,7 +1462,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tyut.edu.cn/",
+    "officialDomain": "tyut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:59:10.299Z"
   },
   {
     "id": "school-es2rey",
@@ -1099,7 +1481,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sxie.edu.cn/",
+    "officialDomain": "sxie.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T12:59:48.426Z"
   },
   {
     "id": "school-ghii1c",
@@ -1125,7 +1513,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sxnu.edu.cn/",
+    "officialDomain": "sxnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:15:47.325Z"
   },
   {
     "id": "school-5ate9v",
@@ -1138,7 +1532,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://fx.sxufe.edu.cn/",
+    "officialDomain": "fx.sxufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:16:29.644Z"
   },
   {
     "id": "school-1h3oi13",
@@ -1151,7 +1551,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sxtcm.edu.cn/",
+    "officialDomain": "sxtcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:16:30.680Z"
   },
   {
     "id": "school-915pzc",
@@ -1165,7 +1571,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.imu.edu.cn/",
+    "officialDomain": "imu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:17:14.757Z"
   },
   {
     "id": "school-ioj951",
@@ -1178,7 +1590,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.imust.edu.cn/",
+    "officialDomain": "imust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:17:27.426Z"
   },
   {
     "id": "school-151zru7",
@@ -1191,7 +1609,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://jwch.imut.edu.cn/",
+    "officialDomain": "jwch.imut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:18:07.175Z"
   },
   {
     "id": "school-de6q7q",
@@ -1230,7 +1654,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.imnu.edu.cn/",
+    "officialDomain": "imnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:18:47.410Z"
   },
   {
     "id": "school-17r6flo",
@@ -1243,7 +1673,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.imun.edu.cn/",
+    "officialDomain": "imun.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:19:33.679Z"
   },
   {
     "id": "school-nvcv9i",
@@ -1257,7 +1693,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lnu.edu.cn/",
+    "officialDomain": "lnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:19:31.583Z"
   },
   {
     "id": "school-1spjwm0",
@@ -1272,7 +1714,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://sche.dlut.edu.cn/",
+    "officialDomain": "sche.dlut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:20:18.284Z"
   },
   {
     "id": "school-1118awu",
@@ -1298,7 +1746,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sau.edu.cn/",
+    "officialDomain": "sau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:21:19.181Z"
   },
   {
     "id": "school-ywp39p",
@@ -1313,7 +1767,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.neu.edu.cn/",
+    "officialDomain": "neu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:21:26.540Z"
   },
   {
     "id": "school-bmckeb",
@@ -1326,7 +1786,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ustl.edu.cn/",
+    "officialDomain": "ustl.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:22:20.496Z"
   },
   {
     "id": "school-ttm4vf",
@@ -1339,7 +1805,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lntu.edu.cn/",
+    "officialDomain": "lntu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:22:10.046Z"
   },
   {
     "id": "school-1c9stwn",
@@ -1352,7 +1824,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lnpu.edu.cn/",
+    "officialDomain": "lnpu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:23:09.235Z"
   },
   {
     "id": "school-1qkywks",
@@ -1365,7 +1843,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.syuct.edu.cn/",
+    "officialDomain": "syuct.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:23:08.263Z"
   },
   {
     "id": "school-b6sno3",
@@ -1378,7 +1862,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://jcb.djtu.edu.cn/",
+    "officialDomain": "jcb.djtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:24:08.218Z"
   },
   {
     "id": "school-xgs1gr",
@@ -1392,7 +1882,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dlmu.edu.cn/",
+    "officialDomain": "dlmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:24:11.874Z"
   },
   {
     "id": "school-fjot7m",
@@ -1418,7 +1914,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sjzu.edu.cn/",
+    "officialDomain": "sjzu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:25:03.324Z"
   },
   {
     "id": "school-193a7mv",
@@ -1444,7 +1946,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dlou.edu.cn/",
+    "officialDomain": "dlou.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:25:53.077Z"
   },
   {
     "id": "school-f6udgy",
@@ -1470,7 +1978,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dmu.edu.cn/",
+    "officialDomain": "dmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:27:17.152Z"
   },
   {
     "id": "school-jcqel1",
@@ -1483,7 +1997,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lnutcm.edu.cn/",
+    "officialDomain": "lnutcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:27:17.763Z"
   },
   {
     "id": "school-b9cfo1",
@@ -1496,7 +2016,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://sp.syphu.edu.cn/",
+    "officialDomain": "sp.syphu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:28:04.792Z"
   },
   {
     "id": "school-1t1avx3",
@@ -1509,7 +2035,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lnnu.edu.cn/",
+    "officialDomain": "lnnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:28:42.919Z"
   },
   {
     "id": "school-15yb7nc",
@@ -1522,7 +2054,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.synu.edu.cn/",
+    "officialDomain": "synu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:29:04.722Z"
   },
   {
     "id": "school-1xgt7cl",
@@ -1535,7 +2073,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "officialDomain": "tc.seu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:29:57.538Z"
   },
   {
     "id": "school-vov9o1",
@@ -1548,7 +2092,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dlufl.edu.cn/",
+    "officialDomain": "dlufl.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:30:00.836Z"
   },
   {
     "id": "school-1nnialu",
@@ -1561,7 +2111,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dufe.edu.cn/",
+    "officialDomain": "dufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:30:50.316Z"
   },
   {
     "id": "school-mxdj2h",
@@ -1574,7 +2130,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.syty.edu.cn/",
+    "officialDomain": "syty.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:30:55.308Z"
   },
   {
     "id": "school-14zeq83",
@@ -1600,7 +2162,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lumei.edu.cn/",
+    "officialDomain": "lumei.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:31:34.473Z"
   },
   {
     "id": "school-ote0x",
@@ -1628,7 +2196,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jlu.edu.cn/",
+    "officialDomain": "jlu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:32:25.337Z"
   },
   {
     "id": "school-biv5qh",
@@ -1642,7 +2216,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://ydyxy.ybu.edu.cn/",
+    "officialDomain": "ydyxy.ybu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:33:26.859Z"
   },
   {
     "id": "school-51c749",
@@ -1655,7 +2235,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cust.edu.cn/",
+    "officialDomain": "cust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:33:22.758Z"
   },
   {
     "id": "school-vevdq9",
@@ -1668,7 +2254,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zs.neepu.edu.cn/",
+    "officialDomain": "zs.neepu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:34:10.161Z"
   },
   {
     "id": "school-4w7eej",
@@ -1681,7 +2273,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ccut.edu.cn/",
+    "officialDomain": "ccut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:34:09.018Z"
   },
   {
     "id": "school-fvda4a",
@@ -1694,7 +2292,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jlau.edu.cn/",
+    "officialDomain": "jlau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:35:12.171Z"
   },
   {
     "id": "school-1l86cf",
@@ -1707,7 +2311,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ccucm.edu.cn/",
+    "officialDomain": "ccucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:35:13.861Z"
   },
   {
     "id": "school-3e8asg",
@@ -1721,7 +2331,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://chem.nenu.edu.cn/",
+    "officialDomain": "chem.nenu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:35:52.656Z"
   },
   {
     "id": "school-1krf08x",
@@ -1734,7 +2350,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.beihua.edu.cn/",
+    "officialDomain": "beihua.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:36:03.944Z"
   },
   {
     "id": "school-qly1rd",
@@ -1773,7 +2395,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jdjyw.jlu.edu.cn/",
+    "officialDomain": "jdjyw.jlu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T13:39:12.341Z"
   },
   {
     "id": "school-6f9uah",
@@ -1786,7 +2414,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hlju.edu.cn/",
+    "officialDomain": "hlju.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:39:10.110Z"
   },
   {
     "id": "school-4j5ii9",
@@ -1801,7 +2435,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hitwh.edu.cn/",
+    "officialDomain": "hitwh.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:39:57.806Z"
   },
   {
     "id": "school-101kxj",
@@ -1814,7 +2454,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://rc.hrbust.edu.cn/",
+    "officialDomain": "rc.hrbust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:40:15.807Z"
   },
   {
     "id": "school-i7vzau",
@@ -1828,7 +2474,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hrbeu.edu.cn/",
+    "officialDomain": "hrbeu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:40:53.156Z"
   },
   {
     "id": "school-1l11510",
@@ -1841,7 +2493,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://usth.edu.cn/",
+    "officialDomain": "usth.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:41:00.385Z"
   },
   {
     "id": "school-9ram31",
@@ -1854,7 +2512,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://xxgk.nepu.edu.cn/",
+    "officialDomain": "xxgk.nepu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:41:41.481Z"
   },
   {
     "id": "school-qvg466",
@@ -1880,7 +2544,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.byau.edu.cn/",
+    "officialDomain": "byau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:42:30.145Z"
   },
   {
     "id": "school-12sylbz",
@@ -1894,7 +2564,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://spxy.neau.edu.cn/",
+    "officialDomain": "spxy.neau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:42:54.679Z"
   },
   {
     "id": "school-es00qs",
@@ -1908,7 +2584,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://bksy.nefu.edu.cn/",
+    "officialDomain": "bksy.nefu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:43:51.837Z"
   },
   {
     "id": "school-1u06j9y",
@@ -1921,7 +2603,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hrbmu.edu.cn/",
+    "officialDomain": "hrbmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:43:50.132Z"
   },
   {
     "id": "school-1fsmxm4",
@@ -1960,7 +2648,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qqhru.edu.cn/",
+    "officialDomain": "qqhru.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:45:15.513Z"
   },
   {
     "id": "school-2s294a",
@@ -1973,7 +2667,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hrbcu.edu.cn/",
+    "officialDomain": "hrbcu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:45:17.240Z"
   },
   {
     "id": "school-9akiau",
@@ -1986,7 +2686,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hrbipe.edu.cn/",
+    "officialDomain": "hrbipe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:45:59.081Z"
   },
   {
     "id": "school-lc7cxf",
@@ -2019,7 +2725,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.tongji.edu.cn/",
+    "officialDomain": "tongji.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:46:32.046Z"
   },
   {
     "id": "school-32w23p",
@@ -2037,7 +2749,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sjtu.edu.cn/",
+    "officialDomain": "sjtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:32:20.346Z"
   },
   {
     "id": "school-2cw2mj",
@@ -2064,7 +2782,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.usst.edu.cn/",
+    "officialDomain": "usst.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:48:11.417Z"
   },
   {
     "id": "school-1fwubqx",
@@ -2077,7 +2801,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shmtu.edu.cn/",
+    "officialDomain": "shmtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:48:14.727Z"
   },
   {
     "id": "school-1pvy7p6",
@@ -2091,7 +2821,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.dhu.edu.cn/",
+    "officialDomain": "dhu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:49:12.247Z"
   },
   {
     "id": "school-102r7tz",
@@ -2104,7 +2840,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shiep.edu.cn/",
+    "officialDomain": "shiep.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:49:34.792Z"
   },
   {
     "id": "school-yaso3q",
@@ -2133,7 +2875,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shou.edu.cn/",
+    "officialDomain": "shou.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:32:20.346Z"
   },
   {
     "id": "school-1q97es6",
@@ -2146,7 +2894,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://iec.shutcm.edu.cn/",
+    "officialDomain": "iec.shutcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T13:50:24.649Z"
   },
   {
     "id": "school-jf38xv",
@@ -2164,7 +2918,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ecnu.edu.cn/",
+    "officialDomain": "ecnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:51:31.185Z"
   },
   {
     "id": "school-1t7zoku",
@@ -2177,7 +2937,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shnu.edu.cn/",
+    "officialDomain": "shnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:51:58.888Z"
   },
   {
     "id": "school-1899ae7",
@@ -2191,7 +2957,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shisu.edu.cn/",
+    "officialDomain": "shisu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:52:21.636Z"
   },
   {
     "id": "school-1ugmnw",
@@ -2208,7 +2980,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sufe.edu.cn/",
+    "officialDomain": "sufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "source-registry",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T07:32:20.346Z"
   },
   {
     "id": "school-1m3z29z",
@@ -2221,7 +2999,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.suibe.edu.cn/",
+    "officialDomain": "suibe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:52:50.578Z"
   },
   {
     "id": "school-s1eaxu",
@@ -2234,7 +3018,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ecupl.edu.cn/",
+    "officialDomain": "ecupl.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:53:47.812Z"
   },
   {
     "id": "school-1a9u4ne",
@@ -2260,7 +3050,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shcmusic.edu.cn/",
+    "officialDomain": "shcmusic.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T13:54:21.997Z"
   },
   {
     "id": "school-1486kiv",
@@ -2274,7 +3070,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shu.edu.cn/",
+    "officialDomain": "shu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T13:54:32.400Z"
   },
   {
     "id": "school-1v6kn96",
@@ -2287,7 +3089,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sues.edu.cn/",
+    "officialDomain": "sues.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:55:37.796Z"
   },
   {
     "id": "school-1136e36",
@@ -2300,7 +3108,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.shanghaitech.edu.cn/",
+    "officialDomain": "shanghaitech.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:55:24.898Z"
   },
   {
     "id": "school-1qxjuw8",
@@ -2314,7 +3128,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jiankang.usst.edu.cn/",
+    "officialDomain": "jiankang.usst.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:56:46.574Z"
   },
   {
     "id": "school-1tyy51z",
@@ -2332,7 +3152,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://dawww.nju.edu.cn/",
+    "officialDomain": "dawww.nju.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:56:46.479Z"
   },
   {
     "id": "school-f7hi3d",
@@ -2346,7 +3172,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://tec.suda.edu.cn/",
+    "officialDomain": "tec.suda.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:57:43.201Z"
   },
   {
     "id": "school-158b6rx",
@@ -2361,7 +3193,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.seu.edu.cn/",
+    "officialDomain": "seu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:57:39.640Z"
   },
   {
     "id": "school-4734ke",
@@ -2375,7 +3213,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://nuaa.edu.cn/",
+    "officialDomain": "nuaa.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:58:25.640Z"
   },
   {
     "id": "school-k4cj3m",
@@ -2389,7 +3233,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://zj.njust.edu.cn/",
+    "officialDomain": "zj.njust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:58:26.411Z"
   },
   {
     "id": "school-1tvk2a3",
@@ -2402,7 +3252,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.just.edu.cn/",
+    "officialDomain": "just.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:59:05.521Z"
   },
   {
     "id": "school-zle1j",
@@ -2416,7 +3272,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cumtb.edu.cn/",
+    "officialDomain": "cumtb.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:59:16.866Z"
   },
   {
     "id": "school-clhj2k",
@@ -2429,7 +3291,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.njtech.edu.cn/",
+    "officialDomain": "njtech.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T13:59:51.117Z"
   },
   {
     "id": "school-1hv7udy",
@@ -2442,7 +3310,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cczu.edu.cn/",
+    "officialDomain": "cczu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:00:11.544Z"
   },
   {
     "id": "school-1pm0j22",
@@ -2455,7 +3329,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.njupt.edu.cn/",
+    "officialDomain": "njupt.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:01:32.673Z"
   },
   {
     "id": "school-1flkpp6",
@@ -2469,7 +3349,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hhu.edu.cn/",
+    "officialDomain": "hhu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:01:22.933Z"
   },
   {
     "id": "school-odex9y",
@@ -2483,7 +3369,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jiangnan.edu.cn/",
+    "officialDomain": "jiangnan.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:02:31.782Z"
   },
   {
     "id": "school-1ky5oge",
@@ -2499,7 +3391,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.njfu.edu.cn/",
+    "officialDomain": "njfu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:02:40.266Z"
   },
   {
     "id": "school-1p12tny",
@@ -2512,7 +3410,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ujs.edu.cn/",
+    "officialDomain": "ujs.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:04:06.549Z"
   },
   {
     "id": "school-sd0dr",
@@ -2525,7 +3429,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nuist.edu.cn/",
+    "officialDomain": "nuist.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:03:35.743Z"
   },
   {
     "id": "school-1mcsw0d",
@@ -2538,7 +3448,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ntu.edu.cn/",
+    "officialDomain": "ntu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:05:06.705Z"
   },
   {
     "id": "school-1q5e4gd",
@@ -2552,7 +3468,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://coe.njau.edu.cn/",
+    "officialDomain": "coe.njau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:05:14.971Z"
   },
   {
     "id": "school-eowz3n",
@@ -2565,7 +3487,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.njmu.edu.cn/",
+    "officialDomain": "njmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:06:19.869Z"
   },
   {
     "id": "school-k7kf3q",
@@ -2578,7 +3506,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.xzhmu.edu.cn/",
+    "officialDomain": "xzhmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:06:00.187Z"
   },
   {
     "id": "school-9vpxom",
@@ -2594,7 +3528,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://smls.njucm.edu.cn/",
+    "officialDomain": "smls.njucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:06:45.248Z"
   },
   {
     "id": "school-188415a",
@@ -2608,7 +3548,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.cpu.edu.cn/",
+    "officialDomain": "cpu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:07:11.478Z"
   },
   {
     "id": "school-1uibmu6",
@@ -2622,7 +3568,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jky.njnu.edu.cn/",
+    "officialDomain": "jky.njnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:07:40.538Z"
   },
   {
     "id": "school-d4p4en",
@@ -2635,7 +3587,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.jsnu.edu.cn/",
+    "officialDomain": "jsnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:08:07.060Z"
   },
   {
     "id": "school-qbnz58",
@@ -2648,7 +3606,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nufe.edu.cn/",
+    "officialDomain": "nufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:09:22.968Z"
   },
   {
     "id": "school-1tvi6yz",
@@ -2661,7 +3625,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nsi.edu.cn/",
+    "officialDomain": "nsi.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:09:01.053Z"
   },
   {
     "id": "school-sr0lhp",
@@ -2674,7 +3644,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nua.edu.cn/",
+    "officialDomain": "nua.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:09:57.791Z"
   },
   {
     "id": "school-1ys22yc",
@@ -2687,7 +3663,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://skbs.usts.edu.cn/",
+    "officialDomain": "skbs.usts.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:10:01.353Z"
   },
   {
     "id": "school-y7xx6",
@@ -2731,7 +3713,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hdu.edu.cn/",
+    "officialDomain": "hdu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:11:30.588Z"
   },
   {
     "id": "school-123frm3",
@@ -2744,7 +3732,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zzjc.edu.cn/",
+    "officialDomain": "zzjc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:12:00.513Z"
   },
   {
     "id": "school-fgy7l5",
@@ -2757,7 +3751,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zstu.edu.cn/",
+    "officialDomain": "zstu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:12:16.451Z"
   },
   {
     "id": "school-1vohjyx",
@@ -2770,7 +3770,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zafu.edu.cn/",
+    "officialDomain": "zafu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:12:45.700Z"
   },
   {
     "id": "school-geyvpv",
@@ -2783,7 +3789,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.wmu.edu.cn/",
+    "officialDomain": "wmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:13:36.062Z"
   },
   {
     "id": "school-tetwhr",
@@ -2796,7 +3808,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zcmu.edu.cn/",
+    "officialDomain": "zcmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:13:43.854Z"
   },
   {
     "id": "school-jaj11d",
@@ -2809,7 +3827,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://yjsb.zjnu.edu.cn/",
+    "officialDomain": "yjsb.zjnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:14:41.908Z"
   },
   {
     "id": "school-6q2n0i",
@@ -2822,7 +3846,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hznu.edu.cn/",
+    "officialDomain": "hznu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:14:38.698Z"
   },
   {
     "id": "school-13qrg3b",
@@ -2838,7 +3868,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.zjgsu.edu.cn/",
+    "officialDomain": "zjgsu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:15:12.023Z"
   },
   {
     "id": "school-4bau24",
@@ -2864,7 +3900,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zufe.edu.cn/",
+    "officialDomain": "zufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:16:21.090Z"
   },
   {
     "id": "school-19n96wz",
@@ -2877,7 +3919,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zs.ndky.edu.cn/",
+    "officialDomain": "zs.ndky.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T14:16:41.333Z"
   },
   {
     "id": "school-19js9tt",
@@ -2903,7 +3951,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.nottingham.edu.cn/",
+    "officialDomain": "nottingham.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:17:49.971Z"
   },
   {
     "id": "school-dbveae",
@@ -2932,7 +3986,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ustc.edu.cn/",
+    "officialDomain": "ustc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:18:34.223Z"
   },
   {
     "id": "school-12bh538",
@@ -2946,7 +4006,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hfut.edu.cn/",
+    "officialDomain": "hfut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:20:18.778Z"
   },
   {
     "id": "school-1gdz455",
@@ -2959,7 +4025,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ahut.edu.cn/",
+    "officialDomain": "ahut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:20:05.030Z"
   },
   {
     "id": "school-7sfz1r",
@@ -2972,7 +4044,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://tc.seu.edu.cn/",
+    "officialDomain": "tc.seu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:20:46.700Z"
   },
   {
     "id": "school-1nypg14",
@@ -2985,7 +4063,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zhxy.ahau.edu.cn/",
+    "officialDomain": "zhxy.ahau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:21:02.826Z"
   },
   {
     "id": "school-t61b6m",
@@ -2998,7 +4082,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jc.ahmu.edu.cn/",
+    "officialDomain": "jc.ahmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:21:40.486Z"
   },
   {
     "id": "school-y9sjg8",
@@ -3011,7 +4101,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.bbmu.edu.cn/",
+    "officialDomain": "bbmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:22:02.867Z"
   },
   {
     "id": "school-1lxlzyv",
@@ -3024,7 +4120,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://career.muc.edu.cn/",
+    "officialDomain": "career.muc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T14:22:39.446Z"
   },
   {
     "id": "school-mfjrol",
@@ -3037,7 +4139,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ahtcm.edu.cn/",
+    "officialDomain": "ahtcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:22:59.219Z"
   },
   {
     "id": "school-1xlw3tz",
@@ -3050,7 +4158,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ahnu.edu.cn/",
+    "officialDomain": "ahnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:24:10.342Z"
   },
   {
     "id": "school-i6nbr9",
@@ -3076,7 +4190,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ahjzu.edu.cn/",
+    "officialDomain": "ahjzu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:24:32.227Z"
   },
   {
     "id": "school-nfa6",
@@ -3091,7 +4211,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.xmu.edu.cn/",
+    "officialDomain": "xmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:24:53.795Z"
   },
   {
     "id": "school-1spx2d2",
@@ -3104,7 +4230,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hqu.edu.cn/",
+    "officialDomain": "hqu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:25:26.515Z"
   },
   {
     "id": "school-1q2lc0p",
@@ -3118,7 +4250,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.fzu.edu.cn/",
+    "officialDomain": "fzu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:25:52.892Z"
   },
   {
     "id": "school-myt8sg",
@@ -3134,7 +4272,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.fafu.edu.cn/",
+    "officialDomain": "fafu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:26:23.700Z"
   },
   {
     "id": "school-nixfcg",
@@ -3160,7 +4304,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.fjmu.edu.cn/",
+    "officialDomain": "fjmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:27:14.728Z"
   },
   {
     "id": "school-k6o4og",
@@ -3186,7 +4336,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.fjnu.edu.cn/",
+    "officialDomain": "fjnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:28:58.237Z"
   },
   {
     "id": "school-14df50d",
@@ -3199,7 +4355,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.mnnu.edu.cn/",
+    "officialDomain": "mnnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:28:48.553Z"
   },
   {
     "id": "school-xbe987",
@@ -3213,7 +4375,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://ncuky.edu.cn/",
+    "officialDomain": "ncuky.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:29:57.186Z"
   },
   {
     "id": "school-dc5r38",
@@ -3226,7 +4394,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ecjtu.edu.cn/",
+    "officialDomain": "ecjtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:30:04.950Z"
   },
   {
     "id": "school-1rbpaqr",
@@ -3239,7 +4413,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.ecit.edu.cn/",
+    "officialDomain": "ecit.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:30:51.974Z"
   },
   {
     "id": "school-1fpt7a3",
@@ -3252,7 +4432,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://sx.nchu.edu.cn/",
+    "officialDomain": "sx.nchu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:31:14.940Z"
   },
   {
     "id": "school-19c1zfb",
@@ -3265,7 +4451,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jxust.edu.cn/",
+    "officialDomain": "jxust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:31:49.998Z"
   },
   {
     "id": "school-srbnqm",
@@ -3291,7 +4483,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jxau.edu.cn/",
+    "officialDomain": "jxau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:32:46.455Z"
   },
   {
     "id": "school-14a7w6l",
@@ -3304,7 +4502,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://yxy.jxutcm.edu.cn/",
+    "officialDomain": "yxy.jxutcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:33:42.909Z"
   },
   {
     "id": "school-cn8cf3",
@@ -3330,7 +4534,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://econ.jxufe.edu.cn/",
+    "officialDomain": "econ.jxufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:34:39.189Z"
   },
   {
     "id": "school-13bmry1",
@@ -3345,7 +4555,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdu.edu.cn/",
+    "officialDomain": "sdu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:35:39.557Z"
   },
   {
     "id": "school-fxku90",
@@ -3360,7 +4576,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://news.ouc.edu.cn/",
+    "officialDomain": "news.ouc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T14:36:12.458Z"
   },
   {
     "id": "school-13ampw4",
@@ -3373,7 +4595,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdust.edu.cn/",
+    "officialDomain": "sdust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T14:36:27.243Z"
   },
   {
     "id": "school-13vh78u",
@@ -3386,7 +4614,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qust.edu.cn/",
+    "officialDomain": "qust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:36:57.677Z"
   },
   {
     "id": "school-glth1n",
@@ -3399,7 +4633,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ujn.edu.cn/",
+    "officialDomain": "ujn.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:37:17.168Z"
   },
   {
     "id": "school-2ntotq",
@@ -3412,7 +4652,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qut.edu.cn/",
+    "officialDomain": "qut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:37:49.076Z"
   },
   {
     "id": "school-tilyy0",
@@ -3425,7 +4671,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdjzu.edu.cn/",
+    "officialDomain": "sdjzu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:38:04.736Z"
   },
   {
     "id": "school-775myo",
@@ -3438,7 +4690,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qlu.edu.cn/",
+    "officialDomain": "qlu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:38:42.252Z"
   },
   {
     "id": "school-7wpwpc",
@@ -3451,7 +4709,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdut.edu.cn/",
+    "officialDomain": "sdut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:39:26.106Z"
   },
   {
     "id": "school-ufw7kz",
@@ -3464,7 +4728,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdau.edu.cn/",
+    "officialDomain": "sdau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:39:29.116Z"
   },
   {
     "id": "school-1gvdim9",
@@ -3477,7 +4747,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qau.edu.cn/",
+    "officialDomain": "qau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:40:16.499Z"
   },
   {
     "id": "school-1e720qd",
@@ -3503,7 +4779,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdutcm.edu.cn/",
+    "officialDomain": "sdutcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:40:59.859Z"
   },
   {
     "id": "school-1g328bg",
@@ -3516,7 +4798,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdnu.edu.cn/",
+    "officialDomain": "sdnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:41:17.966Z"
   },
   {
     "id": "school-au24tz",
@@ -3542,7 +4830,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.lcudcc.edu.cn/",
+    "officialDomain": "lcudcc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:42:05.598Z"
   },
   {
     "id": "school-1e45486",
@@ -3555,7 +4849,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdufe.edu.cn/",
+    "officialDomain": "sdufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:42:23.020Z"
   },
   {
     "id": "school-1mvmrfb",
@@ -3568,7 +4868,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sdca.edu.cn/",
+    "officialDomain": "sdca.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:42:54.551Z"
   },
   {
     "id": "school-1xc8qrn",
@@ -3581,7 +4887,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.qdu.edu.cn/",
+    "officialDomain": "qdu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:44:13.947Z"
   },
   {
     "id": "school-1sin8qf",
@@ -3608,7 +4920,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zzu.edu.cn/",
+    "officialDomain": "zzu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:44:48.021Z"
   },
   {
     "id": "school-10ry0v7",
@@ -3621,7 +4939,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hpu.edu.cn/",
+    "officialDomain": "hpu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:45:03.655Z"
   },
   {
     "id": "school-1ykzb0d",
@@ -3634,7 +4958,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zzuli.edu.cn/",
+    "officialDomain": "zzuli.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:45:50.407Z"
   },
   {
     "id": "school-vitwj9",
@@ -3647,7 +4977,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.haut.edu.cn/",
+    "officialDomain": "haut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:46:10.642Z"
   },
   {
     "id": "school-1kr9kbb",
@@ -3660,7 +4996,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://10464.gaokao.haedu.cn/",
+    "officialDomain": "10464.gaokao.haedu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.85,
+    "lastWebsiteCheckedAt": "2026-07-13T14:46:36.459Z"
   },
   {
     "id": "school-1cr9p44",
@@ -3673,7 +5015,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.henau.edu.cn/",
+    "officialDomain": "henau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:46:54.517Z"
   },
   {
     "id": "school-9lcm9d",
@@ -3686,7 +5034,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hactcm.edu.cn/",
+    "officialDomain": "hactcm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:47:22.444Z"
   },
   {
     "id": "school-yb5hus",
@@ -3699,7 +5053,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://www.xxmu.edu.cn/",
+    "officialDomain": "xxmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T14:47:39.933Z"
   },
   {
     "id": "school-1un1456",
@@ -3725,7 +5085,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.htu.edu.cn/",
+    "officialDomain": "htu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:48:46.747Z"
   },
   {
     "id": "school-2gzcxl",
@@ -3738,7 +5104,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.huel.edu.cn/",
+    "officialDomain": "huel.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:49:46.217Z"
   },
   {
     "id": "school-1vzfey1",
@@ -3771,7 +5143,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hust.edu.cn/",
+    "officialDomain": "hust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:50:50.099Z"
   },
   {
     "id": "school-qycpyc",
@@ -3784,7 +5162,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.wust.edu.cn/",
+    "officialDomain": "wust.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:50:42.550Z"
   },
   {
     "id": "school-1wgnlj2",
@@ -3797,7 +5181,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.yangtzeu.edu.cn/",
+    "officialDomain": "yangtzeu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:51:36.726Z"
   },
   {
     "id": "school-1apmx11",
@@ -3810,7 +5200,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.wit.edu.cn/",
+    "officialDomain": "wit.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:51:46.055Z"
   },
   {
     "id": "school-dry7q",
@@ -3823,7 +5219,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jwc.wtu.edu.cn/",
+    "officialDomain": "jwc.wtu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:52:44.082Z"
   },
   {
     "id": "school-jwli6d",
@@ -3836,7 +5238,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://sasne.whpu.edu.cn/",
+    "officialDomain": "sasne.whpu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:52:38.238Z"
   },
   {
     "id": "school-h2q1kw",
@@ -3863,7 +5271,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hbut.edu.cn/",
+    "officialDomain": "hbut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:53:47.056Z"
   },
   {
     "id": "school-1ntuifj",
@@ -3890,7 +5304,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hbucm.edu.cn/",
+    "officialDomain": "hbucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-13T14:54:49.245Z"
   },
   {
     "id": "school-1esnqnk",
@@ -3904,7 +5324,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ccnu.edu.cn/",
+    "officialDomain": "ccnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:55:29.923Z"
   },
   {
     "id": "school-wj53lf",
@@ -3917,7 +5343,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://xxgk.hubu.edu.cn/",
+    "officialDomain": "xxgk.hubu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:55:57.124Z"
   },
   {
     "id": "school-19byaar",
@@ -3931,7 +5363,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.zuel.edu.cn/",
+    "officialDomain": "zuel.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:56:28.006Z"
   },
   {
     "id": "school-9x705",
@@ -3944,7 +5382,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://zs.whsu.edu.cn/",
+    "officialDomain": "zs.whsu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-13T14:57:13.043Z"
   },
   {
     "id": "school-q3dfsc",
@@ -3957,7 +5401,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.scuec.edu.cn/",
+    "officialDomain": "scuec.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:57:14.371Z"
   },
   {
     "id": "school-gazkhs",
@@ -3970,7 +5420,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jhun.edu.cn/",
+    "officialDomain": "jhun.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:58:05.298Z"
   },
   {
     "id": "school-1j85txm",
@@ -3983,7 +5439,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.ctgu.edu.cn/",
+    "officialDomain": "ctgu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-13T14:59:03.453Z"
   },
   {
     "id": "school-1cil2h3",
@@ -4104,7 +5566,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hnucm.edu.cn/",
+    "officialDomain": "hnucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:18:52.045Z"
   },
   {
     "id": "school-12x1mka",
@@ -4118,7 +5586,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hunnu.edu.cn/",
+    "officialDomain": "hunnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:19:48.394Z"
   },
   {
     "id": "school-89xe30",
@@ -4131,7 +5605,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.hutb.edu.cn/",
+    "officialDomain": "hutb.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:19:49.055Z"
   },
   {
     "id": "school-1dpdvi9",
@@ -4144,7 +5624,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.usc.edu.cn/",
+    "officialDomain": "usc.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:21:12.701Z"
   },
   {
     "id": "school-w7pkva",
@@ -4159,7 +5645,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sysu.edu.cn/",
+    "officialDomain": "sysu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:21:11.881Z"
   },
   {
     "id": "school-136vvcp",
@@ -4173,7 +5665,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.jnu.edu.cn/",
+    "officialDomain": "jnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:22:02.017Z"
   },
   {
     "id": "school-m3u0mt",
@@ -4186,7 +5684,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.stu.edu.cn/",
+    "officialDomain": "stu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:22:06.431Z"
   },
   {
     "id": "school-12pzut2",
@@ -4214,7 +5718,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.scau.edu.cn/",
+    "officialDomain": "scau.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:23:15.856Z"
   },
   {
     "id": "school-wtbl7l",
@@ -4227,7 +5737,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gdou.edu.cn/",
+    "officialDomain": "gdou.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:23:16.298Z"
   },
   {
     "id": "school-y2vayh",
@@ -4240,7 +5756,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gzhmu.edu.cn/",
+    "officialDomain": "gzhmu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:24:17.327Z"
   },
   {
     "id": "school-1q4if0c",
@@ -4253,7 +5775,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gzucm.edu.cn/",
+    "officialDomain": "gzucm.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:25:14.026Z"
   },
   {
     "id": "school-1ezbwmf",
@@ -4280,7 +5808,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://gxb.scnu.edu.cn/",
+    "officialDomain": "gxb.scnu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9500000000000001,
+    "lastWebsiteCheckedAt": "2026-07-14T01:26:27.727Z"
   },
   {
     "id": "school-10jbnxn",
@@ -4293,7 +5827,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gzarts.edu.cn/",
+    "officialDomain": "gzarts.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:26:20.606Z"
   },
   {
     "id": "school-lhhdlk",
@@ -4306,7 +5846,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.szu.edu.cn/",
+    "officialDomain": "szu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:27:31.490Z"
   },
   {
     "id": "school-h5f550",
@@ -4319,7 +5865,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gdufe.edu.cn/",
+    "officialDomain": "gdufe.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:28:03.753Z"
   },
   {
     "id": "school-1malrc9",
@@ -4332,7 +5884,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://jyxy.gzhu.edu.cn/",
+    "officialDomain": "jyxy.gzhu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:29:16.095Z"
   },
   {
     "id": "school-1pi1lr3",
@@ -4345,7 +5903,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.wyu.edu.cn/",
+    "officialDomain": "wyu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:29:04.705Z"
   },
   {
     "id": "school-c5vepw",
@@ -4358,7 +5922,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://jwc.gdut.edu.cn/",
+    "officialDomain": "jwc.gdut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-14T01:30:26.793Z"
   },
   {
     "id": "school-jm232k",
@@ -4374,7 +5944,13 @@
     ],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gdufs.edu.cn/",
+    "officialDomain": "gdufs.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:30:18.168Z"
   },
   {
     "id": "school-1ptugvg",
@@ -4400,7 +5976,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "http://portal.smu.edu.cn/",
+    "officialDomain": "portal.smu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 0.9,
+    "lastWebsiteCheckedAt": "2026-07-14T01:31:07.695Z"
   },
   {
     "id": "school-1tkb7hx",
@@ -4413,7 +5995,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.sustech.edu.cn/",
+    "officialDomain": "sustech.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:31:53.549Z"
   },
   {
     "id": "school-ootfoe",
@@ -4427,7 +6015,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.gxu.edu.cn/",
+    "officialDomain": "gxu.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:32:18.863Z"
   },
   {
     "id": "school-tosrab",
@@ -4440,7 +6034,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.guet.edu.cn/",
+    "officialDomain": "guet.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:32:57.479Z"
   },
   {
     "id": "school-m5dqd6",
@@ -4453,7 +6053,13 @@
     "typeTags": [],
     "recommendationQualified": true,
     "recommendationListYear": 2025,
-    "detailStatus": "building"
+    "detailStatus": "building",
+    "officialWebsite": "https://www.glut.edu.cn/",
+    "officialDomain": "glut.edu.cn",
+    "websiteStatus": "verified",
+    "websiteSource": "automatic-search",
+    "websiteConfidence": 1,
+    "lastWebsiteCheckedAt": "2026-07-14T01:33:03.526Z"
   },
   {
     "id": "school-1hr5bbq",

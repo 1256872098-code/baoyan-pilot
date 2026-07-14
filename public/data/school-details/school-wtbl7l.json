@@ -1,0 +1,70 @@
+{
+  "schoolId": "school-wtbl7l",
+  "name": "广东海洋大学",
+  "status": "building",
+  "lastUpdated": "2026-07-14T01:23:45.086Z",
+  "academicUnits": [
+    {
+      "id": "unit-be81b50b8c",
+      "name": "马克思主义学院召开干部教师2026年暑期读书班工作部署会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.gdou.edu.cn/info/1092/76987.htm",
+      "sourceUrl": "https://www.gdou.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:45.070Z"
+    },
+    {
+      "id": "unit-c2e6e07f33",
+      "name": "数学与计算机学院召开2026年干部教师暑期读书班启动会",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.gdou.edu.cn/info/1092/76963.htm",
+      "sourceUrl": "https://www.gdou.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:45.070Z"
+    },
+    {
+      "id": "unit-f390873703",
+      "name": "AI时代设计与教育2026年6月30日(周二)上午9:30博文楼A202丁圆中央美术学院教授",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.gdou.edu.cn/info/1095/76765.htm",
+      "sourceUrl": "https://www.gdou.edu.cn",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-14T01:23:45.070Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.gdou.edu.cn",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-14T01:23:45.086Z",
+      "lastCheckedAt": "2026-07-14T01:23:45.086Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.gdou.edu.cn/",
+    "sourceUrls": [
+      "https://www.gdou.edu.cn"
+    ],
+    "lastCrawledAt": "2026-07-14T01:23:45.086Z",
+    "lastCheckedAt": "2026-07-14T01:23:45.086Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 3,
+    "newUnitCount": 3,
+    "verifiedCount": 3,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

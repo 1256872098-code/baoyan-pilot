@@ -1,0 +1,33 @@
+{
+  "schoolId": "school-1ytmrqi",
+  "name": "同济大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:46:35.826Z",
+  "academicUnits": [],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.tongji.edu.cn/yxjg111/zljg.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:46:35.826Z",
+      "lastCheckedAt": "2026-07-13T13:46:35.826Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "failed",
+    "officialWebsite": "https://www.tongji.edu.cn/",
+    "sourceUrls": [
+      "https://www.tongji.edu.cn/yxjg111/zljg.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:46:35.826Z",
+    "lastCheckedAt": "2026-07-13T13:46:35.826Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "errorMessage": "单校抓取结果数量异常：1"
+  }
+}

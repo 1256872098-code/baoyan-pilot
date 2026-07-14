@@ -1,0 +1,58 @@
+{
+  "schoolId": "school-13qrg3b",
+  "name": "浙江工商大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:15:21.469Z",
+  "academicUnits": [
+    {
+      "id": "unit-fd9ff044b3",
+      "name": "学校与法国ESDES学院签署合作协议",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://news.zjgsu.edu.cn/2/view_23644.html",
+      "sourceUrl": "http://news.zjgsu.edu.cn/17/View_23700.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:15:21.456Z"
+    },
+    {
+      "id": "unit-93d4757f0c",
+      "name": "浙商大马克思主义学院开展清明祭扫...",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://news.zjgsu.edu.cn/3/view_23606.html",
+      "sourceUrl": "http://news.zjgsu.edu.cn/17/View_23700.html",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:15:21.456Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "http://news.zjgsu.edu.cn/17/View_23700.html",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:15:21.469Z",
+      "lastCheckedAt": "2026-07-13T14:15:21.469Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "http://www.zjgsu.edu.cn/",
+    "sourceUrls": [
+      "http://news.zjgsu.edu.cn/17/View_23700.html"
+    ],
+    "lastCrawledAt": "2026-07-13T14:15:21.469Z",
+    "lastCheckedAt": "2026-07-13T14:15:21.469Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 2,
+    "newUnitCount": 2,
+    "verifiedCount": 2,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

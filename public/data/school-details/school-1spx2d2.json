@@ -1,0 +1,85 @@
+{
+  "schoolId": "school-1spx2d2",
+  "name": "华侨大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:25:37.346Z",
+  "academicUnits": [
+    {
+      "id": "unit-3e30f05645",
+      "name": "北京华文学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.bjhwxy.com/",
+      "sourceUrl": "https://www.hqu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:37.331Z"
+    },
+    {
+      "id": "unit-d4ec0f7a56",
+      "name": "合作交流跨境学习合作伙伴友好往来孔子学院(课堂)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hqu.edu.cn/hzjl.htm",
+      "sourceUrl": "https://www.hqu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:37.331Z"
+    },
+    {
+      "id": "unit-2115002888",
+      "name": "华文教育研究院",
+      "unitType": "研究院",
+      "aliases": [
+        "华文学院",
+        "华文教育研究院"
+      ],
+      "officialWebsite": "https://hjw.hqu.edu.cn/",
+      "sourceUrl": "https://www.hqu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:37.330Z"
+    },
+    {
+      "id": "unit-0f63d45a51",
+      "name": "孔子学院(课堂)",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hqu.edu.cn/hzjl/kzxy_kt_.htm",
+      "sourceUrl": "https://www.hqu.edu.cn/rcpy.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T14:25:37.330Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hqu.edu.cn/rcpy.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T14:25:37.346Z",
+      "lastCheckedAt": "2026-07-13T14:25:37.346Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hqu.edu.cn/",
+    "sourceUrls": [
+      "https://www.hqu.edu.cn/rcpy.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T14:25:37.346Z",
+    "lastCheckedAt": "2026-07-13T14:25:37.346Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 4,
+    "newUnitCount": 4,
+    "verifiedCount": 4,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

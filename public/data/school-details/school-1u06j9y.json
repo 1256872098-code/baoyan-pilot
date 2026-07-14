@@ -1,0 +1,291 @@
+{
+  "schoolId": "school-1u06j9y",
+  "name": "哈尔滨医科大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T13:43:58.464Z",
+  "academicUnits": [
+    {
+      "id": "unit-96c5c6749e",
+      "name": "第二临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hrbmush.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-acf993e752",
+      "name": "第六临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://hydly.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-2b30751238",
+      "name": "第三临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://hmucancerhospital.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-239a555ac9",
+      "name": "第四临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://ydsy.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-7d93db4e52",
+      "name": "第五临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.dqsrmyy.com/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-705dd12d88",
+      "name": "第一临床医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.54dr.org.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-e1fc6a0d9f",
+      "name": "公共卫生学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hrbmu.edu.cn/sph",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.455Z"
+    },
+    {
+      "id": "unit-9d56b321c5",
+      "name": "国际教育学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://cie.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-6961275999",
+      "name": "黑龙江省医学科学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hrbmu.edu.cn/ssky",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-9524c13509",
+      "name": "护理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hrbmu.edu.cn/hlxy/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-ba14354f62",
+      "name": "基础医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hrbmu.edu.cn/jcyxy",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.455Z"
+    },
+    {
+      "id": "unit-1541b1b986",
+      "name": "口腔医学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://kq.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-7a4103a66f",
+      "name": "马克思主义学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hrbmu.edu.cn/mkszyxy",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-0389efc6e0",
+      "name": "人文社会科学学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://www.hrbmu.edu.cn/rwsk",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-b438bd11eb",
+      "name": "生物信息科学与技术学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://bioinformatics.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-b774026ec8",
+      "name": "卫生管理学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hrbmu.edu.cn/wsglxyx/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.455Z"
+    },
+    {
+      "id": "unit-fb0088d8c2",
+      "name": "心血管药物研究教育部重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://www.hrbmu.edu.cn/xxgyj/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-22d1b11f6d",
+      "name": "眼科医学院",
+      "unitType": "学院",
+      "aliases": [
+        "儿科学系",
+        "眼科医学院",
+        "伍连德书院",
+        "于维汉书院"
+      ],
+      "officialWebsite": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-2550281aaf",
+      "name": "药学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "http://yxy.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-64137a0fed",
+      "name": "医工交叉学院",
+      "unitType": "学院",
+      "aliases": [],
+      "officialWebsite": "https://www.hrbmu.edu.cn/ygjcxy/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    },
+    {
+      "id": "unit-6d7951cfa9",
+      "name": "中国遗传资源保护与疾病防控教育部重点实验室",
+      "unitType": "研究中心",
+      "aliases": [],
+      "officialWebsite": "https://genetics.hrbmu.edu.cn/",
+      "sourceUrl": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "graduateAdmissionsRelevant": null,
+      "dataStatus": "verified",
+      "confidence": 0.9,
+      "lastCheckedAt": "2026-07-13T13:43:58.456Z"
+    }
+  ],
+  "sources": [
+    {
+      "title": "学院目录来源",
+      "url": "https://www.hrbmu.edu.cn/yxbm/yxsz.htm",
+      "sourceType": "school",
+      "publishedAt": null,
+      "crawledAt": "2026-07-13T13:43:58.464Z",
+      "lastCheckedAt": "2026-07-13T13:43:58.464Z"
+    }
+  ],
+  "crawlMeta": {
+    "status": "success",
+    "officialWebsite": "https://www.hrbmu.edu.cn/",
+    "sourceUrls": [
+      "https://www.hrbmu.edu.cn/yxbm/yxsz.htm"
+    ],
+    "lastCrawledAt": "2026-07-13T13:43:58.464Z",
+    "lastCheckedAt": "2026-07-13T13:43:58.464Z",
+    "searchRequestCount": 2,
+    "previousUnitCount": 0,
+    "currentUnitCount": 21,
+    "newUnitCount": 21,
+    "verifiedCount": 21,
+    "pendingCount": 0,
+    "errorMessage": null
+  }
+}

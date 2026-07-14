@@ -1,0 +1,23 @@
+{
+  "schoolId": "school-1jkaaqv",
+  "name": "宁波诺丁汉大学",
+  "status": "building",
+  "lastUpdated": "2026-07-13T14:17:52.750Z",
+  "academicUnits": [],
+  "sources": [],
+  "crawlMeta": {
+    "status": "pending-review",
+    "officialWebsite": "https://www.nottingham.edu.cn/",
+    "sourceUrls": [],
+    "lastCrawledAt": "2026-07-13T14:17:52.750Z",
+    "lastCheckedAt": "2026-07-13T14:17:52.750Z",
+    "searchRequestCount": 1,
+    "previousUnitCount": 0,
+    "currentUnitCount": 0,
+    "newUnitCount": 0,
+    "verifiedCount": 0,
+    "pendingCount": 0,
+    "failureStage": "academic-unit-page-discovery",
+    "errorMessage": "未找到可靠院系目录页面。"
+  }
+}
