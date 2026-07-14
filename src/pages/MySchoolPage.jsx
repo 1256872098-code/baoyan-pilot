@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, FileText, RefreshCcw, Trash2 } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import LoginModal from "../components/LoginModal.jsx";
+import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.jsx";
 import SchoolRatingSection from "../components/school-rating/SchoolRatingSection.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getAcademicUnits } from "../utils/academicUnits.js";
@@ -59,10 +60,10 @@ export default function MySchoolPage() {
   const [schools, setSchools] = useState([]);
   const [schoolsLoading, setSchoolsLoading] = useState(true);
   const [loadError, setLoadError] = useState("");
+  const [reloadKey, setReloadKey] = useState(0);
   const [binding, setBinding] = useState(null);
   const [editing, setEditing] = useState(false);
   const [form, setForm] = useState(emptyBinding);
-  const [schoolSearch, setSchoolSearch] = useState("");
   const [schoolDetail, setSchoolDetail] = useState(null);
   const [collegeDetail, setCollegeDetail] = useState(null);
   const [message, setMessage] = useState("");
@@ -89,7 +90,7 @@ export default function MySchoolPage() {
     }
     loadSchools();
     return () => controller.abort();
-  }, []);
+  }, [reloadKey]);
 
   useEffect(() => {
     const nextBinding = readBinding(user);
@@ -147,12 +148,6 @@ export default function MySchoolPage() {
   }, [binding?.collegeId, binding?.schoolId]);
 
   const academicUnits = useMemo(() => getAcademicUnits(schoolDetail), [schoolDetail]);
-  const filteredSchools = useMemo(() => {
-    const keyword = schoolSearch.trim().toLowerCase();
-    return schools
-      .filter((school) => !keyword || school.name.toLowerCase().includes(keyword))
-      .slice(0, 120);
-  }, [schoolSearch, schools]);
 
   const notices = Array.isArray(collegeDetail?.notices) ? collegeDetail.notices : [];
 
@@ -180,6 +175,18 @@ export default function MySchoolPage() {
 
       return { ...current, [field]: value };
     });
+    setMessage("");
+    setErrorMessage("");
+  };
+
+  const handleSchoolChange = (school) => {
+    setForm((current) => ({
+      ...current,
+      schoolId: school?.id || "",
+      schoolName: school?.name || "",
+      collegeId: "",
+      collegeName: "",
+    }));
     setMessage("");
     setErrorMessage("");
   };
@@ -230,31 +237,17 @@ export default function MySchoolPage() {
       />
 
       <div className="mt-5 grid gap-4 lg:grid-cols-2">
-        <label className="block lg:col-span-2">
-          <span className="field-label">搜索学校</span>
-          <input
-            className="field-control"
-            value={schoolSearch}
-            onChange={(event) => setSchoolSearch(event.target.value)}
-            placeholder="输入学校名称筛选"
-          />
-        </label>
-        <label className="block lg:col-span-2">
+        <div className="block lg:col-span-2">
           <span className="field-label">本科院校</span>
-          <select
-            className="field-control"
+          <SearchableSchoolSelect
+            schools={schools}
             value={form.schoolId}
-            onChange={(event) => updateForm("schoolId", event.target.value)}
+            onChange={handleSchoolChange}
+            placeholder="请选择学校"
             disabled={schoolsLoading}
-          >
-            <option value="">{schoolsLoading ? "正在加载院校..." : "请选择学校"}</option>
-            {filteredSchools.map((school) => (
-              <option key={school.id} value={school.id}>
-                {school.name}
-              </option>
-            ))}
-          </select>
-        </label>
+            loading={schoolsLoading}
+          />
+        </div>
         <label className="block">
           <span className="field-label">学院</span>
           <select
@@ -263,7 +256,13 @@ export default function MySchoolPage() {
             onChange={(event) => updateForm("collegeId", event.target.value)}
             disabled={!form.schoolId || !academicUnits.length}
           >
-            <option value="">{academicUnits.length ? "可先不选择学院" : "学院目录尚未补充，可先只绑定学校"}</option>
+            <option value="">
+              {!form.schoolId
+                ? "请先选择本科院校"
+                : academicUnits.length
+                  ? "可先不选择学院"
+                  : "学院目录尚未补充，可先只绑定学校"}
+            </option>
             {academicUnits.map((unit) => (
               <option key={unit.id} value={unit.id}>
                 {unit.name}
@@ -295,7 +294,15 @@ export default function MySchoolPage() {
       {errorMessage && <p className="mt-3 text-sm font-semibold text-red-600">{errorMessage}</p>}
       <div className="mt-5 flex flex-wrap justify-end gap-2">
         {binding && (
-          <button type="button" className="btn-secondary" onClick={() => setEditing(false)}>
+          <button
+            type="button"
+            className="btn-secondary"
+            onClick={() => {
+              setForm(binding);
+              setErrorMessage("");
+              setEditing(false);
+            }}
+          >
             取消修改
           </button>
         )}
@@ -322,7 +329,16 @@ export default function MySchoolPage() {
         )}
 
         {loadError && (
-          <div className="mt-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{loadError}</div>
+          <div className="mt-4 flex flex-col gap-3 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700 sm:flex-row sm:items-center sm:justify-between">
+            <span>{loadError}</span>
+            <button
+              type="button"
+              className="rounded-md border border-red-200 bg-white px-3 py-1.5 text-xs font-semibold text-red-700 transition hover:border-red-300"
+              onClick={() => setReloadKey((value) => value + 1)}
+            >
+              重新加载
+            </button>
+          </div>
         )}
         {message && (
           <div className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
