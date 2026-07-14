@@ -1,0 +1,76 @@
+[
+  {
+    "schoolId": "school-f17pfd",
+    "schoolName": "上海海洋大学",
+    "officialDomains": [
+      "shou.edu.cn",
+      "www.shou.edu.cn",
+      "jwc.shou.edu.cn",
+      "yjs.shou.edu.cn",
+      "xxgk.shou.edu.cn",
+      "jmxy.shou.edu.cn"
+    ],
+    "sourcePages": [
+      {
+        "name": "经济管理学院2026届推免工作通知",
+        "url": "https://jmxy.shou.edu.cn/2025/0817/c17373a345668/page.htm",
+        "sourceType": "college-policy",
+        "year": 2026,
+        "collegeName": "经济管理学院",
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      },
+      {
+        "name": "经济管理学院2026年推免拟推荐名单公示",
+        "url": "https://jmxy.shou.edu.cn/2025/0913/c17373a346025/page.htm",
+        "sourceType": "recommendation-list",
+        "year": 2026,
+        "collegeName": "经济管理学院",
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      },
+      {
+        "name": "上海海洋大学2026年推免生名单公示",
+        "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+        "sourceType": "recommendation-list",
+        "year": 2026,
+        "collegeName": null,
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      },
+      {
+        "name": "经济管理学院2026年接收推免生工作实施细则",
+        "url": "https://jmxy.shou.edu.cn/2025/0918/c889a346164/page.htm",
+        "sourceType": "admission-notice",
+        "year": 2026,
+        "collegeName": "经济管理学院",
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      },
+      {
+        "name": "上海海洋大学2026年接收推免生工作实施办法",
+        "url": "https://yjs.shou.edu.cn/2025/0917/c14263a346101/page.htm",
+        "sourceType": "admission-notice",
+        "year": 2026,
+        "collegeName": null,
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      },
+      {
+        "name": "上海海洋大学2026年硕士研究生拟录取人员名单公示（推免生）",
+        "url": "https://yjs.shou.edu.cn/2025/1111/c18604a348091/page.htm",
+        "sourceType": "admission-list",
+        "year": 2026,
+        "collegeName": null,
+        "enabled": true,
+        "verified": true,
+        "discoveryMethod": "registry"
+      }
+    ]
+  }
+]

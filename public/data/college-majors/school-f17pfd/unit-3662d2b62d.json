@@ -1,0 +1,105 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-3662d2b62d",
+  "collegeName": "信息学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.455Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-98ee7d59f2",
+      "name": "计算机科学与技术",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.455Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "1996",
+        "honors": "市级一流专业"
+      }
+    },
+    {
+      "id": "major-9909dbdfa6",
+      "name": "空间信息与数字技术",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.455Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2010",
+        "honors": "上海市属高校应用型本科试点专业、国家级一流专业"
+      }
+    },
+    {
+      "id": "major-a40c2298e9",
+      "name": "软件工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.455Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2016",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-6e1352dc98",
+      "name": "数据科学与大数据技术",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.455Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2020",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-91f8c4d166",
+      "name": "信息与计算科学",
+      "code": null,
+      "degreeType": "理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "inactive",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.455Z",
+      "meta": {
+        "discipline": "理学",
+        "startYear": "2002",
+        "honors": "2023年停招"
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-88707382a0",
+  "collegeName": "工程学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.449Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-d1cee66181",
+      "name": "机械设计制造及其自动化",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "1958",
+        "honors": "国家级一流专业"
+      }
+    },
+    {
+      "id": "major-f676621ba1",
+      "name": "工业工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2003",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-5885aa9ed5",
+      "name": "电气工程及其自动化",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2007",
+        "honors": "市级一流专业"
+      }
+    },
+    {
+      "id": "major-a64ded447b",
+      "name": "物流工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "inactive",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2008",
+        "honors": "2023年停招"
+      }
+    },
+    {
+      "id": "major-b3f57ddf7e",
+      "name": "测控技术与仪器",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2018",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-07b58820ab",
+      "name": "机器人工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.449Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2021",
+        "honors": ""
+      }
+    }
+  ]
+}

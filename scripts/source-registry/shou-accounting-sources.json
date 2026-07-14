@@ -1,0 +1,99 @@
+[
+  {
+    "schoolName": "上海海洋大学",
+    "collegeName": "经济管理学院",
+    "majorName": "会计学",
+    "sourcePages": [
+      {
+        "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+        "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+        "organization": "上海海洋大学教务处",
+        "graduationYear": 2026,
+        "sourceType": "recommendation-list",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+        "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+        "organization": "上海海洋大学教务处",
+        "graduationYear": 2025,
+        "sourceType": "recommendation-list",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+        "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+        "organization": "上海海洋大学教务处",
+        "graduationYear": 2024,
+        "sourceType": "recommendation-list",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2026届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2026,
+        "sourceType": "policy",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院2025届关于推荐优秀应届本科毕业生免试攻读研究生工作实施办法",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/6c/56/7ba9ffc4456c9ec472a0b9125d60/8ba60394-1033-4d2d-b0b3-938c59ea1139.pdf",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2025,
+        "sourceType": "policy",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院2024年推荐优秀应届本科毕业生免试攻读研究生工作实施办法",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/ea/02/265e94084b37b770c1ea276e4115/13c496cb-dd64-4950-820d-1d0a265c1e53.pdf",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2024,
+        "sourceType": "policy",
+        "sourceLevel": "official",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+        "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2026,
+        "sourceType": "cohort-estimate",
+        "sourceLevel": "third-party-estimate",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作通知",
+        "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2025,
+        "sourceType": "cohort-estimate",
+        "sourceLevel": "third-party-estimate",
+        "enabled": true,
+        "verified": true
+      },
+      {
+        "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作办法",
+        "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+        "organization": "上海海洋大学经济管理学院",
+        "graduationYear": 2024,
+        "sourceType": "cohort-estimate",
+        "sourceLevel": "third-party-estimate",
+        "enabled": true,
+        "verified": true
+      }
+    ]
+  }
+]

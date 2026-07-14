@@ -1,0 +1,43 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "issues": [
+    {
+      "code": "rate-unavailable",
+      "message": "学校层面缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "学校层面未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "经济管理学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "经济管理学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "会计学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "会计学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-07-14T08:06:59.745Z"
+    }
+  ],
+  "generatedAt": "2026-07-14T08:06:59.745Z"
+}

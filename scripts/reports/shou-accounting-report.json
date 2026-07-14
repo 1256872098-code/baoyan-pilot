@@ -1,0 +1,28 @@
+{
+  "school": "上海海洋大学",
+  "college": "经济管理学院",
+  "major": "会计学",
+  "availableYears": [
+    2024,
+    2025,
+    2026
+  ],
+  "recommendedCountYears": [
+    2026,
+    2025,
+    2024
+  ],
+  "recommendationRateYears": [
+    2026,
+    2025,
+    2024
+  ],
+  "officialDataCount": 3,
+  "referenceDataCount": 0,
+  "estimatedDataCount": 3,
+  "policyCount": 1,
+  "rankingRuleCount": 1,
+  "bonusRuleCount": 3,
+  "reviewItems": 0,
+  "generatedAt": "2026-07-14T08:53:34.807Z"
+}

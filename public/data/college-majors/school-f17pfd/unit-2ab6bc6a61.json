@@ -1,0 +1,105 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-2ab6bc6a61",
+  "collegeName": "水产与生命学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.425Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-a7fac896b5",
+      "name": "水产养殖学",
+      "code": null,
+      "degreeType": "农学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.425Z",
+      "meta": {
+        "discipline": "农学",
+        "startYear": "1952",
+        "honors": "国家特色专业、上海市教育高地、国家和上海市本科专业综合改革试点专业、上海市属高校应用型本科试点专业、国家级一流专业"
+      }
+    },
+    {
+      "id": "major-eceb2e1042",
+      "name": "水族科学与技术",
+      "code": null,
+      "degreeType": "农学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.425Z",
+      "meta": {
+        "discipline": "农学",
+        "startYear": "2004",
+        "honors": "上海市教育高地、国家级一流专业"
+      }
+    },
+    {
+      "id": "major-9f97173b74",
+      "name": "水生动物医学",
+      "code": null,
+      "degreeType": "农学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.425Z",
+      "meta": {
+        "discipline": "农学",
+        "startYear": "2013",
+        "honors": "市级一流专业"
+      }
+    },
+    {
+      "id": "major-ba69f55f86",
+      "name": "生物科学",
+      "code": null,
+      "degreeType": "理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.425Z",
+      "meta": {
+        "discipline": "理学",
+        "startYear": "1952",
+        "honors": "国家特色专业、上海市教育高地、上海市优秀专业、国家级一流专业"
+      }
+    },
+    {
+      "id": "major-aba9d1507c",
+      "name": "生物技术",
+      "code": null,
+      "degreeType": "理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.425Z",
+      "meta": {
+        "discipline": "理学",
+        "startYear": "1995",
+        "honors": "市级一流专业"
+      }
+    }
+  ]
+}

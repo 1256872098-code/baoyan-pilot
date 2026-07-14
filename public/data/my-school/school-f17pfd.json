@@ -1,0 +1,879 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "latestDataYear": 2026,
+  "lastUpdatedAt": "2026-07-14T08:53:18.373Z",
+  "dataStatus": "partial",
+  "schoolOverview": {},
+  "recommendationData": {
+    "schoolLevel": {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": null,
+        "collegeName": null,
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": true,
+        "appliesToAllMajors": true
+      },
+      "year": 2026,
+      "recommendationQuota": null,
+      "recommendedCount": 359,
+      "countMethod": "official-list-count",
+      "containsWaitlist": false,
+      "cohortSize": null,
+      "recommendationRate": null,
+      "rateStatus": "unavailable",
+      "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+      "sources": [
+        {
+          "value": 359,
+          "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "sourceTitle": "上海海洋大学2026年推免生名单公示",
+          "publishedAt": null,
+          "sourceOrganization": "上海海洋大学教务处",
+          "sourceType": "recommendation-list",
+          "evidenceText": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示表格计数。",
+          "confidence": 1,
+          "verifiedAt": "2026-07-14T08:06:47.877Z"
+        }
+      ]
+    },
+    "colleges": [
+      {
+        "scope": {
+          "schoolId": "school-f17pfd",
+          "collegeId": "unit-56716fffbe",
+          "collegeName": "经济管理学院",
+          "majorId": null,
+          "majorName": null,
+          "appliesToAllColleges": false,
+          "appliesToAllMajors": true
+        },
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "year": 2026,
+        "recommendationQuota": null,
+        "recommendedCount": 52,
+        "countMethod": "official-list-count",
+        "containsWaitlist": false,
+        "cohortSize": null,
+        "recommendationRate": null,
+        "rateStatus": "unavailable",
+        "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+        "majors": [
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-f447fffcf5",
+              "majorName": "会计学",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-f447fffcf5",
+            "majorName": "会计学",
+            "recommendationQuota": null,
+            "recommendedCount": 9,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 9,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院会计学记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "value": 52,
+            "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+            "sourceTitle": "上海海洋大学2026年推免生名单公示",
+            "publishedAt": null,
+            "sourceOrganization": "上海海洋大学教务处",
+            "sourceType": "recommendation-list",
+            "evidenceText": "官方名单中经济管理学院记录计数。",
+            "confidence": 1,
+            "verifiedAt": "2026-07-14T08:06:47.877Z"
+          }
+        ]
+      }
+    ]
+  },
+  "policies": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2026,
+      "scopeType": "college",
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2026届适用）",
+      "eligibility": {
+        "studentStatus": [
+          {
+            "text": "纳入国家普通本科招生计划录取的应届毕业生，具有上海海洋大学学籍，且未曾参与过推免环节。"
+          }
+        ],
+        "courseRequirements": [
+          {
+            "text": "完成培养方案规定的前三年课程进度，必修课和限制性选修课无不及格成绩。"
+          }
+        ],
+        "disciplineRequirements": [
+          {
+            "text": "无考试作弊、剽窃他人学术成果或违法违纪受处分记录。"
+          }
+        ],
+        "languageRequirements": [
+          {
+            "text": "全国大学英语四级成绩达到425分及以上；日语、韩语、法语等按文件列明等级要求执行。"
+          }
+        ],
+        "healthRequirements": [
+          {
+            "text": "身体健康状况符合规定的体检标准。"
+          }
+        ],
+        "otherRequirements": [
+          {
+            "text": "特殊学术专长推免按学院实施办法列明的专业范围、成绩门槛和成果要求执行。"
+          }
+        ]
+      },
+      "materials": [
+        {
+          "text": "《上海海洋大学推荐免试攻读硕士学位研究生申请审核表》。"
+        },
+        {
+          "text": "按学院通知提交相应证明材料。"
+        }
+      ],
+      "schedule": [
+        {
+          "text": "具体工作时间节点根据上级要求，由经济管理学院在启动当年该工作时公布。"
+        }
+      ],
+      "procedure": [
+        {
+          "text": "学生自主申报，学院审核排序，学院推免生推荐工作小组审定后公示。"
+        },
+        {
+          "text": "学院按学校分配名额确定推荐名单和候补名单，并报学校审核。"
+        }
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2026届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2024-12-19",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official",
+        "contentHash": "b4252263066b2c40345968eaf4220d71c9bda7188f0affe25afd1a56f76cfcac",
+        "lastCheckedAt": "2026-07-14T08:53:18.369Z"
+      }
+    }
+  ],
+  "rankingRules": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2026,
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "academicWeight": 0.75,
+      "bonusWeight": 0.25,
+      "formula": "推荐成绩 = 入学至推免时的全学程平均学分绩点 × 0.75 + 加分绩点 × 0.25",
+      "rankingScope": "按学院实施办法和当年分配名额执行；同分时按全学程平均学分绩点排序。",
+      "rules": [
+        "学业成绩按首次考试成绩计算，补考和重修成绩不用于推免学业成绩计算。",
+        "学业成绩绩点和加分绩点均按满分4绩点计算。",
+        "推荐成绩相同者，以全学程平均学分绩点高者优先推荐。",
+        "官方文件公开了75%/25%的推荐成绩公式；未公开的细分项不在页面中扩写。"
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2026届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2024-12-19",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official",
+        "contentHash": "b4252263066b2c40345968eaf4220d71c9bda7188f0affe25afd1a56f76cfcac",
+        "lastCheckedAt": "2026-07-14T08:53:18.369Z"
+      }
+    }
+  ],
+  "bonusRules": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2026,
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "category": "其他项目",
+      "items": [
+        {
+          "name": "入伍服兵役、志愿服务、国际组织实习、体育美育赛事等",
+          "condition": "按学院实施办法列明的认定范围和材料要求执行。",
+          "scoreRule": "官方文件未公开可统一展示的具体分值时，页面只展示规则说明。",
+          "cap": "以官方原文为准",
+          "organization": "上海海洋大学经济管理学院"
+        }
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2026届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2024-12-19",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official",
+        "contentHash": "b4252263066b2c40345968eaf4220d71c9bda7188f0affe25afd1a56f76cfcac",
+        "lastCheckedAt": "2026-07-14T08:53:18.369Z"
+      }
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "year": 2026,
+      "collegeName": "经济管理学院",
+      "category": "科研",
+      "items": [
+        {
+          "name": "论文、发明专利等科研成果",
+          "condition": "仅按学院实施办法中列明的成果类别、作者顺位和认定范围执行。",
+          "scoreRule": "文件列明了不同科研成果的加分口径；未在页面中抽取为确定数值的项目不在网页端扩写。",
+          "cap": null,
+          "evidence": "科研成果包括论文、发明专利等，具体加分按学院实施办法执行。"
+        }
+      ],
+      "source": {
+        "title": "附件2：经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法.pdf",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "sourceType": "college-policy",
+        "publishedAt": "2024-12-19",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "contentHash": "503ee1a5fa49581753e7bdec92336a6a625d0a0aef9dd4e37ae07293e91163c4",
+        "lastCheckedAt": "2026-07-14T08:06:47.884Z"
+      }
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "year": 2026,
+      "collegeName": "经济管理学院",
+      "category": "其他",
+      "items": [
+        {
+          "name": "入伍服兵役、志愿服务、国际组织实习、体育美育赛事等",
+          "condition": "按学院实施办法列明的认定范围和材料要求执行。",
+          "scoreRule": "页面不扩写未核验的具体数值，需查看官方原文表格。",
+          "cap": null,
+          "evidence": "加分项目包括入伍服兵役、志愿服务、国际组织实习、体育类赛事、美育类赛事。"
+        }
+      ],
+      "source": {
+        "title": "附件2：经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法.pdf",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+        "sourceType": "college-policy",
+        "publishedAt": "2024-12-19",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "contentHash": "503ee1a5fa49581753e7bdec92336a6a625d0a0aef9dd4e37ae07293e91163c4",
+        "lastCheckedAt": "2026-07-14T08:06:47.884Z"
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2026,
+      "event": "经济管理学院拟推荐名单公示",
+      "startDate": "2025-09-13",
+      "endDate": "2025-09-15",
+      "source": {
+        "title": "经济管理学院关于2026年优秀应届本科毕业生免试攻读研究生的拟推荐名单公示",
+        "url": "https://jmxy.shou.edu.cn/2025/0913/c17373a346025/page.htm",
+        "sourceType": "recommendation-list",
+        "publishedAt": "2025-09-13",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "contentHash": "16fdb98125716b44bcf46534b19510d441e96afe5fdbe272bae838a507255aef",
+        "lastCheckedAt": "2026-07-14T08:06:47.884Z"
+      }
+    },
+    {
+      "year": 2026,
+      "event": "学校推免名单公示",
+      "startDate": "2025-09-14",
+      "endDate": "2025-09-20",
+      "source": {
+        "title": "上海海洋大学2026年推免生名单公示",
+        "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+        "sourceType": "recommendation-list",
+        "publishedAt": null,
+        "sourceOrganization": "上海海洋大学教务处",
+        "contentHash": "d61dc70ff5d71dab12aaf5225a2586d14d4cf4e9efe1db64e74ae7ed8e2a531d",
+        "lastCheckedAt": "2026-07-14T08:06:47.884Z"
+      }
+    },
+    {
+      "year": 2026,
+      "event": "接收推免生网上申请",
+      "startDate": "2025-09-22",
+      "endDate": "2025-10-20",
+      "source": {
+        "title": "上海海洋大学2026年接收优秀应届本科毕业生免试攻读硕士学位研究生工作实施办法",
+        "url": "https://yjs.shou.edu.cn/2025/0917/c14263a346101/page.htm",
+        "sourceType": "admission-notice",
+        "publishedAt": "2025-09-22",
+        "sourceOrganization": "上海海洋大学研究生院",
+        "contentHash": "19987adb41f43bdab4c679e940cb19b420d4718184401073933a7230a0878308",
+        "lastCheckedAt": "2026-07-14T08:06:47.884Z"
+      }
+    }
+  ],
+  "notices": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": null,
+        "collegeName": null,
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": true,
+        "appliesToAllMajors": true
+      },
+      "id": "c7a5bf59f675",
+      "year": 2026,
+      "title": "2026年硕士研究生拟录取人员名单公示（推免生）",
+      "noticeType": "admission-result",
+      "collegeName": null,
+      "publishedAt": "2025-11-11",
+      "summary": "本校拟录取推免生公示信息，属于最终录取数据，不等同于本科推荐推免名额。",
+      "sourceUrl": "https://yjs.shou.edu.cn/2025/1111/c18604a348091/page.htm",
+      "sourceOrganization": "上海海洋大学研究生院",
+      "sourceType": "admission-list",
+      "label": "本校接收推免生信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": null,
+        "collegeName": null,
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": true,
+        "appliesToAllMajors": true
+      },
+      "id": "e39e6fa98562",
+      "year": 2026,
+      "title": "上海海洋大学2026年接收优秀应届本科毕业生免试攻读硕士学位研究生工作实施办法",
+      "noticeType": "admission-policy",
+      "collegeName": null,
+      "publishedAt": "2025-09-22",
+      "summary": "本校接收推免生信息，属于研究生招生接收政策，不等同于本科生推荐推免名额。",
+      "sourceUrl": "https://yjs.shou.edu.cn/2025/0917/c14263a346101/page.htm",
+      "sourceOrganization": "上海海洋大学研究生院",
+      "sourceType": "admission-notice",
+      "label": "本校接收推免生信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "id": "cb689ffc7f5f",
+      "year": 2026,
+      "title": "上海海洋大学经济管理学院2026年接收优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+      "noticeType": "admission-policy",
+      "collegeName": "经济管理学院",
+      "publishedAt": "2025-09-18",
+      "summary": "本校接收推免生信息，属于研究生招生接收政策，不等同于本科生推荐推免名额。",
+      "sourceUrl": "https://jmxy.shou.edu.cn/2025/0918/c889a346164/page.htm",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "sourceType": "admission-notice",
+      "label": "本校接收推免生信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "id": "b5feb95c39c9",
+      "year": 2026,
+      "title": "经济管理学院关于2026年优秀应届本科毕业生免试攻读研究生的拟推荐名单公示",
+      "noticeType": "recommendation-result",
+      "collegeName": "经济管理学院",
+      "publishedAt": "2025-09-13",
+      "summary": "本校推荐免试攻读研究生名单公示，可用于官方名单计数；不含同口径毕业生人数时不计算推免率。",
+      "sourceUrl": "https://jmxy.shou.edu.cn/2025/0913/c17373a346025/page.htm",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "sourceType": "recommendation-list",
+      "label": "本校推荐推免信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "id": "b2a31fd9e6ae",
+      "year": 2026,
+      "title": "经济管理学院2026届推荐应届优秀本科毕业生免试攻读硕士学位研究生工作的通知",
+      "noticeType": "recommendation-policy",
+      "collegeName": "经济管理学院",
+      "publishedAt": "2025-08-17",
+      "summary": "本校或学院推免政策信息，具体申请条件和材料要求以官方原文为准。",
+      "sourceUrl": "https://jmxy.shou.edu.cn/2025/0817/c17373a345668/page.htm",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "sourceType": "college-policy",
+      "label": "本校推荐推免信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "id": "2130605545c3",
+      "year": 2026,
+      "title": "附件2：经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法.pdf",
+      "noticeType": "recommendation-policy",
+      "collegeName": "经济管理学院",
+      "publishedAt": "2024-12-19",
+      "summary": "本校或学院推免政策信息，具体申请条件和材料要求以官方原文为准。",
+      "sourceUrl": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "sourceType": "college-policy",
+      "label": "本校推荐推免信息"
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": null,
+        "collegeName": null,
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": true,
+        "appliesToAllMajors": true
+      },
+      "id": "d35dac7155dc",
+      "year": 2026,
+      "title": "上海海洋大学2026年推免生名单公示",
+      "noticeType": "recommendation-result",
+      "collegeName": null,
+      "publishedAt": null,
+      "summary": "本校推荐免试攻读研究生名单公示，可用于官方名单计数；不含同口径毕业生人数时不计算推免率。",
+      "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "sourceOrganization": "上海海洋大学教务处",
+      "sourceType": "recommendation-list",
+      "label": "本校推荐推免信息"
+    }
+  ],
+  "historicalTrend": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": null,
+        "collegeName": null,
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": true,
+        "appliesToAllMajors": true
+      },
+      "year": 2026,
+      "recommendationQuota": null,
+      "recommendedCount": 359,
+      "cohortSize": null,
+      "recommendationRate": null,
+      "dataScope": "school",
+      "collegeName": null,
+      "majorName": null,
+      "sources": [
+        {
+          "value": 359,
+          "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "sourceTitle": "上海海洋大学2026年推免生名单公示",
+          "publishedAt": null,
+          "sourceOrganization": "上海海洋大学教务处",
+          "sourceType": "recommendation-list",
+          "evidenceText": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示表格计数。",
+          "confidence": 1,
+          "verifiedAt": "2026-07-14T08:06:47.877Z"
+        }
+      ]
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true
+      },
+      "year": 2026,
+      "recommendationQuota": null,
+      "recommendedCount": 52,
+      "cohortSize": null,
+      "recommendationRate": null,
+      "dataScope": "college",
+      "collegeName": "经济管理学院",
+      "majorName": null,
+      "sources": [
+        {
+          "value": 52,
+          "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "sourceTitle": "上海海洋大学2026年推免生名单公示",
+          "publishedAt": null,
+          "sourceOrganization": "上海海洋大学教务处",
+          "sourceType": "recommendation-list",
+          "evidenceText": "官方名单中经济管理学院记录计数。",
+          "confidence": 1,
+          "verifiedAt": "2026-07-14T08:06:47.877Z"
+        }
+      ]
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f447fffcf5",
+        "majorName": "会计学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      },
+      "year": 2026,
+      "recommendationQuota": null,
+      "recommendedCount": 9,
+      "cohortSize": null,
+      "recommendationRate": null,
+      "dataScope": "major",
+      "collegeName": "经济管理学院",
+      "majorName": "会计学",
+      "sources": [
+        {
+          "value": 9,
+          "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "sourceTitle": "上海海洋大学2026年推免生名单公示",
+          "publishedAt": null,
+          "sourceOrganization": "上海海洋大学教务处",
+          "sourceType": "recommendation-list",
+          "evidenceText": "官方名单中经济管理学院会计学记录计数。",
+          "confidence": 1,
+          "verifiedAt": "2026-07-14T08:06:47.877Z"
+        }
+      ]
+    }
+  ],
+  "sourceSummaries": [
+    {
+      "title": "经济管理学院2026届推荐应届优秀本科毕业生免试攻读硕士学位研究生工作的通知",
+      "url": "https://jmxy.shou.edu.cn/2025/0817/c17373a345668/page.htm",
+      "sourceType": "college-policy",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "publishedAt": "2025-08-17",
+      "contentHash": "0d1282a0cb4d49d271f27d4df6054bea2ead572626b1d34a6f9fe415f119bb1d"
+    },
+    {
+      "title": "附件1：2026年上海海洋大学推荐免试攻读硕士学位研究生申请审核表.docx",
+      "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/e2fd6a79-cfe1-4478-9994-262523b38a3d.docx",
+      "sourceType": "college-policy",
+      "sourceOrganization": "",
+      "publishedAt": null,
+      "contentHash": "8a2add7114343bb04857b8b4fb94f0ba0f2d23cafda776b1d8454a1e2b4baaf7"
+    },
+    {
+      "title": "附件2：经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法.pdf",
+      "url": "https://jmxy.shou.edu.cn/_upload/article/files/07/7c/2b4cb9e94cd0a7ab75b92d8a3bfa/18a89974-e3d4-432b-8727-c40df6138b8a.pdf",
+      "sourceType": "college-policy",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "publishedAt": "2024-12-19",
+      "contentHash": "503ee1a5fa49581753e7bdec92336a6a625d0a0aef9dd4e37ae07293e91163c4"
+    },
+    {
+      "title": "经济管理学院关于2026年优秀应届本科毕业生免试攻读研究生的拟推荐名单公示",
+      "url": "https://jmxy.shou.edu.cn/2025/0913/c17373a346025/page.htm",
+      "sourceType": "recommendation-list",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "publishedAt": "2025-09-13",
+      "contentHash": "16fdb98125716b44bcf46534b19510d441e96afe5fdbe272bae838a507255aef"
+    },
+    {
+      "title": "上海海洋大学2026年推免生名单公示",
+      "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "sourceType": "recommendation-list",
+      "sourceOrganization": "上海海洋大学教务处",
+      "publishedAt": null,
+      "contentHash": "d61dc70ff5d71dab12aaf5225a2586d14d4cf4e9efe1db64e74ae7ed8e2a531d"
+    },
+    {
+      "title": "上海海洋大学经济管理学院2026年接收优秀应届本科毕业生免试攻读硕士学位研究生工作实施细则",
+      "url": "https://jmxy.shou.edu.cn/2025/0918/c889a346164/page.htm",
+      "sourceType": "admission-notice",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "publishedAt": "2025-09-18",
+      "contentHash": "093088b7c56290c65d39adb27bb1c8f48d27b46b711702ada4408830d38572a3"
+    },
+    {
+      "title": "上海海洋大学2026年接收优秀应届本科毕业生免试攻读硕士学位研究生工作实施办法",
+      "url": "https://yjs.shou.edu.cn/2025/0917/c14263a346101/page.htm",
+      "sourceType": "admission-notice",
+      "sourceOrganization": "上海海洋大学研究生院",
+      "publishedAt": "2025-09-22",
+      "contentHash": "19987adb41f43bdab4c679e940cb19b420d4718184401073933a7230a0878308"
+    },
+    {
+      "title": "2026年硕士研究生拟录取人员名单公示（推免生）",
+      "url": "https://yjs.shou.edu.cn/2025/1111/c18604a348091/page.htm",
+      "sourceType": "admission-list",
+      "sourceOrganization": "上海海洋大学研究生院",
+      "publishedAt": "2025-11-11",
+      "contentHash": "8f05fe5ac7ffa66560774d0a0b402af9a93e12ab794114b9cf2a45e6e3beb5f2"
+    }
+  ],
+  "parseMeta": {
+    "processedSources": 6,
+    "verifiedSources": 8,
+    "generatedAt": "2026-07-14T08:06:47.883Z",
+    "searchCandidateCount": 49,
+    "registeredCount": 6,
+    "failedSources": [],
+    "ai": {
+      "used": false,
+      "reason": "未配置 DEEPSEEK_API_KEY，已使用规则解析并将低置信度内容进入人工复核。"
+    }
+  },
+  "accountingRecommendationHistory": [
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 9,
+      "cohortSize": 100,
+      "recommendationRate": 0.09,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "推免人数9人 ÷ 同届会计学本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "publishedAt": null,
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "223 经济管理学院 会计学 2144202 杜蕊；224 经济管理学院 会计学 2244123 陈昱；225 经济管理学院 会计学 2244119 赵影；226 经济管理学院 会计学 2244120 李梦云；227 经济管理学院 会计学 2244121 戴玉倩；228 经济管理学院 会计学 2244116 费可忆；229 经济管理学院 会计学 224421",
+          "contentHash": "5b05dfe3c09b7d704b9eeb0271494059838b65097b2e1d4712dd607c4ddd1a38",
+          "crawledAt": "2026-07-14T08:52:40.382Z"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "会计学：学院推荐名额16，校优推荐名额9，市优推荐名额5。按市优5%估算毕业生人数约100人。",
+          "contentHash": "6084d01f885542cc246fb61985dee9f006da5cd19b5cf971f2b23f53769cd41b",
+          "crawledAt": "2026-07-14T08:53:16.960Z"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "会计学市优推荐名额5人；页面说明上海市优秀毕业生比例不超过应届全日制本科毕业生人数的5%。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f447fffcf5",
+        "majorName": "会计学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 6,
+      "cohortSize": 100,
+      "recommendationRate": 0.06,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "推免人数6人 ÷ 同届会计学本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "publishedAt": null,
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "177 经济管理学院 会计学 2144124 成家奇；178 经济管理学院 会计学 2144220 龚林玥；179 经济管理学院 会计学 2144102 马思媛；180 经济管理学院 会计学 2144128 李衍妤；181 经济管理学院 会计学 2144225 李昕雨；182 经济管理学院 会计学 2144236 邢若轩",
+          "contentHash": "5c83c639442371f2c642296eae7985cabd98d583ae052a43df33945f436d42da",
+          "crawledAt": "2026-07-14T08:52:42.517Z"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-14",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "会计学：学院推荐名额17，校优推荐名额9，市优推荐名额5。按市优5%估算毕业生人数约100人。",
+          "contentHash": "db3753f35a0e9f77db00b4913e9c314e2de17eb707e6cd64f6def788fbafaa39",
+          "crawledAt": "2026-07-14T08:53:17.658Z"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "会计学市优推荐名额5人；页面说明上海市优秀毕业生比例不超过应届全日制本科毕业生人数的5%。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f447fffcf5",
+        "majorName": "会计学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 5,
+      "cohortSize": 120,
+      "recommendationRate": 0.041666666666666664,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "推免人数5人 ÷ 同届会计学本科毕业生人数120人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "publishedAt": null,
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "150 经济管理学院 会计学 2044223 张地；151 经济管理学院 会计学 2044201 欧阳晨杰；152 经济管理学院 会计学 2044222 侯悦然；153 经济管理学院 会计学 2046221 徐佳颖；154 经济管理学院 会计学 2044130 童琪媛",
+          "contentHash": "a5c5a4dbdf59c27748d821b6fd59eb83d4b66687a0ae3a6f60bb92ff9ce8ab7d",
+          "crawledAt": "2026-07-14T08:52:43.670Z"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作办法",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "会计学：学院推荐名额17，校优推荐名额9，市优推荐名额6。按市优5%估算毕业生人数约120人。",
+          "contentHash": "48c54797b73405912da6c2d1f2e88525aa1c1a5ac58b919749432850fec43c00",
+          "crawledAt": "2026-07-14T08:53:18.368Z"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "会计学市优推荐名额6人；页面说明上海市优秀毕业生比例不超过应届全日制本科毕业生人数的5%。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f447fffcf5",
+        "majorName": "会计学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    }
+  ]
+}

@@ -26,7 +26,19 @@
     "crawl:units:debug": "node scripts/academic-units/debugAcademicUnits.mjs",
     "debug:search": "node scripts/search-providers/debugSearch.mjs",
     "validate:units": "node scripts/academic-units/validateAcademicUnits.mjs",
-    "report:units": "node scripts/academic-units/generateReport.mjs"
+    "report:units": "node scripts/academic-units/generateReport.mjs",
+    "crawl:my-school:shou": "node scripts/my-school/crawlSchoolRecommendationData.mjs --school-name 上海海洋大学",
+    "crawl:majors:shou": "node scripts/academic-majors/crawlSchoolMajors.mjs --school-name 上海海洋大学",
+    "crawl:majors:shou:college": "node scripts/academic-majors/crawlSchoolMajors.mjs --school-name 上海海洋大学",
+    "validate:my-school:shou": "node scripts/my-school/validateRecommendationData.mjs --school-name 上海海洋大学",
+    "validate:shou-data": "node scripts/my-school/validateRecommendationData.mjs --school-name 上海海洋大学",
+    "debug:my-school:shou": "node scripts/my-school/debugRecommendationData.mjs --school-name 上海海洋大学",
+    "debug:shou-data": "node scripts/my-school/debugRecommendationData.mjs --school-name 上海海洋大学",
+    "report:my-school:shou": "node scripts/my-school/generateRecommendationReport.mjs --school-name 上海海洋大学",
+    "crawl:shou:accounting": "node scripts/my-school/shou-accounting/crawlSources.mjs",
+    "validate:shou:accounting": "node scripts/my-school/shou-accounting/validateData.mjs",
+    "report:shou:accounting": "node scripts/my-school/shou-accounting/generateReport.mjs",
+    "debug:shou:accounting": "node scripts/my-school/shou-accounting/debugData.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.2",

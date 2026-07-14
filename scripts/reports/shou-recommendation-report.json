@@ -1,0 +1,22 @@
+{
+  "schoolName": "上海海洋大学",
+  "schoolId": "school-f17pfd",
+  "processedSources": 6,
+  "verifiedSources": 8,
+  "failedSources": [],
+  "latestDataYear": 2026,
+  "schoolQuotaFound": false,
+  "collegeQuotaFound": false,
+  "accountingQuotaFound": false,
+  "cohortSizeFound": false,
+  "schoolRateCalculated": false,
+  "collegeRateCalculated": false,
+  "majorRateCalculated": false,
+  "policyFound": true,
+  "rankingRulesFound": true,
+  "bonusRulesFound": true,
+  "noticesFound": 7,
+  "reviewItems": 6,
+  "outputPath": "public/data/my-school/school-f17pfd.json",
+  "generatedAt": "2026-07-14T08:06:47.900Z"
+}

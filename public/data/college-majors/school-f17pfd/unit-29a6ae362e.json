@@ -1,0 +1,124 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-29a6ae362e",
+  "collegeName": "食品学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.435Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-99fb559eba",
+      "name": "食品科学与工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "1952",
+        "honors": "国家特色专业、上海市教育高地、国家级一流专业"
+      }
+    },
+    {
+      "id": "major-1451652f65",
+      "name": "食品质量与安全",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2004",
+        "honors": "上海市教育高地、市级一流专业"
+      }
+    },
+    {
+      "id": "major-3af27f8104",
+      "name": "能源与动力工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "1958",
+        "honors": "上海市教育高地、市级一流专业"
+      }
+    },
+    {
+      "id": "major-001b2dee91",
+      "name": "建筑环境与能源应用工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "1996",
+        "honors": "市级一流专业"
+      }
+    },
+    {
+      "id": "major-6867140965",
+      "name": "包装工程",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2007",
+        "honors": "上海市属高校应用型本科试点专业，市级一流专业"
+      }
+    },
+    {
+      "id": "major-a811f89958",
+      "name": "生物制药",
+      "code": null,
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.435Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2016",
+        "honors": "市级一流专业"
+      }
+    }
+  ]
+}

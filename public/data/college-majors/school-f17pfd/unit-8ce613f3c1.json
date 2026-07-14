@@ -1,0 +1,67 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-8ce613f3c1",
+  "collegeName": "外国语学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.461Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-15fa825d99",
+      "name": "英语",
+      "code": null,
+      "degreeType": "文学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.461Z",
+      "meta": {
+        "discipline": "文学",
+        "startYear": "1996",
+        "honors": "市级一流专业"
+      }
+    },
+    {
+      "id": "major-2b132768af",
+      "name": "日语",
+      "code": null,
+      "degreeType": "文学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.461Z",
+      "meta": {
+        "discipline": "文学",
+        "startYear": "2000",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-ef06fae87c",
+      "name": "朝鲜语",
+      "code": null,
+      "degreeType": "文学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.461Z",
+      "meta": {
+        "discipline": "文学",
+        "startYear": "2007",
+        "honors": ""
+      }
+    }
+  ]
+}

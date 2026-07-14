@@ -1,0 +1,143 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-56716fffbe",
+  "collegeName": "经济管理学院",
+  "lastUpdatedAt": "2026-07-14T07:59:13.442Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-e258c46909",
+      "name": "农林经济管理",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "1985",
+        "honors": "国家特色专业、上海市教育高地、市级一流专业"
+      }
+    },
+    {
+      "id": "major-f447fffcf5",
+      "name": "会计学",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "1994",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-e85087bc83",
+      "name": "金融学",
+      "code": null,
+      "degreeType": "经济学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "经济学",
+        "startYear": "1995",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-9e4817b374",
+      "name": "国际经济与贸易",
+      "code": null,
+      "degreeType": "经济学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "经济学",
+        "startYear": "1996",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-8838f28336",
+      "name": "市场营销",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "inactive",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2002",
+        "honors": "2022年停招"
+      }
+    },
+    {
+      "id": "major-9a2635da63",
+      "name": "物流管理",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2004",
+        "honors": "上海市教育高地、上海市属高校应用型本科试点专业"
+      }
+    },
+    {
+      "id": "major-27c4944032",
+      "name": "工商管理",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
+      "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
+      "sourceOrganization": "上海海洋大学教务处",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:13.442Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2007",
+        "honors": "上海市教育高地，市级一流专业"
+      }
+    }
+  ]
+}

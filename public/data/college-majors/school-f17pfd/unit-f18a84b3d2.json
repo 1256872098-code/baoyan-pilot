@@ -1,0 +1,38 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-f18a84b3d2",
+  "collegeName": "海洋生物资源与管理学院",
+  "lastUpdatedAt": "2026-07-14T07:59:14.014Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-1607a6a30e",
+      "name": "海洋渔业科学与技术",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hyxy.shou.edu.cn/7405/list.htm",
+      "sourceTitle": "上海海洋大学海洋生物资源与管理学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋生物资源与管理学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:14.014Z"
+    },
+    {
+      "id": "major-32b0283bc1",
+      "name": "社会工作",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hyxy.shou.edu.cn/7405/list.htm",
+      "sourceTitle": "上海海洋大学海洋生物资源与管理学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋生物资源与管理学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:14.014Z"
+    }
+  ]
+}

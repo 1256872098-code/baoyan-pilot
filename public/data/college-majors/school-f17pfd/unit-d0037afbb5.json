@@ -1,0 +1,66 @@
+{
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "collegeId": "unit-d0037afbb5",
+  "collegeName": "海洋科学与生态环境学院",
+  "lastUpdatedAt": "2026-07-14T07:59:15.962Z",
+  "dataStatus": "verified",
+  "majors": [
+    {
+      "id": "major-4b2058688c",
+      "name": "海洋科学",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hkxy.shou.edu.cn/8796/list.htm",
+      "sourceTitle": "上海海洋大学海洋科学与生态环境学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋科学与生态环境学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:15.962Z"
+    },
+    {
+      "id": "major-5251a9d44c",
+      "name": "海洋技术",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hkxy.shou.edu.cn/8796/list.htm",
+      "sourceTitle": "上海海洋大学海洋科学与生态环境学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋科学与生态环境学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:15.962Z"
+    },
+    {
+      "id": "major-2940fa1452",
+      "name": "环境科学与工程",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hkxy.shou.edu.cn/8796/list.htm",
+      "sourceTitle": "上海海洋大学海洋科学与生态环境学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋科学与生态环境学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:15.962Z"
+    },
+    {
+      "id": "major-d4e6bdb8bc",
+      "name": "生态学",
+      "code": null,
+      "degreeType": null,
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://hkxy.shou.edu.cn/8796/list.htm",
+      "sourceTitle": "上海海洋大学海洋科学与生态环境学院学院简介",
+      "sourceOrganization": "上海海洋大学海洋科学与生态环境学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-07-14T07:59:15.962Z"
+    }
+  ]
+}
