@@ -15,6 +15,7 @@ export default function PostDetail({
   replying,
   replyingTo,
   expandedThreadIds,
+  highlightReplyId,
   replyContent,
   replyError,
   busyKeys,
@@ -122,6 +123,7 @@ export default function PostDetail({
             loading={loadingReplies}
             busyKeys={busyKeys}
             expandedThreadIds={expandedThreadIds}
+            highlightReplyId={highlightReplyId}
             replyingTo={replyingTo}
             replyValue={replyContent}
             replyError={replyError}

@@ -14,6 +14,7 @@ export default function ReplyCard({
   onToggleBookmark,
   onReply,
   onDelete,
+  highlighted = false,
 }) {
   const isReplyOwner = Boolean(currentUserId) && currentUserId === reply.author_id;
   const isPostOwner = Boolean(currentUserId) && currentUserId === postAuthorId;
@@ -23,7 +24,13 @@ export default function ReplyCard({
   const bookmarkKey = `reply-bookmark:${reply.id}`;
 
   return (
-    <div className="rounded-lg border border-slate-200 bg-slate-50 px-4 py-3">
+    <div
+      id={`forum-reply-${reply.id}`}
+      className={[
+        "rounded-lg border px-4 py-3 transition-colors",
+        highlighted ? "border-brand-300 bg-blue-50 shadow-sm" : "border-slate-200 bg-slate-50",
+      ].join(" ")}
+    >
       <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-slate-500">
         <span className="inline-flex items-center gap-1.5">
           <AuthorAvatar name={reply.author_name} avatarUrl={reply.author_avatar} />

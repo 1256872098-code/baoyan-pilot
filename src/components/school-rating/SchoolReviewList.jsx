@@ -2,9 +2,9 @@ import React from "react";
 import SchoolReviewCard from "./SchoolReviewCard.jsx";
 
 const sortOptions = [
-  { value: "latest", label: "最新发布" },
-  { value: "highest", label: "评分最高" },
-  { value: "lowest", label: "评分最低" },
+  { value: "newest", label: "最新发布" },
+  { value: "oldest", label: "最早发布" },
+  { value: "most-liked", label: "点赞最多" },
 ];
 
 export default function SchoolReviewList({
@@ -13,8 +13,12 @@ export default function SchoolReviewList({
   onSortChange,
   currentUserId,
   loading,
-  onEditMine,
+  highlightReviewId = "",
   onDeleteMine,
+  busyKeys,
+  onToggleLike,
+  onToggleDislike,
+  onRequireLogin,
 }) {
   return (
     <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
@@ -42,8 +46,12 @@ export default function SchoolReviewList({
               key={review.id}
               review={review}
               currentUserId={currentUserId}
-              onEditMine={onEditMine}
+              highlighted={highlightReviewId === review.id}
               onDeleteMine={onDeleteMine}
+              busyKeys={busyKeys}
+              onToggleLike={onToggleLike}
+              onToggleDislike={onToggleDislike}
+              onRequireLogin={onRequireLogin}
             />
           ))}
         </div>

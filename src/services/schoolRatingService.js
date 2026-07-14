@@ -2,7 +2,8 @@ import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
 
 const databaseNotConfiguredMessage =
   "学校评价数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
-const tableNotReadyMessage = "学校评价功能暂未初始化，请先在 Supabase 执行 supabase/school-ratings.sql。";
+const tableNotReadyMessage =
+  "学校评价功能暂未初始化，请先在 Supabase 执行 supabase/school-ratings.sql 和 supabase/school-review-interactions.sql。";
 
 function ensureDatabase() {
   if (!isSupabaseConfigured || !supabase) {
@@ -11,7 +12,11 @@ function ensureDatabase() {
 }
 
 function getFriendlyError(error, fallback) {
-  if (error?.code === "42P01" || /school_reviews/i.test(error?.message || "")) {
+  if (
+    error?.code === "42P01" ||
+    error?.code === "42883" ||
+    /school_reviews|get_school_reviews/i.test(error?.message || "")
+  ) {
     return tableNotReadyMessage;
   }
   return fallback;
@@ -66,28 +71,41 @@ export async function fetchSchoolRatingSummary(schoolId) {
   return summaries[schoolId] || buildSummary([]);
 }
 
-export async function fetchSchoolReviews({ schoolId, sort = "latest", limit = 20, offset = 0 }) {
+export async function fetchSchoolReviews({ schoolId, sort = "newest", limit = 20, offset = 0 }) {
   ensureDatabase();
-
-  let query = supabase.from("school_reviews").select("*").eq("school_id", schoolId);
-
-  if (sort === "highest") {
-    query = query.order("rating", { ascending: false }).order("created_at", { ascending: false });
-  } else if (sort === "lowest") {
-    query = query.order("rating", { ascending: true }).order("created_at", { ascending: false });
-  } else {
-    query = query.order("created_at", { ascending: false });
-  }
 
   const safeLimit = Math.max(1, Math.min(Number(limit) || 20, 50));
   const safeOffset = Math.max(Number(offset) || 0, 0);
-  const { data, error } = await query.range(safeOffset, safeOffset + safeLimit - 1);
+  const { data, error } = await supabase.rpc("get_school_reviews", {
+    p_school_id: schoolId,
+    p_sort: sort || "newest",
+    p_limit: safeLimit,
+    p_offset: safeOffset,
+  });
 
   if (error) {
     throw new Error(getFriendlyError(error, "评价列表加载失败，请稍后重试。"));
   }
 
   return data || [];
+}
+
+export async function fetchSchoolReviewById({ schoolId, reviewId }) {
+  ensureDatabase();
+  if (!schoolId || !reviewId) return null;
+
+  const { data, error } = await supabase
+    .from("school_reviews")
+    .select("id,school_id,user_id,user_name,rating,content,created_at")
+    .eq("school_id", schoolId)
+    .eq("id", reviewId)
+    .maybeSingle();
+
+  if (error) {
+    throw new Error(getFriendlyError(error, "评价详情加载失败，请稍后重试。"));
+  }
+
+  return data || null;
 }
 
 export async function fetchCurrentUserSchoolReview({ schoolId, userId }) {
@@ -108,7 +126,7 @@ export async function fetchCurrentUserSchoolReview({ schoolId, userId }) {
   return data || null;
 }
 
-export async function upsertSchoolReview({ schoolId, userId, userName, rating, content = "" }) {
+export async function createSchoolReview({ schoolId, userId, userName, rating, content = "" }) {
   ensureDatabase();
   const normalizedRating = Number(rating);
   const normalizedContent = String(content || "").trim().slice(0, 500);
@@ -121,22 +139,25 @@ export async function upsertSchoolReview({ schoolId, userId, userName, rating, c
     throw new Error("请选择 1 到 5 星评分。");
   }
 
+  const existing = await fetchCurrentUserSchoolReview({ schoolId, userId });
+  if (existing) {
+    throw new Error("你已经评价过该学校。评价发布后不能修改，如需重新评价，请先删除原评价。");
+  }
+
   const payload = {
     school_id: schoolId,
     user_id: userId,
     user_name: userName || "保研用户",
     rating: normalizedRating,
     content: normalizedContent,
-    updated_at: new Date().toISOString(),
   };
 
-  const { data, error } = await supabase
-    .from("school_reviews")
-    .upsert(payload, { onConflict: "school_id,user_id" })
-    .select("*")
-    .single();
+  const { data, error } = await supabase.from("school_reviews").insert([payload]).select("*").single();
 
   if (error) {
+    if (error.code === "23505") {
+      throw new Error("你已经评价过该学校。评价发布后不能修改，如需重新评价，请先删除原评价。");
+    }
     throw new Error(getFriendlyError(error, "评价提交失败，请稍后重试。"));
   }
 

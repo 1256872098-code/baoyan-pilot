@@ -129,6 +129,9 @@ export default function ForumPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const initialSearchQuery = normalizeForumSearchQuery(searchParams.get("q") || "");
   const initialCategory = categories.includes(searchParams.get("category")) ? searchParams.get("category") : "全部";
+  const targetPostId = searchParams.get("post") || "";
+  const targetReplyId = searchParams.get("reply") || "";
+  const targetRootId = searchParams.get("root") || "";
   const [posts, setPosts] = useState([]);
   const [replies, setReplies] = useState([]);
   const [activeCategory, setActiveCategory] = useState(initialCategory);
@@ -155,6 +158,7 @@ export default function ForumPage() {
   const [deleting, setDeleting] = useState(false);
   const [replyingTo, setReplyingTo] = useState(null);
   const [expandedThreadIds, setExpandedThreadIds] = useState(() => new Set());
+  const [highlightReplyId, setHighlightReplyId] = useState("");
 
   const currentUserId = user?.loginType === "phone_mock" ? user.id : "";
 
@@ -208,6 +212,13 @@ export default function ForumPage() {
     setSearchError("");
   };
 
+  const clearTargetParams = () => {
+    const nextParams = new URLSearchParams();
+    if (searchQuery) nextParams.set("q", searchQuery);
+    if (activeCategory !== "全部") nextParams.set("category", activeCategory);
+    setSearchParams(nextParams, { replace: true });
+  };
+
   const fetchPosts = useCallback(
     async ({ selectPostId, query = searchQuery, category = activeCategory } = {}) => {
       if (!isSupabaseConfigured || !supabase) {
@@ -222,12 +233,27 @@ export default function ForumPage() {
       setSearchError("");
 
       try {
-        const postRows = await searchForumPosts({
+        let postRows = await searchForumPosts({
           query,
           category,
           limit: 50,
           offset: 0,
         });
+
+        if (selectPostId && !(postRows || []).some((post) => post.id === selectPostId)) {
+          const { data: targetPost, error: targetPostError } = await supabase
+            .from("forum_posts")
+            .select("*")
+            .eq("id", selectPostId)
+            .maybeSingle();
+
+          if (targetPostError) throw targetPostError;
+          if (targetPost) {
+            postRows = [targetPost, ...(postRows || [])];
+          } else {
+            setErrorMessage("原内容可能已经被删除或无法查看。");
+          }
+        }
 
         const postIds = (postRows || []).map((post) => post.id);
         const replyCounts = new Map();
@@ -317,8 +343,8 @@ export default function ForumPage() {
   );
 
   useEffect(() => {
-    fetchPosts();
-  }, [fetchPosts]);
+    fetchPosts({ selectPostId: targetPostId || undefined });
+  }, [fetchPosts, targetPostId]);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -333,8 +359,11 @@ export default function ForumPage() {
     const nextParams = new URLSearchParams();
     if (searchQuery) nextParams.set("q", searchQuery);
     if (activeCategory !== "全部") nextParams.set("category", activeCategory);
+    if (targetPostId) nextParams.set("post", targetPostId);
+    if (targetReplyId) nextParams.set("reply", targetReplyId);
+    if (targetRootId) nextParams.set("root", targetRootId);
     setSearchParams(nextParams, { replace: true });
-  }, [activeCategory, searchQuery, setSearchParams]);
+  }, [activeCategory, searchQuery, setSearchParams, targetPostId, targetReplyId, targetRootId]);
 
   useEffect(() => {
     if (!filteredPosts.length) {
@@ -354,6 +383,52 @@ export default function ForumPage() {
     setReplyError("");
     setExpandedThreadIds(new Set());
   }, [fetchReplies, selectedPostId]);
+
+  useEffect(() => {
+    if (!targetPostId || loadingPosts) return;
+    if (posts.length && !posts.some((post) => post.id === targetPostId)) {
+      setErrorMessage("原内容可能已经被删除或无法查看。");
+      return;
+    }
+    if (targetPostId && posts.some((post) => post.id === targetPostId) && selectedPostId !== targetPostId) {
+      setSelectedPostId(targetPostId);
+    }
+  }, [loadingPosts, posts, selectedPostId, targetPostId]);
+
+  useEffect(() => {
+    if (!targetReplyId || !selectedPostId || selectedPostId !== targetPostId || loadingReplies) return undefined;
+
+    const targetReply = replies.find((reply) => reply.id === targetReplyId);
+    if (!targetReply) {
+      setErrorMessage("原内容可能已经被删除或无法查看。");
+      return undefined;
+    }
+
+    const rootId = targetRootId || targetReply.root_reply_id || targetReply.id;
+    if (rootId && rootId !== targetReply.id) {
+      setExpandedThreadIds((current) => {
+        const next = new Set(current);
+        next.add(rootId);
+        return next;
+      });
+    }
+
+    const scrollTimer = window.setTimeout(() => {
+      const element = document.getElementById(`forum-reply-${targetReplyId}`);
+      if (!element) {
+        setErrorMessage("原内容可能已经被删除或无法查看。");
+        return;
+      }
+      element.scrollIntoView({ behavior: "smooth", block: "center" });
+      setHighlightReplyId(targetReplyId);
+    }, 120);
+
+    const clearTimer = window.setTimeout(() => setHighlightReplyId(""), 2400);
+    return () => {
+      window.clearTimeout(scrollTimer);
+      window.clearTimeout(clearTimer);
+    };
+  }, [loadingReplies, replies, selectedPostId, targetPostId, targetReplyId, targetRootId]);
 
   const handleOpenPostForm = () => {
     const authUser = requireInteractiveUser("发布帖子");
@@ -1011,6 +1086,7 @@ export default function ForumPage() {
             onSelectPost={(postId) => {
               setSelectedPostId(postId);
               setReplyError("");
+              if (targetPostId || targetReplyId || targetRootId) clearTargetParams();
             }}
             onTogglePostLike={handleTogglePostLike}
             onTogglePostDislike={handleTogglePostDislike}
@@ -1027,6 +1103,7 @@ export default function ForumPage() {
             replying={replying}
             replyingTo={replyingTo}
             expandedThreadIds={expandedThreadIds}
+            highlightReplyId={highlightReplyId}
             replyContent={replyContent}
             replyError={replyError}
             busyKeys={busyKeys}

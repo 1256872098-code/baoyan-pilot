@@ -9,6 +9,7 @@ export default function ReplyList({
   loading,
   busyKeys,
   expandedThreadIds = new Set(),
+  highlightReplyId = "",
   replyingTo,
   replyValue,
   replyError,
@@ -51,6 +52,7 @@ export default function ReplyList({
           currentUserId={currentUserId}
           busyKeys={busyKeys}
           expanded={expandedThreadIds.has(thread.id)}
+          highlightReplyId={highlightReplyId}
           replyingTo={replyingTo}
           replyValue={replyValue}
           replyError={replyError}

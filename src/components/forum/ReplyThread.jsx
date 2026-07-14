@@ -8,6 +8,7 @@ export default function ReplyThread({
   currentUserId,
   busyKeys,
   expanded,
+  highlightReplyId = "",
   replyingTo,
   replyValue,
   replyError,
@@ -34,6 +35,7 @@ export default function ReplyThread({
         postAuthorId={postAuthorId}
         currentUserId={currentUserId}
         busyKeys={busyKeys}
+        highlighted={highlightReplyId === thread.id}
         onToggleLike={onToggleReplyLike}
         onToggleDislike={onToggleReplyDislike}
         onToggleBookmark={onToggleReplyBookmark}
@@ -62,6 +64,7 @@ export default function ReplyThread({
                   postAuthorId={postAuthorId}
                   currentUserId={currentUserId}
                   busyKeys={busyKeys}
+                  highlighted={highlightReplyId === reply.id}
                   onToggleLike={onToggleReplyLike}
                   onToggleDislike={onToggleReplyDislike}
                   onToggleBookmark={onToggleReplyBookmark}

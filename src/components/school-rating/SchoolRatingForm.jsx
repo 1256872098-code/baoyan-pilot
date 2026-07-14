@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Trash2 } from "lucide-react";
+import { formatForumTime } from "../forum/forumUtils.js";
 import StarRating from "./StarRating.jsx";
 
 export default function SchoolRatingForm({
@@ -15,8 +17,10 @@ export default function SchoolRatingForm({
   const [errorMessage, setErrorMessage] = useState("");
 
   useEffect(() => {
-    setRating(currentReview?.rating || 0);
-    setContent(currentReview?.content || "");
+    if (!currentReview) {
+      setRating(0);
+      setContent("");
+    }
     setErrorMessage("");
   }, [currentReview]);
 
@@ -49,11 +53,42 @@ export default function SchoolRatingForm({
     onDelete?.();
   };
 
+  if (currentReview) {
+    return (
+      <div className="rounded-lg border border-blue-100 bg-blue-50 p-5">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <h3 className="font-bold text-slate-950">我的评价已发布</h3>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
+              评价发布后不可修改。如需重新评价，请先删除当前评价后重新发布。
+            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-slate-600">
+              <StarRating value={currentReview.rating} readOnly size={18} />
+              <span>{formatForumTime(currentReview.created_at)}</span>
+            </div>
+            {currentReview.content && (
+              <p className="mt-3 whitespace-pre-wrap text-sm leading-7 text-slate-700">{currentReview.content}</p>
+            )}
+          </div>
+          <button
+            type="button"
+            className="btn-secondary shrink-0 border-red-200 text-red-600 hover:border-red-300 hover:text-red-700"
+            onClick={handleDelete}
+            disabled={deleting}
+          >
+            <Trash2 size={16} aria-hidden="true" />
+            {deleting ? "删除中..." : "删除我的评价"}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="rounded-lg border border-slate-200 bg-white p-5">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h3 className="font-bold text-slate-950">{currentReview ? "修改我的评价" : "发布学校评价"}</h3>
+          <h3 className="font-bold text-slate-950">发布学校评价</h3>
           <p className="mt-1 text-sm leading-6 text-slate-500">
             请结合真实体验进行评价，避免发布个人隐私、攻击性内容或未经证实的信息。
           </p>
@@ -79,23 +114,13 @@ export default function SchoolRatingForm({
       {errorMessage && <p className="mt-2 text-sm font-semibold text-red-600">{errorMessage}</p>}
 
       <div className="mt-4 flex flex-wrap justify-end gap-2">
-        {currentReview && (
-          <button
-            type="button"
-            className="btn-secondary border-red-200 text-red-600 hover:border-red-300 hover:text-red-700"
-            onClick={handleDelete}
-            disabled={submitting || deleting}
-          >
-            {deleting ? "删除中..." : "删除评价"}
-          </button>
-        )}
         <button
           type="button"
           className="btn-primary disabled:cursor-not-allowed disabled:bg-slate-300"
           onClick={handleSubmit}
           disabled={submitting || deleting}
         >
-          {submitting ? "提交中..." : currentReview ? "保存评价" : "提交评价"}
+          {submitting ? "发布中..." : "发布评价"}
         </button>
       </div>
     </div>
