@@ -9,6 +9,7 @@ import CollegeDetailPage from "./pages/CollegeDetailPage.jsx";
 import AiRecommendChat from "./pages/AiRecommendChat.jsx";
 import ForumPage from "./pages/ForumPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
+import MySchoolPage from "./pages/MySchoolPage.jsx";
 
 export default function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/schools" element={<SchoolsPage />} />
           <Route path="/schools/:schoolId" element={<SchoolDetailPage />} />
           <Route path="/schools/:schoolId/colleges/:collegeId" element={<CollegeDetailPage />} />
+          <Route path="/my-school" element={<MySchoolPage />} />
           <Route path="/forum" element={<ForumPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/ai-recommend" element={<AiRecommendChat />} />

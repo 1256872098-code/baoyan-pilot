@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { Camera, FileCheck, MessageSquareText, ShieldCheck, UserRound } from "lucide-react";
+import { Building2, Camera, FileCheck, MessageSquareText, ShieldCheck, UserRound } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import { fetchMyPosts, fetchMyReplies } from "../services/profileService.js";
 import { useAuth } from "../contexts/AuthContext.jsx";
@@ -21,6 +21,20 @@ function getInitials(name) {
 
 function getProfileKey(userId) {
   return `baoyanpilot_profile_${userId}`;
+}
+
+function getMySchoolKey(userId) {
+  return `baoyanpilot_my_school_${userId}`;
+}
+
+function readMySchoolBinding(userId) {
+  if (typeof window === "undefined" || !userId) return null;
+  try {
+    const stored = window.localStorage.getItem(getMySchoolKey(userId));
+    return stored ? JSON.parse(stored) : null;
+  } catch {
+    return null;
+  }
 }
 
 function validateAvatarFile(file) {
@@ -115,6 +129,7 @@ export default function ProfilePage() {
   const [uploadingAvatar, setUploadingAvatar] = useState(false);
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [mySchoolBinding, setMySchoolBinding] = useState(null);
 
   const avatarPreview = form.avatar_url;
   const displayNickname = form.nickname || "保研用户";
@@ -124,10 +139,12 @@ export default function ProfilePage() {
     if (!user) {
       setForm(getDefaultProfile(null));
       setContentStats({ posts: 0, replies: 0, aiConversations: 0 });
+      setMySchoolBinding(null);
       return;
     }
 
     setForm(readLocalProfile(user));
+    setMySchoolBinding(readMySchoolBinding(user.id));
     setMessage("");
     setErrorMessage("");
 
@@ -408,6 +425,17 @@ export default function ProfilePage() {
                 </div>
                 <MessageSquareText className="h-8 w-8 text-brand-600" aria-hidden="true" />
               </div>
+
+              <Link
+                to="/my-school"
+                className="mt-5 flex items-center justify-between gap-3 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm transition hover:border-brand-300"
+              >
+                <span className="inline-flex min-w-0 items-center gap-2 font-semibold text-brand-700">
+                  <Building2 size={17} aria-hidden="true" />
+                  <span className="truncate">我的院校：{mySchoolBinding?.schoolName || "暂未绑定"}</span>
+                </span>
+                <span className="shrink-0 text-xs font-semibold text-brand-700">进入</span>
+              </Link>
 
               <div className="mt-5 grid grid-cols-3 gap-3">
                 <div className="rounded-lg border border-slate-200 bg-slate-50 p-3 text-center">

@@ -1,9 +1,10 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronLeft, ChevronRight, Filter, MapPin, Search } from "lucide-react";
+import { ChevronLeft, ChevronRight, Filter, MapPin, Search, Star } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import { SelectField } from "../components/FormControls.jsx";
 import { schoolTiers } from "../data/schoolLevelMaps.js";
+import { fetchSchoolRatingSummaries } from "../services/schoolRatingService.js";
 
 const pageSize = 24;
 const allOption = "全部";
@@ -96,6 +97,7 @@ export default function SchoolsPage() {
   });
   const [searchTerm, setSearchTerm] = useState("");
   const [page, setPage] = useState(1);
+  const [ratingSummaries, setRatingSummaries] = useState({});
 
   useEffect(() => {
     const controller = new AbortController();
@@ -167,6 +169,29 @@ export default function SchoolsPage() {
 
   const goPrevPage = () => setPage((current) => Math.max(1, current - 1));
   const goNextPage = () => setPage((current) => Math.min(totalPages, current + 1));
+
+  useEffect(() => {
+    let ignore = false;
+    const ids = pagedSchools.map((school) => school.id);
+    if (!ids.length) {
+      setRatingSummaries({});
+      return undefined;
+    }
+
+    async function loadRatings() {
+      try {
+        const summaries = await fetchSchoolRatingSummaries(ids);
+        if (!ignore) setRatingSummaries(summaries);
+      } catch (error) {
+        if (!ignore) setRatingSummaries({});
+      }
+    }
+
+    loadRatings();
+    return () => {
+      ignore = true;
+    };
+  }, [pagedSchools]);
 
   return (
     <div className="bg-slate-50 py-10">
@@ -250,6 +275,18 @@ export default function SchoolsPage() {
                       ))}
                     </div>
                   )}
+
+                  <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-slate-500">
+                    {ratingSummaries[school.id]?.reviewCount ? (
+                      <>
+                        <Star size={16} className="text-amber-400" fill="currentColor" aria-hidden="true" />
+                        <span className="text-slate-700">{ratingSummaries[school.id].averageRating.toFixed(1)}</span>
+                        <span>{ratingSummaries[school.id].reviewCount} 人评价</span>
+                      </>
+                    ) : (
+                      <span>暂无评分</span>
+                    )}
+                  </div>
                 </Link>
               ))}
             </div>

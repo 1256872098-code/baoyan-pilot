@@ -4,6 +4,7 @@ import { ArrowLeft, Database } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import CollegeSidebar from "../components/school-detail/CollegeSidebar.jsx";
 import SchoolHeader from "../components/school-detail/SchoolHeader.jsx";
+import SchoolRatingSection from "../components/school-rating/SchoolRatingSection.jsx";
 import { getAcademicUnits } from "../utils/academicUnits.js";
 import { fetchSchoolDetail, fetchSchools } from "../utils/schoolData.js";
 
@@ -192,6 +193,10 @@ export default function SchoolDetailPage() {
               </p>
             </Card>
           </div>
+        </div>
+
+        <div className="mt-6">
+          <SchoolRatingSection schoolId={school.id} schoolName={school.name} />
         </div>
       </div>
     </div>

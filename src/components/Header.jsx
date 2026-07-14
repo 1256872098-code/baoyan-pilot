@@ -8,6 +8,7 @@ const navItems = [
   { path: "/", label: "首页" },
   { path: "/ai-recommend", label: "AI院校推荐" },
   { path: "/schools", label: "院校资料库" },
+  { path: "/my-school", label: "我的院校" },
   { path: "/forum", label: "保研论坛" },
 ];
 
