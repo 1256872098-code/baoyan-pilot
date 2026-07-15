@@ -4,6 +4,7 @@ import remarkGfm from "remark-gfm";
 import {
   Bot,
   CircleAlert,
+  FileDown,
   MessageSquareText,
   Plus,
   Send,
@@ -14,6 +15,7 @@ import {
 import { Card } from "../components/Card.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey, LOCAL_GUEST_USER_ID } from "../utils/auth.js";
+import { downloadRecommendationPdf, isRecommendationReportContent } from "../utils/recommendationPdf.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
 const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
@@ -44,6 +46,18 @@ const welcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。
 你可以像聊天一样回答，例如：  
 我是大二，会计专业，本科是普通一本，想先看看上海和江浙地区的保研机会。`;
 
+const professionalWelcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。我会先帮你逐步核验保研背景，再生成一份结构化的「保研院校梯度规划报告」。
+
+为了让推荐更专业，我不会在信息不足时直接给院校名单。我们会先补齐：年级专业、学校层次、GPA/排名、英语、科研竞赛、论文实习、目标方向、意向地区和风险偏好。
+
+我先想确认两个基础问题：
+
+1. 你现在是大几，学什么专业？
+2. 你的本科院校是哪所？如果不方便说具体学校，也可以说学校层次，比如 985、211、双一流、普通一本、普通二本或特色院校。
+
+你可以像聊天一样回答，例如：
+我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，想去上海或江浙地区。`;
+
 function createId(prefix) {
   if (typeof crypto !== "undefined" && crypto.randomUUID) {
     return `${prefix}-${crypto.randomUUID()}`;
@@ -57,7 +71,7 @@ function createWelcomeMessage() {
     id: createId("welcome"),
     role: "assistant",
     kind: "text",
-    content: welcomeContent,
+    content: professionalWelcomeContent,
   };
 }
 
@@ -102,7 +116,7 @@ function normalizeConversation(value, index) {
   const isOnlyOldWelcome =
     messages.length === 1 &&
     messages[0].role === "assistant" &&
-    [legacyWelcomeContent, previousWelcomeContent].includes(messages[0].content);
+    [legacyWelcomeContent, previousWelcomeContent, welcomeContent].includes(messages[0].content);
 
   const now = new Date().toISOString();
   return {
@@ -442,6 +456,13 @@ export default function AiRecommendChat() {
     user
       ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
       : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
+  const latestRecommendationReport = useMemo(
+    () =>
+      [...messages]
+        .reverse()
+        .find((message) => message.role === "assistant" && isRecommendationReportContent(message.content)) || null,
+    [messages],
+  );
 
   useEffect(() => {
     const nextState = loadConversationState(storageUser);
@@ -616,6 +637,18 @@ export default function AiRecommendChat() {
     }
   };
 
+  const handleDownloadPdf = () => {
+    if (!latestRecommendationReport) {
+      setError("当前对话还没有完整的院校推荐报告。请先补充背景信息，待 AI 输出冲、稳、保三档推荐后再下载。");
+      return;
+    }
+
+    downloadRecommendationPdf({
+      content: latestRecommendationReport.content,
+      title: activeConversation?.title || "BaoyanPilot保研院校推荐报告",
+    });
+  };
+
   return (
     <div className="h-[calc(100vh-72px)] overflow-hidden bg-slate-50 py-3">
       <div className="container-page flex h-full min-h-0 flex-col">
@@ -626,7 +659,7 @@ export default function AiRecommendChat() {
               保研院校梯度对话
             </h1>
             <p className="mt-1 line-clamp-1 text-sm text-slate-600">
-              补充背景信息后，生成冲刺、匹配、稳妥院校建议。
+              补齐背景信息后，生成冲、稳、保三档院校规划报告。
             </p>
           </div>
           <div className="flex shrink-0 items-center gap-2 rounded-md border border-blue-100 bg-blue-50 px-3 py-2 text-sm font-semibold text-brand-700">
@@ -661,6 +694,20 @@ export default function AiRecommendChat() {
                   <button type="button" className="btn-secondary px-3 py-2 md:hidden" onClick={handleCreateConversation}>
                     <Plus size={16} aria-hidden="true" />
                     新建
+                  </button>
+                  <button
+                    type="button"
+                    className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={handleDownloadPdf}
+                    disabled={!latestRecommendationReport}
+                    title={
+                      latestRecommendationReport
+                        ? "下载最新院校推荐报告 PDF"
+                        : "AI 输出完整冲、稳、保推荐报告后可下载 PDF"
+                    }
+                  >
+                    <FileDown size={16} aria-hidden="true" />
+                    下载PDF
                   </button>
                   <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
                     <Trash2 size={16} aria-hidden="true" />
@@ -702,7 +749,7 @@ export default function AiRecommendChat() {
                       value={input}
                       onChange={(event) => setInput(event.target.value)}
                       onKeyDown={handleKeyDown}
-                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，想去上海或江浙地区。"
+                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，六级 570，有大创和商赛经历，想申请经管类，优先上海或江浙，风险偏好稳妥。"
                     />
                   </label>
                   <button
