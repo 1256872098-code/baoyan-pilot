@@ -5,6 +5,7 @@ import {
   Bot,
   CircleAlert,
   FileDown,
+  FileText,
   MessageSquareText,
   Plus,
   Send,
@@ -15,12 +16,14 @@ import {
 import { Card } from "../components/Card.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey, LOCAL_GUEST_USER_ID } from "../utils/auth.js";
-import { downloadRecommendationPdf, isRecommendationReportContent } from "../utils/recommendationPdf.js";
+import { exportReportPdf } from "../utils/exportReportPdf.js";
+import { isRecommendationReportContent } from "../utils/recommendationPdf.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
 const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
 const BASE_ACTIVE_CONVERSATION_KEY = "baoyanpilot_ai_active_conversation_id";
 const DEFAULT_CONVERSATION_TITLE = "新的保研咨询";
+const REPORT_MARKER = "<!-- baoyanpilot-report -->";
 
 const legacyWelcomeContent =
   "你好，我是 AI 院校推荐助手。请先提供你的 background：年级、专业、学校层次、绩点或排名、英语成绩、科研经历、竞赛经历、目标专业方向、意向城市和风险偏好。信息不足时，我会先追问，再给出院校梯度建议。";
@@ -32,31 +35,29 @@ const previousWelcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐�
 1. 你现在是大几，学什么专业？
 2. 你的本科学校大概是什么层次？例如 985、211、双一流、普通一本、普通二本，或者财经类/农林类等特色院校。
 
-你可以直接像聊天一样回答，例如：
-我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。`;
+你可以直接像聊天一样回答，例如：我是大二，会计专业，普通一本，绩点 3.8，想去上海或江浙地区。`;
 
 const welcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。我会先帮你梳理保研背景，再根据你的成绩、学校层次、英语、竞赛科研、论文实习和目标地区，生成保研画像与院校梯度建议。
 
-为了不让你一次性填太多信息，我们可以一步一步来。  
+为了不让你一次性填太多信息，我们可以一步一步来。
 我先想了解两个基础问题：
 
 1. 你现在是大几，学什么专业？
 2. 你的本科院校是哪所？如果不方便说具体学校，也可以说学校层次，比如 985、211、双一流、普通一本、普通二本，或者财经类/农林类等特色院校。
 
-你可以像聊天一样回答，例如：  
+你可以像聊天一样回答，例如：
 我是大二，会计专业，本科是普通一本，想先看看上海和江浙地区的保研机会。`;
 
-const professionalWelcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。我会先帮你逐步核验保研背景，再生成一份结构化的「保研院校梯度规划报告」。
+const professionalWelcomeContent = `你好，我是 BaoyanPilot 的 AI 院校推荐助手。我会先帮你逐步核验保研背景，再生成一份结构化的“保研院校梯度规划报告”。
 
-为了让推荐更专业，我不会在信息不足时直接给院校名单。我们会先补齐：年级专业、学校层次、GPA/排名、英语、科研竞赛、论文实习、目标方向、意向地区和风险偏好。
+为了让推荐更专业，我不会在信息不足时直接给院校名单。我们会先补齐：年级专业、学校层次、GPA/排名、英语、科研竞赛、论文、实习实践、目标方向、意向地区和风险偏好。
 
 我先想确认两个基础问题：
 
 1. 你现在是大几，学什么专业？
 2. 你的本科院校是哪所？如果不方便说具体学校，也可以说学校层次，比如 985、211、双一流、普通一本、普通二本或特色院校。
 
-你可以像聊天一样回答，例如：
-我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，想去上海或江浙地区。`;
+你可以像聊天一样回答，例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，想去上海或江浙地区。`;
 
 function createId(prefix) {
   if (typeof crypto !== "undefined" && crypto.randomUUID) {
@@ -66,12 +67,22 @@ function createId(prefix) {
   return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
 
+function stripReportMarker(content) {
+  return String(content || "").replace(REPORT_MARKER, "").trim();
+}
+
+function hasReportMarker(content) {
+  return String(content || "").includes(REPORT_MARKER);
+}
+
 function createWelcomeMessage() {
   return {
     id: createId("welcome"),
     role: "assistant",
     kind: "text",
+    messageType: "normal",
     content: professionalWelcomeContent,
+    createdAt: new Date().toISOString(),
   };
 }
 
@@ -88,6 +99,18 @@ function createConversation(overrides = {}) {
   };
 }
 
+function inferMessageType(message, content) {
+  if (message?.messageType === "report") {
+    return "report";
+  }
+
+  if (message?.messageType === "normal") {
+    return "normal";
+  }
+
+  return isRecommendationReportContent(content) ? "report" : "normal";
+}
+
 function normalizeStoredMessages(value) {
   if (!Array.isArray(value)) {
     return [];
@@ -95,12 +118,18 @@ function normalizeStoredMessages(value) {
 
   return value
     .filter((message) => ["user", "assistant"].includes(message?.role) && typeof message?.content === "string")
-    .map((message, index) => ({
-      id: message.id || `stored-${index}`,
-      role: message.role,
-      kind: message.kind || "text",
-      content: message.content,
-    }));
+    .map((message, index) => {
+      const content = stripReportMarker(message.content);
+
+      return {
+        id: message.id || `stored-${index}`,
+        role: message.role,
+        kind: message.kind || "text",
+        messageType: inferMessageType(message, content),
+        content,
+        createdAt: message.createdAt || new Date().toISOString(),
+      };
+    });
 }
 
 function normalizeConversation(value, index) {
@@ -172,7 +201,9 @@ function loadConversationState(user) {
     if (legacyStoredMessages) {
       const legacyMessages = normalizeStoredMessages(JSON.parse(legacyStoredMessages));
       const isOnlyLegacyWelcome =
-        legacyMessages.length === 1 && legacyMessages[0].id === "welcome" && legacyMessages[0].content === legacyWelcomeContent;
+        legacyMessages.length === 1 &&
+        legacyMessages[0].id === "welcome" &&
+        legacyMessages[0].content === legacyWelcomeContent;
 
       if (legacyMessages.length && !isOnlyLegacyWelcome) {
         const conversation = createConversation({
@@ -206,7 +237,7 @@ function saveConversationState(conversations, activeConversationId, user) {
 }
 
 function createTitleFromMessage(content) {
-  const compact = content.replace(/[，。！？、,.!?；;：:\s]/g, "");
+  const compact = content.replace(/[，。！？、,.!?\s]/g, "");
   if (!compact) {
     return DEFAULT_CONVERSATION_TITLE;
   }
@@ -235,6 +266,120 @@ function formatConversationTime(value) {
   });
 }
 
+function createReportInstruction() {
+  return `请基于以上已经确认的信息，生成《保研院校梯度规划报告》。
+
+生成前必须先检查以下信息是否已经明确：年级、专业、本科院校或层次、GPA或均分、专业排名或排名范围、四级/六级、科研经历、论文情况、竞赛经历、实习实践或学生工作、目标方向、意向城市、风险偏好。
+
+特别注意：“实习实践或学生工作”是独立必问项。如果用户还没有明确说明实习、社会实践、学生工作或项目实践情况，请不要生成报告，只追问这个问题以及最多一个其他最关键缺失项。
+
+如果关键信息仍不足，请不要输出 ${REPORT_MARKER}，只用普通中文追问 1 到 2 个关键问题，不要使用 **加粗** 语法。
+
+如果信息足够，请在第一行原样输出：
+${REPORT_MARKER}
+
+然后严格按以下 Markdown 结构输出，文风要像正式规划文书，院校梯度使用“冲、稳、保”：
+
+# BaoyanPilot 保研院校梯度规划报告
+
+## 1. 用户信息核验摘要
+## 2. 当前保研画像
+## 3. 核心优势
+## 4. 主要短板与风险
+## 5. 申请路径建议
+## 6. 院校梯度建议
+### 6.1 冲：冲刺院校
+### 6.2 稳：稳妥匹配院校
+### 6.3 保：保底保障院校
+## 7. 推荐理由汇总
+## 8. 未来 30 天行动清单
+## 9. 风险说明与官网核验清单
+
+要求：
+1. 不承诺保研成功，不给出绝对录取判断。
+2. 不编造用户没有提供的经历、奖项、论文、实习、成绩或排名。
+3. 每个梯度至少给出 2 到 3 个院校或项目，并说明推荐理由、主要风险和需要官网核验的信息。
+4. 必须提醒：推荐结果仅供规划参考，具体政策、报名时间、材料要求和考核方式以学校官网最新通知为准。`;
+}
+
+function buildReportRequestMessages(messages) {
+  const usefulMessages = messages
+    .filter((message) => ["user", "assistant"].includes(message.role))
+    .slice(-12)
+    .map((message) => ({
+      role: message.role,
+      content: message.content,
+    }));
+
+  return [
+    ...usefulMessages,
+    {
+      role: "user",
+      content: createReportInstruction(),
+    },
+  ];
+}
+
+async function requestAiRecommendation(messages, options = {}) {
+  const purpose = options.purpose || "chat";
+  const payloadMessages = messages
+    .filter((message) => ["user", "assistant"].includes(message.role))
+    .map((message) => ({
+      role: message.role,
+      content: String(message.content || ""),
+    }))
+    .filter((message) => message.content.trim());
+
+  const endpoint = import.meta.env.VITE_RECOMMEND_API_URL || "/api/recommend";
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 90000);
+  let response;
+
+  console.log("[AI] request started", { purpose, messageCount: payloadMessages.length });
+
+  try {
+    response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ messages: payloadMessages }),
+      signal: controller.signal,
+    });
+  } catch (fetchError) {
+    console.error("[AI] request failed", {
+      purpose,
+      name: fetchError?.name,
+      message: fetchError?.message,
+    });
+
+    if (fetchError?.name === "AbortError") {
+      throw new Error("AI 生成时间过长，请稍后重试，或先补充更聚焦的背景信息后再生成报告。");
+    }
+
+    throw new Error("AI 接口请求未能到达后端。若你在本地开发，请确认 npm run dev 正在运行；若在 Vercel，请检查 /api/recommend。");
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+
+  const data = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    const message = data.error || "AI 服务暂时不可用，请稍后重试。";
+    console.error("[AI] request failed", { purpose, status: response.status, message });
+    throw new Error(message);
+  }
+
+  const reply = data.reply || data.content || "";
+  if (!reply) {
+    console.error("[AI] request failed", { purpose, status: response.status, message: "empty reply" });
+    throw new Error("AI 服务没有返回有效内容。");
+  }
+
+  console.log("[AI] request completed", { purpose, status: response.status, replyLength: reply.length });
+  return reply;
+}
+
 function MessageAvatar({ role }) {
   const isAssistant = role === "assistant";
 
@@ -250,15 +395,15 @@ function MessageAvatar({ role }) {
   );
 }
 
-function MarkdownContent({ content }) {
+function MarkdownContent({ content, isReport = false }) {
   const normalizedContent = useMemo(() => {
-    const value = String(content || "");
-    if (isRecommendationReportContent(value) || value.includes("BaoyanPilot 保研院校梯度规划报告")) {
+    const value = stripReportMarker(content);
+    if (isReport) {
       return value;
     }
 
     return value.replace(/\*\*([^*\n]+)\*\*/g, "$1");
-  }, [content]);
+  }, [content, isReport]);
 
   return (
     <ReactMarkdown
@@ -302,7 +447,11 @@ function MarkdownContent({ content }) {
             <table className="w-full table-fixed border-collapse bg-white text-left text-sm">{children}</table>
           </div>
         ),
-        th: ({ children }) => <th className="break-words border-b border-slate-200 bg-blue-50 px-3 py-2 font-bold text-slate-900">{children}</th>,
+        th: ({ children }) => (
+          <th className="break-words border-b border-slate-200 bg-blue-50 px-3 py-2 font-bold text-slate-900">
+            {children}
+          </th>
+        ),
         td: ({ children }) => <td className="break-words border-b border-slate-100 px-3 py-2 align-top text-slate-700">{children}</td>,
         hr: () => <hr className="my-4 border-slate-200" />,
       }}
@@ -314,6 +463,7 @@ function MarkdownContent({ content }) {
 
 function TextMessage({ message }) {
   const isAssistant = message.role === "assistant";
+  const isReport = message.messageType === "report";
 
   return (
     <div className={`flex gap-3 ${isAssistant ? "justify-start" : "justify-end"}`}>
@@ -324,21 +474,19 @@ function TextMessage({ message }) {
           isAssistant
             ? "max-w-[88%] border border-slate-200 bg-white px-5 py-4 text-slate-700"
             : "max-w-[75%] bg-brand-600 px-5 py-3 text-white",
+          isReport ? "border-blue-200 ring-1 ring-blue-100" : "",
         ].join(" ")}
       >
+        {isReport && (
+          <div className="mb-3 inline-flex items-center gap-1.5 rounded-md border border-blue-100 bg-blue-50 px-2.5 py-1 text-xs font-semibold text-brand-700">
+            <FileText size={13} aria-hidden="true" />
+            可下载规划报告
+          </div>
+        )}
         {isAssistant ? (
-          <MarkdownContent content={message.content} />
+          <MarkdownContent content={message.content} isReport={isReport} />
         ) : (
           <p className="whitespace-pre-wrap">{message.content}</p>
-        )}
-        {message.missingFields?.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-2">
-            {message.missingFields.map((field) => (
-              <span key={field.key} className="rounded-md bg-blue-50 px-2.5 py-1 text-xs font-semibold text-brand-700">
-                {field.label}
-              </span>
-            ))}
-          </div>
         )}
       </div>
       {!isAssistant && <MessageAvatar role={message.role} />}
@@ -348,51 +496,6 @@ function TextMessage({ message }) {
 
 function ChatMessage({ message }) {
   return <TextMessage message={message} />;
-}
-
-async function requestAiRecommendation(messages) {
-  const payloadMessages = messages
-    .filter((message) => ["user", "assistant"].includes(message.role))
-    .map((message) => ({
-      role: message.role,
-      content: message.content,
-    }));
-
-  const endpoint = import.meta.env.VITE_RECOMMEND_API_URL || "/api/recommend";
-  const controller = new AbortController();
-  const timeoutId = window.setTimeout(() => controller.abort(), 90000);
-  let response;
-
-  try {
-    response = await fetch(endpoint, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ messages: payloadMessages }),
-      signal: controller.signal,
-    });
-  } catch (fetchError) {
-    if (fetchError?.name === "AbortError") {
-      throw new Error("AI 生成时间过长，请稍后重试，或先补充更聚焦的背景信息后再生成报告。");
-    }
-
-    throw new Error("AI 接口请求未能到达后端。若你在本地开发，请重启 npm run dev；若在 Vercel，请检查 /api/recommend 和 DEEPSEEK_API_KEY。");
-  } finally {
-    window.clearTimeout(timeoutId);
-  }
-
-  const data = await response.json().catch(() => ({}));
-
-  if (!response.ok) {
-    throw new Error(data.error || "AI 服务暂时不可用，请稍后重试。");
-  }
-
-  if (!data.reply) {
-    throw new Error("AI 服务没有返回有效内容。");
-  }
-
-  return data.reply;
 }
 
 function ConversationSidebar({
@@ -429,11 +532,7 @@ function ConversationSidebar({
                   : "border-transparent text-slate-700 hover:border-slate-200 hover:bg-slate-50",
               ].join(" ")}
             >
-              <button
-                type="button"
-                className="min-w-0 flex-1 text-left"
-                onClick={() => onSelectConversation(conversation.id)}
-              >
+              <button type="button" className="min-w-0 flex-1 text-left" onClick={() => onSelectConversation(conversation.id)}>
                 <span className="block truncate text-sm font-bold">{conversation.title}</span>
                 <span className={`mt-1 block text-xs ${isActive ? "text-brand-600" : "text-slate-400"}`}>
                   {formatConversationTime(conversation.updatedAt)}
@@ -468,7 +567,11 @@ export default function AiRecommendChat() {
   const [loadedStorageOwnerId, setLoadedStorageOwnerId] = useState(LOCAL_GUEST_USER_ID);
   const [input, setInput] = useState("");
   const [isThinking, setIsThinking] = useState(false);
-  const [error, setError] = useState("");
+  const [isGeneratingReport, setIsGeneratingReport] = useState(false);
+  const [isExportingPdf, setIsExportingPdf] = useState(false);
+  const [aiError, setAiError] = useState("");
+  const [pdfError, setPdfError] = useState("");
+  const [pdfStatus, setPdfStatus] = useState("");
   const chatScrollRef = useRef(null);
   const chatEndRef = useRef(null);
 
@@ -477,15 +580,11 @@ export default function AiRecommendChat() {
     [activeConversationId, conversations],
   );
   const messages = activeConversation?.messages || [];
-  const storageNotice =
-    user
-      ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
-      : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
+  const storageNotice = user
+    ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
+    : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
   const latestRecommendationReport = useMemo(
-    () =>
-      [...messages]
-        .reverse()
-        .find((message) => message.role === "assistant" && isRecommendationReportContent(message.content)) || null,
+    () => [...messages].reverse().find((message) => message.role === "assistant" && message.messageType === "report") || null,
     [messages],
   );
 
@@ -495,7 +594,9 @@ export default function AiRecommendChat() {
     setActiveConversationId(nextState.activeConversationId);
     setLoadedStorageOwnerId(storageOwnerId);
     setInput("");
-    setError("");
+    setAiError("");
+    setPdfError("");
+    setPdfStatus("");
   }, [storageOwnerId]);
 
   useEffect(() => {
@@ -516,20 +617,26 @@ export default function AiRecommendChat() {
     }
 
     chatEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [activeConversationId, isThinking, messages.length]);
+  }, [activeConversationId, isThinking, isGeneratingReport, messages.length]);
+
+  const resetErrors = () => {
+    setAiError("");
+    setPdfError("");
+    setPdfStatus("");
+  };
 
   const handleCreateConversation = () => {
     const conversation = createConversation();
     setConversations((current) => [conversation, ...current]);
     setActiveConversationId(conversation.id);
     setInput("");
-    setError("");
+    resetErrors();
   };
 
   const handleSelectConversation = (conversationId) => {
     setActiveConversationId(conversationId);
     setInput("");
-    setError("");
+    resetErrors();
   };
 
   const handleDeleteConversation = (conversationId) => {
@@ -547,7 +654,7 @@ export default function AiRecommendChat() {
     }
 
     setInput("");
-    setError("");
+    resetErrors();
   };
 
   const handleClearMessages = () => {
@@ -565,93 +672,125 @@ export default function AiRecommendChat() {
       ),
     );
     setInput("");
-    setError("");
+    resetErrors();
+  };
+
+  const appendMessageToConversation = (conversationId, message, options = {}) => {
+    const updatedAt = new Date().toISOString();
+    setConversations((current) =>
+      current
+        .map((conversation) =>
+          conversation.id === conversationId
+            ? {
+                ...conversation,
+                title: options.title || conversation.title,
+                messages: [...conversation.messages, message],
+                updatedAt,
+              }
+            : conversation,
+        )
+        .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()),
+    );
   };
 
   const handleSend = async () => {
     const content = input.trim();
-    if (!content || isThinking || !activeConversation) return;
+    if (!content || isThinking || isGeneratingReport || !activeConversation) return;
 
     const userMessage = {
-      id: `user-${Date.now()}`,
+      id: createId("user"),
       role: "user",
       kind: "text",
+      messageType: "normal",
       content,
+      createdAt: new Date().toISOString(),
     };
     const requestConversationId = activeConversation.id;
     const nextMessages = [...activeConversation.messages, userMessage];
-    const now = new Date().toISOString();
     const hasUserMessage = activeConversation.messages.some((message) => message.role === "user");
     const nextTitle =
       !hasUserMessage && activeConversation.title === DEFAULT_CONVERSATION_TITLE
         ? createTitleFromMessage(content)
         : activeConversation.title;
 
-    setConversations((current) =>
-      current
-        .map((conversation) =>
-          conversation.id === requestConversationId
-            ? {
-                ...conversation,
-                title: nextTitle,
-                messages: nextMessages,
-                updatedAt: now,
-              }
-            : conversation,
-        )
-        .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()),
-    );
+    appendMessageToConversation(requestConversationId, userMessage, { title: nextTitle });
     setInput("");
-    setError("");
+    resetErrors();
     setIsThinking(true);
 
     try {
-      const reply = await requestAiRecommendation(nextMessages);
-      const updatedAt = new Date().toISOString();
-      const assistantMessage = {
-        id: `assistant-${Date.now()}`,
+      const reply = await requestAiRecommendation(nextMessages, { purpose: "chat" });
+      appendMessageToConversation(requestConversationId, {
+        id: createId("assistant"),
         role: "assistant",
         kind: "text",
-        content: reply,
-      };
-
-      setConversations((current) =>
-        current
-          .map((conversation) =>
-            conversation.id === requestConversationId
-              ? {
-                  ...conversation,
-                  messages: [...conversation.messages, assistantMessage],
-                  updatedAt,
-                }
-              : conversation,
-          )
-          .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()),
-      );
+        messageType: "normal",
+        content: stripReportMarker(reply),
+        createdAt: new Date().toISOString(),
+      });
     } catch (requestError) {
-      const errorMessage = requestError instanceof Error ? requestError.message : "AI 服务暂时不可用，请稍后重试。";
-      const updatedAt = new Date().toISOString();
-      const assistantMessage = {
-        id: `assistant-error-${Date.now()}`,
+      const errorMessage = requestError instanceof Error ? requestError.message : "AI 回复失败，请稍后重试。";
+      setAiError(errorMessage);
+      appendMessageToConversation(requestConversationId, {
+        id: createId("assistant-error"),
         role: "assistant",
         kind: "text",
-        content: `接口调用失败：${errorMessage}`,
-      };
-
-      setError(errorMessage);
-      setConversations((current) =>
-        current.map((conversation) =>
-          conversation.id === requestConversationId
-            ? {
-                ...conversation,
-                messages: [...conversation.messages, assistantMessage],
-                updatedAt,
-              }
-            : conversation,
-        ),
-      );
+        messageType: "normal",
+        content: `AI 回复失败：${errorMessage}`,
+        createdAt: new Date().toISOString(),
+      });
     } finally {
       setIsThinking(false);
+    }
+  };
+
+  const handleGenerateReport = async () => {
+    if (!activeConversation || isThinking || isGeneratingReport) return;
+
+    const requestConversationId = activeConversation.id;
+    const promptMessage = {
+      id: createId("user-report"),
+      role: "user",
+      kind: "text",
+      messageType: "normal",
+      content: "请基于以上已确认信息生成《保研院校梯度规划报告》。",
+      createdAt: new Date().toISOString(),
+    };
+    const nextMessages = [...activeConversation.messages, promptMessage];
+
+    appendMessageToConversation(requestConversationId, promptMessage);
+    resetErrors();
+    setIsGeneratingReport(true);
+
+    try {
+      const reply = await requestAiRecommendation(buildReportRequestMessages(nextMessages), { purpose: "report" });
+      const isReport = hasReportMarker(reply);
+
+      appendMessageToConversation(requestConversationId, {
+        id: createId(isReport ? "assistant-report" : "assistant"),
+        role: "assistant",
+        kind: "text",
+        messageType: isReport ? "report" : "normal",
+        content: stripReportMarker(reply),
+        createdAt: new Date().toISOString(),
+      });
+
+      if (!isReport) {
+        setAiError("当前信息还不足以生成完整报告，AI 已继续追问缺失信息。");
+      }
+    } catch (requestError) {
+      const errorMessage = requestError instanceof Error ? requestError.message : "报告生成失败，请稍后重试。";
+      setAiError(errorMessage);
+      appendMessageToConversation(requestConversationId, {
+        id: createId("assistant-report-error"),
+        role: "assistant",
+        kind: "text",
+        messageType: "normal",
+        content: `报告生成失败：${errorMessage}`,
+        createdAt: new Date().toISOString(),
+      });
+    } finally {
+      setIsGeneratingReport(false);
     }
   };
 
@@ -662,16 +801,34 @@ export default function AiRecommendChat() {
     }
   };
 
-  const handleDownloadPdf = () => {
+  const handleDownloadPdf = async () => {
+    setPdfError("");
+    setPdfStatus("");
+
     if (!latestRecommendationReport) {
-      setError("当前对话还没有完整的院校推荐报告。请先补充背景信息，待 AI 输出冲、稳、保三档推荐后再下载。");
+      setPdfError("当前对话还没有完整的保研规划报告。请先点击“生成报告”，待 AI 输出完整报告后再下载。");
       return;
     }
 
-    downloadRecommendationPdf({
-      content: latestRecommendationReport.content,
-      title: activeConversation?.title || "BaoyanPilot保研院校推荐报告",
-    });
+    setIsExportingPdf(true);
+    console.log("[PDF] generation started", { messageId: latestRecommendationReport.id });
+
+    try {
+      await exportReportPdf({
+        reportContent: latestRecommendationReport.content,
+        title: activeConversation?.title || "BaoyanPilot保研院校梯度规划报告",
+      });
+      setPdfStatus("PDF 已生成。");
+      console.log("[PDF] generation completed", { messageId: latestRecommendationReport.id });
+    } catch (pdfExportError) {
+      console.error("[PDF] generation failed", {
+        name: pdfExportError?.name,
+        message: pdfExportError?.message,
+      });
+      setPdfError("PDF 生成失败，请稍后重试。");
+    } finally {
+      setIsExportingPdf(false);
+    }
   };
 
   return (
@@ -715,7 +872,7 @@ export default function AiRecommendChat() {
                     <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{storageNotice}</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <button type="button" className="btn-secondary px-3 py-2 md:hidden" onClick={handleCreateConversation}>
                     <Plus size={16} aria-hidden="true" />
                     新建
@@ -723,16 +880,26 @@ export default function AiRecommendChat() {
                   <button
                     type="button"
                     className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={handleGenerateReport}
+                    disabled={isThinking || isGeneratingReport}
+                    title="基于当前对话生成可下载的保研院校梯度规划报告"
+                  >
+                    <FileText size={16} aria-hidden="true" />
+                    {isGeneratingReport ? "生成中..." : "生成报告"}
+                  </button>
+                  <button
+                    type="button"
+                    className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
                     onClick={handleDownloadPdf}
-                    disabled={!latestRecommendationReport}
+                    disabled={!latestRecommendationReport || isExportingPdf}
                     title={
                       latestRecommendationReport
-                        ? "下载最新院校推荐报告 PDF"
-                        : "AI 输出完整冲、稳、保推荐报告后可下载 PDF"
+                        ? "下载最新规划报告 PDF"
+                        : "请先生成完整的保研规划报告"
                     }
                   >
                     <FileDown size={16} aria-hidden="true" />
-                    下载PDF
+                    {isExportingPdf ? "正在生成PDF..." : "下载PDF"}
                   </button>
                   <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
                     <Trash2 size={16} aria-hidden="true" />
@@ -741,24 +908,32 @@ export default function AiRecommendChat() {
                 </div>
               </div>
 
-              <div
-                ref={chatScrollRef}
-                className="min-h-0 flex-1 space-y-4 overflow-y-auto bg-slate-50 px-5 py-4"
-              >
-                {error && (
+              <div ref={chatScrollRef} className="min-h-0 flex-1 space-y-4 overflow-y-auto bg-slate-50 px-5 py-4">
+                {aiError && (
                   <div className="flex items-start gap-2 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm leading-6 text-red-700">
                     <CircleAlert className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
-                    <span>{error}</span>
+                    <span>{aiError}</span>
+                  </div>
+                )}
+                {pdfError && (
+                  <div className="flex items-start gap-2 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-700">
+                    <CircleAlert className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+                    <span>{pdfError}</span>
+                  </div>
+                )}
+                {pdfStatus && (
+                  <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm font-semibold text-brand-700">
+                    {pdfStatus}
                   </div>
                 )}
                 {messages.map((message) => (
                   <ChatMessage key={message.id} message={message} />
                 ))}
-                {isThinking && (
+                {(isThinking || isGeneratingReport) && (
                   <div className="flex gap-3">
                     <MessageAvatar role="assistant" />
                     <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-500 shadow-sm">
-                      正在请求 AI 推荐...
+                      {isGeneratingReport ? "正在生成规划报告..." : "正在请求 AI 推荐..."}
                     </div>
                   </div>
                 )}
@@ -774,14 +949,14 @@ export default function AiRecommendChat() {
                       value={input}
                       onChange={(event) => setInput(event.target.value)}
                       onKeyDown={handleKeyDown}
-                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，六级 570，有大创和商赛经历，想申请经管类，优先上海或江浙，风险偏好稳妥。"
+                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，六级 570，有大创和商赛经历，实习暂时没有，想申请经管类，优先上海或江浙，风险偏好稳妥。"
                     />
                   </label>
                   <button
                     type="button"
                     className="btn-primary disabled:cursor-not-allowed disabled:bg-slate-300 sm:h-[46px]"
                     onClick={handleSend}
-                    disabled={!input.trim() || isThinking}
+                    disabled={!input.trim() || isThinking || isGeneratingReport}
                   >
                     <Send size={18} aria-hidden="true" />
                     {isThinking ? "发送中" : "发送"}

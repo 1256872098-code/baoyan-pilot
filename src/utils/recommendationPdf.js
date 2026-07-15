@@ -192,7 +192,7 @@ function createPdfBlob(content, title) {
 }
 
 function sanitizeFileName(value) {
-  return String(value || "BaoyanPilot保研院校推荐报告")
+  return String(value || "BaoyanPilot保研院校梯度规划报告")
     .replace(/[\\/:*?"<>|]/g, "")
     .replace(/\s+/g, "")
     .slice(0, 48);
@@ -200,12 +200,16 @@ function sanitizeFileName(value) {
 
 export function isRecommendationReportContent(content) {
   const value = String(content || "");
-  const hasReportFrame = value.includes("保研院校梯度规划报告") || value.includes("当前保研画像");
+  const hasReportFrame =
+    value.includes("保研院校梯度规划报告") ||
+    value.includes("当前保研画像") ||
+    value.includes("用户信息核验摘要");
   const hasTiers =
-    (value.includes("冲刺院校") || value.includes("（冲）")) &&
-    (value.includes("稳妥院校") || value.includes("（稳）")) &&
-    (value.includes("保底院校") || value.includes("（保）"));
-  const hasRiskNotice = value.includes("仅供规划参考") || value.includes("官网最新通知") || value.includes("风险说明");
+    (value.includes("冲：") || value.includes("冲刺院校") || value.includes("冲刺")) &&
+    (value.includes("稳：") || value.includes("稳妥") || value.includes("匹配院校")) &&
+    (value.includes("保：") || value.includes("保底") || value.includes("保障院校"));
+  const hasRiskNotice =
+    value.includes("仅供规划参考") || value.includes("官网最新通知") || value.includes("风险说明");
   return hasReportFrame && hasTiers && hasRiskNotice;
 }
 
@@ -213,8 +217,10 @@ export function downloadRecommendationPdf({ content, title }) {
   const blob = createPdfBlob(content, title);
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
+  const dateStamp = new Date().toISOString().slice(0, 10);
+
   link.href = url;
-  link.download = `${sanitizeFileName(title)}.pdf`;
+  link.download = `${sanitizeFileName(title)}-${dateStamp}.pdf`;
   document.body.appendChild(link);
   link.click();
   link.remove();

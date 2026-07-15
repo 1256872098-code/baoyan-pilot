@@ -200,6 +200,17 @@ const STRICT_FOLLOW_UP_RULES = `
 6. 完整报告仍可使用 Markdown 标题和表格，但追问消息要尽量避免复杂 Markdown，防止用户看到原始符号。
 `.trim();
 
+const REPORT_AND_FOLLOWUP_GUARDRAILS = `
+补充规则：
+1. 追问阶段不要使用 Markdown 加粗语法，不要输出 **学硕**、**专硕** 这类原始符号；只用普通中文、短句、编号或简洁列表。
+2. 实习实践、社会实践、学生工作、项目实践是独立必问信息，不能被科研、竞赛或论文合并替代。
+3. 如果用户没有明确说明实习实践情况，生成完整保研画像、院校建议或规划报告前，必须先追问实习实践。用户可以回答“暂无”。
+4. 只有在年级专业、学校层次、GPA/排名、英语、科研、论文、竞赛、实习实践、目标方向、意向城市和风险偏好都基本确认后，才可以输出完整报告。
+5. 院校梯度必须按“冲、稳、保”三类输出；可以在括号中解释为冲刺、稳妥匹配、保底保障。
+6. 如果前端要求生成报告且信息不足，不要为了生成报告而补全或编造缺失信息，只追问最关键的 1 到 2 个问题。
+7. 不要尝试生成 PDF、base64、Blob 或文件链接；你只返回普通 Markdown 文本。
+`.trim();
+
 function sendJson(response, statusCode, payload) {
   response.status(statusCode).json(payload);
 }
@@ -258,7 +269,13 @@ async function callDeepSeek(messages, apiKey) {
     },
     body: JSON.stringify({
       model: DEEPSEEK_MODEL,
-      messages: [{ role: "system", content: `${PROFESSIONAL_SYSTEM_PROMPT}\n\n${STRICT_FOLLOW_UP_RULES}` }, ...messages],
+      messages: [
+        {
+          role: "system",
+          content: `${PROFESSIONAL_SYSTEM_PROMPT}\n\n${STRICT_FOLLOW_UP_RULES}\n\n${REPORT_AND_FOLLOWUP_GUARDRAILS}`,
+        },
+        ...messages,
+      ],
       temperature: 0.25,
       max_tokens: 3800,
       stream: false,
