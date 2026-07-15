@@ -61,6 +61,18 @@ function scopePriority(scope = {}) {
   return 0;
 }
 
+function sortByScopeAndYear(a, b) {
+  const scopeDiff = scopePriority(b.scope) - scopePriority(a.scope);
+  if (scopeDiff) return scopeDiff;
+  return Number(b.year || 0) - Number(a.year || 0);
+}
+
+function getScopedItemsWithYearFallback(items = [], binding = {}) {
+  const scoped = items.filter((item) => scopeMatches(item.scope, binding));
+  const exactYear = scoped.filter((item) => yearMatches(item, binding));
+  return (exactYear.length ? exactYear : scoped).sort(sortByScopeAndYear);
+}
+
 export function getMatchedRecommendationData(data, binding = {}) {
   const schoolLevel = getSchoolLevelRecommendationData(data);
   const colleges = Array.isArray(data?.recommendationData?.colleges) ? data.recommendationData.colleges : [];
@@ -75,15 +87,9 @@ export function getMatchedRecommendationData(data, binding = {}) {
       majorName: binding.majorName || binding.major,
     });
 
-  const policies = (Array.isArray(data?.policies) ? data.policies : [])
-    .filter((item) => scopeMatches(item.scope, binding) && yearMatches(item, binding))
-    .sort((a, b) => scopePriority(b.scope) - scopePriority(a.scope));
-  const rankingRules = (Array.isArray(data?.rankingRules) ? data.rankingRules : [])
-    .filter((item) => scopeMatches(item.scope, binding) && yearMatches(item, binding))
-    .sort((a, b) => scopePriority(b.scope) - scopePriority(a.scope));
-  const bonusRules = (Array.isArray(data?.bonusRules) ? data.bonusRules : [])
-    .filter((item) => scopeMatches(item.scope, binding) && yearMatches(item, binding))
-    .sort((a, b) => scopePriority(b.scope) - scopePriority(a.scope));
+  const policies = getScopedItemsWithYearFallback(Array.isArray(data?.policies) ? data.policies : [], binding);
+  const rankingRules = getScopedItemsWithYearFallback(Array.isArray(data?.rankingRules) ? data.rankingRules : [], binding);
+  const bonusRules = getScopedItemsWithYearFallback(Array.isArray(data?.bonusRules) ? data.bonusRules : [], binding);
   const notices = (Array.isArray(data?.notices) ? data.notices : [])
     .filter((item) => scopeMatches(item.scope, binding) && yearMatches(item, binding))
     .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")));

@@ -60,4 +60,64 @@ select {
   .hero-shell {
     min-height: min(720px, calc(100svh - 7rem));
   }
+
+  .my-school-recommendation-equalizer,
+  .my-school-policy-equalizer,
+  .my-school-bonus-equalizer {
+    @apply min-w-0;
+  }
+}
+
+.my-school-recommendation-card,
+.my-school-policy-card,
+.my-school-bonus-card {
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .my-school-recommendation-card,
+  .my-school-policy-card,
+  .my-school-bonus-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .my-school-recommendation-scroll,
+  .my-school-policy-scroll,
+  .my-school-bonus-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-right: 0.5rem;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+
+  .my-school-recommendation-scroll::-webkit-scrollbar,
+  .my-school-policy-scroll::-webkit-scrollbar,
+  .my-school-bonus-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .my-school-recommendation-scroll::-webkit-scrollbar-track,
+  .my-school-policy-scroll::-webkit-scrollbar-track,
+  .my-school-bonus-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .my-school-recommendation-scroll::-webkit-scrollbar-thumb,
+  .my-school-policy-scroll::-webkit-scrollbar-thumb,
+  .my-school-bonus-scroll::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 999px;
+  }
+
+  .my-school-recommendation-scroll::-webkit-scrollbar-thumb:hover,
+  .my-school-policy-scroll::-webkit-scrollbar-thumb:hover,
+  .my-school-bonus-scroll::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
 }

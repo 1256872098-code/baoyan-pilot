@@ -103,12 +103,15 @@ async function main() {
   const normalized = normalizeAccountingData({ counts: countsWithCohort, policies: policyBundle, ids });
   const outputPath = getOutputPath(ids.school.id);
   const current = await readJson(outputPath, {});
+  const retainedBonusRules = (current.bonusRules || []).filter(
+    (item) => !(item.year === 2026 && item.collegeName === "经济管理学院"),
+  );
   const nextData = {
     ...current,
     accountingRecommendationHistory: mergeByYear(current.accountingRecommendationHistory, normalized.accountingRecommendationHistory),
     policies: mergeScopedArray(current.policies, policyBundle.policy),
     rankingRules: mergeScopedArray(current.rankingRules, policyBundle.rankingRule),
-    bonusRules: mergeScopedArray(current.bonusRules, policyBundle.bonusRules),
+    bonusRules: mergeScopedArray(retainedBonusRules, policyBundle.bonusRules, "category"),
     lastUpdatedAt: new Date().toISOString(),
   };
 
