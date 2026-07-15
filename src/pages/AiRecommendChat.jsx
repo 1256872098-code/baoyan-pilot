@@ -251,6 +251,15 @@ function MessageAvatar({ role }) {
 }
 
 function MarkdownContent({ content }) {
+  const normalizedContent = useMemo(() => {
+    const value = String(content || "");
+    if (isRecommendationReportContent(value) || value.includes("BaoyanPilot 保研院校梯度规划报告")) {
+      return value;
+    }
+
+    return value.replace(/\*\*([^*\n]+)\*\*/g, "$1");
+  }, [content]);
+
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
@@ -298,7 +307,7 @@ function MarkdownContent({ content }) {
         hr: () => <hr className="my-4 border-slate-200" />,
       }}
     >
-      {content}
+      {normalizedContent}
     </ReactMarkdown>
   );
 }
@@ -349,13 +358,29 @@ async function requestAiRecommendation(messages) {
       content: message.content,
     }));
 
-  const response = await fetch("/api/recommend", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ messages: payloadMessages }),
-  });
+  const endpoint = import.meta.env.VITE_RECOMMEND_API_URL || "/api/recommend";
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), 90000);
+  let response;
+
+  try {
+    response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ messages: payloadMessages }),
+      signal: controller.signal,
+    });
+  } catch (fetchError) {
+    if (fetchError?.name === "AbortError") {
+      throw new Error("AI 生成时间过长，请稍后重试，或先补充更聚焦的背景信息后再生成报告。");
+    }
+
+    throw new Error("AI 接口请求未能到达后端。若你在本地开发，请重启 npm run dev；若在 Vercel，请检查 /api/recommend 和 DEEPSEEK_API_KEY。");
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
 
   const data = await response.json().catch(() => ({}));
 

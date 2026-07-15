@@ -2,6 +2,10 @@ const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DEEPSEEK_MODEL = "deepseek-v4-flash";
 // If deepseek-v4-flash is unavailable, temporarily change the model to "deepseek-chat".
 
+export const config = {
+  maxDuration: 60,
+};
+
 const SYSTEM_PROMPT = `
 你是 BaoyanPilot 的 AI 院校推荐助手，定位是大学生保研规划顾问。
 
@@ -186,6 +190,16 @@ const PROFESSIONAL_SYSTEM_PROMPT = `
 7. 回复使用中文，Markdown 规范、层级清晰、适合导出为 PDF。
 `.trim();
 
+const STRICT_FOLLOW_UP_RULES = `
+追加硬性规则：
+1. 追问阶段不要使用 Markdown 加粗语法，例如不要输出 **学术型硕士** 这类写法；追问时只用普通中文、编号或短列表。
+2. “实习实践/学生工作”是独立必问项，不能被科研、竞赛、论文合并替代。只要用户没有明确说明实习、实践、学生工作或项目实践情况，就不得生成完整报告。
+3. 学硕/专硕偏好属于补充约束，不得排在实习实践之前。如果实习实践未知，必须先问实习实践，再考虑是否询问学硕/专硕。
+4. 生成报告前必须做内部检查：年级专业、学校层次、GPA/排名、英语、科研、论文、竞赛、实习实践、目标方向、城市、风险偏好是否都已确认。如果“实习实践”未知，回复只能追问，不能推荐院校。
+5. 如果用户只回答“均衡型、稳妥型、冲刺型”等风险偏好，而此前没有说明实习实践，应先回应“已确认风险偏好”，再追问：是否有实习、社会实践、学生工作或项目实践经历；如有，请说明单位/项目、时间、角色和成果；如没有，可以直接回复暂无。
+6. 完整报告仍可使用 Markdown 标题和表格，但追问消息要尽量避免复杂 Markdown，防止用户看到原始符号。
+`.trim();
+
 function sendJson(response, statusCode, payload) {
   response.status(statusCode).json(payload);
 }
@@ -244,7 +258,7 @@ async function callDeepSeek(messages, apiKey) {
     },
     body: JSON.stringify({
       model: DEEPSEEK_MODEL,
-      messages: [{ role: "system", content: PROFESSIONAL_SYSTEM_PROMPT }, ...messages],
+      messages: [{ role: "system", content: `${PROFESSIONAL_SYSTEM_PROMPT}\n\n${STRICT_FOLLOW_UP_RULES}` }, ...messages],
       temperature: 0.25,
       max_tokens: 3800,
       stream: false,
@@ -303,8 +317,13 @@ export default async function handler(request, response) {
 
     sendJson(response, 200, { reply });
   } catch (error) {
+    // eslint-disable-next-line no-console
+    console.error("DeepSeek recommend handler failed:", error?.message || error);
     sendJson(response, 500, {
-      error: error instanceof SyntaxError ? "请求体不是有效 JSON。" : "服务端调用 DeepSeek API 失败。",
+      error:
+        error instanceof SyntaxError
+          ? "请求体不是有效 JSON。"
+          : `服务端调用 DeepSeek API 失败：${error?.message || "请稍后重试。"}`,
     });
   }
 }
