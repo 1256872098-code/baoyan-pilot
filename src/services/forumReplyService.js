@@ -1,11 +1,17 @@
 import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
+import {
+  forumAuthorProfileColumns,
+  getForumAuthorPayload,
+  isAuthorProfileColumnError,
+  stripOptionalAuthorFields,
+} from "../utils/forumAuthorProfile.js";
 
 const maxReplyLength = 2000;
 const loginRequiredMessage = "请先使用手机号体验登录后再回复帖子。";
 const databaseNotConfiguredMessage =
   "论坛数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
 
-const replySelectColumns = [
+const baseReplySelectColumns = [
   "id",
   "post_id",
   "content",
@@ -18,7 +24,10 @@ const replySelectColumns = [
   "reply_to_author_id",
   "reply_to_author_name",
   "depth",
-].join(",");
+];
+
+const replySelectColumns = [...baseReplySelectColumns, forumAuthorProfileColumns].join(",");
+const legacyReplySelectColumns = baseReplySelectColumns.join(",");
 
 function ensureDatabase() {
   if (!isSupabaseConfigured || !supabase) {
@@ -32,23 +41,25 @@ function ensureUser(user) {
   }
 }
 
-function getAuthorPayload(user) {
-  return {
-    author_id: user.id,
-    author_name: user.nickname || (user.phone ? `用户${String(user.phone).slice(-4)}` : "保研用户"),
-    login_type: user.loginType || "phone_mock",
-  };
-}
-
 export async function fetchRepliesByPost(postId) {
   ensureDatabase();
   if (!postId) return [];
 
-  const { data, error } = await supabase
+  let { data, error } = await supabase
     .from("forum_replies")
     .select(replySelectColumns)
     .eq("post_id", postId)
     .order("created_at", { ascending: true });
+
+  if (error && isAuthorProfileColumnError(error)) {
+    const legacyResult = await supabase
+      .from("forum_replies")
+      .select(legacyReplySelectColumns)
+      .eq("post_id", postId)
+      .order("created_at", { ascending: true });
+    data = legacyResult.data;
+    error = legacyResult.error;
+  }
 
   if (error) throw error;
   return data || [];
@@ -80,10 +91,20 @@ export async function createForumReply({ postId, content, currentUser, parentRep
     reply_to_author_id: isTopLevel ? null : parentReply.author_id,
     reply_to_author_name: isTopLevel ? null : parentReply.author_name,
     depth: isTopLevel ? 0 : Math.min((Number(parentReply.depth) || 0) + 1, 5),
-    ...getAuthorPayload(currentUser),
+    ...getForumAuthorPayload(currentUser),
   };
 
-  const { data, error } = await supabase.from("forum_replies").insert([payload]).select(replySelectColumns).single();
+  let { data, error } = await supabase.from("forum_replies").insert([payload]).select(replySelectColumns).single();
+
+  if (error && isAuthorProfileColumnError(error)) {
+    const legacyResult = await supabase
+      .from("forum_replies")
+      .insert([stripOptionalAuthorFields(payload)])
+      .select(legacyReplySelectColumns)
+      .single();
+    data = legacyResult.data;
+    error = legacyResult.error;
+  }
 
   if (error) throw error;
   return data;

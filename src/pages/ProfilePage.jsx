@@ -2,9 +2,11 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Building2, Camera, FileCheck, MessageSquareText, ShieldCheck, UserRound } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
+import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.jsx";
 import { fetchMyPosts, fetchMyReplies } from "../services/profileService.js";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey } from "../utils/auth.js";
+import { fetchSchools } from "../utils/schoolData.js";
 
 const gradeOptions = ["", "大一", "大二", "大三", "大四", "研究生", "其他"];
 const conversationBaseKey = "baoyanpilot_ai_conversations";
@@ -63,7 +65,9 @@ function getDefaultProfile(user) {
   return {
     nickname: user?.nickname || "保研用户",
     avatar_url: user?.avatar || user?.avatarUrl || "",
-    school_name: "",
+    school_id: user?.school_id || "",
+    school_name: user?.school_name || "",
+    school_level_tags: Array.isArray(user?.school_level_tags) ? user.school_level_tags : [],
     major: "",
     grade: "",
     bio: "",
@@ -130,10 +134,39 @@ export default function ProfilePage() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [mySchoolBinding, setMySchoolBinding] = useState(null);
+  const [schools, setSchools] = useState([]);
+  const [schoolsLoading, setSchoolsLoading] = useState(true);
+  const [schoolsError, setSchoolsError] = useState("");
 
   const avatarPreview = form.avatar_url;
   const displayNickname = form.nickname || "保研用户";
   const bioCount = useMemo(() => form.bio.length, [form.bio]);
+  const selectedSchool = useMemo(
+    () => schools.find((school) => school.id === form.school_id) || null,
+    [form.school_id, schools],
+  );
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    async function loadSchools() {
+      setSchoolsLoading(true);
+      setSchoolsError("");
+      try {
+        setSchools(await fetchSchools({ signal: controller.signal }));
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          setSchools([]);
+          setSchoolsError("院校数据加载失败，请稍后刷新页面。");
+        }
+      } finally {
+        if (!controller.signal.aborted) setSchoolsLoading(false);
+      }
+    }
+
+    loadSchools();
+    return () => controller.abort();
+  }, []);
 
   useEffect(() => {
     if (!user) {
@@ -173,8 +206,33 @@ export default function ProfilePage() {
     loadContentStats();
   }, [user]);
 
+  useEffect(() => {
+    if (!schools.length || form.school_id || !form.school_name) return;
+
+    const matchedSchool = schools.find((school) => school.name === form.school_name);
+    if (!matchedSchool) return;
+
+    setForm((current) => ({
+      ...current,
+      school_id: matchedSchool.id,
+      school_name: matchedSchool.name,
+      school_level_tags: matchedSchool.levelTags || [],
+    }));
+  }, [form.school_id, form.school_name, schools]);
+
   const updateForm = (field, value) => {
     setForm((current) => ({ ...current, [field]: value }));
+    setMessage("");
+    setErrorMessage("");
+  };
+
+  const handleSchoolChange = (school) => {
+    setForm((current) => ({
+      ...current,
+      school_id: school?.id || "",
+      school_name: school?.name || "",
+      school_level_tags: school?.levelTags || [],
+    }));
     setMessage("");
     setErrorMessage("");
   };
@@ -239,7 +297,9 @@ export default function ProfilePage() {
       const nextProfile = {
         ...form,
         nickname,
-        school_name: form.school_name.trim(),
+        school_id: selectedSchool?.id || "",
+        school_name: selectedSchool?.name || "",
+        school_level_tags: selectedSchool?.levelTags || [],
         major: form.major.trim(),
         grade: form.grade,
         bio,
@@ -252,7 +312,9 @@ export default function ProfilePage() {
       updateMockUser?.({
         nickname: nextProfile.nickname,
         avatar: nextProfile.avatar_url,
+        school_id: nextProfile.school_id,
         school_name: nextProfile.school_name,
+        school_level_tags: nextProfile.school_level_tags,
         major: nextProfile.major,
         grade: nextProfile.grade,
         bio: nextProfile.bio,
@@ -340,12 +402,15 @@ export default function ProfilePage() {
                 </label>
                 <label className="block">
                   <span className="field-label">所在院校</span>
-                  <input
-                    className="field-control"
-                    value={form.school_name}
-                    onChange={(event) => updateForm("school_name", event.target.value)}
-                    placeholder="例如：某某大学"
+                  <SearchableSchoolSelect
+                    schools={schools}
+                    value={form.school_id}
+                    onChange={handleSchoolChange}
+                    placeholder="请选择所在院校"
+                    disabled={schoolsLoading}
+                    loading={schoolsLoading}
                   />
+                  {schoolsError && <p className="mt-2 text-xs font-semibold text-red-600">{schoolsError}</p>}
                 </label>
                 <label className="block">
                   <span className="field-label">专业</span>

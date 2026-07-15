@@ -1,6 +1,7 @@
 import React from "react";
 import { Bookmark, Reply, ThumbsDown, ThumbsUp, Trash2 } from "lucide-react";
 import AuthorAvatar from "./AuthorAvatar.jsx";
+import AuthorSchoolBadge from "./AuthorSchoolBadge.jsx";
 import InteractionButton from "./InteractionButton.jsx";
 import { formatForumTime, getSafeCount } from "./forumUtils.js";
 
@@ -36,6 +37,7 @@ export default function ReplyCard({
           <AuthorAvatar name={reply.author_name} avatarUrl={reply.author_avatar} />
           {reply.author_name}
         </span>
+        <AuthorSchoolBadge schoolName={reply.author_school_name} levelTags={reply.author_school_level_tags} />
         <span>{formatForumTime(reply.created_at)}</span>
       </div>
       {reply.reply_to_author_name && (

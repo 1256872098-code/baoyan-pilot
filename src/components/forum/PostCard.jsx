@@ -1,6 +1,7 @@
 import React from "react";
 import { Bookmark, MessageCircle, Pencil, ThumbsDown, ThumbsUp, Trash2 } from "lucide-react";
 import AuthorAvatar from "./AuthorAvatar.jsx";
+import AuthorSchoolBadge from "./AuthorSchoolBadge.jsx";
 import InteractionButton from "./InteractionButton.jsx";
 import { formatForumTime, getExcerpt, getSafeCount, isEdited } from "./forumUtils.js";
 
@@ -41,6 +42,7 @@ export default function PostCard({
           <AuthorAvatar name={post.author_name} avatarUrl={post.author_avatar} />
           {post.author_name}
         </span>
+        <AuthorSchoolBadge schoolName={post.author_school_name} levelTags={post.author_school_level_tags} />
         <span>{formatForumTime(post.created_at)}</span>
         {isEdited(post.created_at, post.updated_at) && <span className="text-slate-400">已编辑</span>}
         <span className="inline-flex items-center gap-1">

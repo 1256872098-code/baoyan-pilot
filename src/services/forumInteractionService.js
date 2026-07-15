@@ -1,4 +1,5 @@
 import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
+import { forumAuthorProfileColumns, isAuthorProfileColumnError } from "../utils/forumAuthorProfile.js";
 
 const loginRequiredMessage = "请先使用手机号体验登录后再操作。";
 const databaseNotConfiguredMessage =
@@ -255,13 +256,25 @@ export async function updateForumPost(postId, userId, values) {
     updated_at: new Date().toISOString(),
   };
 
-  const { data, error } = await supabase
+  let { data, error } = await supabase
     .from("forum_posts")
     .update(payload)
     .eq("id", postId)
     .eq("author_id", userId)
-    .select("id,title,content,category,author_id,author_name,login_type,created_at,updated_at")
+    .select(`id,title,content,category,author_id,author_name,login_type,created_at,updated_at,${forumAuthorProfileColumns}`)
     .single();
+
+  if (error && isAuthorProfileColumnError(error)) {
+    const legacyResult = await supabase
+      .from("forum_posts")
+      .update(payload)
+      .eq("id", postId)
+      .eq("author_id", userId)
+      .select("id,title,content,category,author_id,author_name,login_type,created_at,updated_at")
+      .single();
+    data = legacyResult.data;
+    error = legacyResult.error;
+  }
 
   if (error) throw error;
   if (!data) throw new Error("只能编辑自己发布的帖子。");

@@ -67,11 +67,34 @@ function getProfileFromUser(user) {
     id: user.id,
     nickname: user.nickname || (user.phone ? getAccountNickname(user.phone) : "游客体验"),
     avatar_url: user.avatar || user.avatarUrl || "",
+    school_id: user.school_id || "",
     school_name: user.school_name || "",
+    school_level_tags: Array.isArray(user.school_level_tags) ? user.school_level_tags : [],
     major: user.major || "",
     grade: user.grade || "",
     bio: user.bio || "",
     verification_status: "unverified",
+  };
+}
+
+function readStoredProfile(userId) {
+  return readJson(`baoyanpilot_profile_${userId}`, null);
+}
+
+function mergeStoredProfile(user) {
+  const storedProfile = readStoredProfile(user.id);
+  if (!storedProfile) return user;
+
+  return {
+    ...user,
+    nickname: storedProfile.nickname || user.nickname,
+    avatar: storedProfile.avatar_url || user.avatar || "",
+    school_id: storedProfile.school_id || "",
+    school_name: storedProfile.school_name || "",
+    school_level_tags: Array.isArray(storedProfile.school_level_tags) ? storedProfile.school_level_tags : [],
+    major: storedProfile.major || "",
+    grade: storedProfile.grade || "",
+    bio: storedProfile.bio || "",
   };
 }
 
@@ -89,12 +112,14 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setUser(readJson(MOCK_USER_KEY, null));
+    const storedUser = readJson(MOCK_USER_KEY, null);
+    setUser(storedUser ? mergeStoredProfile(storedUser) : null);
     setLoading(false);
   }, []);
 
   const refreshSession = useCallback(async () => {
-    const currentUser = readJson(MOCK_USER_KEY, null);
+    const storedUser = readJson(MOCK_USER_KEY, null);
+    const currentUser = storedUser ? mergeStoredProfile(storedUser) : null;
     setUser(currentUser);
     setLoading(false);
     return currentUser ? { user: currentUser } : null;
@@ -121,6 +146,9 @@ export function AuthProvider({ children }) {
           id: nextUser.id,
           nickname: nextUser.nickname,
           avatar: nextUser.avatar || "",
+          school_id: nextUser.school_id || "",
+          school_name: nextUser.school_name || "",
+          school_level_tags: Array.isArray(nextUser.school_level_tags) ? nextUser.school_level_tags : [],
           createdAt: nextUser.createdAt,
         };
         writeJson(MOCK_ACCOUNTS_KEY, accounts);
@@ -145,15 +173,18 @@ export function AuthProvider({ children }) {
     accounts[normalizedPhone] = account;
     writeJson(MOCK_ACCOUNTS_KEY, accounts);
 
-    const nextUser = {
+    const nextUser = mergeStoredProfile({
       id: account.id,
       phone: normalizedPhone,
       nickname: account.nickname,
       avatar: account.avatar || "",
+      school_id: account.school_id || "",
+      school_name: account.school_name || "",
+      school_level_tags: Array.isArray(account.school_level_tags) ? account.school_level_tags : [],
       loginType: "phone_mock",
       isMock: true,
       createdAt: account.createdAt || now,
-    };
+    });
 
     writeJson(MOCK_USER_KEY, nextUser);
     setUser(nextUser);

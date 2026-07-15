@@ -2,6 +2,7 @@ import React from "react";
 import { Bookmark, MessageCircle, MessagesSquare, Pencil, ThumbsDown, ThumbsUp, Trash2 } from "lucide-react";
 import { Card } from "../Card.jsx";
 import AuthorAvatar from "./AuthorAvatar.jsx";
+import AuthorSchoolBadge from "./AuthorSchoolBadge.jsx";
 import InteractionButton from "./InteractionButton.jsx";
 import ReplyComposer from "./ReplyComposer.jsx";
 import ReplyList from "./ReplyList.jsx";
@@ -61,6 +62,7 @@ export default function PostDetail({
               <AuthorAvatar name={post.author_name} avatarUrl={post.author_avatar} />
               {post.author_name}
             </span>
+            <AuthorSchoolBadge schoolName={post.author_school_name} levelTags={post.author_school_level_tags} />
             <span>{formatForumTime(post.created_at)}</span>
             {isEdited(post.created_at, post.updated_at) && <span>已编辑</span>}
             <span className="inline-flex items-center gap-1">

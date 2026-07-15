@@ -27,6 +27,12 @@ import {
 import { createForumReply, fetchRepliesByPost } from "../services/forumReplyService.js";
 import { getSafeCount } from "../components/forum/forumUtils.js";
 import { collectReplyThreadIds } from "../utils/buildReplyTree.js";
+import {
+  getForumAuthorPayload,
+  isAuthorProfileColumnError,
+  normalizeAuthorLevelTags,
+  stripOptionalAuthorFields,
+} from "../utils/forumAuthorProfile.js";
 
 const categories = [
   "全部",
@@ -61,6 +67,9 @@ function normalizePost(row, replyCount = 0, stats = {}) {
     author_id: row.author_id,
     author_name: row.author_name || "匿名用户",
     author_avatar: row.author_avatar || "",
+    author_school_id: row.author_school_id || "",
+    author_school_name: row.author_school_name || "",
+    author_school_level_tags: normalizeAuthorLevelTags(row.author_school_level_tags),
     login_type: row.login_type,
     created_at: row.created_at,
     updated_at: row.updated_at || row.created_at,
@@ -82,6 +91,9 @@ function normalizeReply(row, stats = {}) {
     author_id: row.author_id,
     author_name: row.author_name || "匿名用户",
     author_avatar: row.author_avatar || "",
+    author_school_id: row.author_school_id || "",
+    author_school_name: row.author_school_name || "",
+    author_school_level_tags: normalizeAuthorLevelTags(row.author_school_level_tags),
     login_type: row.login_type,
     created_at: row.created_at,
     parent_reply_id: row.parent_reply_id || null,
@@ -110,14 +122,6 @@ function logSupabaseError(label, error) {
       message: error.message,
     });
   }
-}
-
-function getAuthorPayload(user) {
-  return {
-    author_id: user.id,
-    author_name: user.nickname || (user.phone ? `用户${String(user.phone).slice(-4)}` : "保研用户"),
-    login_type: user.loginType || "phone_mock",
-  };
 }
 
 function getLoginMessage(actionText) {
@@ -471,9 +475,16 @@ export default function ForumPage() {
         title,
         content,
         category,
-        ...getAuthorPayload(authUser),
+        ...getForumAuthorPayload(authUser),
       };
-      const { data, error } = await supabase.from("forum_posts").insert([payload]).select("id").single();
+      let { data, error } = await supabase.from("forum_posts").insert([payload]).select("id").single();
+
+      if (error && isAuthorProfileColumnError(error)) {
+        logSupabaseError("Create post with author profile failed, retrying legacy payload:", error);
+        const retryResult = await supabase.from("forum_posts").insert([stripOptionalAuthorFields(payload)]).select("id").single();
+        data = retryResult.data;
+        error = retryResult.error;
+      }
 
       if (error) throw error;
 
