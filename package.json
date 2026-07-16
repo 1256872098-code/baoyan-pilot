@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
+    "test": "node --test",
     "preview": "vite preview --host 0.0.0.0",
     "sync:schools": "node scripts/sync-schools.mjs",
     "crawl:college-sources": "node scripts/crawl-college-sources.mjs",

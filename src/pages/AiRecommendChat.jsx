@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {
   Bot,
+  CheckCircle2,
   CircleAlert,
   FileDown,
   FileText,
@@ -17,6 +18,14 @@ import { Card } from "../components/Card.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey, LOCAL_GUEST_USER_ID } from "../utils/auth.js";
 import { exportReportPdf } from "../utils/exportReportPdf.js";
+import {
+  REQUIRED_PROFILE_FIELDS,
+  createEmptyProfileStatus,
+  extractProfileStatusMarker,
+  getMissingProfileLabels,
+  isProfileReadyForReport,
+  normalizeProfileStatus,
+} from "../utils/profileCompleteness.js";
 import { isRecommendationReportContent } from "../utils/recommendationPdf.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
@@ -93,6 +102,10 @@ function createConversation(overrides = {}) {
     id: createId("conversation"),
     title: DEFAULT_CONVERSATION_TITLE,
     messages: [createWelcomeMessage()],
+    profileStatus: createEmptyProfileStatus(),
+    profileStatusValidated: false,
+    profileReadinessToken: "",
+    revision: 0,
     createdAt: now,
     updatedAt: now,
     ...overrides,
@@ -152,6 +165,17 @@ function normalizeConversation(value, index) {
     id: String(value.id || `conversation-${index}`),
     title: String(value.title || DEFAULT_CONVERSATION_TITLE),
     messages: isOnlyOldWelcome ? [createWelcomeMessage()] : messages,
+    profileStatus: isOnlyOldWelcome
+      ? createEmptyProfileStatus()
+      : normalizeProfileStatus(value.profileStatus),
+    profileStatusValidated: isOnlyOldWelcome
+      ? false
+      : value.profileStatusValidated === true,
+    profileReadinessToken:
+      !isOnlyOldWelcome && typeof value.profileReadinessToken === "string"
+        ? value.profileReadinessToken.slice(0, 256)
+        : "",
+    revision: Number.isInteger(value.revision) ? value.revision : 0,
     createdAt: value.createdAt || now,
     updatedAt: value.updatedAt || value.createdAt || now,
   };
@@ -302,7 +326,7 @@ ${REPORT_MARKER}
 4. 必须提醒：推荐结果仅供规划参考，具体政策、报名时间、材料要求和考核方式以学校官网最新通知为准。`;
 }
 
-function buildReportRequestMessages(messages) {
+function buildReportRequestMessages(messages, profileStatus) {
   const usefulMessages = messages
     .filter((message) => ["user", "assistant"].includes(message.role))
     .slice(-12)
@@ -310,9 +334,17 @@ function buildReportRequestMessages(messages) {
       role: message.role,
       content: message.content,
     }));
+  const normalizedProfileStatus = normalizeProfileStatus(profileStatus);
+  const profileSummary = REQUIRED_PROFILE_FIELDS.map(
+    ({ key, label }) => `- ${label}：${normalizedProfileStatus.profile[key] || "未确认"}`,
+  ).join("\n");
 
   return [
     ...usefulMessages,
+    {
+      role: "user",
+      content: `以下是经过前面多轮对话核验并保存的完整资料快照，请以此避免遗漏早期信息：\n${profileSummary}`,
+    },
     {
       role: "user",
       content: createReportInstruction(),
@@ -322,6 +354,11 @@ function buildReportRequestMessages(messages) {
 
 async function requestAiRecommendation(messages, options = {}) {
   const purpose = options.purpose || "chat";
+  const previousProfileStatus = normalizeProfileStatus(options.profileStatus);
+  const previousProfileStatusValidated = options.profileStatusValidated === true;
+  const previousProfileReadinessToken = String(
+    options.profileReadinessToken || "",
+  );
   const payloadMessages = messages
     .filter((message) => ["user", "assistant"].includes(message.role))
     .map((message) => ({
@@ -343,7 +380,13 @@ async function requestAiRecommendation(messages, options = {}) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ messages: payloadMessages }),
+      body: JSON.stringify({
+        messages: payloadMessages,
+        purpose,
+        profileStatus: previousProfileStatus,
+        profileStatusValidated: previousProfileStatusValidated,
+        profileReadinessToken: previousProfileReadinessToken,
+      }),
       signal: controller.signal,
     });
   } catch (fetchError) {
@@ -367,7 +410,10 @@ async function requestAiRecommendation(messages, options = {}) {
   if (!response.ok) {
     const message = data.error || "AI 服务暂时不可用，请稍后重试。";
     console.error("[AI] request failed", { purpose, status: response.status, message });
-    throw new Error(message);
+    const requestError = new Error(message);
+    requestError.status = response.status;
+    requestError.profileStatus = data.profileStatus;
+    throw requestError;
   }
 
   const reply = data.reply || data.content || "";
@@ -376,8 +422,27 @@ async function requestAiRecommendation(messages, options = {}) {
     throw new Error("AI 服务没有返回有效内容。");
   }
 
+  const parsedReply = extractProfileStatusMarker(
+    reply,
+    data.profileStatus || previousProfileStatus,
+  );
+  const profileStatus = data.profileStatus
+    ? normalizeProfileStatus(data.profileStatus)
+    : parsedReply.profileStatus;
+  const profileStatusValidated =
+    data.profileStatusValidated === true ||
+    (data.profileStatusValidated == null && parsedReply.hasValidMarker);
+
   console.log("[AI] request completed", { purpose, status: response.status, replyLength: reply.length });
-  return reply;
+  return {
+    reply: parsedReply.content,
+    profileStatus,
+    profileStatusValidated,
+    profileReadinessToken:
+      typeof data.profileReadinessToken === "string"
+        ? data.profileReadinessToken
+        : "",
+  };
 }
 
 function MessageAvatar({ role }) {
@@ -501,6 +566,7 @@ function ChatMessage({ message }) {
 function ConversationSidebar({
   conversations,
   activeConversationId,
+  disabled = false,
   onCreateConversation,
   onSelectConversation,
   onDeleteConversation,
@@ -508,7 +574,12 @@ function ConversationSidebar({
   return (
     <aside className="hidden h-full w-[280px] shrink-0 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft md:flex md:flex-col lg:w-[292px]">
       <div className="shrink-0 border-b border-slate-200 p-4">
-        <button type="button" className="btn-primary w-full px-4 py-2.5" onClick={onCreateConversation}>
+        <button
+          type="button"
+          className="btn-primary w-full px-4 py-2.5 disabled:cursor-not-allowed disabled:bg-slate-300"
+          onClick={onCreateConversation}
+          disabled={disabled}
+        >
           <Plus size={17} aria-hidden="true" />
           新建对话
         </button>
@@ -532,7 +603,12 @@ function ConversationSidebar({
                   : "border-transparent text-slate-700 hover:border-slate-200 hover:bg-slate-50",
               ].join(" ")}
             >
-              <button type="button" className="min-w-0 flex-1 text-left" onClick={() => onSelectConversation(conversation.id)}>
+              <button
+                type="button"
+                className="min-w-0 flex-1 text-left disabled:cursor-not-allowed"
+                onClick={() => onSelectConversation(conversation.id)}
+                disabled={disabled}
+              >
                 <span className="block truncate text-sm font-bold">{conversation.title}</span>
                 <span className={`mt-1 block text-xs ${isActive ? "text-brand-600" : "text-slate-400"}`}>
                   {formatConversationTime(conversation.updatedAt)}
@@ -545,6 +621,7 @@ function ConversationSidebar({
                   isActive ? "text-brand-700 hover:bg-blue-100" : "text-slate-400 hover:bg-slate-200 hover:text-slate-700",
                 ].join(" ")}
                 onClick={() => onDeleteConversation(conversation.id)}
+                disabled={disabled}
                 aria-label={`删除对话：${conversation.title}`}
               >
                 <Trash2 size={15} aria-hidden="true" />
@@ -580,11 +657,56 @@ export default function AiRecommendChat() {
     [activeConversationId, conversations],
   );
   const messages = activeConversation?.messages || [];
+  const profileStatus = useMemo(
+    () => normalizeProfileStatus(activeConversation?.profileStatus),
+    [activeConversation?.profileStatus],
+  );
+  const profileStatusValidated = activeConversation?.profileStatusValidated === true;
+  const profileReadinessToken = activeConversation?.profileReadinessToken || "";
+  const isNavigationLocked =
+    isThinking || isGeneratingReport || isExportingPdf;
+  const missingProfileLabels = useMemo(
+    () => getMissingProfileLabels(profileStatus),
+    [profileStatus],
+  );
+  const isProfileComplete = isProfileReadyForReport(
+    profileStatus,
+    profileStatusValidated,
+  ) && Boolean(profileReadinessToken);
+  const canGenerateReport =
+    isProfileComplete && !isThinking && !isGeneratingReport;
+  const reportReadinessText = isProfileComplete
+    ? "必备信息已全部确认，可以生成报告"
+    : profileStatusValidated && profileStatus.isComplete
+      ? "资料尚未通过服务端完整校验，请继续对话或重试"
+    : !profileStatusValidated && profileStatus.confirmedCount > 0
+      ? isThinking
+        ? "AI 正在重新核验最新资料，核验完成后即可生成报告"
+        : "最新资料尚未通过 AI 核验，请继续对话或重试"
+    : profileStatus.confirmedCount > 0
+      ? `已确认 ${profileStatus.confirmedCount}/${profileStatus.totalCount} 项，还需补充：${missingProfileLabels.slice(0, 3).join("、")}${missingProfileLabels.length > 3 ? "等" : ""}`
+      : "请先回答 AI 的问题，信息齐全后即可生成报告";
   const storageNotice = user
     ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
     : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
   const latestRecommendationReport = useMemo(
-    () => [...messages].reverse().find((message) => message.role === "assistant" && message.messageType === "report") || null,
+    () => {
+      let latestReportIndex = -1;
+      let latestUserMessageIndex = -1;
+
+      messages.forEach((message, index) => {
+        if (message.role === "user") {
+          latestUserMessageIndex = index;
+        }
+        if (message.role === "assistant" && message.messageType === "report") {
+          latestReportIndex = index;
+        }
+      });
+
+      return latestReportIndex > latestUserMessageIndex
+        ? messages[latestReportIndex]
+        : null;
+    },
     [messages],
   );
 
@@ -626,6 +748,8 @@ export default function AiRecommendChat() {
   };
 
   const handleCreateConversation = () => {
+    if (isNavigationLocked) return;
+
     const conversation = createConversation();
     setConversations((current) => [conversation, ...current]);
     setActiveConversationId(conversation.id);
@@ -634,12 +758,16 @@ export default function AiRecommendChat() {
   };
 
   const handleSelectConversation = (conversationId) => {
+    if (isNavigationLocked) return;
+
     setActiveConversationId(conversationId);
     setInput("");
     resetErrors();
   };
 
   const handleDeleteConversation = (conversationId) => {
+    if (isNavigationLocked) return;
+
     const remaining = conversations.filter((conversation) => conversation.id !== conversationId);
 
     if (!remaining.length) {
@@ -658,6 +786,8 @@ export default function AiRecommendChat() {
   };
 
   const handleClearMessages = () => {
+    if (isNavigationLocked) return;
+
     const now = new Date().toISOString();
     setConversations((current) =>
       current.map((conversation) =>
@@ -666,6 +796,10 @@ export default function AiRecommendChat() {
               ...conversation,
               title: DEFAULT_CONVERSATION_TITLE,
               messages: [createWelcomeMessage()],
+              profileStatus: createEmptyProfileStatus(),
+              profileStatusValidated: false,
+              profileReadinessToken: "",
+              revision: (conversation.revision || 0) + 1,
               updatedAt: now,
             }
           : conversation,
@@ -677,14 +811,31 @@ export default function AiRecommendChat() {
 
   const appendMessageToConversation = (conversationId, message, options = {}) => {
     const updatedAt = new Date().toISOString();
+    const hasProfileStatusUpdate = Object.prototype.hasOwnProperty.call(
+      options,
+      "profileStatus",
+    );
     setConversations((current) =>
       current
         .map((conversation) =>
           conversation.id === conversationId
+            && (options.expectedRevision == null ||
+              conversation.revision === options.expectedRevision)
             ? {
                 ...conversation,
                 title: options.title || conversation.title,
                 messages: [...conversation.messages, message],
+                profileStatus: hasProfileStatusUpdate
+                  ? normalizeProfileStatus(options.profileStatus)
+                  : conversation.profileStatus,
+                profileStatusValidated:
+                  typeof options.profileStatusValidated === "boolean"
+                    ? options.profileStatusValidated
+                    : conversation.profileStatusValidated,
+                profileReadinessToken:
+                  typeof options.profileReadinessToken === "string"
+                    ? options.profileReadinessToken
+                    : conversation.profileReadinessToken,
                 updatedAt,
               }
             : conversation,
@@ -706,6 +857,7 @@ export default function AiRecommendChat() {
       createdAt: new Date().toISOString(),
     };
     const requestConversationId = activeConversation.id;
+    const requestConversationRevision = activeConversation.revision || 0;
     const nextMessages = [...activeConversation.messages, userMessage];
     const hasUserMessage = activeConversation.messages.some((message) => message.role === "user");
     const nextTitle =
@@ -713,20 +865,34 @@ export default function AiRecommendChat() {
         ? createTitleFromMessage(content)
         : activeConversation.title;
 
-    appendMessageToConversation(requestConversationId, userMessage, { title: nextTitle });
+    appendMessageToConversation(requestConversationId, userMessage, {
+      title: nextTitle,
+      profileStatusValidated: false,
+      expectedRevision: requestConversationRevision,
+    });
     setInput("");
     resetErrors();
     setIsThinking(true);
 
     try {
-      const reply = await requestAiRecommendation(nextMessages, { purpose: "chat" });
+      const result = await requestAiRecommendation(nextMessages, {
+        purpose: "chat",
+        profileStatus: activeConversation.profileStatus,
+        profileStatusValidated: activeConversation.profileStatusValidated,
+        profileReadinessToken: activeConversation.profileReadinessToken,
+      });
       appendMessageToConversation(requestConversationId, {
         id: createId("assistant"),
         role: "assistant",
         kind: "text",
         messageType: "normal",
-        content: stripReportMarker(reply),
+        content: stripReportMarker(result.reply),
         createdAt: new Date().toISOString(),
+      }, {
+        profileStatus: result.profileStatus,
+        profileStatusValidated: result.profileStatusValidated,
+        profileReadinessToken: result.profileReadinessToken,
+        expectedRevision: requestConversationRevision,
       });
     } catch (requestError) {
       const errorMessage = requestError instanceof Error ? requestError.message : "AI 回复失败，请稍后重试。";
@@ -738,6 +904,8 @@ export default function AiRecommendChat() {
         messageType: "normal",
         content: `AI 回复失败：${errorMessage}`,
         createdAt: new Date().toISOString(),
+      }, {
+        expectedRevision: requestConversationRevision,
       });
     } finally {
       setIsThinking(false);
@@ -746,8 +914,13 @@ export default function AiRecommendChat() {
 
   const handleGenerateReport = async () => {
     if (!activeConversation || isThinking || isGeneratingReport) return;
+    if (!isProfileComplete) {
+      setAiError("必备信息尚未全部确认，请先继续回答 AI 的问题。");
+      return;
+    }
 
     const requestConversationId = activeConversation.id;
+    const requestConversationRevision = activeConversation.revision || 0;
     const promptMessage = {
       id: createId("user-report"),
       role: "user",
@@ -758,25 +931,44 @@ export default function AiRecommendChat() {
     };
     const nextMessages = [...activeConversation.messages, promptMessage];
 
-    appendMessageToConversation(requestConversationId, promptMessage);
+    appendMessageToConversation(requestConversationId, promptMessage, {
+      expectedRevision: requestConversationRevision,
+    });
     resetErrors();
     setIsGeneratingReport(true);
 
     try {
-      const reply = await requestAiRecommendation(buildReportRequestMessages(nextMessages), { purpose: "report" });
-      const isReport = hasReportMarker(reply);
+      const result = await requestAiRecommendation(
+        buildReportRequestMessages(nextMessages, profileStatus),
+        {
+          purpose: "report",
+          profileStatus,
+          profileStatusValidated,
+          profileReadinessToken,
+        },
+      );
+      const isReport =
+        result.profileStatusValidated &&
+        result.profileStatus.isComplete &&
+        Boolean(result.profileReadinessToken) &&
+        hasReportMarker(result.reply);
 
       appendMessageToConversation(requestConversationId, {
         id: createId(isReport ? "assistant-report" : "assistant"),
         role: "assistant",
         kind: "text",
         messageType: isReport ? "report" : "normal",
-        content: stripReportMarker(reply),
+        content: stripReportMarker(result.reply),
         createdAt: new Date().toISOString(),
+      }, {
+        profileStatus: result.profileStatus,
+        profileStatusValidated: result.profileStatusValidated,
+        profileReadinessToken: result.profileReadinessToken,
+        expectedRevision: requestConversationRevision,
       });
 
       if (!isReport) {
-        setAiError("当前信息还不足以生成完整报告，AI 已继续追问缺失信息。");
+        setAiError("AI 未返回符合格式的完整报告，请重试生成；已核验的资料不会丢失。");
       }
     } catch (requestError) {
       const errorMessage = requestError instanceof Error ? requestError.message : "报告生成失败，请稍后重试。";
@@ -788,6 +980,15 @@ export default function AiRecommendChat() {
         messageType: "normal",
         content: `报告生成失败：${errorMessage}`,
         createdAt: new Date().toISOString(),
+      }, {
+        ...(requestError?.status === 409
+          ? {
+              profileStatus: requestError.profileStatus || profileStatus,
+              profileStatusValidated: false,
+              profileReadinessToken: "",
+            }
+          : {}),
+        expectedRevision: requestConversationRevision,
       });
     } finally {
       setIsGeneratingReport(false);
@@ -802,6 +1003,8 @@ export default function AiRecommendChat() {
   };
 
   const handleDownloadPdf = async () => {
+    if (isThinking || isGeneratingReport || isExportingPdf) return;
+
     setPdfError("");
     setPdfStatus("");
 
@@ -854,6 +1057,7 @@ export default function AiRecommendChat() {
           <ConversationSidebar
             conversations={conversations}
             activeConversationId={activeConversationId}
+            disabled={isNavigationLocked}
             onCreateConversation={handleCreateConversation}
             onSelectConversation={handleSelectConversation}
             onDeleteConversation={handleDeleteConversation}
@@ -872,39 +1076,70 @@ export default function AiRecommendChat() {
                     <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{storageNotice}</p>
                   </div>
                 </div>
-                <div className="flex flex-wrap items-center gap-2">
-                  <button type="button" className="btn-secondary px-3 py-2 md:hidden" onClick={handleCreateConversation}>
-                    <Plus size={16} aria-hidden="true" />
-                    新建
-                  </button>
-                  <button
-                    type="button"
-                    className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    onClick={handleGenerateReport}
-                    disabled={isThinking || isGeneratingReport}
-                    title="基于当前对话生成可下载的保研院校梯度规划报告"
+                <div className="flex shrink-0 flex-col gap-1.5 sm:items-end">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <button
+                      type="button"
+                      className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50 md:hidden"
+                      onClick={handleCreateConversation}
+                      disabled={isNavigationLocked}
+                    >
+                      <Plus size={16} aria-hidden="true" />
+                      新建
+                    </button>
+                    <button
+                      type="button"
+                      className={
+                        canGenerateReport
+                          ? "btn-primary px-3 py-2"
+                          : "inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-md border border-slate-200 bg-slate-200 px-3 py-2 text-sm font-semibold text-slate-500"
+                      }
+                      onClick={handleGenerateReport}
+                      disabled={!canGenerateReport}
+                      aria-describedby="report-readiness"
+                      title={
+                        isProfileComplete
+                          ? "基于当前对话生成可下载的保研院校梯度规划报告"
+                          : reportReadinessText
+                      }
+                    >
+                      <FileText size={16} aria-hidden="true" />
+                      {isGeneratingReport ? "生成中..." : "生成报告"}
+                    </button>
+                    <button
+                      type="button"
+                      className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      onClick={handleDownloadPdf}
+                      disabled={!latestRecommendationReport || isNavigationLocked}
+                      title={
+                        latestRecommendationReport
+                          ? "下载最新规划报告 PDF"
+                          : "请先生成完整的保研规划报告"
+                      }
+                    >
+                      <FileDown size={16} aria-hidden="true" />
+                      {isExportingPdf ? "正在生成PDF..." : "下载PDF"}
+                    </button>
+                    <button
+                      type="button"
+                      className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      onClick={handleClearMessages}
+                      disabled={isNavigationLocked}
+                    >
+                      <Trash2 size={16} aria-hidden="true" />
+                      清空当前对话
+                    </button>
+                  </div>
+                  <p
+                    id="report-readiness"
+                    aria-live="polite"
+                    className={`flex max-w-xl items-center gap-1 text-xs font-medium ${
+                      isProfileComplete ? "text-emerald-600" : "text-slate-500"
+                    }`}
                   >
-                    <FileText size={16} aria-hidden="true" />
-                    {isGeneratingReport ? "生成中..." : "生成报告"}
-                  </button>
-                  <button
-                    type="button"
-                    className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    onClick={handleDownloadPdf}
-                    disabled={!latestRecommendationReport || isExportingPdf}
-                    title={
-                      latestRecommendationReport
-                        ? "下载最新规划报告 PDF"
-                        : "请先生成完整的保研规划报告"
-                    }
-                  >
-                    <FileDown size={16} aria-hidden="true" />
-                    {isExportingPdf ? "正在生成PDF..." : "下载PDF"}
-                  </button>
-                  <button type="button" className="btn-secondary px-3 py-2" onClick={handleClearMessages}>
-                    <Trash2 size={16} aria-hidden="true" />
-                    清空当前对话
-                  </button>
+                    {isProfileComplete && <CheckCircle2 size={14} aria-hidden="true" />}
+                    <span>{reportReadinessText}</span>
+                  </p>
                 </div>
               </div>
 
