@@ -5,6 +5,7 @@ import { Card, CardHeader } from "../components/Card.jsx";
 import { SelectField } from "../components/FormControls.jsx";
 import { schoolTiers } from "../data/schoolLevelMaps.js";
 import { fetchSchoolRatingSummaries } from "../services/schoolRatingService.js";
+import { getSchoolRatingRuntimeStatus } from "../services/schoolRatingRuntime.js";
 
 const pageSize = 24;
 const allOption = "全部";
@@ -98,6 +99,7 @@ export default function SchoolsPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [page, setPage] = useState(1);
   const [ratingSummaries, setRatingSummaries] = useState({});
+  const [ratingsUseLocal, setRatingsUseLocal] = useState(() => getSchoolRatingRuntimeStatus().usesLocalReviews);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -181,9 +183,15 @@ export default function SchoolsPage() {
     async function loadRatings() {
       try {
         const summaries = await fetchSchoolRatingSummaries(ids);
-        if (!ignore) setRatingSummaries(summaries);
+        if (!ignore) {
+          setRatingSummaries(summaries);
+          setRatingsUseLocal(getSchoolRatingRuntimeStatus().usesLocalReviews);
+        }
       } catch (error) {
-        if (!ignore) setRatingSummaries({});
+        if (!ignore) {
+          setRatingSummaries({});
+          setRatingsUseLocal(getSchoolRatingRuntimeStatus().usesLocalReviews);
+        }
       }
     }
 
@@ -281,8 +289,10 @@ export default function SchoolsPage() {
                       <>
                         <Star size={16} className="text-amber-400" fill="currentColor" aria-hidden="true" />
                         <span className="text-slate-700">{ratingSummaries[school.id].averageRating.toFixed(1)}</span>
-                        <span>{ratingSummaries[school.id].reviewCount} 人评价</span>
+                        <span>{ratingSummaries[school.id].reviewCount} 人{ratingsUseLocal ? "本机评价" : "评价"}</span>
                       </>
+                    ) : ratingsUseLocal ? (
+                      <span className="text-amber-700">云端评分暂不可用</span>
                     ) : (
                       <span>暂无评分</span>
                     )}

@@ -13,12 +13,13 @@ export default function SchoolReviewCard({
   onDeleteMine,
   onRequireLogin,
   highlighted = false,
+  interactionDisabled = false,
 }) {
   const isMine = currentUserId && currentUserId === review.user_id;
   const userName = review.user_name || "保研用户";
   const likeKey = `school-review-like:${review.id}`;
   const dislikeKey = `school-review-dislike:${review.id}`;
-  const voteDisabled = isMine || busyKeys?.has(likeKey) || busyKeys?.has(dislikeKey);
+  const voteDisabled = interactionDisabled || isMine || busyKeys?.has(likeKey) || busyKeys?.has(dislikeKey);
 
   const handleLike = () => {
     if (!currentUserId) {
@@ -51,6 +52,9 @@ export default function SchoolReviewCard({
             <StarRating value={review.rating} readOnly size={16} />
             <span>{formatForumTime(review.created_at)}</span>
             {isMine && <span className="rounded-full bg-blue-50 px-2 py-0.5 font-semibold text-brand-700">我的评价</span>}
+            {review.storage_scope === "local" && (
+              <span className="rounded-full bg-amber-50 px-2 py-0.5 font-semibold text-amber-700">仅本机</span>
+            )}
           </div>
         </div>
         {isMine && (

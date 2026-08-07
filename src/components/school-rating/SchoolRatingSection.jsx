@@ -16,6 +16,10 @@ import {
   toggleSchoolReviewDislike,
   toggleSchoolReviewLike,
 } from "../../services/schoolReviewInteractionService.js";
+import {
+  getSchoolRatingRuntimeStatus,
+  resetSchoolRatingRuntime,
+} from "../../services/schoolRatingRuntime.js";
 import { getSafeCount } from "../forum/forumUtils.js";
 import SchoolRatingForm from "./SchoolRatingForm.jsx";
 import SchoolRatingSummary from "./SchoolRatingSummary.jsx";
@@ -51,6 +55,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
   const [errorMessage, setErrorMessage] = useState("");
   const [loginOpen, setLoginOpen] = useState(false);
   const [highlightReviewId, setHighlightReviewId] = useState("");
+  const [runtimeStatus, setRuntimeStatus] = useState(() => getSchoolRatingRuntimeStatus());
 
   const canWrite = Boolean(user && user.loginType === "phone_mock");
   const currentUserId = canWrite ? user.id : "";
@@ -65,6 +70,10 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       return next;
     });
   };
+
+  const syncRuntimeStatus = useCallback(() => {
+    setRuntimeStatus(getSchoolRatingRuntimeStatus());
+  }, []);
 
   const loadSummaryAndMine = useCallback(async () => {
     if (!schoolId) return;
@@ -84,8 +93,9 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       setCurrentReview(null);
     } finally {
       setLoading(false);
+      syncRuntimeStatus();
     }
-  }, [currentUserId, schoolId]);
+  }, [currentUserId, schoolId, syncRuntimeStatus]);
 
   const loadReviews = useCallback(async () => {
     if (!schoolId) return;
@@ -106,11 +116,17 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       } catch (statsError) {
         setErrorMessage(statsError?.message || "评价互动数据加载失败，请稍后重试。");
       }
+      const nextRuntimeStatus = getSchoolRatingRuntimeStatus();
+      const useLocalInteractionCounts = nextRuntimeStatus.usesLocalReviews && nextRuntimeStatus.usesLocalInteractions;
       setReviews(
         nextReviews.map((review) => ({
           ...review,
-          likeCount: getSafeCount(review.like_count ?? interactionStats[review.id]?.likeCount),
-          dislikeCount: getSafeCount(review.dislike_count ?? interactionStats[review.id]?.dislikeCount),
+          likeCount: getSafeCount(
+            useLocalInteractionCounts ? interactionStats[review.id]?.likeCount : review.like_count ?? interactionStats[review.id]?.likeCount,
+          ),
+          dislikeCount: getSafeCount(
+            useLocalInteractionCounts ? interactionStats[review.id]?.dislikeCount : review.dislike_count ?? interactionStats[review.id]?.dislikeCount,
+          ),
           likedByCurrentUser: Boolean(interactionStats[review.id]?.likedByCurrentUser),
           dislikedByCurrentUser: Boolean(interactionStats[review.id]?.dislikedByCurrentUser),
         })),
@@ -120,8 +136,9 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       setReviews([]);
     } finally {
       setReviewsLoading(false);
+      syncRuntimeStatus();
     }
-  }, [currentUserId, schoolId, sort, targetReviewId]);
+  }, [currentUserId, schoolId, sort, syncRuntimeStatus, targetReviewId]);
 
   useEffect(() => {
     loadSummaryAndMine();
@@ -169,6 +186,14 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
     await Promise.all([loadSummaryAndMine(), loadReviews()]);
   };
 
+  const handleRetryCloud = async () => {
+    resetSchoolRatingRuntime();
+    syncRuntimeStatus();
+    setErrorMessage("");
+    setMessage("");
+    await refreshAll();
+  };
+
   const handleRequireLogin = () => {
     setLoginOpen(true);
   };
@@ -191,7 +216,12 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
         rating,
         content,
       });
-      setMessage("学校评价已发布。");
+      syncRuntimeStatus();
+      setMessage(
+        getSchoolRatingRuntimeStatus().usesLocalReviews
+          ? "评价已保存在当前浏览器，不会自动上传到云端或同步到其他设备。"
+          : "学校评价已发布。",
+      );
       await refreshAll();
     } catch (error) {
       setErrorMessage(error?.message || "评价提交失败，请稍后重试。");
@@ -216,7 +246,8 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
 
     try {
       await deleteSchoolReview({ schoolId, userId: user.id });
-      setMessage("学校评价已删除。");
+      syncRuntimeStatus();
+      setMessage(getSchoolRatingRuntimeStatus().usesLocalReviews ? "已删除当前浏览器中保存的评价。" : "学校评价已删除。");
       await refreshAll();
     } catch (error) {
       setErrorMessage(error?.message || "评价删除失败，请稍后重试。");
@@ -275,6 +306,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       setErrorMessage(error?.message || "点赞操作失败，请稍后重试。");
     } finally {
       setBusy(key, false);
+      syncRuntimeStatus();
     }
   };
 
@@ -308,6 +340,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       setErrorMessage(error?.message || "点踩操作失败，请稍后重试。");
     } finally {
       setBusy(key, false);
+      syncRuntimeStatus();
     }
   };
 
@@ -319,6 +352,24 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
           title="学校评价"
           description={`评分来自用户主观体验，仅供参考，不代表${schoolName || "学校"}官方评价或推免结果。`}
         />
+
+        {(runtimeStatus.usesLocalReviews || runtimeStatus.usesLocalInteractions) && (
+          <div className="mt-4 flex flex-col gap-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-800 sm:flex-row sm:items-center sm:justify-between">
+            <span>
+              {runtimeStatus.usesLocalReviews
+                ? "云端评分服务当前不可用，已切换为本机体验模式。本机评价不会自动上传到云端，也不会同步到其他设备或用户。"
+                : "云端评价互动服务当前不可用，点赞和点踩已暂停；已有云端评价仍可查看。"}
+            </span>
+            <button
+              type="button"
+              className="shrink-0 rounded-md border border-amber-300 bg-white px-3 py-1.5 text-xs font-semibold text-amber-800 transition hover:bg-amber-100"
+              onClick={handleRetryCloud}
+              disabled={loading || reviewsLoading}
+            >
+              重试云端服务
+            </button>
+          </div>
+        )}
 
         {message && (
           <div className="mt-4 rounded-lg border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-700">
@@ -366,6 +417,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
             onToggleLike={handleToggleLike}
             onToggleDislike={handleToggleDislike}
             onRequireLogin={handleRequireLogin}
+            interactionDisabled={runtimeStatus.usesLocalInteractions && !runtimeStatus.usesLocalReviews}
           />
         </div>
 

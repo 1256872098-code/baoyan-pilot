@@ -1,26 +1,17 @@
-import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
-
-const databaseNotConfiguredMessage =
-  "学校评价数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
-const tableNotReadyMessage =
-  "学校评价功能暂未初始化，请先在 Supabase 执行 supabase/school-ratings.sql 和 supabase/school-review-interactions.sql。";
-
-function ensureDatabase() {
-  if (!isSupabaseConfigured || !supabase) {
-    throw new Error(databaseNotConfiguredMessage);
-  }
-}
-
-function getFriendlyError(error, fallback) {
-  if (
-    error?.code === "42P01" ||
-    error?.code === "42883" ||
-    /school_reviews|get_school_reviews/i.test(error?.message || "")
-  ) {
-    return tableNotReadyMessage;
-  }
-  return fallback;
-}
+import { supabase } from "../lib/supabaseClient.js";
+import {
+  createLocalSchoolReview,
+  deleteLocalSchoolReview,
+  getLocalCurrentUserSchoolReview,
+  getLocalSchoolReviewById,
+  getLocalSchoolReviews,
+  listLocalSchoolReviews,
+} from "./schoolRatingLocalStore.js";
+import {
+  activateLocalSchoolRatingFallback,
+  isSchoolRatingFallbackError,
+  shouldUseLocalSchoolRating,
+} from "./schoolRatingRuntime.js";
 
 function createEmptyDistribution() {
   return { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0 };
@@ -46,24 +37,65 @@ function buildSummary(rows = []) {
   };
 }
 
+function buildLocalSummaries(ids) {
+  const reviews = getLocalSchoolReviews();
+  return Object.fromEntries(
+    ids.map((id) => [id, buildSummary(reviews.filter((review) => review.school_id === id))]),
+  );
+}
+
+function switchReviewsToLocal(error) {
+  activateLocalSchoolRatingFallback("reviews", error);
+}
+
+function getServiceError(error, fallback) {
+  const status = Number(error?.status || error?.statusCode || 0);
+  let serviceError;
+  if (status === 401 || status === 403 || error?.code === "42501") {
+    serviceError = new Error("学校评价服务权限配置异常，请联系管理员处理。");
+  } else {
+    serviceError = new Error(fallback);
+  }
+  serviceError.isSchoolRatingServiceError = true;
+  return serviceError;
+}
+
+function fallbackRead(error, loadLocal, fallback) {
+  if (error?.isSchoolRatingServiceError) throw error;
+  if (isSchoolRatingFallbackError(error)) {
+    switchReviewsToLocal(error);
+    return loadLocal();
+  }
+  throw getServiceError(error, fallback);
+}
+
+function isReviewRpcMissing(error) {
+  return ["42883", "PGRST202"].includes(String(error?.code || "")) || /get_school_reviews/i.test(error?.message || "");
+}
+
 export async function fetchSchoolRatingSummaries(schoolIds = []) {
-  ensureDatabase();
   const ids = [...new Set((schoolIds || []).filter(Boolean))];
   if (!ids.length) return {};
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return buildLocalSummaries(ids);
 
-  const { data, error } = await supabase.from("school_reviews").select("school_id,rating").in("school_id", ids);
+  try {
+    const { data, error } = await supabase.from("school_reviews").select("school_id,rating").in("school_id", ids);
 
-  if (error) {
-    throw new Error(getFriendlyError(error, "学校评分加载失败，请稍后重试。"));
+    if (error) {
+      return fallbackRead(error, () => buildLocalSummaries(ids), "学校评分加载失败，请稍后重试。");
+    }
+    if (shouldUseLocalSchoolRating("reviews")) return buildLocalSummaries(ids);
+
+    const grouped = new Map();
+    ids.forEach((id) => grouped.set(id, []));
+    (data || []).forEach((row) => {
+      grouped.set(row.school_id, [...(grouped.get(row.school_id) || []), row]);
+    });
+
+    return Object.fromEntries(ids.map((id) => [id, buildSummary(grouped.get(id) || [])]));
+  } catch (error) {
+    return fallbackRead(error, () => buildLocalSummaries(ids), "学校评分加载失败，请稍后重试。");
   }
-
-  const grouped = new Map();
-  ids.forEach((id) => grouped.set(id, []));
-  (data || []).forEach((row) => {
-    grouped.set(row.school_id, [...(grouped.get(row.school_id) || []), row]);
-  });
-
-  return Object.fromEntries(ids.map((id) => [id, buildSummary(grouped.get(id) || [])]));
 }
 
 export async function fetchSchoolRatingSummary(schoolId) {
@@ -72,62 +104,89 @@ export async function fetchSchoolRatingSummary(schoolId) {
 }
 
 export async function fetchSchoolReviews({ schoolId, sort = "newest", limit = 20, offset = 0 }) {
-  ensureDatabase();
-
   const safeLimit = Math.max(1, Math.min(Number(limit) || 20, 50));
   const safeOffset = Math.max(Number(offset) || 0, 0);
-  const { data, error } = await supabase.rpc("get_school_reviews", {
-    p_school_id: schoolId,
-    p_sort: sort || "newest",
-    p_limit: safeLimit,
-    p_offset: safeOffset,
-  });
+  const loadLocal = () => listLocalSchoolReviews({ schoolId, sort, limit: safeLimit, offset: safeOffset });
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return loadLocal();
 
-  if (error) {
-    throw new Error(getFriendlyError(error, "评价列表加载失败，请稍后重试。"));
+  const loadDirectly = async () => {
+    let query = supabase
+      .from("school_reviews")
+      .select("id,school_id,user_id,user_name,rating,content,created_at")
+      .eq("school_id", schoolId);
+    query = query.order("created_at", { ascending: sort === "oldest" });
+    const { data, error } = await query.range(safeOffset, safeOffset + safeLimit - 1);
+    if (error) return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
+    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    return data || [];
+  };
+
+  try {
+    const { data, error } = await supabase.rpc("get_school_reviews", {
+      p_school_id: schoolId,
+      p_sort: sort || "newest",
+      p_limit: safeLimit,
+      p_offset: safeOffset,
+    });
+
+    if (error) {
+      if (isReviewRpcMissing(error)) return loadDirectly();
+      return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
+    }
+    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    return data || [];
+  } catch (error) {
+    return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
   }
-
-  return data || [];
 }
 
 export async function fetchSchoolReviewById({ schoolId, reviewId }) {
-  ensureDatabase();
   if (!schoolId || !reviewId) return null;
+  const loadLocal = () => getLocalSchoolReviewById({ schoolId, reviewId });
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return loadLocal();
 
-  const { data, error } = await supabase
-    .from("school_reviews")
-    .select("id,school_id,user_id,user_name,rating,content,created_at")
-    .eq("school_id", schoolId)
-    .eq("id", reviewId)
-    .maybeSingle();
+  try {
+    const { data, error } = await supabase
+      .from("school_reviews")
+      .select("id,school_id,user_id,user_name,rating,content,created_at")
+      .eq("school_id", schoolId)
+      .eq("id", reviewId)
+      .maybeSingle();
 
-  if (error) {
-    throw new Error(getFriendlyError(error, "评价详情加载失败，请稍后重试。"));
+    if (error) {
+      return fallbackRead(error, loadLocal, "评价详情加载失败，请稍后重试。");
+    }
+    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    return data || null;
+  } catch (error) {
+    return fallbackRead(error, loadLocal, "评价详情加载失败，请稍后重试。");
   }
-
-  return data || null;
 }
 
 export async function fetchCurrentUserSchoolReview({ schoolId, userId }) {
-  ensureDatabase();
   if (!schoolId || !userId) return null;
+  const loadLocal = () => getLocalCurrentUserSchoolReview({ schoolId, userId });
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return loadLocal();
 
-  const { data, error } = await supabase
-    .from("school_reviews")
-    .select("*")
-    .eq("school_id", schoolId)
-    .eq("user_id", userId)
-    .maybeSingle();
+  try {
+    const { data, error } = await supabase
+      .from("school_reviews")
+      .select("*")
+      .eq("school_id", schoolId)
+      .eq("user_id", userId)
+      .maybeSingle();
 
-  if (error) {
-    throw new Error(getFriendlyError(error, "你的评价加载失败，请稍后重试。"));
+    if (error) {
+      return fallbackRead(error, loadLocal, "你的评价加载失败，请稍后重试。");
+    }
+    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    return data || null;
+  } catch (error) {
+    return fallbackRead(error, loadLocal, "你的评价加载失败，请稍后重试。");
   }
-
-  return data || null;
 }
 
 export async function createSchoolReview({ schoolId, userId, userName, rating, content = "" }) {
-  ensureDatabase();
   const normalizedRating = Number(rating);
   const normalizedContent = String(content || "").trim().slice(0, 500);
 
@@ -139,10 +198,22 @@ export async function createSchoolReview({ schoolId, userId, userName, rating, c
     throw new Error("请选择 1 到 5 星评分。");
   }
 
+  const createLocal = () =>
+    createLocalSchoolReview({
+      schoolId,
+      userId,
+      userName,
+      rating: normalizedRating,
+      content: normalizedContent,
+    });
+
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return createLocal();
+
   const existing = await fetchCurrentUserSchoolReview({ schoolId, userId });
   if (existing) {
     throw new Error("你已经评价过该学校。评价发布后不能修改，如需重新评价，请先删除原评价。");
   }
+  if (shouldUseLocalSchoolRating("reviews")) return createLocal();
 
   const payload = {
     school_id: schoolId,
@@ -152,29 +223,39 @@ export async function createSchoolReview({ schoolId, userId, userName, rating, c
     content: normalizedContent,
   };
 
-  const { data, error } = await supabase.from("school_reviews").insert([payload]).select("*").single();
+  try {
+    const { data, error } = await supabase.from("school_reviews").insert([payload]).select("*").single();
 
-  if (error) {
-    if (error.code === "23505") {
-      throw new Error("你已经评价过该学校。评价发布后不能修改，如需重新评价，请先删除原评价。");
+    if (error) {
+      if (error.code === "23505") {
+        throw new Error("你已经评价过该学校。评价发布后不能修改，如需重新评价，请先删除原评价。");
+      }
+      throw getServiceError(error, "评价提交结果未能确认，请刷新页面核对后再操作。");
     }
-    throw new Error(getFriendlyError(error, "评价提交失败，请稍后重试。"));
+    return data;
+  } catch (error) {
+    if (/已经评价过/.test(error?.message || "")) throw error;
+    if (/结果未能确认|权限配置异常/.test(error?.message || "")) throw error;
+    throw getServiceError(error, "评价提交结果未能确认，请刷新页面核对后再操作。");
   }
-
-  return data;
 }
 
 export async function deleteSchoolReview({ schoolId, userId }) {
-  ensureDatabase();
   if (!schoolId || !userId) {
     throw new Error("请先登录后再删除评价。");
   }
+  const deleteLocal = () => deleteLocalSchoolReview({ schoolId, userId });
+  if (shouldUseLocalSchoolRating("reviews") || !supabase) return deleteLocal();
 
-  const { error } = await supabase.from("school_reviews").delete().eq("school_id", schoolId).eq("user_id", userId);
+  try {
+    const { error } = await supabase.from("school_reviews").delete().eq("school_id", schoolId).eq("user_id", userId);
 
-  if (error) {
-    throw new Error(getFriendlyError(error, "评价删除失败，请稍后重试。"));
+    if (error) {
+      throw getServiceError(error, "评价删除结果未能确认，请刷新页面核对后再操作。");
+    }
+    return true;
+  } catch (error) {
+    if (/结果未能确认|权限配置异常/.test(error?.message || "")) throw error;
+    throw getServiceError(error, "评价删除结果未能确认，请刷新页面核对后再操作。");
   }
-
-  return true;
 }
