@@ -76,8 +76,9 @@ function getScopedItemsWithYearFallback(items = [], binding = {}) {
 export function getMatchedRecommendationData(data, binding = {}) {
   const schoolLevel = getSchoolLevelRecommendationData(data);
   const colleges = Array.isArray(data?.recommendationData?.colleges) ? data.recommendationData.colleges : [];
-  const matchedColleges = colleges.filter((college) => scopeMatches(college.scope, binding) && yearMatches(college, binding));
-  const matchedCollege = matchedColleges.sort((a, b) => scopePriority(b.scope) - scopePriority(a.scope))[0] || null;
+  const scopedColleges = colleges.filter((college) => scopeMatches(college.scope, binding));
+  const exactYearColleges = scopedColleges.filter((college) => yearMatches(college, binding));
+  const matchedCollege = (exactYearColleges.length ? exactYearColleges : scopedColleges).sort(sortByScopeAndYear)[0] || null;
   const majors = matchedCollege?.majors || [];
   const matchedMajor =
     majors.find((major) => scopeMatches(major.scope, binding) && yearMatches(major, binding)) ||
@@ -89,14 +90,25 @@ export function getMatchedRecommendationData(data, binding = {}) {
 
   const policies = getScopedItemsWithYearFallback(Array.isArray(data?.policies) ? data.policies : [], binding);
   const rankingRules = getScopedItemsWithYearFallback(Array.isArray(data?.rankingRules) ? data.rankingRules : [], binding);
-  const bonusRules = getScopedItemsWithYearFallback(Array.isArray(data?.bonusRules) ? data.bonusRules : [], binding);
+  const scopedBonusRules = getScopedItemsWithYearFallback(Array.isArray(data?.bonusRules) ? data.bonusRules : [], binding);
+  const latestBonusYear = scopedBonusRules.reduce((latest, item) => Math.max(latest, Number(item?.year || 0)), 0);
+  const bonusRules = latestBonusYear ? scopedBonusRules.filter((item) => Number(item?.year || 0) === latestBonusYear) : [];
   const notices = (Array.isArray(data?.notices) ? data.notices : [])
     .filter((item) => scopeMatches(item.scope, binding) && yearMatches(item, binding))
     .sort((a, b) => String(b.publishedAt || "").localeCompare(String(a.publishedAt || "")));
   const historicalTrend = (Array.isArray(data?.historicalTrend) ? data.historicalTrend : []).filter((item) =>
     scopeMatches(item.scope, binding),
   );
-  const accountingHistory = (Array.isArray(data?.accountingRecommendationHistory) ? data.accountingRecommendationHistory : [])
+  const historyByScopeAndYear = new Map();
+  const allMajorHistory = [
+    ...(Array.isArray(data?.accountingRecommendationHistory) ? data.accountingRecommendationHistory : []),
+    ...(Array.isArray(data?.majorRecommendationHistory) ? data.majorRecommendationHistory : []),
+  ];
+  allMajorHistory.forEach((item) => {
+    const scopeKey = item?.scope?.majorId || item?.scope?.majorName || item?.majorName || "unknown-major";
+    historyByScopeAndYear.set(`${scopeKey}-${item?.graduationYear || item?.year || "unknown-year"}`, item);
+  });
+  const recommendationHistory = [...historyByScopeAndYear.values()]
     .filter((item) => scopeMatches(item.scope, binding))
     .sort((a, b) => b.graduationYear - a.graduationYear);
 
@@ -109,11 +121,12 @@ export function getMatchedRecommendationData(data, binding = {}) {
     bonusRules,
     notices,
     historicalTrend,
-    accountingHistory,
+    recommendationHistory,
+    accountingHistory: recommendationHistory,
   };
 }
 
-export function getLatestThreeAccountingYears(history = []) {
+export function getLatestThreeRecommendationYears(history = []) {
   const years = [...new Set(history.map((item) => item.graduationYear).filter(Boolean))].sort((a, b) => b - a);
   const latestYears = years.slice(0, 3);
   if (latestYears.length >= 3) return latestYears.map((year) => history.find((item) => item.graduationYear === year) || { graduationYear: year });
@@ -121,6 +134,8 @@ export function getLatestThreeAccountingYears(history = []) {
   while (latestYears.length < 3) latestYears.push(latest - latestYears.length);
   return latestYears.map((year) => history.find((item) => item.graduationYear === year) || { graduationYear: year, dataStatus: "missing" });
 }
+
+export const getLatestThreeAccountingYears = getLatestThreeRecommendationYears;
 
 export function getSourceLevelLabel(sourceLevel, dataStatus) {
   if (dataStatus === "missing") return "数据不完整";

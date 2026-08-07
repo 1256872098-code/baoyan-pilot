@@ -3,7 +3,7 @@
   "schoolName": "上海海洋大学",
   "collegeId": "unit-56716fffbe",
   "collegeName": "经济管理学院",
-  "lastUpdatedAt": "2026-07-14T07:59:13.442Z",
+  "lastUpdatedAt": "2026-08-07T00:00:00.000Z",
   "dataStatus": "verified",
   "majors": [
     {
@@ -126,7 +126,10 @@
       "code": null,
       "degreeType": "管理学",
       "educationLevel": "本科",
-      "aliases": [],
+      "aliases": [
+        "工商管理（食品经济管理）",
+        "工商管理（食品经济管理方向）"
+      ],
       "status": "active",
       "sourceUrl": "https://jwc.shou.edu.cn/11202/list.htm",
       "sourceTitle": "上海海洋大学专业设置情况及说明（截至202309）",
@@ -137,6 +140,44 @@
         "discipline": "管理学",
         "startYear": "2007",
         "honors": "上海市教育高地，市级一流专业"
+      }
+    },
+    {
+      "id": "major-4b2243b121",
+      "name": "行政管理",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jmxy.shou.edu.cn/xygk/list.htm",
+      "sourceTitle": "上海海洋大学经济管理学院学院简介（数据截至2026年4月）",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-08-07T00:00:00.000Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2000",
+        "honors": ""
+      }
+    },
+    {
+      "id": "major-f506f65c16",
+      "name": "文化产业管理",
+      "code": null,
+      "degreeType": "管理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://jmxy.shou.edu.cn/xygk/list.htm",
+      "sourceTitle": "上海海洋大学经济管理学院学院简介（数据截至2026年4月）",
+      "sourceOrganization": "上海海洋大学经济管理学院",
+      "confidence": 1,
+      "lastCheckedAt": "2026-08-07T00:00:00.000Z",
+      "meta": {
+        "discipline": "管理学",
+        "startYear": "2021",
+        "honors": ""
       }
     }
   ]

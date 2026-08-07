@@ -25,7 +25,7 @@ function pathFromPoints(points) {
   return points.map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`).join(" ");
 }
 
-export default function AccountingRecommendationTrendChart({ history = [] }) {
+export default function MajorRecommendationTrendChart({ history = [], majorName = "当前专业" }) {
   const rows = [...history].filter((item) => item.graduationYear).sort((a, b) => a.graduationYear - b.graduationYear);
   const countPoints = buildPoints(rows, "recommendedCount", 640, 260, 44);
   const ratePoints = buildPoints(rows, "recommendationRate", 640, 260, 44);
@@ -35,7 +35,7 @@ export default function AccountingRecommendationTrendChart({ history = [] }) {
     return (
       <div className="rounded-lg border border-dashed border-slate-200 bg-slate-50 px-4 py-5 text-sm leading-7 text-slate-500">
         <p className="font-semibold text-slate-700">当前可比年度数据不足，暂不生成趋势图。</p>
-        <p className="mt-1">至少需要两个年度的可比推免人数或保研率数据。缺失值不会按0补齐。</p>
+        <p className="mt-1">至少需要两个年度的可比推免人数或保研率数据。缺失值不会按 0 补齐。</p>
       </div>
     );
   }
@@ -45,16 +45,21 @@ export default function AccountingRecommendationTrendChart({ history = [] }) {
       <div className="mb-3 flex flex-wrap gap-3 text-xs text-slate-500">
         <span className="inline-flex items-center gap-1">
           <span className="h-2 w-5 rounded-full bg-brand-600" />
-          会计学推免人数
+          {majorName}推免人数
         </span>
         <span className="inline-flex items-center gap-1">
           <span className="h-2 w-5 rounded-full bg-emerald-500" />
-          会计学保研率
+          {majorName}保研率
         </span>
         {!ratePoints.length && <span className="text-amber-700">暂无同口径毕业生人数，保研率折线不绘制。</span>}
       </div>
       <div className="w-full overflow-x-auto">
-        <svg viewBox="0 0 640 260" className="h-[260px] min-w-[560px] w-full" role="img" aria-label="会计学推免人数和保研率趋势">
+        <svg
+          viewBox="0 0 640 260"
+          className="h-[260px] min-w-[560px] w-full"
+          role="img"
+          aria-label={`${majorName}推免人数和保研率趋势`}
+        >
           <line x1="44" y1="216" x2="596" y2="216" stroke="#cbd5e1" strokeWidth="1" />
           <line x1="44" y1="44" x2="44" y2="216" stroke="#cbd5e1" strokeWidth="1" />
           {rows.map((row, index) => {

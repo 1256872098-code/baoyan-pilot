@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, ExternalLink, RefreshCcw, Trash2 } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import LoginModal from "../components/LoginModal.jsx";
-import AccountingRecommendationTrendChart from "../components/my-school/AccountingRecommendationTrendChart.jsx";
+import MajorRecommendationTrendChart from "../components/my-school/MajorRecommendationTrendChart.jsx";
 import SearchableMajorSelect from "../components/school/SearchableMajorSelect.jsx";
 import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.jsx";
 import SchoolRatingSection from "../components/school-rating/SchoolRatingSection.jsx";
@@ -13,7 +13,7 @@ import {
   fetchMySchoolRecommendationData,
   formatDate,
   formatPercent,
-  getLatestThreeAccountingYears,
+  getLatestThreeRecommendationYears,
   getMatchedRecommendationData,
   getSourceLevelLabel,
 } from "../services/mySchoolDataService.js";
@@ -175,7 +175,7 @@ function SourceButton({ source }) {
   );
 }
 
-function AccountingYearCard({ item }) {
+function MajorRecommendationYearCard({ item, majorName }) {
   const missing = item.dataStatus === "missing" || item.recommendedCount == null;
   const sourceLabel = getSourceLevelLabel(item.sourceLevel, item.dataStatus);
   const sourceTone =
@@ -193,18 +193,18 @@ function AccountingYearCard({ item }) {
       </div>
       <div className="mt-4 space-y-4">
         <div>
-          <p className="text-sm font-semibold text-slate-500">会计学推免人数</p>
+          <p className="text-sm font-semibold text-slate-500">{majorName}推免人数</p>
           <p className={`mt-1 text-2xl font-bold ${missing ? "text-slate-400" : "text-slate-950"}`}>
             {missing ? "暂未找到可核验数据" : `${item.recommendedCount}人`}
           </p>
         </div>
         <div>
-          <p className="text-sm font-semibold text-slate-500">会计学保研率</p>
+          <p className="text-sm font-semibold text-slate-500">{majorName}保研率</p>
           <p className="mt-1 text-xl font-bold text-slate-400">
             {formatPercent(item.recommendationRate) || "暂无法计算"}
           </p>
           {!item.recommendationRate && !missing && (
-            <p className="mt-1 text-xs leading-5 text-slate-500">未找到同届会计学本科毕业生人数，不使用其他口径估算。</p>
+            <p className="mt-1 text-xs leading-5 text-slate-500">未找到同届{majorName}本科毕业生人数，不使用其他口径估算。</p>
           )}
         </div>
       </div>
@@ -383,8 +383,10 @@ export default function MySchoolPage() {
   const latestPolicy = matchedRecommendation.policy;
   const rankingRule = matchedRecommendation.rankingRule;
   const bonusRules = matchedRecommendation.bonusRules;
-  const accountingHistory = matchedRecommendation.accountingHistory || [];
-  const accountingYearCards = getLatestThreeAccountingYears(accountingHistory);
+  const boundMajorName = binding?.majorName || binding?.major || "当前专业";
+  const recommendationHistory = matchedRecommendation.recommendationHistory || [];
+  const recommendationYearCards = getLatestThreeRecommendationYears(recommendationHistory);
+  const hasMatchedMajorRecommendationData = Boolean(matchedRecommendation.major || recommendationHistory.length);
   const bindingComplete = Boolean(form.schoolId && form.collegeId && form.majorId && form.grade);
   const saveDisabled = !bindingComplete || majorsLoading || Boolean(majorsError) || !majorOptions.length;
   const recommendationCardStyle = recommendationCardHeight ? { height: `${recommendationCardHeight}px` } : undefined;
@@ -434,7 +436,7 @@ export default function MySchoolPage() {
       window.removeEventListener("resize", updateAlignedCardHeights);
       mediaQuery.removeEventListener?.("change", updateAlignedCardHeights);
     };
-  }, [binding, editing, latestPolicy, rankingRule, bonusRules, accountingHistory, recommendationData]);
+  }, [binding, editing, latestPolicy, rankingRule, bonusRules, recommendationHistory, recommendationData]);
 
   const updateForm = (field, value) => {
     setForm((current) => {
@@ -780,14 +782,14 @@ export default function MySchoolPage() {
                       <EmptyInfo title="正在加载推免数据" description="正在读取本校公开推免资料。" />
                     ) : recommendationError ? (
                       <EmptyInfo title="推免数据加载失败" description={recommendationError} />
-                    ) : recommendationData ? (
+                    ) : recommendationData && hasMatchedMajorRecommendationData ? (
                       <div className="my-school-recommendation-scroll mt-4 space-y-4">
                         <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-                          以下数据仅针对上海海洋大学经济管理学院会计学专业。官方数据优先；部分历史数据可能根据公开名单或其他公开资料整理、估算，仅供参考，请以学校及学院当年正式通知为准。
+                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方名单计数；保研率所需毕业生人数如无官方同口径数据，将根据学院公开名额估算并明确标注，仅供参考。请以学校及学院当年正式通知为准。
                         </div>
                         <div className="grid gap-4 xl:grid-cols-3">
-                          {accountingYearCards.map((item) => (
-                            <AccountingYearCard key={item.graduationYear} item={item} />
+                          {recommendationYearCards.map((item) => (
+                            <MajorRecommendationYearCard key={item.graduationYear} item={item} majorName={boundMajorName} />
                           ))}
                         </div>
                       </div>
@@ -809,7 +811,7 @@ export default function MySchoolPage() {
                       <div className="my-school-policy-scroll mt-4 space-y-4">
                         <div>
                           <p className="text-sm font-semibold text-brand-700">
-                            {latestPolicy.year}届 · {latestPolicy.applicabilityLabel || latestPolicy.collegeName || "学校级"}
+                            最新公开政策：{latestPolicy.year}届 · {latestPolicy.applicabilityLabel || latestPolicy.collegeName || "学校级"}
                           </p>
                           <h3 className="mt-1 font-bold text-slate-950">{latestPolicy.title}</h3>
                         </div>
@@ -825,7 +827,9 @@ export default function MySchoolPage() {
                         </div>
                         <SourceButton source={latestPolicy.source} />
                         <p className="rounded-lg bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-700">
-                          政策可能随年度调整，请以当年学校及学院官方通知为准。
+                          {binding.graduationYear && Number(binding.graduationYear) !== Number(latestPolicy.year)
+                            ? `当前绑定为${binding.graduationYear}届，学院目前最新公开的是${latestPolicy.year}届办法；该内容仅供提前规划，最终以你所在届别的正式通知为准。`
+                            : "政策可能随年度调整，请以当年学校及学院官方通知为准。"}
                         </p>
                       </div>
                     ) : (
@@ -846,9 +850,17 @@ export default function MySchoolPage() {
                           <span className="font-semibold text-slate-700">排名范围：</span>
                           {rankingRule.rankingScope}
                         </p>
-                        <div className="grid gap-3 sm:grid-cols-2">
+                        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                           <DataMetric label="学业成绩权重" value={rankingRule.academicWeight != null ? `${rankingRule.academicWeight * 100}%` : null} />
-                          <DataMetric label="加分绩点权重" value={rankingRule.bonusWeight != null ? `${rankingRule.bonusWeight * 100}%` : null} />
+                          {rankingRule.researchWeight != null && (
+                            <DataMetric label="科研创新权重" value={`${rankingRule.researchWeight * 100}%`} />
+                          )}
+                          {rankingRule.developmentWeight != null && (
+                            <DataMetric label="全面发展权重" value={`${rankingRule.developmentWeight * 100}%`} />
+                          )}
+                          {rankingRule.bonusWeight != null && rankingRule.researchWeight == null && rankingRule.developmentWeight == null && (
+                            <DataMetric label="加分绩点权重" value={`${rankingRule.bonusWeight * 100}%`} />
+                          )}
                         </div>
                         <FieldList title="官方规则摘要" items={rankingRule.rules} />
                         <SourceButton source={rankingRule.source} />
@@ -893,9 +905,9 @@ export default function MySchoolPage() {
                 <div ref={trendCardRef}>
                   <Card className="p-6">
                     <h2 className="text-xl font-bold text-slate-950">历年趋势</h2>
-                    {accountingHistory.length ? (
+                    {recommendationHistory.length ? (
                       <div className="mt-4 space-y-4">
-                        <AccountingRecommendationTrendChart history={accountingHistory} />
+                        <MajorRecommendationTrendChart history={recommendationHistory} majorName={boundMajorName} />
                         <div className="overflow-x-auto">
                           <table className="min-w-full text-left text-sm">
                             <thead className="text-xs uppercase text-slate-500">
@@ -909,7 +921,7 @@ export default function MySchoolPage() {
                               </tr>
                             </thead>
                             <tbody className="divide-y divide-slate-100">
-                              {[...accountingHistory].sort((a, b) => a.graduationYear - b.graduationYear).map((row) => (
+                              {[...recommendationHistory].sort((a, b) => a.graduationYear - b.graduationYear).map((row) => (
                                 <tr key={row.graduationYear}>
                                   <td className="px-3 py-2">{row.graduationYear}届</td>
                                   <td className="px-3 py-2">{row.recommendedCount ?? "未识别"}</td>
@@ -917,8 +929,8 @@ export default function MySchoolPage() {
                                   <td className="px-3 py-2">{formatPercent(row.recommendationRate) || "暂无法计算"}</td>
                                   <td className="px-3 py-2">{getSourceLevelLabel(row.sourceLevel, row.dataStatus)}</td>
                                   <td className="px-3 py-2">
-                                    {row.sources?.[0]?.url ? (
-                                      <a className="font-semibold text-brand-700 hover:underline" href={row.sources[0].url} target="_blank" rel="noopener noreferrer">
+                                    {row.sources?.[0]?.url || row.sources?.[0]?.sourceUrl ? (
+                                      <a className="font-semibold text-brand-700 hover:underline" href={row.sources[0].url || row.sources[0].sourceUrl} target="_blank" rel="noopener noreferrer">
                                         官方原文
                                       </a>
                                     ) : (

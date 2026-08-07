@@ -2,7 +2,7 @@
   "schoolId": "school-f17pfd",
   "schoolName": "上海海洋大学",
   "latestDataYear": 2026,
-  "lastUpdatedAt": "2026-07-15T01:47:26.221Z",
+  "lastUpdatedAt": "2026-08-07T00:00:00.000Z",
   "dataStatus": "partial",
   "schoolOverview": {},
   "recommendationData": {
@@ -95,6 +95,244 @@
                 "verifiedAt": "2026-07-14T08:06:47.877Z"
               }
             ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-e258c46909",
+              "majorName": "农林经济管理",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-e258c46909",
+            "majorName": "农林经济管理",
+            "recommendationQuota": null,
+            "recommendedCount": 5,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 5,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院农林经济管理专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-e85087bc83",
+              "majorName": "金融学",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-e85087bc83",
+            "majorName": "金融学",
+            "recommendationQuota": null,
+            "recommendedCount": 9,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 9,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院金融学专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-9e4817b374",
+              "majorName": "国际经济与贸易",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-9e4817b374",
+            "majorName": "国际经济与贸易",
+            "recommendationQuota": null,
+            "recommendedCount": 7,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 7,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院国际经济与贸易专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-9a2635da63",
+              "majorName": "物流管理",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-9a2635da63",
+            "majorName": "物流管理",
+            "recommendationQuota": null,
+            "recommendedCount": 6,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 6,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院物流管理专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-27c4944032",
+              "majorName": "工商管理",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-27c4944032",
+            "majorName": "工商管理",
+            "recommendationQuota": null,
+            "recommendedCount": 6,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算推免率。",
+            "sources": [
+              {
+                "value": 6,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院工商管理（食品经济管理）专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-07-14T08:06:47.877Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-4b2243b121",
+              "majorName": "行政管理",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-4b2243b121",
+            "majorName": "行政管理",
+            "recommendationQuota": null,
+            "recommendedCount": 8,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算官方推免率。",
+            "sources": [
+              {
+                "value": 8,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院行政管理专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-08-07T00:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "scope": {
+              "schoolId": "school-f17pfd",
+              "collegeId": "unit-56716fffbe",
+              "collegeName": "经济管理学院",
+              "majorId": "major-f506f65c16",
+              "majorName": "文化产业管理",
+              "appliesToAllColleges": false,
+              "appliesToAllMajors": false
+            },
+            "majorId": "major-f506f65c16",
+            "majorName": "文化产业管理",
+            "recommendationQuota": null,
+            "recommendedCount": 2,
+            "countMethod": "official-list-count",
+            "containsWaitlist": false,
+            "cohortSize": null,
+            "recommendationRate": null,
+            "rateStatus": "unavailable",
+            "rateUnavailableReason": "尚未获得同口径本科毕业生人数，暂无法计算官方推免率。",
+            "sources": [
+              {
+                "value": 2,
+                "sourceUrl": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+                "sourceTitle": "上海海洋大学2026年推免生名单公示",
+                "publishedAt": null,
+                "sourceOrganization": "上海海洋大学教务处",
+                "sourceType": "recommendation-list",
+                "evidenceText": "官方名单中经济管理学院文化产业管理专业记录计数。",
+                "confidence": 1,
+                "verifiedAt": "2026-08-07T00:00:00.000Z"
+              }
+            ]
           }
         ],
         "sources": [
@@ -114,6 +352,83 @@
     ]
   },
   "policies": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2027,
+      "scopeType": "college",
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2027届适用）",
+      "eligibility": {
+        "studentStatus": [
+          {
+            "text": "纳入国家普通本科招生计划录取、具有校内学籍的应届本科毕业生；不含专升本、第二学士学位学生，且此前未参加过推免环节。"
+          },
+          {
+            "text": "具有高尚的爱国主义情操和集体主义精神，政治立场坚定，社会责任感强，遵纪守法，德才兼备。"
+          }
+        ],
+        "courseRequirements": [
+          {
+            "text": "截至推免时修完培养方案规定进度的课程并取得相应学分，必修课及限选课无不及格记录。"
+          },
+          {
+            "text": "正常选拔学生的前三学年平均学分绩点排名应位于本专业前 50%。"
+          }
+        ],
+        "languageRequirements": [
+          {
+            "text": "全国大学英语四级考试成绩达到 425 分（含）以上；其他公共外语按实施办法规定的对应等级执行。"
+          }
+        ],
+        "disciplineRequirements": [
+          {
+            "text": "诚实守信、学风端正，无考试违纪、学术不端及尚未解除的处分记录。"
+          }
+        ],
+        "otherRequirements": [
+          {
+            "text": "特殊学术专长学生的前三学年平均学分绩点不低于 3.3，并须满足文件列明的论文或国家级学科竞赛、教授联名推荐等条件；通过材料审查和学术报告答辩后可不受学院综合排名限制，但仍占用学院推免名额。"
+          }
+        ]
+      },
+      "materials": [
+        {
+          "text": "按学院通知填写推免申请审核表，并提交成绩、科研创新、全面发展及相关证明材料。"
+        }
+      ],
+      "schedule": [
+        {
+          "text": "具体申报、审核、公示时间以学院启动当年发布的推免工作通知为准。"
+        }
+      ],
+      "procedure": [
+        {
+          "text": "学生自愿申报，学院审核申请资格及证明材料，并按综合成绩排序。"
+        },
+        {
+          "text": "学院根据学校分配名额确定推荐和候补名单，经规定程序审议、公示后报学校审核。"
+        }
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2027届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/63/d8/834c3f9740f49182616d808be175/a10c1411-b3a6-48aa-a322-75b69f4e7b7d.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2026-01-06",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official",
+        "lastCheckedAt": "2026-08-07T00:00:00.000Z"
+      }
+    },
     {
       "scope": {
         "schoolId": "school-f17pfd",
@@ -216,6 +531,41 @@
         "appliesToAllMajors": true,
         "label": "经济管理学院通用"
       },
+      "year": 2027,
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "academicWeight": 0.75,
+      "researchWeight": 0.15,
+      "developmentWeight": 0.1,
+      "formula": "推荐成绩 = 全学程平均学分绩点 × 75% + 科研创新绩点 × 15% + 全面发展绩点 × 10%",
+      "rankingScope": "学院推免生推荐工作小组审核并排序，根据学校分配名额确定推荐名单和候补名单；推荐成绩相等时，按全学程平均学分绩点从高到低排序。",
+      "rules": [
+        "全学程平均学分绩点、科研创新绩点、全面发展绩点的满分均为 4 分。",
+        "课程成绩按首次考试成绩计算绩点。",
+        "推荐成绩相等时，以全学程平均学分绩点高低排序。",
+        "特殊学术专长学生按文件规定参加材料审查和答辩，仍占用学院推免名额。"
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2027届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/63/d8/834c3f9740f49182616d808be175/a10c1411-b3a6-48aa-a322-75b69f4e7b7d.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2026-01-06",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official",
+        "lastCheckedAt": "2026-08-07T00:00:00.000Z"
+      }
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
       "year": 2026,
       "collegeName": "经济管理学院",
       "applicabilityLabel": "经济管理学院通用",
@@ -242,6 +592,82 @@
     }
   ],
   "bonusRules": [
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2027,
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "category": "科研创新",
+      "items": [
+        {
+          "name": "学术论文与知识产权",
+          "condition": "本科阶段取得且符合学院实施办法认定范围的学术论文、发明专利等成果。",
+          "scoreRule": "符合条件的核心期刊论文每篇最高计 2.4 绩点；第一权利人为上海海洋大学的国内发明专利每项最高计 2.4 绩点，具体按成果类别和作者排序折算。",
+          "cap": "科研创新绩点满分 4 分；仅计算本科阶段、代表上海海洋大学取得且截至推免当年 8 月 31 日的成果。"
+        },
+        {
+          "name": "学科竞赛",
+          "condition": "参加学院实施办法认定范围内的国家级、省部级等学科竞赛并获奖。",
+          "scoreRule": "学校认定的 A（含 A+）、B 类赛事每项最高计 2.4 绩点，计前 5 名；学院认定的 C 类赛事计前 5 名。",
+          "cap": "经管类专业 C 类赛事加分总值不超过 1.2 绩点；同一项目同一年度获奖就高计一次。"
+        }
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2027届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/63/d8/834c3f9740f49182616d808be175/a10c1411-b3a6-48aa-a322-75b69f4e7b7d.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2026-01-06",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official"
+      }
+    },
+    {
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": null,
+        "majorName": null,
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": true,
+        "label": "经济管理学院通用"
+      },
+      "year": 2027,
+      "collegeName": "经济管理学院",
+      "applicabilityLabel": "经济管理学院通用",
+      "category": "全面发展",
+      "items": [
+        {
+          "name": "服兵役、荣誉及文体实践",
+          "condition": "符合实施办法认定范围的入伍服兵役、校级荣誉、体育或艺术活动、志愿服务等经历。",
+          "scoreRule": "服满兵役计 1.2 绩点，服役荣誉最高计 2.4；校级荣誉每项计 0.2 或 0.3；市级及以上体育、美育赛事每项最高计 2.4；志愿服务荣誉国家级计 0.5、省市级计 0.2。",
+          "cap": "全面发展绩点满分 4 分；同一学年同类荣誉按文件规定就高计分。"
+        },
+        {
+          "name": "国际组织实习",
+          "condition": "由学校选派至国际组织实习 3 个月及以上，并按期完成实习任务。",
+          "scoreRule": "境外实习每次计 1.0 绩点，境内或线上实习每次计 0.5 绩点。",
+          "cap": "须通过学院材料审核。"
+        }
+      ],
+      "source": {
+        "title": "经济管理学院关于推荐优秀应届本科毕业生免试攻读研究生工作的实施办法（2027届适用）",
+        "url": "https://jmxy.shou.edu.cn/_upload/article/files/63/d8/834c3f9740f49182616d808be175/a10c1411-b3a6-48aa-a322-75b69f4e7b7d.pdf",
+        "sourceType": "policy",
+        "publishedAt": "2026-01-06",
+        "sourceOrganization": "上海海洋大学经济管理学院",
+        "sourceLevel": "official"
+      }
+    },
     {
       "scope": {
         "schoolId": "school-f17pfd",
@@ -846,6 +1272,939 @@
       "reason": "未配置 DEEPSEEK_API_KEY，已使用规则解析并将低置信度内容进入人工复核。"
     }
   },
+  "majorRecommendationHistory": [
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 5,
+      "cohortSize": 40,
+      "recommendationRate": 0.125,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数5人 ÷ 估算的同届农林经济管理本科毕业生人数40人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院农林经济管理专业记录计数为5人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算农林经济管理同届本科毕业生人数约40人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e258c46909",
+        "majorName": "农林经济管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 4,
+      "cohortSize": 40,
+      "recommendationRate": 0.1,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数4人 ÷ 估算的同届农林经济管理本科毕业生人数40人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院农林经济管理专业记录计数为4人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算农林经济管理同届本科毕业生人数约40人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e258c46909",
+        "majorName": "农林经济管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 4,
+      "cohortSize": 40,
+      "recommendationRate": 0.1,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "官方推免名单计数4人 ÷ 估算的同届农林经济管理本科毕业生人数40人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院农林经济管理专业记录计数为4人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算农林经济管理同届本科毕业生人数约40人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2024年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e258c46909",
+        "majorName": "农林经济管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 9,
+      "cohortSize": 100,
+      "recommendationRate": 0.09,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数9人 ÷ 估算的同届金融学本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院金融学专业记录计数为9人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算金融学同届本科毕业生人数约100人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e85087bc83",
+        "majorName": "金融学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 6,
+      "cohortSize": 120,
+      "recommendationRate": 0.05,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数6人 ÷ 估算的同届金融学本科毕业生人数120人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院金融学专业记录计数为6人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算金融学同届本科毕业生人数约120人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e85087bc83",
+        "majorName": "金融学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 5,
+      "cohortSize": 120,
+      "recommendationRate": 0.041667,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "官方推免名单计数5人 ÷ 估算的同届金融学本科毕业生人数120人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院金融学专业记录计数为5人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算金融学同届本科毕业生人数约120人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2024年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-e85087bc83",
+        "majorName": "金融学",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 7,
+      "cohortSize": 100,
+      "recommendationRate": 0.07,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数7人 ÷ 估算的同届国际经济与贸易本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院国际经济与贸易专业记录计数为7人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算国际经济与贸易同届本科毕业生人数约100人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9e4817b374",
+        "majorName": "国际经济与贸易",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 6,
+      "cohortSize": 80,
+      "recommendationRate": 0.075,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数6人 ÷ 估算的同届国际经济与贸易本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院国际经济与贸易专业记录计数为6人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算国际经济与贸易同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9e4817b374",
+        "majorName": "国际经济与贸易",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 5,
+      "cohortSize": 100,
+      "recommendationRate": 0.05,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "官方推免名单计数5人 ÷ 估算的同届国际经济与贸易本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院国际经济与贸易专业记录计数为5人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算国际经济与贸易同届本科毕业生人数约100人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2024年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9e4817b374",
+        "majorName": "国际经济与贸易",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 6,
+      "cohortSize": 80,
+      "recommendationRate": 0.075,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数6人 ÷ 估算的同届物流管理本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院物流管理专业记录计数为6人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算物流管理同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9a2635da63",
+        "majorName": "物流管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 4,
+      "cohortSize": 60,
+      "recommendationRate": 0.066667,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数4人 ÷ 估算的同届物流管理本科毕业生人数60人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院物流管理专业记录计数为4人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算物流管理同届本科毕业生人数约60人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9a2635da63",
+        "majorName": "物流管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 4,
+      "cohortSize": 80,
+      "recommendationRate": 0.05,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "官方推免名单计数4人 ÷ 估算的同届物流管理本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院物流管理专业记录计数为4人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算物流管理同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2024年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-9a2635da63",
+        "majorName": "物流管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 6,
+      "cohortSize": 80,
+      "recommendationRate": 0.075,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数6人 ÷ 估算的同届工商管理本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院工商管理专业记录计数为6人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算工商管理同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-27c4944032",
+        "majorName": "工商管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 5,
+      "cohortSize": 80,
+      "recommendationRate": 0.0625,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数5人 ÷ 估算的同届工商管理本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院工商管理专业记录计数为5人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算工商管理同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-27c4944032",
+        "majorName": "工商管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2024,
+      "recommendedCount": 4,
+      "cohortSize": 80,
+      "recommendationRate": 0.05,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 243,
+      "collegeRecommendedCount": 29,
+      "calculationMethod": "官方推免名单计数4人 ÷ 估算的同届工商管理本科毕业生人数80人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2024年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c2/1e/d75adce540209dbe408c4b7db522/82c5c436-a467-4e64-8cb0-89dcda39b4c3.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院工商管理专业记录计数为4人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2024年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2024/0322/c17373a327666/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2024-03-22",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算工商管理同届本科毕业生人数约80人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2024年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-27c4944032",
+        "majorName": "工商管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 8,
+      "cohortSize": 100,
+      "recommendationRate": 0.08,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数8人 ÷ 估算的同届行政管理本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院行政管理专业记录计数为8人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算行政管理同届本科毕业生人数约100人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-4b2243b121",
+        "majorName": "行政管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 6,
+      "cohortSize": 100,
+      "recommendationRate": 0.06,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数6人 ÷ 估算的同届行政管理本科毕业生人数100人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院行政管理专业记录计数为6人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算行政管理同届本科毕业生人数约100人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-4b2243b121",
+        "majorName": "行政管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2026,
+      "recommendedCount": 2,
+      "cohortSize": 20,
+      "recommendationRate": 0.1,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 359,
+      "collegeRecommendedCount": 52,
+      "calculationMethod": "官方推免名单计数2人 ÷ 估算的同届文化产业管理本科毕业生人数20人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2026年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/ea/8e/16cb8a5b4f9cb6a3732daea9f73e/e095aa1a-9d19-4589-80e5-4000c9e0f5a5.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院文化产业管理专业记录计数为2人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2026年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2026/0309/c17373a350808/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2026-03-09",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算文化产业管理同届本科毕业生人数约20人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2026年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f506f65c16",
+        "majorName": "文化产业管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    },
+    {
+      "graduationYear": 2025,
+      "recommendedCount": 2,
+      "cohortSize": 40,
+      "recommendationRate": 0.05,
+      "countMethod": "official-list-count",
+      "sourceLevel": "third-party-estimate",
+      "sourceLabel": "估算值，仅供参考",
+      "isEstimated": true,
+      "dataStatus": "estimated",
+      "schoolTotalRecommendedCount": 283,
+      "collegeRecommendedCount": 41,
+      "calculationMethod": "官方推免名单计数2人 ÷ 估算的同届文化产业管理本科毕业生人数40人",
+      "numeratorSource": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+      "denominatorSource": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+      "sources": [
+        {
+          "title": "上海海洋大学2025年推荐优秀应届本科毕业生免试攻读研究生名单公示",
+          "url": "https://jwc.shou.edu.cn/_upload/article/files/c6/6f/589ed4c94462acba313568ab85c0/931dc139-ff31-42aa-8630-a1a648f52abe.pdf",
+          "organization": "上海海洋大学教务处",
+          "sourceLevel": "official",
+          "sourceType": "recommendation-list",
+          "countMethod": "official-list-count",
+          "evidenceText": "官方公示名单中经济管理学院文化产业管理专业记录计数为2人。"
+        },
+        {
+          "title": "经济管理学院（本科）关于2025年度上海市优秀毕业生及上海海洋大学优秀毕业生评选工作的通知",
+          "url": "https://jmxy.shou.edu.cn/2025/0310/c17373a338556/page.htm",
+          "organization": "上海海洋大学经济管理学院",
+          "publishedAt": "2025-03-10",
+          "sourceLevel": "third-party-estimate",
+          "sourceType": "cohort-estimate",
+          "countMethod": "cohort-estimate",
+          "evidenceText": "依据学院公布的上海市优秀毕业生推荐名额及5%比例上限，估算文化产业管理同届本科毕业生人数约40人。"
+        }
+      ],
+      "denominatorSourceLevel": "third-party-estimate",
+      "denominatorMethod": "city-excellent-graduate-quota-divided-by-5-percent",
+      "denominatorEvidence": "毕业生人数由学院公布的2025年度上海市优秀毕业生推荐名额除以5%估算，不是官方公布的专业毕业生总数。",
+      "scope": {
+        "schoolId": "school-f17pfd",
+        "collegeId": "unit-56716fffbe",
+        "collegeName": "经济管理学院",
+        "majorId": "major-f506f65c16",
+        "majorName": "文化产业管理",
+        "appliesToAllColleges": false,
+        "appliesToAllMajors": false
+      }
+    }
+  ],
   "accountingRecommendationHistory": [
     {
       "graduationYear": 2026,
