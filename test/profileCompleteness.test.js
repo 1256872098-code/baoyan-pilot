@@ -145,6 +145,7 @@ test("完整对话会签发状态令牌，持有效令牌的报告不依赖末�
 ### 6.3 保：保底保障院校
 ## 7. 推荐理由汇总
 ## 8. 未来 30 天行动清单
+- 这段即使模型返回，也必须由服务端删除。
 ## 9. 风险说明与官网核验清单`;
 
     return {
@@ -231,6 +232,8 @@ test("完整对话会签发状态令牌，持有效令牌的报告不依赖末�
     chatResponse.payload.profileReadinessToken,
   );
   assert.match(reportResponse.payload.reply, /baoyanpilot-report/);
+  assert.doesNotMatch(reportResponse.payload.reply, /未来\s*30\s*天|必须由服务端删除/);
+  assert.match(reportResponse.payload.reply, /## 8\. 风险说明与官网核验清单/);
   assert.equal(truncatedReportResponse.statusCode, 502);
   assert.match(truncatedReportResponse.payload.error, /报告不完整/);
   assert.equal(modelCallCount, 3);

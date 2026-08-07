@@ -33,6 +33,9 @@ const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
 const BASE_ACTIVE_CONVERSATION_KEY = "baoyanpilot_ai_active_conversation_id";
 const DEFAULT_CONVERSATION_TITLE = "新的保研咨询";
 const REPORT_MARKER = "<!-- baoyanpilot-report -->";
+const ENABLED_REPORT_ACTION_CLASS = "btn-primary px-3 py-2";
+const DISABLED_REPORT_ACTION_CLASS =
+  "inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-md border border-slate-200 bg-slate-200 px-3 py-2 text-sm font-semibold text-slate-500";
 
 const legacyWelcomeContent =
   "你好，我是 AI 院校推荐助手。请先提供你的 background：年级、专业、学校层次、绩点或排名、英语成绩、科研经历、竞赛经历、目标专业方向、意向城市和风险偏好。信息不足时，我会先追问，再给出院校梯度建议。";
@@ -316,14 +319,14 @@ ${REPORT_MARKER}
 ### 6.2 稳：稳妥匹配院校
 ### 6.3 保：保底保障院校
 ## 7. 推荐理由汇总
-## 8. 未来 30 天行动清单
-## 9. 风险说明与官网核验清单
+## 8. 风险说明与官网核验清单
 
 要求：
 1. 不承诺保研成功，不给出绝对录取判断。
 2. 不编造用户没有提供的经历、奖项、论文、实习、成绩或排名。
 3. 每个梯度至少给出 2 到 3 个院校或项目，并说明推荐理由、主要风险和需要官网核验的信息。
-4. 必须提醒：推荐结果仅供规划参考，具体政策、报名时间、材料要求和考核方式以学校官网最新通知为准。`;
+4. 必须提醒：推荐结果仅供规划参考，具体政策、报名时间、材料要求和考核方式以学校官网最新通知为准。
+5. 不要输出“未来 30 天规划”“未来 30 天行动清单”或任何同类章节。`;
 }
 
 function buildReportRequestMessages(messages, profileStatus) {
@@ -673,8 +676,7 @@ export default function AiRecommendChat() {
     profileStatus,
     profileStatusValidated,
   ) && Boolean(profileReadinessToken);
-  const canGenerateReport =
-    isProfileComplete && !isThinking && !isGeneratingReport;
+  const canGenerateReport = isProfileComplete && !isNavigationLocked;
   const reportReadinessText = isProfileComplete
     ? "必备信息已全部确认，可以生成报告"
     : profileStatusValidated && profileStatus.isComplete
@@ -709,6 +711,7 @@ export default function AiRecommendChat() {
     },
     [messages],
   );
+  const canDownloadPdf = Boolean(latestRecommendationReport) && !isNavigationLocked;
 
   useEffect(() => {
     const nextState = loadConversationState(storageUser);
@@ -913,7 +916,7 @@ export default function AiRecommendChat() {
   };
 
   const handleGenerateReport = async () => {
-    if (!activeConversation || isThinking || isGeneratingReport) return;
+    if (!activeConversation || isNavigationLocked) return;
     if (!isProfileComplete) {
       setAiError("必备信息尚未全部确认，请先继续回答 AI 的问题。");
       return;
@@ -1019,7 +1022,7 @@ export default function AiRecommendChat() {
     try {
       await exportReportPdf({
         reportContent: latestRecommendationReport.content,
-        title: activeConversation?.title || "BaoyanPilot保研院校梯度规划报告",
+        title: "BaoyanPilot 保研院校梯度规划报告",
       });
       setPdfStatus("PDF 已生成。");
       console.log("[PDF] generation completed", { messageId: latestRecommendationReport.id });
@@ -1091,8 +1094,8 @@ export default function AiRecommendChat() {
                       type="button"
                       className={
                         canGenerateReport
-                          ? "btn-primary px-3 py-2"
-                          : "inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-md border border-slate-200 bg-slate-200 px-3 py-2 text-sm font-semibold text-slate-500"
+                          ? ENABLED_REPORT_ACTION_CLASS
+                          : DISABLED_REPORT_ACTION_CLASS
                       }
                       onClick={handleGenerateReport}
                       disabled={!canGenerateReport}
@@ -1108,9 +1111,13 @@ export default function AiRecommendChat() {
                     </button>
                     <button
                       type="button"
-                      className="btn-secondary px-3 py-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      className={
+                        canDownloadPdf
+                          ? ENABLED_REPORT_ACTION_CLASS
+                          : DISABLED_REPORT_ACTION_CLASS
+                      }
                       onClick={handleDownloadPdf}
-                      disabled={!latestRecommendationReport || isNavigationLocked}
+                      disabled={!canDownloadPdf}
                       title={
                         latestRecommendationReport
                           ? "下载最新规划报告 PDF"

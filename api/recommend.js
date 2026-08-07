@@ -5,6 +5,7 @@ import {
   isProfileReadyForReport,
   normalizeProfileStatus,
 } from "../src/utils/profileCompleteness.js";
+import { sanitizeRecommendationReportContent } from "../src/utils/reportContent.js";
 
 const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DEEPSEEK_MODEL = "deepseek-v4-flash";
@@ -65,13 +66,7 @@ const SYSTEM_PROMPT = `
    - 匹配院校
    - 稳妥院校
    每个梯度都要说明推荐理由。
-5. 未来 30 天行动计划：
-   - 材料准备
-   - 简历优化
-   - 院校信息收集
-   - 套磁/联系导师
-   - 英语或科研补强
-6. 风险说明：
+5. 风险说明：
    - 不承诺保研成功。
    - 推荐结果仅供规划参考。
    - 院校政策、报名时间、材料要求和考核方式可能变化，具体以学校官网最新通知为准。
@@ -178,10 +173,7 @@ const PROFESSIONAL_SYSTEM_PROMPT = `
 ## 7. 推荐理由汇总
 用简洁条目总结为什么这样分层，包括城市、专业方向、学校层次、成绩排名、英语和经历匹配。
 
-## 8. 未来 30 天行动清单
-按时间或任务列出：材料准备、简历优化、成绩排名证明、英语证明、科研竞赛材料、院校官网信息收集、联系导师/项目组、模拟面试。
-
-## 9. 风险说明与官网核验清单
+## 8. 风险说明与官网核验清单
 必须包含：
 - 不承诺保研成功。
 - 不给出绝对录取判断。
@@ -197,6 +189,7 @@ const PROFESSIONAL_SYSTEM_PROMPT = `
 5. 院校推荐要尽量具体，但不能伪造某学院当年招生政策或报名时间。
 6. 只要最低必备信息还有任何一项未确认，就不得输出“初步版报告”、完整画像或院校梯度建议，只能继续追问。
 7. 回复使用中文，Markdown 规范、层级清晰、适合导出为 PDF。
+8. 报告中不要输出“未来 30 天规划”“未来 30 天行动清单”或任何同类章节。
 `.trim();
 
 const STRICT_FOLLOW_UP_RULES = `
@@ -315,7 +308,6 @@ function isCompleteRecommendationReport(content) {
     "6.2",
     "6.3",
     "推荐理由汇总",
-    "未来 30 天行动清单",
     "风险说明与官网核验清单",
   ];
 
@@ -498,12 +490,16 @@ export default async function handler(request, response) {
       rawReply,
       trustedPreviousProfileStatus,
     );
+    const replyContent =
+      purpose === "report"
+        ? sanitizeRecommendationReportContent(parsedReply.content)
+        : parsedReply.content;
     const finishReason = extractDeepSeekFinishReason(responsePayload);
 
     if (
       purpose === "report" &&
       (finishReason === "length" ||
-        !isCompleteRecommendationReport(parsedReply.content))
+        !isCompleteRecommendationReport(replyContent))
     ) {
       sendJson(response, 502, {
         error: "AI 返回的报告不完整，请重试生成。已核验的资料不会丢失。",
@@ -524,9 +520,9 @@ export default async function handler(request, response) {
             ? previousProfileReadinessToken
             : "";
     const reply =
-      purpose === "chat" && isReportLikeReply(parsedReply.content)
+      purpose === "chat" && isReportLikeReply(replyContent)
         ? createChatGuardReply(profileStatus)
-        : parsedReply.content;
+        : replyContent;
 
     sendJson(response, 200, {
       reply,
