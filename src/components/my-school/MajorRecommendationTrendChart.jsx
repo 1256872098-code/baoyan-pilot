@@ -25,10 +25,17 @@ function pathFromPoints(points) {
   return points.map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`).join(" ");
 }
 
+function formatRateLabel(row) {
+  const value = formatPercent(row.recommendationRate);
+  if (!value) return "";
+  return row.isEstimated || row.rateStatus === "estimated" ? `约 ${value}` : value;
+}
+
 export default function MajorRecommendationTrendChart({ history = [], majorName = "当前专业" }) {
   const rows = [...history].filter((item) => item.graduationYear).sort((a, b) => a.graduationYear - b.graduationYear);
   const countPoints = buildPoints(rows, "recommendedCount", 640, 260, 44);
   const ratePoints = buildPoints(rows, "recommendationRate", 640, 260, 44);
+  const hasEstimatedRate = ratePoints.some(({ row }) => row.isEstimated || row.rateStatus === "estimated");
   const canRender = countPoints.length >= 2 || ratePoints.length >= 2;
 
   if (!canRender) {
@@ -49,14 +56,15 @@ export default function MajorRecommendationTrendChart({ history = [], majorName 
         </span>
         <span className="inline-flex items-center gap-1">
           <span className="h-2 w-5 rounded-full bg-emerald-500" />
-          {majorName}保研率
+          {majorName}保研率{hasEstimatedRate ? "（含估算）" : ""}
         </span>
         {!ratePoints.length && <span className="text-amber-700">暂无同口径毕业生人数，保研率折线不绘制。</span>}
       </div>
-      <div className="w-full overflow-x-auto">
+      <div className="w-full min-w-0">
         <svg
           viewBox="0 0 640 260"
-          className="h-[260px] min-w-[560px] w-full"
+          className="block h-auto w-full"
+          preserveAspectRatio="xMidYMid meet"
           role="img"
           aria-label={`${majorName}推免人数和保研率趋势`}
         >
@@ -89,7 +97,7 @@ export default function MajorRecommendationTrendChart({ history = [], majorName 
             <g key={`rate-${point.row.graduationYear}`}>
               <circle cx={point.x} cy={point.y} r="5" fill="#10b981" />
               <text x={point.x} y={point.y + 20} textAnchor="middle" className="fill-emerald-700 text-[12px] font-semibold">
-                {formatPercent(point.row.recommendationRate)}
+                {formatRateLabel(point.row)}
               </text>
             </g>
           ))}

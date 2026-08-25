@@ -175,7 +175,7 @@ test("空历史不会伪造三张年份缺失卡", () => {
   assert.deepEqual(getLatestThreeRecommendationYears([]), []);
 });
 
-test("上海海洋大学全部本科培养学院的 active 专业均有专业摘要且不伪造推免率", () => {
+test("上海海洋大学 active 专业摘要优先展示官方分母，缺项时明确展示估算率", () => {
   assert.equal(allMajorCatalogs.length, 9, "应覆盖 9 个本科培养学院");
 
   allMajorCatalogs.forEach((catalog) => {
@@ -191,17 +191,6 @@ test("上海海洋大学全部本科培养学院的 active 专业均有专业摘
       assert.ok(matched.major, `${catalog.collegeName}${major.name}应有专业摘要`);
       assert.equal(matched.major.majorId, major.id);
       assert.equal(matched.major.majorName, major.name);
-      assert.equal(
-        matched.major.recommendationRate,
-        null,
-        `${catalog.collegeName}${major.name}摘要不得用异口径人数估算推免率`,
-      );
-      assert.equal(
-        matched.major.cohortSize,
-        null,
-        `${catalog.collegeName}${major.name}摘要不得填入估算毕业生人数`,
-      );
-
       if (matched.recommendationHistory.length === 0) {
         const mayLackSameNameHistory =
           major.name === "人工智能" || major.name === "环境科学与工程";
@@ -213,7 +202,13 @@ test("上海海洋大学全部本科培养学院的 active 专业均有专业摘
           matched.major.dataAvailabilityNote,
           `${catalog.collegeName}${major.name}无同名历史时应说明数据可用性`,
         );
+        assert.equal(matched.major.recommendationRate, null);
+        assert.equal(matched.major.cohortSize, null);
       } else {
+        assert.ok(Number.isFinite(matched.major.recommendationRate));
+        assert.ok(matched.major.recommendationRate > 0);
+        assert.ok(Number.isFinite(matched.major.cohortSize));
+        assert.ok(matched.major.cohortSize >= matched.major.recommendedCount);
         matched.recommendationHistory.forEach((row) => {
           assert.equal(row.scope?.majorId, major.id, `${major.name}历史记录不得串专业 ID`);
           assert.equal(row.scope?.majorName, major.name, `${major.name}历史记录不得串专业名称`);
@@ -223,7 +218,7 @@ test("上海海洋大学全部本科培养学院的 active 专业均有专业摘
   });
 });
 
-test("所有专业历史仅保留官方推荐人数，毕业生人数与推免率均为空", () => {
+test("所有含官方推荐人数的专业历史都有可审计分母，估算不会污染推荐人数来源", () => {
   const history = [
     ...(schoolData.accountingRecommendationHistory || []),
     ...(schoolData.majorRecommendationHistory || []),
@@ -232,12 +227,42 @@ test("所有专业历史仅保留官方推荐人数，毕业生人数与推免�
 
   history.forEach((row) => {
     const label = `${row.scope?.collegeName || "未知学院"}${row.scope?.majorName || "未知专业"}${row.graduationYear || "未知届别"}`;
-    assert.equal(row.sourceLevel, "official", `${label}应为官方名单计数`);
-    assert.equal(row.cohortSize, null, `${label}不得保留估算毕业生人数`);
-    assert.equal(row.recommendationRate, null, `${label}不得保留估算推免率`);
-    assert.equal(row.isEstimated, false, `${label}不得标记为估算记录`);
+    assert.equal(row.recommendedCountSourceLevel, "official", `${label}推荐人数必须保持官方来源`);
+    assert.ok(Number.isFinite(row.cohortSize), `${label}应包含分母`);
+    assert.ok(row.cohortSize >= row.recommendedCount, `${label}分母不得小于推荐人数`);
+    assert.ok(Number.isFinite(row.recommendationRate), `${label}应包含推免率`);
+    assert.equal(
+      row.recommendationRate,
+      Number((row.recommendedCount / row.cohortSize).toFixed(6)),
+      `${label}推免率应由推荐人数除以分母得到`,
+    );
+    assert.ok(["official", "estimated"].includes(row.rateStatus), `${label}应标明率的口径`);
+    assert.ok(row.denominatorMethod, `${label}应记录分母方法`);
+    assert.ok(row.denominatorEvidence, `${label}应记录分母证据`);
     assertHasSourceUrl(row.sources, `${label}历史记录`);
   });
+});
+
+test("高基312专业分母映射与估算回退值保持稳定", () => {
+  const find = (majorName, year) =>
+    schoolData.majorRecommendationHistory.find(
+      (row) => row.scope?.majorName === majorName && row.graduationYear === year,
+    );
+
+  assert.deepEqual(
+    [find("会计学", 2024)?.cohortSize, find("会计学", 2025)?.cohortSize, find("会计学", 2026)?.cohortSize],
+    [108, 116, 116],
+  );
+  assert.equal(find("会计学", 2024)?.rateStatus, "official");
+  assert.equal(find("会计学", 2026)?.rateStatus, "estimated");
+  assert.equal(find("软件工程", 2025)?.denominatorMethod, "cross-year-official-median");
+  assert.equal(find("数据科学与大数据技术", 2026)?.denominatorMethod, "fixed-cohort-rough-estimate");
+  assert.equal(find("数据科学与大数据技术", 2026)?.cohortSize, 55);
+
+  const history = schoolData.majorRecommendationHistory;
+  assert.equal(history.length, 129);
+  assert.equal(history.filter((row) => Number.isFinite(row.recommendationRate)).length, 129);
+  assert.equal(history.filter((row) => row.isEstimated).length, 55);
 });
 
 test("9 个本科培养学院绑定后均能匹配政策、排名规则和加分规则", () => {

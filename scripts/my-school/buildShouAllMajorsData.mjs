@@ -10,6 +10,7 @@ const verifiedAt = "2026-08-07T00:00:00.000Z";
 const schoolDataPath = path.join(rootDir, "public/data/my-school", `${schoolId}.json`);
 const majorCatalogDir = path.join(rootDir, "public/data/college-majors", schoolId);
 const attachmentDir = path.join(rootDir, "scripts/cache/my-school/attachments");
+const cohortSourcePath = path.join(scriptDir, "sources/shou-undergraduate-major-cohorts.json");
 
 const sourcesByYear = {
   2024: {
@@ -164,6 +165,98 @@ function makeSummarySource(year, value, evidenceText) {
   };
 }
 
+function makeCohortSource({ source, sourceLevel, countMethod, evidenceText }) {
+  return {
+    title: source.title,
+    url: source.pdfUrl,
+    pageUrl: source.pageUrl,
+    organization: "上海海洋大学",
+    publishedAt: source.publishedAt,
+    sourceLevel,
+    sourceType: "undergraduate-major-student-count",
+    countMethod,
+    evidenceText,
+    crawledAt: verifiedAt,
+  };
+}
+
+function applyCohortDenominator(record, cohortSourceData) {
+  const majorSource = cohortSourceData.majors[record.scope.majorId];
+  invariant(majorSource, `${record.graduationYear}届${record.scope.majorName}缺少结构化分母来源。`);
+  invariant(
+    majorSource.name === record.scope.majorName,
+    `${record.graduationYear}届${record.scope.majorName}的结构化分母专业名不一致。`,
+  );
+
+  const directValue = majorSource[String(record.graduationYear)];
+  const hasDirectOfficialValue = Number.isFinite(directValue) && directValue > 0;
+  const fallback = majorSource.fallback;
+  const cohortSize = hasDirectOfficialValue ? directValue : fallback?.value;
+  invariant(
+    Number.isFinite(cohortSize) && cohortSize >= record.recommendedCount,
+    `${record.graduationYear}届${record.scope.majorName}分母必须不小于推荐人数。`,
+  );
+
+  const isExpectedGraduateEstimate = record.graduationYear === 2026 && hasDirectOfficialValue;
+  const isEstimated = isExpectedGraduateEstimate || !hasDirectOfficialValue;
+  const denominatorMethod = hasDirectOfficialValue
+    ? isExpectedGraduateEstimate
+      ? "previous-year-official-expected-graduates"
+      : "official-major-graduate-count"
+    : fallback.method;
+  const sourceYear = hasDirectOfficialValue ? record.graduationYear : fallback.sourceYear || record.graduationYear;
+  const officialSource = cohortSourceData.officialSources[String(sourceYear)];
+  invariant(officialSource, `${record.graduationYear}届${record.scope.majorName}缺少分母来源元数据。`);
+
+  const rowLabelText = majorSource.rowLabels.map((label) => `“${label}”`).join("、");
+  let denominatorEvidence;
+  if (denominatorMethod === "official-major-graduate-count") {
+    denominatorEvidence = `${record.graduationYear}年高基312表${rowLabelText}“毕业生数”合计${cohortSize}人。`;
+  } else if (denominatorMethod === "previous-year-official-expected-graduates") {
+    denominatorEvidence = `2025年高基312表${rowLabelText}“预计毕业生数”合计${cohortSize}人，用作2026届分母估算。`;
+  } else if (denominatorMethod === "cross-year-official-median") {
+    denominatorEvidence = `本届高基312同名行缺少可用毕业生数，采用该专业其他届非零官方毕业生数中位数${cohortSize}人。`;
+  } else {
+    denominatorEvidence = `本届高基312同名行缺失或为0，按公开专业规模与常见班额取整粗估为${cohortSize}人。`;
+  }
+
+  const recommendationRate = Number((record.recommendedCount / cohortSize).toFixed(6));
+  const needsReview = recommendationRate >= 0.4;
+  return {
+    ...record,
+    cohortSize,
+    recommendationRate,
+    sourceLevel: isEstimated ? "third-party-estimate" : "official",
+    sourceLabel: isEstimated ? "估算值，仅供参考" : "官方数据",
+    isEstimated,
+    estimatedFields: isEstimated ? ["cohortSize", "recommendationRate"] : [],
+    dataStatus: isEstimated ? "estimated" : "complete",
+    calculationMethod: `官方推荐人数${record.recommendedCount}人 ÷ ${isEstimated ? "估算" : "官方"}同届专业人数${cohortSize}人`,
+    numeratorSourceLevel: "official",
+    recommendedCountSourceLevel: "official",
+    denominatorSource: officialSource.pdfUrl,
+    denominatorSourceLevel: hasDirectOfficialValue ? "official" : "estimate",
+    denominatorMethod,
+    denominatorEvidence,
+    rateStatus: isEstimated ? "estimated" : "official",
+    rateUnavailableReason: null,
+    rateReviewStatus: needsReview ? "needs-review" : "normal",
+    rateReviewNote: needsReview ? "按当前公开口径计算结果偏高，请结合学院当年口径复核。" : null,
+    dataAvailabilityNote: isEstimated
+      ? `推荐人数来自学校官方推免名单；${denominatorEvidence}推免率为约值，仅供趋势参考。`
+      : `推荐人数来自学校官方推免名单；${denominatorEvidence}推免率按同届官方分母计算。`,
+    sources: [
+      ...record.sources,
+      makeCohortSource({
+        source: officialSource,
+        sourceLevel: hasDirectOfficialValue ? "official" : "third-party-estimate",
+        countMethod: denominatorMethod,
+        evidenceText: denominatorEvidence,
+      }),
+    ],
+  };
+}
+
 function buildMappedHistoryRecord({ year, rows, college, major, originalCollegeTotal }) {
   const originalCollegeNames = [...new Set(rows.map((row) => row.originalCollegeName))];
   const originalMajorNames = [...new Set(rows.map((row) => row.originalMajorName))];
@@ -289,10 +382,23 @@ function historyToSummaryMajor(record) {
     recommendedCount: record.recommendedCount,
     countMethod: record.countMethod,
     containsWaitlist: false,
-    cohortSize: null,
-    recommendationRate: null,
-    rateStatus: "unavailable",
-    rateUnavailableReason: unavailableRateReason,
+    cohortSize: record.cohortSize,
+    recommendationRate: record.recommendationRate,
+    sourceLevel: record.sourceLevel,
+    sourceLabel: record.sourceLabel,
+    isEstimated: record.isEstimated,
+    estimatedFields: record.estimatedFields,
+    calculationMethod: record.calculationMethod,
+    numeratorSourceLevel: record.numeratorSourceLevel,
+    recommendedCountSourceLevel: record.recommendedCountSourceLevel,
+    denominatorSource: record.denominatorSource,
+    denominatorSourceLevel: record.denominatorSourceLevel,
+    denominatorMethod: record.denominatorMethod,
+    denominatorEvidence: record.denominatorEvidence,
+    rateStatus: record.rateStatus,
+    rateUnavailableReason: null,
+    rateReviewStatus: record.rateReviewStatus,
+    rateReviewNote: record.rateReviewNote,
     dataStatus: record.dataStatus,
     dataAvailabilityNote: record.dataAvailabilityNote,
     originalCollegeName: record.originalCollegeName,
@@ -304,13 +410,26 @@ function historyToSummaryMajor(record) {
         record.recommendedCount,
         record.sources[0]?.evidenceText || record.dataAvailabilityNote,
       ),
+      {
+        value: record.cohortSize,
+        sourceUrl: record.denominatorSource,
+        sourceTitle: record.sources[1]?.title || "普通本科分专业学生数（高基312）",
+        publishedAt: record.sources[1]?.publishedAt || null,
+        sourceOrganization: "上海海洋大学",
+        sourceType: "undergraduate-major-student-count",
+        evidenceText: record.denominatorEvidence,
+        confidence: record.isEstimated ? 0.55 : 1,
+        verifiedAt,
+      },
     ],
   };
 }
 
 function main() {
   const catalogs = loadMajorCatalogs();
+  const cohortSourceData = readJson(cohortSourcePath);
   invariant(catalogs.length === 9, `上海海洋大学本科培养学院应为9个，当前为${catalogs.length}个。`);
+  invariant(cohortSourceData.schoolId === schoolId, "专业分母结构化来源与学校不匹配。" );
   invariant(
     currentCollegeOrder.every((collegeName) => catalogs.some((catalog) => catalog.collegeName === collegeName)),
     "学院目录与预期9个本科培养学院不一致。",
@@ -395,6 +514,10 @@ function main() {
     );
   }
 
+  for (let index = 0; index < history.length; index += 1) {
+    history[index] = applyCohortDenominator(history[index], cohortSourceData);
+  }
+
   const collegeIndex = new Map(currentCollegeOrder.map((collegeName, index) => [collegeName, index]));
   const catalogMajorIndex = new Map();
   for (const catalog of catalogs) {
@@ -438,6 +561,11 @@ function main() {
       (sum, record) => sum + (record.recommendedCount == null ? 0 : record.recommendedCount),
       0,
     );
+    const cohortSize = collegeHistory.reduce(
+      (sum, record) => sum + (record.cohortSize == null ? 0 : record.cohortSize),
+      0,
+    );
+    const recommendationRate = cohortSize > 0 ? Number((recommendedCount / cohortSize).toFixed(6)) : null;
     invariant(
       numericMajorTotal === recommendedCount,
       `${latestYear}届${college.collegeName}专业合计应为${recommendedCount}，实际${numericMajorTotal}。`,
@@ -464,10 +592,22 @@ function main() {
       recommendedCount,
       countMethod: "official-list-count",
       containsWaitlist: false,
-      cohortSize: null,
-      recommendationRate: null,
-      rateStatus: "unavailable",
-      rateUnavailableReason: unavailableRateReason,
+      cohortSize,
+      recommendationRate,
+      sourceLevel: "third-party-estimate",
+      sourceLabel: "估算值，仅供参考",
+      isEstimated: true,
+      estimatedFields: ["cohortSize", "recommendationRate"],
+      dataStatus: "estimated",
+      calculationMethod: `学院官方推荐人数${recommendedCount}人 ÷ 专业预计/估算分母合计${cohortSize}人`,
+      numeratorSourceLevel: "official",
+      recommendedCountSourceLevel: "official",
+      denominatorSource: cohortSourceData.officialSources["2026"].pdfUrl,
+      denominatorSourceLevel: "mixed-official-and-estimate",
+      denominatorMethod: "sum-major-denominators",
+      denominatorEvidence: `汇总学院内有官方推荐人数专业的2026届预计/估算分母，共${cohortSize}人。`,
+      rateStatus: "estimated",
+      rateUnavailableReason: null,
       majors: summaryMajors,
       sources: [
         makeSummarySource(
@@ -475,6 +615,17 @@ function main() {
           recommendedCount,
           `官方名单中${college.collegeName}记录计数为${recommendedCount}人。`,
         ),
+        {
+          value: cohortSize,
+          sourceUrl: cohortSourceData.officialSources["2026"].pdfUrl,
+          sourceTitle: cohortSourceData.officialSources["2026"].title,
+          publishedAt: cohortSourceData.officialSources["2026"].publishedAt,
+          sourceOrganization: "上海海洋大学",
+          sourceType: "undergraduate-major-student-count",
+          evidenceText: `学院专业分母汇总为${cohortSize}人，含缺项专业的透明估算。`,
+          confidence: 0.55,
+          verifiedAt,
+        },
       ],
     };
   });
@@ -484,6 +635,9 @@ function main() {
     colleges.reduce((sum, college) => sum + college.recommendedCount, 0) === sourcesByYear[latestYear].total,
     "2026届学院汇总人数与学校总人数不一致。",
   );
+  const schoolCohortSize = cohortSourceData.officialSources["2026"].schoolTotal;
+  invariant(schoolCohortSize === 2774, "2026届学校分母应使用高基312全校预计毕业生总数2774。" );
+  const schoolRecommendationRate = Number((sourcesByYear[latestYear].total / schoolCohortSize).toFixed(6));
 
   const schoolData = readJson(schoolDataPath);
   const preserved = {
@@ -500,16 +654,39 @@ function main() {
       recommendedCount: sourcesByYear[latestYear].total,
       countMethod: "official-list-count",
       containsWaitlist: false,
-      cohortSize: null,
-      recommendationRate: null,
-      rateStatus: "unavailable",
-      rateUnavailableReason: unavailableRateReason,
+      cohortSize: schoolCohortSize,
+      recommendationRate: schoolRecommendationRate,
+      sourceLevel: "third-party-estimate",
+      sourceLabel: "估算值，仅供参考",
+      isEstimated: true,
+      estimatedFields: ["cohortSize", "recommendationRate"],
+      dataStatus: "estimated",
+      calculationMethod: `学校官方推荐人数${sourcesByYear[latestYear].total}人 ÷ 高基312全校预计毕业生数${schoolCohortSize}人`,
+      numeratorSourceLevel: "official",
+      recommendedCountSourceLevel: "official",
+      denominatorSource: cohortSourceData.officialSources["2026"].pdfUrl,
+      denominatorSourceLevel: "official",
+      denominatorMethod: "official-school-expected-graduates",
+      denominatorEvidence: `2025年高基312表“普通本科生”预计毕业生数为${schoolCohortSize}人，用作2026届学校分母估算。`,
+      rateStatus: "estimated",
+      rateUnavailableReason: null,
       sources: [
         makeSummarySource(
           latestYear,
           sourcesByYear[latestYear].total,
           `上海海洋大学${latestYear}届官方推免名单完整序号1—${sourcesByYear[latestYear].total}，共${sourcesByYear[latestYear].total}人。`,
         ),
+        {
+          value: schoolCohortSize,
+          sourceUrl: cohortSourceData.officialSources["2026"].pdfUrl,
+          sourceTitle: cohortSourceData.officialSources["2026"].title,
+          publishedAt: cohortSourceData.officialSources["2026"].publishedAt,
+          sourceOrganization: "上海海洋大学",
+          sourceType: "undergraduate-major-student-count",
+          evidenceText: `2025年高基312表“普通本科生”预计毕业生数为${schoolCohortSize}人。`,
+          confidence: 1,
+          verifiedAt,
+        },
       ],
     },
     colleges,
@@ -523,15 +700,22 @@ function main() {
   invariant(JSON.stringify(schoolData.rankingRules) === preserved.rankingRules, "脚本不得修改 rankingRules。" );
   invariant(JSON.stringify(schoolData.bonusRules) === preserved.bonusRules, "脚本不得修改 bonusRules。" );
   invariant(
-    history.every((record) => record.cohortSize === null && record.recommendationRate === null),
-    "全校专业历史数据不得写入估算毕业生人数或推免率。",
+    history.every(
+      (record) =>
+        Number.isFinite(record.cohortSize) &&
+        record.cohortSize >= record.recommendedCount &&
+        Number.isFinite(record.recommendationRate) &&
+        record.recommendationRate > 0 &&
+        record.recommendedCountSourceLevel === "official",
+    ),
+    "所有含官方推荐人数的专业历史都必须有可审计分母与推免率，且推荐人数来源保持官方。",
   );
   invariant(
     schoolData.accountingRecommendationHistory.length === 3 &&
-      schoolData.accountingRecommendationHistory.every(
-        (record) => record.sourceLevel === "official" && record.cohortSize === null && record.recommendationRate === null,
-      ),
-    "accountingRecommendationHistory 必须兼容保留3届会计学官方人数，且不得保留估算率。",
+      schoolData.accountingRecommendationHistory.find((record) => record.graduationYear === 2024)?.cohortSize === 108 &&
+      schoolData.accountingRecommendationHistory.find((record) => record.graduationYear === 2025)?.cohortSize === 116 &&
+      schoolData.accountingRecommendationHistory.find((record) => record.graduationYear === 2026)?.cohortSize === 116,
+    "accountingRecommendationHistory 必须保留3届会计学官方推荐人数及可审计分母。",
   );
   invariant(
     colleges.some((college) =>

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "schoolId": "school-f17pfd",
+  "schoolName": "上海海洋大学",
+  "description": "上海海洋大学专业推免率分母。2024、2025 使用高基312表中的毕业生数；2026 使用2025表中的预计毕业生数。表中缺项或0且官方推免名单存在推荐人数时，使用跨年官方中位数或固定班额粗估，并单独标记为估算。",
+  "officialSources": {
+    "2024": {
+      "pageUrl": "https://xxgk.shou.edu.cn/2025/0421/c18506a340156/page.htm",
+      "pdfUrl": "https://xxgk.shou.edu.cn/_upload/article/files/d2/4a/f1ecfaa344858c49b8d8aae04335/b55cfeb8-ac9a-4307-8e9c-09a386a44560.pdf",
+      "title": "普通本科分专业学生数（高基312）",
+      "publishedAt": "2024-12-11",
+      "field": "毕业生数",
+      "schoolTotal": 2918
+    },
+    "2025": {
+      "pageUrl": "https://xxgk.shou.edu.cn/2025/1029/c18711a347633/page.htm",
+      "pdfUrl": "https://xxgk.shou.edu.cn/_upload/article/files/0e/e3/5820eae64f86acec891d291a926d/a02b907f-592b-4467-bb9e-665c31f75f4e.pdf",
+      "title": "普通本科分专业学生数（高基312）",
+      "publishedAt": "2025-10-29",
+      "field": "毕业生数",
+      "schoolTotal": 2818
+    },
+    "2026": {
+      "pageUrl": "https://xxgk.shou.edu.cn/2025/1029/c18711a347633/page.htm",
+      "pdfUrl": "https://xxgk.shou.edu.cn/_upload/article/files/0e/e3/5820eae64f86acec891d291a926d/a02b907f-592b-4467-bb9e-665c31f75f4e.pdf",
+      "title": "普通本科分专业学生数（高基312）",
+      "publishedAt": "2025-10-29",
+      "field": "预计毕业生数",
+      "schoolTotal": 2774
+    }
+  },
+  "fallbackPolicy": {
+    "cross-year-official-median": "同一专业某届缺值时，取其他届高基312非零官方毕业生数的中位数。",
+    "fixed-cohort-rough-estimate": "专业在高基312中长期缺项或为0时，按公开专业规模和常见班额取整给出粗略分母；仅供趋势参考。"
+  },
+  "majors": {
+    "major-a7fac896b5": { "name": "水产养殖学", "rowLabels": ["水产养殖学"], "2024": 126, "2025": 70, "2026": 110 },
+    "major-eceb2e1042": { "name": "水族科学与技术", "rowLabels": ["水族科学与技术"], "2024": 29, "2025": 25, "2026": 21 },
+    "major-9f97173b74": { "name": "水生动物医学", "rowLabels": ["水生动物医学"], "2024": 25, "2025": 32, "2026": 23 },
+    "major-ba69f55f86": { "name": "生物科学", "rowLabels": ["生物科学", "生物科学（海洋生物）"], "2024": 69, "2025": 57, "2026": 54 },
+    "major-aba9d1507c": { "name": "生物技术", "rowLabels": ["生物技术", "生物技术（海洋生物制药）"], "2024": 33, "2025": 97, "2026": 95 },
+    "major-1607a6a30e": { "name": "海洋渔业科学与技术", "rowLabels": ["海洋渔业科学与技术"], "2024": 56, "2025": 37, "2026": 45 },
+    "major-30925e85b9": { "name": "海洋资源与环境", "rowLabels": ["海洋资源与环境"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 55, "method": "fixed-cohort-rough-estimate" } },
+    "major-32b0283bc1": { "name": "社会工作", "rowLabels": ["社会工作"], "2024": 75, "2025": 33, "2026": 58 },
+    "major-4b2058688c": { "name": "海洋科学", "rowLabels": ["海洋科学"], "2024": 69, "2025": 74, "2026": 23 },
+    "major-5251a9d44c": { "name": "海洋技术", "rowLabels": ["海洋技术"], "2024": 62, "2025": 69, "2026": 50 },
+    "major-d4e6bdb8bc": { "name": "生态学", "rowLabels": ["生态学"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 35, "method": "fixed-cohort-rough-estimate" } },
+    "historical-major-environmental-engineering": { "name": "环境工程", "rowLabels": ["环境工程"], "2024": 59, "2025": 41, "2026": 35 },
+    "historical-major-environmental-science": { "name": "环境科学", "rowLabels": ["环境科学"], "2024": 32, "2025": 38, "2026": 30 },
+    "major-99fb559eba": { "name": "食品科学与工程", "rowLabels": ["食品科学与工程"], "2024": 100, "2025": 82, "2026": 95 },
+    "major-1451652f65": { "name": "食品质量与安全", "rowLabels": ["食品质量与安全"], "2024": 68, "2025": 57, "2026": 66 },
+    "major-3af27f8104": { "name": "能源与动力工程", "rowLabels": ["能源与动力工程"], "2024": 53, "2025": 60, "2026": 57 },
+    "major-001b2dee91": { "name": "建筑环境与能源应用工程", "rowLabels": ["建筑环境与能源应用工程"], "2024": 58, "2025": 87, "2026": 64 },
+    "major-6867140965": { "name": "包装工程", "rowLabels": ["包装工程"], "2024": 47, "2025": 45, "2026": 45 },
+    "major-a811f89958": { "name": "生物制药", "rowLabels": ["生物制药"], "2024": 73, "2025": null, "2026": null, "fallback": { "value": 73, "method": "cross-year-official-median", "sourceYear": 2024 } },
+    "major-e258c46909": { "name": "农林经济管理", "rowLabels": ["农林经济管理"], "2024": 42, "2025": 42, "2026": 39 },
+    "major-f447fffcf5": { "name": "会计学", "rowLabels": ["会计学"], "2024": 108, "2025": 116, "2026": 116 },
+    "major-e85087bc83": { "name": "金融学", "rowLabels": ["金融学"], "2024": 109, "2025": 97, "2026": 108 },
+    "major-9e4817b374": { "name": "国际经济与贸易", "rowLabels": ["国际经济与贸易"], "2024": 101, "2025": 95, "2026": 99 },
+    "major-8838f28336": { "name": "市场营销", "rowLabels": ["市场营销"], "2024": 56, "2025": 64, "2026": 60 },
+    "major-9a2635da63": { "name": "物流管理", "rowLabels": ["物流管理"], "2024": 106, "2025": 105, "2026": 87 },
+    "major-27c4944032": { "name": "工商管理", "rowLabels": ["工商管理（食品经济管理）"], "2024": 96, "2025": 97, "2026": 95 },
+    "major-4b2243b121": { "name": "行政管理", "rowLabels": ["行政管理"], "2024": 95, "2025": 139, "2026": 125 },
+    "major-f506f65c16": { "name": "文化产业管理", "rowLabels": ["文化产业管理"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 25, "method": "fixed-cohort-rough-estimate" } },
+    "major-d1cee66181": { "name": "机械设计制造及其自动化", "rowLabels": ["机械设计制造及其自动化"], "2024": 101, "2025": 114, "2026": 120 },
+    "major-f676621ba1": { "name": "工业工程", "rowLabels": ["工业工程"], "2024": 51, "2025": 58, "2026": 52 },
+    "major-5885aa9ed5": { "name": "电气工程及其自动化", "rowLabels": ["电气工程及其自动化"], "2024": 58, "2025": 64, "2026": 49 },
+    "major-a64ded447b": { "name": "物流工程", "rowLabels": ["物流工程"], "2024": 63, "2025": 51, "2026": 59 },
+    "major-b3f57ddf7e": { "name": "测控技术与仪器", "rowLabels": ["测控技术与仪器"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 35, "method": "fixed-cohort-rough-estimate" } },
+    "major-07b58820ab": { "name": "机器人工程", "rowLabels": ["机器人工程"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 35, "method": "fixed-cohort-rough-estimate" } },
+    "major-98ee7d59f2": { "name": "计算机科学与技术", "rowLabels": ["计算机科学与技术"], "2024": 113, "2025": 172, "2026": 182 },
+    "major-9909dbdfa6": { "name": "空间信息与数字技术", "rowLabels": ["空间信息与数字技术"], "2024": 66, "2025": 73, "2026": 75 },
+    "major-a40c2298e9": { "name": "软件工程", "rowLabels": ["软件工程"], "2024": 53, "2025": null, "2026": null, "fallback": { "value": 53, "method": "cross-year-official-median", "sourceYear": 2024 } },
+    "major-6e1352dc98": { "name": "数据科学与大数据技术", "rowLabels": ["数据科学与大数据技术"], "2024": null, "2025": null, "2026": null, "fallback": { "value": 55, "method": "fixed-cohort-rough-estimate" } },
+    "major-91f8c4d166": { "name": "信息与计算科学", "rowLabels": ["信息与计算科学"], "2024": 67, "2025": 55, "2026": 55 },
+    "major-15fa825d99": { "name": "英语", "rowLabels": ["英语"], "2024": 104, "2025": 64, "2026": 59 },
+    "major-2b132768af": { "name": "日语", "rowLabels": ["日语"], "2024": 90, "2025": 103, "2026": 77 },
+    "major-ef06fae87c": { "name": "朝鲜语", "rowLabels": ["朝鲜语"], "2024": 60, "2025": 34, "2026": 7 },
+    "major-409bd77377": { "name": "信息管理与信息系统", "rowLabels": ["信息管理与信息系统（环境信息系统）"], "2024": 164, "2025": 174, "2026": 169 },
+    "major-1cc30e77d1": { "name": "市场营销", "rowLabels": ["市场营销（国际商务）"], "2024": 165, "2025": 183, "2026": 188 }
+  }
+}

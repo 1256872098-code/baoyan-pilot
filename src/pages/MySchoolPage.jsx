@@ -177,13 +177,17 @@ function SourceButton({ source }) {
 
 function MajorRecommendationYearCard({ item, majorName }) {
   const missing = item.dataStatus === "missing" || item.recommendedCount == null;
-  const sourceLabel = getSourceLevelLabel(item.sourceLevel, item.dataStatus);
+  const hasRate = item.recommendationRate != null;
+  const estimatedRate = hasRate && (item.isEstimated || item.rateStatus === "estimated");
+  const sourceLabel = estimatedRate ? "官方人数 · 估算率" : getSourceLevelLabel(item.sourceLevel, item.dataStatus);
   const sourceTone =
-    item.sourceLevel === "official"
-      ? "border-blue-100 bg-blue-50 text-brand-700"
-      : item.sourceLevel === "third-party-estimate"
-        ? "border-amber-100 bg-amber-50 text-amber-700"
-        : "border-slate-200 bg-slate-50 text-slate-600";
+    estimatedRate
+      ? "border-amber-100 bg-amber-50 text-amber-700"
+      : item.sourceLevel === "official"
+        ? "border-blue-100 bg-blue-50 text-brand-700"
+        : item.sourceLevel === "third-party-estimate"
+          ? "border-amber-100 bg-amber-50 text-amber-700"
+          : "border-slate-200 bg-slate-50 text-slate-600";
 
   return (
     <div className="rounded-xl border border-slate-200 bg-white p-4">
@@ -200,15 +204,20 @@ function MajorRecommendationYearCard({ item, majorName }) {
         </div>
         <div>
           <p className="text-sm font-semibold text-slate-500">{majorName}保研率</p>
-          <p className="mt-1 text-xl font-bold text-slate-400">
-            {formatPercent(item.recommendationRate) || "暂无法计算"}
+          <p className={`mt-1 text-xl font-bold ${hasRate ? (estimatedRate ? "text-amber-700" : "text-emerald-700") : "text-slate-400"}`}>
+            {hasRate ? `${estimatedRate ? "约 " : ""}${formatPercent(item.recommendationRate)}` : "暂无法计算"}
           </p>
-          {!item.recommendationRate && !missing && (
-            <p className="mt-1 text-xs leading-5 text-slate-500">未找到同届{majorName}本科毕业生人数，不使用其他口径估算。</p>
+          {!hasRate && !missing && (
+            <p className="mt-1 text-xs leading-5 text-slate-500">暂无可用于估算同届{majorName}本科毕业生人数的公开数据。</p>
           )}
         </div>
       </div>
-      {item.isEstimated && <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-700">根据公开资料估算，仅供参考。</p>}
+      {estimatedRate && (
+        <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-700">
+          {item.dataAvailabilityNote || "推免人数来自学校官方名单；毕业生人数根据学校公开的分专业学生数据估算，结果仅供参考。"}
+        </p>
+      )}
+      {item.rateReviewNote && <p className="mt-2 text-xs leading-5 text-rose-600">{item.rateReviewNote}</p>}
       {(item.sources || []).length > 0 && (
         <details className="mt-4 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm">
           <summary className="cursor-pointer font-semibold text-brand-700">查看来源</summary>
@@ -216,6 +225,12 @@ function MajorRecommendationYearCard({ item, majorName }) {
             {item.sources.map((source, index) => {
               const url = source.url || source.sourceUrl;
               if (!url) return null;
+              const linkLabel =
+                source.sourceLevel === "third-party-estimate"
+                  ? "估算依据"
+                  : source.sourceType === "undergraduate-major-student-count"
+                    ? "毕业生人数来源"
+                    : "推免名单来源";
               return (
                 <a
                   key={`${url}-${index}`}
@@ -224,7 +239,7 @@ function MajorRecommendationYearCard({ item, majorName }) {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 rounded-md bg-white px-3 py-2 text-xs font-semibold text-brand-700 transition hover:bg-blue-50 hover:text-brand-800"
                 >
-                  官方原文链接
+                  {linkLabel}
                   <ExternalLink size={13} aria-hidden="true" />
                 </a>
               );
@@ -791,7 +806,7 @@ export default function MySchoolPage() {
                     ) : recommendationData && hasMatchedMajorRecommendationData ? (
                       <div className="my-school-recommendation-scroll mt-4 space-y-4">
                         <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方推荐名单中的学院、专业记录计数；未获得同届、同专业本科毕业生人数时，不计算推免率，也不使用其他口径估算。请以学校及学院当年正式通知为准。
+                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方推荐名单计数；保研率优先使用学校公开的同届、同专业毕业生人数，未直接公开时根据学校分专业学生数据估算，并明确标注“估算”。请以学校及学院当年正式通知为准。
                         </div>
                         {hasRecommendationHistory ? (
                           <div className="grid gap-4 xl:grid-cols-3">
@@ -935,14 +950,38 @@ export default function MySchoolPage() {
                                 <tr key={row.graduationYear}>
                                   <td className="px-3 py-2">{row.graduationYear}届</td>
                                   <td className="px-3 py-2">{row.recommendedCount ?? "未识别"}</td>
-                                  <td className="px-3 py-2">{row.cohortSize ?? "未找到"}</td>
-                                  <td className="px-3 py-2">{formatPercent(row.recommendationRate) || "暂无法计算"}</td>
-                                  <td className="px-3 py-2">{getSourceLevelLabel(row.sourceLevel, row.dataStatus)}</td>
                                   <td className="px-3 py-2">
-                                    {row.sources?.[0]?.url || row.sources?.[0]?.sourceUrl ? (
-                                      <a className="font-semibold text-brand-700 hover:underline" href={row.sources[0].url || row.sources[0].sourceUrl} target="_blank" rel="noopener noreferrer">
-                                        官方原文
-                                      </a>
+                                    {row.cohortSize == null ? "未找到" : `${row.isEstimated || row.rateStatus === "estimated" ? "约 " : ""}${row.cohortSize}`}
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    {row.recommendationRate == null
+                                      ? "暂无法计算"
+                                      : `${row.isEstimated || row.rateStatus === "estimated" ? "约 " : ""}${formatPercent(row.recommendationRate)}`}
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    {row.isEstimated || row.rateStatus === "estimated"
+                                      ? "官方人数 / 估算率"
+                                      : getSourceLevelLabel(row.sourceLevel, row.dataStatus)}
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    {row.sources?.some((source) => source.url || source.sourceUrl) ? (
+                                      <div className="flex flex-wrap gap-x-3 gap-y-1">
+                                        {row.sources.map((source, index) => {
+                                          const url = source.url || source.sourceUrl;
+                                          if (!url) return null;
+                                          const label =
+                                            source.sourceLevel === "third-party-estimate"
+                                              ? "估算依据"
+                                              : source.sourceType === "undergraduate-major-student-count"
+                                                ? "分母来源"
+                                                : "推免名单";
+                                          return (
+                                            <a key={`${url}-${index}`} className="font-semibold text-brand-700 hover:underline" href={url} target="_blank" rel="noopener noreferrer">
+                                              {label}
+                                            </a>
+                                          );
+                                        })}
+                                      </div>
                                     ) : (
                                       "无"
                                     )}
