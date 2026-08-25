@@ -127,6 +127,7 @@ export function getMatchedRecommendationData(data, binding = {}) {
 }
 
 export function getLatestThreeRecommendationYears(history = []) {
+  if (!Array.isArray(history) || history.length === 0) return [];
   const years = [...new Set(history.map((item) => item.graduationYear).filter(Boolean))].sort((a, b) => b - a);
   const latestYears = years.slice(0, 3);
   if (latestYears.length >= 3) return latestYears.map((year) => history.find((item) => item.graduationYear === year) || { graduationYear: year });

@@ -3,7 +3,7 @@
   "schoolName": "上海海洋大学",
   "collegeId": "unit-3662d2b62d",
   "collegeName": "信息学院",
-  "lastUpdatedAt": "2026-07-14T07:59:13.455Z",
+  "lastUpdatedAt": "2026-08-07T00:00:00.000Z",
   "dataStatus": "verified",
   "majors": [
     {
@@ -80,6 +80,25 @@
         "discipline": "工学",
         "startYear": "2020",
         "honors": ""
+      }
+    },
+    {
+      "id": "major-b1b51770b2",
+      "name": "人工智能",
+      "code": "080717T",
+      "degreeType": "工学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://xxgk.shou.edu.cn/_upload/article/files/89/6f/15e9f12447da8b51b549ded10352/9a98b73d-b527-4440-bed6-436a2123ae03.pdf",
+      "sourceTitle": "上海海洋大学2025版本科人才培养方案",
+      "sourceOrganization": "上海海洋大学",
+      "confidence": 1,
+      "lastCheckedAt": "2026-08-07T00:00:00.000Z",
+      "meta": {
+        "discipline": "工学",
+        "startYear": "2024",
+        "honors": "2024年新增专业"
       }
     },
     {

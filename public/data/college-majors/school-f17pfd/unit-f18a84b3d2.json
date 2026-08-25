@@ -3,7 +3,7 @@
   "schoolName": "上海海洋大学",
   "collegeId": "unit-f18a84b3d2",
   "collegeName": "海洋生物资源与管理学院",
-  "lastUpdatedAt": "2026-07-14T07:59:14.014Z",
+  "lastUpdatedAt": "2026-08-07T00:00:00.000Z",
   "dataStatus": "verified",
   "majors": [
     {
@@ -19,6 +19,25 @@
       "sourceOrganization": "上海海洋大学海洋生物资源与管理学院",
       "confidence": 1,
       "lastCheckedAt": "2026-07-14T07:59:14.014Z"
+    },
+    {
+      "id": "major-30925e85b9",
+      "name": "海洋资源与环境",
+      "code": "070703T",
+      "degreeType": "理学",
+      "educationLevel": "本科",
+      "aliases": [],
+      "status": "active",
+      "sourceUrl": "https://xxgk.shou.edu.cn/_upload/article/files/89/6f/15e9f12447da8b51b549ded10352/9a98b73d-b527-4440-bed6-436a2123ae03.pdf",
+      "sourceTitle": "上海海洋大学2025版本科人才培养方案",
+      "sourceOrganization": "上海海洋大学",
+      "confidence": 1,
+      "lastCheckedAt": "2026-08-07T00:00:00.000Z",
+      "meta": {
+        "discipline": "理学",
+        "startYear": null,
+        "honors": ""
+      }
     },
     {
       "id": "major-32b0283bc1",

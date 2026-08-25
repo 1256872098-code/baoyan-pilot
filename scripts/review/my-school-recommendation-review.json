@@ -6,38 +6,650 @@
       "code": "rate-unavailable",
       "message": "学校层面缺少同口径本科毕业生人数，未计算推免率。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.762Z"
     },
     {
       "code": "quota-unavailable",
       "message": "学校层面未识别到官方推荐名额字段。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "水产与生命学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "水产与生命学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "水产养殖学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "水产养殖学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "水族科学与技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "水族科学与技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "水生动物医学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "水生动物医学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "生物科学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "生物科学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "生物技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "生物技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋生物资源与管理学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋生物资源与管理学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋渔业科学与技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋渔业科学与技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋资源与环境缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋资源与环境未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "社会工作缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "社会工作未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋科学与生态环境学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋科学与生态环境学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋科学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋科学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "海洋技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "海洋技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "环境科学与工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "生态学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "生态学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "环境工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "环境工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "环境科学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "环境科学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "食品学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "食品学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "食品科学与工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "食品科学与工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "食品质量与安全缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "食品质量与安全未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "能源与动力工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "能源与动力工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "建筑环境与能源应用工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "建筑环境与能源应用工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "包装工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "包装工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "生物制药缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "生物制药未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
     },
     {
       "code": "rate-unavailable",
       "message": "经济管理学院缺少同口径本科毕业生人数，未计算推免率。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.764Z"
     },
     {
       "code": "quota-unavailable",
       "message": "经济管理学院未识别到官方推荐名额字段。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "农林经济管理缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "农林经济管理未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
     },
     {
       "code": "rate-unavailable",
       "message": "会计学缺少同口径本科毕业生人数，未计算推免率。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.764Z"
     },
     {
       "code": "quota-unavailable",
       "message": "会计学未识别到官方推荐名额字段。",
       "context": {},
-      "createdAt": "2026-07-14T08:06:59.745Z"
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "金融学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "金融学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "国际经济与贸易缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "国际经济与贸易未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "物流管理缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "物流管理未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "工商管理缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "工商管理未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "行政管理缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "行政管理未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "文化产业管理缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "文化产业管理未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "工程学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "工程学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "机械设计制造及其自动化缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "机械设计制造及其自动化未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "工业工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "工业工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "电气工程及其自动化缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "电气工程及其自动化未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "物流工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "物流工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "测控技术与仪器缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "测控技术与仪器未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "机器人工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "机器人工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "信息学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "信息学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "计算机科学与技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "计算机科学与技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "空间信息与数字技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "空间信息与数字技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "软件工程缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "软件工程未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "数据科学与大数据技术缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "数据科学与大数据技术未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "人工智能未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "信息与计算科学缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "信息与计算科学未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "外国语学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "外国语学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "英语缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "英语未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "日语缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "日语未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "朝鲜语缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "朝鲜语未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "爱恩学院缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "爱恩学院未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "信息管理与信息系统缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "信息管理与信息系统未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "rate-unavailable",
+      "message": "市场营销缺少同口径本科毕业生人数，未计算推免率。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
+    },
+    {
+      "code": "quota-unavailable",
+      "message": "市场营销未识别到官方推荐名额字段。",
+      "context": {},
+      "createdAt": "2026-08-07T14:05:02.764Z"
     }
   ],
-  "generatedAt": "2026-07-14T08:06:59.745Z"
+  "generatedAt": "2026-08-07T14:05:02.765Z"
 }

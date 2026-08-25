@@ -385,7 +385,13 @@ export default function MySchoolPage() {
   const bonusRules = matchedRecommendation.bonusRules;
   const boundMajorName = binding?.majorName || binding?.major || "当前专业";
   const recommendationHistory = matchedRecommendation.recommendationHistory || [];
-  const recommendationYearCards = getLatestThreeRecommendationYears(recommendationHistory);
+  const hasRecommendationHistory = recommendationHistory.length > 0;
+  const recommendationYearCards = hasRecommendationHistory
+    ? getLatestThreeRecommendationYears(recommendationHistory)
+    : [];
+  const majorDataAvailabilityNote =
+    matchedRecommendation.major?.dataAvailabilityNote ||
+    `尚未获得${boundMajorName}专业可按届别核验的官方推免名单记录。`;
   const hasMatchedMajorRecommendationData = Boolean(matchedRecommendation.major || recommendationHistory.length);
   const bindingComplete = Boolean(form.schoolId && form.collegeId && form.majorId && form.grade);
   const saveDisabled = !bindingComplete || majorsLoading || Boolean(majorsError) || !majorOptions.length;
@@ -785,13 +791,17 @@ export default function MySchoolPage() {
                     ) : recommendationData && hasMatchedMajorRecommendationData ? (
                       <div className="my-school-recommendation-scroll mt-4 space-y-4">
                         <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方名单计数；保研率所需毕业生人数如无官方同口径数据，将根据学院公开名额估算并明确标注，仅供参考。请以学校及学院当年正式通知为准。
+                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方推荐名单中的学院、专业记录计数；未获得同届、同专业本科毕业生人数时，不计算推免率，也不使用其他口径估算。请以学校及学院当年正式通知为准。
                         </div>
-                        <div className="grid gap-4 xl:grid-cols-3">
-                          {recommendationYearCards.map((item) => (
-                            <MajorRecommendationYearCard key={item.graduationYear} item={item} majorName={boundMajorName} />
-                          ))}
-                        </div>
+                        {hasRecommendationHistory ? (
+                          <div className="grid gap-4 xl:grid-cols-3">
+                            {recommendationYearCards.map((item) => (
+                              <MajorRecommendationYearCard key={item.graduationYear} item={item} majorName={boundMajorName} />
+                            ))}
+                          </div>
+                        ) : (
+                          <EmptyInfo title="暂无可核验历史推免数据" description={majorDataAvailabilityNote} />
+                        )}
                       </div>
                     ) : (
                       <EmptyInfo
@@ -944,7 +954,10 @@ export default function MySchoolPage() {
                         </div>
                       </div>
                     ) : (
-                      <EmptyInfo title="暂无可视化数据" description="没有官方数据时不渲染虚假图表；后续将展示年份、推免人数、学生人数和推免率。" />
+                      <EmptyInfo
+                        title="暂无可核验历史推免数据"
+                        description={matchedRecommendation.major ? majorDataAvailabilityNote : "没有官方数据时不渲染图表。"}
+                      />
                     )}
                   </Card>
                 </div>
