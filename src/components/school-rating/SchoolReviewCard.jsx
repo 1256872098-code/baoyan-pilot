@@ -13,13 +13,14 @@ export default function SchoolReviewCard({
   onDeleteMine,
   onRequireLogin,
   highlighted = false,
-  interactionDisabled = false,
+  likeDisabled = false,
+  dislikeDisabled = false,
 }) {
   const isMine = currentUserId && currentUserId === review.user_id;
   const userName = review.user_name || "保研用户";
   const likeKey = `school-review-like:${review.id}`;
   const dislikeKey = `school-review-dislike:${review.id}`;
-  const voteDisabled = interactionDisabled || isMine || busyKeys?.has(likeKey) || busyKeys?.has(dislikeKey);
+  const voteBusyOrMine = isMine || busyKeys?.has(likeKey) || busyKeys?.has(dislikeKey);
 
   const handleLike = () => {
     if (!currentUserId) {
@@ -81,7 +82,7 @@ export default function SchoolReviewCard({
               label="点赞"
               count={getSafeCount(review.likeCount)}
               active={review.likedByCurrentUser}
-              disabled={voteDisabled}
+              disabled={likeDisabled || voteBusyOrMine}
               onClick={handleLike}
             />
             <InteractionButton
@@ -90,7 +91,7 @@ export default function SchoolReviewCard({
               count={getSafeCount(review.dislikeCount)}
               active={review.dislikedByCurrentUser}
               activeTone="warning"
-              disabled={voteDisabled}
+              disabled={dislikeDisabled || voteBusyOrMine}
               onClick={handleDislike}
             />
           </>

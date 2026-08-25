@@ -19,7 +19,8 @@ export default function SchoolReviewList({
   onToggleLike,
   onToggleDislike,
   onRequireLogin,
-  interactionDisabled = false,
+  likeDisabled = false,
+  dislikeDisabled = false,
 }) {
   return (
     <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
@@ -53,7 +54,8 @@ export default function SchoolReviewList({
               onToggleLike={onToggleLike}
               onToggleDislike={onToggleDislike}
               onRequireLogin={onRequireLogin}
-              interactionDisabled={interactionDisabled}
+              likeDisabled={likeDisabled}
+              dislikeDisabled={dislikeDisabled}
             />
           ))}
         </div>

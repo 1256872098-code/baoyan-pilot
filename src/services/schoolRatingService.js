@@ -9,7 +9,8 @@ import {
 } from "./schoolRatingLocalStore.js";
 import {
   activateLocalSchoolRatingFallback,
-  isSchoolRatingFallbackError,
+  markSchoolRatingRequestFailed,
+  markSchoolRatingRequestOk,
   shouldUseLocalSchoolRating,
 } from "./schoolRatingRuntime.js";
 
@@ -60,17 +61,13 @@ function getServiceError(error, fallback) {
   return serviceError;
 }
 
-function fallbackRead(error, loadLocal, fallback) {
+function fallbackRead(error, loadLocal) {
   if (error?.isSchoolRatingServiceError) throw error;
-  if (isSchoolRatingFallbackError(error)) {
-    switchReviewsToLocal(error);
-    return loadLocal();
-  }
-  throw getServiceError(error, fallback);
-}
-
-function isReviewRpcMissing(error) {
-  return ["42883", "PGRST202"].includes(String(error?.code || "")) || /get_school_reviews/i.test(error?.message || "");
+  markSchoolRatingRequestFailed("reviews", error);
+  // This helper is called only after a direct school_reviews query fails.
+  // Optional RPC/like/dislike failures never reach it.
+  switchReviewsToLocal(error);
+  return loadLocal();
 }
 
 export async function fetchSchoolRatingSummaries(schoolIds = []) {
@@ -82,9 +79,10 @@ export async function fetchSchoolRatingSummaries(schoolIds = []) {
     const { data, error } = await supabase.from("school_reviews").select("school_id,rating").in("school_id", ids);
 
     if (error) {
-      return fallbackRead(error, () => buildLocalSummaries(ids), "学校评分加载失败，请稍后重试。");
+      return fallbackRead(error, () => buildLocalSummaries(ids));
     }
     if (shouldUseLocalSchoolRating("reviews")) return buildLocalSummaries(ids);
+    markSchoolRatingRequestOk("reviews");
 
     const grouped = new Map();
     ids.forEach((id) => grouped.set(id, []));
@@ -94,7 +92,7 @@ export async function fetchSchoolRatingSummaries(schoolIds = []) {
 
     return Object.fromEntries(ids.map((id) => [id, buildSummary(grouped.get(id) || [])]));
   } catch (error) {
-    return fallbackRead(error, () => buildLocalSummaries(ids), "学校评分加载失败，请稍后重试。");
+    return fallbackRead(error, () => buildLocalSummaries(ids));
   }
 }
 
@@ -116,27 +114,40 @@ export async function fetchSchoolReviews({ schoolId, sort = "newest", limit = 20
       .eq("school_id", schoolId);
     query = query.order("created_at", { ascending: sort === "oldest" });
     const { data, error } = await query.range(safeOffset, safeOffset + safeLimit - 1);
-    if (error) return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
-    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    if (error) throw error;
+    markSchoolRatingRequestOk("reviews");
     return data || [];
   };
 
+  let rpcData = null;
+  let rpcError = null;
   try {
-    const { data, error } = await supabase.rpc("get_school_reviews", {
+    const result = await supabase.rpc("get_school_reviews", {
       p_school_id: schoolId,
       p_sort: sort || "newest",
       p_limit: safeLimit,
       p_offset: safeOffset,
     });
-
-    if (error) {
-      if (isReviewRpcMissing(error)) return loadDirectly();
-      return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
-    }
-    if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
-    return data || [];
+    rpcData = result?.data || [];
+    rpcError = result?.error || null;
   } catch (error) {
-    return fallbackRead(error, loadLocal, "评价列表加载失败，请稍后重试。");
+    rpcError = error;
+  }
+
+  if (!rpcError) {
+    markSchoolRatingRequestOk("rpc");
+    markSchoolRatingRequestOk("reviews");
+    return rpcData;
+  }
+
+  // The RPC depends on optional interaction tables. Any RPC failure must only
+  // disable the optimized path; the canonical school_reviews table remains the
+  // source of truth and is queried directly before local fallback is considered.
+  markSchoolRatingRequestFailed("rpc", rpcError);
+  try {
+    return await loadDirectly();
+  } catch (directError) {
+    return fallbackRead(directError, loadLocal);
   }
 }
 
@@ -154,12 +165,13 @@ export async function fetchSchoolReviewById({ schoolId, reviewId }) {
       .maybeSingle();
 
     if (error) {
-      return fallbackRead(error, loadLocal, "评价详情加载失败，请稍后重试。");
+      return fallbackRead(error, loadLocal);
     }
     if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    markSchoolRatingRequestOk("reviews");
     return data || null;
   } catch (error) {
-    return fallbackRead(error, loadLocal, "评价详情加载失败，请稍后重试。");
+    return fallbackRead(error, loadLocal);
   }
 }
 
@@ -177,12 +189,13 @@ export async function fetchCurrentUserSchoolReview({ schoolId, userId }) {
       .maybeSingle();
 
     if (error) {
-      return fallbackRead(error, loadLocal, "你的评价加载失败，请稍后重试。");
+      return fallbackRead(error, loadLocal);
     }
     if (shouldUseLocalSchoolRating("reviews")) return loadLocal();
+    markSchoolRatingRequestOk("reviews");
     return data || null;
   } catch (error) {
-    return fallbackRead(error, loadLocal, "你的评价加载失败，请稍后重试。");
+    return fallbackRead(error, loadLocal);
   }
 }
 

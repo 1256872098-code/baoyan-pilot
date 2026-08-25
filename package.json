@@ -35,6 +35,7 @@
     "validate:shou-data": "node scripts/my-school/validateRecommendationData.mjs --school-name 上海海洋大学",
     "debug:my-school:shou": "node scripts/my-school/debugRecommendationData.mjs --school-name 上海海洋大学",
     "debug:shou-data": "node scripts/my-school/debugRecommendationData.mjs --school-name 上海海洋大学",
+    "diagnose:school-ratings": "node scripts/diagnostics/checkSchoolRatings.mjs",
     "report:my-school:shou": "node scripts/my-school/generateRecommendationReport.mjs --school-name 上海海洋大学",
     "build:my-school:shou": "node scripts/my-school/buildShouAllMajorsData.mjs && node scripts/my-school/enrichShouPolicies.mjs",
     "crawl:shou:accounting": "node scripts/my-school/shou-accounting/crawlSources.mjs",

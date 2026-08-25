@@ -57,3 +57,10 @@ on public.school_reviews
 for delete
 to anon, authenticated
 using (true);
+
+-- RLS policies do not grant table privileges by themselves. Keep these grants
+-- explicit so a project with hardened default privileges can still use the
+-- prototype anon/authenticated client described above.
+grant select, insert, update, delete
+on table public.school_reviews
+to anon, authenticated;

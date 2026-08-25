@@ -82,7 +82,21 @@ for delete
 to anon, authenticated
 using (true);
 
-create or replace function public.get_school_reviews(
+-- RLS policies and table privileges are separate. The RPC is security invoker,
+-- so callers must be able to read every table referenced by the function.
+grant select, insert, delete
+on table public.school_review_likes, public.school_review_dislikes
+to anon, authenticated;
+
+grant select
+on table public.school_reviews
+to anon, authenticated;
+
+-- Dropping the exact signature makes this script repairable even if an older
+-- deployment used a different RETURNS TABLE shape.
+drop function if exists public.get_school_reviews(text, text, integer, integer);
+
+create function public.get_school_reviews(
   p_school_id text,
   p_sort text default 'newest',
   p_limit integer default 20,
@@ -144,3 +158,6 @@ grant execute on function public.get_school_reviews(
   integer,
   integer
 ) to anon, authenticated;
+
+-- Refresh PostgREST's function/table metadata after applying this file.
+notify pgrst, 'reload schema';

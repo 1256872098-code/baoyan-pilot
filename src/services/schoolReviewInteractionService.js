@@ -4,9 +4,10 @@ import {
   toggleLocalSchoolReviewInteraction,
 } from "./schoolRatingLocalStore.js";
 import {
-  activateLocalSchoolRatingFallback,
   getSchoolRatingRuntimeStatus,
-  isSchoolRatingFallbackError,
+  isSchoolRatingFeatureAvailable,
+  markSchoolRatingRequestFailed,
+  markSchoolRatingRequestOk,
   shouldUseLocalSchoolRating,
 } from "./schoolRatingRuntime.js";
 
@@ -37,57 +38,57 @@ function increase(map, key) {
 }
 
 async function fetchRows(tableName, reviewIds) {
-  if (!reviewIds.length) return [];
-  const { data, error } = await supabase.from(tableName).select("id,review_id,user_id").in("review_id", reviewIds);
+  let query = supabase.from(tableName).select("id,review_id,user_id");
+  query = reviewIds.length ? query.in("review_id", reviewIds) : query.limit(1);
+  const { data, error } = await query;
   if (error) throw error;
   return data || [];
 }
 
 export async function fetchSchoolReviewInteractionStats(reviewIds = [], userId = "") {
   const ids = [...new Set((reviewIds || []).filter(Boolean))];
-  if (!ids.length) return {};
   const loadLocal = () => getLocalSchoolReviewInteractionStats(ids, userId);
   if (shouldUseLocalSchoolRating("interactions") || !supabase) return loadLocal();
 
-  try {
-    const [likeRows, dislikeRows] = await Promise.all([
-      fetchRows("school_review_likes", ids),
-      fetchRows("school_review_dislikes", ids),
-    ]);
+  const shouldFetchLikes = isSchoolRatingFeatureAvailable("likes");
+  const shouldFetchDislikes = isSchoolRatingFeatureAvailable("dislikes");
+  const likeRequest = shouldFetchLikes ? fetchRows("school_review_likes", ids) : Promise.resolve([]);
+  const dislikeRequest = shouldFetchDislikes ? fetchRows("school_review_dislikes", ids) : Promise.resolve([]);
+  const [likeResult, dislikeResult] = await Promise.allSettled([likeRequest, dislikeRequest]);
 
-    const stats = createEmptyStats(ids);
-    const likeCounts = new Map();
-    const dislikeCounts = new Map();
-    const userLiked = new Set();
-    const userDisliked = new Set();
+  const likeRows = likeResult.status === "fulfilled" ? likeResult.value : [];
+  const dislikeRows = dislikeResult.status === "fulfilled" ? dislikeResult.value : [];
+  if (shouldFetchLikes && likeResult.status === "fulfilled") markSchoolRatingRequestOk("likes");
+  else if (shouldFetchLikes) markSchoolRatingRequestFailed("likes", likeResult.reason);
+  if (shouldFetchDislikes && dislikeResult.status === "fulfilled") markSchoolRatingRequestOk("dislikes");
+  else if (shouldFetchDislikes) markSchoolRatingRequestFailed("dislikes", dislikeResult.reason);
 
-    likeRows.forEach((row) => {
-      increase(likeCounts, row.review_id);
-      if (userId && row.user_id === userId) userLiked.add(row.review_id);
-    });
+  const stats = createEmptyStats(ids);
+  const likeCounts = new Map();
+  const dislikeCounts = new Map();
+  const userLiked = new Set();
+  const userDisliked = new Set();
 
-    dislikeRows.forEach((row) => {
-      increase(dislikeCounts, row.review_id);
-      if (userId && row.user_id === userId) userDisliked.add(row.review_id);
-    });
+  likeRows.forEach((row) => {
+    increase(likeCounts, row.review_id);
+    if (userId && row.user_id === userId) userLiked.add(row.review_id);
+  });
 
-    ids.forEach((id) => {
-      stats[id] = {
-        likeCount: likeCounts.get(id) || 0,
-        dislikeCount: dislikeCounts.get(id) || 0,
-        likedByCurrentUser: userLiked.has(id),
-        dislikedByCurrentUser: userDisliked.has(id),
-      };
-    });
+  dislikeRows.forEach((row) => {
+    increase(dislikeCounts, row.review_id);
+    if (userId && row.user_id === userId) userDisliked.add(row.review_id);
+  });
 
-    return stats;
-  } catch (error) {
-    if (isSchoolRatingFallbackError(error)) {
-      activateLocalSchoolRatingFallback("interactions", error);
-      return loadLocal();
-    }
-    throw new Error("评价互动数据加载失败，请稍后重试。");
-  }
+  ids.forEach((id) => {
+    stats[id] = {
+      likeCount: likeCounts.get(id) || 0,
+      dislikeCount: dislikeCounts.get(id) || 0,
+      likedByCurrentUser: userLiked.has(id),
+      dislikedByCurrentUser: userDisliked.has(id),
+    };
+  });
+
+  return stats;
 }
 
 async function selectExisting(tableName, reviewId, userId) {
@@ -124,41 +125,52 @@ async function toggleVote({ reviewId, userId, vote }) {
     throw new Error("云端评价互动服务暂不可用，请稍后重试。");
   }
 
+  const primaryArea = vote === "like" ? "likes" : "dislikes";
+  const primaryTable = vote === "like" ? "school_review_likes" : "school_review_dislikes";
+  const otherArea = vote === "like" ? "dislikes" : "likes";
+  const otherTable = vote === "like" ? "school_review_dislikes" : "school_review_likes";
+  const unavailableMessage = vote === "like" ? "点赞功能暂不可用，请稍后重试。" : "点踩功能暂不可用，请稍后重试。";
+  if (!isSchoolRatingFeatureAvailable(primaryArea)) throw new Error(unavailableMessage);
+
   try {
-    const [existingLike, existingDislike] = await Promise.all([
-      selectExisting("school_review_likes", reviewId, userId),
-      selectExisting("school_review_dislikes", reviewId, userId),
-    ]);
+    const existingPrimary = await selectExisting(primaryTable, reviewId, userId);
+    markSchoolRatingRequestOk(primaryArea);
 
-    if (vote === "like") {
-      if (existingLike) {
-        await deleteExisting("school_review_likes", existingLike.id, userId);
-        if (existingDislike) await deleteExisting("school_review_dislikes", existingDislike.id, userId);
-        return { liked: false, disliked: false };
+    let existingOther = null;
+    if (isSchoolRatingFeatureAvailable(otherArea)) {
+      try {
+        existingOther = await selectExisting(otherTable, reviewId, userId);
+        markSchoolRatingRequestOk(otherArea);
+      } catch (otherError) {
+        markSchoolRatingRequestFailed(otherArea, otherError);
       }
-
-      if (existingDislike) await deleteExisting("school_review_dislikes", existingDislike.id, userId);
-      await insertInteraction("school_review_likes", reviewId, userId);
-      return { liked: true, disliked: false };
     }
 
-    if (vote === "dislike") {
-      if (existingDislike) {
-        await deleteExisting("school_review_dislikes", existingDislike.id, userId);
-        if (existingLike) await deleteExisting("school_review_likes", existingLike.id, userId);
-        return { liked: false, disliked: false };
-      }
-
-      if (existingLike) await deleteExisting("school_review_likes", existingLike.id, userId);
-      await insertInteraction("school_review_dislikes", reviewId, userId);
-      return { liked: false, disliked: true };
+    if (existingPrimary) {
+      await deleteExisting(primaryTable, existingPrimary.id, userId);
+      markSchoolRatingRequestOk(primaryArea);
+      return { liked: false, disliked: Boolean(existingOther) };
     }
 
-    throw new Error("不支持的评价互动类型。");
+    if (existingOther) {
+      try {
+        await deleteExisting(otherTable, existingOther.id, userId);
+        markSchoolRatingRequestOk(otherArea);
+        existingOther = null;
+      } catch (otherError) {
+        // A secondary feature failure must not disable the primary vote.
+        markSchoolRatingRequestFailed(otherArea, otherError);
+      }
+    }
+
+    await insertInteraction(primaryTable, reviewId, userId);
+    markSchoolRatingRequestOk(primaryArea);
+    return vote === "like"
+      ? { liked: true, disliked: Boolean(existingOther) }
+      : { liked: Boolean(existingOther), disliked: true };
   } catch (error) {
-    if (/不支持/.test(error?.message || "")) throw error;
-    if (isSchoolRatingFallbackError(error)) activateLocalSchoolRatingFallback("interactions", error);
-    throw new Error("评价互动结果未能确认，请刷新页面核对后再操作。");
+    markSchoolRatingRequestFailed(primaryArea, error);
+    throw new Error(unavailableMessage);
   }
 }
 

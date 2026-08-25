@@ -81,12 +81,22 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
     setErrorMessage("");
 
     try {
-      const [nextSummary, mine] = await Promise.all([
+      const [summaryResult, mineResult] = await Promise.allSettled([
         fetchSchoolRatingSummary(schoolId),
         currentUserId ? fetchCurrentUserSchoolReview({ schoolId, userId: currentUserId }) : Promise.resolve(null),
       ]);
-      setSummary(nextSummary);
-      setCurrentReview(mine);
+      if (summaryResult.status === "fulfilled") setSummary(summaryResult.value);
+      else {
+        setSummary(emptySummary);
+        setErrorMessage(summaryResult.reason?.message || "学校评分加载失败，请稍后重试。");
+      }
+      if (mineResult.status === "fulfilled") setCurrentReview(mineResult.value);
+      else {
+        setCurrentReview(null);
+        if (summaryResult.status === "fulfilled") {
+          setErrorMessage(mineResult.reason?.message || "你的评价加载失败，请稍后重试。");
+        }
+      }
     } catch (error) {
       setErrorMessage(error?.message || "学校评价加载失败，请稍后重试。");
       setSummary(emptySummary);
@@ -114,23 +124,35 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
       try {
         interactionStats = await fetchSchoolReviewInteractionStats(reviewIds, currentUserId);
       } catch (statsError) {
-        setErrorMessage(statsError?.message || "评价互动数据加载失败，请稍后重试。");
+        if (typeof import.meta.env !== "undefined" && import.meta.env.DEV) {
+          // eslint-disable-next-line no-console
+          console.warn("[SchoolRating] interaction stats: failed", {
+            code: statsError?.code || statsError?.name || "unknown",
+            message: statsError?.message || "Unknown error",
+          });
+        }
       }
       const nextRuntimeStatus = getSchoolRatingRuntimeStatus();
       const useLocalInteractionCounts = nextRuntimeStatus.usesLocalReviews && nextRuntimeStatus.usesLocalInteractions;
-      setReviews(
-        nextReviews.map((review) => ({
+      const mergedReviews = nextReviews.map((review) => ({
           ...review,
           likeCount: getSafeCount(
-            useLocalInteractionCounts ? interactionStats[review.id]?.likeCount : review.like_count ?? interactionStats[review.id]?.likeCount,
+            useLocalInteractionCounts || nextRuntimeStatus.likesAvailable
+              ? review.like_count ?? interactionStats[review.id]?.likeCount
+              : review.like_count,
           ),
           dislikeCount: getSafeCount(
-            useLocalInteractionCounts ? interactionStats[review.id]?.dislikeCount : review.dislike_count ?? interactionStats[review.id]?.dislikeCount,
+            useLocalInteractionCounts || nextRuntimeStatus.dislikesAvailable
+              ? review.dislike_count ?? interactionStats[review.id]?.dislikeCount
+              : review.dislike_count,
           ),
-          likedByCurrentUser: Boolean(interactionStats[review.id]?.likedByCurrentUser),
-          dislikedByCurrentUser: Boolean(interactionStats[review.id]?.dislikedByCurrentUser),
-        })),
-      );
+          likedByCurrentUser: Boolean(nextRuntimeStatus.likesAvailable && interactionStats[review.id]?.likedByCurrentUser),
+          dislikedByCurrentUser: Boolean(nextRuntimeStatus.dislikesAvailable && interactionStats[review.id]?.dislikedByCurrentUser),
+        }));
+      if (sort === "most-liked") {
+        mergedReviews.sort((a, b) => b.likeCount - a.likeCount || String(b.created_at).localeCompare(String(a.created_at)));
+      }
+      setReviews(mergedReviews);
     } catch (error) {
       setErrorMessage(error?.message || "评价列表加载失败，请稍后重试。");
       setReviews([]);
@@ -183,7 +205,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
   }, [reviews, reviewsLoading, targetReviewId]);
 
   const refreshAll = async () => {
-    await Promise.all([loadSummaryAndMine(), loadReviews()]);
+    await Promise.allSettled([loadSummaryAndMine(), loadReviews()]);
   };
 
   const handleRetryCloud = async () => {
@@ -353,12 +375,16 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
           description={`评分来自用户主观体验，仅供参考，不代表${schoolName || "学校"}官方评价或推免结果。`}
         />
 
-        {(runtimeStatus.usesLocalReviews || runtimeStatus.usesLocalInteractions) && (
+        {(runtimeStatus.usesLocalReviews || !runtimeStatus.likesAvailable || !runtimeStatus.dislikesAvailable) && (
           <div className="mt-4 flex flex-col gap-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-800 sm:flex-row sm:items-center sm:justify-between">
             <span>
               {runtimeStatus.usesLocalReviews
                 ? "云端评分服务当前不可用，已切换为本机体验模式。本机评价不会自动上传到云端，也不会同步到其他设备或用户。"
-                : "云端评价互动服务当前不可用，点赞和点踩已暂停；已有云端评价仍可查看。"}
+                : !runtimeStatus.likesAvailable && !runtimeStatus.dislikesAvailable
+                  ? "云端点赞和点踩服务当前不可用；已有云端评价仍可正常查看和发布。"
+                  : !runtimeStatus.likesAvailable
+                    ? "云端点赞服务当前不可用，点赞已暂停；评价和点踩功能仍可正常使用。"
+                    : "云端点踩服务当前不可用，点踩已暂停；评价和点赞功能仍可正常使用。"}
             </span>
             <button
               type="button"
@@ -417,7 +443,8 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
             onToggleLike={handleToggleLike}
             onToggleDislike={handleToggleDislike}
             onRequireLogin={handleRequireLogin}
-            interactionDisabled={runtimeStatus.usesLocalInteractions && !runtimeStatus.usesLocalReviews}
+            likeDisabled={!runtimeStatus.usesLocalReviews && !runtimeStatus.likesAvailable}
+            dislikeDisabled={!runtimeStatus.usesLocalReviews && !runtimeStatus.dislikesAvailable}
           />
         </div>
 
