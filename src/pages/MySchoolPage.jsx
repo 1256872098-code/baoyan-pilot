@@ -213,12 +213,6 @@ function MajorRecommendationYearCard({ item, majorName }) {
           )}
         </div>
       </div>
-      {estimatedRate && (
-        <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-700">
-          {item.dataAvailabilityNote || "推免人数来自学校官方名单；毕业生人数根据学校公开的分专业学生数据估算，结果仅供参考。"}
-        </p>
-      )}
-      {item.rateReviewNote && <p className="mt-2 text-xs leading-5 text-rose-600">{item.rateReviewNote}</p>}
       {(item.sources || []).length > 0 && (
         <details className="mt-4 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm">
           <summary className="cursor-pointer font-semibold text-brand-700">查看来源</summary>
@@ -808,9 +802,6 @@ export default function MySchoolPage() {
                       <EmptyInfo title="推免数据加载失败" description={recommendationError} />
                     ) : recommendationData && hasMatchedMajorRecommendationData ? (
                       <div className="my-school-recommendation-scroll mt-4 space-y-4">
-                        <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-                          以下数据仅针对{binding.schoolName}{binding.collegeName}{boundMajorName}专业。推免人数按学校官方推荐名单计数；保研率优先使用学校公开的同届、同专业毕业生人数，未直接公开时根据学校分专业学生数据估算，并明确标注“估算”。请以学校及学院当年正式通知为准。
-                        </div>
                         {hasRecommendationHistory ? (
                           <div className="grid gap-4 xl:grid-cols-3">
                             {recommendationYearCards.map((item) => (
