@@ -23,11 +23,11 @@ test("关闭功能后，院校资料库深链会回到首页", () => {
   assert.match(source, /path="\/schools\/\*" element=\{<Navigate to="\/" replace \/>\}/);
 });
 
-test("首页和我的院校中的资料库入口也受同一开关控制", () => {
+test("单屏首页不包含资料库入口，我的院校入口仍受开关控制", () => {
   const homeSource = readSource("../src/pages/HomePage.jsx");
   const mySchoolSource = readSource("../src/pages/MySchoolPage.jsx");
 
-  assert.match(homeSource, /featureFlags\.schoolDatabase &&/);
+  assert.doesNotMatch(homeSource, /\/schools|院校资料库/);
   assert.match(mySchoolSource, /featureFlags\.schoolDatabase &&/);
 });
 

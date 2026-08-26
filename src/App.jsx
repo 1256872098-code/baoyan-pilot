@@ -14,10 +14,11 @@ import { featureFlags } from "./config/features.js";
 
 export default function App() {
   const location = useLocation();
-  const hideFooter = location.pathname === "/ai-recommend";
+  const isHomePage = location.pathname === "/";
+  const hideFooter = isHomePage || location.pathname === "/ai-recommend";
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
+    <div className={`${isHomePage ? "h-[100svh] overflow-hidden" : "min-h-screen"} bg-slate-50 text-slate-900`}>
       <Header />
       <main>
         <Routes>

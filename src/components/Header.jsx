@@ -189,7 +189,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-slate-200 bg-white md:hidden">
+        <div className="absolute left-0 right-0 top-full max-h-[calc(100svh-4rem)] overflow-y-auto border-t border-slate-200 bg-white shadow-lg md:hidden">
           <nav className="container-page grid gap-1 py-3" aria-label="移动端导航">
             {navItems.map((item) => (
               <NavLink key={item.path} to={item.path} className={navClass} onClick={() => setOpen(false)}>

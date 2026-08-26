@@ -941,7 +941,7 @@ export default function MySchoolPage() {
                             <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-500">
                               <tr>
                                 <th scope="col" className="whitespace-nowrap px-2.5 py-3.5 pl-4">届别</th>
-                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">推荐人数</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5 text-center">推荐人数</th>
                                 <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">毕业生人数</th>
                                 <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">推免率</th>
                                 <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">数据性质</th>
@@ -957,7 +957,7 @@ export default function MySchoolPage() {
                                     <span className="tabular-nums">{row.graduationYear}</span>
                                     <span className="ml-0.5 text-slate-500">届</span>
                                   </td>
-                                  <td className="whitespace-nowrap px-2.5 py-4 font-semibold tabular-nums text-slate-900">
+                                  <td className="whitespace-nowrap px-2.5 py-4 text-center font-semibold tabular-nums text-slate-900">
                                     {row.recommendedCount ?? "未识别"}
                                   </td>
                                   <td className={`whitespace-nowrap px-2.5 py-4 tabular-nums ${estimated ? "text-amber-700" : "text-slate-700"}`}>

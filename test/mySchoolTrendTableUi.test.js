@@ -18,7 +18,8 @@ test("历年趋势表格使用稳定列宽和舒适行间距", () => {
 });
 
 test("历年趋势数字和来源入口不会被挤成逐字换行", () => {
-  assert.match(trendTableSource, /whitespace-nowrap px-2\.5 py-4 font-semibold tabular-nums/);
+  assert.match(trendTableSource, /px-2\.5 py-3\.5 text-center">推荐人数/);
+  assert.match(trendTableSource, /whitespace-nowrap px-2\.5 py-4 text-center font-semibold tabular-nums/);
   assert.match(trendTableSource, /estimated \? "估算率"/);
   assert.match(trendTableSource, /<details className="group">/);
   assert.match(trendTableSource, /查看来源/);
