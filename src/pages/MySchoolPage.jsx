@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ExternalLink, RefreshCcw, Trash2 } from "lucide-react";
+import { ArrowRight, ChevronDown, ExternalLink, RefreshCcw, Trash2 } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import LoginModal from "../components/LoginModal.jsx";
 import MajorRecommendationTrendChart from "../components/my-school/MajorRecommendationTrendChart.jsx";
@@ -927,63 +927,100 @@ export default function MySchoolPage() {
                     {recommendationHistory.length ? (
                       <div className="mt-4 space-y-4">
                         <MajorRecommendationTrendChart history={recommendationHistory} majorName={boundMajorName} />
-                        <div className="overflow-x-auto">
-                          <table className="min-w-full text-left text-sm">
-                            <thead className="text-xs uppercase text-slate-500">
+                        <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
+                          <div className="overflow-x-auto">
+                          <table className="w-full min-w-[540px] table-fixed text-left text-sm">
+                            <colgroup>
+                              <col className="w-[12%]" />
+                              <col className="w-[15%]" />
+                              <col className="w-[16%]" />
+                              <col className="w-[15%]" />
+                              <col className="w-[19%]" />
+                              <col className="w-[23%]" />
+                            </colgroup>
+                            <thead className="border-b border-slate-200 bg-slate-50 text-xs font-semibold text-slate-500">
                               <tr>
-                                <th className="px-3 py-2">届别</th>
-                                <th className="px-3 py-2">推荐名单计数</th>
-                                <th className="px-3 py-2">毕业生人数</th>
-                                <th className="px-3 py-2">推免率</th>
-                                <th className="px-3 py-2">数据性质</th>
-                                <th className="px-3 py-2">来源</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5 pl-4">届别</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">推荐人数</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">毕业生人数</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">推免率</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5">数据性质</th>
+                                <th scope="col" className="whitespace-nowrap px-2.5 py-3.5 pr-4">来源</th>
                               </tr>
                             </thead>
-                            <tbody className="divide-y divide-slate-100">
-                              {[...recommendationHistory].sort((a, b) => a.graduationYear - b.graduationYear).map((row) => (
-                                <tr key={row.graduationYear}>
-                                  <td className="px-3 py-2">{row.graduationYear}届</td>
-                                  <td className="px-3 py-2">{row.recommendedCount ?? "未识别"}</td>
-                                  <td className="px-3 py-2">
-                                    {row.cohortSize == null ? "未找到" : `${row.isEstimated || row.rateStatus === "estimated" ? "约 " : ""}${row.cohortSize}`}
+                            <tbody className="divide-y divide-slate-100 text-slate-700">
+                              {[...recommendationHistory].sort((a, b) => a.graduationYear - b.graduationYear).map((row) => {
+                                const estimated = row.isEstimated || row.rateStatus === "estimated";
+                                return (
+                                <tr key={row.graduationYear} className="align-middle transition-colors hover:bg-slate-50/80">
+                                  <td className="whitespace-nowrap px-2.5 py-4 pl-4 font-semibold text-slate-900">
+                                    <span className="tabular-nums">{row.graduationYear}</span>
+                                    <span className="ml-0.5 text-slate-500">届</span>
                                   </td>
-                                  <td className="px-3 py-2">
+                                  <td className="whitespace-nowrap px-2.5 py-4 font-semibold tabular-nums text-slate-900">
+                                    {row.recommendedCount ?? "未识别"}
+                                  </td>
+                                  <td className={`whitespace-nowrap px-2.5 py-4 tabular-nums ${estimated ? "text-amber-700" : "text-slate-700"}`}>
+                                    {row.cohortSize == null ? "未找到" : `${estimated ? "约 " : ""}${row.cohortSize}`}
+                                  </td>
+                                  <td className={`whitespace-nowrap px-2.5 py-4 font-semibold tabular-nums ${estimated ? "text-amber-700" : "text-emerald-700"}`}>
                                     {row.recommendationRate == null
                                       ? "暂无法计算"
-                                      : `${row.isEstimated || row.rateStatus === "estimated" ? "约 " : ""}${formatPercent(row.recommendationRate)}`}
+                                      : `${estimated ? "约 " : ""}${formatPercent(row.recommendationRate)}`}
                                   </td>
-                                  <td className="px-3 py-2">
-                                    {row.isEstimated || row.rateStatus === "estimated"
-                                      ? "官方人数 / 估算率"
-                                      : getSourceLevelLabel(row.sourceLevel, row.dataStatus)}
+                                  <td className="px-2.5 py-4">
+                                    <span
+                                      className={`inline-flex whitespace-nowrap rounded-full border px-2.5 py-1 text-xs font-semibold ${
+                                        estimated
+                                          ? "border-amber-200 bg-amber-50 text-amber-700"
+                                          : "border-blue-100 bg-blue-50 text-brand-700"
+                                      }`}
+                                    >
+                                      {estimated ? "估算率" : getSourceLevelLabel(row.sourceLevel, row.dataStatus)}
+                                    </span>
                                   </td>
-                                  <td className="px-3 py-2">
+                                  <td className="px-2.5 py-4 pr-4">
                                     {row.sources?.some((source) => source.url || source.sourceUrl) ? (
-                                      <div className="flex flex-wrap gap-x-3 gap-y-1">
-                                        {row.sources.map((source, index) => {
-                                          const url = source.url || source.sourceUrl;
-                                          if (!url) return null;
-                                          const label =
-                                            source.sourceLevel === "third-party-estimate"
-                                              ? "估算依据"
-                                              : source.sourceType === "undergraduate-major-student-count"
-                                                ? "分母来源"
-                                                : "推免名单";
-                                          return (
-                                            <a key={`${url}-${index}`} className="font-semibold text-brand-700 hover:underline" href={url} target="_blank" rel="noopener noreferrer">
-                                              {label}
-                                            </a>
-                                          );
-                                        })}
-                                      </div>
+                                      <details className="group">
+                                        <summary className="inline-flex cursor-pointer list-none items-center gap-1 whitespace-nowrap rounded-md bg-blue-50 px-2.5 py-1.5 text-xs font-semibold text-brand-700 transition hover:bg-blue-100 [&::-webkit-details-marker]:hidden">
+                                          查看来源
+                                          <ChevronDown size={13} className="transition-transform group-open:rotate-180" aria-hidden="true" />
+                                        </summary>
+                                        <div className="mt-2 flex flex-col items-start gap-1.5">
+                                          {row.sources.map((source, index) => {
+                                            const url = source.url || source.sourceUrl;
+                                            if (!url) return null;
+                                            const label =
+                                              source.sourceLevel === "third-party-estimate"
+                                                ? "估算依据"
+                                                : source.sourceType === "undergraduate-major-student-count"
+                                                  ? "分母来源"
+                                                  : "推免名单";
+                                            return (
+                                              <a
+                                                key={`${url}-${index}`}
+                                                className="inline-flex items-center gap-1 whitespace-nowrap text-xs font-semibold text-brand-700 hover:underline"
+                                                href={url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                              >
+                                                {label}
+                                                <ExternalLink size={12} aria-hidden="true" />
+                                              </a>
+                                            );
+                                          })}
+                                        </div>
+                                      </details>
                                     ) : (
                                       "无"
                                     )}
                                   </td>
                                 </tr>
-                              ))}
+                                );
+                              })}
                             </tbody>
                           </table>
+                          </div>
                         </div>
                       </div>
                     ) : (

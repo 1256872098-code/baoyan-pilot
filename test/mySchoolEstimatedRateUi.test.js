@@ -6,7 +6,6 @@ const pageSource = readFileSync(new URL("../src/pages/MySchoolPage.jsx", import.
 
 test("我的院校将估算保研率与官方推免人数明确区分", () => {
   assert.match(pageSource, /官方人数 · 估算率/);
-  assert.match(pageSource, /官方人数 \/ 估算率/);
   assert.match(pageSource, /row\.rateStatus === "estimated"/);
   assert.match(pageSource, /estimatedRate \? "约 " : ""/);
 });
