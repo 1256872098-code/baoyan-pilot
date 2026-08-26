@@ -10,6 +10,7 @@ import AiRecommendChat from "./pages/AiRecommendChat.jsx";
 import ForumPage from "./pages/ForumPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 import MySchoolPage from "./pages/MySchoolPage.jsx";
+import { featureFlags } from "./config/features.js";
 
 export default function App() {
   const location = useLocation();
@@ -24,9 +25,15 @@ export default function App() {
           <Route path="/assessment" element={<Navigate to="/ai-recommend" replace />} />
           <Route path="/profile-assessment" element={<Navigate to="/ai-recommend" replace />} />
           <Route path="/evaluation" element={<Navigate to="/ai-recommend" replace />} />
-          <Route path="/schools" element={<SchoolsPage />} />
-          <Route path="/schools/:schoolId" element={<SchoolDetailPage />} />
-          <Route path="/schools/:schoolId/colleges/:collegeId" element={<CollegeDetailPage />} />
+          {featureFlags.schoolDatabase ? (
+            <>
+              <Route path="/schools" element={<SchoolsPage />} />
+              <Route path="/schools/:schoolId" element={<SchoolDetailPage />} />
+              <Route path="/schools/:schoolId/colleges/:collegeId" element={<CollegeDetailPage />} />
+            </>
+          ) : (
+            <Route path="/schools/*" element={<Navigate to="/" replace />} />
+          )}
           <Route path="/my-school" element={<MySchoolPage />} />
           <Route path="/forum" element={<ForumPage />} />
           <Route path="/profile" element={<ProfilePage />} />

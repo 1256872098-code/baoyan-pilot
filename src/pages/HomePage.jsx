@@ -11,6 +11,7 @@ import {
   UserRound,
 } from "lucide-react";
 import { Card, CardHeader, StatCard } from "../components/Card.jsx";
+import { featureFlags } from "../config/features.js";
 
 const features = [
   {
@@ -18,11 +19,15 @@ const features = [
     text: "通过聊天逐步补全学校、专业、成绩、英语、科研竞赛和地区偏好，生成院校梯度建议。",
     icon: Bot,
   },
-  {
-    title: "院校资料库",
-    text: "按地区和院校层次筛选推免资格高校，进入学校与学院目录查看后续资料框架。",
-    icon: Database,
-  },
+  ...(featureFlags.schoolDatabase
+    ? [
+        {
+          title: "院校资料库",
+          text: "按地区和院校层次筛选推免资格高校，进入学校与学院目录查看后续资料框架。",
+          icon: Database,
+        },
+      ]
+    : []),
   {
     title: "保研论坛",
     text: "浏览和发布保研经验、院校信息、材料准备、预推免和面试交流帖。",
@@ -48,10 +53,14 @@ const steps = [
     title: "查看院校梯度建议",
     text: "在信息足够后，获得冲刺、匹配、稳妥三个梯度的规划参考。",
   },
-  {
-    title: "结合资料库继续核对",
-    text: "进入院校资料库和学校详情页，按官方来源持续补充申请信息。",
-  },
+  ...(featureFlags.schoolDatabase
+    ? [
+        {
+          title: "结合资料库继续核对",
+          text: "进入院校资料库和学校详情页，按官方来源持续补充申请信息。",
+        },
+      ]
+    : []),
 ];
 
 export default function HomePage() {
@@ -74,7 +83,9 @@ export default function HomePage() {
               保研领航员
             </h1>
             <p className="mt-5 max-w-xl text-base leading-8 text-slate-700 sm:text-lg">
-              从 AI 院校推荐、院校资料库到保研论坛，帮助你把分散信息整理成可执行的保研规划。
+              {featureFlags.schoolDatabase
+                ? "从 AI 院校推荐、院校资料库到保研论坛，帮助你把分散信息整理成可执行的保研规划。"
+                : "从 AI 院校推荐到保研论坛，帮助你把分散信息整理成可执行的保研规划。"}
               推荐结果仅供规划参考，具体政策和报名要求以学校官网最新通知为准。
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -82,9 +93,11 @@ export default function HomePage() {
                 开始AI院校推荐
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
-              <Link to="/schools" className="btn-secondary">
-                浏览院校资料库
-              </Link>
+              {featureFlags.schoolDatabase && (
+                <Link to="/schools" className="btn-secondary">
+                  浏览院校资料库
+                </Link>
+              )}
             </div>
           </div>
         </div>
@@ -92,17 +105,27 @@ export default function HomePage() {
 
       <section className="bg-white py-16">
         <div className="container-page">
-          <div className="mb-12 grid gap-3 sm:grid-cols-3">
+          <div className={`mb-12 grid gap-3 ${featureFlags.schoolDatabase ? "sm:grid-cols-3" : "sm:grid-cols-2"}`}>
             <StatCard value="AI" label="院校推荐" helper="DeepSeek 对话式规划建议" />
-            <StatCard value="427" label="推免资格高校" helper="院校资料持续补全中" tone="teal" />
+            {featureFlags.schoolDatabase && (
+              <StatCard value="427" label="推免资格高校" helper="院校资料持续补全中" tone="teal" />
+            )}
             <StatCard value="论坛" label="经验交流" helper="帖子和回复接入 Supabase" tone="amber" />
           </div>
           <CardHeader
             eyebrow="核心功能"
             title="围绕保研择校和信息核对做规划"
-            description="保留最常用的工具入口：AI 院校推荐、院校资料库、保研论坛和个人中心。"
+            description={
+              featureFlags.schoolDatabase
+                ? "保留最常用的工具入口：AI 院校推荐、院校资料库、保研论坛和个人中心。"
+                : "保留最常用的工具入口：AI 院校推荐、保研论坛和个人中心。"
+            }
           />
-          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div
+            className={`mt-10 grid gap-5 md:grid-cols-2 ${
+              featureFlags.schoolDatabase ? "lg:grid-cols-4" : "lg:grid-cols-3"
+            }`}
+          >
             {features.map((feature) => {
               const Icon = feature.icon;
               return (
@@ -124,8 +147,12 @@ export default function HomePage() {
           <div>
             <CardHeader
               eyebrow="使用流程"
-              title="从聊天到资料核对，逐步建立目标院校池"
-              description="AI 推荐负责启发式规划，院校资料库负责持续沉淀官方来源和学院目录。"
+              title={featureFlags.schoolDatabase ? "从聊天到资料核对，逐步建立目标院校池" : "从补全背景到生成建议，逐步建立目标院校池"}
+              description={
+                featureFlags.schoolDatabase
+                  ? "AI 推荐负责启发式规划，院校资料库负责持续沉淀官方来源和学院目录。"
+                  : "AI 会根据你的背景信息持续追问，并在信息齐全后生成院校梯度建议。"
+              }
             />
             <Link to="/ai-recommend" className="btn-primary mt-8">
               开始AI院校推荐

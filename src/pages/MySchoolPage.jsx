@@ -19,6 +19,7 @@ import {
 } from "../services/mySchoolDataService.js";
 import { getAcademicUnits } from "../utils/academicUnits.js";
 import { fetchSchoolDetail, fetchSchools } from "../utils/schoolData.js";
+import { featureFlags } from "../config/features.js";
 
 const gradeOptions = ["", "大一", "大二", "大三", "大四", "研究生", "其他"];
 const emptyBinding = {
@@ -737,10 +738,12 @@ export default function MySchoolPage() {
                     <Trash2 size={16} aria-hidden="true" />
                     解除绑定
                   </button>
-                  <Link to={`/schools/${binding.schoolId}`} className="btn-primary">
-                    查看学校详情
-                    <ArrowRight size={16} aria-hidden="true" />
-                  </Link>
+                  {featureFlags.schoolDatabase && (
+                    <Link to={`/schools/${binding.schoolId}`} className="btn-primary">
+                      查看学校详情
+                      <ArrowRight size={16} aria-hidden="true" />
+                    </Link>
+                  )}
                 </div>
               </div>
             </Card>

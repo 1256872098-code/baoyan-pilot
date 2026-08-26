@@ -11,6 +11,7 @@ import {
 } from "../../services/notificationService.js";
 import NotificationDropdown from "./NotificationDropdown.jsx";
 import { getNotificationTitle } from "./NotificationItem.jsx";
+import { featureFlags } from "../../config/features.js";
 
 function mergeNotification(currentNotifications, notification) {
   if (!notification?.id) return currentNotifications;
@@ -161,8 +162,11 @@ export default function NotificationBell({ user, forceCloseKey, onOpen }) {
       return;
     }
 
-    if (notification.link) {
-      navigate(notification.link);
+    const isSchoolReviewNotification = ["school_review_like", "school_review_dislike"].includes(notification.type);
+    const destination = !featureFlags.schoolDatabase && isSchoolReviewNotification ? "/my-school" : notification.link;
+
+    if (destination) {
+      navigate(destination);
     }
   };
 

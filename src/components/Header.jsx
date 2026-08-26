@@ -4,11 +4,12 @@ import { ChevronDown, Compass, LogOut, Menu, MessageSquareText, UserRound, X } f
 import LoginModal from "./LoginModal.jsx";
 import NotificationBell from "./notifications/NotificationBell.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
+import { featureFlags } from "../config/features.js";
 
 const navItems = [
   { path: "/", label: "首页" },
   { path: "/ai-recommend", label: "AI院校推荐" },
-  { path: "/schools", label: "院校资料库" },
+  ...(featureFlags.schoolDatabase ? [{ path: "/schools", label: "院校资料库" }] : []),
   { path: "/my-school", label: "我的院校" },
   { path: "/forum", label: "保研论坛" },
 ];
