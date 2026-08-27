@@ -11,6 +11,7 @@ import ForumPage from "./pages/ForumPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 import MySchoolPage from "./pages/MySchoolPage.jsx";
 import WantBaoyanPage from "./pages/WantBaoyanPage.jsx";
+import AdminStudentVerificationsPage from "./pages/AdminStudentVerificationsPage.jsx";
 import { featureFlags } from "./config/features.js";
 
 export default function App() {
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/want-baoyan" element={<WantBaoyanPage />} />
           <Route path="/forum" element={<ForumPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/admin/student-verifications" element={<AdminStudentVerificationsPage />} />
           <Route path="/ai-recommend" element={<AiRecommendChat />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

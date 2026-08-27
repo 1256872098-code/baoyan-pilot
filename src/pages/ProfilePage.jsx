@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { Building2, Camera, FileCheck, MessageSquareText, ShieldCheck, UserRound } from "lucide-react";
+import { Building2, Camera, MessageSquareText, UserRound } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
+import StudentVerificationCard from "../components/profile/StudentVerificationCard.jsx";
 import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.jsx";
 import { fetchMyPosts, fetchMyReplies } from "../services/profileService.js";
 import { useAuth } from "../contexts/AuthContext.jsx";
@@ -10,11 +11,6 @@ import { fetchSchools } from "../utils/schoolData.js";
 
 const gradeOptions = ["", "大一", "大二", "大三", "大四", "研究生", "其他"];
 const conversationBaseKey = "baoyanpilot_ai_conversations";
-
-const verificationMeta = {
-  label: "未认证",
-  className: "border-slate-200 bg-slate-50 text-slate-600",
-};
 
 function getInitials(name) {
   const value = String(name || "保研用户").trim();
@@ -345,10 +341,10 @@ export default function ProfilePage() {
   return (
     <div className="bg-slate-50 py-10">
       <div className="container-page">
-        <CardHeader eyebrow="账号资料" title="个人中心" description="管理你的个人资料、院校信息和认证状态。" />
+        <CardHeader eyebrow="账号资料" title="个人中心" description="管理你的个人资料、院校信息和学籍核验状态。" />
 
         <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-800">
-          当前为体验账号，个人资料仅保存在当前浏览器，暂不支持跨设备同步和真实院校认证。
+          当前账号资料仍保存在本地浏览器；学籍核验材料会单独安全提交，并由管理员人工完成最终审核。
         </div>
 
         {message && (
@@ -457,30 +453,11 @@ export default function ProfilePage() {
           </Card>
 
           <div className="space-y-6">
-            <Card className="p-6">
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h2 className="text-xl font-bold text-slate-950">院校认证</h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-500">认证状态后续将由真实账号系统和管理员审核共同确认。</p>
-                </div>
-                <ShieldCheck className="h-8 w-8 text-brand-600" aria-hidden="true" />
-              </div>
-
-              <div className="mt-5 flex flex-wrap items-center gap-3">
-                <span className={`rounded-full border px-3 py-1 text-sm font-semibold ${verificationMeta.className}`}>
-                  当前状态：{verificationMeta.label}
-                </span>
-              </div>
-
-              <p className="mt-4 text-sm leading-6 text-slate-600">
-                模拟账号不能显示“已认证”标志，也不能由前端自行修改认证状态。后续接入 Supabase Auth 和管理员审核后，将开放院校认证申请。
-              </p>
-
-              <button type="button" className="btn-secondary mt-5 cursor-not-allowed opacity-70" disabled>
-                <FileCheck size={16} aria-hidden="true" />
-                真实账号系统接入后开放
-              </button>
-            </Card>
+            <StudentVerificationCard
+              user={user}
+              userName={displayNickname}
+              binding={mySchoolBinding}
+            />
 
             <Card className="p-6">
               <div className="flex items-start justify-between gap-4">

@@ -1,0 +1,134 @@
+const ACCESS_TOKEN_PREFIX = "baoyanpilot_student_verification_access";
+const MAX_REPORT_BYTES = 3 * 1024 * 1024;
+
+function getAccessTokenKey(userId) {
+  return `${ACCESS_TOKEN_PREFIX}_${userId}`;
+}
+
+function createAccessToken() {
+  if (typeof crypto !== "undefined" && crypto.randomUUID) {
+    return `${crypto.randomUUID()}${crypto.randomUUID()}`;
+  }
+  return `${Date.now()}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
+}
+
+function getOrCreateAccessToken(userId) {
+  if (typeof window === "undefined" || !userId) return "";
+  const key = getAccessTokenKey(userId);
+  const existing = window.localStorage.getItem(key);
+  if (existing) return existing;
+  const token = createAccessToken();
+  window.localStorage.setItem(key, token);
+  return token;
+}
+
+function readFileAsBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const value = String(reader.result || "");
+      resolve(value.includes(",") ? value.split(",").pop() : value);
+    };
+    reader.onerror = () => reject(new Error("PDF读取失败，请重新选择文件。"));
+    reader.readAsDataURL(file);
+  });
+}
+
+async function parseApiResponse(response, fallbackMessage) {
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(payload?.error || fallbackMessage);
+  return payload;
+}
+
+export function validateVerificationPdf(file) {
+  if (!file) return "";
+  if (file.type !== "application/pdf" && !file.name.toLowerCase().endsWith(".pdf")) {
+    return "仅支持上传PDF格式的《教育部学籍在线验证报告》。";
+  }
+  if (file.size > MAX_REPORT_BYTES) return "PDF文件不能超过3MB。";
+  return "";
+}
+
+export async function fetchLatestStudentVerification(userId) {
+  if (!userId) return null;
+  const accessToken = getOrCreateAccessToken(userId);
+  const response = await fetch(`/api/student-verifications?userId=${encodeURIComponent(userId)}`, {
+    headers: { "x-verification-access-token": accessToken },
+  });
+  const payload = await parseApiResponse(response, "核验状态加载失败，请稍后重试。");
+  return payload.verification || null;
+}
+
+export async function submitStudentVerification({
+  user,
+  userName,
+  schoolId,
+  schoolName,
+  collegeName,
+  majorName,
+  verificationCode,
+  reportFile,
+}) {
+  if (!user?.id) throw new Error("请先登录后再申请学籍核验。");
+  const code = String(verificationCode || "").replace(/\s/g, "");
+  if (!/^\d{16}$/.test(code)) throw new Error("请输入16位学信网在线验证码。");
+  if (!schoolName || !collegeName?.trim() || !majorName?.trim()) {
+    throw new Error("请完整填写当前绑定学校、学院和专业。");
+  }
+
+  const fileError = validateVerificationPdf(reportFile);
+  if (fileError) throw new Error(fileError);
+
+  const pdf = reportFile
+    ? {
+        name: reportFile.name,
+        type: reportFile.type || "application/pdf",
+        base64: await readFileAsBase64(reportFile),
+      }
+    : null;
+
+  const response = await fetch("/api/student-verifications", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      userId: user.id,
+      userName: String(userName || user.nickname || "保研用户").trim(),
+      schoolId: schoolId || null,
+      schoolName,
+      collegeName: collegeName.trim(),
+      majorName: majorName.trim(),
+      verificationCode: code,
+      accessToken: getOrCreateAccessToken(user.id),
+      pdf,
+    }),
+  });
+  const payload = await parseApiResponse(response, "材料提交失败，请稍后重试。");
+  return payload.verification;
+}
+
+export async function fetchAdminStudentVerifications(adminToken) {
+  const response = await fetch("/api/student-verifications-admin", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-admin-token": adminToken,
+    },
+    body: JSON.stringify({ action: "list" }),
+  });
+  const payload = await parseApiResponse(response, "审核列表加载失败，请稍后重试。");
+  return payload.verifications || [];
+}
+
+export async function reviewStudentVerification({ adminToken, id, status, adminNote }) {
+  const response = await fetch("/api/student-verifications-admin", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-admin-token": adminToken,
+    },
+    body: JSON.stringify({ action: "review", id, status, adminNote }),
+  });
+  const payload = await parseApiResponse(response, "审核结果保存失败，请稍后重试。");
+  return payload.verification;
+}
+

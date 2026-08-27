@@ -13,7 +13,14 @@ export default defineConfig({
       name: "baoyanpilot-dev-api",
       configureServer(server) {
         server.middlewares.use(async (request, response, next) => {
-          if (!request.url?.startsWith("/api/recommend")) {
+          const pathname = String(request.url || "").split("?")[0];
+          const handlerPath = {
+            "/api/recommend": "./api/recommend.js",
+            "/api/student-verifications": "./api/student-verifications.js",
+            "/api/student-verifications-admin": "./api/student-verifications-admin.js",
+          }[pathname];
+
+          if (!handlerPath) {
             next();
             return;
           }
@@ -30,16 +37,16 @@ export default defineConfig({
           };
 
           try {
-            const { default: handler } = await import("./api/recommend.js");
+            const { default: handler } = await import(handlerPath);
             await handler(request, response);
           } catch (error) {
             // eslint-disable-next-line no-console
-            console.error("Local /api/recommend failed:", error);
+            console.error(`Local ${pathname} failed:`, error);
             if (!response.headersSent) {
               response.statusCode = 500;
               response.setHeader("Content-Type", "application/json; charset=utf-8");
             }
-            response.end(JSON.stringify({ error: "本地 AI 接口调用失败，请检查 .env.local 和后端日志。" }));
+            response.end(JSON.stringify({ error: "本地服务调用失败，请检查 .env.local 和后端日志。" }));
           }
         });
       },
