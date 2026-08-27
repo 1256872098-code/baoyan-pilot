@@ -38,17 +38,23 @@ import { getForumContentModerationError } from "../utils/forumContentModeration.
 const categories = [
   "全部",
   "保研经验",
-  "院校信息",
-  "材料准备",
-  "夏令营",
-  "预推免",
-  "九推",
-  "面试经验",
+  "院校与政策",
+  "申请准备",
+  "推免阶段",
+  "面试考核",
   "竞赛科研",
   "答疑求助",
 ];
 
 const postCategories = categories.filter((category) => category !== "全部");
+const legacyCategoryMap = {
+  院校信息: "院校与政策",
+  材料准备: "申请准备",
+  夏令营: "推免阶段",
+  预推免: "推免阶段",
+  九推: "推免阶段",
+  面试经验: "面试考核",
+};
 const databaseNotConfiguredMessage = "论坛数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
 const interactionSqlMessage =
   "互动数据加载失败，请确认已在 Supabase 执行 supabase/forum-interactions.sql 和 supabase/forum-dislikes.sql。";
@@ -60,11 +66,12 @@ const emptyPostForm = {
 };
 
 function normalizePost(row, replyCount = 0, stats = {}) {
+  const normalizedCategory = legacyCategoryMap[row.category] || row.category;
   return {
     id: row.id,
     title: row.title,
     content: row.content,
-    category: postCategories.includes(row.category) ? row.category : "答疑求助",
+    category: postCategories.includes(normalizedCategory) ? normalizedCategory : "答疑求助",
     author_id: row.author_id,
     author_name: row.author_name || "匿名用户",
     author_avatar: row.author_avatar || "",
@@ -133,7 +140,9 @@ export default function ForumPage() {
   const { user } = useAuth();
   const [searchParams, setSearchParams] = useSearchParams();
   const initialSearchQuery = normalizeForumSearchQuery(searchParams.get("q") || "");
-  const initialCategory = categories.includes(searchParams.get("category")) ? searchParams.get("category") : "全部";
+  const requestedCategory = searchParams.get("category") || "";
+  const normalizedInitialCategory = legacyCategoryMap[requestedCategory] || requestedCategory;
+  const initialCategory = categories.includes(normalizedInitialCategory) ? normalizedInitialCategory : "全部";
   const targetPostId = searchParams.get("post") || "";
   const targetReplyId = searchParams.get("reply") || "";
   const targetRootId = searchParams.get("root") || "";
@@ -980,7 +989,7 @@ export default function ForumPage() {
           <CardHeader
             eyebrow="社区交流"
             title="保研论坛"
-            description="分享保研经验、院校信息、材料准备、夏令营、预推免和面试经验。"
+            description="分享保研经验、院校政策、申请准备、推免阶段、面试考核与竞赛科研内容。"
           />
           <button type="button" className="btn-primary shrink-0" onClick={handleOpenPostForm}>
             <MessageSquarePlus size={18} aria-hidden="true" />
