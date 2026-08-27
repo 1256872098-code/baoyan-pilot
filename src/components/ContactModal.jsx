@@ -31,6 +31,10 @@ export default function ContactModal({ open, onClose }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
+    if (open) setCopyStatus("");
+  }, [open]);
+
+  useEffect(() => {
     if (!open) return undefined;
 
     const previousOverflow = document.body.style.overflow;
@@ -121,6 +125,11 @@ export default function ContactModal({ open, onClose }) {
                   <Copy size={15} aria-hidden="true" />
                   复制微信号
                 </button>
+                {copyStatus && (
+                  <p className="mt-2 text-sm font-semibold text-brand-700" role="status">
+                    {copyStatus}
+                  </p>
+                )}
               </div>
             </div>
           </section>
@@ -210,11 +219,6 @@ export default function ContactModal({ open, onClose }) {
             </form>
           </section>
 
-          {copyStatus && (
-            <p className="rounded-lg bg-slate-100 px-3 py-2 text-center text-sm font-semibold text-slate-600" role="status">
-              {copyStatus}
-            </p>
-          )}
         </div>
       </div>
     </div>,

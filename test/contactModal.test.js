@@ -24,6 +24,18 @@ test("联系我们弹窗包含商务微信、赞助二维码和反馈意见入�
   assert.equal(existsSync(sponsorImage), true);
 });
 
+test("微信复制提示只在复制后显示于复制按钮下方", () => {
+  const copyButtonIndex = contactSource.indexOf("复制微信号");
+  const copyNoticeIndex = contactSource.indexOf("{copyStatus && (");
+  const sponsorIndex = contactSource.indexOf("赞助我们");
+
+  assert.ok(copyButtonIndex >= 0);
+  assert.ok(copyNoticeIndex > copyButtonIndex);
+  assert.ok(copyNoticeIndex < sponsorIndex);
+  assert.equal((contactSource.match(/\{copyStatus && \(/g) || []).length, 1);
+  assert.match(contactSource, /if \(open\) setCopyStatus\(""\)/);
+});
+
 test("反馈表单支持五类站内提交、500 字限制和提交期间禁用", () => {
   ["功能建议", "页面问题", "数据纠错", "使用体验", "其他"].forEach((type) => {
     assert.match(feedbackServiceSource, new RegExp(type));
