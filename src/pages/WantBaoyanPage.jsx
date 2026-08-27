@@ -14,9 +14,16 @@ import competitionData from "../data/competitions2026.json";
 
 const categoryMeta = [
   {
+    id: "A+",
+    label: "A+ 类竞赛",
+    helper: "清单最高等级竞赛项目",
+    badgeClass: "border-orange-200 bg-orange-50 text-orange-700",
+    activeClass: "border-orange-300 bg-orange-50 text-orange-800 ring-2 ring-orange-100",
+  },
+  {
     id: "A",
     label: "A 类竞赛",
-    helper: "包含 A+ 与 A 类项目",
+    helper: "学校重点支持竞赛项目",
     badgeClass: "border-amber-200 bg-amber-50 text-amber-700",
     activeClass: "border-amber-300 bg-amber-50 text-amber-800 ring-2 ring-amber-100",
   },
@@ -36,10 +43,10 @@ const categoryMeta = [
   },
 ];
 
-const groupCounts = Object.fromEntries(
+const categoryCounts = Object.fromEntries(
   categoryMeta.map((category) => [
     category.id,
-    competitionData.items.filter((item) => item.group === category.id).length,
+    competitionData.items.filter((item) => item.category === category.id).length,
   ]),
 );
 
@@ -58,7 +65,7 @@ function getAvailableLevels(item) {
 function CompetitionDetailDialog({ competition, onClose }) {
   if (!competition) return null;
 
-  const category = categoryMeta.find((item) => item.id === competition.group);
+  const category = categoryMeta.find((item) => item.id === competition.category);
   const levelRows = [
     { label: "国家级竞赛名称", value: competition.nationalName, icon: Trophy },
     { label: "省市级竞赛名称", value: competition.regionalName, icon: MapPin },
@@ -135,7 +142,7 @@ function CompetitionDetailDialog({ competition, onClose }) {
 }
 
 export default function WantBaoyanPage() {
-  const [activeCategory, setActiveCategory] = useState("A");
+  const [activeCategory, setActiveCategory] = useState("A+");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCompetition, setSelectedCompetition] = useState(null);
 
@@ -159,7 +166,7 @@ export default function WantBaoyanPage() {
     const normalizedQuery = searchQuery.trim().toLocaleLowerCase("zh-CN");
 
     return competitionData.items.filter((item) => {
-      if (item.group !== activeCategory) return false;
+      if (item.category !== activeCategory) return false;
       if (!normalizedQuery) return true;
 
       const searchableText = [
@@ -185,11 +192,11 @@ export default function WantBaoyanPage() {
           <div>
             <p className="flex items-center gap-2 text-sm font-bold text-brand-700">
               <Sparkles size={17} aria-hidden="true" />
-              备战资源
+              竞赛资源
             </p>
-            <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">我想保研</h1>
+            <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">竞赛清单</h1>
             <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
-              先从竞赛目录开始了解可参与的项目。按 A、B、C 类浏览 2026 年竞赛清单，点击项目即可查看对应级别与承办部门。
+              按 A+、A、B、C 类浏览 2026 年竞赛清单，点击项目即可查看对应级别与承办部门。
             </p>
           </div>
           <div className="shrink-0 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm font-semibold text-brand-700">
@@ -197,7 +204,7 @@ export default function WantBaoyanPage() {
           </div>
         </div>
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           {categoryMeta.map((category) => {
             const isActive = activeCategory === category.id;
             return (
@@ -213,7 +220,7 @@ export default function WantBaoyanPage() {
                 <span className={`inline-flex rounded-full border px-2.5 py-1 text-xs font-bold ${category.badgeClass}`}>
                   {category.id} 类
                 </span>
-                <p className="mt-4 text-3xl font-bold text-slate-950">{groupCounts[category.id]}</p>
+                <p className="mt-4 text-3xl font-bold text-slate-950">{categoryCounts[category.id]}</p>
                 <p className="mt-1 text-sm font-bold text-slate-800">{category.label}</p>
                 <p className="mt-1 text-xs leading-5 text-slate-500">{category.helper}</p>
               </button>
@@ -237,7 +244,7 @@ export default function WantBaoyanPage() {
                   }`}
                   onClick={() => setActiveCategory(category.id)}
                 >
-                  {category.id} 类 · {groupCounts[category.id]}
+                  {category.id} 类 · {categoryCounts[category.id]}
                 </button>
               ))}
             </div>
@@ -277,7 +284,7 @@ export default function WantBaoyanPage() {
             <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
               {filteredCompetitions.map((competition) => {
                 const levels = getAvailableLevels(competition);
-                const category = categoryMeta.find((item) => item.id === competition.group);
+                const category = categoryMeta.find((item) => item.id === competition.category);
 
                 return (
                   <button
@@ -328,7 +335,7 @@ export default function WantBaoyanPage() {
         </section>
 
         <div className="mt-10 rounded-xl border border-blue-100 bg-blue-50/70 px-4 py-3 text-sm leading-6 text-brand-700">
-          清单依据《{competitionData.sourceTitle}》整理；A 类目录包含原表中的 A+ 与 A 类项目。竞赛介绍将陆续补充。
+          清单依据《{competitionData.sourceTitle}》整理，分类与原表中的 A+、A、B、C 类保持一致。竞赛介绍将陆续补充。
         </div>
       </div>
 

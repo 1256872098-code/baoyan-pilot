@@ -41,16 +41,20 @@ test("竞赛编号、分类和名称均保留原表结构", () => {
   assert.equal(catalog.items.at(-1).campusName, "汉字文化创意大赛");
 });
 
-test("我想保研入口同时接入桌面和移动导航以及独立路由", () => {
-  assert.match(headerSource, /\{ path: "\/want-baoyan", label: "我想保研" \}/);
+test("竞赛清单入口位于保研论坛左侧并同时接入桌面和移动导航", () => {
+  assert.match(headerSource, /\{ path: "\/want-baoyan", label: "竞赛清单" \}/);
+  assert.ok(headerSource.indexOf('label: "竞赛清单"') < headerSource.indexOf('label: "保研论坛"'));
   assert.match(appSource, /<Route path="\/want-baoyan" element=\{<WantBaoyanPage \/>\} \/>/);
   assert.equal((headerSource.match(/navItems\.map/g) || []).length, 2);
 });
 
-test("竞赛目录支持 A/B/C 分类、搜索、整卡点击和详情占位", () => {
+test("竞赛目录支持 A+/A/B/C 独立分类、搜索、整卡点击和详情占位", () => {
+  assert.match(pageSource, /A\+ 类竞赛/);
   assert.match(pageSource, /A 类竞赛/);
   assert.match(pageSource, /B 类竞赛/);
   assert.match(pageSource, /C 类竞赛/);
+  assert.match(pageSource, /item\.category !== activeCategory/);
+  assert.doesNotMatch(pageSource, /item\.group !== activeCategory/);
   assert.match(pageSource, /placeholder="搜索竞赛名称或承办部门"/);
   assert.match(pageSource, /onClick=\{\(\) => setSelectedCompetition\(competition\)\}/);
   assert.match(pageSource, /竞赛介绍待补充/);

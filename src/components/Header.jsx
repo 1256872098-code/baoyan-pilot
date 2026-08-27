@@ -10,8 +10,8 @@ const navItems = [
   { path: "/", label: "首页" },
   { path: "/ai-recommend", label: "AI院校推荐" },
   ...(featureFlags.schoolDatabase ? [{ path: "/schools", label: "院校资料库" }] : []),
-  { path: "/want-baoyan", label: "我想保研" },
   { path: "/my-school", label: "我的院校" },
+  { path: "/want-baoyan", label: "竞赛清单" },
   { path: "/forum", label: "保研论坛" },
 ];
 
