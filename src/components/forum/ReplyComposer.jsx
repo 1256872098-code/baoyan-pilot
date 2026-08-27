@@ -27,6 +27,7 @@ export default function ReplyComposer({
         placeholder={placeholder}
         disabled={submitting}
       />
+      <p className="mt-2 text-xs leading-5 text-slate-500">系统会自动拦截辱骂、威胁及其他不友善内容。</p>
       {errorMessage && <p className="mt-2 text-sm font-semibold text-red-600">{errorMessage}</p>}
       <div className="mt-3 flex flex-wrap justify-end gap-2">
         {onCancel && (

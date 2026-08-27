@@ -33,6 +33,7 @@ import {
   normalizeAuthorLevelTags,
   stripOptionalAuthorFields,
 } from "../utils/forumAuthorProfile.js";
+import { getForumContentModerationError } from "../utils/forumContentModeration.js";
 
 const categories = [
   "全部",
@@ -466,6 +467,12 @@ export default function ForumPage() {
       return;
     }
 
+    const moderationError = getForumContentModerationError(title, content);
+    if (moderationError) {
+      setPostError(moderationError);
+      return;
+    }
+
     setPosting(true);
     setPostError("");
     setErrorMessage("");
@@ -511,6 +518,12 @@ export default function ForumPage() {
     const content = replyContent.trim();
     if (!content) {
       setReplyError("回复内容不能为空。");
+      return;
+    }
+
+    const moderationError = getForumContentModerationError(content);
+    if (moderationError) {
+      setReplyError(moderationError);
       return;
     }
 
@@ -1072,6 +1085,7 @@ export default function ForumPage() {
                 placeholder="请写下你的经验、问题或资料信息"
               />
             </label>
+            <p className="mt-2 text-xs leading-5 text-slate-500">系统会自动拦截辱骂、威胁及其他不友善内容。</p>
             {postError && <p className="mt-3 text-sm font-semibold text-red-600">{postError}</p>}
             <div className="mt-4 flex justify-end">
               <button

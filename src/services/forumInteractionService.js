@@ -1,5 +1,6 @@
 import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
 import { forumAuthorProfileColumns, isAuthorProfileColumnError } from "../utils/forumAuthorProfile.js";
+import { assertForumContentAllowed } from "../utils/forumContentModeration.js";
 
 const loginRequiredMessage = "请先使用手机号体验登录后再操作。";
 const databaseNotConfiguredMessage =
@@ -248,6 +249,7 @@ export async function toggleReplyBookmark(replyId, userId) {
 export async function updateForumPost(postId, userId, values) {
   ensureDatabase();
   ensureUser(userId);
+  assertForumContentAllowed(values.title, values.content);
 
   const payload = {
     title: values.title,

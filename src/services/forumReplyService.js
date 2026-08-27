@@ -5,6 +5,7 @@ import {
   isAuthorProfileColumnError,
   stripOptionalAuthorFields,
 } from "../utils/forumAuthorProfile.js";
+import { assertForumContentAllowed } from "../utils/forumContentModeration.js";
 
 const maxReplyLength = 2000;
 const loginRequiredMessage = "请先使用手机号体验登录后再回复帖子。";
@@ -77,6 +78,8 @@ export async function createForumReply({ postId, content, currentUser, parentRep
   if (trimmedContent.length > maxReplyLength) {
     throw new Error(`回复内容不能超过 ${maxReplyLength} 字。`);
   }
+
+  assertForumContentAllowed(trimmedContent);
 
   const isTopLevel = !parentReply;
   if (!isTopLevel && parentReply.post_id !== postId) {

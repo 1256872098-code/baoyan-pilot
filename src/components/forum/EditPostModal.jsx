@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
+import { getForumContentModerationError } from "../../utils/forumContentModeration.js";
 
 export default function EditPostModal({ open, post, categories, saving, errorMessage, onClose, onSubmit }) {
   const modalRef = useRef(null);
@@ -45,6 +46,12 @@ export default function EditPostModal({ open, post, categories, saving, errorMes
 
     if (!content) {
       setLocalError("正文不能为空。");
+      return;
+    }
+
+    const moderationError = getForumContentModerationError(title, content);
+    if (moderationError) {
+      setLocalError(moderationError);
       return;
     }
 
@@ -103,6 +110,9 @@ export default function EditPostModal({ open, post, categories, saving, errorMes
                 onChange={(event) => updateField("content", event.target.value)}
                 placeholder="请写下你的经验、问题或资料信息"
               />
+              <span className="mt-2 block text-xs leading-5 text-slate-500">
+                系统会自动拦截辱骂、威胁及其他不友善内容。
+              </span>
             </label>
           </div>
 
