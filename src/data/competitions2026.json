@@ -1,0 +1,1017 @@
+{
+  "year": 2026,
+  "sourceTitle": "2026年度上海海洋大学学科竞赛立项项目",
+  "sourceFile": "2026学科竞赛清单(1).xlsx",
+  "items": [
+    {
+      "id": "2026-001",
+      "order": 1,
+      "category": "A+",
+      "group": "A",
+      "organizer": "信息",
+      "nationalName": "中国国际大学生创新创业大赛",
+      "regionalName": "中国国际大学生创新创业大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-002",
+      "order": 2,
+      "category": "A+",
+      "group": "A",
+      "organizer": "学生处",
+      "nationalName": "“挑战杯”/“创青春”中国大学生创业计划竞赛",
+      "regionalName": "“挑战杯”/“创青春”上海市大学生创业计划竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-003",
+      "order": 3,
+      "category": "A",
+      "group": "A",
+      "organizer": "工程",
+      "nationalName": "全国大学生电子设计竞赛",
+      "regionalName": "上海市大学生电子设计竞赛-TI杯",
+      "campusName": ""
+    },
+    {
+      "id": "2026-004",
+      "order": 4,
+      "category": "A",
+      "group": "A",
+      "organizer": "信息",
+      "nationalName": "全国大学生数学建模竞赛",
+      "regionalName": "全国大学生数学建模竞赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-005",
+      "order": 5,
+      "category": "A",
+      "group": "A",
+      "organizer": "信息",
+      "nationalName": "ICPC国际大学生程序设计竞赛（含亚洲区各站点赛）",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-006",
+      "order": 6,
+      "category": "A",
+      "group": "A",
+      "organizer": "教务处",
+      "nationalName": "全国大学生创新年会",
+      "regionalName": "上海市大学生创新创业训练计划成果展",
+      "campusName": ""
+    },
+    {
+      "id": "2026-007",
+      "order": 7,
+      "category": "B",
+      "group": "B",
+      "organizer": "外语",
+      "nationalName": "全国大学生英语竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-008",
+      "order": 8,
+      "category": "B",
+      "group": "B",
+      "organizer": "食品",
+      "nationalName": "全国大学生化学实验邀请赛",
+      "regionalName": "上海大学生化学实验竞赛暨实验创新设计竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-009",
+      "order": 9,
+      "category": "B",
+      "group": "B",
+      "organizer": "外语",
+      "nationalName": "“外研社”全国大学生外语能力大赛英语组国际传播综合能力赛项（原“外研社杯”全国英语演讲大赛）",
+      "regionalName": "“外研社”全国大学生外语能力大赛（上海赛区）英语组演讲赛项",
+      "campusName": ""
+    },
+    {
+      "id": "2026-010",
+      "order": 10,
+      "category": "B",
+      "group": "B",
+      "organizer": "经管",
+      "nationalName": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "regionalName": "全国大学生电子商务“创新、创意及创业”挑战赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-011",
+      "order": 11,
+      "category": "B",
+      "group": "B",
+      "organizer": "工程",
+      "nationalName": "全国大学生机械创新设计大赛",
+      "regionalName": "上海市大学生机械工程创新大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-012",
+      "order": 12,
+      "category": "B",
+      "group": "B",
+      "organizer": "工程",
+      "nationalName": "中国大学生工程实践与创新能力大赛",
+      "regionalName": "上海市大学生工程实践与创新能力大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-013",
+      "order": 13,
+      "category": "B",
+      "group": "B",
+      "organizer": "工程",
+      "nationalName": "全国大学生智能汽车竞赛",
+      "regionalName": "全国大学生智能汽车竞赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-014",
+      "order": 14,
+      "category": "B",
+      "group": "B",
+      "organizer": "经管",
+      "nationalName": "全国大学生广告艺术大赛",
+      "regionalName": "全国大学生广告艺术大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-015",
+      "order": 15,
+      "category": "B",
+      "group": "B",
+      "organizer": "海科",
+      "nationalName": "全国大学生节能减排社会实践与科技竞赛",
+      "regionalName": "上海市大学生节能减排社会实践与科技 竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-016",
+      "order": 16,
+      "category": "B",
+      "group": "B",
+      "organizer": "经管",
+      "nationalName": "全国大学生物流设计大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-017",
+      "order": 17,
+      "category": "B",
+      "group": "B",
+      "organizer": "信息",
+      "nationalName": "全国大学生物理实验竞赛",
+      "regionalName": "上海市大学生物理实验竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-018",
+      "order": 18,
+      "category": "B",
+      "group": "B",
+      "organizer": "外语",
+      "nationalName": "中国诗词大会",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-019",
+      "order": 19,
+      "category": "B",
+      "group": "B",
+      "organizer": "外语/美育中心",
+      "nationalName": "中华经典诵写讲大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-020",
+      "order": 20,
+      "category": "B",
+      "group": "B",
+      "organizer": "教务处",
+      "nationalName": "",
+      "regionalName": "“汇创青春”——上海大学生文化创意作品展示活动",
+      "campusName": ""
+    },
+    {
+      "id": "2026-021",
+      "order": 21,
+      "category": "B",
+      "group": "B",
+      "organizer": "学生处",
+      "nationalName": "",
+      "regionalName": "“知行杯”上海市大学生社会实践大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-022",
+      "order": 22,
+      "category": "B",
+      "group": "B",
+      "organizer": "生命",
+      "nationalName": "",
+      "regionalName": "陈嘉庚青少年发明奖(上海)",
+      "campusName": ""
+    },
+    {
+      "id": "2026-023",
+      "order": 23,
+      "category": "B",
+      "group": "B",
+      "organizer": "海科",
+      "nationalName": "",
+      "regionalName": "上海市青少年“明日科技之星”评选活动",
+      "campusName": ""
+    },
+    {
+      "id": "2026-024",
+      "order": 24,
+      "category": "C",
+      "group": "C",
+      "organizer": "生命",
+      "nationalName": "全国大学生生命科学竞赛（CULSC）-科学探究类",
+      "regionalName": "上海市大学生生命科学竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-025",
+      "order": 25,
+      "category": "C",
+      "group": "C",
+      "organizer": "生命",
+      "nationalName": "全国大学生水族箱造景技能大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-026",
+      "order": 26,
+      "category": "C",
+      "group": "C",
+      "organizer": "生命",
+      "nationalName": "高校大学生水产类创新实践能力大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-027",
+      "order": 27,
+      "category": "C",
+      "group": "C",
+      "organizer": "海资",
+      "nationalName": "全国海洋航行器设计与制作大赛",
+      "regionalName": "全国海洋航行器设计与制作大赛（长三角赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-028",
+      "order": 28,
+      "category": "C",
+      "group": "C",
+      "organizer": "海资",
+      "nationalName": "世界大学生水下机器人大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-029",
+      "order": 29,
+      "category": "C",
+      "group": "C",
+      "organizer": "海资",
+      "nationalName": "全国大学生海洋知识竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-030",
+      "order": 30,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "全国环境友好科技竞赛",
+      "regionalName": "全国环境友好科技竞赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-031",
+      "order": 31,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "全国大学生市政环境AI+创新实践能力大赛",
+      "regionalName": "全国大学生市政环境AI+创新实践能力大赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-032",
+      "order": 32,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "全国大学生海洋实践技能大赛",
+      "regionalName": "全国大学生海洋实践技能大赛（南部赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-033",
+      "order": 33,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "北控水务杯中国“互联网+”生态环境创新创业大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-034",
+      "order": 34,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "“深水杯”全国大学生给排水科技创新大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-035",
+      "order": 35,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "易智瑞杯中国大学生GIS软件开发竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-036",
+      "order": 36,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "全国大学生测绘学科创新创业智能大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-037",
+      "order": 37,
+      "category": "C",
+      "group": "C",
+      "organizer": "海科",
+      "nationalName": "",
+      "regionalName": "长三角大学生低碳水系统创新大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-038",
+      "order": 38,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "全国大学生化学实验创新设计大赛",
+      "regionalName": "全国大学生化学实验创新设计大赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-039",
+      "order": 39,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "全国医药院校药学/中药学专业大学生实验技能竞赛",
+      "regionalName": "上海市药学类专业大学生实验技能大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-040",
+      "order": 40,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "全国大学生能源经济学术创意大赛",
+      "regionalName": "全国大学生能源经济学术创意大赛(上海赛区)",
+      "campusName": ""
+    },
+    {
+      "id": "2026-041",
+      "order": 41,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "全国大学生生命科学竞赛（CULSC）-生命创新创业大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-042",
+      "order": 42,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "中国食品科学技术学会系列创新创意赛事（李锦记杯学生创新大赛、IFF营养与健康学生创新大赛等赛事）",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-043",
+      "order": 43,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "中国食品工业协会系列创新创意赛事（即水产品创新创意大赛等赛事）",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-044",
+      "order": 44,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "中国包装创意设计大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-045",
+      "order": 45,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "中国制冷空调行业大学生科技竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-046",
+      "order": 46,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "CAR-ASHRAE学生设计竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-047",
+      "order": 47,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "MDV中央空调设计应用大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-048",
+      "order": 48,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "“全国高等学校人工环境学科奖”专业基础竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-049",
+      "order": 49,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "全国食品专业工程实践训练综合能力竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-050",
+      "order": 50,
+      "category": "C",
+      "group": "C",
+      "organizer": "食品",
+      "nationalName": "",
+      "regionalName": "上海市食品学会系列创新创意赛事（食品创新创意大赛、食品创新大赛）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-051",
+      "order": 51,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "全国大学生市场调查与分析大赛",
+      "regionalName": "全国大学生市场调查与分析大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-052",
+      "order": 52,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "全国大学生创业决策仿真大赛",
+      "regionalName": "上海市大学生创业决策仿真大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-053",
+      "order": 53,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "全国高等院校数智化企业经营沙盘大赛",
+      "regionalName": "全国高等院校数智化企业经营沙盘大赛（上海市）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-054",
+      "order": 54,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "全国高校商业精英挑战赛•国际贸易竞赛",
+      "regionalName": "上海市高校商业精英挑战赛国际贸易竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-055",
+      "order": 55,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "全国大学生人力资源管理综合能力竞赛",
+      "regionalName": "全国大学生人力资源管理综合能力竞赛（第五赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-056",
+      "order": 56,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "“寻是杯”全国大学生公共管理决策模拟大赛",
+      "regionalName": "“寻是杯”全国大学生公共管理决策模拟大赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-057",
+      "order": 57,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "“学创杯”全国大学生创业综合模拟大赛",
+      "regionalName": "“学创杯”全国大学生创业综合模拟大赛上海赛区选拔赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-058",
+      "order": 58,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "农业数字化经营实践创新大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-059",
+      "order": 59,
+      "category": "C",
+      "group": "C",
+      "organizer": "经管",
+      "nationalName": "水产品品牌策划大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-060",
+      "order": 60,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "全国三维数字化创新设计大赛",
+      "regionalName": "全国三维数字化创新设计大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-061",
+      "order": 61,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "“西门子杯”中国智能制造挑战赛",
+      "regionalName": "“西门子杯”中国智能制造挑战赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-062",
+      "order": 62,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "“云丰杯”全国绿色供应链逆向物流设计大赛",
+      "regionalName": "上海市绿色供应链与逆向物流设计大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-063",
+      "order": 63,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "regionalName": "“上图杯”先进成图技术与创新设计大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-064",
+      "order": 64,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "蓝桥杯全国软件和信息技术专业人才大赛（电子类）",
+      "regionalName": "蓝桥杯全国软件和信息技术专业人才大赛（电子类）（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-065",
+      "order": 65,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "iCAN国际创新创业大赛",
+      "regionalName": "iCAN全国大学生创新创业大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-066",
+      "order": 66,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "高校电气电子工程创新大赛",
+      "regionalName": "高校电气电子工程创新大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-067",
+      "order": 67,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "中国大学生飞行器设计创新大赛",
+      "regionalName": "中国大学生飞行器设计创新大赛（东部选拔赛）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-068",
+      "order": 68,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "中国大学生机械工程创新创意大赛",
+      "regionalName": "中国大学生机械工程创新创意大赛智能制造赛上海市选拔赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-069",
+      "order": 69,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "“中国电机工程学会杯”全国大学生电工数学建模竞赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-070",
+      "order": 70,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "全国青少年智能无人系统应用大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-071",
+      "order": 71,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "全国大学生机器人大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-072",
+      "order": 72,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "全国高校智慧渔业设计大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-073",
+      "order": 73,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "",
+      "regionalName": "上海市大学生工业工程应用与创新大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-074",
+      "order": 74,
+      "category": "C",
+      "group": "C",
+      "organizer": "工程",
+      "nationalName": "",
+      "regionalName": "上海市大学生“创造杯”大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-075",
+      "order": 75,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "全国大学生数学竞赛",
+      "regionalName": "上海市大学生数学竞赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-076",
+      "order": 76,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "中国高校计算机大赛-移动应用创新赛",
+      "regionalName": "中国高校计算机大赛-移动应用创新赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-077",
+      "order": 77,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "蓝桥杯全国软件和信息技术专业人才大赛（软件类）",
+      "regionalName": "蓝桥杯全国软件和信息技术专业人才大赛（软件类）（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-078",
+      "order": 78,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "中国高校计算机大赛-团体程序设计天梯赛",
+      "regionalName": "中国高校计算机大赛-团体程序设计天梯赛（上海市）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-079",
+      "order": 79,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "中国大学生计算机设计大赛",
+      "regionalName": "上海市计算机应用能力大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-080",
+      "order": 80,
+      "category": "C",
+      "group": "C",
+      "organizer": "信息",
+      "nationalName": "全国大学生计算机应用能力与数字素养大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-081",
+      "order": 81,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛",
+      "regionalName": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-082",
+      "order": 82,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "韩素音国际翻译大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-083",
+      "order": 83,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "“外教社杯”全国高校学生跨文化能力大赛",
+      "regionalName": "“外教社杯”全国高校学生跨文化能力大赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-084",
+      "order": 84,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "全国口译大赛（英语）",
+      "regionalName": "全国口译大赛（英语）（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-085",
+      "order": 85,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "用英语讲中国故事大会",
+      "regionalName": "用英语讲中国故事大会（上海市）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-086",
+      "order": 86,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "中华全国日语演讲比赛",
+      "regionalName": "中华全国日语演讲比赛（华东赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-087",
+      "order": 87,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "中国大学生韩国语vlog大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-088",
+      "order": 88,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "LG新能源杯大学生韩语演讲大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-089",
+      "order": 89,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "成均馆韩文写作大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-090",
+      "order": 90,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "“云山杯”国际远程口译大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-091",
+      "order": 91,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "CATTI杯多语种阅读、词汇大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-092",
+      "order": 92,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "“复旦社杯”全国大学生学术英语词汇赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-093",
+      "order": 93,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "",
+      "regionalName": "“海洋杯”国际翻译大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-094",
+      "order": 94,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "",
+      "regionalName": "全国大学生日语演讲比赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-095",
+      "order": 95,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "",
+      "regionalName": "上海市日语才能演示大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-096",
+      "order": 96,
+      "category": "C",
+      "group": "C",
+      "organizer": "外语",
+      "nationalName": "",
+      "regionalName": "中华经典诵写讲大赛(上海赛区)\n1.“诵读中国”经典诵读大赛\n2.“诗教中国”诗词讲解大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-097",
+      "order": 97,
+      "category": "C",
+      "group": "C",
+      "organizer": "爱恩",
+      "nationalName": "“21世纪杯”全国英语演讲比赛",
+      "regionalName": "“21世纪杯”全国英语演讲比赛（上海赛区）",
+      "campusName": ""
+    },
+    {
+      "id": "2026-098",
+      "order": 98,
+      "category": "C",
+      "group": "C",
+      "organizer": "爱恩",
+      "nationalName": "",
+      "regionalName": "",
+      "campusName": "上海海洋大学商业项目策划暨Presentation大赛"
+    },
+    {
+      "id": "2026-099",
+      "order": 99,
+      "category": "C",
+      "group": "C",
+      "organizer": "美育中心",
+      "nationalName": "全国大中学生海洋文化创意设计大赛",
+      "regionalName": "",
+      "campusName": ""
+    },
+    {
+      "id": "2026-100",
+      "order": 100,
+      "category": "C",
+      "group": "C",
+      "organizer": "美育中心",
+      "nationalName": "",
+      "regionalName": "中华经典诵写讲大赛(上海赛区)\n1.\"笔墨中国\"书写大赛\n2.\"印记中国\"篆刻大赛",
+      "campusName": ""
+    },
+    {
+      "id": "2026-101",
+      "order": 101,
+      "category": "C",
+      "group": "C",
+      "organizer": "美育中心",
+      "nationalName": "",
+      "regionalName": "",
+      "campusName": "汉字文化创意大赛"
+    }
+  ]
+}

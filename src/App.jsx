@@ -10,6 +10,7 @@ import AiRecommendChat from "./pages/AiRecommendChat.jsx";
 import ForumPage from "./pages/ForumPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 import MySchoolPage from "./pages/MySchoolPage.jsx";
+import WantBaoyanPage from "./pages/WantBaoyanPage.jsx";
 import { featureFlags } from "./config/features.js";
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/schools/*" element={<Navigate to="/" replace />} />
           )}
           <Route path="/my-school" element={<MySchoolPage />} />
+          <Route path="/want-baoyan" element={<WantBaoyanPage />} />
           <Route path="/forum" element={<ForumPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/ai-recommend" element={<AiRecommendChat />} />
