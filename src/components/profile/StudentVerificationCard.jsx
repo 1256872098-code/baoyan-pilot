@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { AlertCircle, CheckCircle2, ExternalLink, FileCheck, LoaderCircle, ShieldCheck, UploadCloud } from "lucide-react";
 import { Card } from "../Card.jsx";
+import SearchableSchoolSelect from "../school/SearchableSchoolSelect.jsx";
 import {
   fetchLatestStudentVerification,
   submitStudentVerification,
@@ -37,11 +38,20 @@ function formatDate(value) {
   return new Intl.DateTimeFormat("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
 }
 
-export default function StudentVerificationCard({ user, userName, binding }) {
+export default function StudentVerificationCard({
+  user,
+  userName,
+  binding,
+  schools = [],
+  schoolsLoading = false,
+  schoolsError = "",
+  onVerificationChange,
+}) {
   const [verification, setVerification] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [verificationCode, setVerificationCode] = useState("");
+  const [selectedSchoolId, setSelectedSchoolId] = useState(binding?.schoolId || "");
   const [collegeName, setCollegeName] = useState(binding?.collegeName || "");
   const [majorName, setMajorName] = useState(binding?.majorName || binding?.major || "");
   const [reportFile, setReportFile] = useState(null);
@@ -51,7 +61,10 @@ export default function StudentVerificationCard({ user, userName, binding }) {
 
   const status = verification?.status || "unverified";
   const currentStatusMeta = statusMeta[status] || statusMeta.unverified;
-  const hasBinding = Boolean(binding?.schoolName);
+  const selectedSchool = useMemo(
+    () => schools.find((school) => school.id === selectedSchoolId) || null,
+    [schools, selectedSchoolId],
+  );
   const canApply = !["pending", "verified"].includes(status);
   const buttonLabel = useMemo(() => {
     if (status === "needs_more_info") return "补充核验材料";
@@ -60,9 +73,17 @@ export default function StudentVerificationCard({ user, userName, binding }) {
   }, [status]);
 
   useEffect(() => {
+    setSelectedSchoolId((current) => current || binding?.schoolId || "");
     setCollegeName(binding?.collegeName || "");
     setMajorName(binding?.majorName || binding?.major || "");
-  }, [binding?.collegeName, binding?.major, binding?.majorName]);
+  }, [binding?.collegeName, binding?.major, binding?.majorName, binding?.schoolId]);
+
+  useEffect(() => {
+    if (selectedSchoolId || !schools.length) return;
+    const schoolName = verification?.school_name || binding?.schoolName;
+    const matchedSchool = schools.find((school) => school.name === schoolName);
+    if (matchedSchool) setSelectedSchoolId(matchedSchool.id);
+  }, [binding?.schoolName, schools, selectedSchoolId, verification?.school_name]);
 
   useEffect(() => {
     let active = true;
@@ -71,7 +92,15 @@ export default function StudentVerificationCard({ user, userName, binding }) {
       setError("");
       try {
         const row = await fetchLatestStudentVerification(user?.id);
-        if (active) setVerification(row);
+        if (active) {
+          setVerification(row);
+          onVerificationChange?.(row);
+          if (row) {
+            setSelectedSchoolId(row.school_id || "");
+            setCollegeName(row.college_name || "");
+            setMajorName(row.major_name || "");
+          }
+        }
       } catch (loadError) {
         if (active) setError(loadError?.message || "核验状态加载失败，请稍后重试。");
       } finally {
@@ -108,14 +137,15 @@ export default function StudentVerificationCard({ user, userName, binding }) {
       const row = await submitStudentVerification({
         user,
         userName,
-        schoolId: binding?.schoolId || "",
-        schoolName: binding?.schoolName || "",
+        schoolId: selectedSchool?.id || "",
+        schoolName: selectedSchool?.name || "",
         collegeName,
         majorName,
         verificationCode,
         reportFile,
       });
       setVerification(row);
+      onVerificationChange?.(row);
       setVerificationCode("");
       setReportFile(null);
       setShowForm(false);
@@ -206,17 +236,11 @@ export default function StudentVerificationCard({ user, userName, binding }) {
         </p>
       )}
 
-      {!hasBinding && (
-        <p className="mt-4 text-sm leading-6 text-amber-700">
-          请先前往“我的院校”绑定学校、学院和专业，再申请学籍核验。
-        </p>
-      )}
-
       {canApply && !showForm && (
         <button
           type="button"
           className="btn-secondary mt-5 disabled:cursor-not-allowed disabled:opacity-50"
-          disabled={!hasBinding || loading}
+          disabled={loading}
           onClick={() => {
             setShowForm(true);
             setMessage("");
@@ -244,8 +268,19 @@ export default function StudentVerificationCard({ user, userName, binding }) {
             />
           </label>
           <label className="block">
-            <span className="field-label">当前绑定学校</span>
-            <input className="field-control bg-slate-50" value={binding?.schoolName || ""} readOnly />
+            <span className="field-label">认证学校</span>
+            <SearchableSchoolSelect
+              schools={schools}
+              value={selectedSchoolId}
+              onChange={(school) => setSelectedSchoolId(school?.id || "")}
+              placeholder="请选择需要核验的学校"
+              disabled={schoolsLoading}
+              loading={schoolsLoading}
+            />
+            <span className="mt-1 block text-xs leading-5 text-slate-400">
+              可自由选择需要核验的学校，不受“我的院校”当前绑定限制。
+            </span>
+            {schoolsError && <span className="mt-1 block text-xs font-semibold text-red-600">{schoolsError}</span>}
           </label>
           <label className="block">
             <span className="field-label">学院</span>
@@ -271,7 +306,7 @@ export default function StudentVerificationCard({ user, userName, binding }) {
             <button
               type="submit"
               className="btn-primary disabled:cursor-not-allowed disabled:bg-slate-300"
-              disabled={submitting || verificationCode.length !== 16 || !collegeName.trim() || !majorName.trim()}
+              disabled={submitting || verificationCode.length !== 16 || !selectedSchool || !collegeName.trim() || !majorName.trim()}
             >
               {submitting ? <LoaderCircle size={16} className="animate-spin" aria-hidden="true" /> : <FileCheck size={16} aria-hidden="true" />}
               {submitting ? "提交并预审中…" : "提交核验材料"}
@@ -282,4 +317,3 @@ export default function StudentVerificationCard({ user, userName, binding }) {
     </Card>
   );
 }
-

@@ -153,7 +153,7 @@ async function runAiPreReview({ pdfText, schoolName, collegeName, majorName }) {
 只做信息提取与一致性比较，不得给出最终认证决定，不得访问或尝试绕过学信网验证码、登录、反爬机制。
 不要输出姓名、身份证号、家庭住址、学号等无关敏感信息。
 
-用户当前绑定信息：
+用户本次申请核验的信息：
 - 学校：${schoolName}
 - 学院：${collegeName}
 - 专业：${majorName}
@@ -265,7 +265,7 @@ async function submitVerification(request, response) {
   } catch (error) {
     const messages = {
       INVALID_USER_ACCESS: "登录状态已失效，请重新登录后再试。",
-      MISSING_SCHOOL_INFO: "请完整填写当前绑定学校、学院和专业。",
+      MISSING_SCHOOL_INFO: "请选择认证学校，并完整填写学院和专业。",
       INVALID_VERIFICATION_CODE: "请输入16位学信网在线验证码。",
       INVALID_PDF: "仅支持上传有效的PDF文件。",
       PDF_TOO_LARGE: "PDF文件不能超过3MB。",
@@ -387,4 +387,3 @@ export default async function handler(request, response) {
     });
   }
 }
-

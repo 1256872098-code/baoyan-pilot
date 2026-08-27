@@ -3,13 +3,11 @@ import { Link } from "react-router-dom";
 import { Building2, Camera, MessageSquareText, UserRound } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import StudentVerificationCard from "../components/profile/StudentVerificationCard.jsx";
-import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.jsx";
 import { fetchMyPosts, fetchMyReplies } from "../services/profileService.js";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey } from "../utils/auth.js";
 import { fetchSchools } from "../utils/schoolData.js";
 
-const gradeOptions = ["", "大一", "大二", "大三", "大四", "研究生", "其他"];
 const conversationBaseKey = "baoyanpilot_ai_conversations";
 
 function getInitials(name) {
@@ -65,7 +63,6 @@ function getDefaultProfile(user) {
     school_name: user?.school_name || "",
     school_level_tags: Array.isArray(user?.school_level_tags) ? user.school_level_tags : [],
     major: "",
-    grade: "",
     bio: "",
     verification_status: "unverified",
     created_at: new Date().toISOString(),
@@ -133,14 +130,12 @@ export default function ProfilePage() {
   const [schools, setSchools] = useState([]);
   const [schoolsLoading, setSchoolsLoading] = useState(true);
   const [schoolsError, setSchoolsError] = useState("");
+  const [latestVerification, setLatestVerification] = useState(null);
 
   const avatarPreview = form.avatar_url;
   const displayNickname = form.nickname || "保研用户";
   const bioCount = useMemo(() => form.bio.length, [form.bio]);
-  const selectedSchool = useMemo(
-    () => schools.find((school) => school.id === form.school_id) || null,
-    [form.school_id, schools],
-  );
+  const verifiedAcademicInfo = latestVerification?.status === "verified" ? latestVerification : null;
 
   useEffect(() => {
     const controller = new AbortController();
@@ -169,11 +164,13 @@ export default function ProfilePage() {
       setForm(getDefaultProfile(null));
       setContentStats({ posts: 0, replies: 0, aiConversations: 0 });
       setMySchoolBinding(null);
+      setLatestVerification(null);
       return;
     }
 
     setForm(readLocalProfile(user));
     setMySchoolBinding(readMySchoolBinding(user.id));
+    setLatestVerification(null);
     setMessage("");
     setErrorMessage("");
 
@@ -200,35 +197,32 @@ export default function ProfilePage() {
     }
 
     loadContentStats();
-  }, [user]);
+  }, [user?.id]);
 
   useEffect(() => {
-    if (!schools.length || form.school_id || !form.school_name) return;
+    if (!user?.id || !verifiedAcademicInfo) return;
 
-    const matchedSchool = schools.find((school) => school.name === form.school_name);
-    if (!matchedSchool) return;
+    const matchedSchool = schools.find((school) => (
+      school.id === verifiedAcademicInfo.school_id || school.name === verifiedAcademicInfo.school_name
+    ));
+    const academicFields = {
+      school_id: matchedSchool?.id || verifiedAcademicInfo.school_id || "",
+      school_name: verifiedAcademicInfo.school_name || matchedSchool?.name || "",
+      school_level_tags: matchedSchool?.levelTags || [],
+      major: verifiedAcademicInfo.major_name || "",
+      verification_status: "verified",
+    };
 
-    setForm((current) => ({
-      ...current,
-      school_id: matchedSchool.id,
-      school_name: matchedSchool.name,
-      school_level_tags: matchedSchool.levelTags || [],
-    }));
-  }, [form.school_id, form.school_name, schools]);
+    setForm((current) => {
+      const nextProfile = { ...current, ...academicFields, updated_at: new Date().toISOString() };
+      saveLocalProfile(user.id, nextProfile);
+      return nextProfile;
+    });
+    updateMockUser?.({ ...academicFields, grade: "" });
+  }, [schools, updateMockUser, user?.id, verifiedAcademicInfo]);
 
   const updateForm = (field, value) => {
     setForm((current) => ({ ...current, [field]: value }));
-    setMessage("");
-    setErrorMessage("");
-  };
-
-  const handleSchoolChange = (school) => {
-    setForm((current) => ({
-      ...current,
-      school_id: school?.id || "",
-      school_name: school?.name || "",
-      school_level_tags: school?.levelTags || [],
-    }));
     setMessage("");
     setErrorMessage("");
   };
@@ -290,16 +284,16 @@ export default function ProfilePage() {
 
     try {
       const now = new Date().toISOString();
+      const { grade: _legacyGrade, ...profileWithoutGrade } = form;
       const nextProfile = {
-        ...form,
+        ...profileWithoutGrade,
         nickname,
-        school_id: selectedSchool?.id || "",
-        school_name: selectedSchool?.name || "",
-        school_level_tags: selectedSchool?.levelTags || [],
-        major: form.major.trim(),
-        grade: form.grade,
+        school_id: verifiedAcademicInfo?.school_id || "",
+        school_name: verifiedAcademicInfo?.school_name || "",
+        school_level_tags: form.school_level_tags || [],
+        major: verifiedAcademicInfo?.major_name || "",
         bio,
-        verification_status: "unverified",
+        verification_status: verifiedAcademicInfo ? "verified" : "unverified",
         created_at: form.created_at || now,
         updated_at: now,
       };
@@ -312,7 +306,7 @@ export default function ProfilePage() {
         school_name: nextProfile.school_name,
         school_level_tags: nextProfile.school_level_tags,
         major: nextProfile.major,
-        grade: nextProfile.grade,
+        grade: "",
         bio: nextProfile.bio,
       });
       setForm(nextProfile);
@@ -398,34 +392,23 @@ export default function ProfilePage() {
                 </label>
                 <label className="block">
                   <span className="field-label">所在院校</span>
-                  <SearchableSchoolSelect
-                    schools={schools}
-                    value={form.school_id}
-                    onChange={handleSchoolChange}
-                    placeholder="请选择所在院校"
-                    disabled={schoolsLoading}
-                    loading={schoolsLoading}
+                  <input
+                    className="field-control cursor-not-allowed bg-slate-50 text-slate-700"
+                    value={verifiedAcademicInfo?.school_name || ""}
+                    placeholder="学籍核验通过后自动填写"
+                    readOnly
                   />
-                  {schoolsError && <p className="mt-2 text-xs font-semibold text-red-600">{schoolsError}</p>}
+                  <span className="mt-1 block text-xs text-slate-400">该信息来自已通过的学籍核验，不能手动修改。</span>
                 </label>
                 <label className="block">
                   <span className="field-label">专业</span>
                   <input
-                    className="field-control"
-                    value={form.major}
-                    onChange={(event) => updateForm("major", event.target.value)}
-                    placeholder="例如：会计学"
+                    className="field-control cursor-not-allowed bg-slate-50 text-slate-700"
+                    value={verifiedAcademicInfo?.major_name || ""}
+                    placeholder="学籍核验通过后自动填写"
+                    readOnly
                   />
-                </label>
-                <label className="block">
-                  <span className="field-label">年级</span>
-                  <select className="field-control" value={form.grade} onChange={(event) => updateForm("grade", event.target.value)}>
-                    {gradeOptions.map((grade) => (
-                      <option key={grade || "empty"} value={grade}>
-                        {grade || "请选择"}
-                      </option>
-                    ))}
-                  </select>
+                  <span className="mt-1 block text-xs text-slate-400">该信息来自已通过的学籍核验，不能手动修改。</span>
                 </label>
                 <label className="block md:col-span-2">
                   <span className="field-label">个人简介</span>
@@ -433,7 +416,7 @@ export default function ProfilePage() {
                     className="field-control min-h-[112px] resize-y"
                     value={form.bio}
                     onChange={(event) => updateForm("bio", event.target.value)}
-                    placeholder="简单介绍你的专业方向、保研目标或经验标签"
+                    placeholder="简单介绍一下自己吧~"
                   />
                   <span className="mt-1 block text-right text-xs text-slate-400">{bioCount}/200</span>
                 </label>
@@ -457,6 +440,10 @@ export default function ProfilePage() {
               user={user}
               userName={displayNickname}
               binding={mySchoolBinding}
+              schools={schools}
+              schoolsLoading={schoolsLoading}
+              schoolsError={schoolsError}
+              onVerificationChange={setLatestVerification}
             />
 
             <Card className="p-6">

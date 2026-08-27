@@ -73,7 +73,7 @@ export async function submitStudentVerification({
   const code = String(verificationCode || "").replace(/\s/g, "");
   if (!/^\d{16}$/.test(code)) throw new Error("请输入16位学信网在线验证码。");
   if (!schoolName || !collegeName?.trim() || !majorName?.trim()) {
-    throw new Error("请完整填写当前绑定学校、学院和专业。");
+    throw new Error("请选择认证学校，并完整填写学院和专业。");
   }
 
   const fileError = validateVerificationPdf(reportFile);
@@ -131,4 +131,3 @@ export async function reviewStudentVerification({ adminToken, id, status, adminN
   const payload = await parseApiResponse(response, "审核结果保存失败，请稍后重试。");
   return payload.verification;
 }
-

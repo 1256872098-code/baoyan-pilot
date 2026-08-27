@@ -23,15 +23,28 @@ test("个人中心用学籍核验替换院校认证体验提示并提供五种�
   assert.match(cardSource, /材料已提交，正在等待审核。/);
 });
 
-test("用户表单收集16位验证码、当前绑定信息和可选私有PDF", () => {
+test("用户表单收集16位验证码、可自由选择的认证学校和可选私有PDF", () => {
   assert.match(cardSource, /学信网16位在线验证码/);
   assert.match(cardSource, /maxLength=\{16\}/);
-  assert.match(cardSource, /当前绑定学校/);
+  assert.match(cardSource, /认证学校/);
+  assert.match(cardSource, /SearchableSchoolSelect/);
+  assert.match(cardSource, /不受“我的院校”当前绑定限制/);
+  assert.match(cardSource, /schoolId: selectedSchool\?\.id/);
+  assert.match(cardSource, /schoolName: selectedSchool\?\.name/);
   assert.match(cardSource, />学院</);
   assert.match(cardSource, />专业</);
   assert.match(cardSource, /application\/pdf/);
   assert.match(cardSource, /PDF（可选，最大3MB）/);
   assert.match(serviceSource, /window\.localStorage\.setItem\(key, token\)/);
+});
+
+test("个人资料的学校和专业只由已通过的学籍核验填写且不再展示年级", () => {
+  assert.match(profileSource, /latestVerification\?\.status === "verified"/);
+  assert.match(profileSource, /学籍核验通过后自动填写/);
+  assert.match(profileSource, /该信息来自已通过的学籍核验，不能手动修改。/);
+  assert.match(profileSource, /onVerificationChange=\{setLatestVerification\}/);
+  assert.doesNotMatch(profileSource, /<span className="field-label">年级<\/span>/);
+  assert.match(profileSource, /placeholder="简单介绍一下自己吧~"/);
 });
 
 test("AI只生成三类辅助建议，提交时状态始终为pending", () => {
