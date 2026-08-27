@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { ChevronDown, Compass, LogOut, Menu, MessageSquareText, UserRound, X } from "lucide-react";
+import { ChevronDown, Compass, Handshake, LogOut, Menu, MessageSquareText, UserRound, X } from "lucide-react";
+import ContactModal from "./ContactModal.jsx";
 import LoginModal from "./LoginModal.jsx";
 import NotificationBell from "./notifications/NotificationBell.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
@@ -25,6 +26,7 @@ export default function Header() {
   const { user, profile, loading, signOut } = useAuth();
   const [open, setOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
   const [accountMenuOpen, setAccountMenuOpen] = useState(false);
   const [notificationCloseKey, setNotificationCloseKey] = useState(0);
   const accountMenuRef = useRef(null);
@@ -55,6 +57,12 @@ export default function Header() {
     } catch (error) {
       window.alert(error?.message || "退出登录失败，请稍后重试。");
     }
+    setAccountMenuOpen(false);
+    setOpen(false);
+  };
+
+  const handleOpenContact = () => {
+    setContactOpen(true);
     setAccountMenuOpen(false);
     setOpen(false);
   };
@@ -144,6 +152,14 @@ export default function Header() {
                       <LogOut size={16} aria-hidden="true" />
                       退出登录
                     </button>
+                    <button
+                      type="button"
+                      className="mt-1 flex w-full items-center gap-2 border-t border-slate-200 px-3 pb-2 pt-3 text-left text-sm font-semibold text-slate-700 transition hover:bg-slate-100 hover:text-slate-950"
+                      onClick={handleOpenContact}
+                    >
+                      <Handshake size={16} aria-hidden="true" />
+                      联系我们
+                    </button>
                   </div>
                 )}
               </div>
@@ -215,6 +231,10 @@ export default function Header() {
                     <LogOut size={16} aria-hidden="true" />
                     退出登录
                   </button>
+                  <button type="button" className="btn-secondary mt-2 w-full" onClick={handleOpenContact}>
+                    <Handshake size={16} aria-hidden="true" />
+                    联系我们
+                  </button>
                 </div>
               ) : (
                 <button type="button" className="btn-primary w-full" onClick={handleOpenLogin}>
@@ -228,6 +248,7 @@ export default function Header() {
       )}
 
       <LoginModal open={loginOpen} onClose={() => setLoginOpen(false)} />
+      <ContactModal open={contactOpen} onClose={() => setContactOpen(false)} />
     </header>
   );
 }
