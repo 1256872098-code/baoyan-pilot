@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { Check, Copy, Gift, Handshake, MessageSquareText, X } from "lucide-react";
+import { Check, Copy, Gift, Handshake, LoaderCircle, MessageSquareText, Send, X } from "lucide-react";
+import { useAuth } from "../contexts/AuthContext.jsx";
+import { FEEDBACK_TYPES, submitUserFeedback } from "../services/feedbackService.js";
 
 const BUSINESS_WECHAT = "CUFEwwsa";
 
@@ -21,8 +23,12 @@ async function copyText(value) {
 }
 
 export default function ContactModal({ open, onClose }) {
+  const { user, profile } = useAuth();
+  const [feedbackType, setFeedbackType] = useState(FEEDBACK_TYPES[0]);
   const [feedback, setFeedback] = useState("");
   const [copyStatus, setCopyStatus] = useState("");
+  const [feedbackStatus, setFeedbackStatus] = useState({ type: "", message: "" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     if (!open) return undefined;
@@ -51,15 +57,23 @@ export default function ContactModal({ open, onClose }) {
     }
   };
 
-  const handleCopyFeedback = async () => {
+  const handleSubmitFeedback = async (event) => {
+    event.preventDefault();
     const content = feedback.trim();
-    if (!content) return;
+    if (!content || isSubmitting) return;
 
+    setIsSubmitting(true);
+    setFeedbackStatus({ type: "", message: "" });
     try {
-      await copyText(`【保研领航员反馈意见】\n${content}`);
-      setCopyStatus(`反馈内容已复制，请添加微信 ${BUSINESS_WECHAT} 后发送给我们`);
-    } catch {
-      setCopyStatus(`复制失败，请添加微信 ${BUSINESS_WECHAT} 后手动发送反馈`);
+      const pagePath = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+      await submitUserFeedback({ user, profile, feedbackType, content, pagePath });
+      setFeedback("");
+      setFeedbackType(FEEDBACK_TYPES[0]);
+      setFeedbackStatus({ type: "success", message: "反馈提交成功，感谢你的建议！" });
+    } catch (error) {
+      setFeedbackStatus({ type: "error", message: error?.message || "反馈提交失败，请稍后重试。" });
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -131,33 +145,69 @@ export default function ContactModal({ open, onClose }) {
               <MessageSquareText size={19} className="text-brand-700" aria-hidden="true" />
               <h3 id="feedback-title" className="font-bold text-slate-950">向我们提出反馈意见</h3>
             </div>
-            <p className="mt-2 text-sm leading-6 text-slate-500">写下遇到的问题或建议，复制后通过上方微信发送给我们。</p>
-            <label className="mt-4 block">
-              <span className="sr-only">反馈意见</span>
-              <textarea
-                value={feedback}
-                onChange={(event) => {
-                  setFeedback(event.target.value);
-                  setCopyStatus("");
-                }}
-                maxLength={500}
-                rows={5}
-                placeholder="例如：功能建议、页面问题、资料纠错或使用体验……"
-                className="w-full resize-y rounded-lg border border-slate-300 px-3.5 py-3 text-sm leading-6 text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
-              />
-            </label>
-            <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-              <p className="text-xs text-slate-400">{feedback.length}/500</p>
-              <button
-                type="button"
-                className="btn-primary px-4 py-2.5 disabled:cursor-not-allowed disabled:opacity-50"
-                disabled={!feedback.trim()}
-                onClick={handleCopyFeedback}
-              >
-                {copyStatus.startsWith("反馈内容已复制") ? <Check size={16} aria-hidden="true" /> : <Copy size={16} aria-hidden="true" />}
-                复制反馈内容
-              </button>
-            </div>
+            <p className="mt-2 text-sm leading-6 text-slate-500">
+              遇到问题或有功能建议，可以直接提交给我们，我们会持续查看并改进。
+            </p>
+            <form className="mt-4" onSubmit={handleSubmitFeedback}>
+              <label className="block">
+                <span className="mb-1.5 block text-sm font-semibold text-slate-700">反馈类型</span>
+                <select
+                  value={feedbackType}
+                  onChange={(event) => {
+                    setFeedbackType(event.target.value);
+                    setFeedbackStatus({ type: "", message: "" });
+                  }}
+                  className="w-full rounded-lg border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-slate-800 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+                >
+                  {FEEDBACK_TYPES.map((type) => (
+                    <option key={type} value={type}>{type}</option>
+                  ))}
+                </select>
+              </label>
+              <label className="mt-4 block">
+                <span className="mb-1.5 block text-sm font-semibold text-slate-700">反馈内容</span>
+                <textarea
+                  value={feedback}
+                  onChange={(event) => {
+                    setFeedback(event.target.value);
+                    setFeedbackStatus({ type: "", message: "" });
+                  }}
+                  maxLength={500}
+                  required
+                  rows={5}
+                  placeholder="例如：功能建议、页面问题、资料纠错或使用体验……"
+                  className="w-full resize-y rounded-lg border border-slate-300 px-3.5 py-3 text-sm leading-6 text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+                />
+              </label>
+              <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <p className="text-xs text-slate-400">{feedback.length}/500</p>
+                <button
+                  type="submit"
+                  className="btn-primary px-4 py-2.5 disabled:cursor-not-allowed disabled:opacity-50"
+                  disabled={!feedback.trim() || isSubmitting}
+                >
+                  {isSubmitting ? (
+                    <LoaderCircle size={16} className="animate-spin" aria-hidden="true" />
+                  ) : (
+                    <Send size={16} aria-hidden="true" />
+                  )}
+                  {isSubmitting ? "提交中…" : "提交反馈"}
+                </button>
+              </div>
+              {feedbackStatus.message && (
+                <p
+                  className={`mt-3 rounded-lg px-3 py-2 text-sm font-semibold ${
+                    feedbackStatus.type === "success"
+                      ? "bg-emerald-50 text-emerald-700"
+                      : "bg-red-50 text-red-700"
+                  }`}
+                  role="status"
+                >
+                  {feedbackStatus.type === "success" && <Check size={15} className="mr-1 inline" aria-hidden="true" />}
+                  {feedbackStatus.message}
+                </p>
+              )}
+            </form>
           </section>
 
           {copyStatus && (
