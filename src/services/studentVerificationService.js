@@ -105,6 +105,21 @@ export async function fetchAdminStudentVerifications(adminToken) {
   return payload.verifications || [];
 }
 
+export async function fetchAdminRegisteredUserCount(adminToken) {
+  const response = await fetch("/api/student-verifications-admin", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-admin-token": adminToken,
+    },
+    body: JSON.stringify({ action: "stats" }),
+  });
+  const payload = await parseApiResponse(response, "注册用户统计暂时无法加载，请稍后重试。");
+  const count = Number(payload?.stats?.registeredUserCount);
+  if (!Number.isFinite(count)) throw new Error("注册用户统计暂时无法加载，请稍后重试。");
+  return count;
+}
+
 export async function reviewStudentVerification({ adminToken, id, status, adminNote }) {
   const response = await fetch("/api/student-verifications-admin", {
     method: "POST",

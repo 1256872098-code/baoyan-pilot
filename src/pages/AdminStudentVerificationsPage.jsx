@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { CheckCircle2, ExternalLink, FileSearch, LoaderCircle, LogOut, RefreshCcw, ShieldAlert, XCircle } from "lucide-react";
+import { CheckCircle2, ExternalLink, FileSearch, LoaderCircle, LogOut, RefreshCcw, ShieldAlert, UsersRound, XCircle } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import {
+  fetchAdminRegisteredUserCount,
   fetchAdminStudentVerifications,
   reviewStudentVerification,
 } from "../services/studentVerificationService.js";
@@ -32,6 +33,8 @@ export default function AdminStudentVerificationsPage() {
   const [adminToken, setAdminToken] = useState(() => window.sessionStorage.getItem(ADMIN_TOKEN_KEY) || "");
   const [tokenInput, setTokenInput] = useState("");
   const [rows, setRows] = useState([]);
+  const [registeredUserCount, setRegisteredUserCount] = useState(null);
+  const [statsError, setStatsError] = useState("");
   const [notes, setNotes] = useState({});
   const [loading, setLoading] = useState(false);
   const [reviewingId, setReviewingId] = useState("");
@@ -42,10 +45,29 @@ export default function AdminStudentVerificationsPage() {
     if (!token) return;
     setLoading(true);
     setError("");
+    setStatsError("");
     try {
-      setRows(await fetchAdminStudentVerifications(token));
+      const [rowsResult, statsResult] = await Promise.allSettled([
+        fetchAdminStudentVerifications(token),
+        fetchAdminRegisteredUserCount(token),
+      ]);
+
+      if (rowsResult.status === "fulfilled") {
+        setRows(rowsResult.value);
+      } else {
+        setRows([]);
+        setError(rowsResult.reason?.message || "审核列表加载失败，请稍后重试。");
+      }
+
+      if (statsResult.status === "fulfilled") {
+        setRegisteredUserCount(statsResult.value);
+      } else {
+        setRegisteredUserCount(null);
+        setStatsError(statsResult.reason?.message || "注册用户统计暂时无法加载，请稍后重试。");
+      }
     } catch (loadError) {
       setRows([]);
+      setRegisteredUserCount(null);
       setError(loadError?.message || "审核列表加载失败，请稍后重试。");
     } finally {
       setLoading(false);
@@ -71,6 +93,8 @@ export default function AdminStudentVerificationsPage() {
     window.sessionStorage.removeItem(ADMIN_TOKEN_KEY);
     setAdminToken("");
     setRows([]);
+    setRegisteredUserCount(null);
+    setStatsError("");
     setError("");
     setMessage("");
   };
@@ -148,6 +172,26 @@ export default function AdminStudentVerificationsPage() {
             </button>
           </div>
         </div>
+
+        <Card className="mt-6 overflow-hidden p-0">
+          <div className="flex items-center gap-4 p-6">
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-700">
+              <UsersRound size={24} aria-hidden="true" />
+            </span>
+            <div>
+              <p className="text-sm font-semibold text-slate-500">注册用户总数</p>
+              <p className="mt-1 text-3xl font-black text-slate-950" aria-live="polite">
+                {registeredUserCount === null ? "—" : registeredUserCount.toLocaleString("zh-CN")}
+              </p>
+              <p className="mt-1 text-xs text-slate-400">来自 Supabase Auth，仅管理员后台可读取</p>
+            </div>
+          </div>
+          {statsError && (
+            <p className="border-t border-amber-100 bg-amber-50 px-6 py-3 text-sm text-amber-700">
+              {statsError}
+            </p>
+          )}
+        </Card>
 
         {message && <p className="mt-5 rounded-lg bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700">{message}</p>}
         {error && <p className="mt-5 rounded-lg bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">{error}</p>}

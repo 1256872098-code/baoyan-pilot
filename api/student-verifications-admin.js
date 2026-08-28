@@ -52,6 +52,26 @@ async function listVerifications(supabase, response) {
   sendJson(response, 200, { verifications: rows });
 }
 
+async function getAdminStats(supabase, response) {
+  const { data, error } = await supabase.auth.admin.listUsers({ page: 1, perPage: 1 });
+  const registeredUserCount = Number(data?.total);
+
+  if (error || !Number.isFinite(registeredUserCount)) {
+    if (process.env.NODE_ENV !== "production") {
+      // eslint-disable-next-line no-console
+      console.error("Admin registered-user count failed:", {
+        code: error?.code || "invalid_total",
+        message: error?.message || "Supabase Auth did not return a valid total.",
+      });
+    }
+    sendJson(response, 503, { error: "注册用户统计暂时无法加载，请稍后重试。" });
+    return;
+  }
+
+  // Only return the aggregate count. Never expose the Auth user list or email addresses.
+  sendJson(response, 200, { stats: { registeredUserCount } });
+}
+
 async function reviewVerification(supabase, body, response) {
   const id = String(body.id || "").trim();
   const status = String(body.status || "").trim();
@@ -107,6 +127,10 @@ export default async function handler(request, response) {
       await listVerifications(supabase, response);
       return;
     }
+    if (body.action === "stats") {
+      await getAdminStats(supabase, response);
+      return;
+    }
     if (body.action === "review") {
       await reviewVerification(supabase, body, response);
       return;
@@ -120,4 +144,3 @@ export default async function handler(request, response) {
     sendJson(response, 503, { error: "管理员审核服务暂时不可用，请稍后重试。" });
   }
 }
-
