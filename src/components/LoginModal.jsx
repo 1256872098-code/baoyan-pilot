@@ -53,7 +53,7 @@ export default function LoginModal({ open, onClose }) {
       throw new Error("昵称需要为 2 到 20 个字符。");
     }
     if (!emailPattern.test(normalizedEmail)) throw new Error("请输入有效的邮箱地址。");
-    if (password.length < 6) throw new Error("密码至少需要 6 位。");
+    if (password.length < 8) throw new Error("密码至少需要 8 位。");
     if (mode === "register" && password !== confirmPassword) throw new Error("两次输入的密码不一致。");
     return normalizedEmail;
   };
@@ -125,12 +125,12 @@ export default function LoginModal({ open, onClose }) {
             </label>
             <label className="block">
               <span className="field-label">密码</span>
-              <input className="field-control mt-2" type="password" value={password} minLength={6} autoComplete={mode === "login" ? "current-password" : "new-password"} onChange={(event) => { setPassword(event.target.value); setError(""); }} placeholder="至少 6 位" required />
+              <input className="field-control mt-2" type="password" value={password} minLength={8} autoComplete={mode === "login" ? "current-password" : "new-password"} onChange={(event) => { setPassword(event.target.value); setError(""); }} placeholder="至少 8 位" required />
             </label>
             {mode === "register" && (
               <label className="block">
                 <span className="field-label">确认密码</span>
-                <input className="field-control mt-2" type="password" value={confirmPassword} minLength={6} autoComplete="new-password" onChange={(event) => { setConfirmPassword(event.target.value); setError(""); }} placeholder="请再次输入密码" required />
+                <input className="field-control mt-2" type="password" value={confirmPassword} minLength={8} autoComplete="new-password" onChange={(event) => { setConfirmPassword(event.target.value); setError(""); }} placeholder="请再次输入至少 8 位密码" required />
               </label>
             )}
             {error && <p className="rounded-lg bg-red-50 px-3 py-2 text-sm leading-6 text-red-600">{error}</p>}

@@ -17,6 +17,11 @@ test("邮箱密码注册登录使用 Supabase Auth 并订阅真实会话", () =>
   assert.match(loginSource, />密码</);
   assert.match(loginSource, />确认密码</);
   assert.match(loginSource, />昵称</);
+  assert.match(loginSource, /password\.length < 8/);
+  assert.match(loginSource, /minLength=\{8\}/);
+  assert.match(loginSource, /placeholder="至少 8 位"/);
+  assert.match(authSource, /若该邮箱尚未注册，请先注册/);
+  assert.doesNotMatch(loginSource, /至少 6 位|minLength=\{6\}/);
   assert.doesNotMatch(`${authSource}\n${loginSource}`, /loginWithPhone|123456|baoyanpilot_mock_accounts|baoyanpilot_mock_user/);
 });
 

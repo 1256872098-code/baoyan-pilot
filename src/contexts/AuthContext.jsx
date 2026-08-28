@@ -125,7 +125,11 @@ export function AuthProvider({ children }) {
     });
     if (error) {
       setLoading(false);
-      throw new Error(error.message === "Invalid login credentials" ? "邮箱或密码不正确。" : "登录失败，请稍后重试。");
+      throw new Error(
+        error.message === "Invalid login credentials"
+          ? "邮箱或密码不正确；若该邮箱尚未注册，请先注册。"
+          : "登录失败，请稍后重试。",
+      );
     }
     await applySession(data.session);
     return data.user;
