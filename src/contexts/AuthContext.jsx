@@ -16,6 +16,51 @@ function requireSupabase() {
   if (!isSupabaseConfigured || !supabase) throw new Error("账号服务暂未配置，请稍后再试。");
 }
 
+function normalizeEmail(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function logAuthError(operation, error) {
+  if (!import.meta.env.DEV || !error) return;
+  // Do not log credentials, tokens, or the Supabase key.
+  // eslint-disable-next-line no-console
+  console.error(`[Auth] ${operation} failed`, {
+    code: error.code || "unknown",
+    status: error.status || "unknown",
+    message: error.message || "Unknown auth error",
+  });
+}
+
+function getSignInErrorMessage(error) {
+  const code = String(error?.code || "").toLowerCase();
+  const message = String(error?.message || "").toLowerCase();
+  if (code === "email_not_confirmed" || message.includes("email not confirmed")) {
+    return "该邮箱尚未完成确认，请先完成邮箱确认后再登录。";
+  }
+  if (code === "over_request_rate_limit" || message.includes("rate limit")) {
+    return "登录尝试过于频繁，请稍后再试。";
+  }
+  if (code === "invalid_credentials" || message.includes("invalid login credentials")) {
+    return "邮箱或密码不正确。请确认使用注册时的邮箱和密码；若尚未注册，请先注册。";
+  }
+  return "登录失败，请稍后重试。";
+}
+
+function getSignUpErrorMessage(error) {
+  const code = String(error?.code || "").toLowerCase();
+  const message = String(error?.message || "").toLowerCase();
+  if (code === "user_already_exists" || message.includes("already registered") || message.includes("already exists")) {
+    return "该邮箱已经注册，请直接登录。";
+  }
+  if (code === "weak_password" || message.includes("password")) {
+    return "密码至少需要 8 位。";
+  }
+  if (code === "over_request_rate_limit" || message.includes("rate limit")) {
+    return "注册尝试过于频繁，请稍后再试。";
+  }
+  return "注册失败，请稍后重试。";
+}
+
 function normalizeNickname(value, email = "") {
   const nickname = String(value || "").trim();
   if (nickname) return nickname;
@@ -120,16 +165,17 @@ export function AuthProvider({ children }) {
     requireSupabase();
     setLoading(true);
     const { data, error } = await supabase.auth.signInWithPassword({
-      email: String(email || "").trim(),
+      email: normalizeEmail(email),
       password: String(password || ""),
     });
     if (error) {
       setLoading(false);
-      throw new Error(
-        error.message === "Invalid login credentials"
-          ? "邮箱或密码不正确；若该邮箱尚未注册，请先注册。"
-          : "登录失败，请稍后重试。",
-      );
+      logAuthError("signInWithPassword", error);
+      throw new Error(getSignInErrorMessage(error));
+    }
+    if (!data?.session || !data?.user) {
+      setLoading(false);
+      throw new Error("登录会话创建失败，请稍后重试。");
     }
     await applySession(data.session);
     return data.user;
@@ -137,18 +183,24 @@ export function AuthProvider({ children }) {
 
   const signUp = useCallback(async ({ nickname, email, password }) => {
     requireSupabase();
-    const normalizedNickname = normalizeNickname(nickname, email);
+    const normalizedEmail = normalizeEmail(email);
+    const normalizedNickname = normalizeNickname(nickname, normalizedEmail);
     setLoading(true);
     const { data, error } = await supabase.auth.signUp({
-      email: String(email || "").trim(),
+      email: normalizedEmail,
       password: String(password || ""),
       options: { data: { nickname: normalizedNickname } },
     });
     if (error) {
       setLoading(false);
-      throw new Error(error.message?.includes("already registered") ? "该邮箱已经注册，请直接登录。" : "注册失败，请稍后重试。");
+      logAuthError("signUp", error);
+      throw new Error(getSignUpErrorMessage(error));
     }
-    if (!data.session) {
+    if (!data?.user) {
+      setLoading(false);
+      throw new Error("注册账号创建失败，请稍后重试。");
+    }
+    if (!data?.session) {
       setLoading(false);
       throw new Error("注册已创建，但项目仍开启邮箱确认。请在 Supabase Auth 设置中关闭 Confirm email 后重试登录。");
     }
