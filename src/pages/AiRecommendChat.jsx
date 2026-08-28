@@ -27,6 +27,12 @@ import {
   normalizeProfileStatus,
 } from "../utils/profileCompleteness.js";
 import { isRecommendationReportContent } from "../utils/recommendationPdf.js";
+import {
+  CONVERSATION_STAGES,
+  IMPROVEMENT_OFFER_MESSAGE,
+  classifyImprovementReply,
+  normalizeConversationStage,
+} from "../utils/improvementConversation.js";
 
 const LEGACY_MESSAGES_KEY = "baoyanpilot_ai_chat_messages";
 const BASE_CONVERSATIONS_KEY = "baoyanpilot_ai_conversations";
@@ -108,6 +114,7 @@ function createConversation(overrides = {}) {
     profileStatus: createEmptyProfileStatus(),
     profileStatusValidated: false,
     profileReadinessToken: "",
+    conversationStage: CONVERSATION_STAGES.RECOMMENDATION,
     revision: 0,
     createdAt: now,
     updatedAt: now,
@@ -116,12 +123,15 @@ function createConversation(overrides = {}) {
 }
 
 function inferMessageType(message, content) {
-  if (message?.messageType === "report") {
-    return "report";
-  }
-
-  if (message?.messageType === "normal") {
-    return "normal";
+  if ([
+    "report",
+    "normal",
+    "improvement_offer",
+    "improvement_followup",
+    "improvement_advice",
+    "improvement_declined",
+  ].includes(message?.messageType)) {
+    return message.messageType;
   }
 
   return isRecommendationReportContent(content) ? "report" : "normal";
@@ -178,6 +188,9 @@ function normalizeConversation(value, index) {
       !isOnlyOldWelcome && typeof value.profileReadinessToken === "string"
         ? value.profileReadinessToken.slice(0, 256)
         : "",
+    conversationStage: isOnlyOldWelcome
+      ? CONVERSATION_STAGES.RECOMMENDATION
+      : normalizeConversationStage(value.conversationStage, messages),
     revision: Number.isInteger(value.revision) ? value.revision : 0,
     createdAt: value.createdAt || now,
     updatedAt: value.updatedAt || value.createdAt || now,
@@ -331,7 +344,11 @@ ${REPORT_MARKER}
 
 function buildReportRequestMessages(messages, profileStatus) {
   const usefulMessages = messages
-    .filter((message) => ["user", "assistant"].includes(message.role))
+    .filter(
+      (message) =>
+        ["user", "assistant"].includes(message.role) &&
+        !String(message.messageType || "").startsWith("improvement_"),
+    )
     .slice(-12)
     .map((message) => ({
       role: message.role,
@@ -362,6 +379,7 @@ async function requestAiRecommendation(messages, options = {}) {
   const previousProfileReadinessToken = String(
     options.profileReadinessToken || "",
   );
+  const conversationStage = String(options.conversationStage || "");
   const payloadMessages = messages
     .filter((message) => ["user", "assistant"].includes(message.role))
     .map((message) => ({
@@ -389,6 +407,7 @@ async function requestAiRecommendation(messages, options = {}) {
         profileStatus: previousProfileStatus,
         profileStatusValidated: previousProfileStatusValidated,
         profileReadinessToken: previousProfileReadinessToken,
+        conversationStage,
       }),
       signal: controller.signal,
     });
@@ -400,7 +419,11 @@ async function requestAiRecommendation(messages, options = {}) {
     });
 
     if (fetchError?.name === "AbortError") {
-      throw new Error("AI 生成时间过长，请稍后重试，或先补充更聚焦的背景信息后再生成报告。");
+      throw new Error(
+        purpose === "improvement"
+          ? "AI 提升分析时间过长，请稍后重试。"
+          : "AI 生成时间过长，请稍后重试，或先补充更聚焦的背景信息后再生成报告。",
+      );
     }
 
     throw new Error("AI 接口请求未能到达后端。若你在本地开发，请确认 npm run dev 正在运行；若在 Vercel，请检查 /api/recommend。");
@@ -692,25 +715,18 @@ export default function AiRecommendChat() {
     ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
     : "游客模式：聊天记录仅保存在本浏览器。";
   const latestRecommendationReport = useMemo(
-    () => {
-      let latestReportIndex = -1;
-      let latestUserMessageIndex = -1;
-
-      messages.forEach((message, index) => {
-        if (message.role === "user") {
-          latestUserMessageIndex = index;
-        }
-        if (message.role === "assistant" && message.messageType === "report") {
-          latestReportIndex = index;
-        }
-      });
-
-      return latestReportIndex > latestUserMessageIndex
-        ? messages[latestReportIndex]
-        : null;
-    },
+    () => [...messages]
+      .reverse()
+      .find((message) => message.role === "assistant" && message.messageType === "report") || null,
     [messages],
   );
+  const isImprovementConversation =
+    Boolean(latestRecommendationReport) &&
+    [
+      CONVERSATION_STAGES.RECOMMENDATION_COMPLETE,
+      CONVERSATION_STAGES.IMPROVEMENT_OFFER,
+      CONVERSATION_STAGES.IMPROVEMENT_ADVICE,
+    ].includes(normalizeConversationStage(activeConversation?.conversationStage, messages));
   const canDownloadPdf = Boolean(latestRecommendationReport) && !isNavigationLocked;
 
   useEffect(() => {
@@ -802,6 +818,7 @@ export default function AiRecommendChat() {
               profileStatus: createEmptyProfileStatus(),
               profileStatusValidated: false,
               profileReadinessToken: "",
+              conversationStage: CONVERSATION_STAGES.RECOMMENDATION,
               revision: (conversation.revision || 0) + 1,
               updatedAt: now,
             }
@@ -839,6 +856,10 @@ export default function AiRecommendChat() {
                   typeof options.profileReadinessToken === "string"
                     ? options.profileReadinessToken
                     : conversation.profileReadinessToken,
+                conversationStage:
+                  typeof options.conversationStage === "string"
+                    ? normalizeConversationStage(options.conversationStage)
+                    : conversation.conversationStage,
                 updatedAt,
               }
             : conversation,
@@ -851,11 +872,33 @@ export default function AiRecommendChat() {
     const content = input.trim();
     if (!content || isThinking || isGeneratingReport || !activeConversation) return;
 
+    const currentConversationStage = normalizeConversationStage(
+      activeConversation.conversationStage,
+      activeConversation.messages,
+    );
+    const hasCompletedRecommendation = activeConversation.messages.some(
+      (message) => message.role === "assistant" && message.messageType === "report",
+    );
+    const isPostRecommendationFlow =
+      hasCompletedRecommendation &&
+      [
+        CONVERSATION_STAGES.RECOMMENDATION_COMPLETE,
+        CONVERSATION_STAGES.IMPROVEMENT_OFFER,
+        CONVERSATION_STAGES.IMPROVEMENT_ADVICE,
+      ].includes(currentConversationStage);
+    const improvementReplyType = isPostRecommendationFlow
+      ? classifyImprovementReply(content)
+      : "unclear";
+    const shouldRequestImprovement =
+      isPostRecommendationFlow &&
+      (currentConversationStage === CONVERSATION_STAGES.IMPROVEMENT_ADVICE ||
+        improvementReplyType === "affirmative");
+
     const userMessage = {
       id: createId("user"),
       role: "user",
       kind: "text",
-      messageType: "normal",
+      messageType: isPostRecommendationFlow ? "improvement_followup" : "normal",
       content,
       createdAt: new Date().toISOString(),
     };
@@ -870,31 +913,70 @@ export default function AiRecommendChat() {
 
     appendMessageToConversation(requestConversationId, userMessage, {
       title: nextTitle,
-      profileStatusValidated: false,
+      ...(isPostRecommendationFlow ? {} : { profileStatusValidated: false }),
       expectedRevision: requestConversationRevision,
     });
     setInput("");
     resetErrors();
+
+    if (isPostRecommendationFlow && improvementReplyType === "negative") {
+      appendMessageToConversation(requestConversationId, {
+        id: createId("assistant-improvement-declined"),
+        role: "assistant",
+        kind: "text",
+        messageType: "improvement_declined",
+        content: "好的，已生成的院校推荐和报告会继续保留，不会受到影响。之后如果需要，随时可以继续问我。",
+        createdAt: new Date().toISOString(),
+      }, {
+        conversationStage: CONVERSATION_STAGES.RECOMMENDATION_COMPLETE,
+        expectedRevision: requestConversationRevision,
+      });
+      return;
+    }
+
+    if (
+      isPostRecommendationFlow &&
+      currentConversationStage !== CONVERSATION_STAGES.IMPROVEMENT_ADVICE &&
+      improvementReplyType === "unclear"
+    ) {
+      appendMessageToConversation(requestConversationId, {
+        id: createId("assistant-improvement-clarify"),
+        role: "assistant",
+        kind: "text",
+        messageType: "improvement_offer",
+        content: "院校推荐和报告已经保留。若需要提升建议，可以回复“需要”或直接提出问题；暂时不需要也可以告诉我。",
+        createdAt: new Date().toISOString(),
+      }, {
+        conversationStage: CONVERSATION_STAGES.IMPROVEMENT_OFFER,
+        expectedRevision: requestConversationRevision,
+      });
+      return;
+    }
+
     setIsThinking(true);
 
     try {
       const result = await requestAiRecommendation(nextMessages, {
-        purpose: "chat",
+        purpose: shouldRequestImprovement ? "improvement" : "chat",
         profileStatus: activeConversation.profileStatus,
         profileStatusValidated: activeConversation.profileStatusValidated,
         profileReadinessToken: activeConversation.profileReadinessToken,
+        conversationStage: currentConversationStage,
       });
       appendMessageToConversation(requestConversationId, {
         id: createId("assistant"),
         role: "assistant",
         kind: "text",
-        messageType: "normal",
+        messageType: shouldRequestImprovement ? "improvement_advice" : "normal",
         content: stripReportMarker(result.reply),
         createdAt: new Date().toISOString(),
       }, {
         profileStatus: result.profileStatus,
         profileStatusValidated: result.profileStatusValidated,
         profileReadinessToken: result.profileReadinessToken,
+        ...(shouldRequestImprovement
+          ? { conversationStage: CONVERSATION_STAGES.IMPROVEMENT_ADVICE }
+          : {}),
         expectedRevision: requestConversationRevision,
       });
     } catch (requestError) {
@@ -904,7 +986,7 @@ export default function AiRecommendChat() {
         id: createId("assistant-error"),
         role: "assistant",
         kind: "text",
-        messageType: "normal",
+        messageType: shouldRequestImprovement ? "improvement_advice" : "normal",
         content: `AI 回复失败：${errorMessage}`,
         createdAt: new Date().toISOString(),
       }, {
@@ -967,8 +1049,25 @@ export default function AiRecommendChat() {
         profileStatus: result.profileStatus,
         profileStatusValidated: result.profileStatusValidated,
         profileReadinessToken: result.profileReadinessToken,
+        ...(isReport
+          ? { conversationStage: CONVERSATION_STAGES.RECOMMENDATION_COMPLETE }
+          : {}),
         expectedRevision: requestConversationRevision,
       });
+
+      if (isReport) {
+        appendMessageToConversation(requestConversationId, {
+          id: createId("assistant-improvement-offer"),
+          role: "assistant",
+          kind: "text",
+          messageType: "improvement_offer",
+          content: IMPROVEMENT_OFFER_MESSAGE,
+          createdAt: new Date().toISOString(),
+        }, {
+          conversationStage: CONVERSATION_STAGES.IMPROVEMENT_OFFER,
+          expectedRevision: requestConversationRevision,
+        });
+      }
 
       if (!isReport) {
         setAiError("AI 未返回符合格式的完整报告，请重试生成；已核验的资料不会丢失。");
@@ -1175,7 +1274,11 @@ export default function AiRecommendChat() {
                   <div className="flex gap-3">
                     <MessageAvatar role="assistant" />
                     <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-500 shadow-sm">
-                      {isGeneratingReport ? "正在生成规划报告..." : "正在请求 AI 推荐..."}
+                      {isGeneratingReport
+                        ? "正在生成规划报告..."
+                        : isImprovementConversation
+                          ? "正在分析下一阶段提升方向..."
+                          : "正在请求 AI 推荐..."}
                     </div>
                   </div>
                 )}
@@ -1185,13 +1288,19 @@ export default function AiRecommendChat() {
               <div className="shrink-0 border-t border-slate-200 bg-white px-5 py-4">
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-end">
                   <label className="block flex-1">
-                    <span className="field-label">输入 background 或补充信息</span>
+                    <span className="field-label">
+                      {isImprovementConversation ? "回复或继续追问提升建议" : "输入 background 或补充信息"}
+                    </span>
                     <textarea
                       className="field-control min-h-[72px] max-h-28 resize-y"
                       value={input}
                       onChange={(event) => setInput(event.target.value)}
                       onKeyDown={handleKeyDown}
-                      placeholder="例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，六级 570，有大创和商赛经历，实习暂时没有，想申请经管类，优先上海或江浙，风险偏好稳妥。"
+                      placeholder={
+                        isImprovementConversation
+                          ? "例如：需要；科研和竞赛哪个更重要？我的六级应该考到多少？这个学期具体应该做什么？"
+                          : "例如：我是大二，会计专业，本科普通一本，GPA 3.8/4.0，排名前 10%，六级 570，有大创和商赛经历，实习暂时没有，想申请经管类，优先上海或江浙，风险偏好稳妥。"
+                      }
                     />
                   </label>
                   <button
