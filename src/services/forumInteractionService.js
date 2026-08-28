@@ -2,7 +2,7 @@ import { supabase, isSupabaseConfigured } from "../lib/supabaseClient.js";
 import { forumAuthorProfileColumns, isAuthorProfileColumnError } from "../utils/forumAuthorProfile.js";
 import { assertForumContentAllowed } from "../utils/forumContentModeration.js";
 
-const loginRequiredMessage = "请先使用手机号体验登录后再操作。";
+const loginRequiredMessage = "请先登录账号后再操作。";
 const databaseNotConfiguredMessage =
   "论坛数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
 
@@ -291,61 +291,24 @@ export async function deleteForumPost({ postId, postAuthorId, currentUserId }) {
     throw new Error("你只能删除自己发布的帖子。");
   }
 
-  const { data: replyRows, error: repliesError } = await supabase
-    .from("forum_replies")
-    .select("id")
-    .eq("post_id", postId);
-
-  if (repliesError) throw repliesError;
-
-  const replyIds = (replyRows || []).map((reply) => reply.id);
-  if (replyIds.length) {
-    const { error: replyLikeError } = await supabase.from("forum_reply_likes").delete().in("reply_id", replyIds);
-    if (replyLikeError) throw replyLikeError;
-
-    const { error: replyDislikeError } = await supabase.from("forum_reply_dislikes").delete().in("reply_id", replyIds);
-    if (replyDislikeError) throw replyDislikeError;
-
-    const { error: replyBookmarkError } = await supabase.from("forum_reply_bookmarks").delete().in("reply_id", replyIds);
-    if (replyBookmarkError) throw replyBookmarkError;
-
-    const { error: replyDeleteError } = await supabase.from("forum_replies").delete().in("id", replyIds);
-    if (replyDeleteError) throw replyDeleteError;
-  }
-
-  const { error: postLikeError } = await supabase.from("forum_post_likes").delete().eq("post_id", postId);
-  if (postLikeError) throw postLikeError;
-
-  const { error: postDislikeError } = await supabase.from("forum_post_dislikes").delete().eq("post_id", postId);
-  if (postDislikeError) throw postDislikeError;
-
-  const { error: postBookmarkError } = await supabase.from("forum_post_bookmarks").delete().eq("post_id", postId);
-  if (postBookmarkError) throw postBookmarkError;
-
+  // Related replies and interaction rows are removed by database ON DELETE CASCADE.
+  // The client only deletes the signed-in user's own post.
   const { error } = await supabase.from("forum_posts").delete().eq("id", postId).eq("author_id", currentUserId);
   if (error) throw error;
   return true;
 }
 
-export async function deleteForumReply({ replyId, replyAuthorId, postAuthorId, currentUserId }) {
+export async function deleteForumReply({ replyId, replyAuthorId, currentUserId }) {
   ensureDatabase();
   ensureUser(currentUserId);
 
-  const canDelete = currentUserId === replyAuthorId || currentUserId === postAuthorId;
+  const canDelete = currentUserId === replyAuthorId;
   if (!canDelete) {
     throw new Error("你没有权限删除这条评论。");
   }
 
-  const { error: likeError } = await supabase.from("forum_reply_likes").delete().eq("reply_id", replyId);
-  if (likeError) throw likeError;
-
-  const { error: dislikeError } = await supabase.from("forum_reply_dislikes").delete().eq("reply_id", replyId);
-  if (dislikeError) throw dislikeError;
-
-  const { error: bookmarkError } = await supabase.from("forum_reply_bookmarks").delete().eq("reply_id", replyId);
-  if (bookmarkError) throw bookmarkError;
-
-  const { error } = await supabase.from("forum_replies").delete().eq("id", replyId);
+  // Reply interaction rows are removed by ON DELETE CASCADE.
+  const { error } = await supabase.from("forum_replies").delete().eq("id", replyId).eq("author_id", currentUserId);
   if (error) throw error;
   return true;
 }

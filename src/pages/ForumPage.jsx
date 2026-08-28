@@ -133,11 +133,11 @@ function logSupabaseError(label, error) {
 }
 
 function getLoginMessage(actionText) {
-  return `请先使用手机号体验登录后再${actionText}。`;
+  return `请先登录账号后再${actionText}。`;
 }
 
 export default function ForumPage() {
-  const { user } = useAuth();
+  const { user, isAuthenticated } = useAuth();
   const [searchParams, setSearchParams] = useSearchParams();
   const initialSearchQuery = normalizeForumSearchQuery(searchParams.get("q") || "");
   const requestedCategory = searchParams.get("category") || "";
@@ -174,7 +174,7 @@ export default function ForumPage() {
   const [expandedThreadIds, setExpandedThreadIds] = useState(() => new Set());
   const [highlightReplyId, setHighlightReplyId] = useState("");
 
-  const currentUserId = user?.loginType === "phone_mock" ? user.id : "";
+  const currentUserId = isAuthenticated ? user?.id || "" : "";
 
   const sortedPosts = useMemo(
     () => [...posts].sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()),
@@ -205,7 +205,7 @@ export default function ForumPage() {
   };
 
   const requireInteractiveUser = (actionText) => {
-    if (!user || user.loginType !== "phone_mock") {
+    if (!isAuthenticated || !user?.id) {
       setErrorMessage(getLoginMessage(actionText));
       setLoginOpen(true);
       return null;
@@ -920,8 +920,8 @@ export default function ForumPage() {
 
   const handleDeleteReplyRequest = (reply) => {
     if (!requireInteractiveUser("删除评论")) return;
-    if (user.id !== reply.author_id && user.id !== selectedPost?.author_id) {
-      setErrorMessage("你只能删除自己的评论，或删除自己帖子下的评论。");
+    if (user.id !== reply.author_id) {
+      setErrorMessage("你只能删除自己发布的评论。");
       return;
     }
     const deleteIds = collectReplyThreadIds(replies, reply.id);
@@ -998,7 +998,7 @@ export default function ForumPage() {
         </div>
 
         <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-          当前为模拟登录体验版。浏览公开开放，发布、回复、点赞、点踩、收藏、编辑和删除需要使用手机号体验登录。
+          浏览公开开放；发布、回复、点赞、点踩、收藏、编辑和删除需要登录真实账号。
         </div>
 
         {errorMessage && (
@@ -1162,7 +1162,7 @@ export default function ForumPage() {
         </div>
 
         <p className="mt-8 rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm leading-6 text-slate-500">
-          当前论坛数据使用 Supabase 数据库存储。当前权限控制仍属于产品原型体验版，后续会接入 Supabase Auth 和更严格的 RLS。
+          当前论坛使用 Supabase Auth 与行级安全策略；游客可浏览，登录用户只能修改自己的内容和互动记录。
         </p>
       </div>
 

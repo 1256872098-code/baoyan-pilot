@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Building2, Camera, MessageSquareText, UserRound } from "lucide-react";
 import { Card, CardHeader } from "../components/Card.jsx";
 import StudentVerificationCard from "../components/profile/StudentVerificationCard.jsx";
-import { fetchMyPosts, fetchMyReplies } from "../services/profileService.js";
+import { fetchMyPosts, fetchMyReplies, uploadAvatar } from "../services/profileService.js";
+import { fetchMySchoolBinding } from "../services/mySchoolBindingService.js";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { getScopedStorageKey } from "../utils/auth.js";
 import { fetchSchools } from "../utils/schoolData.js";
@@ -13,24 +14,6 @@ const conversationBaseKey = "baoyanpilot_ai_conversations";
 function getInitials(name) {
   const value = String(name || "保研用户").trim();
   return value.slice(0, 1).toUpperCase();
-}
-
-function getProfileKey(userId) {
-  return `baoyanpilot_profile_${userId}`;
-}
-
-function getMySchoolKey(userId) {
-  return `baoyanpilot_my_school_${userId}`;
-}
-
-function readMySchoolBinding(userId) {
-  if (typeof window === "undefined" || !userId) return null;
-  try {
-    const stored = window.localStorage.getItem(getMySchoolKey(userId));
-    return stored ? JSON.parse(stored) : null;
-  } catch {
-    return null;
-  }
 }
 
 function validateAvatarFile(file) {
@@ -46,58 +29,14 @@ function validateAvatarFile(file) {
   return "";
 }
 
-function readAvatarAsDataUrl(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => resolve(String(reader.result || ""));
-    reader.onerror = () => reject(new Error("头像读取失败，请重新选择文件。"));
-    reader.readAsDataURL(file);
-  });
-}
-
 function getDefaultProfile(user) {
   return {
     nickname: user?.nickname || "保研用户",
     avatar_url: user?.avatar || user?.avatarUrl || "",
-    school_id: user?.school_id || "",
-    school_name: user?.school_name || "",
-    school_level_tags: Array.isArray(user?.school_level_tags) ? user.school_level_tags : [],
-    major: "",
-    bio: "",
-    verification_status: "unverified",
+    bio: user?.bio || "",
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
   };
-}
-
-function readLocalProfile(user) {
-  if (typeof window === "undefined" || !user?.id) {
-    return getDefaultProfile(user);
-  }
-
-  try {
-    const stored = window.localStorage.getItem(getProfileKey(user.id));
-    if (!stored) {
-      return getDefaultProfile(user);
-    }
-
-    const profile = JSON.parse(stored);
-    return {
-      ...getDefaultProfile(user),
-      ...profile,
-      verification_status: "unverified",
-    };
-  } catch {
-    return getDefaultProfile(user);
-  }
-}
-
-function saveLocalProfile(userId, profile) {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  window.localStorage.setItem(getProfileKey(userId), JSON.stringify(profile));
 }
 
 function getAiConversationCount(user) {
@@ -114,7 +53,7 @@ function getAiConversationCount(user) {
 }
 
 export default function ProfilePage() {
-  const { user, updateMockUser } = useAuth();
+  const { user, profile, isAuthenticated, updateUserProfile } = useAuth();
   const [form, setForm] = useState(() => getDefaultProfile(null));
   const [contentStats, setContentStats] = useState({
     posts: 0,
@@ -160,7 +99,7 @@ export default function ProfilePage() {
   }, []);
 
   useEffect(() => {
-    if (!user) {
+    if (!isAuthenticated || !user) {
       setForm(getDefaultProfile(null));
       setContentStats({ posts: 0, replies: 0, aiConversations: 0 });
       setMySchoolBinding(null);
@@ -168,16 +107,20 @@ export default function ProfilePage() {
       return;
     }
 
-    setForm(readLocalProfile(user));
-    setMySchoolBinding(readMySchoolBinding(user.id));
+    setForm({ ...getDefaultProfile(user), ...(profile || {}) });
     setLatestVerification(null);
     setMessage("");
     setErrorMessage("");
 
-    async function loadContentStats() {
+    async function loadAccountData() {
       setLoadingStats(true);
       try {
-        const [myPosts, myReplies] = await Promise.all([fetchMyPosts(user.id), fetchMyReplies(user.id)]);
+        const [myPosts, myReplies, binding] = await Promise.all([
+          fetchMyPosts(user.id),
+          fetchMyReplies(user.id),
+          fetchMySchoolBinding(user.id),
+        ]);
+        setMySchoolBinding(binding);
         setContentStats({
           posts: myPosts.length,
           replies: myReplies.length,
@@ -196,30 +139,8 @@ export default function ProfilePage() {
       }
     }
 
-    loadContentStats();
-  }, [user?.id]);
-
-  useEffect(() => {
-    if (!user?.id || !verifiedAcademicInfo) return;
-
-    const matchedSchool = schools.find((school) => (
-      school.id === verifiedAcademicInfo.school_id || school.name === verifiedAcademicInfo.school_name
-    ));
-    const academicFields = {
-      school_id: matchedSchool?.id || verifiedAcademicInfo.school_id || "",
-      school_name: verifiedAcademicInfo.school_name || matchedSchool?.name || "",
-      school_level_tags: matchedSchool?.levelTags || [],
-      major: verifiedAcademicInfo.major_name || "",
-      verification_status: "verified",
-    };
-
-    setForm((current) => {
-      const nextProfile = { ...current, ...academicFields, updated_at: new Date().toISOString() };
-      saveLocalProfile(user.id, nextProfile);
-      return nextProfile;
-    });
-    updateMockUser?.({ ...academicFields, grade: "" });
-  }, [schools, updateMockUser, user?.id, verifiedAcademicInfo]);
+    loadAccountData();
+  }, [isAuthenticated, profile, user?.id]);
 
   const updateForm = (field, value) => {
     setForm((current) => ({ ...current, [field]: value }));
@@ -230,7 +151,7 @@ export default function ProfilePage() {
   const handleAvatarChange = async (event) => {
     const file = event.target.files?.[0];
     event.target.value = "";
-    if (!file || !user) {
+    if (!file || !isAuthenticated || !user) {
       return;
     }
 
@@ -245,7 +166,7 @@ export default function ProfilePage() {
     setErrorMessage("");
 
     try {
-      const avatarUrl = await readAvatarAsDataUrl(file);
+      const avatarUrl = await uploadAvatar(user.id, file);
       setForm((current) => ({ ...current, avatar_url: avatarUrl }));
     } catch (error) {
       setErrorMessage(error?.message || "头像上传失败，请稍后重试。");
@@ -255,7 +176,7 @@ export default function ProfilePage() {
   };
 
   const handleSaveProfile = async () => {
-    if (!user) {
+    if (!isAuthenticated || !user) {
       setErrorMessage("请先登录后再编辑个人资料。");
       return;
     }
@@ -283,34 +204,9 @@ export default function ProfilePage() {
     setErrorMessage("");
 
     try {
-      const now = new Date().toISOString();
-      const { grade: _legacyGrade, ...profileWithoutGrade } = form;
-      const nextProfile = {
-        ...profileWithoutGrade,
-        nickname,
-        school_id: verifiedAcademicInfo?.school_id || "",
-        school_name: verifiedAcademicInfo?.school_name || "",
-        school_level_tags: form.school_level_tags || [],
-        major: verifiedAcademicInfo?.major_name || "",
-        bio,
-        verification_status: verifiedAcademicInfo ? "verified" : "unverified",
-        created_at: form.created_at || now,
-        updated_at: now,
-      };
-
-      saveLocalProfile(user.id, nextProfile);
-      updateMockUser?.({
-        nickname: nextProfile.nickname,
-        avatar: nextProfile.avatar_url,
-        school_id: nextProfile.school_id,
-        school_name: nextProfile.school_name,
-        school_level_tags: nextProfile.school_level_tags,
-        major: nextProfile.major,
-        grade: "",
-        bio: nextProfile.bio,
-      });
+      const nextProfile = await updateUserProfile({ nickname, avatar_url: form.avatar_url, bio });
       setForm(nextProfile);
-      setMessage("个人资料已保存到当前浏览器。");
+      setMessage("个人资料已保存到云端。");
     } catch (error) {
       setErrorMessage(error?.message || "保存失败，请稍后重试。");
     } finally {
@@ -318,14 +214,14 @@ export default function ProfilePage() {
     }
   };
 
-  if (!user) {
+  if (!isAuthenticated || !user) {
     return (
       <div className="bg-slate-50 py-10">
         <div className="container-page">
           <Card className="p-8 text-center">
             <UserRound className="mx-auto h-10 w-10 text-slate-300" aria-hidden="true" />
             <h1 className="mt-4 text-2xl font-bold text-slate-950">个人中心</h1>
-            <p className="mt-3 text-sm leading-6 text-slate-500">请先登录或使用游客体验后再管理个人资料。</p>
+            <p className="mt-3 text-sm leading-6 text-slate-500">请先登录真实账号后再管理个人资料；游客模式仅支持浏览公开内容。</p>
           </Card>
         </div>
       </div>
@@ -337,8 +233,8 @@ export default function ProfilePage() {
       <div className="container-page">
         <CardHeader eyebrow="账号资料" title="个人中心" description="管理你的个人资料、院校信息和学籍核验状态。" />
 
-        <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-800">
-          当前账号资料仍保存在本地浏览器；学籍核验材料会单独安全提交，并由管理员人工完成最终审核。
+        <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
+          个人资料和我的院校已与当前 Supabase 账号同步；学籍核验材料仍由管理员人工完成最终审核。
         </div>
 
         {message && (
@@ -358,7 +254,7 @@ export default function ProfilePage() {
             <div className="flex items-center justify-between gap-4">
               <h2 className="text-xl font-bold text-slate-950">个人资料</h2>
               <span className="rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-semibold text-brand-700">
-                产品体验版
+                云端账号
               </span>
             </div>
 
@@ -450,7 +346,7 @@ export default function ProfilePage() {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h2 className="text-xl font-bold text-slate-950">我的内容</h2>
-                  <p className="mt-2 text-sm leading-6 text-slate-500">查看你在当前浏览器账号下的内容记录。</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-500">查看当前账号在云端保存的内容记录。</p>
                 </div>
                 <MessageSquareText className="h-8 w-8 text-brand-600" aria-hidden="true" />
               </div>

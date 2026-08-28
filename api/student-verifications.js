@@ -1,4 +1,4 @@
-import { createHash, randomUUID } from "node:crypto";
+import { randomUUID } from "node:crypto";
 import { inflateSync } from "node:zlib";
 import { createClient } from "@supabase/supabase-js";
 
@@ -47,8 +47,13 @@ export function getServerSupabase() {
   });
 }
 
-export function hashAccessToken(value) {
-  return createHash("sha256").update(String(value || ""), "utf8").digest("hex");
+async function getAuthenticatedUser(request, supabase) {
+  const authorization = String(request.headers?.authorization || "");
+  const accessToken = authorization.match(/^Bearer\s+(.+)$/i)?.[1]?.trim();
+  if (!accessToken) throw new Error("AUTH_REQUIRED");
+  const { data, error } = await supabase.auth.getUser(accessToken);
+  if (error || !data?.user) throw new Error("AUTH_REQUIRED");
+  return data.user;
 }
 
 function cleanText(value, maxLength) {
@@ -232,21 +237,18 @@ function decodePdfPayload(pdf) {
   return { buffer, fileName, mimeType: "application/pdf" };
 }
 
-function validateSubmission(body) {
-  const userId = cleanText(body.userId, 128);
+function validateSubmission(body, userId) {
   const userName = cleanText(body.userName, 80) || "保研用户";
   const schoolId = cleanText(body.schoolId, 160) || null;
   const schoolName = cleanText(body.schoolName, 160);
   const collegeName = cleanText(body.collegeName, 160);
   const majorName = cleanText(body.majorName, 160);
   const verificationCode = String(body.verificationCode || "").replace(/\s/g, "");
-  const accessToken = cleanText(body.accessToken, 256);
-
-  if (!userId || accessToken.length < 32) throw new Error("INVALID_USER_ACCESS");
+  if (!userId) throw new Error("INVALID_USER_ACCESS");
   if (!schoolName || !collegeName || !majorName) throw new Error("MISSING_SCHOOL_INFO");
   if (!/^\d{16}$/.test(verificationCode)) throw new Error("INVALID_VERIFICATION_CODE");
 
-  return { userId, userName, schoolId, schoolName, collegeName, majorName, verificationCode, accessToken };
+  return { userId, userName, schoolId, schoolName, collegeName, majorName, verificationCode };
 }
 
 async function addSignedReportUrl(supabase, row) {
@@ -257,10 +259,18 @@ async function addSignedReportUrl(supabase, row) {
 
 async function submitVerification(request, response) {
   const body = await readJsonBody(request);
+  const supabase = getServerSupabase();
+  let authUser;
+  try {
+    authUser = await getAuthenticatedUser(request, supabase);
+  } catch {
+    sendJson(response, 401, { error: "登录状态已失效，请重新登录后再试。" });
+    return;
+  }
   let fields;
   let pdf;
   try {
-    fields = validateSubmission(body);
+    fields = validateSubmission(body, authUser.id);
     pdf = decodePdfPayload(body.pdf);
   } catch (error) {
     const messages = {
@@ -274,9 +284,7 @@ async function submitVerification(request, response) {
     return;
   }
 
-  const supabase = getServerSupabase();
   const id = randomUUID();
-  const accessTokenHash = hashAccessToken(fields.accessToken);
   let reportPath = null;
 
   const aiReview = pdf
@@ -289,8 +297,7 @@ async function submitVerification(request, response) {
     : createManualReview("用户未上传PDF，需管理员根据在线验证码及填写的学校、学院和专业信息人工核验。");
 
   if (pdf) {
-    const userFolder = createHash("sha256").update(fields.userId).digest("hex").slice(0, 24);
-    reportPath = `${userFolder}/${id}/education-status-report.pdf`;
+    reportPath = `${fields.userId}/${id}/education-status-report.pdf`;
     const { error: uploadError } = await supabase.storage.from(REPORT_BUCKET).upload(reportPath, pdf.buffer, {
       contentType: pdf.mimeType,
       upsert: false,
@@ -317,7 +324,6 @@ async function submitVerification(request, response) {
         ai_review_result: aiReview.result,
         ai_review_reason: aiReview.reason,
         status: "pending",
-        access_token_hash: accessTokenHash,
       },
     ])
     .select("id,user_id,user_name,school_id,school_name,college_name,major_name,verification_code,report_file_url,ai_review_result,ai_review_reason,status,admin_note,submitted_at,verified_at,updated_at")
@@ -333,20 +339,19 @@ async function submitVerification(request, response) {
 }
 
 async function fetchLatestVerification(request, response) {
-  const url = new URL(request.url, "http://localhost");
-  const userId = cleanText(url.searchParams.get("userId"), 128);
-  const accessToken = cleanText(request.headers["x-verification-access-token"], 256);
-  if (!userId || accessToken.length < 32) {
+  const supabase = getServerSupabase();
+  let authUser;
+  try {
+    authUser = await getAuthenticatedUser(request, supabase);
+  } catch {
     sendJson(response, 401, { error: "登录状态已失效，请重新登录后再试。" });
     return;
   }
 
-  const supabase = getServerSupabase();
   const { data, error } = await supabase
     .from("student_verifications")
     .select("id,user_id,user_name,school_id,school_name,college_name,major_name,verification_code,report_file_url,ai_review_result,ai_review_reason,status,admin_note,submitted_at,verified_at,updated_at")
-    .eq("user_id", userId)
-    .eq("access_token_hash", hashAccessToken(accessToken))
+    .eq("user_id", authUser.id)
     .order("submitted_at", { ascending: false })
     .limit(1)
     .maybeSingle();

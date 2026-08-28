@@ -638,7 +638,7 @@ function ConversationSidebar({
 }
 
 export default function AiRecommendChat() {
-  const { user } = useAuth();
+  const { user, isAuthenticated } = useAuth();
   const storageUser = useMemo(() => (user ? { id: user.id } : null), [user?.id]);
   const storageOwnerId = storageUser?.id || LOCAL_GUEST_USER_ID;
   const [initialConversationState] = useState(() => loadConversationState(null));
@@ -688,9 +688,9 @@ export default function AiRecommendChat() {
     : profileStatus.confirmedCount > 0
       ? `已确认 ${profileStatus.confirmedCount}/${profileStatus.totalCount} 项，还需补充：${missingProfileLabels.slice(0, 3).join("、")}${missingProfileLabels.length > 3 ? "等" : ""}`
       : "请先回答 AI 的问题，信息齐全后即可生成报告";
-  const storageNotice = user
+  const storageNotice = isAuthenticated
     ? "已登录：当前记录已按账号保存在本地浏览器，暂不支持跨设备同步。"
-    : "未登录：当前为本地模式，聊天记录仅保存在本浏览器。";
+    : "游客模式：聊天记录仅保存在本浏览器。";
   const latestRecommendationReport = useMemo(
     () => {
       let latestReportIndex = -1;

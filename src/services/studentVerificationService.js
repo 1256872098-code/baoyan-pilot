@@ -1,25 +1,16 @@
-const ACCESS_TOKEN_PREFIX = "baoyanpilot_student_verification_access";
+import { supabase } from "../lib/supabaseClient.js";
+
 const MAX_REPORT_BYTES = 3 * 1024 * 1024;
 
-function getAccessTokenKey(userId) {
-  return `${ACCESS_TOKEN_PREFIX}_${userId}`;
-}
-
-function createAccessToken() {
-  if (typeof crypto !== "undefined" && crypto.randomUUID) {
-    return `${crypto.randomUUID()}${crypto.randomUUID()}`;
-  }
-  return `${Date.now()}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
-}
-
-function getOrCreateAccessToken(userId) {
-  if (typeof window === "undefined" || !userId) return "";
-  const key = getAccessTokenKey(userId);
-  const existing = window.localStorage.getItem(key);
-  if (existing) return existing;
-  const token = createAccessToken();
-  window.localStorage.setItem(key, token);
-  return token;
+async function getAuthHeaders(includeJson = false) {
+  if (!supabase) throw new Error("学籍核验服务尚未完成配置，请稍后再试。");
+  const { data, error } = await supabase.auth.getSession();
+  const accessToken = data?.session?.access_token;
+  if (error || !accessToken) throw new Error("请先登录后再申请学籍核验。");
+  return {
+    ...(includeJson ? { "Content-Type": "application/json" } : {}),
+    Authorization: `Bearer ${accessToken}`,
+  };
 }
 
 function readFileAsBase64(file) {
@@ -51,10 +42,7 @@ export function validateVerificationPdf(file) {
 
 export async function fetchLatestStudentVerification(userId) {
   if (!userId) return null;
-  const accessToken = getOrCreateAccessToken(userId);
-  const response = await fetch(`/api/student-verifications?userId=${encodeURIComponent(userId)}`, {
-    headers: { "x-verification-access-token": accessToken },
-  });
+  const response = await fetch("/api/student-verifications", { headers: await getAuthHeaders() });
   const payload = await parseApiResponse(response, "核验状态加载失败，请稍后重试。");
   return payload.verification || null;
 }
@@ -89,16 +77,14 @@ export async function submitStudentVerification({
 
   const response = await fetch("/api/student-verifications", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: await getAuthHeaders(true),
     body: JSON.stringify({
-      userId: user.id,
       userName: String(userName || user.nickname || "保研用户").trim(),
       schoolId: schoolId || null,
       schoolName,
       collegeName: collegeName.trim(),
       majorName: majorName.trim(),
       verificationCode: code,
-      accessToken: getOrCreateAccessToken(user.id),
       pdf,
     }),
   });

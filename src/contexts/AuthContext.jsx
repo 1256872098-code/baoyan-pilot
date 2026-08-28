@@ -1,273 +1,249 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { isSupabaseConfigured, supabase } from "../lib/supabaseClient.js";
 
 const AuthContext = createContext(null);
 
-const MOCK_USER_KEY = "baoyanpilot_mock_user";
-const MOCK_ACCOUNTS_KEY = "baoyanpilot_mock_accounts";
-const phonePattern = /^1\d{10}$/;
+const GUEST_USER = Object.freeze({
+  id: "guest",
+  nickname: "游客体验",
+  avatar: "",
+  avatar_url: "",
+  loginType: "guest",
+  isGuest: true,
+});
 
-function readJson(key, fallback) {
-  if (typeof window === "undefined") {
-    return fallback;
-  }
-
-  try {
-    const value = window.localStorage.getItem(key);
-    return value ? JSON.parse(value) : fallback;
-  } catch {
-    return fallback;
-  }
+function requireSupabase() {
+  if (!isSupabaseConfigured || !supabase) throw new Error("账号服务暂未配置，请稍后再试。");
 }
 
-function writeJson(key, value) {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  window.localStorage.setItem(key, JSON.stringify(value));
+function normalizeNickname(value, email = "") {
+  const nickname = String(value || "").trim();
+  if (nickname) return nickname;
+  return String(email || "").split("@")[0].trim() || "保研用户";
 }
 
-function removeItem(key) {
-  if (typeof window !== "undefined") {
-    window.localStorage.removeItem(key);
-  }
-}
-
-function createId() {
-  if (typeof crypto !== "undefined" && crypto.randomUUID) {
-    return crypto.randomUUID();
-  }
-
-  return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
-}
-
-function normalizePhone(phone) {
-  return String(phone || "").replace(/\D/g, "");
-}
-
-function maskPhone(phone) {
-  const value = normalizePhone(phone);
-  if (value.length !== 11) {
-    return "";
-  }
-
-  return `${value.slice(0, 3)}****${value.slice(-4)}`;
-}
-
-function getAccountNickname(phone) {
-  return `手机用户 ${maskPhone(phone)}`;
-}
-
-function getProfileFromUser(user) {
-  if (!user) {
-    return null;
-  }
-
+function normalizeProfile(authUser, row = null) {
+  if (!authUser) return null;
   return {
-    id: user.id,
-    nickname: user.nickname || (user.phone ? getAccountNickname(user.phone) : "游客体验"),
-    avatar_url: user.avatar || user.avatarUrl || "",
-    school_id: user.school_id || "",
-    school_name: user.school_name || "",
-    school_level_tags: Array.isArray(user.school_level_tags) ? user.school_level_tags : [],
-    major: user.major || "",
-    grade: user.grade || "",
-    bio: user.bio || "",
-    verification_status: "unverified",
+    id: authUser.id,
+    nickname: normalizeNickname(row?.nickname || authUser.user_metadata?.nickname, authUser.email),
+    avatar_url: row?.avatar_url || "",
+    bio: row?.bio || "",
+    created_at: row?.created_at || authUser.created_at || "",
+    updated_at: row?.updated_at || "",
   };
 }
 
-function readStoredProfile(userId) {
-  return readJson(`baoyanpilot_profile_${userId}`, null);
-}
-
-function mergeStoredProfile(user) {
-  const storedProfile = readStoredProfile(user.id);
-  if (!storedProfile) return user;
-
+function normalizeAuthUser(authUser, profile) {
+  if (!authUser) return null;
+  const currentProfile = profile || normalizeProfile(authUser);
   return {
-    ...user,
-    nickname: storedProfile.nickname || user.nickname,
-    avatar: storedProfile.avatar_url || user.avatar || "",
-    school_id: storedProfile.school_id || "",
-    school_name: storedProfile.school_name || "",
-    school_level_tags: Array.isArray(storedProfile.school_level_tags) ? storedProfile.school_level_tags : [],
-    major: storedProfile.major || "",
-    grade: storedProfile.grade || "",
-    bio: storedProfile.bio || "",
+    ...authUser,
+    nickname: currentProfile.nickname,
+    avatar: currentProfile.avatar_url,
+    avatar_url: currentProfile.avatar_url,
+    bio: currentProfile.bio,
+    loginType: "supabase",
+    isGuest: false,
   };
 }
 
-function validateMainlandPhone(phone) {
-  const normalizedPhone = normalizePhone(phone);
-  if (!phonePattern.test(normalizedPhone)) {
-    throw new Error("请输入 11 位中国大陆手机号。");
+async function loadProfile(authUser) {
+  if (!authUser || !supabase) return null;
+  const { data, error } = await supabase
+    .from("profiles")
+    .select("id,nickname,avatar_url,bio,created_at,updated_at")
+    .eq("id", authUser.id)
+    .maybeSingle();
+  if (error) {
+    if (import.meta.env.DEV) {
+      // eslint-disable-next-line no-console
+      console.error("[Auth] profile load failed", { code: error.code, message: error.message });
+    }
+    return normalizeProfile(authUser);
   }
-
-  return normalizedPhone;
+  return normalizeProfile(authUser, data);
 }
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);
+  const [session, setSession] = useState(null);
+  const [profile, setProfile] = useState(null);
+  const [guestMode, setGuestMode] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  const applySession = useCallback(async (nextSession) => {
+    setSession(nextSession || null);
+    setGuestMode(false);
+    if (!nextSession?.user) {
+      setProfile(null);
+      setLoading(false);
+      return null;
+    }
+    const nextProfile = await loadProfile(nextSession.user);
+    setProfile(nextProfile);
+    setLoading(false);
+    return nextSession;
+  }, []);
+
   useEffect(() => {
-    const storedUser = readJson(MOCK_USER_KEY, null);
-    setUser(storedUser ? mergeStoredProfile(storedUser) : null);
-    setLoading(false);
-  }, []);
-
-  const refreshSession = useCallback(async () => {
-    const storedUser = readJson(MOCK_USER_KEY, null);
-    const currentUser = storedUser ? mergeStoredProfile(storedUser) : null;
-    setUser(currentUser);
-    setLoading(false);
-    return currentUser ? { user: currentUser } : null;
-  }, []);
-
-  const updateMockUser = useCallback((updates) => {
-    setUser((currentUser) => {
-      if (!currentUser) {
-        return currentUser;
+    let active = true;
+    if (!isSupabaseConfigured || !supabase) {
+      setLoading(false);
+      return undefined;
+    }
+    supabase.auth.getSession().then(({ data, error }) => {
+      if (!active) return;
+      if (error && import.meta.env.DEV) {
+        // eslint-disable-next-line no-console
+        console.error("[Auth] getSession failed", { code: error.code, message: error.message });
       }
-
-      const nextUser = {
-        ...currentUser,
-        ...updates,
-        isMock: true,
-      };
-
-      writeJson(MOCK_USER_KEY, nextUser);
-
-      if (nextUser.loginType === "phone_mock" && nextUser.phone) {
-        const accounts = readJson(MOCK_ACCOUNTS_KEY, {});
-        accounts[nextUser.phone] = {
-          ...(accounts[nextUser.phone] || {}),
-          id: nextUser.id,
-          nickname: nextUser.nickname,
-          avatar: nextUser.avatar || "",
-          school_id: nextUser.school_id || "",
-          school_name: nextUser.school_name || "",
-          school_level_tags: Array.isArray(nextUser.school_level_tags) ? nextUser.school_level_tags : [],
-          createdAt: nextUser.createdAt,
-        };
-        writeJson(MOCK_ACCOUNTS_KEY, accounts);
-      }
-
-      return nextUser;
+      applySession(data?.session || null);
     });
-  }, []);
-
-  const loginWithPhone = useCallback(async (phone) => {
-    const normalizedPhone = validateMainlandPhone(phone);
-    const accounts = readJson(MOCK_ACCOUNTS_KEY, {});
-    const existingAccount = accounts[normalizedPhone];
-    const now = new Date().toISOString();
-    const account = existingAccount || {
-      id: createId(),
-      nickname: getAccountNickname(normalizedPhone),
-      avatar: "",
-      createdAt: now,
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      window.setTimeout(() => {
+        if (!active) return;
+        if (nextSession) applySession(nextSession);
+        else {
+          setSession(null);
+          setProfile(null);
+          setLoading(false);
+        }
+      }, 0);
+    });
+    return () => {
+      active = false;
+      authListener?.subscription?.unsubscribe();
     };
+  }, [applySession]);
 
-    accounts[normalizedPhone] = account;
-    writeJson(MOCK_ACCOUNTS_KEY, accounts);
-
-    const nextUser = mergeStoredProfile({
-      id: account.id,
-      phone: normalizedPhone,
-      nickname: account.nickname,
-      avatar: account.avatar || "",
-      school_id: account.school_id || "",
-      school_name: account.school_name || "",
-      school_level_tags: Array.isArray(account.school_level_tags) ? account.school_level_tags : [],
-      loginType: "phone_mock",
-      isMock: true,
-      createdAt: account.createdAt || now,
+  const signInWithPassword = useCallback(async ({ email, password }) => {
+    requireSupabase();
+    setLoading(true);
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email: String(email || "").trim(),
+      password: String(password || ""),
     });
+    if (error) {
+      setLoading(false);
+      throw new Error(error.message === "Invalid login credentials" ? "邮箱或密码不正确。" : "登录失败，请稍后重试。");
+    }
+    await applySession(data.session);
+    return data.user;
+  }, [applySession]);
 
-    writeJson(MOCK_USER_KEY, nextUser);
-    setUser(nextUser);
-    setLoading(false);
-    return nextUser;
-  }, []);
+  const signUp = useCallback(async ({ nickname, email, password }) => {
+    requireSupabase();
+    const normalizedNickname = normalizeNickname(nickname, email);
+    setLoading(true);
+    const { data, error } = await supabase.auth.signUp({
+      email: String(email || "").trim(),
+      password: String(password || ""),
+      options: { data: { nickname: normalizedNickname } },
+    });
+    if (error) {
+      setLoading(false);
+      throw new Error(error.message?.includes("already registered") ? "该邮箱已经注册，请直接登录。" : "注册失败，请稍后重试。");
+    }
+    if (!data.session) {
+      setLoading(false);
+      throw new Error("注册已创建，但项目仍开启邮箱确认。请在 Supabase Auth 设置中关闭 Confirm email 后重试登录。");
+    }
+    const { error: profileError } = await supabase.from("profiles").upsert(
+      { id: data.user.id, nickname: normalizedNickname },
+      { onConflict: "id" },
+    );
+    if (profileError && import.meta.env.DEV) {
+      // eslint-disable-next-line no-console
+      console.error("[Auth] profile bootstrap failed", { code: profileError.code, message: profileError.message });
+    }
+    await applySession(data.session);
+    return data.user;
+  }, [applySession]);
 
   const loginAsGuest = useCallback(async () => {
-    const now = new Date().toISOString();
-    const nextUser = {
-      id: `guest_${createId()}`,
-      phone: null,
-      nickname: "游客体验",
-      avatar: "",
-      loginType: "guest",
-      isMock: true,
-      createdAt: now,
-    };
-
-    writeJson(MOCK_USER_KEY, nextUser);
-    setUser(nextUser);
+    if (session && supabase) await supabase.auth.signOut();
+    setSession(null);
+    setProfile(null);
+    setGuestMode(true);
     setLoading(false);
-    return nextUser;
-  }, []);
+    return GUEST_USER;
+  }, [session]);
 
   const signOut = useCallback(async () => {
-    removeItem(MOCK_USER_KEY);
-    setUser(null);
-  }, []);
+    if (session && supabase) {
+      const { error } = await supabase.auth.signOut();
+      if (error) throw new Error("退出登录失败，请稍后重试。");
+    }
+    setSession(null);
+    setProfile(null);
+    setGuestMode(false);
+  }, [session]);
 
-  const reloadProfile = useCallback(async () => getProfileFromUser(readJson(MOCK_USER_KEY, null)), []);
+  const refreshSession = useCallback(async () => {
+    if (!supabase) return null;
+    const { data, error } = await supabase.auth.getSession();
+    if (error) throw error;
+    await applySession(data.session);
+    return data.session;
+  }, [applySession]);
 
-  const signInWithQQ = useCallback(async () => {
-    throw new Error("QQ 登录暂未开放，请使用手机号体验登录。");
-  }, []);
+  const reloadProfile = useCallback(async () => {
+    if (!session?.user) return null;
+    const nextProfile = await loadProfile(session.user);
+    setProfile(nextProfile);
+    return nextProfile;
+  }, [session?.user]);
 
-  const signInWithWeChat = useCallback(async () => {
-    throw new Error("微信登录暂未开放，请使用手机号体验登录。");
-  }, []);
+  const updateUserProfile = useCallback(async (updates) => {
+    requireSupabase();
+    if (!session?.user) throw new Error("请先登录后再保存个人资料。");
+    const payload = {
+      id: session.user.id,
+      nickname: normalizeNickname(updates.nickname, session.user.email),
+      avatar_url: updates.avatar_url || null,
+      bio: String(updates.bio || "").trim().slice(0, 200),
+      updated_at: new Date().toISOString(),
+    };
+    const { data, error } = await supabase
+      .from("profiles")
+      .upsert(payload, { onConflict: "id" })
+      .select("id,nickname,avatar_url,bio,created_at,updated_at")
+      .single();
+    if (error) throw new Error("个人资料保存失败，请稍后重试。");
+    const nextProfile = normalizeProfile(session.user, data);
+    setProfile(nextProfile);
+    return nextProfile;
+  }, [session?.user]);
 
-  const session = user ? { user } : null;
-  const profile = getProfileFromUser(user);
-
-  const value = useMemo(
-    () => ({
-      session,
-      user,
-      profile,
-      loading,
-      isLoggedIn: Boolean(user),
-      loginWithPhone,
-      loginAsGuest,
-      signOut,
-      refreshSession,
-      reloadProfile,
-      updateMockUser,
-      signInWithQQ,
-      signInWithWeChat,
-    }),
-    [
-      session,
-      user,
-      profile,
-      loading,
-      loginWithPhone,
-      loginAsGuest,
-      signOut,
-      refreshSession,
-      reloadProfile,
-      updateMockUser,
-      signInWithQQ,
-      signInWithWeChat,
-    ],
+  const user = useMemo(
+    () => (session?.user ? normalizeAuthUser(session.user, profile) : guestMode ? GUEST_USER : null),
+    [guestMode, profile, session?.user],
   );
+  const isAuthenticated = Boolean(session?.user);
+  const guestProfile = useMemo(() => (guestMode ? { ...GUEST_USER } : null), [guestMode]);
+
+  const value = useMemo(() => ({
+    session,
+    user,
+    profile: guestProfile || profile,
+    loading,
+    isLoggedIn: isAuthenticated,
+    isAuthenticated,
+    isGuest: guestMode,
+    signInWithPassword,
+    signUp,
+    loginAsGuest,
+    signOut,
+    refreshSession,
+    reloadProfile,
+    updateUserProfile,
+  }), [guestMode, guestProfile, isAuthenticated, loading, loginAsGuest, profile, refreshSession, reloadProfile, session, signInWithPassword, signOut, signUp, updateUserProfile, user]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
 
 export function useAuth() {
   const value = useContext(AuthContext);
-  if (!value) {
-    throw new Error("useAuth must be used inside AuthProvider.");
-  }
-
+  if (!value) throw new Error("useAuth must be used inside AuthProvider.");
   return value;
 }

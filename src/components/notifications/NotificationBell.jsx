@@ -33,7 +33,7 @@ export default function NotificationBell({ user, forceCloseKey, onOpen }) {
   const [errorMessage, setErrorMessage] = useState("");
   const [toastNotification, setToastNotification] = useState(null);
 
-  const userId = user?.loginType === "phone_mock" ? user.id : "";
+  const userId = user?.loginType === "supabase" && !user?.isGuest ? user.id : "";
   const shownNotifications = useMemo(
     () => (filter === "unread" ? notifications.filter((item) => !item.is_read) : notifications),
     [filter, notifications],

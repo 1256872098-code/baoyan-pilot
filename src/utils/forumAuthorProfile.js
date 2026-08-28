@@ -32,12 +32,12 @@ export function getForumAuthorPayload(user) {
 
   return {
     author_id: user.id,
-    author_name: user.nickname || (user.phone ? `用户${String(user.phone).slice(-4)}` : "保研用户"),
+    author_name: user.nickname || "保研用户",
     author_avatar: user.avatar || user.avatarUrl || "",
     author_school_id: user.school_id || null,
     author_school_name: user.school_name || "",
     author_school_level_tags: levelTags,
-    login_type: user.loginType || "phone_mock",
+    login_type: "supabase",
   };
 }
 

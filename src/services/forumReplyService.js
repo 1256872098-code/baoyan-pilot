@@ -8,7 +8,7 @@ import {
 import { assertForumContentAllowed } from "../utils/forumContentModeration.js";
 
 const maxReplyLength = 2000;
-const loginRequiredMessage = "请先使用手机号体验登录后再回复帖子。";
+const loginRequiredMessage = "请先登录账号后再回复帖子。";
 const databaseNotConfiguredMessage =
   "论坛数据库暂未配置，请配置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。";
 
@@ -37,7 +37,7 @@ function ensureDatabase() {
 }
 
 function ensureUser(user) {
-  if (!user?.id || user.loginType !== "phone_mock") {
+  if (!user?.id || user.isGuest || user.loginType !== "supabase") {
     throw new Error(loginRequiredMessage);
   }
 }

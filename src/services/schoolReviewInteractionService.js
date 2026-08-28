@@ -11,7 +11,7 @@ import {
   shouldUseLocalSchoolRating,
 } from "./schoolRatingRuntime.js";
 
-const loginRequiredMessage = "请先使用手机号体验登录后再操作。";
+const loginRequiredMessage = "请先登录账号后再操作。";
 
 function ensureUser(userId) {
   if (!userId) {

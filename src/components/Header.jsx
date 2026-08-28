@@ -23,7 +23,7 @@ const navClass = ({ isActive }) =>
   ].join(" ");
 
 export default function Header() {
-  const { user, profile, loading, signOut } = useAuth();
+  const { user, profile, loading, signOut, isAuthenticated } = useAuth();
   const [open, setOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
@@ -67,15 +67,14 @@ export default function Header() {
     setOpen(false);
   };
 
-  const maskedPhone = user?.phone ? `${user.phone.slice(0, 3)}****${user.phone.slice(-4)}` : "";
-  const userLabel = profile?.nickname || maskedPhone || "登录 / 注册";
-  const accountDescription = user?.loginType === "guest" ? "游客体验账号" : maskedPhone || "当前账号";
-  const canUseNotifications = Boolean(user?.id && user.loginType === "phone_mock");
+  const userLabel = profile?.nickname || user?.email || "登录 / 注册";
+  const accountDescription = user?.isGuest ? "游客体验（仅可浏览）" : user?.email || "Supabase 账号";
+  const canUseNotifications = Boolean(isAuthenticated && user?.id);
   const avatarNode = profile?.avatar_url ? (
     <img className="h-7 w-7 rounded-full object-cover" src={profile.avatar_url} alt="用户头像" />
   ) : (
     <span className="flex h-7 w-7 items-center justify-center rounded-full bg-brand-600 text-xs font-bold text-white">
-      {user?.loginType === "guest" ? "游" : "账"}
+      {user?.isGuest ? "游" : "账"}
     </span>
   );
 

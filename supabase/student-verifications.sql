@@ -15,7 +15,7 @@ create table if not exists public.student_verifications (
   ai_review_reason text,
   status text not null default 'pending',
   admin_note text,
-  access_token_hash text not null,
+  access_token_hash text,
   submitted_at timestamptz not null default now(),
   verified_at timestamptz,
   updated_at timestamptz not null default now(),
@@ -31,7 +31,9 @@ create table if not exists public.student_verifications (
   constraint student_verifications_college_length check (char_length(btrim(college_name)) between 1 and 160),
   constraint student_verifications_major_length check (char_length(btrim(major_name)) between 1 and 160),
   constraint student_verifications_user_length check (char_length(user_id) between 1 and 128),
-  constraint student_verifications_token_hash_length check (char_length(access_token_hash) = 64)
+  constraint student_verifications_token_hash_length check (
+    access_token_hash is null or char_length(access_token_hash) = 64
+  )
 );
 
 create index if not exists student_verifications_user_submitted_idx
@@ -61,9 +63,8 @@ alter table public.student_verifications enable row level security;
 drop policy if exists "authenticated users read own student verifications" on public.student_verifications;
 drop policy if exists "authenticated users submit own student verifications" on public.student_verifications;
 
--- These policies become active when the app switches from mock login to
--- Supabase Auth. The current prototype uses a server endpoint plus a private,
--- per-browser access token; it never grants anon direct table access.
+-- The browser/API authenticates with Supabase Auth. The server derives user_id
+-- from the verified access token; clients cannot mark a request as verified.
 create policy "authenticated users read own student verifications"
 on public.student_verifications
 for select
@@ -91,8 +92,7 @@ grant insert (
   college_name,
   major_name,
   verification_code,
-  report_file_url,
-  access_token_hash
+  report_file_url
 ) on table public.student_verifications to authenticated;
 
 -- Private PDF bucket. report_file_url stores an object path, never a public URL.
@@ -135,4 +135,3 @@ comment on table public.student_verifications is
 
 comment on column public.student_verifications.report_file_url is
 'Private storage object path in student-verification-reports; never expose as a public URL.';
-

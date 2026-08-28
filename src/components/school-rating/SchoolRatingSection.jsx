@@ -39,7 +39,7 @@ function getUserName(user) {
 }
 
 export default function SchoolRatingSection({ schoolId, schoolName, compact = false }) {
-  const { user } = useAuth();
+  const { user, isAuthenticated } = useAuth();
   const [searchParams] = useSearchParams();
   const sectionRef = useRef(null);
   const [summary, setSummary] = useState(emptySummary);
@@ -57,7 +57,7 @@ export default function SchoolRatingSection({ schoolId, schoolName, compact = fa
   const [highlightReviewId, setHighlightReviewId] = useState("");
   const [runtimeStatus, setRuntimeStatus] = useState(() => getSchoolRatingRuntimeStatus());
 
-  const canWrite = Boolean(user && user.loginType === "phone_mock");
+  const canWrite = Boolean(isAuthenticated && user?.id);
   const currentUserId = canWrite ? user.id : "";
   const shouldFocusReviews = searchParams.get("section") === "reviews";
   const targetReviewId = shouldFocusReviews ? searchParams.get("review") || "" : "";

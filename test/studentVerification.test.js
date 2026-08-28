@@ -35,7 +35,11 @@ test("用户表单收集16位验证码、可自由选择的认证学校和可选
   assert.match(cardSource, />专业</);
   assert.match(cardSource, /application\/pdf/);
   assert.match(cardSource, /PDF（可选，最大3MB）/);
-  assert.match(serviceSource, /window\.localStorage\.setItem\(key, token\)/);
+  assert.match(serviceSource, /supabase\.auth\.getSession\(\)/);
+  assert.match(serviceSource, /Authorization: `Bearer \$\{accessToken\}`/);
+  assert.doesNotMatch(serviceSource, /localStorage|getOrCreateAccessToken|verification_access/);
+  assert.match(userApiSource, /supabase\.auth\.getUser\(accessToken\)/);
+  assert.doesNotMatch(userApiSource, /x-verification-access-token|hashAccessToken/);
 });
 
 test("个人资料的学校和专业只由已通过的学籍核验填写且不再展示年级", () => {

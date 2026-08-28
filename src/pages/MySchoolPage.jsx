@@ -9,6 +9,7 @@ import SearchableSchoolSelect from "../components/school/SearchableSchoolSelect.
 import SchoolRatingSection from "../components/school-rating/SchoolRatingSection.jsx";
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { fetchCollegeMajors, getActiveMajors } from "../services/collegeMajorService.js";
+import { deleteMySchoolBinding, fetchMySchoolBinding, saveMySchoolBinding } from "../services/mySchoolBindingService.js";
 import {
   fetchMySchoolRecommendationData,
   formatDate,
@@ -34,20 +35,6 @@ const emptyBinding = {
   graduationYear: null,
 };
 
-function getBindingKey(userId) {
-  return `baoyanpilot_my_school_${userId}`;
-}
-
-function readBinding(user) {
-  if (typeof window === "undefined" || !user?.id) return null;
-  try {
-    const stored = window.localStorage.getItem(getBindingKey(user.id));
-    return stored ? normalizeBinding(JSON.parse(stored)) : null;
-  } catch {
-    return null;
-  }
-}
-
 function normalizeBinding(binding) {
   if (!binding) return null;
   return {
@@ -71,14 +58,6 @@ function inferGraduationYear(grade) {
     大四: 1,
   };
   return offsetMap[grade] ? academicStartYear + offsetMap[grade] : null;
-}
-
-function saveBinding(userId, binding) {
-  window.localStorage.setItem(getBindingKey(userId), JSON.stringify(binding));
-}
-
-function removeBinding(userId) {
-  window.localStorage.removeItem(getBindingKey(userId));
 }
 
 function getRegionText(school) {
@@ -247,7 +226,7 @@ function MajorRecommendationYearCard({ item, majorName }) {
 }
 
 export default function MySchoolPage() {
-  const { user } = useAuth();
+  const { user, isAuthenticated } = useAuth();
   const [schools, setSchools] = useState([]);
   const [schoolsLoading, setSchoolsLoading] = useState(true);
   const [loadError, setLoadError] = useState("");
@@ -265,6 +244,8 @@ export default function MySchoolPage() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [loginOpen, setLoginOpen] = useState(false);
+  const [bindingLoading, setBindingLoading] = useState(false);
+  const [bindingSaving, setBindingSaving] = useState(false);
   const overviewCardRef = useRef(null);
   const rankingRuleCardRef = useRef(null);
   const trendCardRef = useRef(null);
@@ -272,7 +253,7 @@ export default function MySchoolPage() {
   const [policyCardHeight, setPolicyCardHeight] = useState(null);
   const [bonusCardHeight, setBonusCardHeight] = useState(null);
 
-  const canSave = Boolean(user && user.loginType === "phone_mock");
+  const canSave = Boolean(isAuthenticated && user?.id);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -295,13 +276,34 @@ export default function MySchoolPage() {
   }, [reloadKey]);
 
   useEffect(() => {
-    const nextBinding = readBinding(user);
-    setBinding(nextBinding);
-    setEditing(!nextBinding);
-    setForm(nextBinding || emptyBinding);
+    let active = true;
     setMessage("");
     setErrorMessage("");
-  }, [user]);
+    if (!canSave) {
+      setBinding(null);
+      setEditing(true);
+      setForm(emptyBinding);
+      return undefined;
+    }
+    setBindingLoading(true);
+    fetchMySchoolBinding(user.id)
+      .then((row) => {
+        if (!active) return;
+        const nextBinding = normalizeBinding(row);
+        setBinding(nextBinding);
+        setEditing(!nextBinding);
+        setForm(nextBinding || emptyBinding);
+      })
+      .catch((error) => {
+        if (active) setErrorMessage(error?.message || "我的院校加载失败，请稍后重试。");
+      })
+      .finally(() => {
+        if (active) setBindingLoading(false);
+      });
+    return () => {
+      active = false;
+    };
+  }, [canSave, user?.id]);
 
   const selectedSchoolId = editing ? form.schoolId || "" : binding?.schoolId || "";
   const selectedSchool = useMemo(
@@ -518,7 +520,7 @@ export default function MySchoolPage() {
     setErrorMessage("");
   };
 
-  const handleSave = () => {
+  const handleSave = async () => {
     if (!canSave) {
       setLoginOpen(true);
       return;
@@ -548,21 +550,38 @@ export default function MySchoolPage() {
       graduationYear: inferGraduationYear(form.grade),
       updatedAt: new Date().toISOString(),
     };
-    saveBinding(user.id, nextBinding);
-    setBinding(nextBinding);
-    setForm(nextBinding);
-    setEditing(false);
-    setMessage("我的院校绑定已保存到当前浏览器。");
+    setBindingSaving(true);
+    setErrorMessage("");
+    try {
+      const savedBinding = await saveMySchoolBinding(user.id, nextBinding);
+      const normalized = normalizeBinding(savedBinding);
+      setBinding(normalized);
+      setForm(normalized);
+      setEditing(false);
+      setMessage("我的院校绑定已保存到云端，可跨设备同步。");
+    } catch (error) {
+      setErrorMessage(error?.message || "我的院校保存失败，请稍后重试。");
+    } finally {
+      setBindingSaving(false);
+    }
   };
 
-  const handleUnbind = () => {
+  const handleUnbind = async () => {
     if (!user?.id) return;
     if (!window.confirm("确定解除当前院校绑定吗？这不会删除你的其他数据。")) return;
-    removeBinding(user.id);
-    setBinding(null);
-    setForm(emptyBinding);
-    setEditing(true);
-    setMessage("已解除院校绑定。");
+    setBindingSaving(true);
+    setErrorMessage("");
+    try {
+      await deleteMySchoolBinding(user.id);
+      setBinding(null);
+      setForm(emptyBinding);
+      setEditing(true);
+      setMessage("已解除院校绑定。");
+    } catch (error) {
+      setErrorMessage(error?.message || "解除绑定失败，请稍后重试。");
+    } finally {
+      setBindingSaving(false);
+    }
   };
 
   const renderBindingForm = () => (
@@ -651,8 +670,8 @@ export default function MySchoolPage() {
             取消修改
           </button>
         )}
-        <button type="button" className="btn-primary disabled:cursor-not-allowed disabled:opacity-50" onClick={handleSave} disabled={saveDisabled}>
-          保存绑定
+        <button type="button" className="btn-primary disabled:cursor-not-allowed disabled:opacity-50" onClick={handleSave} disabled={saveDisabled || bindingSaving}>
+          {bindingSaving ? "保存中..." : "保存绑定"}
         </button>
       </div>
     </Card>
@@ -669,7 +688,7 @@ export default function MySchoolPage() {
 
         {!canSave && (
           <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-brand-700">
-            当前可以浏览功能框架；保存院校绑定和发布学校评价需要使用手机号体验登录。
+            当前可以浏览公开内容；保存院校绑定和发布学校评价需要登录真实账号。
           </div>
         )}
 
@@ -692,7 +711,9 @@ export default function MySchoolPage() {
         )}
 
         <div className="mt-8 space-y-6">
-          {editing || !binding ? (
+          {bindingLoading ? (
+            <Card className="p-8 text-center text-sm text-slate-500">正在加载云端院校绑定...</Card>
+          ) : editing || !binding ? (
             renderBindingForm()
           ) : (
             <Card className="p-6">

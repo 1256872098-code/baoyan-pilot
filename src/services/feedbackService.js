@@ -11,7 +11,7 @@ function normalizeText(value, maxLength) {
 export function buildFeedbackPayload({ user, profile, feedbackType, content, pagePath }) {
   const normalizedContent = normalizeText(content, 500);
   const normalizedType = FEEDBACK_TYPES.includes(feedbackType) ? feedbackType : "其他";
-  const isGuest = !user?.id || user.loginType === "guest";
+  const isGuest = !user?.id || user.loginType === "guest" || user.isGuest || user.loginType !== "supabase";
 
   if (!normalizedContent) {
     throw new Error("请填写反馈内容。");
@@ -46,4 +46,3 @@ export async function submitUserFeedback(input) {
 
   return { ok: true };
 }
-
