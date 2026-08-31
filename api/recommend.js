@@ -8,9 +8,10 @@ import {
 import { sanitizeRecommendationReportContent } from "../src/utils/reportContent.js";
 
 const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
-const DEEPSEEK_MODEL = "deepseek-v4-flash";
+const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL || "deepseek-v4-flash";
+const DEEPSEEK_MAX_ATTEMPTS = 2;
+const DEEPSEEK_RETRYABLE_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
 const REPORT_MARKER = "<!-- baoyanpilot-report -->";
-// If deepseek-v4-flash is unavailable, temporarily change the model to "deepseek-chat".
 
 export const config = {
   maxDuration: 60,
@@ -448,7 +449,18 @@ function parseJsonSafely(text) {
 }
 
 function extractDeepSeekReply(payload) {
-  return payload?.choices?.[0]?.message?.content?.trim() || "";
+  const content = payload?.choices?.[0]?.message?.content;
+  if (typeof content === "string") return content.trim();
+  if (!Array.isArray(content)) return "";
+
+  return content
+    .map((part) => {
+      if (typeof part === "string") return part;
+      if (part?.type === "text" && typeof part.text === "string") return part.text;
+      return "";
+    })
+    .join("")
+    .trim();
 }
 
 function extractDeepSeekFinishReason(payload) {
@@ -478,9 +490,73 @@ async function callDeepSeek(messages, apiKey, { purpose, profileStatus, conversa
       ],
       temperature: 0.25,
       max_tokens: purpose === "report" ? 4800 : purpose === "improvement" ? 2400 : 1800,
+      // V4 enables thinking mode by default. This workflow needs the final answer,
+      // not hidden reasoning that can consume the whole output budget.
+      thinking: { type: "disabled" },
       stream: false,
     }),
   });
+}
+
+function getDeepSeekRetryDelay(response, attempt) {
+  const retryAfterValue = response?.headers?.get?.("retry-after");
+  const retryAfterSeconds = Number(retryAfterValue);
+  if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
+    return Math.min(retryAfterSeconds * 1000, 1500);
+  }
+  return Math.min(250 * attempt, 750);
+}
+
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function requestDeepSeekWithRetry(messages, apiKey, options) {
+  let lastResult = null;
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= DEEPSEEK_MAX_ATTEMPTS; attempt += 1) {
+    try {
+      const deepSeekResponse = await callDeepSeek(messages, apiKey, options);
+      const responseText = await deepSeekResponse.text();
+      const responsePayload = parseJsonSafely(responseText);
+      const rawReply = deepSeekResponse.ok ? extractDeepSeekReply(responsePayload) : "";
+      const result = { deepSeekResponse, responsePayload, rawReply };
+      lastResult = result;
+
+      if (deepSeekResponse.ok && rawReply) return result;
+
+      const retryableStatus = DEEPSEEK_RETRYABLE_STATUSES.has(deepSeekResponse.status);
+      const emptySuccessfulReply = deepSeekResponse.ok && !rawReply;
+      if (attempt >= DEEPSEEK_MAX_ATTEMPTS || (!retryableStatus && !emptySuccessfulReply)) {
+        return result;
+      }
+
+      // Do not log prompts, response bodies, credentials, or user profile data.
+      // eslint-disable-next-line no-console
+      console.warn("[DeepSeek] retrying incomplete request", {
+        attempt,
+        status: deepSeekResponse.status,
+        reason: emptySuccessfulReply ? "empty_content" : "transient_status",
+        finishReason: extractDeepSeekFinishReason(responsePayload) || "unknown",
+      });
+
+      if (retryableStatus) await wait(getDeepSeekRetryDelay(deepSeekResponse, attempt));
+    } catch (error) {
+      lastError = error;
+      if (attempt >= DEEPSEEK_MAX_ATTEMPTS) throw error;
+      // eslint-disable-next-line no-console
+      console.warn("[DeepSeek] retrying network request", {
+        attempt,
+        name: error?.name || "Error",
+        message: error?.message || "Network request failed",
+      });
+      await wait(250 * attempt);
+    }
+  }
+
+  if (lastResult) return lastResult;
+  throw lastError || new Error("DEEPSEEK_REQUEST_FAILED");
 }
 
 export default async function handler(request, response) {
@@ -559,13 +635,11 @@ export default async function handler(request, response) {
       return;
     }
 
-    const deepSeekResponse = await callDeepSeek(messages, apiKey, {
+    const { deepSeekResponse, responsePayload, rawReply } = await requestDeepSeekWithRetry(messages, apiKey, {
       purpose,
       profileStatus: trustedPreviousProfileStatus,
       conversationStage,
     });
-    const responseText = await deepSeekResponse.text();
-    const responsePayload = parseJsonSafely(responseText);
 
     if (!deepSeekResponse.ok) {
       const message =
@@ -578,9 +652,10 @@ export default async function handler(request, response) {
       return;
     }
 
-    const rawReply = extractDeepSeekReply(responsePayload);
     if (!rawReply) {
-      sendJson(response, 502, { error: "DeepSeek API 没有返回有效回复。" });
+      sendJson(response, 502, {
+        error: "AI 服务本次没有生成完整回复，请重新发送。已确认的资料不会丢失。",
+      });
       return;
     }
 
